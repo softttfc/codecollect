@@ -40,7 +40,7 @@ jobs:
           echo "==== 开始同步仓库 ====" 
           declare -A repos=( 
             [BestClash]="https://github.com/PuddinCat/BestClash.git" 
-            [FreeNodes]="https://github.com/Barabama/FreeNodes.git" 
+            [pachong_FreeNodes]="https://github.com/Barabama/FreeNodes.git" 
             [Jsnzkpg]="https://github.com/Jsnzkpg/Jsnzkpg.git" 
             [anaer]="https://github.com/anaer/Sub.git" 
             [clashfree]="https://github.com/free-nodes/clashfree.git" 
@@ -51,7 +51,7 @@ jobs:
              [ovmvo]="https://github.com/ovmvo/FreeSub.git" 
              [ermaozi]="https://github.com/ermaozi/get_subscribe.git"
              [yafeisun-v2raynode]="https://github.com/yafeisun/v2raynode.git"
-             [xituimao_spider-clash]="https://github.com/xituimao/spider-clash.git"
+             [pachong_xituimao]="https://github.com/xituimao/spider-clash.git"
              
              
              
