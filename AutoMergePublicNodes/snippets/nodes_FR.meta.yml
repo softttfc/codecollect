@@ -1,25 +1,9 @@
 proxies:
-- name: 12|FR_speednode_0005
-  port: 22223
-  server: 13.38.194.199
-  skip-cert-verify: false
+- name: 8|法国
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: fr.vpn.legendaah.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
   tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 12|FR_speednode_0006
-  port: 22222
-  server: 13.38.194.199
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 12|FR_speednode_0007
-  port: 22224
-  server: 13.38.194.199
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  type: hysteria2

@@ -9,93 +9,94 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 🇩🇪Telegram=V2RayyNGvpn⚡🇩🇪
-  obfs: salamander
-  obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
-  password: HChdbj6duc
+- name: 德国
+  password: c175d956-d1f4-4c53-b2b1-8493bf8529c6
   port: 443
-  server: 91.107.178.22
-  skip-cert-verify: true
-  sni: www.refersion.com
+  server: 87.120.84.189
+  sni: de1.apexvpn.space
   tls: false
   type: hysteria2
-- name: 🇩🇪 Telegram= V2RayyNGvpn 🇩🇪7
-  obfs: salamander
-  obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
-  password: hSKnm6Byp7
+- name: '德国 #1'
+  password: d1224950-ffab-4b9a-8696-431b40a6cfbd
   port: 443
-  server: 91.107.178.22
-  skip-cert-verify: true
-  sni: www.refersion.com
+  server: bel-03.node.lumixnet.com
+  sni: bel-03.node.lumixnet.com
   tls: false
   type: hysteria2
-- name: 🇩🇪 Telegram= V2RayyNGvpn 🇩🇪6
-  obfs: salamander
-  obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
-  password: mY0pSnWDFk
-  port: 443
-  server: 91.107.178.22
+- name: 🇩🇪|DE|@wxgqlfx|182
+  password: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s
+  port: 8443
+  server: 194.180.188.21
   skip-cert-verify: true
-  sni: www.refersion.com
+  sni: keyhop-offshore.roxa.org
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc-direct
-  name: 🇩🇪DE_1|1.1MB/s
-  network: grpc
-  port: 2053
-  reality-opts:
-    public-key: WUY8Lb4LfUUKLzZK3oSlRAdoy-Iu0w3Ait1-jtxbW1M
-    short-id: '!!str 5b9dc5fe4ad87cc2'
-  server: 95.163.183.109
-  servername: hh.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: fb258f28-89a0-11f1-9ca5-1e6febe3e1df
+- name: '德国 #2'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: de.1.23.h2corp.org
+  skip-cert-verify: true
+  sni: germany3.h2corp.local
+  tls: false
+  type: hysteria2
+- name: 🇩🇪|DE|@wxgqlfx|22
+  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+  port: 2056
+  server: mg2.mangshe.xyz
+  skip-cert-verify: true
+  sni: mg2.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: 🇩🇪|DE|@wxgqlfx|220
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: de120.mechvpn.online
+  skip-cert-verify: true
+  sni: de120.mechvpn.online
+  tls: false
+  type: hysteria2
+- name: 🇩🇪|DE|@wxgqlfx|208
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: de200.mechvpn.online
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 🇩🇪DE_2|2.0MB/s
-  password: 3ebac90b-6977-47c0-bef5-b2e37554432c
-  port: 17306
-  server: 89.144.35.232
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: tuic
+  client-fingerprint: chrome
+  name: Telegram@VPNjey🇩🇪🇩🇪
+  obfs: salamander
+  obfs-password: 83v9muumcyikh5ch
+  password: TelegramVPNJey
+  port: 37003
+  server: 1.1.1.1
+  sni: de.jey.cc.cd
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  name: 'Telegram@VPNjey🇩🇪🇩🇪 #1'
+  obfs: salamander
+  obfs-password: 83v9muumcyikh5ch
+  password: TelegramVPNjey
+  port: 37003
+  server: 179.61.251.253
+  sni: de.jey.cc.cd
+  tls: false
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_1|1.3MB/s
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 120.232.250.163
+  type: ss
   udp: true
-  udp-relay-mode: native
-  uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: DE_speednode_0009
-  network: tcp
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_2|3.5MB/s
+  password: amazonskr05
   port: 443
-  reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: '!!str d08bb54b5b94b2fc'
-  server: 109.163.239.60
-  servername: cdn5-89.yahoo.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
+  server: 3.79.230.55
+  type: ss
   udp: true
-  uuid: 55f7d143-a594-4a91-b030-f227039f85ef
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: DE_speednode_0010
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: '!!str 3c9c5d01c6f824dd'
-  server: 109.163.239.208
-  servername: cdn9-78.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55f7d143-a594-4a91-b030-f227039f85ef

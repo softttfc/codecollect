@@ -1,22 +1,48 @@
 proxies:
-- name: 👁️‍🗨️65@oneclickvpnkeys
-  password: 71cada65-d23e-418c-88e4-a06188d14689
-  port: 443
-  server: swe-one.quiet-rogue.site
-  sni: swe-one.quiet-rogue.site
+- name: 瑞典
+  password: 3b8c82ed-fe66-472d-915e-034ccb57103f
+  port: 8443
+  server: swe.frkn.org
+  sni: swe.frkn.org
   tls: false
   type: hysteria2
-- cipher: aes-256-cfb
-  name: 🇸🇪SE_1|1.7MB/s
-  password: amazonskr05
+- name: '瑞典 #1'
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
-  server: 13.62.20.75
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇸🇪SE_2|2.2MB/s
-  password: amazonskr05
+  server: us54.mechvpn.online
+  sni: us54.mechvpn.online
+  tls: false
+  type: hysteria2
+- name: 🇸🇪|SE|@wxgqlfx|238
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: us63.mechvpn.online
+  skip-cert-verify: true
+  sni: us63.mechvpn.online
+  tls: false
+  type: hysteria2
+- name: 🇸🇪|SE|@wxgqlfx|213
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: us65.mechvpn.online
+  skip-cert-verify: true
+  sni: us65.mechvpn.online
+  tls: false
+  type: hysteria2
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+  name: 🇸🇪SE_1|3.4MB/s
+  network: grpc
   port: '443'
-  server: 13.51.233.2
-  type: ss
+  reality-opts:
+    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
+    short-id: '!!str 8b6f2e4d7c1a5b9f'
+  server: ser.moktana.app
+  servername: ser.moktana.app
+  tls: true
+  type: vless
   udp: true
+  uuid: 2642342c-fa52-4f62-b44d-fb77de8f75e3
+  xudp: true

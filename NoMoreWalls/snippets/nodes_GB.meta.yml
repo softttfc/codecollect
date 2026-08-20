@@ -1,77 +1,55 @@
 proxies:
-- name: 🇬🇧英国
-  password: 9abff4cd-ac3b-40ce-a3e7-f71f445d670f
-  port: 443
-  server: 5.183.102.113
-  skip-cert-verify: true
-  sni: iosapps.itunes.apple.com
+- name: 英国
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 205.237.109.221
+  sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: GB_speednode_0015
-  network: tcp
-  port: 443
+- name: 🇬🇧|GB|@wxgqlfx|19
+  password: 725bc0b69e720cd5a2cd209252507c6e
+  port: 50160
+  server: 94-229-64-108.liao.kdns.fr
+  skip-cert-verify: true
+  sni: 94-229-64-108.liao.kdns.fr
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇬🇧GB_1|3.0MB/s
+  network: xhttp
+  port: '443'
   reality-opts:
-    public-key: gPTBA-gVUWAK9yziB_v_sGSncm0LwBQvEAsTQZK4jEE
-    short-id: '!!str 5a8e1a04f3d92b67'
-  server: 2.26.129.68
-  servername: ukrop.mycdn-me.ru
-  skip-cert-verify: false
+    public-key: fkYk0Ow--0GYExpBFb2wZjooymT7uASOQLw9ESC3DF8
+    short-id: '!!str 62b6d6e64d461d78'
+  server: api.getsavesafe.space
+  servername: api.getsavesafe.space
   tls: true
   type: vless
   udp: true
-  uuid: f055899d-026b-49b5-88ed-0227795082da
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: GB_speednode_0017
-  network: tcp
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  xhttp-opts:
+    mode: auto
+  xudp: true
+- name: 🇬🇧GB_2|2.2MB/s
   port: 443
-  reality-opts:
-    public-key: w88Ys8dVF9DuslGwUD05J9-FHNoAT9qmPysCvHiEmmg
-    short-id: '!!str 1b40e7c2a1d8f635'
-  server: 2.26.128.73
-  servername: wombat.mycdn-me.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f055899d-026b-49b5-88ed-0227795082da
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: GB_speednode_0018
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: -qRasoN1QIcSdRL937b6s-Y2qOb-9OFmlaHBi7UcOSM
-    short-id: '!!str e17b4d9a8c1f3526'
-  server: 2.26.139.184
-  servername: kukuruza.mycdn-me.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f055899d-026b-49b5-88ed-0227795082da
-- name: GB_speednode_0019
-  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
-  port: 443
-  server: 5b33bfe4-tdups0-tf8z9r-1pr35.uk.oshuawei.com
+  server: 193.36.118.210
+  skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-  username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
-- client-fingerprint: qq
+- client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
-  name: GB_speednode_0020
+  name: 🇬🇧GB_3|3.1MB/s
   network: tcp
-  port: 443
+  port: '445'
   reality-opts:
-    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
-    short-id: '!!str fdda9806fe5d8584'
-  server: rt.tunnelpoint.space
-  servername: rt.tunnelpoint.space
-  skip-cert-verify: false
+    public-key: Ku60WZ3HEdE07DoEBJ5I9o_fjcN_bhdK8bTW3RJjBmM
+    short-id: '!!str c226283c4de5b1ad'
+  server: 2.26.100.192
+  servername: ads.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+  uuid: 40205ae5-d30f-4216-b2e0-0506dbbd382e
+  xudp: true

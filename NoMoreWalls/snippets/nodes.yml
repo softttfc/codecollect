@@ -106,95 +106,100 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 香港3|@ripaojiedian
   network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
+  password: 6ec301428255a78a1d826988d86cc87e
   port: 14684
-  server: 18.166.178.12
+  server: 43.199.143.104
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: JP_speednode_0031
+- name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 29443
-  server: 35.76.126.253
+  port: 11231
+  server: 95.40.89.31
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
-- name: JP_speednode_0029
+- name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 9408
-  server: 35.76.126.253
+  port: 7674
+  server: 95.40.89.31
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 日本|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 3878
+  server: 16.162.100.208
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-  udp: true
 - name: 日本2|@ripaojiedian
   network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 44229
-  server: 18.163.100.58
-  skip-cert-verify: false
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 14625
+  server: 95.40.14.234
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 日本3|@ripaojiedian
   network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 44229
-  server: 18.166.178.12
-  skip-cert-verify: false
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 55647
+  server: 16.162.109.29
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡|@ripaojiedian
   network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
+  password: 6ec301428255a78a1d826988d86cc87e
   port: 45744
-  server: 188.163.100.58
+  server: 16.162.100.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡2|@ripaojiedian
   network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
+  password: 6ec301428255a78a1d826988d86cc87e
   port: 32434
-  server: 18.166.178.12
-  skip-cert-verify: false
+  server: 16.162.100.124
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 45744
-  server: 43.198.98.22
+  server: 16.162.100.208
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 12680
-  server: 18.163.100.58
-  skip-cert-verify: false
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 39024
+  server: 16.162.109.29
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 49277
-  server: 18.167.20.3
-  skip-cert-verify: false
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 28051
+  server: 18.163.126.92
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: HK_speednode_0023
+- name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 35966
-  server: 43.198.98.22
+  port: 10418
+  server: 18.163.74.15
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - alterId: 2
   cipher: auto
   name: 香港|@ripaojiedian
@@ -205,95 +210,122 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: 🇸🇪SE_1|1.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.62.20.75
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_3|1.8MB/s
-  password: amazonskr05
-  port: '443'
-  server: 98.81.132.97
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇸🇪SE_2|2.2MB/s
-  password: amazonskr05
-  port: '443'
-  server: 13.51.233.2
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_4|1.5MB/s
-  password: amazonskr05
-  port: '443'
-  server: 54.226.30.144
-  type: ss
-  udp: true
-- alterId: 1
-  cipher: auto
-  name: 🇯🇵JP_3|4.9MB/s
-  port: 46482
-  server: vt50k-g01.jp05-6786-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
-- alterId: 1
-  cipher: auto
-  name: 🇯🇵JP_4|4.5MB/s
-  port: 21581
-  server: 01eb6-g01.jp03-7d22-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
-- name: CN_speednode_0006
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- name: HK_speednode_0024
-  password: BxceQaOe
-  port: 35966
-  server: 43.198.98.22
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: JP_speednode_0030
-  password: BxceQaOe
-  port: 9408
-  server: 35.76.126.253
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: JP_speednode_0032
-  password: BxceQaOe
-  port: 29443
-  server: 35.76.126.253
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_speednode_0199
+- client-fingerprint: chrome
+  name: 🇫🇷FR_1|2.6MB/s
   network: ws
-  password: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  port: 2096
-  server: jumao91.shop
-  skip-cert-verify: true
-  sni: jumao91.shop
+  password: humanity
+  port: '443'
+  server: 104.16.174.33
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: jumao91.shop
-    path: /proxyip=45.207.156.255
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
+    path: /assignment
+- cipher: aes-256-cfb
+  name: 🇰🇷KR_1|2.2MB/s
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 121.46.230.235
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇯🇵JP_1|6.1MB/s
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 121.46.230.136
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_1|1.3MB/s
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 120.232.250.163
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇹🇼TW_1|1.3MB/s
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 120.232.253.94
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 🇫🇷FR_2|2.1MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.174.6
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /assignment
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇫🇷FR_3|1.1MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 216.24.57.7
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_4|2.0MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.17.111.3
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/57.0.2987.133 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_5|1.5MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.144
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    path: /assignment
+- cipher: aes-256-cfb
+  name: 🇭🇰HK_1|5.8MB/s
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 120.232.253.96
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_2|3.5MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.79.230.55
+  type: ss
+  udp: true
