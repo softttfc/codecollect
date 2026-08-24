@@ -5,31 +5,58 @@ on:
     - cron: '0 0 * * *'
   workflow_dispatch:
 
+concurrency:
+  group: daily-crawler
+  cancel-in-progress: false
+
 env:
   SING_BOX_VERSION: "1.13.3"
+  MAX_NODES: "80"
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+          python-version: "3.11"
+
+      - name: Install Dependencies (uv)
+        run: uv sync --group dev
+
+      - name: Run tests
+        run: uv run pytest -q
+
+      - name: Lint (ruff check, non-blocking)
+        continue-on-error: true
+        run: uv run ruff check . || true
+
   crawl:
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    needs: test
     permissions:
       contents: write
 
     steps:
     - name: Checkout
-      uses: actions/checkout@v6
+      uses: actions/checkout@v7
       with:
         fetch-depth: 1
 
-    - name: Set up Python
-      uses: actions/setup-python@v6
+    - uses: astral-sh/setup-uv@v7
       with:
-        python-version: '3.11'
-        cache: 'pip'
+        enable-cache: true
+        python-version: "3.11"
 
     - name: Cache sing-box binary
-      uses: actions/cache@v5
+      uses: actions/cache@v6
       with:
         path: bin/
         key: sing-box-${{ runner.os }}-${{ runner.arch }}-${{ env.SING_BOX_VERSION }}
@@ -40,14 +67,14 @@ jobs:
 
     - name: Cache GeoLite2-City MMDB
       id: mmdb-cache
-      uses: actions/cache@v5
+      uses: actions/cache@v6
       with:
         path: config/GeoLite2-City.mmdb
         key: geolite2-mmdb-${{ steps.date.outputs.month }}
         restore-keys: geolite2-mmdb-
 
-    - name: Install Dependencies
-      run: pip install -r requirements.txt
+    - name: Install Dependencies (uv)
+      run: uv sync
 
     - name: Download GeoLite2-City MMDB
       if: steps.mmdb-cache.outputs.cache-hit != 'true'
@@ -69,8 +96,11 @@ jobs:
         EXTRA_URLS: ${{ secrets.EXTRA_URLS }}
         SOURCES_JSON: ${{ secrets.SOURCES_JSON }}
         SING_BOX_VERSION: ${{ env.SING_BOX_VERSION }}
+        MAX_NODES: ${{ env.MAX_NODES }}
+        # 可选：大陆侧探活（自建杭州/深圳探针POST {server,port} → {ok:bool}）
+        CHINA_CHECK_URL: ${{ secrets.CHINA_CHECK_URL }}
       run: |
-        python main.py --validate --workers 24 --validate-workers 50 --output .
+        uv run python main.py --validate --workers 24 --validate-workers 30 --output .
 
     - name: Verify Outputs
       id: verify
@@ -78,18 +108,43 @@ jobs:
         [ -s all ] || (echo "ERROR: all is empty" && exit 1)
         [ -s sing-box.json ] || (echo "ERROR: sing-box.json is empty" && exit 1)
         [ -s clash.yaml ] || (echo "ERROR: clash.yaml is empty" && exit 1)
+        [ -x bin/sing-box-linux-amd64 ] || (echo "ERROR: sing-box binary is missing" && exit 1)
+        bin/sing-box-linux-amd64 check -c sing-box.json
+        uv run python -c "import json,collections; tags=[n['tag'] for n in json.load(open('sing-box.json'))['outbounds']]; assert len(tags)==len(set(tags)), f'duplicate tags found: {len(tags)-len(set(tags))}'"
         echo "Output sizes:"
         ls -lh all sing-box.json clash.yaml
-        NODE_COUNT=$(python -c 'import json; print(len(json.load(open("sing-box.json"))["outbounds"]))')
+        # 统计有效节点（排除 sing-box 的 auto/proxy/direct 策略组）
+        NODE_COUNT=$(uv run python -c 'import json; d=json.load(open("sing-box.json")); print(len([n for n in d["outbounds"] if n.get("tag") not in ("auto","proxy","direct")]))')
         echo "node_count=$NODE_COUNT" >> $GITHUB_OUTPUT
-        echo "Node count: $NODE_COUNT"
+        echo "Node count: $NODE_COUNT (target MAX_NODES=${{ env.MAX_NODES }})"
+        if [ "$NODE_COUNT" -lt 10 ]; then
+          echo "::warning::node count suspiciously low ($NODE_COUNT)"
+        fi
+        if [ "$NODE_COUNT" -gt 80 ]; then
+          echo "::warning::node count exceeds MAX_NODES (strict mode expected <=80, got $NODE_COUNT)"
+        fi
+        # 大陆友好度抽检：统计 REALITY/WS+TLS 占比（抗封锁形态，排除策略组）
+        uv run python -c "import json; d=json.load(open('sing-box.json')); nodes=[n for n in d['outbounds'] if n.get('tag') not in ('auto','proxy','direct')]; total=len(nodes); reality=sum(1 for n in nodes if n.get('tls',{}).get('reality',{}).get('enabled')); ws=sum(1 for n in nodes if (n.get('transport') or {}).get('type')=='ws'); print(f'Quality: REALITY {reality}/{total} ({reality*100//total if total else 0}%), WS {ws}/{total}')"
+
+    - name: Upload artifacts
+      if: always()
+      uses: actions/upload-artifact@v7
+      with:
+        name: crawler-outputs
+        path: |
+          all
+          sing-box.json
+          clash.yaml
+        retention-days: 7
+        if-no-files-found: error
 
     - name: Commit and Push
+      if: steps.verify.outputs.node_count != '0'
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
         git add all sing-box.json clash.yaml
-        NODE_COUNT=$(python -c 'import json; print(len(json.load(open("sing-box.json"))["outbounds"]))')
+        NODE_COUNT=$(uv run python -c 'import json; d=json.load(open("sing-box.json")); print(len([n for n in d["outbounds"] if n.get("tag") not in ("auto","proxy","direct")]))')
         git diff --staged --quiet || \
           git commit -m "update: $(date +'%Y-%m-%d') - ${NODE_COUNT} nodes"
         git push
