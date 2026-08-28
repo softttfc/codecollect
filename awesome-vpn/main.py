@@ -103,10 +103,45 @@ def resolve_date_url(url):
 
 
 def format_source_label(source_url: str) -> str:
-    """直接返回原始 URL，用于节点名 `[url]`，不做简化，便于追溯来源。"""
+    """生成短来源标签，避免 clash 名称过长导致测速 error（特殊字符/超长）。"""
     if not source_url:
-        return "未知来源"
-    return source_url.strip()
+        return "Unknown"
+    s = source_url.strip()
+    # Telegram -> TG:channel 短标签
+    if "t.me" in s:
+        try:
+            channel = s.split("t.me/")[-1].split("/")[0].lstrip("@").split("?")[0]
+            if channel and channel != "s":
+                return f"TG:{channel[:18]}"
+        except Exception:
+            pass
+        return "TG"
+    if s.startswith("@"):
+        return f"TG:{s.lstrip('@')[:18]}"
+    # GitHub -> GH
+    if "github" in s.lower() or "raw.githubusercontent" in s.lower():
+        # 保留仓库名区分不同源，避免全叫 GitHub 无法区分
+        try:
+            from urllib.parse import urlparse
+
+            path = urlparse(s).path.strip("/")
+            parts = path.split("/")
+            if len(parts) >= 2:
+                repo = f"{parts[0]}/{parts[1]}"[:24]
+                return f"GH:{repo}"
+        except Exception:
+            pass
+        return "GH"
+    # 其他 -> 域名短标签
+    try:
+        from urllib.parse import urlparse
+
+        host = urlparse(s).hostname or ""
+        if host.startswith("www."):
+            host = host[4:]
+        return host[:24] if host else s[:16]
+    except Exception:
+        return s[:16]
 
 
 def expand_sources_list(list_path, spider):
@@ -163,16 +198,15 @@ def expand_sources_list(list_path, spider):
 
 
 def save_singbox(output_dir, nodes):
-    """Write sing-box.json with urltest/selector (Clash `auto` 对等)."""
-    outbounds = list(nodes)  # 保持原始节点顺序（已按 quality 排序）
+    """Write sing-box.json with standardized English groups."""
+    outbounds = list(nodes)
     tags = [n.get("tag") for n in outbounds if n.get("tag")]
 
-    # sing-box 原生 `auto`：urltest 每 5m 测 https://www.google.com/generate_204，tolerance 50ms 选优
     if tags:
         outbounds.append(
             {
                 "type": "urltest",
-                "tag": "auto",
+                "tag": "Auto",
                 "outbounds": tags,
                 "url": "https://www.google.com/generate_204",
                 "interval": "5m",
@@ -183,13 +217,12 @@ def save_singbox(output_dir, nodes):
         outbounds.append(
             {
                 "type": "selector",
-                "tag": "proxy",
-                "outbounds": ["auto", "direct"],
-                "default": "auto",
+                "tag": "PROXY",
+                "outbounds": ["Auto", "direct"],
+                "default": "Auto",
                 "interrupt_exist_connections": False,
             }
         )
-        # direct 兜底（若节点中无 direct）
         if not any(o.get("tag") == "direct" for o in outbounds):
             outbounds.append({"type": "direct", "tag": "direct"})
 
@@ -223,18 +256,17 @@ def save_all(output_dir, nodes, source_links):
 
 
 def save_clash(output_dir, nodes):
-    """Write clash.yaml with proxy-groups auto (url-test) — 策略组 `auto`."""
+    """Write clash.yaml with standardized English groups."""
     proxies = to_clash_proxies(nodes)
     proxy_names = [p.get("name") for p in proxies if p.get("name")]
 
-    # Clash/mihomo：select 组放全量节点供手动选择，url-test 组自动选最快
     proxy_groups = []
     if proxy_names:
         proxy_groups = [
             {
                 "name": "PROXY",
                 "type": "select",
-                "proxies": ["Auto", "DIRECT"] + proxy_names,
+                "proxies": ["Auto", "DIRECT"],
             },
             {
                 "name": "Auto",
@@ -573,7 +605,7 @@ def main():
 
         logger.info("\nUpdating node names with geo information (parallel)...")
         # Pre-collect data before parallelizing; geo_utils is thread-safe (cached)
-        # 直接把订阅 URL 打在名字里： 日本/东京/Japan/Tokyo [https://xxx]（用户要求）
+        # 短来源标签： Japan/Tokyo [TG:xxx] / Germany [GH:repo]，避免全 URL 过长导致 clash error
         node_data = [
             (node, node.get("tag", ""), node_source_map.get(id(node), "未知来源"))
             for node in valid_nodes
@@ -583,8 +615,8 @@ def main():
             node, original_tag, source_url = item
             server = node.get("server", "")
             geo_name = geo_utils.format_node_name(server) if server else original_tag
-            # 直接使用原始 URL，不做简化
-            node_name = f"{geo_name} [{source_url.strip()}]"
+            source_label = format_source_label(source_url)
+            node_name = f"{geo_name} [{source_label}]"
             return node, node_name
 
         geo_workers = min(30, len(valid_nodes)) if valid_nodes else 1
