@@ -1,13 +1,5 @@
 proxies:
 - name: 德国
-  password: 2vwMMy8t5Sjl5lfK9dNF1OrU9d0K25V2RNWLbTKwJ6o
-  port: 443
-  server: pixelcast.wwwinternetvideo.click
-  skip-cert-verify: true
-  sni: pixelcast.wwwinternetvideo.click
-  tls: false
-  type: hysteria2
-- name: '德国 #1'
   obfs: salamander
   obfs-password: Xydh1mcz51VQHbbJ
   password: 585b7bfe-6269-4149-ae22-ff07c57b5510
@@ -17,7 +9,7 @@ proxies:
   sni: msk2.nebuchadnezzar.ink
   tls: false
   type: hysteria2
-- name: '德国 #2'
+- name: '德国 #1'
   password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
   port: 443
   server: deu0003ntrhy01.tcp-reset-club.net
@@ -25,7 +17,7 @@ proxies:
   sni: deu0003ntrhy01.tcp-reset-club.net
   tls: false
   type: hysteria2
-- name: '德国 #3'
+- name: '德国 #2'
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8080
   server: 85.204.107.169
@@ -33,11 +25,18 @@ proxies:
   sni: grape-zet-ro-turbo.bumbleshrimp.com
   tls: false
   type: hysteria2
-- name: '德国 #4'
+- name: '德国 #3'
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8080
   server: 85.204.107.174
   skip-cert-verify: true
+  sni: hopp-romania-new.roxa.org
+  tls: false
+  type: hysteria2
+- name: '德国 #4'
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8080
+  server: 85.204.107.181
   sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
@@ -59,23 +58,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '德国 #6'
-  password: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s
-  port: 8443
-  server: 194.180.188.104
-  skip-cert-verify: true
-  sni: keyhop-offshore.roxa.org
-  tls: false
-  type: hysteria2
-- name: '德国 #7'
-  password: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s
-  port: 8443
-  server: 194.180.188.97
-  skip-cert-verify: true
-  sni: keyhop-offshore.roxa.org
-  tls: false
-  type: hysteria2
-- name: '德国 #8'
+- name: 🇷🇺156002 | ⚡️Telegram = t.me/S...
   password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
   port: 443
   server: hold.wwwinternetvideo.click
@@ -91,6 +74,13 @@ proxies:
   server: gift-catalog.aroonia.ir
   skip-cert-verify: false
   sni: gift-catalog.aroonia.ir
+  tls: false
+  type: hysteria2
+- name: 🇩🇪All⁶ | @BigSmoke_Config
+  password: AstroVPN_official
+  port: 36896
+  server: ptserv.accuratenetworkchecker.ir
+  sni: lms22.gelzaro.ir
   tls: false
   type: hysteria2
 - alpn:
@@ -117,26 +107,47 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
-- encryption: none
-  name: 🇩🇪DE_1|1.3MB/s
-  network: ws
-  port: '2095'
-  server: go.lumen.com
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_1|2.6MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
+    short-id: '!!str 4da5d1853f04af6d'
+  server: rrr.windconnect.pro
+  servername: rrr.windconnect.pro
+  tls: true
   type: vless
   udp: true
-  uuid: c122fae8-7875-421f-a425-ff7b32be16dd
-  ws-opts:
-    headers:
-      Host: eco-de.v2shop.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.103 Safari/537.36
-    path: download
+  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
   xudp: true
-- name: 🇩🇪DE_3|1.0MB/s
+- name: 🇩🇪DE_2|1.1MB/s
+  password: None
+  port: 11111
+  server: 103.237.102.191
+  type: http
+  username: null
+- name: 🇩🇪DE_3|4.9MB/s
   port: 11000
   server: 116.202.172.187
   type: http
-- name: 🇩🇪DE_4|1.7MB/s
+- name: 🇩🇪DE_4|2.8MB/s
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_5|1.6MB/s
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_6|1.9MB/s
   password: None
   port: 443
   server: 141.17.83.78
@@ -145,54 +156,21 @@ proxies:
   type: http
   username: null
 - alpn:
-  - h3
-  - h2
   - http/1.1
   client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.JgBGQxcFxZdwwvHJgyYQ9Qw8ezpz532ZMa6I4XEadAo
-  name: 🇩🇪DE_5|2.5MB/s
+  name: 🇩🇪DE_7|2.1MB/s
   network: ws
   port: '443'
-  server: aliconfig.speedoraa.ir
-  servername: pas.speedoraa.ir
+  server: 216.24.57.15
+  servername: four04-rd37.onrender.com
   tls: true
   type: vless
   udp: true
-  uuid: be4cecbe-3658-4daf-8c9a-7b00898c7318
+  uuid: 2ee0d2aa-867e-a77e-9538-2edfc0b242aa
   ws-opts:
     headers:
-      Host: pas.speedoraa.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_6|3.3MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: tzOeyllk2VtPXZ_BJ2lOZcGtsnn41ZHBa9dE6s9sFiQ
-    short-id: '!!str c8c75aaf699259b4'
-  server: 159.195.242.180
-  servername: at2.tsumshop.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 75079a7f-75b5-418b-8a65-f7b2f438cd4a
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_7|1.2MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 8aZEMoyzOdSoIbSp_6iuWr3dmuPkXrMqZlw_Pgn6yCw
-    short-id: '!!str 269d1166a11cf1b0'
-  server: 159.195.232.193
-  servername: us1.tsumshop.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: d900a139-8b5f-4758-8a32-389c6f36fc86
+      Host: four04-rd37.onrender.com
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /ws/2ee0d2aa-867e-a77e-9538-2edfc0b242aafp=firefox
   xudp: true
