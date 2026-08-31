@@ -10,22 +10,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '德国 #1'
-  password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
-  port: 443
-  server: deu0003ntrhy01.tcp-reset-club.net
-  skip-cert-verify: true
-  sni: deu0003ntrhy01.tcp-reset-club.net
-  tls: false
-  type: hysteria2
-- name: '德国 #2'
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  port: 8080
-  server: 85.204.107.169
-  skip-cert-verify: true
-  sni: grape-zet-ro-turbo.bumbleshrimp.com
-  tls: false
-  type: hysteria2
-- name: '德国 #3'
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8080
   server: 85.204.107.174
@@ -33,14 +17,22 @@ proxies:
   sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
-- name: '德国 #4'
+- name: '德国 #2'
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8080
+  server: 85.204.107.178
+  skip-cert-verify: true
+  sni: hopp-romania-new.roxa.org
+  tls: false
+  type: hysteria2
+- name: '德国 #3'
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8080
   server: 85.204.107.181
   sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
-- name: '德国 #5'
+- name: '德国 #4'
   password: a6cf4b28-ba72-4e8c-90f8-6a884107ab3c
   port: 443
   server: ndge4.whit3.net
@@ -58,7 +50,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 🇷🇺156002 | ⚡️Telegram = t.me/S...
+- name: '德国 #5'
   password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
   port: 443
   server: hold.wwwinternetvideo.click
@@ -107,70 +99,45 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|2.6MB/s
+  name: 🇩🇪DE_1|3.2MB/s
   network: tcp
-  port: '443'
+  port: 443
   reality-opts:
     public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
     short-id: '!!str 4da5d1853f04af6d'
-  server: rrr.windconnect.pro
+  server: 31.76.71.140
   servername: rrr.windconnect.pro
   tls: true
   type: vless
   udp: true
   uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
-  xudp: true
-- name: 🇩🇪DE_2|1.1MB/s
-  password: None
-  port: 11111
-  server: 103.237.102.191
+- name: 🇩🇪DE_2|4.7MB/s
+  port: 9099
+  server: 213.109.162.200
   type: http
-  username: null
-- name: 🇩🇪DE_3|4.9MB/s
-  port: 11000
-  server: 116.202.172.187
+- name: 🇩🇪DE_3|4.4MB/s
+  port: 80
+  server: 193.37.70.182
   type: http
-- name: 🇩🇪DE_4|2.8MB/s
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_5|1.6MB/s
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_6|1.9MB/s
-  password: None
-  port: 443
-  server: 141.17.83.78
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: 🇩🇪DE_7|2.1MB/s
+  encryption: none
+  name: 🇩🇪DE_4|3.1MB/s
   network: ws
   port: '443'
-  server: 216.24.57.15
-  servername: four04-rd37.onrender.com
+  server: 140.248.186.45
+  servername: ssl.fastly.com
   tls: true
   type: vless
   udp: true
-  uuid: 2ee0d2aa-867e-a77e-9538-2edfc0b242aa
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: four04-rd37.onrender.com
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /ws/2ee0d2aa-867e-a77e-9538-2edfc0b242aafp=firefox
+      Host: Appxdn.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /
   xudp: true
