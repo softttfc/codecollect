@@ -32,14 +32,6 @@ proxies:
   sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
-- name: '德国 #4'
-  password: a6cf4b28-ba72-4e8c-90f8-6a884107ab3c
-  port: 443
-  server: ndge4.whit3.net
-  skip-cert-verify: true
-  sni: ndge4.whit3.net
-  tls: false
-  type: hysteria2
 - name: 'کانال تلگرام : Free_VPN_CH@'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -50,12 +42,36 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '德国 #5'
+- name: '德国 #4'
   password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
   port: 443
   server: hold.wwwinternetvideo.click
   skip-cert-verify: true
   sni: germany1.h2corp.local
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: -🇩🇪 @VConfing
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: 1w61o8j0slf0q9yj
+  port: 52021
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: 'Channel : @Daily_Configs'
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: 4savc5ig1n3549e4
+  port: 52021
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇩🇪
@@ -99,14 +115,16 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
-- name: 🇩🇪157437 | ⚡️Telegram = t.me/S...
+- alpn:
+  - h3
+  name: '-🇩🇪 @VConfing #2'
   obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-  password: cd74c0a406664a5bc0bac098220a2468
-  port: 443
-  server: 2.27.59.206
-  skip-cert-verify: true
-  sni: de1.sferavpn.pro
+  obfs-password: fuw2k1ddrouwxr3u
+  password: clz08qwil91241w7
+  port: 52021
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
 - name: 🇩🇪All⁷ | @BigSmoke_Config
@@ -116,83 +134,25 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- encryption: none
-  name: 🇩🇪DE_1|1.2MB/s
-  network: ws
-  port: '2087'
-  server: 188.220.67.198
-  type: vless
-  udp: true
-  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /8f2690e2d016
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_2|3.2MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: u51rZT5vJj8nO80QBBHVW2-WA5OzzQ1eL6euvszWLQI
-    short-id: '!!str 09ef88a6'
-  server: app4.goonars.com
-  servername: app4.goonars.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2f600710-9f4e-4eab-8de1-89f60a878e55
-  xudp: true
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - amp-api-edge.apps.apple.com
-    path:
-    - /
-  name: 🇩🇪DE_3|4.4MB/s
-  network: http
-  port: '2091'
-  server: De.poco.mobileahmadreza.ir
-  type: vless
-  udp: true
-  uuid: 05f1007e-9ed8-4808-b081-65163a196959
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_4|4.4MB/s
-  network: ws
-  port: '8443'
-  server: motasel.vip3333.ir
-  servername: panel.vip3333.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 708431c5-8b69-4e0c-8def-cb34a6a1bdf3
-  ws-opts:
-    headers:
-      Host: panel.vip3333.ir
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
-        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
-    path: /---v2_mod_shop---/---v2_mod_shop---/---v2_mod_shop---/---v2_mod_shop---/---v2_mod_shop---/---v2_mod_shop---/---v2_mod_shop---/---v2_mod_shop---/artical/pro
-  xudp: true
-- name: 🇩🇪DE_6|1004KB/s
+- name: 🇩🇪DE_1|2.8MB/s
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
   port: 443
-  server: 149.36.50.157
+  server: as-de003.y1static-content-distribution.shop
   skip-cert-verify: true
-  tls: true
+  sni: as-de003.y1static-content-distribution.shop
+  type: anytls
+  udp: true
+- name: 🇩🇪DE_2|3.7MB/s
+  port: 11000
+  server: 116.202.172.187
   type: http
-- name: 🇩🇪DE_7|1.2MB/s
+- name: 🇩🇪DE_3|1.1MB/s
   password: None
   port: 11111
   server: 103.237.102.191
   type: http
   username: null
-- name: 🇩🇪DE_8|2.5MB/s
+- name: 🇩🇪DE_4|2.9MB/s
   password: None
   port: 9443
   server: 87.249.132.97
@@ -200,3 +160,18 @@ proxies:
   tls: true
   type: http
   username: null
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_5|3.2MB/s
+  network: tcp
+  port: '12443'
+  reality-opts:
+    public-key: -6SjfnZXAYm69euKQ3XNhq0nC7No7YE4qfdc2qx0Xwo
+    short-id: '!!str a1b2c3d4'
+  server: 31.77.220.185
+  servername: special.aeternavpn.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a92a9d2-3067-49cd-bfc5-989bbdfc5d52
+  xudp: true

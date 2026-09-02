@@ -46,31 +46,51 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
+- alterId: '0'
   cipher: auto
-  name: 🇭🇰HK_1|3.2MB/s
+  name: 🇭🇰HK_3|5.1MB/s
   network: ws
-  port: 16632
-  server: m.cnmjin.net
+  port: '16632'
+  server: planb.mojcn.com.linuxlh.xin
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: d7e9f3c3-57c6-457e-b10f-df27907ef081
+  uuid: 56a511bd-f207-48f4-be5b-4652afe178a4
   ws-opts:
     headers:
-      Host: 18a598fcab3909734096beb9fe7bc5b4.mobgslb.tbcache.com
+      Host: 686a7558df571afb1408b0e77ae4f687.mobgslb.tbcache.com
     path: /
   xudp: true
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: 🇭🇰HK_4|2.9MB/s
+  name: 🇭🇰HK_4|4.0MB/s
   network: ws
   port: 16632
-  server: m.cnmjin.net
+  server: t.cnmjcn.cyou
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: 2498a366-dd3c-4f0b-832c-f2df12f7ee27
+  udp: true
+  uuid: 62e0878c-ff8c-4a67-b18f-89886e24750c
   ws-opts:
     headers:
-      Host: 791f9b5b1318471268a2dc21098376cc.mobgslb.tbcache.com
+      Host: 706a0a2fb2f7729acf9a103060a7abc3.mobgslb.tbcache.com
     path: /
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK_7|3.1MB/s
+  network: ws
+  port: 16632
+  server: t.cnmjcn.cyou
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 56a511bd-f207-48f4-be5b-4652afe178a4
+  ws-opts:
+    headers:
+      Host: 686a7558df571afb1408b0e77ae4f687.mobgslb.tbcache.com
+    path: /
+  xudp: true
