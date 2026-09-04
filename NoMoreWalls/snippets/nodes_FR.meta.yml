@@ -58,6 +58,16 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- name: 🇫🇷 AZARBAYJAB1
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: 7nob86hyaj5rm0en
+  port: 52030
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   name: 'VCONFING #3'
@@ -70,16 +80,15 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 🇫🇷FR_1|1.1MB/s
+- name: 🇫🇷FR_1|2.8MB/s
+  password: None
   port: 443
-  server: 141.94.16.4
+  server: 149.102.245.65
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇫🇷FR_2|3.0MB/s
-  port: 443
-  server: 103.82.101.43
-  skip-cert-verify: true
-  sni: 76d1d3ecadca44efa2339867d7dfc9a1-8e928736d0f8dbdc.apache-iv.com
-  tls: true
+  username: null
+- name: 🇫🇷FR_2|4.2MB/s
+  port: 3169
+  server: 51.38.129.42
   type: http
