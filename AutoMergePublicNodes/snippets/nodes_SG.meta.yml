@@ -15,14 +15,6 @@ proxies:
   sni: sg1.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: '新加坡 #2'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 13.229.82.184
-  skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
-  tls: false
-  type: hysteria2
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -33,19 +25,17 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   encryption: none
-  name: 🇸🇬SG_1|3.7MB/s
-  network: ws
-  port: '2087'
-  server: 8.35.211.115
-  servername: mysheep.dpdns.org
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_3|4.3MB/s
+  network: tcp#5👝@oneclickvpnkeys
+  port: '49805'
+  reality-opts:
+    public-key: KhyeJbZtFAik5Mx1K_AQMIEK_MPwQnwUwSe-jTjq8yU
+    short-id: '!!str 4a753538b6a9eee9'
+  server: 47.129.185.35
+  servername: www.intel.com
   tls: true
   type: vless
   udp: true
-  uuid: 1e49ee8c-33be-4db8-8445-7203f18aecfa
-  ws-opts:
-    headers:
-      Host: mysheep.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /
+  uuid: 0803fc94-25f9-42db-9e6b-dd1418ae50ec
   xudp: true
