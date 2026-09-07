@@ -1,14 +1,8 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 🇬🇧GB_1|3.7MB/s
-  password: amazonskr05
-  port: 443
-  server: 35.179.119.76
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇬🇧GB_8|4.1MB/s
-  password: amazonskr05
-  port: '443'
-  server: 35.178.200.252
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧GB_2|3.2MB/s
+  password: T6IcUpcVx0Y85DxSTgXe4A
+  port: '97'
+  server: 86.38.182.226
   type: ss
   udp: true

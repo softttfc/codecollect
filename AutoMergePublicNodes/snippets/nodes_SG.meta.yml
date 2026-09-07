@@ -15,6 +15,18 @@ proxies:
   sni: sg1.xiaoliyu.cyou
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  name: dc-udp-🇸🇬 Singapore-Singapore
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: s6gt5e4mof43sfg8
+  port: 52063
+  server: giftcard.gateway-stream.com
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -23,22 +35,12 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  fingerprint: e7e1a45c6c95c7de92d2005845335145f51e31e15b8683809fdcda2b0c0b5e25
-  name: 🇸🇬SG_1|1.5MB/s
-  network: ws
-  port: '443'
-  server: 149.118.55.234
-  servername: www.zoom.com
+- name: 🇸🇬SG_1|3.0MB/s
+  password: ''
+  port: 9443
+  server: 149.88.99.209
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 58f7687b-5209-4dcd-a11e-6e4eb2191378
-  ws-opts:
-    headers:
-      Host: edge.xlordgrim.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.81 Safari/537.36
-    path: /xlordgrim/sg
-  xudp: true
+  username: ''
