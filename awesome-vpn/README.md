@@ -1,9 +1,3 @@
-<div align="right">
-  <strong>🌐 Language / 语言:</strong>
-  <a href="README.md"><b>English</b></a> |
-  <a href="README_CN.md"><b>简体中文</b></a>
-</div>
-
 # Awesome VPN 🌍
 
 **Free proxy nodes, updated daily. Zero config, copy and use.**
@@ -12,10 +6,8 @@
 
 <div align="center">
 
-[![Live Node Status](status.svg)](https://awesome-vpn.github.io/)
 [![English](https://img.shields.io/badge/Language-English-green?style=for-the-badge&logo=markdown)](README.md)
 [![简体中文](https://img.shields.io/badge/语言-简体中文-blue?style=for-the-badge&logo=markdown)](README_CN.md)
-[![One-Click Import to Clash](https://img.shields.io/badge/⚡%20One--Click%20Import-Clash-orange?style=for-the-badge)](clash://install-config?url=https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml)
 
 </div>
 
@@ -27,49 +19,26 @@
 
 Right-click the link → "Copy link address":
 
-#### 🌟 Curated Fast Pool (Deep-Tested, Top 80)
+| Format | Subscription Link | Best For |
+|--------|-------------------|----------|
+| **Clash YAML** | [`https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml`](https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml) | Clash Verge Rev |
+| **Sing-box JSON** | [`https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/sing-box.json`](https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/sing-box.json) | Sing-box, NekoBox |
+| **Base64 List** | [`https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/all`](https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/all) | v2rayN, v2rayNG |
 
-| Format | Subscription Link | Best For | One-Click |
-|--------|-------------------|----------|-----------|
-| **Clash YAML** | [`https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml`](https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml) | Clash Verge Rev | [⚡ Import](clash://install-config?url=https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml) |
-| **Sing-box JSON** | [`https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/sing-box.json`](https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/sing-box.json) | Sing-box, NekoBox | — |
-| **Base64 List** | [`https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/all`](https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/all) | v2rayN, v2rayNG | — |
-
-#### ⚡ Modern Protocols & Raw Feeds
-
-| Channel | Format | Subscription Link | Highlights |
-|---------|--------|-------------------|------------|
-| **Hysteria 2** | Clash YAML | [`https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/hysteria2.yaml`](https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/hysteria2.yaml) | Ultra low latency, UDP anti-censorship |
-| **VLESS Reality** | Sing-box JSON | [`https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/reality.json`](https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/reality.json) | Zero SNI leakage, TLS camouflage |
-| **Raw Candidate Pool** | Plain Text | [`https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/raw.txt`](https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/raw.txt) | 1,000+ unfiltered scraped nodes |
-
-<details>
-<summary><b>📋 Copy all curated links</b></summary>
-
-```
-https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml
-https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/sing-box.json
-https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/all
-https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/hysteria2.yaml
-https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/reality.json
-```
-
-</details>
-
-> 💡 **Don't know which one?** Use the **Clash YAML** (with Clash Verge Rev) or **Sing-box JSON**.
+> 💡 **Tip:** We recommend **Clash YAML** (with Clash Verge Rev) or **Sing-box JSON**. After importing, simply select the **"Auto"** group to let your client automatically route through the lowest-latency responsive node in your local network.
 
 
 ### Step 2: Download a client app
 
-> 🛡️ **Inclusion Policy:** This project exclusively recommends clients that are **100% open-source, 100% free (zero ads / zero paywalls), and have 20,000+ GitHub Stars**. Paid commercial or closed-source software is strictly excluded.
+> 🛡️ **Inclusion Policy:** This project exclusively recommends clients that are **100% open-source and 100% free (zero ads / zero paywalls)**. Paid commercial or closed-source software is strictly excluded.
 
-| Platform | Recommended Client | GitHub Stars | Official Download & Repo |
-|----------|-------------------|--------------|--------------------------|
-| **Windows** | Clash Verge Rev / v2rayN | 142k★ / 115k★ | [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases) / [v2rayN](https://github.com/2dust/v2rayN/releases) |
-| **macOS** | Clash Verge Rev / Sing-box | 142k★ / 37k★ | [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases) / [Sing-box](https://github.com/SagerNet/sing-box/releases) |
-| **Linux** | Clash Verge Rev / Sing-box | 142k★ / 37k★ | [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases) / [Sing-box](https://github.com/SagerNet/sing-box/releases) |
-| **Android** | v2rayNG / Sing-box / NekoBox | 62k★ / 37k★ / 22k★ | [v2rayNG](https://github.com/2dust/v2rayNG/releases) / [Sing-box](https://github.com/SagerNet/sing-box/releases) / [NekoBox](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases) |
-| **iOS** | Sing-box | 37k★ | [Free on App Store (sing-box MT)](https://apps.apple.com/app/sing-box-mt/id6670355458) / [GitHub](https://github.com/SagerNet/sing-box) |
+| Platform | Recommended Client | Official Download & Repo |
+|----------|-------------------|--------------------------|
+| **Windows** | Clash Verge Rev / v2rayN | [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases) / [v2rayN](https://github.com/2dust/v2rayN/releases) |
+| **macOS** | Clash Verge Rev | [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases) |
+| **Linux** | Clash Verge Rev | [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases) |
+| **Android** | v2rayNG / NekoBox | [v2rayNG](https://github.com/2dust/v2rayNG/releases) / [NekoBox](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases) |
+| **iOS** | | |
 
 ### Step 3: Paste and connect
 
@@ -83,12 +52,13 @@ https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/reality.json
 
 ## 📥 Subscription Links (Mirror)
 
-If GitHub is slow in your region, try these mirrors:
+If GitHub is slow or inaccessible in your region, use the official jsDelivr CDN mirror:
 
-| Mirror | Link | Location |
-|--------|------|----------|
-| **KKGitHub** | `https://raw.kkgithub.com/awesome-vpn/awesome-vpn/master/all` | Hong Kong |
-| **GHProxy** | `https://ghproxy.net/https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/all` | Japan |
+| Format | Subscription Link (jsDelivr CDN) | Best For |
+|--------|----------------------------------|----------|
+| **Clash YAML** | [`https://cdn.jsdelivr.net/gh/awesome-vpn/awesome-vpn@master/clash.yaml`](https://cdn.jsdelivr.net/gh/awesome-vpn/awesome-vpn@master/clash.yaml) | Clash Verge Rev |
+| **Sing-box JSON** | [`https://cdn.jsdelivr.net/gh/awesome-vpn/awesome-vpn@master/sing-box.json`](https://cdn.jsdelivr.net/gh/awesome-vpn/awesome-vpn@master/sing-box.json) | Sing-box, NekoBox |
+| **Base64 List** | [`https://cdn.jsdelivr.net/gh/awesome-vpn/awesome-vpn@master/all`](https://cdn.jsdelivr.net/gh/awesome-vpn/awesome-vpn@master/all) | v2rayN, v2rayNG |
 
 ---
 
@@ -139,21 +109,19 @@ Possible reasons:
 <summary><b>Clash Verge Rev (Windows / macOS / Linux)</b></summary>
 
 1. Download and install from [GitHub Releases](https://github.com/clash-verge-rev/clash-verge-rev/releases)
-2. Click the **[⚡ One-Click Import]** button at the top of this README, or paste the **Clash YAML** link in "Profiles / Subscriptions"
+2. Paste the **Clash YAML** link in "Profiles / Subscriptions", or use one-click import on our [Website](https://awesome-vpn.github.io/)
 3. Click "Save & Import" to download the node list
 4. In the "Proxies" panel, select a low-latency server
 5. Toggle "System Proxy" or "TUN Mode" on to connect
 </details>
 
 <details>
-<summary><b>Sing-box (iOS / Android / macOS)</b></summary>
+<summary><b>NekoBox (Android)</b></summary>
 
-1. **iOS**: Install free from App Store (`sing-box MT`, official SagerNet open-source); **Android / PC**: Download from [GitHub Releases](https://github.com/SagerNet/sing-box/releases)
-2. Open Sing-box and navigate to the **Profiles** tab
-3. Tap **+** → select **New Profile**
-4. Set Type to **Remote**, paste the **Sing-box JSON** subscription link into the URL field
-5. Save the profile and tap to update
-6. Return to the Dashboard and toggle the **Start** switch to connect
+1. Download from [GitHub Releases](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases)
+2. Open NekoBox, tap the top menu (⋮) → select **New Profile** / **Import from URL**
+3. Paste the **Sing-box JSON** or **Base64 List** subscription link
+4. Tap to update the subscription group, choose a proxy, and tap the **Connect** floating button
 </details>
 
 <details>

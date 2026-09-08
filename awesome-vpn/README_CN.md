@@ -1,9 +1,3 @@
-<div align="right">
-  <strong>🌐 Language / 语言:</strong>
-  <a href="README.md"><b>English</b></a> |
-  <a href="README_CN.md"><b>简体中文</b></a>
-</div>
-
 # Awesome VPN 🌍
 
 **免费代理节点，每日自动更新。无需配置，复制即用。**
@@ -12,10 +6,8 @@
 
 <div align="center">
 
-[![Live Node Status](status.svg)](https://awesome-vpn.github.io/)
 [![English](https://img.shields.io/badge/Language-English-blue?style=for-the-badge&logo=markdown)](README.md)
 [![简体中文](https://img.shields.io/badge/语言-简体中文-green?style=for-the-badge&logo=markdown)](README_CN.md)
-[![一键导入到 Clash](https://img.shields.io/badge/⚡%20一键导入-Clash-orange?style=for-the-badge)](clash://install-config?url=https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml)
 
 </div>
 
@@ -27,49 +19,26 @@
 
 右键点击链接 → "复制链接地址"：
 
-#### 🌟 深度优选高速主订阅（Sing-box实测测速，Top 80 优质节点）
+| 格式 | 订阅链接 | 适用客户端 |
+|------|----------|-----------|
+| **Clash YAML** | [`https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml`](https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml) | Clash Verge Rev |
+| **Sing-box JSON** | [`https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/sing-box.json`](https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/sing-box.json) | Sing-box、NekoBox |
+| **Base64 列表** | [`https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/all`](https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/all) | v2rayN、v2rayNG |
 
-| 格式 | 订阅链接 | 适用客户端 | 一键导入 |
-|------|----------|-----------|---------|
-| **Clash YAML** | [`https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml`](https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml) | Clash Verge Rev | [⚡ 一键导入](clash://install-config?url=https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml) |
-| **Sing-box JSON** | [`https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/sing-box.json`](https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/sing-box.json) | Sing-box、NekoBox | — |
-| **Base64 列表** | [`https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/all`](https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/all) | v2rayN、v2rayNG | — |
-
-#### ⚡ 现代抗封锁专属协议与生节点池
-
-| 分流通道 | 格式 | 订阅链接 | 特点 |
-|---------|------|----------|------|
-| **Hysteria 2** | Clash YAML | [`https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/hysteria2.yaml`](https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/hysteria2.yaml) | 极低延迟，基于 UDP QUIC 抗拥塞阻断 |
-| **VLESS Reality** | Sing-box JSON | [`https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/reality.json`](https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/reality.json) | 无证书伪装，无 SNI 泄漏风险 |
-| **全量生节点候选池** | 纯文本 | [`https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/raw.txt`](https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/raw.txt) | 1,000+ 动态裂变收集但未深度实测的原节点 |
-
-<details>
-<summary><b>📋 复制全部精选链接</b></summary>
-
-```
-https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/clash.yaml
-https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/sing-box.json
-https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/all
-https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/hysteria2.yaml
-https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/reality.json
-```
-
-</details>
-
-> 💡 **不知道选哪个？** 推荐使用 **Clash YAML**（搭配 Clash Verge Rev 一键导入）或 **Sing-box JSON**。
+> 💡 **使用建议：** 推荐使用 **Clash YAML**（搭配 Clash Verge Rev）或 **Sing-box JSON**。导入客户端后，请直接保持选择 **「Auto / 自动优选」** 节点分组，客户端会在你本地网络中实时并发测速并无感切换至最快可用节点。
 
 
 ### 第二步：下载客户端软件
 
-> 🛡️ **准入原则：** 本项目仅推荐 **100% 纯开源、100% 纯免费（零广告/零内购）、GitHub Star 超过 20,000+** 的成熟顶级客户端。拒绝任何收费商业闭源软件。
+> 🛡️ **准入原则：** 本项目仅推荐 **100% 纯开源、100% 纯免费（零广告/零内购）** 的主流客户端。拒绝任何收费商业闭源软件。
 
-| 系统 | 推荐开源软件 | GitHub Stars | 官方开源与下载地址 |
-|------|-------------|--------------|-------------------|
-| **Windows** | Clash Verge Rev / v2rayN | 142k★ / 115k★ | [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases) / [v2rayN](https://github.com/2dust/v2rayN/releases) |
-| **macOS** | Clash Verge Rev / Sing-box | 142k★ / 37k★ | [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases) / [Sing-box](https://github.com/SagerNet/sing-box/releases) |
-| **Linux** | Clash Verge Rev / Sing-box | 142k★ / 37k★ | [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases) / [Sing-box](https://github.com/SagerNet/sing-box/releases) |
-| **Android** | v2rayNG / Sing-box / NekoBox | 62k★ / 37k★ / 22k★ | [v2rayNG](https://github.com/2dust/v2rayNG/releases) / [Sing-box](https://github.com/SagerNet/sing-box/releases) / [NekoBox](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases) |
-| **iOS** | Sing-box | 37k★ | [App Store 免费安装 (sing-box MT)](https://apps.apple.com/app/sing-box-mt/id6670355458) / [GitHub](https://github.com/SagerNet/sing-box) |
+| 系统 | 推荐开源软件 | 官方开源与下载地址 |
+|------|-------------|-------------------|
+| **Windows** | Clash Verge Rev / v2rayN | [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases) / [v2rayN](https://github.com/2dust/v2rayN/releases) |
+| **macOS** | Clash Verge Rev | [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases) |
+| **Linux** | Clash Verge Rev | [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases) |
+| **Android** | v2rayNG / NekoBox | [v2rayNG](https://github.com/2dust/v2rayNG/releases) / [NekoBox](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases) |
+| **iOS** | | |
 
 ### 第三步：粘贴使用
 
@@ -83,12 +52,13 @@ https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/reality.json
 
 ## 📥 订阅链接（镜像加速）
 
-如果 GitHub 访问慢，试试这些镜像：
+如果 GitHub 访问缓慢或无法直连，推荐使用稳定可靠的 jsDelivr CDN 镜像加速源：
 
-| 镜像 | 链接 | 位置 |
-|------|------|------|
-| **KKGitHub** | `https://raw.kkgithub.com/awesome-vpn/awesome-vpn/master/all` | 香港 |
-| **GHProxy** | `https://ghproxy.net/https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/all` | 日本 |
+| 格式 | jsDelivr CDN 加速订阅链接 | 推荐客户端 |
+|------|---------------------------|------------|
+| **Clash YAML** | [`https://cdn.jsdelivr.net/gh/awesome-vpn/awesome-vpn@master/clash.yaml`](https://cdn.jsdelivr.net/gh/awesome-vpn/awesome-vpn@master/clash.yaml) | Clash Verge Rev |
+| **Sing-box JSON** | [`https://cdn.jsdelivr.net/gh/awesome-vpn/awesome-vpn@master/sing-box.json`](https://cdn.jsdelivr.net/gh/awesome-vpn/awesome-vpn@master/sing-box.json) | Sing-box, NekoBox |
+| **通用 Base64** | [`https://cdn.jsdelivr.net/gh/awesome-vpn/awesome-vpn@master/all`](https://cdn.jsdelivr.net/gh/awesome-vpn/awesome-vpn@master/all) | v2rayN, v2rayNG |
 
 ---
 
@@ -139,21 +109,19 @@ https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/reality.json
 <summary><b>Clash Verge Rev（Windows / macOS / Linux）</b></summary>
 
 1. 从 [GitHub Releases](https://github.com/clash-verge-rev/clash-verge-rev/releases) 下载对应系统的安装包安装
-2. 点击本 README 最上方的 **[⚡ 一键导入]** 按钮，或在软件「订阅/配置」中粘贴 **Clash YAML** 链接
+2. 在软件「订阅/配置」中粘贴 **Clash YAML** 链接，或访问 [网页端](https://awesome-vpn.github.io/) 点击一键导入
 3. 点击右侧「保存并导入」完成下载
 4. 在「代理」列表中勾选测速较低的优质节点
 5. 打开「系统代理」或「TUN 模式」开关即可上网
 </details>
 
 <details>
-<summary><b>Sing-box（iOS / Android / macOS）</b></summary>
+<summary><b>NekoBox（Android）</b></summary>
 
-1. **iOS**：直接在 App Store 免费搜索安装 `sing-box MT`（SagerNet 官方开源）；**Android / PC**：从 [GitHub Releases](https://github.com/SagerNet/sing-box/releases) 下载
-2. 打开应用，进入 **Profiles（配置）** 标签页
-3. 点击右上角 **+** → 选择 **New Profile**
-4. Type 选择 **Remote**，在 URL 栏粘贴 **Sing-box JSON** 订阅链接
-5. 点击右上角保存，然后点击配置进行更新
-6. 返回 Dashboard 界面，点击 **Start** 开关连接
+1. 从 [GitHub Releases](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases) 下载并安装 apk
+2. 打开 NekoBox，点击右上角菜单 (⋮) → 选择 **新建配置** / **从剪贴板导入 / 扫描**
+3. 粘贴 **Sing-box JSON** 或 **Base64 列表** 订阅链接
+4. 点击更新订阅分组，选择节点后点击右下角悬浮按钮启动连接
 </details>
 
 <details>

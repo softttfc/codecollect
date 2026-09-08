@@ -23,16 +23,16 @@ proxies:
 - name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 7674
-  server: 18.142.250.141
+  port: 2716
+  server: 43.199.146.46
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 2944
-  server: 35.78.206.14
+  port: 51391
+  server: 13.215.162.132
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -46,3 +46,11 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇭🇰HK_1|1.4MB/s
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: 10012
+  server: z-jp1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
