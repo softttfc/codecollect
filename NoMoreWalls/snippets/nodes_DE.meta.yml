@@ -1,15 +1,5 @@
 proxies:
-- name: 德国
-  obfs: salamander
-  obfs-password: Xydh1mcz51VQHbbJ
-  password: 585b7bfe-6269-4149-ae22-ff07c57b5510
-  port: 443
-  server: 157.228.137.81
-  skip-cert-verify: true
-  sni: msk2.nebuchadnezzar.ink
-  tls: false
-  type: hysteria2
-- name: '德国 #1'
+- name: 📀57@oneclickvpnkeys
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8080
   server: 85.204.107.178
@@ -17,7 +7,7 @@ proxies:
   sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
-- name: '德国 #2'
+- name: '德国 #1'
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8080
   server: 85.204.107.181
@@ -51,19 +41,12 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '德国 #3'
+- name: '德国 #2'
   password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
   port: 443
   server: hold.wwwinternetvideo.click
   skip-cert-verify: true
   sni: germany1.h2corp.local
-  tls: false
-  type: hysteria2
-- name: 🇩🇪All⁴ | @BigSmoke_Config
-  password: 4savc5ig1n3549e4
-  port: 52023
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇩🇪
@@ -119,6 +102,16 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- name: '✨ @NOFiLTERING2 | ❤️ وصل شدی ج... #1'
+  obfs: salamander
+  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  port: 443
+  server: 130.49.161.70
+  skip-cert-verify: false
+  sni: hy2.aspidnet.xyz
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   client-fingerprint: chrome
@@ -142,55 +135,78 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_1|2.1MB/s
-  network: xhttp
-  port: '2053'
-  server: pro2.hx9.ir
-  servername: mind.esmahdi9.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7e89c315-6436-4800-e287-c16d26d407a8
-  xhttp-opts:
-    host: mind.esmahdi9.com
-    mode: auto
-    path: /@v2_line
-  xudp: true
-- name: 🇩🇪DE_2|3.6MB/s
-  port: 443
-  server: 138.201.56.241
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_3|2.7MB/s
-  password: None
+- name: 🇩🇪DE_1|3.0MB/s
   port: 443
   server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇩🇪DE_2|1.1MB/s
+  password: None
+  port: 11111
+  server: 103.237.102.191
+  type: http
   username: null
-- name: 🇩🇪DE_4|2.7MB/s
+- name: 🇩🇪DE_3|1.8MB/s
+  password: None
   port: 443
-  server: 87.249.132.97
+  server: 149.36.50.157
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_5|1.8MB/s
+  username: null
+- name: 🇩🇪DE_4|2.9MB/s
+  password: None
   port: 443
-  server: 141.17.83.73
+  server: 138.201.56.241
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_6|1.6MB/s
+  username: null
+- name: 🇩🇪DE_5|2.6MB/s
+  password: None
   port: 443
-  server: 185.44.107.166
+  server: 141.17.83.78
   skip-cert-verify: true
   tls: true
   type: http
+  username: null
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.JgBGQxcFxZdwwvHJgyYQ9Qw8ezpz532ZMa6I4XEadAo
+  name: 🇩🇪DE_6|3.0MB/s
+  network: ws
+  port: '443'
+  server: mobileomrani.speedoraa.ir
+  servername: pas.speedoraa.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1d9b478e-f82b-430b-bcea-3fe236342e1f
+  ws-opts:
+    headers:
+      Host: pas.speedoraa.ir
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: UpdateService
+  name: 🇩🇪DE_7|2.0MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: HHZwsut0m8Z4tTCbU0QdnbyfQMQfk8XuEbBO0wFObis
+    short-id: '!!str 7765b2a4cef1033e'
+  server: 46.8.208.29
+  servername: cdn.okko.tv
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5f922903-69b5-4d99-924d-52ca6337741e
+  xudp: true
