@@ -16,18 +16,17 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇸🇬SG_1|4.8MB/s
-  network: grpc
-  port: 10037
+  encryption: none
+  name: 🇸🇬SG_1|1.7MB/s
+  network: tcp
+  port: '8686'
   reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: sg2-r.link-t7.com
-  servername: s0.awsstatic.com
+    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
+    short-id: '!!str 628b3c90c98ead4f'
+  server: 47.129.215.22
+  servername: www.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: D2436339-0F26-479A-8064-4D91C2B93652
+  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  xudp: true
