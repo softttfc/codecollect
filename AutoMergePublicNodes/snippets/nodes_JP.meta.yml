@@ -25,18 +25,6 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  name: dc-udp-🇯🇵 Japan-Tokyo
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: mdq80x0xv9wt7520
-  port: 52046
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -57,19 +45,11 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇯🇵JP_1|3.0MB/s
-  network: raw
-  port: '20002'
-  reality-opts:
-    public-key: _ilhBTibNauMOEUqylnlBAUTYiqHHtmEDXkx18SHCR4
-    short-id: '!!str '
-  server: 185.141.227.155
-  servername: pool.dataroute.biz
+- name: 🇯🇵JP_1|3.9MB/s
+  password: ''
+  port: '443'
+  server: fan.571589.xyz
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 2b3e8750-b944-42fc-b36e-ec2c64b48a98
-  xudp: true
+  type: http
+  username: bnVsbDpudWxs
