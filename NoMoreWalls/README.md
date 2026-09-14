@@ -1,6 +1,6 @@
 # NoMoreWalls
 
-[![Fetch Status](https://github.com/peasoft/NoMoreWalls/actions/workflows/fetch.yml/badge.svg)](https://github.com/peasoft/NoMoreWalls/actions/workflows/fetch.yml) [![Stars](https://img.shields.io/github/stars/peasoft/NoMoreWalls?style=flat)](https://github.com/peasoft/NoMoreWalls/stargazers) [![Watchers](https://img.shields.io/github/watchers/peasoft/NoMoreWalls?style=flat)](https://github.com/peasoft/NoMoreWalls/watchers) [![Forks](https://img.shields.io/github/forks/peasoft/NoMoreWalls?style=flat)](https://github.com/peasoft/NoMoreWalls/forks) [![Repo size](https://img.shields.io/github/repo-size/peasoft/NoMoreWalls)](https://github.com/peasoft/NoMoreWalls/commits) [![jsDelivr stats](https://data.jsdelivr.com/v1/package/gh/peasoft/NoMoreWalls/badge?style=rounded)](https://www.jsdelivr.com/package/gh/peasoft/NoMoreWalls) ![Vistors](https://visitor-badge.laobi.icu/badge?page_id=peasoft.NoMoreWalls) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu) [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/peasoft/NoMoreWalls/blob/master/LICENSE.md)
+[![Fetch Status](https://github.com/peasoft/NoMoreWalls/actions/workflows/fetch.yml/badge.svg)](https://github.com/peasoft/NoMoreWalls/actions/workflows/fetch.yml) [![Stars](https://img.shields.io/github/stars/peasoft/NoMoreWalls?style=flat)](https://www.star-history.com/?repos=peasoft%2FNoMoreWalls) [![Forks](https://img.shields.io/github/forks/peasoft/NoMoreWalls?style=flat)](https://github.com/peasoft/NoMoreWalls/forks) [![Repo size](https://img.shields.io/github/repo-size/peasoft/NoMoreWalls)](https://github.com/peasoft/NoMoreWalls/commits) [![jsDelivr stats](https://data.jsdelivr.com/v1/package/gh/peasoft/NoMoreWalls/badge?style=rounded)](https://www.jsdelivr.com/package/gh/peasoft/NoMoreWalls) ![Vistors](https://visitor-badge.laobi.icu/badge?page_id=peasoft.NoMoreWalls) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu) [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/peasoft/NoMoreWalls/blob/master/LICENSE.md)
 
 自动抓取合并互联网上的公开节点。
 
@@ -131,16 +131,10 @@ git reset --hard origin/master
 
 ## Star History
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/star-history/star-history-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/star-history/star-history-light.svg" />
-  <img alt="Star History Chart" src="assets/star-history/star-history.png" />
-</picture>
-
-<!-- <a href="https://www.star-history.com/?repos=peasoft%2FNoMoreWalls&type=date&legend=top-left">
+<a href="https://www.star-history.com/?repos=peasoft%2FNoMoreWalls">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=peasoft/NoMoreWalls&type=date&theme=dark&legend=top-left&sealed_token=8UVynllUplJa4vHl5DyiCpLI2RXSk29T0lsBrpwrzwLAbSJZj26QdM8Ci747u68K-UUMdH5GiH86o4tNu0hVYpj6AbR97k5HH730KfsO1wMCMWPsWiqu08zWfVjPUvj6qCu70vTw7w2ukyOzCl8Fzp_6-12EqObw3tw7JorvJ0nCXUB59L42IFPFYb_q" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=peasoft/NoMoreWalls&type=date&legend=top-left&sealed_token=8UVynllUplJa4vHl5DyiCpLI2RXSk29T0lsBrpwrzwLAbSJZj26QdM8Ci747u68K-UUMdH5GiH86o4tNu0hVYpj6AbR97k5HH730KfsO1wMCMWPsWiqu08zWfVjPUvj6qCu70vTw7w2ukyOzCl8Fzp_6-12EqObw3tw7JorvJ0nCXUB59L42IFPFYb_q" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=peasoft/NoMoreWalls&type=date&legend=top-left&sealed_token=8UVynllUplJa4vHl5DyiCpLI2RXSk29T0lsBrpwrzwLAbSJZj26QdM8Ci747u68K-UUMdH5GiH86o4tNu0hVYpj6AbR97k5HH730KfsO1wMCMWPsWiqu08zWfVjPUvj6qCu70vTw7w2ukyOzCl8Fzp_6-12EqObw3tw7JorvJ0nCXUB59L42IFPFYb_q" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=peasoft/NoMoreWalls&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=peasoft/NoMoreWalls&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=peasoft/NoMoreWalls&type=date&legend=top-left" />
  </picture>
-</a> -->
+</a>
