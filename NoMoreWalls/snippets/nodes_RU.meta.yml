@@ -7,6 +7,14 @@ proxies:
   sni: gta.internet-card.sbs
   tls: false
   type: hysteria2
+- name: '[ 🇷🇺 ] | @Cfox_SerVer'
+  password: 41edb44c8e
+  port: 11592
+  server: srv-17e124.21freedom.net
+  skip-cert-verify: true
+  sni: 'off'
+  tls: false
+  type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
@@ -15,6 +23,16 @@ proxies:
   server: giftcard.gisora.ir
   skip-cert-verify: false
   sni: giftcard.gisora.ir
+  tls: false
+  type: hysteria2
+- name: '[ 🇷🇺 ] | @Cfox_SerVer #1'
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
+  port: 443
+  server: 144.31.49.138
+  skip-cert-verify: false
+  sni: ru1.sferavpn.pro🇷🇺@FreakConfig
   tls: false
   type: hysteria2
 - name: 🇷🇺RU_1|3.1MB/s

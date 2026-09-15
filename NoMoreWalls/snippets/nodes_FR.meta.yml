@@ -7,13 +7,6 @@ proxies:
   sni: 35.181.169.140
   tls: false
   type: hysteria2
-- name: '法国 #1'
-  password: dsmO0439gj_nX942GJRE_9j39fbcxv52_R
-  port: 8080
-  server: 85.209.157.177
-  sni: hopp-transit.1cooldns.com
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   name: '@ICV2RAY #1'
@@ -48,32 +41,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- alpn:
-  - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇫🇷FR_1|2.0MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 36sTeaLdaAjQQxxzh492XihoPi2YxmttQyncmLuxYHE
-    short-id: '!!str 169fc2df88419465'
-  server: us05.shifor01.life
-  servername: us05.shifor01.life
-  tls: true
-  type: vless
-  udp: true
-  uuid: 11f21602-47aa-42e2-9149-69120f2e6df6
-  xudp: true
-- name: 🇫🇷FR_2|1.9MB/s
-  port: 443
-  server: 103.82.101.44
-  skip-cert-verify: true
-  sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
-  tls: true
-  type: http
-- name: 🇫🇷FR_3|2.7MB/s
+- name: 🇫🇷FR_1|2.8MB/s
   password: None
   port: 443
   server: 149.102.245.65
@@ -81,3 +49,9 @@ proxies:
   tls: true
   type: http
   username: null
+- name: 🇫🇷FR_2|1.5MB/s
+  port: 443
+  server: 141.94.16.4
+  skip-cert-verify: true
+  tls: true
+  type: http
