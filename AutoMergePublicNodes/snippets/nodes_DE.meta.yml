@@ -36,6 +36,13 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
+- name: '[ 🇩🇪 ] | @Cfox_SerVer'
+  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+  port: 443
+  server: 162.249.125.133
+  sni: hy2-new.aspidnet.xyz
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   client-fingerprint: chrome
@@ -130,43 +137,26 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.EvqGmJhHfNsRhxENFhkBpY3TDQZfpIeaet93vsXSaUU
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|3.4MB/s
-  network: xhttp
-  port: '443'
-  server: 199.232.79.166
-  servername: cdn.fastly.com
+  name: 🇩🇪DE_1|3.7MB/s
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 212.16.92.112
+  servername: jobinvest.ru
   tls: true
   type: vless
   udp: true
-  uuid: 2cd9279f-a107-4860-8356-fc994ca4dff7
-  xhttp-opts:
-    host: telegram-uonvpn.global.ssl.fastly.net
-    mode: auto
-    path: /@UonVPN-*-@UonVPN--*-@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN---@UonVPN
-    x-padding-bytes: 100-1000
-  xudp: true
-- name: 🇩🇪DE_2|2.2MB/s
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_3|1.0MB/s
+  uuid: 32721515-985b-4773-9e70-5d2e1b88a060
+- name: 🇩🇪DE_2|1.1MB/s
+  password: udp-relay=true
   port: 11111
   server: 103.237.102.191
   type: http
-- name: 🇩🇪DE_4|3.1MB/s
-  password: None
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_5|1.9MB/s
+  username: None
+- name: 🇩🇪DE_3|2.8MB/s
   password: None
   port: 443
   server: 149.36.50.1
@@ -174,7 +164,15 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_6|2.7MB/s
+- name: 🇩🇪DE_4|2.7MB/s
+  password: None
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_5|1.4MB/s
   password: None
   port: 443
   server: 149.36.50.157
@@ -182,9 +180,37 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_7|2.4MB/s
+- name: 🇩🇪DE_6|2.1MB/s
+  password: None
   port: 443
-  server: 141.17.83.73
+  server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
+  username: null
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  encryption: none
+  name: 🇩🇪DE_7|3.7MB/s
+  network: xhttp
+  port: '443'
+  server: 172.67.156.105
+  servername: fwe4.yasharmobile.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c3923ff7-a642-40bc-86cd-520bd6401f67
+  xhttp-opts:
+    host: fwe4.yasharmobile.com
+    mode: auto
+  xudp: true
+- name: 🇩🇪DE_8|2.6MB/s
+  password: ''
+  port: '1080'
+  server: 135.125.232.151
+  skip-cert-verify: true
+  type: socks5
+  username: ''

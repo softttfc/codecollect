@@ -36,6 +36,13 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
+- name: '[ 🇩🇪 ] | @Cfox_SerVer'
+  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+  port: 443
+  server: 162.249.125.133
+  sni: hy2-new.aspidnet.xyz
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   client-fingerprint: chrome
@@ -92,7 +99,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '@ICV2RAY'
+  name: -🇩🇪 @VConfing
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: ijrixp6yh62ectfw
@@ -130,31 +137,26 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 🇩🇪DE_1|2.3MB/s
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_1|3.7MB/s
+  network: tcp
   port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 212.16.92.112
+  servername: jobinvest.ru
   tls: true
-  type: http
-- name: 🇩🇪DE_2|1004KB/s
+  type: vless
+  udp: true
+  uuid: 32721515-985b-4773-9e70-5d2e1b88a060
+- name: 🇩🇪DE_2|1.1MB/s
+  password: udp-relay=true
   port: 11111
   server: 103.237.102.191
   type: http
-- name: 🇩🇪DE_3|1.8MB/s
-  password: None
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_4|2.3MB/s
-  port: 443
-  server: 138.201.56.241
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_5|2.2MB/s
+  username: None
+- name: 🇩🇪DE_3|2.8MB/s
   password: None
   port: 443
   server: 149.36.50.1
@@ -162,9 +164,53 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_6|2.6MB/s
+- name: 🇩🇪DE_4|2.7MB/s
+  password: None
   port: 443
-  server: 141.17.83.73
+  server: 149.36.50.129
   skip-cert-verify: true
   tls: true
   type: http
+  username: null
+- name: 🇩🇪DE_5|1.4MB/s
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_6|2.1MB/s
+  password: None
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  encryption: none
+  name: 🇩🇪DE_7|3.7MB/s
+  network: xhttp
+  port: '443'
+  server: 172.67.156.105
+  servername: fwe4.yasharmobile.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c3923ff7-a642-40bc-86cd-520bd6401f67
+  xhttp-opts:
+    host: fwe4.yasharmobile.com
+    mode: auto
+  xudp: true
+- name: 🇩🇪DE_8|2.6MB/s
+  password: ''
+  port: '1080'
+  server: 135.125.232.151
+  skip-cert-verify: true
+  type: socks5
+  username: ''
