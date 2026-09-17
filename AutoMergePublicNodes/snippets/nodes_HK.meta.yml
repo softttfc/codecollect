@@ -46,18 +46,27 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- auth: HysTeria2026!Proxy
-  name: 🇭🇰HK_1|5.0MB/s
-  password: HysTeria2026!Proxy
-  port: 8443
-  server: mz.hkychina.com
-  sni: mz.hkychina.com
-  type: hysteria2
-  udp: true
-- name: 🇭🇰HK_2|1.5MB/s
-  password: Og==
-  port: 1080
+- name: 🇭🇰HK_1|5.1MB/s
+  password: ''
+  port: '1080'
   server: 103.210.161.8
+  skip-cert-verify: true
   type: socks5
-  udp: true
-  username: Og==
+  username: ''
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇭🇰HK_2|2.1MB/s
+  network: ws
+  port: 443
+  server: 45.202.247.152
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /jump.html/star?ed=2560

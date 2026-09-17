@@ -1,22 +1,15 @@
 proxies:
-- name: 'کانال تلگرام : Free_VPN_CH@'
+- name: '@KAFING_2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
   port: 35000
   server: 181.214.99.162
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
 - name: DE
-  password: dffb4c3d-1e84-4938-8881-cad917e8efb2
-  port: 443
-  server: de1.apexvpn.space
-  sni: de1.apexvpn.space
-  tls: false
-  type: hysteria2
-- name: 'DE #1'
   obfs: salamander
   obfs-password: f832485b7363626ee836f58576aad25f
   password: f0098427ecce06a25089f5c18f4ac666
@@ -36,10 +29,13 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: '[ 🇩🇪 ] | @Cfox_SerVer'
+- name: '@AZARBAYJAB1'
+  obfs: salamander
+  obfs-password: c1b4086fea89914496c7e10967a419216566
   password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
   port: 443
   server: 162.249.125.133
+  skip-cert-verify: false
   sni: hy2-new.aspidnet.xyz
   tls: false
   type: hysteria2
@@ -87,19 +83,9 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[ 🇩🇪 ] | @Cfox_SerVer #2'
-  obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-  password: cd74c0a406664a5bc0bac098220a2468
-  port: 443
-  server: 2.27.59.206
-  skip-cert-verify: true
-  sni: de1.sferavpn.pro
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
-  name: '@ICV2RAY'
+  name: -🇩🇪 @VConfing
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: ijrixp6yh62ectfw
@@ -107,24 +93,6 @@ proxies:
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 🏀34@oneclickvpnkeys
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 91.196.32.163
-  skip-cert-verify: true
-  sni: germany3.h2corp.local
-  tls: false
-  type: hysteria2
-- name: '✨ @NOFiLTERING2 | ❤️ وصل شدی ج... #1'
-  obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-  port: 443
-  server: 130.49.161.70
-  skip-cert-verify: false
-  sni: hy2.aspidnet.xyz
   tls: false
   type: hysteria2
 - name: 🇩🇪@AZARBAYJAB1
@@ -137,26 +105,37 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|3.7MB/s
-  network: tcp
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_1|3.1MB/s
+  password: amazonskr05
   port: 443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 212.16.92.112
-  servername: jobinvest.ru
+  server: 3.75.89.244
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇩🇪DE_3|4.8MB/s
+  network: ws
+  port: 23351
+  server: 185.217.108.229
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
-  uuid: 32721515-985b-4773-9e70-5d2e1b88a060
-- name: 🇩🇪DE_2|1.1MB/s
-  password: udp-relay=true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /help?ed=2560
+- name: 🇩🇪DE_4|1.4MB/s
+  password: None
   port: 11111
   server: 103.237.102.191
   type: http
-  username: None
-- name: 🇩🇪DE_3|2.8MB/s
+  username: null
+- name: 🇩🇪DE_5|3.0MB/s
   password: None
   port: 443
   server: 149.36.50.1
@@ -164,23 +143,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_4|2.7MB/s
-  password: None
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_5|1.4MB/s
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇩🇪DE_6|2.1MB/s
+- name: 🇩🇪DE_6|3.1MB/s
   password: None
   port: 443
   server: 87.249.132.97
@@ -188,29 +151,57 @@ proxies:
   tls: true
   type: http
   username: null
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
+- client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇩🇪DE_7|3.1MB/s
+  network: ws
+  port: 2083
+  server: 64.225.110.247
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /acg/buy/ajax?ed=2560
+- name: 🇩🇪DE_8|2.3MB/s
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_9|2.5MB/s
+  password: None
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: 🇩🇪DE_10|2.5MB/s
+  port: 443
+  server: 141.17.83.78
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE_7|3.7MB/s
-  network: xhttp
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  name: 🇩🇪DE_11|2.2MB/s
+  network: grpc
   port: '443'
-  server: 172.67.156.105
-  servername: fwe4.yasharmobile.com
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: ns.o11111o.club
+  servername: id.vk.com
   tls: true
   type: vless
   udp: true
-  uuid: c3923ff7-a642-40bc-86cd-520bd6401f67
-  xhttp-opts:
-    host: fwe4.yasharmobile.com
-    mode: auto
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
   xudp: true
-- name: 🇩🇪DE_8|2.6MB/s
-  password: ''
-  port: '1080'
-  server: 135.125.232.151
-  skip-cert-verify: true
-  type: socks5
-  username: ''
