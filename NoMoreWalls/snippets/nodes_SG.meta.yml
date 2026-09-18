@@ -7,24 +7,21 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇸🇬SG_1|4.5MB/s
-  network: ws
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_1|4.6MB/s
+  network: tcp
   port: 443
-  server: 103.190.178.195
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
+  reality-opts:
+    public-key: f9DtsV6_ncVM9DmGEmImcR3YKSWGimoS2MXHnIWOyH0
+    short-id: '!!str 0195'
+  server: 1-sg.ap.ku-ke.cc
+  servername: cdn.jsdelivr.net
   tls: true
   type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /topic/htm?ed=2560
-- name: 🇸🇬SG_2|2.5MB/s
+  udp: true
+  uuid: d03c34c3-98fa-42ff-80a8-6ea1d0b24ac9
+- name: 🇸🇬SG_2|1002KB/s
   password: ''
   port: 9443
   server: 149.88.99.209

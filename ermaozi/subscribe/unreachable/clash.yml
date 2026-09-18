@@ -26,17 +26,9 @@ dns:
 proxies:
 - name: 🇨🇳_CN_中国->🇺🇸_US_美国
   type: vless
-  server: us22.sofast.live
-  port: 58011
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  type: vless
   server: jp.sofast.live
   port: 52683
-  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133
   tls: false
   skip-cert-verify: true
   udp: true
@@ -48,6 +40,34 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 🇹🇼_TW_中国台湾
+  type: vmess
+  server: 7dba81fc3a0b.oylfmxz.cn
+  port: 443
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+  udp: true
+- name: 🇷🇺_RU_俄罗斯->🇫🇷_FR_法国
+  type: vless
+  server: 62.109.5.156
+  port: 443
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+  network: grpc
+  servername: id.vk.com
+  tls: true
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   skip-cert-verify: true
   udp: true
 - cipher: aes-256-gcm
@@ -124,39 +144,31 @@ proxies:
   port: 30001
   server: 36.33.35.105
   type: ss
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇯🇵JP_1|2.9MB/s
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 🇹🇼TW_2|4.8MB/s
   network: ws
-  port: 8443
-  server: 151.145.67.90
-  servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /city/playlist/out.php?ed=2560
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: vless-grpc-reality
-  name: 🇩🇪DE_11|2.2MB/s
-  network: grpc
   port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: ''
-  server: ns.o11111o.club
-  servername: id.vk.com
+  server: 7dba81fc3a0b.oylfmxz.cn
+  skip-cert-verify: false
   tls: true
+  type: vmess
+  udp: true
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  ws-opts:
+    headers: {}
+    path: /
+  xudp: true
+- encryption: none
+  name: 🇫🇷FR_1|4.7MB/s
+  network: tcp
+  port: '22224'
+  server: 13.37.81.71
   type: vless
   udp: true
-  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
   xudp: true
 - name: RO_speednode_0011
   port: 9002
@@ -1034,8 +1046,9 @@ proxy-groups:
   - ermao.net | ♻️ 自动选择
   - DIRECT
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
   - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
+  - 🇹🇼_TW_中国台湾
+  - 🇷🇺_RU_俄罗斯->🇫🇷_FR_法国
   - 香港2|@ripaojiedian
   - 香港3|@ripaojiedian
   - 香港4|@ripaojiedian
@@ -1047,8 +1060,8 @@ proxy-groups:
   - 美国|@ripaojiedian
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
-  - 🇯🇵JP_1|2.9MB/s
-  - 🇩🇪DE_11|2.2MB/s
+  - 🇹🇼TW_2|4.8MB/s
+  - 🇫🇷FR_1|4.7MB/s
   - RO_speednode_0011
   - RO_speednode_0012
   - RO_speednode_0013
@@ -1166,8 +1179,9 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
   - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
+  - 🇹🇼_TW_中国台湾
+  - 🇷🇺_RU_俄罗斯->🇫🇷_FR_法国
   - 香港2|@ripaojiedian
   - 香港3|@ripaojiedian
   - 香港4|@ripaojiedian
@@ -1179,8 +1193,8 @@ proxy-groups:
   - 美国|@ripaojiedian
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
-  - 🇯🇵JP_1|2.9MB/s
-  - 🇩🇪DE_11|2.2MB/s
+  - 🇹🇼TW_2|4.8MB/s
+  - 🇫🇷FR_1|4.7MB/s
   - RO_speednode_0011
   - RO_speednode_0012
   - RO_speednode_0013
@@ -1304,8 +1318,9 @@ proxy-groups:
   - ermao.net | ♻️ 自动选择
   - 🎯 全球直连
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
   - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
+  - 🇹🇼_TW_中国台湾
+  - 🇷🇺_RU_俄罗斯->🇫🇷_FR_法国
   - 香港2|@ripaojiedian
   - 香港3|@ripaojiedian
   - 香港4|@ripaojiedian
@@ -1317,8 +1332,8 @@ proxy-groups:
   - 美国|@ripaojiedian
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
-  - 🇯🇵JP_1|2.9MB/s
-  - 🇩🇪DE_11|2.2MB/s
+  - 🇹🇼TW_2|4.8MB/s
+  - 🇫🇷FR_1|4.7MB/s
   - RO_speednode_0011
   - RO_speednode_0012
   - RO_speednode_0013
@@ -1438,8 +1453,9 @@ proxy-groups:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
   - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
+  - 🇹🇼_TW_中国台湾
+  - 🇷🇺_RU_俄罗斯->🇫🇷_FR_法国
   - 香港2|@ripaojiedian
   - 香港3|@ripaojiedian
   - 香港4|@ripaojiedian
@@ -1451,8 +1467,8 @@ proxy-groups:
   - 美国|@ripaojiedian
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
-  - 🇯🇵JP_1|2.9MB/s
-  - 🇩🇪DE_11|2.2MB/s
+  - 🇹🇼TW_2|4.8MB/s
+  - 🇫🇷FR_1|4.7MB/s
   - RO_speednode_0011
   - RO_speednode_0012
   - RO_speednode_0013
@@ -1572,8 +1588,9 @@ proxy-groups:
   - 🎯 全球直连
   - ermao.net | 🚀 节点选择
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
   - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
+  - 🇹🇼_TW_中国台湾
+  - 🇷🇺_RU_俄罗斯->🇫🇷_FR_法国
   - 香港2|@ripaojiedian
   - 香港3|@ripaojiedian
   - 香港4|@ripaojiedian
@@ -1585,8 +1602,8 @@ proxy-groups:
   - 美国|@ripaojiedian
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
-  - 🇯🇵JP_1|2.9MB/s
-  - 🇩🇪DE_11|2.2MB/s
+  - 🇹🇼TW_2|4.8MB/s
+  - 🇫🇷FR_1|4.7MB/s
   - RO_speednode_0011
   - RO_speednode_0012
   - RO_speednode_0013
@@ -1706,8 +1723,9 @@ proxy-groups:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
   - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
+  - 🇹🇼_TW_中国台湾
+  - 🇷🇺_RU_俄罗斯->🇫🇷_FR_法国
   - 香港2|@ripaojiedian
   - 香港3|@ripaojiedian
   - 香港4|@ripaojiedian
@@ -1719,8 +1737,8 @@ proxy-groups:
   - 美国|@ripaojiedian
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
-  - 🇯🇵JP_1|2.9MB/s
-  - 🇩🇪DE_11|2.2MB/s
+  - 🇹🇼TW_2|4.8MB/s
+  - 🇫🇷FR_1|4.7MB/s
   - RO_speednode_0011
   - RO_speednode_0012
   - RO_speednode_0013
@@ -1862,8 +1880,9 @@ proxy-groups:
   - 🎯 全球直连
   - ermao.net | ♻️ 自动选择
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
   - 🇨🇳_CN_中国->🇸🇬_SG_新加坡
+  - 🇹🇼_TW_中国台湾
+  - 🇷🇺_RU_俄罗斯->🇫🇷_FR_法国
   - 香港2|@ripaojiedian
   - 香港3|@ripaojiedian
   - 香港4|@ripaojiedian
@@ -1875,8 +1894,8 @@ proxy-groups:
   - 美国|@ripaojiedian
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
-  - 🇯🇵JP_1|2.9MB/s
-  - 🇩🇪DE_11|2.2MB/s
+  - 🇹🇼TW_2|4.8MB/s
+  - 🇫🇷FR_1|4.7MB/s
   - RO_speednode_0011
   - RO_speednode_0012
   - RO_speednode_0013
