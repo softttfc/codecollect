@@ -10,40 +10,23 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇪SE_1|2.1MB/s
-  network: xhttp
-  port: '443'
-  reality-opts:
-    public-key: R8Mogel1wypEIpcUXnGmG1cuzT9POghNhqJcw4-CLx0
-    short-id: '!!str '
-  server: 104.245.240.4
-  servername: cdn.steamstatic.com
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: 🇸🇪SE_1|3.6MB/s
+  network: ws
+  port: 2053
+  server: 109.107.155.76
+  servername: cdn8848.776676.xyz
+  skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
-  uuid: 2bb8b13c-b3f0-2552-da05-d0929bfb36db
-  xhttp-opts:
-    mode: auto
-    path: /
-  xudp: true
-- name: 🇸🇪SE_2|3.3MB/s
-  password: None
-  port: 443
-  server: 79.142.77.63
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇸🇪SE_3|1.8MB/s
-  password: None
-  port: 443
-  server: 149.50.216.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇸🇪SE_4|1.9MB/s
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: cdn8848.776676.xyz
+    path: /tv/member/auth?ed=2560
+- name: 🇸🇪SE_2|3.8MB/s
   password: None
   port: 443
   server: 146.70.242.130
@@ -51,15 +34,17 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇸🇪SE_5|2.8MB/s
-  port: 443
-  server: 146.70.242.146
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇪SE_6|2.2MB/s
+- name: 🇸🇪SE_3|3.3MB/s
   port: 443
   server: 149.50.216.65
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇸🇪SE_4|2.8MB/s
+  password: None
+  port: 443
+  server: 79.142.77.63
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

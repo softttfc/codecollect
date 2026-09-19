@@ -7,13 +7,6 @@ proxies:
   sni: gta.internet-card.sbs
   tls: false
   type: hysteria2
-- name: '[ 🇷🇺 ] | @Cfox_SerVer'
-  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
-  port: 22443
-  server: 91.240.86.70
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
@@ -24,23 +17,19 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- name: 🐒90@oneclickvpnkeys
-  password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
-  port: 443
-  server: 144.31.93.126
-  skip-cert-verify: true
-  sni: admin.wwwinternetvideo.click
-  tls: false
-  type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: 🇷🇺RU_1|1.5MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: '4433'
-  server: ru.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: ru.xiaoliyu.cyou
-  type: hysteria2
-  up: ''
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|3.1MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: yCKV2xr725jI0sFhm4KbttKl8b9UZrnQTXxZLN2S4BM
+    short-id: '!!str f267'
+  server: 193.233.91.200
+  servername: cdn.callibri.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 17f6daad-7238-4c23-99f6-c01e09c83dde
+  xudp: true
