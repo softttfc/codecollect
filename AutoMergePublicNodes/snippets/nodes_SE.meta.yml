@@ -15,8 +15,8 @@ proxies:
     query-server-name: cloudflare-ech.com
   name: 🇸🇪SE_1|3.6MB/s
   network: ws
-  port: 2053
-  server: 109.107.155.76
+  port: 443
+  server: 161.104.44.138
   servername: cdn8848.776676.xyz
   skip-cert-verify: true
   tls: true
@@ -25,22 +25,16 @@ proxies:
   ws-opts:
     headers:
       Host: cdn8848.776676.xyz
-    path: /tv/member/auth?ed=2560
-- name: 🇸🇪SE_2|3.8MB/s
+    path: /my/m/note?ed=2560
+- name: 🇸🇪SE_2|3.4MB/s
   password: None
   port: 443
-  server: 146.70.242.130
+  server: 146.70.242.146
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇸🇪SE_3|3.3MB/s
-  port: 443
-  server: 149.50.216.65
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇸🇪SE_4|2.8MB/s
+- name: 🇸🇪SE_3|2.9MB/s
   password: None
   port: 443
   server: 79.142.77.63
