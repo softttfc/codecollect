@@ -9,7 +9,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 🇸🇪SE_1|3.0MB/s
+- name: 🇸🇪SE_1|2.3MB/s
   password: None
   port: 443
   server: 146.70.242.146
@@ -17,28 +17,33 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇸🇪SE_2|3.0MB/s
+- cipher: aes-256-cfb
+  name: 🇸🇪SE_2|2.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 16.170.163.124
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇸🇪SE_3|3.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 16.170.214.108
+  type: ss
+  udp: true
+- name: 🇸🇪SE_4|3.2MB/s
   password: None
   port: 443
-  server: 149.50.216.65
+  server: 146.70.242.130
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇸🇪SE_3|3.4MB/s
-  network: ws
+- name: 🇸🇪SE_5|1.8MB/s
+  password: None
   port: 443
-  server: 46.8.178.234
-  servername: cdn8848.776676.xyz
+  server: 79.142.77.63
   skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /about/ads/articles?ed=2560
+  type: http
+  username: null
