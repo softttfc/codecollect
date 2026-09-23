@@ -46,11 +46,21 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰HK_1|1000KB/s
-  password: 9sK2mP8xQ7vL3nZ6
-  port: 443
-  server: ac7548f3ebe045b39a90288ff1e97528.pnuqcnp.cn
+- auth: 19f72087-4591-4d72-930b-2697078ec2be
+  name: 🇭🇰HK_1|1.1MB/s
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: hk2.xiaoliyu.cyou
   skip-cert-verify: true
-  sni: ac7548f3ebe045b39a90288ff1e97528.lwdnxf.cn
-  type: anytls
+  type: hysteria2
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK_2|2.7MB/s
+  network: ws
+  port: 60852
+  server: hkgb707.ifastcdncache.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
+  uuid: f8eca8df-a1a5-4918-a194-d34112a3673f
