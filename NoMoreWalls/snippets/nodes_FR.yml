@@ -1,16 +1,16 @@
 proxies:
 - client-fingerprint: chrome
-  name: 🇫🇷FR_1|1.6MB/s
+  name: 🇫🇷FR_1|1.8MB/s
   network: ws
   password: humanity
   port: '443'
-  server: 172.67.188.109
+  server: 104.18.152.140
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /assignment

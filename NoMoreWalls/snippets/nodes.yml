@@ -196,36 +196,39 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇮FI_2|3.0MB/s
+  password: LMnotcv4RdaEOBXT-LdtfA
+  port: '1080'
+  server: p1tun4.greewebservices.ir
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: 🇫🇷FR_1|1.6MB/s
+  name: 🇫🇷FR_1|1.8MB/s
   network: ws
   password: humanity
   port: '443'
-  server: 172.67.188.109
+  server: 104.18.152.140
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /assignment
-- cipher: aes-256-cfb
-  name: 🇸🇪SE_1|2.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 16.170.221.224
+- cipher: aes-256-gcm
+  name: 🇷🇺RU_1|2.0MB/s
+  password: 81a20429165df87e
+  port: '10081'
+  server: 195.133.23.200
   type: ss
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰HK_2|2.7MB/s
-  network: ws
-  port: 60852
-  server: hkgb707.ifastcdncache.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: aes-256-cfb
+  name: 🇺🇸US_25|4.2MB/s
+  password: amazonskr05
+  port: '443'
+  server: 54.204.185.38
+  type: ss
   udp: true
-  uuid: f8eca8df-a1a5-4918-a194-d34112a3673f

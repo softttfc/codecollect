@@ -19,95 +19,73 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  name: Telegram@VPNjey🇩🇪🇩🇪
+- name: 'V2RayyNGvpn 🇩🇪 #1'
   obfs: salamander
-  obfs-password: 83v9muumcyikh5ch
-  password: TelegramVPNJey
-  port: 37003
-  server: 1.1.1.1
-  sni: de.jey.cc.cd
+  obfs-password: V2RayyNGvpn
+  password: v2rayyngvpn
+  port: 443
+  server: 168.222.43.35
+  skip-cert-verify: false
+  sni: www.bing.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  name: 'Telegram@VPNjey🇩🇪🇩🇪 #1'
-  obfs: salamander
-  obfs-password: 83v9muumcyikh5ch
-  password: TelegramVPNjey
-  port: 37003
-  server: 179.61.251.253
-  sni: de.jey.cc.cd
-  tls: false
-  type: hysteria2
-- name: 🇩🇪DE_1|3.0MB/s
+- name: 🇩🇪DE_2|1.1MB/s
+  password: None
+  port: 11111
+  server: 103.237.102.191
+  type: http
+  username: null
+- name: 🇩🇪DE_3|2.6MB/s
   password: None
   port: 443
-  server: 149.36.50.157
+  server: 149.36.50.129
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_2|2.1MB/s
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_3|1.9MB/s
+- name: 🇩🇪DE_4|2.0MB/s
   password: None
-  port: 443
+  port: 9443
   server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- client-fingerprint: ios
-  encryption: none
-  name: 🇩🇪DE_4|3.9MB/s
-  network: tcp
-  port: '10000'
-  reality-opts:
-    public-key: UOa0v_JpSPRPMO6ABMM7tIir-GclotOVfnbI2WqJGVE
-    short-id: '!!str 9791feaccc1ca4d8'
-  server: 144.31.166.205
-  servername: zoom.us
-  tls: true
+- encryption: mlkem768x25519plus.native.0rtt.Px0rEez31FH9Ten81Og17JMaeLuA6l3iAW-Bfu2_Rh0
+  name: 🇩🇪DE_5|2.4MB/s
+  network: ws
+  port: 2082
+  server: down.chaqalli.com
   type: vless
   udp: true
-  uuid: 135852be-3cfc-4551-b6bf-641911655174
+  uuid: 560ecca1-7e20-4b41-b4d6-781fb3bc179d
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /
   xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_5|1.4MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: XTarABsaaFbjYNk6lRKnUzGavHzeqMIP7B8dZGNCvkE
-    short-id: '!!str 5c6481cdd4'
-  server: 64.118.158.56
-  servername: buckeye-retail-website.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8af93649-403b-46d8-9966-923d4c58402c
-  xudp: true
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪DE_6|2.9MB/s
-  network: tcp
-  port: '443'
+  name: 🇩🇪DE_6|4.1MB/s
+  network: raw
+  port: '57160'
   reality-opts:
-    public-key: XTarABsaaFbjYNk6lRKnUzGavHzeqMIP7B8dZGNCvkE
-    short-id: '!!str 5c6481cdd4'
-  server: defrnode.jumpernode.online
-  servername: buckeye-retail-website.amazon.com
+    public-key: Tbu7sr_pvHngDWFIa0ApL5UL9vEGxlHESd9g53KQehw
+    short-id: '!!str 77b5'
+  server: 77.91.76.156
+  servername: funpay.com
   tls: true
   type: vless
   udp: true
-  uuid: 8af93649-403b-46d8-9966-923d4c58402c
+  uuid: 68ad9a6d-2463-4c31-92a7-31547b9d4783
   xudp: true
+- name: 🇩🇪DE_7|3.3MB/s
+  password: V2RayyNGvpn
+  port: '8443'
+  server: 168.222.43.35
+  skip-cert-verify: true
+  type: socks5
+  username: S8WJyKys
