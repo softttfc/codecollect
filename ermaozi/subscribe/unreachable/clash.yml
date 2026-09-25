@@ -26,9 +26,9 @@ dns:
 proxies:
 - name: 🇨🇳_CN_中国->🇺🇸_US_美国
   type: vless
-  server: us22.sofast.live
-  port: 58011
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+  server: jp.sofast.live
+  port: 52683
+  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
   tls: false
   skip-cert-verify: true
   udp: true
@@ -106,22 +106,6 @@ proxies:
   port: 30001
   server: 36.33.35.105
   type: ss
-- client-fingerprint: edge
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU_1|3.6MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: j4M7_0Tl0UdSe4zYziALrPp_4F-QiSkyrUnOS6saQ1g
-    short-id: a7162d100ab90645
-  server: ruffia2.thewalkingded.life
-  servername: ruffia2.thewalkingded.life
-  tls: true
-  type: vless
-  udp: true
-  uuid: f495298f-2bdb-4fd8-9ac9-5dd33d1b482a
-  xudp: true
 - name: RO_speednode_0011
   port: 9002
   server: 84.239.49.218
@@ -991,6 +975,24 @@ proxies:
   type: vless
   udp: true
   uuid: ec31f6d7-c71a-413d-93aa-24296805a594
+- name: 🇹🇷 土耳其 | TUR 5
+  server: gameeeeeig1.ark-cloudservice.ir
+  port: 39484
+  type: vless
+  uuid: 187ac39f-f966-4cd7-846c-799f43b940a7
+  tls: true
+  encryption: mlkem768x25519plus.native.0rtt.83bdyEmpm3NyPoYEB8TznDXtUd9PUR7-8GD3yYpiqn0
+  reality-opts:
+    public-key: WnCje_Ih3BNXYjiIHmLQ6OzdPFmSAor8LnBg8we4szE
+    short-id: 2f0adfb96ffcb71b
+  servername: snapp.ir
+  client-fingerprint: chrome
+  network: xhttp
+  xhttp-opts:
+    path: /
+    host: snapp.ir
+    mode: auto
+  udp: true
 proxy-groups:
 - name: ermao.net | 🚀 节点选择
   type: select
@@ -1009,7 +1011,6 @@ proxy-groups:
   - 美国|@ripaojiedian
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
-  - 🇷🇺RU_1|3.6MB/s
   - RO_speednode_0011
   - RO_speednode_0012
   - RO_speednode_0013
@@ -1123,6 +1124,7 @@ proxy-groups:
   - US_speednode_0138
   - US_speednode_0139
   - US_speednode_0144
+  - 🇹🇷 土耳其 | TUR 5
 - name: ermao.net | ♻️ 自动选择
   type: url-test
   proxies:
@@ -1138,7 +1140,6 @@ proxy-groups:
   - 美国|@ripaojiedian
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
-  - 🇷🇺RU_1|3.6MB/s
   - RO_speednode_0011
   - RO_speednode_0012
   - RO_speednode_0013
@@ -1252,6 +1253,7 @@ proxy-groups:
   - US_speednode_0138
   - US_speednode_0139
   - US_speednode_0144
+  - 🇹🇷 土耳其 | TUR 5
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -1273,7 +1275,6 @@ proxy-groups:
   - 美国|@ripaojiedian
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
-  - 🇷🇺RU_1|3.6MB/s
   - RO_speednode_0011
   - RO_speednode_0012
   - RO_speednode_0013
@@ -1387,6 +1388,7 @@ proxy-groups:
   - US_speednode_0138
   - US_speednode_0139
   - US_speednode_0144
+  - 🇹🇷 土耳其 | TUR 5
 - name: 📲 电报信息
   type: select
   proxies:
@@ -1404,7 +1406,6 @@ proxy-groups:
   - 美国|@ripaojiedian
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
-  - 🇷🇺RU_1|3.6MB/s
   - RO_speednode_0011
   - RO_speednode_0012
   - RO_speednode_0013
@@ -1518,6 +1519,7 @@ proxy-groups:
   - US_speednode_0138
   - US_speednode_0139
   - US_speednode_0144
+  - 🇹🇷 土耳其 | TUR 5
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
@@ -1535,7 +1537,6 @@ proxy-groups:
   - 美国|@ripaojiedian
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
-  - 🇷🇺RU_1|3.6MB/s
   - RO_speednode_0011
   - RO_speednode_0012
   - RO_speednode_0013
@@ -1649,6 +1650,7 @@ proxy-groups:
   - US_speednode_0138
   - US_speednode_0139
   - US_speednode_0144
+  - 🇹🇷 土耳其 | TUR 5
 - name: 🍎 苹果服务
   type: select
   proxies:
@@ -1666,7 +1668,6 @@ proxy-groups:
   - 美国|@ripaojiedian
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
-  - 🇷🇺RU_1|3.6MB/s
   - RO_speednode_0011
   - RO_speednode_0012
   - RO_speednode_0013
@@ -1780,6 +1781,7 @@ proxy-groups:
   - US_speednode_0138
   - US_speednode_0139
   - US_speednode_0144
+  - 🇹🇷 土耳其 | TUR 5
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -1819,7 +1821,6 @@ proxy-groups:
   - 美国|@ripaojiedian
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
-  - 🇷🇺RU_1|3.6MB/s
   - RO_speednode_0011
   - RO_speednode_0012
   - RO_speednode_0013
@@ -1933,6 +1934,7 @@ proxy-groups:
   - US_speednode_0138
   - US_speednode_0139
   - US_speednode_0144
+  - 🇹🇷 土耳其 | TUR 5
 rule-providers:
   LocalAreaNetwork:
     type: http

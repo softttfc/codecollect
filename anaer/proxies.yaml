@@ -1,14 +1,4 @@
 proxies:
-- name: 中国-001
-  type: vmess
-  network: tcp
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  server: 112.132.215.108
-  servername: 112.132.215.108
-  port: 50002
-  skip-cert-verify: true
-  alterId: 64
-  cipher: auto
 - name: 乌克兰-001
   type: vless
   network: ws
@@ -36,36 +26,6 @@ proxies:
     headers:
       Host: 7-m16.PhUkEt2035.kdNS.fr
     path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- name: 其他-002
-  type: vmess
-  network: ws
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  server: www.shopify.com
-  port: 443
-  skip-cert-verify: true
-  tls: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: guanwang.awsno.com
-    path: /hls/cctv5phd.m3u8
-- name: 其他-003
-  type: vless
-  network: ws
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  server: 8.35.211.236
-  servername: kkkk-xcd.pages.dev
-  port: 443
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: kkkk-xcd.pages.dev
-    path: /?ed=2048
-  client-fingerprint: chrome
 - name: 印度-001
   type: vless
   network: ws
@@ -82,23 +42,35 @@ proxies:
       Host: thus-k.netnode.cc.cd
     path: /t.me/daily_free_vpn
   client-fingerprint: chrome
-- name: 希腊-001
-  type: vless
-  network: ws
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  server: 38.54.29.210
-  servername: kkkk-xcd.pages.dev
-  port: 2053
-  skip-cert-verify: false
-  tls: true
+- name: 德国-001 |1.6MB/s
+  type: hysteria
+  server: 5.83.129.90
+  port: 54177
+  skip-cert-verify: true
   udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: kkkk-xcd.pages.dev
-    path: /?ed=2048
-  client-fingerprint: chrome
-- name: 德国-001
+  sni: apple.com
+  alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  protocol: udp
+  up: 500
+- name: 德国-002 |594KB/s
+  type: hysteria
+  server: 5.83.129.153
+  port: 20088
+  skip-cert-verify: true
+  udp: true
+  sni: apple.com
+  alpn:
+  - h3
+  protocol: udp
+  auth-str: dongtaiwang.com
+  up: 500
+  down: 1000
+  auth_str: dongtaiwang.com
+- name: 德国-003
   type: vless
   network: ws
   uuid: c18b978e-1c4e-415c-8bea-07942b563a64
@@ -113,34 +85,6 @@ proxies:
       Host: shuma.ccwu.cc
     path: /
   client-fingerprint: chrome
-- name: 德国-002 |1.6MB/s
-  type: hysteria
-  server: 5.83.129.90
-  port: 54177
-  skip-cert-verify: true
-  udp: true
-  sni: apple.com
-  alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  protocol: udp
-  up: 500
-- name: 德国-003 |594KB/s
-  type: hysteria
-  server: 5.83.129.153
-  port: 20088
-  skip-cert-verify: true
-  udp: true
-  sni: apple.com
-  alpn:
-  - h3
-  protocol: udp
-  auth-str: dongtaiwang.com
-  up: 500
-  down: 1000
-  auth_str: dongtaiwang.com
 - name: 德国-004
   type: vless
   network: ws
@@ -157,98 +101,41 @@ proxies:
       Host: cf3.schzyc.cc.cd
     path: /proxyip=ProxyIP.CMLiussss.net
   client-fingerprint: chrome
-- name: 挪威-001
-  type: vless
-  network: ws
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  server: 185.125.171.128
-  servername: kkkk-xcd.pages.dev
-  port: 8443
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: kkkk-xcd.pages.dev
-    path: /?ed=2048
-  client-fingerprint: chrome
-- name: 新加坡-001
-  type: vless
-  network: ws
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  server: 43.174.195.1
-  servername: kkkk-8oc.pages.dev
-  port: 443
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: kkkk-8oc.pages.dev
-    path: /?ed=2048
-  client-fingerprint: chrome
-- name: 法国-001
-  type: vless
-  network: ws
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  server: 141.227.137.177
-  servername: kkkk-xcd.pages.dev
-  port: 2053
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: kkkk-xcd.pages.dev
-    path: /?ed=2048
-  client-fingerprint: chrome
-- name: 波兰-001
-  type: vless
-  network: ws
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  server: 103.167.234.26
-  servername: kkkk-8oc.pages.dev
-  port: 443
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: kkkk-8oc.pages.dev
-    path: /?ed=2048
-  client-fingerprint: chrome
 - name: 澳大利亚-001 |3.0MB/s|TK-AU|YT-AU|GPT⁺-AU
   type: http
   server: 159.13.44.228
   port: 443
   skip-cert-verify: true
   tls: true
-- name: 罗马尼亚-001 |3.3MB/s|TK-RO|GPT⁺-RO|GM-RO
+- name: 罗马尼亚-001 |1.0MB/s
+  type: http
+  server: 193.176.84.23
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 罗马尼亚-002 |3.3MB/s|TK-RO|GPT⁺-RO|GM-RO
   type: http
   server: 193.176.84.35
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 罗马尼亚-002 |2.3MB/s|TK-RO|GPT⁺-RO|GM-RO
+- name: 罗马尼亚-003 |2.3MB/s|TK-RO|GPT⁺-RO|GM-RO
   type: http
   server: 193.176.84.17
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 罗马尼亚-003 |1.4MB/s
+- name: 罗马尼亚-004 |1.4MB/s
   type: http
   server: 193.176.84.27
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 罗马尼亚-004 |1.3MB/s
+- name: 罗马尼亚-005 |1.3MB/s
   type: http
   server: 193.176.84.36
   port: 9002
@@ -256,37 +143,30 @@ proxies:
   tls: true
   udp: true
   sni: www.bing.com
-- name: 罗马尼亚-005 |1.2MB/s
+- name: 罗马尼亚-006 |1.2MB/s
   type: http
   server: 193.176.84.32
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 罗马尼亚-006 |1.1MB/s|TK-RO|GPT⁺-RO|GM-RO
+- name: 罗马尼亚-007 |1.1MB/s|TK-RO|GPT⁺-RO|GM-RO
   type: http
   server: 193.176.84.30
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 罗马尼亚-007 |1.1MB/s
+- name: 罗马尼亚-008 |1.1MB/s
   type: http
   server: 193.176.84.40
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 罗马尼亚-008 |1.0MB/s
-  type: http
-  server: 193.176.84.26
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
 - name: 罗马尼亚-009 |1.0MB/s
   type: http
-  server: 193.176.84.23
+  server: 193.176.84.26
   port: 9002
   skip-cert-verify: true
   tls: true
@@ -407,16 +287,16 @@ proxies:
     host: hub-ee-01.hanvpn.cc
     mode: auto
     path: /ee01-xhttp-8e47a/
-- name: 荷兰-001 |2.1MB/s|TK-NL|GPT⁺-NL|GM-NL
-  type: http
-  server: 84.17.47.150
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-- name: 荷兰-002 |1.8MB/s|TK-NL|GPT⁺-NL|GM-NL
+- name: 荷兰-001 |1.8MB/s|TK-NL|GPT⁺-NL|GM-NL
   type: http
   server: 5.255.118.82
   port: 443
+  skip-cert-verify: true
+  tls: true
+- name: 荷兰-002 |2.1MB/s|TK-NL|GPT⁺-NL|GM-NL
+  type: http
+  server: 84.17.47.150
+  port: 9002
   skip-cert-verify: true
   tls: true
 - name: 荷兰-003 |1.8MB/s|TK-NL|GPT⁺-NL
@@ -431,22 +311,6 @@ proxies:
   port: 9002
   skip-cert-verify: true
   tls: true
-- name: 韩国-001
-  type: vless
-  network: ws
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  server: 110.10.178.240
-  servername: kkkk-8oc.pages.dev
-  port: 443
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: kkkk-8oc.pages.dev
-    path: /?ed=2048
-  client-fingerprint: chrome
 - name: 香港-001
   type: vless
   network: ws

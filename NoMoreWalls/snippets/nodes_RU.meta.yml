@@ -1,12 +1,4 @@
 proxies:
-- name: 俄罗斯
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: gta.internet-card.sbs
-  skip-cert-verify: true
-  sni: gta.internet-card.sbs
-  tls: false
-  type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇷🇺
   obfs: salamander
   obfs-password: 09p333uviv2qal0y
@@ -17,10 +9,3 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- cipher: aes-256-gcm
-  name: 🇷🇺RU_1|2.0MB/s
-  password: 81a20429165df87e
-  port: '10081'
-  server: 195.133.23.200
-  type: ss
-  udp: true
