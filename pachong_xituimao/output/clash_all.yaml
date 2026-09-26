@@ -270,25 +270,25 @@ proxies:
       path: /ws-vmess
       headers:
         Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-  - name: 🇯🇵JP_1|1.1MB/s - undefinedms
+  - name: 🇹🇼_TW_中国台湾 - undefinedms
     type: vmess
-    server: 64.176.51.214
-    port: 23462
-    uuid: 95c5abc1-018d-4628-89a7-25ab9c62ab74
+    server: 654168416355441.oylfmxz.cn
+    port: 443
+    uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     network: ws
     ws-opts:
-      path: /a15206
+      path: /
       headers:
-        Host: 64.176.51.214
-  - name: 🇫🇮FI_2|1.4MB/s - undefinedms
+        Host: 654168416355441.oylfmxz.cn
+  - name: 🇨🇳_CN_中国 - undefinedms
     type: vmess
-    server: me6.movieseryalirani.ir
-    port: 57361
-    uuid: ed815caa-bff1-4419-8c61-1d108eabaf1f
-    alterId: 0
+    server: 112.132.215.108
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
     cipher: auto
     tls: false
     network: tcp
@@ -760,28 +760,6 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: p132.613055.xyz
-  - name: 🇹🇼_TW_中国台湾 - undefinedms
-    type: vmess
-    server: 654168416355441.oylfmxz.cn
-    port: 443
-    uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 654168416355441.oylfmxz.cn
-  - name: 🇨🇳_CN_中国 - undefinedms
-    type: vmess
-    server: 112.132.215.108
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 🇺🇸_US_美国 - undefinedms
     type: vmess
     server: 165.140.217.2
@@ -901,8 +879,8 @@ proxy-groups:
       - 🇩🇪_德国_169 - undefinedms
       - 🇩🇪_德国_170 - undefinedms
       - 🇮🇳_印度_178 - undefinedms
-      - 🇯🇵JP_1|1.1MB/s - undefinedms
-      - 🇫🇮FI_2|1.4MB/s - undefinedms
+      - 🇹🇼_TW_中国台湾 - undefinedms
+      - 🇨🇳_CN_中国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -939,8 +917,6 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
-      - 🇹🇼_TW_中国台湾 - undefinedms
-      - 🇨🇳_CN_中国 - undefinedms
       - 🇺🇸_US_美国 - undefinedms
       - 🇨🇳_CN_中国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
@@ -978,8 +954,8 @@ proxy-groups:
       - 🇩🇪_德国_169 - undefinedms
       - 🇩🇪_德国_170 - undefinedms
       - 🇮🇳_印度_178 - undefinedms
-      - 🇯🇵JP_1|1.1MB/s - undefinedms
-      - 🇫🇮FI_2|1.4MB/s - undefinedms
+      - 🇹🇼_TW_中国台湾 - undefinedms
+      - 🇨🇳_CN_中国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -1016,8 +992,6 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
-      - 🇹🇼_TW_中国台湾 - undefinedms
-      - 🇨🇳_CN_中国 - undefinedms
       - 🇺🇸_US_美国 - undefinedms
       - 🇨🇳_CN_中国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms

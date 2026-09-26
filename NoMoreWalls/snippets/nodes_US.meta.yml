@@ -7,6 +7,16 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
+- name: '✅  @vistav2ray  👈👈کانال ما ✅ #1'
+  obfs: salamander
+  obfs-password: d2e3c1b8a16952ae9cf06dfc05b3588a
+  password: af24a0e4-f5a2-4b97-a678-992d45346147
+  port: 30865
+  server: 108.186.180.148
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -51,85 +61,103 @@ proxies:
   server: gd.bjnet2.com
   type: ss
 - client-fingerprint: chrome
-  encryption: mlkem768x25519plus.random.0rtt.100-111-1111.75-0-111.50-0-3333.ujGwPjrSYI7GdKHFCqCefmLjOscWkoX4m_3s_1yZrEo
-  flow: xtls-rprx-vision
-  name: 🇺🇸US_1|2.3MB/s
+  encryption: none
+  name: 🇺🇸US_1|2.1MB/s
   network: tcp
-  port: '443'
+  port: '3303'
   reality-opts:
-    public-key: lsDSttIgw1roTVhNzcliywH74lXtRShbmMOoxUjQtkw
-    short-id: '!!str b684d13617792bb2'
-  server: c9e32b0b8700d8dd.us-1.globalmymusic.com
-  servername: thestraightpath.ca
+    public-key: xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8
+    short-id: '!!str e3085d4fc679ba12'
+  server: p11real444.greewebservices.ir
+  servername: amp-api-edge.apps.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 40490a7c-5b04-4fe3-8a68-29de9a96c091
+  uuid: a11cb858-4a42-4735-b40b-4cba1560b959
   xudp: true
-- down: ''
-  fingerprint: ''
-  name: 🇺🇸US_2|2.2MB/s
-  obfs: salamander
-  obfs-password: maintell
-  password: maintell
-  port: '2053'
-  server: 107.172.67.52
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-  up: ''
-- encryption: none
-  name: 🇺🇸US_3|2.8MB/s
-  network: ws
-  port: '8080'
-  server: 188.114.97.6
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_2|2.5MB/s
+  network: tcp
+  port: '1290'
+  reality-opts:
+    public-key: xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8
+    short-id: '!!str 9b60d3'
+  server: p1real7.greewebservices.ir
+  servername: play.googleapis.com
+  tls: true
   type: vless
   udp: true
-  uuid: 419b7a2c-9fa2-4870-b58a-0498ccc7d6c4
+  uuid: a11cb858-4a42-4735-b40b-4cba1560b959
+  xudp: true
+- encryption: none
+  name: 🇺🇸US_3|1.0MB/s
+  network: ws
+  port: '80'
+  server: 91.206.71.8
+  type: vless
+  udp: true
+  uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
   ws-opts:
     headers:
-      Host: server16.peekconfig.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /eyJqdW5rIjoiYXdUWFpSYnZubU5hIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSIsIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=?ed=2560
+      Host: round-haze-8783.294.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/32.0.1700.107 Safari/537.36
+    path: /pyip=Telegram🇨🇳+@WangCai2
   xudp: true
-- name: 🇺🇸US_4|2.7MB/s
-  port: 443
-  server: 149.34.248.65
-  skip-cert-verify: true
-  sni: 149.34.248.65
+- encryption: none
+  name: 🇺🇸US_4|1.1MB/s
+  network: ws
+  port: '8880'
+  server: 155.46.213.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_5|2.3MB/s
+  network: ws
+  port: '443'
+  server: 172.67.212.14
+  servername: 4-m19.SoUTh-aFRiCA-OnlInE.cCWU.cC
   tls: true
-  type: http
-- name: 🇺🇸US_5|2.6MB/s
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
-  skip-cert-verify: true
-  sni: anytls2.864106.xyz
-  type: anytls
+  type: vless
+  udp: true
+  uuid: a90c264d-3853-4eef-9a3d-628b2d02d15e
+  ws-opts:
+    headers:
+      Host: 4-m19.sOUth-afRiCA-onLIne.cCwu.Cc
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /CjBjB9sn5pCvaSwScc
+  xudp: true
 - name: 🇺🇸US_6|2.5MB/s
+  password: ''
   port: 9443
   server: 38.95.111.226
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_7|2.8MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
+  udp: true
+  username: ''
+- name: 🇺🇸US_7|1.7MB/s
+  password: e4b72b531a2d10900519
+  port: 443
+  server: 147.182.216.4
+  sni: 93b6d804.acsnet.co
   tls: true
   type: http
-  username: null
-- name: 🇺🇸US_8|1.1MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_9|2.8MB/s
+  username: testuser1
+- name: 🇺🇸US_8|3.0MB/s
   password: ''
   port: 443
   server: 149.88.21.129
@@ -138,36 +166,32 @@ proxies:
   type: http
   udp: true
   username: ''
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_10|1.9MB/s
-  network: ws
-  port: 443
-  server: ghosts-spasm.quick-cdn.net
-  servername: ghosts-spasm.quick-cdn.net
-  tls: true
-  type: vless
-  uuid: 5d76bd7c-d538-432f-a7d8-9be364427a19
-  ws-opts:
-    headers:
-      Host: ghosts-spasm.quick-cdn.net
-    path: /ws
-- client-fingerprint: safari
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇺🇸US_11|2.5MB/s
+  name: 🇺🇸US_9|1.3MB/s
   network: tcp
-  port: '443'
+  port: '11000'
   reality-opts:
-    public-key: 0dIyov95G3A1ySANsJzdYY9DGLvaIFU8ofJf3Jtv1Ds
-    short-id: '!!str befa80d97af98b74'
-  server: 38.244.20.25
-  servername: www.apple.com
+    public-key: sFRyah8EOSGcab8TfIdkq53c5HBSwAVfYQCyvZ0_BG4
+    short-id: '!!str '
+  server: mg.zhujue.us
+  servername: s0.awsstatic.com
   tls: true
   type: vless
   udp: true
-  uuid: 5272cd9f-a028-4452-ad8a-9bc21f87bb19
+  uuid: 4bf974c5-35f1-4673-8acb-4d66b678c749
   xudp: true
+- fingerprint: ''
+  name: 🇺🇸US_10|4.0MB/s
+  password: 1095c731-affa-4f85-a9c8-61e495e56aca
+  port: '51043'
+  server: 03-e0.37662006-19e6-4858-ace1-df9d1a149332.abccba.top
+  skip-cert-verify: false
+  sni: dl.hu-yunpan.top
+  type: anytls
+  udp: true
+  username: 1095c731-affa-4f85-a9c8-61e495e56aca
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
