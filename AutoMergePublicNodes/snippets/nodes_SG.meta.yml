@@ -9,21 +9,19 @@ proxies:
   port: 36604
   server: gd.bjnet2.com
   type: ss
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_1|4.2MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: -LuhwN_cSgNr7nYIfCcu_XAjviKVSGwVGHxmB-s1AD0
-    short-id: '!!str e3a4bdfe3d6fd8ec'
-  server: 163.128.99.14
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: bda35755-c838-49c3-a19e-3712f2d54275
-- name: 🇸🇬SG_2|2.8MB/s
+- down: ''
+  fingerprint: ''
+  name: 🇸🇬SG_1|4.4MB/s
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: '443'
+  server: vpn-sg-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-sg-001.fastervpn.world
+  type: hysteria2
+  up: ''
+- name: 🇸🇬SG_2|1.9MB/s
   password: ''
   port: 9443
   server: 149.88.99.209
@@ -32,3 +30,24 @@ proxies:
   type: http
   udp: true
   username: ''
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬SG_3|1.8MB/s
+  network: ws
+  port: '443'
+  server: 170.114.52.22
+  servername: asia.csmasterofficial.store
+  tls: true
+  type: vless
+  udp: true
+  uuid: 38415950-f815-4ca8-94d0-6cbf22be7566
+  ws-opts:
+    headers:
+      Host: asia.csmasterofficial.store
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/39.0.2171.95 Safari/537.36
+    path: /cs
+  xudp: true
