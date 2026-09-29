@@ -1,31 +1,66 @@
 proxies:
-- name: 乌克兰-001
-  type: vless
+- name: 其他-001
+  type: vmess
   network: ws
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  server: 213.111.148.137
-  servername: shuma.ccwu.cc
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  server: guanwang.awsno.com
   port: 443
   skip-cert-verify: true
   tls: true
-  udp: true
+  alterId: 0
+  cipher: auto
   ws-opts:
     headers:
-      Host: shuma.ccwu.cc
-    path: /
-  client-fingerprint: chrome
-- name: 其他-001
+      Host: guanwang.awsno.com
+    path: /hls/cctv5phd.m3u8
+- name: 其他-002
   type: vless
   network: ws
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
-  server: 104.21.87.109
-  servername: 7-m16.PhUkEt2035.kdNS.fr
+  uuid: 2e305ebe-f6e6-4689-b32f-cd04ab5ff541
+  server: 188.114.96.9
+  servername: idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev
   port: 443
+  skip-cert-verify: false
   tls: true
+  udp: true
+  tfo: false
   ws-opts:
     headers:
-      Host: 7-m16.PhUkEt2035.kdNS.fr
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
+      Host: idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev
+    path: /vl/9yvcoLdzdOXLUYfH7r5gwJhu1CHrj
+  client-fingerprint: chrome
+- name: 其他-003
+  type: vless
+  network: ws
+  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+  server: 104.19.154.200
+  servername: free.cndyw.ggff.net
+  port: 443
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: free.cndyw.ggff.net
+    path: pyip=bpb.yousef.isegaro.com
+  client-fingerprint: chrome
+- name: 其他-004
+  type: vless
+  network: ws
+  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
+  server: fbsv6.guardora.pro
+  servername: fbsv6.guardora.pro
+  port: 443
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: fbsv6.guardora.pro
+    path: /ws
+  client-fingerprint: firefox
 - name: 印度-001
   type: vless
   network: ws
@@ -70,72 +105,34 @@ proxies:
   up: 500
   down: 1000
   auth_str: dongtaiwang.com
-- name: 德国-003
-  type: vless
-  network: ws
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  server: 109.176.202.20
-  servername: shuma.ccwu.cc
-  port: 443
-  skip-cert-verify: true
-  tls: true
-  udp: true
-  ws-opts:
-    headers:
-      Host: shuma.ccwu.cc
-    path: /
-  client-fingerprint: chrome
-- name: 德国-004
-  type: vless
-  network: ws
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  server: 64.226.95.244
-  servername: cf3.schzyc.cc.cd
-  port: 2096
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: cf3.schzyc.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net
-  client-fingerprint: chrome
 - name: 澳大利亚-001 |3.0MB/s|TK-AU|YT-AU|GPT⁺-AU
   type: http
   server: 159.13.44.228
   port: 443
   skip-cert-verify: true
   tls: true
-- name: 罗马尼亚-001 |1.0MB/s
-  type: http
-  server: 193.176.84.23
-  port: 9002
-  skip-cert-verify: true
-  tls: true
-  sni: www.bing.com
-- name: 罗马尼亚-002 |3.3MB/s|TK-RO|GPT⁺-RO|GM-RO
+- name: 罗马尼亚-001 |3.3MB/s|TK-RO|GPT⁺-RO|GM-RO
   type: http
   server: 193.176.84.35
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 罗马尼亚-003 |2.3MB/s|TK-RO|GPT⁺-RO|GM-RO
+- name: 罗马尼亚-002 |2.3MB/s|TK-RO|GPT⁺-RO|GM-RO
   type: http
   server: 193.176.84.17
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 罗马尼亚-004 |1.4MB/s
+- name: 罗马尼亚-003 |1.4MB/s
   type: http
   server: 193.176.84.27
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 罗马尼亚-005 |1.3MB/s
+- name: 罗马尼亚-004 |1.3MB/s
   type: http
   server: 193.176.84.36
   port: 9002
@@ -143,23 +140,30 @@ proxies:
   tls: true
   udp: true
   sni: www.bing.com
-- name: 罗马尼亚-006 |1.2MB/s
+- name: 罗马尼亚-005 |1.2MB/s
   type: http
   server: 193.176.84.32
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 罗马尼亚-007 |1.1MB/s|TK-RO|GPT⁺-RO|GM-RO
+- name: 罗马尼亚-006 |1.1MB/s|TK-RO|GPT⁺-RO|GM-RO
   type: http
   server: 193.176.84.30
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 罗马尼亚-008 |1.1MB/s
+- name: 罗马尼亚-007 |1.1MB/s
   type: http
   server: 193.176.84.40
+  port: 9002
+  skip-cert-verify: true
+  tls: true
+  sni: www.bing.com
+- name: 罗马尼亚-008 |1.0MB/s
+  type: http
+  server: 193.176.84.23
   port: 9002
   skip-cert-verify: true
   tls: true
@@ -248,55 +252,66 @@ proxies:
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 美国-001 |3.3MB/s|TK-US|YT-US|GPT⁺-US|GM-US
+- name: 美国-001
+  type: vless
+  network: ws
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: 63.141.128.30
+  port: 8880
+  ws-opts:
+    headers:
+      Host: vms.lifetime42.workers.dev
+    path: /
+- name: 美国-002 |3.3MB/s|TK-US|YT-US|GPT⁺-US|GM-US
   type: http
   server: 138.199.35.215
   port: 9002
   skip-cert-verify: true
   tls: true
-- name: 美国-002 |3.2MB/s|TK-US|YT-US|GPT⁺-US|GM-US
+- name: 美国-003 |3.2MB/s|TK-US|YT-US|GPT⁺-US|GM-US
   type: http
   server: 38.28.193.188
   port: 443
   skip-cert-verify: true
   tls: true
-- name: 美国-003 |1.5MB/s|TK-US|YT-US|GPT⁺-US|GM-US
+- name: 美国-004 |1.5MB/s|TK-US|YT-US|GPT⁺-US|GM-US
   type: http
   server: 209.148.53.153
   port: 8090
   skip-cert-verify: true
   tls: true
-- name: 美国-004 |1.0MB/s|TK-US|GPT⁺-US
+- name: 美国-005 |1.0MB/s|TK-US|GPT⁺-US
   type: http
   server: 138.199.35.198
   port: 9002
   skip-cert-verify: true
   tls: true
-- name: 芬兰-001
+- name: 英国-001
   type: vless
-  network: xhttp
-  uuid: d9d0f208-d582-41d5-bb7b-742671402810
-  server: 31.76.226.100
-  servername: hub-ee-01.hanvpn.cc
-  port: 9443
+  network: ws
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  server: 91.193.58.108
+  servername: free-server.techsonic.dev
+  port: 2096
+  skip-cert-verify: false
   tls: true
   udp: true
-  xudp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: free-server.techsonic.dev
+    path: /free-server.techsonic.dev
   client-fingerprint: chrome
-  xhttp-opts:
-    host: hub-ee-01.hanvpn.cc
-    mode: auto
-    path: /ee01-xhttp-8e47a/
-- name: 荷兰-001 |1.8MB/s|TK-NL|GPT⁺-NL|GM-NL
-  type: http
-  server: 5.255.118.82
-  port: 443
-  skip-cert-verify: true
-  tls: true
-- name: 荷兰-002 |2.1MB/s|TK-NL|GPT⁺-NL|GM-NL
+- name: 荷兰-001 |2.1MB/s|TK-NL|GPT⁺-NL|GM-NL
   type: http
   server: 84.17.47.150
   port: 9002
+  skip-cert-verify: true
+  tls: true
+- name: 荷兰-002 |1.8MB/s|TK-NL|GPT⁺-NL|GM-NL
+  type: http
+  server: 5.255.118.82
+  port: 443
   skip-cert-verify: true
   tls: true
 - name: 荷兰-003 |1.8MB/s|TK-NL|GPT⁺-NL
@@ -311,20 +326,3 @@ proxies:
   port: 9002
   skip-cert-verify: true
   tls: true
-- name: 香港-001
-  type: vless
-  network: ws
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  server: 23.249.18.144
-  servername: cdn8848.776676.xyz
-  port: 8581
-  skip-cert-verify: true
-  tls: true
-  ws-opts:
-    headers:
-      Host: cdn8848.776676.xyz
-    path: /channels/act?ed=2560
-  client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com

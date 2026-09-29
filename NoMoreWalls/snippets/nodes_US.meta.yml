@@ -37,121 +37,32 @@ proxies:
     headers:
       Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
     path: /ws-vmess
+- auth: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  name: 🇺🇸US_1|2.2MB/s
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 2060
+  server: mg.mangshe.xyz
+  skip-cert-verify: true
+  sni: mg.mangshe.xyz
+  type: hysteria2
+- name: 🇺🇸US_2|2.1MB/s
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 18333
+  server: us3.xiaoliyu.cyou
+  skip-cert-verify: true
+  type: hysteria2
 - down: ''
   fingerprint: ''
-  name: 🇺🇸US_1|3.7MB/s
+  name: 🇺🇸US_3|2.3MB/s
   obfs: ''
   obfs-password: ''
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: '443'
-  server: vpn-us-006.fastervpn.world
+  port: 443
+  server: vpn-us-004.fastervpn.world
   skip-cert-verify: true
-  sni: vpn-us-006.fastervpn.world
+  sni: vpn-us-004.fastervpn.world
   type: hysteria2
   up: ''
-- name: 🇺🇸US_2|1.5MB/s
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: US_speednode_0140
-  password: None
-  port: 443
-  server: purposebydesig.club
-  skip-cert-verify: false
-  tls: true
-  type: http
-  udp: true
-  username: null
-- name: 🇺🇸US_4|2.9MB/s
-  port: 443
-  server: purposebydesig.club
-  sni: purposebydesig.club
-  tls: true
-  type: http
-- name: 🇺🇸US_5|1.9MB/s
-  port: 9443
-  server: 38.95.111.226
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_6|2.9MB/s
-  password: None
-  port: 443
-  server: efr-marktplatz.club
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_7|2.2MB/s
-  password: None
-  port: 443
-  server: goedkoopgeluid.icu
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_8|3.8MB/s
-  port: 443
-  server: webdrone.club
-  sni: webdrone.club
-  tls: true
-  type: http
-- name: 🇺🇸US_9|1.5MB/s
-  port: 8090
-  server: 173.42.49.102
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  ech-opts:
-    enable: true
-    query-server-name: cloudflare-ech.com
-  name: 🇺🇸US_10|1.2MB/s
-  network: ws
-  port: 443
-  server: cdn.8211992.xyz
-  servername: mao.mao114514.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
-  ws-opts:
-    headers:
-      Host: mao.mao114514.kdns.fr
-    path: /glasspanel/guest000_0_5de14443985f/
-- name: 🇺🇸US_11|1.6MB/s
-  password: None
-  port: 443
-  server: fullmanfirm.icu
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_12|2.1MB/s
-  port: 8090
-  server: 24.142.229.178
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_13|1014KB/s
-  password: None
-  port: 443
-  server: mmgr.club
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_14|1.1MB/s
-  password: ''
-  port: '443'
-  server: purecambogiasl.live
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
@@ -279,6 +190,13 @@ proxies:
   type: vless
   udp: true
   uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
+- name: US_speednode_0140
+  password: None
+  port: 443
+  server: purposebydesig.club
+  tls: true
+  type: http
+  udp: true
 - name: US_speednode_0141
   port: 443
   server: 38.28.193.188
