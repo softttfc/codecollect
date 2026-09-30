@@ -1,19 +1,30 @@
 proxies:
-- name: 其他-001
+- name: 中国-001
   type: vmess
-  network: ws
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  server: guanwang.awsno.com
-  port: 443
+  network: tcp
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  server: 112.132.215.108
+  port: 50002
   skip-cert-verify: true
-  tls: true
-  alterId: 0
+  alterId: 64
   cipher: auto
+- name: 中国-002
+  type: vless
+  network: ws
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  server: 129.211.188.184
+  servername: jp3.yohototo.top
+  port: 8443
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
   ws-opts:
     headers:
-      Host: guanwang.awsno.com
-    path: /hls/cctv5phd.m3u8
-- name: 其他-002
+      Host: jp3.yohototo.top
+    path: /tyxyws
+  client-fingerprint: unsafe
+- name: 其他-001
   type: vless
   network: ws
   uuid: 2e305ebe-f6e6-4689-b32f-cd04ab5ff541
@@ -29,23 +40,22 @@ proxies:
       Host: idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev
     path: /vl/9yvcoLdzdOXLUYfH7r5gwJhu1CHrj
   client-fingerprint: chrome
-- name: 其他-003
+- name: 其他-002
   type: vless
   network: ws
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
-  server: 104.19.154.200
-  servername: free.cndyw.ggff.net
+  uuid: 0799a47d-d446-4a20-8e75-441fa899fbb1
+  server: 104.16.72.70
+  servername: unnes.ac.id.r3xxe.eu.cc
   port: 443
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: true
   udp: true
   tfo: false
   ws-opts:
     headers:
-      Host: free.cndyw.ggff.net
-    path: pyip=bpb.yousef.isegaro.com
-  client-fingerprint: chrome
-- name: 其他-004
+      Host: unnes.ac.id.r3xxe.eu.cc
+    path: /id-pusat
+- name: 其他-003
   type: vless
   network: ws
   uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
@@ -61,12 +71,26 @@ proxies:
       Host: fbsv6.guardora.pro
     path: /ws
   client-fingerprint: firefox
-- name: 印度-001
+- name: 其他-004
+  type: vmess
+  network: ws
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  server: guanwang.awsno.com
+  port: 443
+  skip-cert-verify: true
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: guanwang.awsno.com
+    path: /hls/cctv5phd.m3u8
+- name: 其他-005
   type: vless
   network: ws
-  uuid: c92e12ca-ea66-4785-8675-652b35134117
-  server: 139.84.156.127
-  servername: thus-k.netnode.cc.cd
+  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+  server: 104.19.154.200
+  servername: free.cndyw.ggff.net
   port: 443
   skip-cert-verify: false
   tls: true
@@ -74,8 +98,8 @@ proxies:
   tfo: false
   ws-opts:
     headers:
-      Host: thus-k.netnode.cc.cd
-    path: /t.me/daily_free_vpn
+      Host: free.cndyw.ggff.net
+    path: pyip=bpb.yousef.isegaro.com
   client-fingerprint: chrome
 - name: 德国-001 |1.6MB/s
   type: hysteria
@@ -147,16 +171,16 @@ proxies:
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 罗马尼亚-006 |1.1MB/s|TK-RO|GPT⁺-RO|GM-RO
+- name: 罗马尼亚-006 |1.1MB/s
   type: http
-  server: 193.176.84.30
+  server: 193.176.84.40
   port: 9002
   skip-cert-verify: true
   tls: true
   sni: www.bing.com
-- name: 罗马尼亚-007 |1.1MB/s
+- name: 罗马尼亚-007 |1.1MB/s|TK-RO|GPT⁺-RO|GM-RO
   type: http
-  server: 193.176.84.40
+  server: 193.176.84.30
   port: 9002
   skip-cert-verify: true
   tls: true
