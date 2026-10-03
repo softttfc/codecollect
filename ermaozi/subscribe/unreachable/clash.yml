@@ -32,36 +32,41 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
+- name: 🇸🇬_SG_新加坡
   type: vless
-  server: us22.sofast.live
-  port: 58011
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+  server: 5.223.19.211
+  port: 80
+  uuid: 4b8a0930-1c36-4efe-b4fe-21f9ad97905c
+  network: ws
   tls: false
   skip-cert-verify: true
   udp: true
-- encryption: none
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #6'
-  network: tcp
-  port: 20018
-  server: us-vpnstore.rovilo.ir
+- name: '🇸🇬[www.v2nodes.com] vless-SG-1... #2'
+  network: ws
+  port: 80
+  server: 5.223.19.211
   tls: false
   type: vless
-  uuid: 452f869f-7720-47c3-a175-b6673e31d3e8
+  uuid: 4b8a0930-1c36-4efe-b4fe-21f9ad97905c
   ws-opts:
-    headers:
-      Host: connectivitycheck.android.com
-- cipher: 2022-blake3-aes-256-gcm
-  name: 🇫🇷[www.v2nodes.com] ss-FR-1583...
-  password: zZ+k8UwdTQ9ZTnxEodTN2YI6KrFKEAcBWgCbLZIVUTE=:LbWEdFyjKcvZcv9agyGttSn0HNap+ecf50/UrlGMBCQ=
-  port: 49548
-  server: nl-irancell3.xelfona.ir
+    path: /
+- cipher: aes-256-gcm
+  name: 🇨🇱[www.v2nodes.com] ss-CL-1564...
+  password: xBStBEVqvGwHPocc
+  port: 8388
+  server: 64.176.2.21
+  type: ss
+- cipher: 2022-blake3-chacha20-poly1305
+  name: 🇩🇪[www.v2nodes.com] ss-DE-1585...
+  password: tGXsbUDisR28c/KS0RDOlgQS1gVT7UJ5Sf0/5QvMwR4=
+  port: 59924
+  server: 130.61.42.148
   type: ss
 - cipher: aes-256-gcm
-  name: 🇲🇽[www.v2nodes.com] ss-MX-1564...
-  password: BWyPPTusFKhGgzKh
+  name: 🇮🇹[www.v2nodes.com] ss-IT-1549...
+  password: itzvpn@321
   port: 8388
-  server: 64.177.90.30
+  server: 57.131.48.45
   type: ss
 - name: 香港2|@ripaojiedian
   network: tcp
@@ -143,6 +148,115 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: '🇩🇪 德国 | DEU #1'
+  password: 44xgqIHCG64I2kMxXzr4AexLc3TmyXX1oYY5C68s2ck=
+  port: 443
+  server: 5.160.198.244
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '🇩🇪 德国 | DEU #6'
+  password: hORsoC4STBD5wyGrss0VNw
+  port: 8882
+  server: tun2.musichubmel.ir
+  type: ss
+  udp: true
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 日本 | JPN
+  port: 11775
+  server: 5do8ad4-g03.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 日本 | JPN 2
+  port: 21583
+  server: ydh8094-g03.jp01-nn-vm0.entry.fr0528.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 日本 | JPN 5
+  port: 28785
+  server: yght29g-g03.jp06-jz-vm0.entry.fr0528.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 日本 | JPN 7
+  port: 11775
+  server: g03.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a85150ba-dae3-3055-8984-700faca4d576
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 日本 | JPN 9
+  port: 21583
+  server: y4ora9g-g03.jp03-j7-vm0.entry.fr0528.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
+- alterId: 1
+  cipher: auto
+  name: '🇯🇵 日本 | JPN #1'
+  network: tcp
+  port: 11775
+  server: 5do8ad4-g03.jp02-e3-vm0.entry.fr0528.art
+  tls: false
+  type: vmess
+  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
+- alterId: 1
+  cipher: auto
+  name: '🇯🇵 日本 | JPN #2'
+  network: tcp
+  port: 21583
+  server: ydh8094-g03.jp01-nn-vm0.entry.fr0528.art
+  tls: true
+  type: vmess
+  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
+- alterId: 1
+  cipher: auto
+  name: '🇯🇵 日本 | JPN #5'
+  network: tcp
+  port: 28785
+  server: yght29g-g03.jp06-jz-vm0.entry.fr0528.art
+  tls: true
+  type: vmess
+  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
+- alterId: 1
+  cipher: auto
+  name: '🇯🇵 日本 | JPN #7'
+  network: tcp
+  port: 11775
+  server: g03.jp02-e3-vm0.entry.fr0528.art
+  tls: false
+  type: vmess
+  uuid: a85150ba-dae3-3055-8984-700faca4d576
+- alterId: 1
+  cipher: auto
+  name: '🇯🇵 日本 | JPN #9'
+  network: tcp
+  port: 21583
+  server: y4ora9g-g03.jp03-j7-vm0.entry.fr0528.art
+  tls: true
+  type: vmess
+  uuid: 425a46b5-9816-3dbf-b803-8e7c250a9043
 - name: RO_speednode_0011
   port: 9002
   server: 84.239.49.218
@@ -922,6 +1036,16 @@ proxies:
   tls: false
   type: socks5
   udp: true
+- name: 🇸🇬 新加坡 | SGP 3
+  server: 5.223.18.177
+  port: 80
+  type: vless
+  uuid: 717d03fa-4678-47a0-b27a-dff61a08ef83
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+  udp: true
 proxy-groups:
 - name: ermao.net | 🚀 节点选择
   type: select
@@ -929,10 +1053,11 @@ proxy-groups:
   - ermao.net | ♻️ 自动选择
   - DIRECT
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - '🇺🇸[www.v2nodes.com] vless-US-1... #6'
-  - 🇫🇷[www.v2nodes.com] ss-FR-1583...
-  - 🇲🇽[www.v2nodes.com] ss-MX-1564...
+  - 🇸🇬_SG_新加坡
+  - '🇸🇬[www.v2nodes.com] vless-SG-1... #2'
+  - 🇨🇱[www.v2nodes.com] ss-CL-1564...
+  - 🇩🇪[www.v2nodes.com] ss-DE-1585...
+  - 🇮🇹[www.v2nodes.com] ss-IT-1549...
   - 香港2|@ripaojiedian
   - 香港3|@ripaojiedian
   - 香港4|@ripaojiedian
@@ -943,6 +1068,18 @@ proxy-groups:
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
   - 韩国|@ripaojiedian
+  - '🇩🇪 德国 | DEU #1'
+  - '🇩🇪 德国 | DEU #6'
+  - 🇯🇵 日本 | JPN
+  - 🇯🇵 日本 | JPN 2
+  - 🇯🇵 日本 | JPN 5
+  - 🇯🇵 日本 | JPN 7
+  - 🇯🇵 日本 | JPN 9
+  - '🇯🇵 日本 | JPN #1'
+  - '🇯🇵 日本 | JPN #2'
+  - '🇯🇵 日本 | JPN #5'
+  - '🇯🇵 日本 | JPN #7'
+  - '🇯🇵 日本 | JPN #9'
   - RO_speednode_0011
   - RO_speednode_0012
   - RO_speednode_0013
@@ -1050,14 +1187,16 @@ proxy-groups:
   - RO_speednode_0127
   - RO_speednode_0128
   - SI_speednode_0129
+  - 🇸🇬 新加坡 | SGP 3
 - name: ermao.net | ♻️ 自动选择
   type: url-test
   proxies:
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - '🇺🇸[www.v2nodes.com] vless-US-1... #6'
-  - 🇫🇷[www.v2nodes.com] ss-FR-1583...
-  - 🇲🇽[www.v2nodes.com] ss-MX-1564...
+  - 🇸🇬_SG_新加坡
+  - '🇸🇬[www.v2nodes.com] vless-SG-1... #2'
+  - 🇨🇱[www.v2nodes.com] ss-CL-1564...
+  - 🇩🇪[www.v2nodes.com] ss-DE-1585...
+  - 🇮🇹[www.v2nodes.com] ss-IT-1549...
   - 香港2|@ripaojiedian
   - 香港3|@ripaojiedian
   - 香港4|@ripaojiedian
@@ -1068,6 +1207,18 @@ proxy-groups:
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
   - 韩国|@ripaojiedian
+  - '🇩🇪 德国 | DEU #1'
+  - '🇩🇪 德国 | DEU #6'
+  - 🇯🇵 日本 | JPN
+  - 🇯🇵 日本 | JPN 2
+  - 🇯🇵 日本 | JPN 5
+  - 🇯🇵 日本 | JPN 7
+  - 🇯🇵 日本 | JPN 9
+  - '🇯🇵 日本 | JPN #1'
+  - '🇯🇵 日本 | JPN #2'
+  - '🇯🇵 日本 | JPN #5'
+  - '🇯🇵 日本 | JPN #7'
+  - '🇯🇵 日本 | JPN #9'
   - RO_speednode_0011
   - RO_speednode_0012
   - RO_speednode_0013
@@ -1175,6 +1326,7 @@ proxy-groups:
   - RO_speednode_0127
   - RO_speednode_0128
   - SI_speednode_0129
+  - 🇸🇬 新加坡 | SGP 3
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -1185,10 +1337,11 @@ proxy-groups:
   - ermao.net | ♻️ 自动选择
   - 🎯 全球直连
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - '🇺🇸[www.v2nodes.com] vless-US-1... #6'
-  - 🇫🇷[www.v2nodes.com] ss-FR-1583...
-  - 🇲🇽[www.v2nodes.com] ss-MX-1564...
+  - 🇸🇬_SG_新加坡
+  - '🇸🇬[www.v2nodes.com] vless-SG-1... #2'
+  - 🇨🇱[www.v2nodes.com] ss-CL-1564...
+  - 🇩🇪[www.v2nodes.com] ss-DE-1585...
+  - 🇮🇹[www.v2nodes.com] ss-IT-1549...
   - 香港2|@ripaojiedian
   - 香港3|@ripaojiedian
   - 香港4|@ripaojiedian
@@ -1199,6 +1352,18 @@ proxy-groups:
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
   - 韩国|@ripaojiedian
+  - '🇩🇪 德国 | DEU #1'
+  - '🇩🇪 德国 | DEU #6'
+  - 🇯🇵 日本 | JPN
+  - 🇯🇵 日本 | JPN 2
+  - 🇯🇵 日本 | JPN 5
+  - 🇯🇵 日本 | JPN 7
+  - 🇯🇵 日本 | JPN 9
+  - '🇯🇵 日本 | JPN #1'
+  - '🇯🇵 日本 | JPN #2'
+  - '🇯🇵 日本 | JPN #5'
+  - '🇯🇵 日本 | JPN #7'
+  - '🇯🇵 日本 | JPN #9'
   - RO_speednode_0011
   - RO_speednode_0012
   - RO_speednode_0013
@@ -1306,16 +1471,18 @@ proxy-groups:
   - RO_speednode_0127
   - RO_speednode_0128
   - SI_speednode_0129
+  - 🇸🇬 新加坡 | SGP 3
 - name: 📲 电报信息
   type: select
   proxies:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - '🇺🇸[www.v2nodes.com] vless-US-1... #6'
-  - 🇫🇷[www.v2nodes.com] ss-FR-1583...
-  - 🇲🇽[www.v2nodes.com] ss-MX-1564...
+  - 🇸🇬_SG_新加坡
+  - '🇸🇬[www.v2nodes.com] vless-SG-1... #2'
+  - 🇨🇱[www.v2nodes.com] ss-CL-1564...
+  - 🇩🇪[www.v2nodes.com] ss-DE-1585...
+  - 🇮🇹[www.v2nodes.com] ss-IT-1549...
   - 香港2|@ripaojiedian
   - 香港3|@ripaojiedian
   - 香港4|@ripaojiedian
@@ -1326,6 +1493,18 @@ proxy-groups:
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
   - 韩国|@ripaojiedian
+  - '🇩🇪 德国 | DEU #1'
+  - '🇩🇪 德国 | DEU #6'
+  - 🇯🇵 日本 | JPN
+  - 🇯🇵 日本 | JPN 2
+  - 🇯🇵 日本 | JPN 5
+  - 🇯🇵 日本 | JPN 7
+  - 🇯🇵 日本 | JPN 9
+  - '🇯🇵 日本 | JPN #1'
+  - '🇯🇵 日本 | JPN #2'
+  - '🇯🇵 日本 | JPN #5'
+  - '🇯🇵 日本 | JPN #7'
+  - '🇯🇵 日本 | JPN #9'
   - RO_speednode_0011
   - RO_speednode_0012
   - RO_speednode_0013
@@ -1433,16 +1612,18 @@ proxy-groups:
   - RO_speednode_0127
   - RO_speednode_0128
   - SI_speednode_0129
+  - 🇸🇬 新加坡 | SGP 3
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
   - 🎯 全球直连
   - ermao.net | 🚀 节点选择
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - '🇺🇸[www.v2nodes.com] vless-US-1... #6'
-  - 🇫🇷[www.v2nodes.com] ss-FR-1583...
-  - 🇲🇽[www.v2nodes.com] ss-MX-1564...
+  - 🇸🇬_SG_新加坡
+  - '🇸🇬[www.v2nodes.com] vless-SG-1... #2'
+  - 🇨🇱[www.v2nodes.com] ss-CL-1564...
+  - 🇩🇪[www.v2nodes.com] ss-DE-1585...
+  - 🇮🇹[www.v2nodes.com] ss-IT-1549...
   - 香港2|@ripaojiedian
   - 香港3|@ripaojiedian
   - 香港4|@ripaojiedian
@@ -1453,6 +1634,18 @@ proxy-groups:
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
   - 韩国|@ripaojiedian
+  - '🇩🇪 德国 | DEU #1'
+  - '🇩🇪 德国 | DEU #6'
+  - 🇯🇵 日本 | JPN
+  - 🇯🇵 日本 | JPN 2
+  - 🇯🇵 日本 | JPN 5
+  - 🇯🇵 日本 | JPN 7
+  - 🇯🇵 日本 | JPN 9
+  - '🇯🇵 日本 | JPN #1'
+  - '🇯🇵 日本 | JPN #2'
+  - '🇯🇵 日本 | JPN #5'
+  - '🇯🇵 日本 | JPN #7'
+  - '🇯🇵 日本 | JPN #9'
   - RO_speednode_0011
   - RO_speednode_0012
   - RO_speednode_0013
@@ -1560,16 +1753,18 @@ proxy-groups:
   - RO_speednode_0127
   - RO_speednode_0128
   - SI_speednode_0129
+  - 🇸🇬 新加坡 | SGP 3
 - name: 🍎 苹果服务
   type: select
   proxies:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - '🇺🇸[www.v2nodes.com] vless-US-1... #6'
-  - 🇫🇷[www.v2nodes.com] ss-FR-1583...
-  - 🇲🇽[www.v2nodes.com] ss-MX-1564...
+  - 🇸🇬_SG_新加坡
+  - '🇸🇬[www.v2nodes.com] vless-SG-1... #2'
+  - 🇨🇱[www.v2nodes.com] ss-CL-1564...
+  - 🇩🇪[www.v2nodes.com] ss-DE-1585...
+  - 🇮🇹[www.v2nodes.com] ss-IT-1549...
   - 香港2|@ripaojiedian
   - 香港3|@ripaojiedian
   - 香港4|@ripaojiedian
@@ -1580,6 +1775,18 @@ proxy-groups:
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
   - 韩国|@ripaojiedian
+  - '🇩🇪 德国 | DEU #1'
+  - '🇩🇪 德国 | DEU #6'
+  - 🇯🇵 日本 | JPN
+  - 🇯🇵 日本 | JPN 2
+  - 🇯🇵 日本 | JPN 5
+  - 🇯🇵 日本 | JPN 7
+  - 🇯🇵 日本 | JPN 9
+  - '🇯🇵 日本 | JPN #1'
+  - '🇯🇵 日本 | JPN #2'
+  - '🇯🇵 日本 | JPN #5'
+  - '🇯🇵 日本 | JPN #7'
+  - '🇯🇵 日本 | JPN #9'
   - RO_speednode_0011
   - RO_speednode_0012
   - RO_speednode_0013
@@ -1687,6 +1894,7 @@ proxy-groups:
   - RO_speednode_0127
   - RO_speednode_0128
   - SI_speednode_0129
+  - 🇸🇬 新加坡 | SGP 3
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -1715,10 +1923,11 @@ proxy-groups:
   - 🎯 全球直连
   - ermao.net | ♻️ 自动选择
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - '🇺🇸[www.v2nodes.com] vless-US-1... #6'
-  - 🇫🇷[www.v2nodes.com] ss-FR-1583...
-  - 🇲🇽[www.v2nodes.com] ss-MX-1564...
+  - 🇸🇬_SG_新加坡
+  - '🇸🇬[www.v2nodes.com] vless-SG-1... #2'
+  - 🇨🇱[www.v2nodes.com] ss-CL-1564...
+  - 🇩🇪[www.v2nodes.com] ss-DE-1585...
+  - 🇮🇹[www.v2nodes.com] ss-IT-1549...
   - 香港2|@ripaojiedian
   - 香港3|@ripaojiedian
   - 香港4|@ripaojiedian
@@ -1729,6 +1938,18 @@ proxy-groups:
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
   - 韩国|@ripaojiedian
+  - '🇩🇪 德国 | DEU #1'
+  - '🇩🇪 德国 | DEU #6'
+  - 🇯🇵 日本 | JPN
+  - 🇯🇵 日本 | JPN 2
+  - 🇯🇵 日本 | JPN 5
+  - 🇯🇵 日本 | JPN 7
+  - 🇯🇵 日本 | JPN 9
+  - '🇯🇵 日本 | JPN #1'
+  - '🇯🇵 日本 | JPN #2'
+  - '🇯🇵 日本 | JPN #5'
+  - '🇯🇵 日本 | JPN #7'
+  - '🇯🇵 日本 | JPN #9'
   - RO_speednode_0011
   - RO_speednode_0012
   - RO_speednode_0013
@@ -1836,6 +2057,7 @@ proxy-groups:
   - RO_speednode_0127
   - RO_speednode_0128
   - SI_speednode_0129
+  - 🇸🇬 新加坡 | SGP 3
 rule-providers:
   LocalAreaNetwork:
     type: http

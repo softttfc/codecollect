@@ -1,5 +1,17 @@
 proxies:
 - cipher: aes-128-gcm
+  name: 🇺🇸[www.v2nodes.com] ss-US-1586...
+  password: 6c4993acd1ca7f12f0a18bdcb3c37c6c
+  port: 10272
+  server: 66.23.201.172
+  type: ss
+- cipher: aes-128-gcm
+  name: '🇺🇸[www.v2nodes.com] ss-US-1586... #1'
+  password: 1377d5cfafc9279a904deb3bfa4f3de2
+  port: 14680
+  server: 74.201.177.54
+  type: ss
+- cipher: aes-128-gcm
   name: 🇺🇸[www.v2nodes.com] ss-US-1584...
   password: 87e9cb62706b5cd08da95b8b423cb673
   port: 16469
@@ -16,12 +28,6 @@ proxies:
   password: 62dd75ba944947d4ca983cf1679b3797
   port: 15240
   server: 173.234.25.90
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇺🇸[www.v2nodes.com] ss-US-1583...
-  password: e5ec86c79d726d01bf0958087e0dd91f
-  port: 19743
-  server: 67.217.57.157
   type: ss
 - alterId: 0
   cipher: auto
@@ -68,4 +74,24 @@ proxies:
   server: 63182sh8-4d7b.aws-agent.net
   skip-cert-verify: true
   sni: m.ctrip.com
+  type: trojan
+- name: 🇺🇸 美国 | USA 2
+  network: ws
+  password: 43b07c4f-a447-4e39-bd2c-96b349f16d28
+  port: 2053
+  server: x.com
+  skip-cert-verify: true
+  sni: avengers2.yang-1989.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: avengers2.yang-1989.xyz
+    path: /9xg2
+- name: '🇺🇸 美国 | USA #2'
+  password: 43b07c4f-a447-4e39-bd2c-96b349f16d28
+  port: 2053
+  server: x.com
+  skip-cert-verify: true
+  sni: avengers2.yang-1989.xyz
   type: trojan
