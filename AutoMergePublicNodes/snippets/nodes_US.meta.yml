@@ -7,32 +7,57 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: 🌟75@oneclickvpnkeys
-  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
-  port: 51285
-  server: 108.181.5.106
+- auth: 4291c983-c520-46ac-82cc-48f14bef573f
+  name: '🇺🇸 美国 | USA #4'
+  password: 4291c983-c520-46ac-82cc-48f14bef573f
+  port: 35013
+  server: 129.213.91.185
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '🇺🇸[www.v2nodes.com] vless-US-1... #2'
+- client-fingerprint: chrome
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #3'
+  network: ws
+  port: 25517
+  server: 69.63.221.116
+  servername: wzs.echo.net.eu.org
+  tls: true
+  type: vless
+  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
+  ws-opts:
+    headers:
+      Host: wzs.echo.net.eu.org
+    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HBRETS1lYDldeEEFRGxhbVloPHhpEVl9AFwxSGQ9bSQ==
+- client-fingerprint: android
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #4'
+  network: ws
+  port: 5002
+  server: 213.171.31.34
+  servername: us.centermass.net
+  tls: true
+  type: vless
+  uuid: 8e8ea5d2-6941-40fb-9efe-f9062b11b2b9
+  ws-opts:
+    path: media.playback.v1.SessionGateway
+- name: '🇺🇸[www.v2nodes.com] vless-US-1... #7'
   port: 49433
   server: 31.14.123.220
   tls: false
   type: vless
   uuid: e0ff8a9b-dad3-4671-baf4-c8d466d1eb48
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: cdn.v1.AssetService
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #6'
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #11'
   network: grpc
   port: 443
-  server: 201.34.159.213
+  server: 201.34.159.221
   servername: us1.g4m1.biz
   tls: true
   type: vless
   uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
-- name: '🇺🇸[www.v2nodes.com] vless-US-1... #8'
+- name: '🇺🇸[www.v2nodes.com] vless-US-1... #13'
   network: ws
   port: 443
   server: 158.94.173.107
@@ -44,31 +69,6 @@ proxies:
     headers:
       Host: shephe.dpdns.org
     path: /fp=chrome
-- name: '🇺🇸[www.v2nodes.com] vless-US-1... #10'
-  port: 443
-  server: 169.40.42.182
-  tls: false
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- name: '🇺🇸[www.v2nodes.com] vless-US-1... #11'
-  port: 8443
-  server: 104.252.19.114
-  tls: false
-  type: vless
-  uuid: 40cba749-bca9-4089-9c02-84a357244ce0
-- client-fingerprint: edge
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #12'
-  network: ws
-  port: 8443
-  server: 85.149.211.28
-  servername: hk.152568.xyz
-  tls: true
-  type: vless
-  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
-  ws-opts:
-    headers:
-      Host: hk.152568.xyz
-    path: /cdn/packages/runtime-core.tar.gz
 - cipher: aes-128-gcm
   name: 🇺🇸[www.v2nodes.com] ss-US-1586...
   password: 6c4993acd1ca7f12f0a18bdcb3c37c6c
@@ -93,12 +93,22 @@ proxies:
   port: 10676
   server: 66.23.204.219
   type: ss
-- cipher: aes-128-gcm
-  name: '🇺🇸[www.v2nodes.com] ss-US-1584... #2'
-  password: 62dd75ba944947d4ca983cf1679b3797
-  port: 15240
-  server: 173.234.25.90
-  type: ss
+- name: '🇺🇸 美国 | USA #3'
+  password: UX82473651
+  port: 443
+  server: guided-ferret.rooster465.autos
+  skip-cert-verify: true
+  sni: guided-ferret.rooster465.autos
+  type: trojan
+  udp: true
+- name: '🇺🇸 美国 | USA #6'
+  password: UX82473651
+  port: 443
+  server: happy-gibbon.rooster465.autos
+  skip-cert-verify: true
+  sni: happy-gibbon.rooster465.autos
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国|@ripaojiedian
@@ -171,193 +181,34 @@ proxies:
         like Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /?ed=2560
   xudp: true
-- auth: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
-  name: '🇷🇺 俄罗斯 | RUS #2'
-  password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
-  port: 22443
-  server: 91.240.86.70
-  skip-cert-verify: true
-  sni: 91.240.86.70
-  tls: false
-  type: hysteria2
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #2'
-  network: ws
-  port: 443
-  server: grimness-backlogs.cdn-content.com
-  servername: grimness-backlogs.cdn-content.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7d7c2c1a-5220-431e-afb0-3b588baffb83
-  ws-opts:
-    headers:
-      Host: grimness-backlogs.cdn-content.com
-    path: /ws
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #3'
-  network: ws
-  port: 443
-  server: bounded-crammed.video-streams.org
-  servername: bounded-crammed.video-streams.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 18dee1c0-77be-4596-88d6-c23bd83fdae6
-  ws-opts:
-    headers:
-      Host: bounded-crammed.video-streams.org
-    path: /ws
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #4'
-  network: ws
-  port: 443
-  server: piracy-android.video-streams.org
-  servername: piracy-android.video-streams.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3469b316-bd3d-4170-a30f-688b1c0972d7
-  ws-opts:
-    headers:
-      Host: piracy-android.video-streams.org
-    path: /ws
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #5'
-  network: ws
-  port: 443
-  server: bounded-crammed.video-streams.org
-  servername: bounded-crammed.video-streams.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: e2acf71a-5b4d-4a5f-b95a-697a3e4a62ad
-  ws-opts:
-    headers:
-      Host: bounded-crammed.video-streams.org
-    path: /ws
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #7'
-  network: ws
-  port: 443
-  server: adheres-scruple.quick-cdn.net
-  servername: adheres-scruple.quick-cdn.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3469b316-bd3d-4170-a30f-688b1c0972d7
-  ws-opts:
-    headers:
-      Host: adheres-scruple.quick-cdn.net
-    path: /ws
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #10'
-  network: ws
-  port: 443
-  server: adheres-scruple.quick-cdn.net
-  servername: adheres-scruple.quick-cdn.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 061117df-44af-48d5-8f3b-09c88c1874e5
-  ws-opts:
-    headers:
-      Host: adheres-scruple.quick-cdn.net
-    path: /ws
-- name: '🇺🇸 美国 | USA #11'
-  network: ws
-  port: 2052
-  server: undef.network
-  tls: false
-  type: vless
-  udp: true
-  uuid: aa5d861a-7799-41a7-bdf4-7a6414cf98fd
-  ws-opts:
-    headers:
-      Host: uwu.blueknightnet.qzz.io
-    path: /@BlueKnight_net--@BlueKnight_net
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #12'
-  network: ws
-  port: 443
-  server: piracy-android.video-streams.org
-  servername: piracy-android.video-streams.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 172db2f1-9180-4e5b-b1f5-0dfd0a05d496
-  ws-opts:
-    headers:
-      Host: piracy-android.video-streams.org
-    path: /ws
-- name: '🇺🇸 美国 | USA #13'
-  network: ws
-  port: 8080
-  server: 162.159.43.187
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  tls: false
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-    path: /?ed=2560security=tls
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 🇺🇸 美国 | USA 14
-  password: 56d8a8fd-68b8-47f8-8c7f-98cc675902db
-  port: 8443
-  reduce-rtt: false
-  request-timeout: 0
-  server: us02.uzifan.monster
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: tuic
-  udp-relay-mode: native
-  uuid: 56d8a8fd-68b8-47f8-8c7f-98cc675902db
-- name: 🇺🇸 美国 | USA 15
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 19000
-  server: anytls2.864106.xyz
-  skip-cert-verify: true
-  sni: anytls2.864106.xyz
-  type: anytls
-  udp: true
-- auth: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
-  name: 🇺🇸 美国 | USA 16
+- auth: b42d90fa667942aebc734d60
+  name: 🇦🇺 澳大利亚 | AUS
   obfs: salamander
-  obfs-password: u3Soh9_Ui0UmcuY6vk0ug8Lq
-  password: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
-  port: 7443
-  server: me17.msjia8844.site
+  obfs-password: b42d90fa667942aebc734d60
+  password: b42d90fa667942aebc734d60
+  port: 20000
+  ports: 20000-30000
+  server: 137.23.3.238
   skip-cert-verify: true
-  sni: me17.msjia8844.site
+  sni: rmgyvpn.rest
   type: hysteria2
-- name: '🇺🇸 美国 | USA #14'
-  obfs: salamander
-  obfs-password: salamander
-  password: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
-  port: 7443
-  server: me17.msjia8844.site
-  skip-cert-verify: true
-  sni: me17.msjia8844.site
-  tls: false
-  type: hysteria2
+- alpn:
+  - h2
+  client-fingerprint: ios
+  name: '🇺🇸 美国 | USA #1'
+  network: xhttp
+  port: 443
+  server: nice.iranapplecenter.com
+  servername: speedtest.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: bbb537ac-a787-6076-06d4-ef2f5a560068
+  xhttp-opts:
+    host: dorecloud.global.ssl.fastly.net
+    mode: packet-up
+    path: /
+    x-padding-bytes: 100-1000
 - name: US_speednode_0131
   password: 'null'
   port: 9002

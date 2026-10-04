@@ -11,24 +11,20 @@ proxies:
   port: 14680
   server: 74.201.177.54
   type: ss
-- cipher: aes-128-gcm
-  name: 🇺🇸[www.v2nodes.com] ss-US-1584...
-  password: 87e9cb62706b5cd08da95b8b423cb673
-  port: 16469
-  server: 103.214.111.162
-  type: ss
-- cipher: aes-128-gcm
-  name: '🇺🇸[www.v2nodes.com] ss-US-1584... #1'
-  password: 2591a42af498878e47d881cd1ed1fa9d
-  port: 10676
-  server: 66.23.204.219
-  type: ss
-- cipher: aes-128-gcm
-  name: '🇺🇸[www.v2nodes.com] ss-US-1584... #2'
-  password: 62dd75ba944947d4ca983cf1679b3797
-  port: 15240
-  server: 173.234.25.90
-  type: ss
+- name: 🇺🇸[www.v2nodes.com] trojan-US-...
+  password: UX82473651
+  port: 443
+  server: guided-ferret.rooster465.autos
+  skip-cert-verify: true
+  sni: guided-ferret.rooster465.autos
+  type: trojan
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #1'
+  password: UX82473651
+  port: 443
+  server: happy-gibbon.rooster465.autos
+  skip-cert-verify: true
+  sni: happy-gibbon.rooster465.autos
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国|@ripaojiedian
@@ -75,23 +71,9 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇺🇸 美国 | USA 2
-  network: ws
-  password: 43b07c4f-a447-4e39-bd2c-96b349f16d28
-  port: 2053
-  server: x.com
-  skip-cert-verify: true
-  sni: avengers2.yang-1989.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: avengers2.yang-1989.xyz
-    path: /9xg2
-- name: '🇺🇸 美国 | USA #2'
-  password: 43b07c4f-a447-4e39-bd2c-96b349f16d28
-  port: 2053
-  server: x.com
-  skip-cert-verify: true
-  sni: avengers2.yang-1989.xyz
-  type: trojan
+- cipher: aes-256-cfb
+  name: '🇺🇸 美国 | USA #19'
+  password: amazonskr05
+  port: 443
+  server: 98.88.75.157
+  type: ss

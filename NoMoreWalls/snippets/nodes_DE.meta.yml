@@ -20,12 +20,45 @@ proxies:
   tls: false
   type: hysteria2
 - encryption: none
-  name: 🇩🇪[www.v2nodes.com] vless-DE-1...
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #1'
+  network: tcp
+  port: 8080
+  server: 91.107.151.122
+  tls: false
+  type: vless
+  uuid: 39098241-9c6e-4fe7-abbd-7f6f6ed4512c
+  ws-opts:
+    headers:
+      Host: play.google.com
+- encryption: none
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #4'
+  network: ws
+  port: 33483
+  server: 49.13.231.249
+  tls: false
+  type: vless
+  uuid: 758a691a-45d2-4462-a0e8-991248a6994e
+  ws-opts:
+    path: /
+- encryption: none
+  name: '🇳🇱[www.v2nodes.com] vless-NL-1... #15'
+  network: ws
+  port: 443
+  server: 199.232.78.159
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  uuid: 36e8e5e8-8010-45a1-9fb7-9fa21f7e4c66
+  ws-opts:
+    headers:
+      Host: pannn1.global.ssl.fastly.net
+    path: /
+- encryption: none
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #9'
   network: ws
   port: 8444
   server: germany.tofreedom.ru
   servername: germany.tofreedom.ru
-  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 9cb2520c-148b-4bbc-a149-9d5a43ff0db3
@@ -33,7 +66,7 @@ proxies:
     headers:
       Host: germany.tofreedom.ru
     path: /c7f5317cd04691bc
-- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #2'
+- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #11'
   network: ws
   port: 80
   server: 139.162.149.105
@@ -42,9 +75,15 @@ proxies:
   uuid: 5aae7d2d-c152-42cc-afb6-fe805fb94531
   ws-opts:
     path: /
+- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #12'
+  port: 40443
+  server: arcturus.yokkastars.com
+  tls: false
+  type: vless
+  uuid: bb0f1ed0-0298-40a1-adb1-1f5d6ab33d54
 - client-fingerprint: random
   encryption: none
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #5'
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #14'
   network: ws
   port: 443
   server: 84.38.183.237
@@ -55,61 +94,24 @@ proxies:
   ws-opts:
     path: /vless
 - alpn:
-  - http/1.1
-  encryption: none
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #11'
-  network: ws
-  port: 8443
-  server: www.large-files.info
-  servername: ''
-  tls: true
-  type: vless
-  uuid: 7c99dc89-bf49-45c9-acc5-e43f36657518
-  ws-opts:
-    path: /var/www/html/video/preview/download/i8o0la
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #13'
-  network: ws
-  port: 2083
-  server: 45.88.12.110
-  servername: mol.ultimagamest.com
-  tls: true
-  type: vless
-  uuid: 7e5b1e82-73db-429a-93b2-7839a0bf4dc0
-  ws-opts:
-    path: /vless-ws
-- client-fingerprint: chrome
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #14'
-  network: ws
-  port: 443
-  server: 5.45.111.195
-  servername: shephe.dpdns.org
-  tls: true
-  type: vless
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
-  ws-opts:
-    headers:
-      Host: shephe.dpdns.org
-    path: /
-- client-fingerprint: chrome
+  - h2
   grpc-opts:
-    grpc-service-name: cdn.v1.AssetService
-  name: '🇷🇺[www.v2nodes.com] vless-RU-1... #2'
+    grpc-service-name: ajv
+  name: 🇩🇪[www.v2nodes.com] trojan-DE-...
   network: grpc
+  password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
   port: 443
-  server: 72.4.65.116
-  servername: assets-de2.pleiades.codes
-  tls: true
-  type: vless
-  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪[www.v2nodes.com] ss-DE-1583...
-  password: iku/Gfrt9YeEUUleXr2Ptf3uvs0hszCR0JHPqGSjs+c=
-  port: 11750
-  server: 31.76.11.83
-  type: ss
+  server: 31.77.168.33
+  skip-cert-verify: true
+  sni: d3-de2.cloud-cdn.xyz
+  type: trojan
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #1'
+  password: UX82473651
+  port: 443
+  server: pleased-albacore.rooster465.autos
+  skip-cert-verify: true
+  sni: pleased-albacore.rooster465.autos
+  type: trojan
 - client-fingerprint: chrome
   encryption: none
   name: 🇩🇪DE_2|1.7MB/s
@@ -128,92 +130,112 @@ proxies:
         like Gecko) Chrome/53.0.2785.143 Safari/537.36
     path: /?ed=2560
   xudp: true
-- name: '🇩🇪 德国 | DEU #1'
-  network: ws
-  port: 1280
-  server: 77.42.28.120
-  tls: false
-  type: vless
-  udp: true
-  uuid: c0e8fb58-a60f-4c15-9444-4e7c109797a8
-  ws-opts:
-    headers:
-      Host: is1-ssl.mzstatic.com
-    path: /
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: '🇩🇪 德国 | DEU #3'
-  network: ws
-  port: 80
-  server: 188.114.96.19
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: c5965d47-45d6-45af-b619-3b2a6bf896a2
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.dns-look.space.
-    path: /
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #4'
+- client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #1'
   network: ws
   port: 443
-  server: megariverport-nayab.org
-  servername: sdxih.maxpixel-hangover.sbs
+  server: 8.209.108.3
+  servername: edg-2oo.pages.dev
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: edg-2oo.pages.dev
+    path: /travel/thread/rank?ed=2560
+- client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #3'
+  network: ws
+  port: 8443
+  server: shop.neexbyte.ir
   tls: true
   type: vless
   udp: true
-  uuid: a337aa84-3152-40f0-87fc-bdcbbb3b3b5d
+  uuid: 8bb52771-052e-40b5-ab53-c6e151ad2290
   ws-opts:
     headers:
-      Host: sdxih.maxpixel-hangover.sbs
-    path: /bali
+      Host: shop.neexbyte.ir
+    path: /
 - alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 🇩🇪 德国 | DEU 5
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 500
-- auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  name: '🇩🇪 德国 | DEU #8'
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 162.249.127.143
-  skip-cert-verify: true
-  sni: hop-germany-september.dynuddns.com
-  tls: false
-  type: hysteria2
-- auth: 0a11d3b4-682c-4bfb-afb0-820b8285cb4b
-  name: '🇩🇪 德国 | DEU #10'
-  password: 0a11d3b4-682c-4bfb-afb0-820b8285cb4b
+  - h2
+  client-fingerprint: unsafe
+  name: '🇩🇪 德国 | DEU #4'
+  network: xhttp
   port: 443
-  server: mix.pantera-radio.ru
-  skip-cert-verify: true
-  sni: mix.pantera-radio.ru
-  tls: false
-  type: hysteria2
-- name: '🇩🇪 德国 | DEU #11'
+  server: s3.bamans.uk
+  servername: s3.bamans.uk
+  tls: true
+  type: vless
+  udp: true
+  uuid: 86c0996e-817e-409f-a732-ff9ef94917bd
+  xhttp-opts:
+    host: s3.bamans.uk
+    mode: stream-up
+    path: /3a6b3b038ea34622bd1e13ec5798ab03
+    x-padding-bytes: 100-1000
+- client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #5'
   network: ws
-  port: 2052
-  server: undef.network
+  port: 443
+  server: 147.45.196.83
+  servername: cf3.schzyc.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  ws-opts:
+    headers:
+      Host: cf3.schzyc.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net
+- client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #7'
+  network: ws
+  port: 2053
+  server: 204.168.173.148
+  servername: cf3.schzyc.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  ws-opts:
+    headers:
+      Host: cf3.schzyc.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net
+- encryption: mlkem768x25519plus.native.0rtt.oEfFlk7NfA_QAF1u_5EXbuXfD_8q-oPbaHXmxAjLAS0
+  name: 🇩🇪 德国 | DEU 8
+  network: ws
+  port: 80
+  server: Hshsvshshshs.G44.gymyoga.ir
   tls: false
   type: vless
   udp: true
-  uuid: aa5d861a-7799-41a7-bdf4-7a6414cf98fd
+  uuid: 03a7ce81-061b-4d22-a057-40a12aa48bae
   ws-opts:
     headers:
-      Host: uwu.blueknightnet.qzz.io
-    path: /@BlueKnight_net--@BlueKnight_net
+      Host: Hshsvshshshs.G44.gymyoga.ir
+    path: /
+- client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #9'
+  network: ws
+  port: 443
+  server: 164.92.239.67
+  servername: cf3.schzyc.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  ws-opts:
+    headers:
+      Host: cf3.schzyc.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net
+- name: '🇩🇪 德国 | DEU #8'
+  network: ws
+  port: 80
+  server: hshsvshshshs.g44.gymyoga.ir
+  tls: false
+  type: vless
+  uuid: 03a7ce81-061b-4d22-a057-40a12aa48bae
+  ws-opts:
+    headers:
+      Host: Hshsvshshshs.G44.gymyoga.ir
+    path: /

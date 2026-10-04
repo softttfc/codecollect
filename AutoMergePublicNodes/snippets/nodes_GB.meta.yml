@@ -1,6 +1,6 @@
 proxies:
 - encryption: none
-  name: '🇳🇱[www.v2nodes.com] vless-NL-1... #13'
+  name: '🇳🇱[www.v2nodes.com] vless-NL-1... #16'
   network: ws
   port: 443
   server: 199.232.78.159
@@ -28,24 +28,39 @@ proxies:
     headers:
       Host: cd-sr1.k8k8110.com
     path: /
-- encryption: none
-  grpc-opts:
+- grpc-opts:
     grpc-service-name: vless
-  name: '🇬🇧[www.v2nodes.com] vless-GB-1... #6'
+  name: '🇬🇧[www.v2nodes.com] vless-GB-1... #4'
   network: grpc
   port: 2083
-  server: 66.90.104.43
+  server: 66.90.104.42
+  servername: /telegram_tm(@azarbayjab1),telegram_tm(@azarbayjab1),telegram_tm(@azarbayjab1),telegram_tm(@azarbayjab1),telegram_tm(@azarbayjab1),telegram_tm(@azarbayjab1),telegram_tm(@azarbayjab1
   tls: true
   type: vless
   uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-- client-fingerprint: ''
-  encryption: none
-  grpc-opts:
+- grpc-opts:
     grpc-service-name: vless
-  name: '🇬🇧[www.v2nodes.com] vless-GB-1... #7'
+  name: '🇬🇧[www.v2nodes.com] vless-GB-1... #5'
   network: grpc
   port: 2083
   server: 66.90.105.211
   tls: true
   type: vless
   uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇬🇧[www.v2nodes.com] vless-GB-1... #8'
+  port: 443
+  server: 186.190.211.188
+  servername: 186.190.211.188
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+- cipher: aes-128-gcm
+  name: 🇬🇧[www.v2nodes.com] ss-GB-1451...
+  password: shadowsocks
+  port: 443
+  server: 158.173.24.73
+  type: ss
