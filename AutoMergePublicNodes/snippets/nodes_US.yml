@@ -1,44 +1,30 @@
 proxies:
 - cipher: aes-128-gcm
+  name: 🇺🇸[www.v2nodes.com] ss-US-1587...
+  password: 0b6091bbea4d8d0ab0e327902dcd3244
+  port: 16444
+  server: 103.214.109.197
+  type: ss
+- cipher: aes-128-gcm
   name: 🇺🇸[www.v2nodes.com] ss-US-1586...
   password: 6c4993acd1ca7f12f0a18bdcb3c37c6c
   port: 10272
   server: 66.23.201.172
   type: ss
-- cipher: aes-128-gcm
-  name: '🇺🇸[www.v2nodes.com] ss-US-1586... #1'
-  password: 1377d5cfafc9279a904deb3bfa4f3de2
-  port: 14680
-  server: 74.201.177.54
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇺🇸[www.v2nodes.com] ss-US-1584...
-  password: 87e9cb62706b5cd08da95b8b423cb673
-  port: 16469
-  server: 103.214.111.162
-  type: ss
-- cipher: aes-128-gcm
-  name: '🇺🇸[www.v2nodes.com] ss-US-1584... #1'
-  password: 2591a42af498878e47d881cd1ed1fa9d
-  port: 10676
-  server: 66.23.204.219
-  type: ss
-- name: '🇺🇸 美国 | USA #3'
+- name: 🇺🇸[www.v2nodes.com] trojan-US-...
   password: UX82473651
   port: 443
   server: guided-ferret.rooster465.autos
   skip-cert-verify: true
   sni: guided-ferret.rooster465.autos
   type: trojan
-  udp: true
-- name: '🇺🇸 美国 | USA #6'
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #1'
   password: UX82473651
   port: 443
   server: happy-gibbon.rooster465.autos
   skip-cert-verify: true
   sni: happy-gibbon.rooster465.autos
   type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国|@ripaojiedian
@@ -85,3 +71,24 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- cipher: aes-256-cfb
+  name: 🇺🇸US_2|3.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.95.209.183
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸US_7|2.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.84.97.225
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '🇺🇸 美国 | USA #5'
+  password: amazonskr05
+  port: 443
+  server: 54.208.227.172
+  type: ss
+  udp: true

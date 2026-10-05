@@ -1,10 +1,14 @@
 proxies:
-- client-fingerprint: firefox
-  name: '🇪🇪[www.v2nodes.com] vless-EE-1... #5'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '🇪🇪[www.v2nodes.com] vless-EE-1... #1'
   network: ws
   port: 8443
-  server: 194.26.141.148
+  server: ee10.zazazuza.ru
   servername: fdghyt.com
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03
@@ -41,21 +45,21 @@ proxies:
     headers:
       Host: fdghyt.com
     path: /vpn-wss/fluxor/59011/
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇪🇪[www.v2nodes.com] vless-EE-1... #6'
+- client-fingerprint: firefox
+  name: '🇪🇪[www.v2nodes.com] vless-EE-1... #5'
   network: ws
-  port: 2083
-  server: 141.0.187.52
-  servername: crt.dodopanel.biz
+  port: 8443
+  server: 194.26.141.148
+  servername: fdghyt.com
   tls: true
   type: vless
-  uuid: 8dd437e1-5f3f-446e-98fe-aa29b80057fb
+  uuid: 6c713691-3ca2-4446-ad25-113d1bed6b03
   ws-opts:
-    path: /vless-ws
+    headers:
+      Host: fdghyt.com
+    path: /vpn-wss/fluxor/59011/
 - client-fingerprint: chrome
-  name: '🇪🇪[www.v2nodes.com] vless-EE-1... #7'
+  name: '🇪🇪[www.v2nodes.com] vless-EE-1... #6'
   port: 8443
   server: 94.183.170.135
   servername: estproxy4.lockdwn.com
@@ -68,17 +72,3 @@ proxies:
   server: 109.206.241.10
   sni: russiapower.accesscam.org
   type: trojan
-- client-fingerprint: chrome
-  name: '🇪🇪 爱沙尼亚 | EST #1'
-  network: ws
-  port: 2087
-  server: 5.45.115.162
-  servername: cf3.schzyc.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  ws-opts:
-    headers:
-      Host: cf3.schzyc.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net

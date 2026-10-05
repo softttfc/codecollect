@@ -33,6 +33,20 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- name: 🇹🇼TW_1|1.5MB/s
+  network: ws
+  port: 443
+  server: argo6.5671234.xyz
+  servername: argo6.5671234.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
+  ws-opts:
+    headers:
+      Host: argo6.5671234.xyz
+    path: /e8e2cecb6188f7fb
 - name: 🇹🇼 🇨🇳 台湾 | TWN
   password: 9sK2mP8xQ7vL3nZ6
   port: 443
@@ -41,15 +55,26 @@ proxies:
   sni: ac7548f3ebe045b39a90288ff1e97526.lwdnxf.cn
   type: anytls
   udp: true
-- name: '🇹🇼 🇨🇳 台湾 | TWN #1'
-  network: ws
-  port: 443
-  server: argo6.5671234.xyz
-  servername: argo6.5671234.xyz
-  tls: true
-  type: vless
-  uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
-  ws-opts:
-    headers:
-      Host: argo6.5671234.xyz
-    path: /e8e2cecb6188f7fb
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 🇹🇼 🇨🇳 台湾 | TWN 3
+  password: D7286728-678E-443B-B76B-B699654C66DD
+  port: 8080
+  reduce-rtt: false
+  request-timeout: 0
+  server: tw1.dexlos.com
+  skip-cert-verify: true
+  sni: tw1.dexlos.com
+  type: tuic
+  udp-relay-mode: native
+  uuid: D7286728-678E-443B-B76B-B699654C66DD
+- name: 🇹🇼 🇨🇳 台湾 | TWN 4
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 1001
+  server: l3hl4mwo.zf-mix.9999231.xyz
+  skip-cert-verify: true
+  sni: tw01.9999231.xyz
+  type: anytls
+  udp: true

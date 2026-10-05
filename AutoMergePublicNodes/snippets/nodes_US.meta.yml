@@ -7,17 +7,21 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- auth: 4291c983-c520-46ac-82cc-48f14bef573f
-  name: '🇺🇸 美国 | USA #4'
-  password: 4291c983-c520-46ac-82cc-48f14bef573f
-  port: 35013
-  server: 129.213.91.185
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #3'
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #1'
+  network: ws
+  port: 8443
+  server: www.5199dy.com
+  servername: aaa.abcai.online
+  tls: true
+  type: vless
+  uuid: ce0cf224-1d6e-466e-a7e3-55aead76afed
+  ws-opts:
+    headers:
+      Host: aaa.abcai.online
+    path: /vless-argo
+- client-fingerprint: chrome
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #16'
   network: ws
   port: 25517
   server: 69.63.221.116
@@ -30,7 +34,7 @@ proxies:
       Host: wzs.echo.net.eu.org
     path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HBRETS1lYDldeEEFRGxhbVloPHhpEVl9AFwxSGQ9bSQ==
 - client-fingerprint: android
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #4'
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #17'
   network: ws
   port: 5002
   server: 213.171.31.34
@@ -40,75 +44,32 @@ proxies:
   uuid: 8e8ea5d2-6941-40fb-9efe-f9062b11b2b9
   ws-opts:
     path: media.playback.v1.SessionGateway
-- name: '🇺🇸[www.v2nodes.com] vless-US-1... #7'
-  port: 49433
-  server: 31.14.123.220
-  tls: false
-  type: vless
-  uuid: e0ff8a9b-dad3-4671-baf4-c8d466d1eb48
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: cdn.v1.AssetService
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #11'
-  network: grpc
-  port: 443
-  server: 201.34.159.221
-  servername: us1.g4m1.biz
-  tls: true
-  type: vless
-  uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
-- name: '🇺🇸[www.v2nodes.com] vless-US-1... #13'
-  network: ws
-  port: 443
-  server: 158.94.173.107
-  servername: shephe.dpdns.org
-  tls: true
-  type: vless
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
-  ws-opts:
-    headers:
-      Host: shephe.dpdns.org
-    path: /fp=chrome
+- cipher: aes-128-gcm
+  name: 🇺🇸[www.v2nodes.com] ss-US-1587...
+  password: 0b6091bbea4d8d0ab0e327902dcd3244
+  port: 16444
+  server: 103.214.109.197
+  type: ss
 - cipher: aes-128-gcm
   name: 🇺🇸[www.v2nodes.com] ss-US-1586...
   password: 6c4993acd1ca7f12f0a18bdcb3c37c6c
   port: 10272
   server: 66.23.201.172
   type: ss
-- cipher: aes-128-gcm
-  name: '🇺🇸[www.v2nodes.com] ss-US-1586... #1'
-  password: 1377d5cfafc9279a904deb3bfa4f3de2
-  port: 14680
-  server: 74.201.177.54
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇺🇸[www.v2nodes.com] ss-US-1584...
-  password: 87e9cb62706b5cd08da95b8b423cb673
-  port: 16469
-  server: 103.214.111.162
-  type: ss
-- cipher: aes-128-gcm
-  name: '🇺🇸[www.v2nodes.com] ss-US-1584... #1'
-  password: 2591a42af498878e47d881cd1ed1fa9d
-  port: 10676
-  server: 66.23.204.219
-  type: ss
-- name: '🇺🇸 美国 | USA #3'
+- name: 🇺🇸[www.v2nodes.com] trojan-US-...
   password: UX82473651
   port: 443
   server: guided-ferret.rooster465.autos
   skip-cert-verify: true
   sni: guided-ferret.rooster465.autos
   type: trojan
-  udp: true
-- name: '🇺🇸 美国 | USA #6'
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #1'
   password: UX82473651
   port: 443
   server: happy-gibbon.rooster465.autos
   skip-cert-verify: true
   sni: happy-gibbon.rooster465.autos
   type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国|@ripaojiedian
@@ -155,60 +116,262 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇺🇸US_1|1.1MB/s
-  password: 3fc0f254-54c3-4cf3-896b-5999a2b4c757
+- name: US_speednode_0134
   port: 443
-  server: as-us73.y1static-content-distribution.shop
-  skip-cert-verify: true
-  sni: as-us73.y1static-content-distribution.shop
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_2|1.6MB/s
-  network: ws
-  port: 443
-  server: 104.18.10.110
-  servername: 05agj.gkef.zhs.hh.vavava.kdns.fr
+  server: voteshirleysew.club
+  sni: voteshirleysew.club
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: 05agj.gkef.zhs.hh.vavava.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /?ed=2560
-  xudp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸US_2|3.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.95.209.183
+  type: ss
+  udp: true
+- name: 🇺🇸US_3|1.4MB/s
+  password: None
+  port: 443
+  server: jgwynphotoarts.pro
+  skip-cert-verify: false
+  tls: true
+  type: http
+- name: 🇺🇸US_4|3.6MB/s
+  password: None
+  port: 443
+  server: efr-marktplatz.club
+  skip-cert-verify: false
+  tls: true
+  type: http
+- name: 🇺🇸US_5|3.1MB/s
+  password: None
+  port: 443
+  server: berniesbodybla.fun
+  skip-cert-verify: false
+  tls: true
+  type: http
+- name: 🇺🇸US_6|2.0MB/s
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+- cipher: aes-256-cfb
+  name: 🇺🇸US_7|2.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.84.97.225
+  type: ss
+  udp: true
+- name: 🇺🇸US_8|4.5MB/s
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_9|1.4MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_10|3.1MB/s
+  port: 443
+  server: kimberlymilano.icu
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_11|1.9MB/s
+  port: 443
+  server: carolinafreigh.fun
+  sni: carolinafreigh.fun
+  tls: true
+  type: http
+- name: 🇺🇸US_12|4.2MB/s
+  password: 'null'
+  port: 443
+  server: crosscards.site
+  sni: crosscards.site
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_14|2.7MB/s
+  port: 8443
+  server: 45.145.72.122
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_15|2.1MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_16|2.3MB/s
+  password: 'null'
+  port: 443
+  server: tzoa.fun
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_17|3.1MB/s
+  port: 443
+  server: 148.135.10.80
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_18|2.5MB/s
+  port: 443
+  server: 167.88.60.242
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_19|1.3MB/s
+  port: 443
+  server: 12.221.146.147
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_20|1.2MB/s
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_21|2.7MB/s
+  port: 443
+  server: 68.235.56.59
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_22|3.5MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
 - auth: b42d90fa667942aebc734d60
   name: 🇦🇺 澳大利亚 | AUS
   obfs: salamander
   obfs-password: b42d90fa667942aebc734d60
   password: b42d90fa667942aebc734d60
   port: 20000
-  ports: 20000-30000
+  ports: 20000,20000-30000
   server: 137.23.3.238
   skip-cert-verify: true
   sni: rmgyvpn.rest
   type: hysteria2
-- alpn:
-  - h2
-  client-fingerprint: ios
-  name: '🇺🇸 美国 | USA #1'
+- client-fingerprint: safari
+  name: '🇷🇺 俄罗斯 | RUS #1'
   network: xhttp
-  port: 443
-  server: nice.iranapplecenter.com
-  servername: speedtest.net
+  port: 2053
+  server: 78.159.246.179
+  servername: randomquaint.net
   tls: true
   type: vless
   udp: true
-  uuid: bbb537ac-a787-6076-06d4-ef2f5a560068
+  uuid: c2bbf90c-7f13-47dd-b68d-f0bd38b6b3c8
   xhttp-opts:
-    host: dorecloud.global.ssl.fastly.net
-    mode: packet-up
+    host: randomquaint.net
+    mode: auto
+    path: /api/v1/upload
+- alpn:
+  - h2
+  - +http/1.1
+  client-fingerprint: firefox
+  name: '🇷🇺 俄罗斯 | RUS #2'
+  network: xhttp
+  port: 2053
+  server: 78.159.250.84
+  servername: summerculture.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
+  xhttp-opts:
+    host: summerculture.net
+    mode: auto
+    path: /api/v1/upload
+- auth: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
+  name: '🇺🇸 美国 | USA #1'
+  password: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
+  port: 443
+  server: 783a9a6e-tmm5c0-tvb36r-1qwom.los.hyhuawei.com
+  skip-cert-verify: true
+  sni: 783a9a6e-tmm5c0-tvb36r-1qwom.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #2'
+  network: ws
+  port: 443
+  server: 43.174.193.1
+  servername: ccc.010304.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
     path: /
-    x-padding-bytes: 100-1000
+- cipher: aes-256-cfb
+  name: '🇺🇸 美国 | USA #5'
+  password: amazonskr05
+  port: 443
+  server: 54.208.227.172
+  type: ss
+  udp: true
+- name: '🇺🇸 美国 | USA #6'
+  network: ws
+  port: 80
+  server: 172.64.53.55
+  tls: false
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- auth: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
+  name: '🇺🇸 美国 | USA #7'
+  password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
+  port: 443
+  server: be688289-tmm5c0-u1q5od-t6fv.los.hyhuawei.com
+  skip-cert-verify: true
+  sni: be688289-tmm5c0-u1q5od-t6fv.los.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: '🇺🇸 美国 | USA #8'
+  network: ws
+  port: 2082
+  server: 104.18.0.181
+  servername: hhlfy.twiladaphne.ndjp.net
+  tls: false
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: /fp
+- cipher: none
+  name: 🇺🇸 美国 | USA 9
+  password: ODI4ZjAwZGMtNDQz
+  plugin: obfs
+  plugin-opts:
+    host: upay.10010.com
+    mode: http
+  port: 80
+  server: 103.11.76.248
+  type: ss
+  udp: true
 - name: US_speednode_0131
   password: 'null'
   port: 9002
@@ -222,12 +385,6 @@ proxies:
   port: 443
   server: fan.365747.xyz
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: US_speednode_0134
-  port: 443
-  server: voteshirleysew.club
   tls: true
   type: http
   udp: true
