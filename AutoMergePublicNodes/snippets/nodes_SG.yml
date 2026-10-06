@@ -1,5 +1,11 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: 🇸🇬[www.v2nodes.com] ss-SG-1589...
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 8443
+  server: 13.212.109.205
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 🇸🇬[www.v2nodes.com] ss-SG-1581...
   password: 9epp3o9ng8ej59uv
   port: 14249
@@ -14,29 +20,32 @@ proxies:
 - name: 🇸🇬[www.v2nodes.com] trojan-SG-...
   password: UX82473651
   port: 443
-  server: pet-antelope.rooster465.autos
-  skip-cert-verify: true
-  sni: pet-antelope.rooster465.autos
+  server: holy-lamb.rooster465.autos
+  sni: holy-lamb.rooster465.autos
   type: trojan
 - name: '🇸🇬[www.v2nodes.com] trojan-SG-... #1'
   password: UX82473651
   port: 443
-  server: desired-boxer.rooster465.autos
+  server: pet-antelope.rooster465.autos
   skip-cert-verify: true
-  sni: desired-boxer.rooster465.autos
+  sni: pet-antelope.rooster465.autos
   type: trojan
 - name: '🇸🇬[www.v2nodes.com] trojan-SG-... #2'
   password: UX82473651
   port: 443
-  server: real-cardinal.rooster465.autos
-  skip-cert-verify: true
-  sni: real-cardinal.rooster465.autos
+  server: desired-boxer.rooster465.autos
+  sni: desired-boxer.rooster465.autos
   type: trojan
 - name: '🇸🇬[www.v2nodes.com] trojan-SG-... #3'
   password: UX82473651
   port: 443
+  server: real-cardinal.rooster465.autos
+  sni: real-cardinal.rooster465.autos
+  type: trojan
+- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #4'
+  password: UX82473651
+  port: 443
   server: glowing-marmoset.rooster465.autos
-  skip-cert-verify: true
   sni: glowing-marmoset.rooster465.autos
   type: trojan
 - alterId: 0

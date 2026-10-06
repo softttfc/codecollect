@@ -1,20 +1,20 @@
 {
-  "checked_at": "2026-10-05T00:49:50.409228+00:00",
+  "checked_at": "2026-10-06T00:45:37.993402+00:00",
   "method": "TCP connect",
   "timeout_seconds": 3,
-  "unique_endpoints": 603,
+  "unique_endpoints": 605,
   "counts": {
     "reachable": {
       "clash": 383,
-      "v2ray": 498
+      "v2ray": 493
     },
     "unreachable": {
-      "clash": 127,
-      "v2ray": 136
+      "clash": 134,
+      "v2ray": 145
     },
     "untested": {
-      "clash": 68,
-      "v2ray": 64
+      "clash": 58,
+      "v2ray": 56
     }
   }
 }
