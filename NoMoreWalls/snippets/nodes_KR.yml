@@ -28,7 +28,6 @@ proxies:
   password: UX82473651
   port: 443
   server: amazing-peacock.rooster465.autos
-  skip-cert-verify: true
   sni: amazing-peacock.rooster465.autos
   type: trojan
 - name: '🇰🇷[www.v2nodes.com] trojan-KR-... #3'
@@ -58,28 +57,22 @@ proxies:
 - name: '🇰🇷[www.v2nodes.com] trojan-KR-... #7'
   password: UX82473651
   port: 443
-  server: liked-eft.rooster465.autos
-  sni: liked-eft.rooster465.autos
-  type: trojan
-- name: '🇰🇷[www.v2nodes.com] trojan-KR-... #8'
-  password: UX82473651
-  port: 443
   server: engaging-toucan.rooster465.autos
   sni: engaging-toucan.rooster465.autos
   type: trojan
-- name: '🇰🇷[www.v2nodes.com] trojan-KR-... #9'
+- name: '🇰🇷[www.v2nodes.com] trojan-KR-... #8'
   password: UX82473651
   port: 443
   server: pretty-rat.rooster465.autos
   sni: pretty-rat.rooster465.autos
   type: trojan
-- name: '🇰🇷[www.v2nodes.com] trojan-KR-... #10'
+- name: '🇰🇷[www.v2nodes.com] trojan-KR-... #9'
   password: UX82473651
   port: 443
   server: main-fawn.rooster465.autos
   sni: main-fawn.rooster465.autos
   type: trojan
-- name: '🇰🇷[www.v2nodes.com] trojan-KR-... #11'
+- name: '🇰🇷[www.v2nodes.com] trojan-KR-... #10'
   password: UX82473651
   port: 443
   server: balanced-stag.rooster465.autos
@@ -109,9 +102,9 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: '🇰🇷 韩国 | KOR #2'
+  name: '🇰🇷 韩国 | KOR #1'
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 8443
-  server: 13.124.41.194
+  server: 13.124.117.110
   type: ss
   udp: true

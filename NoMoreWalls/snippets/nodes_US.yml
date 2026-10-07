@@ -1,37 +1,18 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 🇺🇸[www.v2nodes.com] ss-US-1588...
-  password: 89d3a0375a279f6e743fea76e72952a8
-  port: 16995
-  server: 66.23.204.210
-  type: ss
 - name: 🇺🇸[www.v2nodes.com] trojan-US-...
+  password: mitivpn
+  port: 443
+  server: 199.232.78.101
+  type: trojan
+  ws-opts:
+    path: '%2F---%40MetiVIP---%40MetiVIP%2F---%40MetiVIP---%40MetiVIP%2F---%40MetiVIP---%40MetiVIP%2Fdes---%40MetiVIP---%40MetiVIP%2F---%40MetiVIP---%40%40MetiVIP%2F---%40%40MetiVIP---%40MetiVIP'
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #1'
   password: mitivpn
   port: 443
   server: 167.82.76.27
   type: trojan
   ws-opts:
     path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2FNLSus---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #1'
-  password: UX82473651
-  port: 443
-  server: ultimate-jaguar.rooster465.autos
-  sni: ultimate-jaguar.rooster465.autos
-  type: trojan
-- alpn:
-  - http/1.1
-  name: '🇺🇸[www.v2nodes.com] trojan-US-... #2'
-  network: ws
-  password: mitivpn
-  port: 443
-  server: 167.82.76.27
-  skip-cert-verify: false
-  sni: ssl.fastly.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: mitivpn---deb--s---mitivpn-3.global.ssl.fastly.net
-    path: '%2F---%40VPNine1---%40VPNine1%2F---%40VPNine1---%40VPNine1%2F---%40VPNine1---%40VPNine1%2Fdes---%40VPNine1---%40VPNine1%2F---%40VPNine1---%40VPNine1%2F---%40VPNine1---%40VPNine1'
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国|@ripaojiedian
@@ -78,8 +59,21 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- cipher: aes-256-cfb
+  name: 🇺🇸US_1|1.6MB/s
+  password: amazonskr05
+  port: 443
+  server: 100.48.94.91
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸US_3|1019KB/s
+  password: amazonskr05
+  port: 443
+  server: 23.22.158.187
+  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_34|2.2MB/s
+  name: 🇺🇸US_11|1.5MB/s
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -91,35 +85,34 @@ proxies:
   udp: true
 - cipher: aes-256-gcm
   name: '🇷🇺 俄罗斯 | RUS #1'
-  password: 4938e975724d0ed1
-  port: 10771
-  server: 194.87.196.13
+  password: 8ad9d72a5571df86
+  port: 10550
+  server: 176.32.39.52
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: '🇷🇺 俄罗斯 | RUS #4'
-  password: 895b4b796a357570
+  password: 81a20429165df87e
   port: 10771
-  server: 46.17.41.166
+  server: 194.87.68.140
   type: ss
   udp: true
-- name: 🇺🇸 美国 | USA 5
-  network: ws
-  password: trojan
-  port: 8443
-  server: 104.18.35.86
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸 美国 | USA 2
+  port: 30829
+  server: v29.hdacd.com
   skip-cert-verify: true
-  sni: longwanghen.pages.dev
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      Host: longwanghen.pages.dev
-    path: /
-- name: '🇺🇸 美国 | USA #3'
-  password: trojan
-  port: 8443
-  server: 104.18.35.86
-  skip-cert-verify: true
-  sni: longwanghen.pages.dev
-  type: trojan
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: '🇺🇸 美国 | USA #2'
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
