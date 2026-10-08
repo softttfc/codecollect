@@ -1,4 +1,10 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸[www.v2nodes.com] ss-US-1591...
+  password: 6054f059036c3ff1e907aeb51377b2ac54e61ceb666226fd
+  port: 8389
+  server: 45.76.9.57
+  type: ss
 - name: 🇺🇸[www.v2nodes.com] trojan-US-...
   password: mitivpn
   port: 443
@@ -6,13 +12,6 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2F---%40MetiVIP---%40MetiVIP%2F---%40MetiVIP---%40MetiVIP%2F---%40MetiVIP---%40MetiVIP%2Fdes---%40MetiVIP---%40MetiVIP%2F---%40MetiVIP---%40%40MetiVIP%2F---%40%40MetiVIP---%40MetiVIP'
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #1'
-  password: mitivpn
-  port: 443
-  server: 167.82.76.27
-  type: trojan
-  ws-opts:
-    path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2FNLSus---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国|@ripaojiedian
@@ -59,21 +58,8 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- cipher: aes-256-cfb
-  name: 🇺🇸US_1|1.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 100.48.94.91
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_3|1019KB/s
-  password: amazonskr05
-  port: 443
-  server: 23.22.158.187
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_11|1.5MB/s
+  name: 🇺🇸 美国 | USA 3
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -83,36 +69,49 @@ proxies:
   server: 134.195.101.119
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸US_2|3.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 107.21.80.138
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 美国 | USA 4
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: "(Telegramð\x9F\x87¨ð\x9F\x87³ @WangCai2)f6e348d:70852"
+    mode: tls
+  port: 2377
+  server: 88.210.36.106
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸US_5|2.7MB/s
+  password: amazonskr05
+  port: 443
+  server: 98.91.210.43
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   name: '🇷🇺 俄罗斯 | RUS #1'
-  password: 8ad9d72a5571df86
-  port: 10550
-  server: 176.32.39.52
+  password: 6b39ae3234dfd68b
+  port: 20880
+  server: 46.17.42.141
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: '🇷🇺 俄罗斯 | RUS #4'
-  password: 81a20429165df87e
-  port: 10771
-  server: 194.87.68.140
+  name: '🇷🇺 俄罗斯 | RUS #2'
+  password: bdb313adf74c2ede
+  port: 20880
+  server: 46.17.45.31
   type: ss
   udp: true
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸 美国 | USA 2
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
+- cipher: aes-256-cfb
   name: '🇺🇸 美国 | USA #2'
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  password: amazonskr05
+  port: 443
+  server: 34.228.79.192
+  type: ss
+  udp: true
