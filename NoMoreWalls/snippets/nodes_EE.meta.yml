@@ -1,9 +1,12 @@
 proxies:
-- encryption: none
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
   name: '🇪🇪[www.v2nodes.com] vless-EE-1... #2'
   network: ws
   port: 8443
-  server: 77.72.85.247
+  server: ee10.zazazuza.ru
   servername: fdghyt.com
   skip-cert-verify: false
   tls: true
@@ -73,7 +76,7 @@ proxies:
   server: 109.206.241.10
   sni: russiapower.accesscam.org
   type: trojan
-- name: 🇪🇪EE_1|1.9MB/s
+- name: 🇪🇪EE_1|2.3MB/s
   port: 9443
   server: 95.153.31.66
   skip-cert-verify: true
