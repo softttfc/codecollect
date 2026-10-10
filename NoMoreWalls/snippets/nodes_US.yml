@@ -1,16 +1,37 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 🇺🇸[www.v2nodes.com] ss-US-1591...
+  name: 🇺🇸[www.v2nodes.com] ss-US-1592...
   password: 792e0bdb-01db-450c-94c4-925151eb396e
   port: 20006
   server: ss.042.node-for-bigairport.win
   type: ss
-- cipher: aes-256-gcm
-  name: '🇺🇸[www.v2nodes.com] ss-US-1591... #1'
-  password: 618a13eda4b4d208a4bcdc85fcb8996df812d59dd48419f75ae3f5f5b46a94fb
-  port: 8393
-  server: 45.76.9.57
+- cipher: chacha20-ietf-poly1305
+  name: '🇺🇸[www.v2nodes.com] ss-US-1592... #1'
+  password: 792e0bdb-01db-450c-94c4-925151eb396e
+  port: 20006
+  server: ss.043.node-for-bigairport.win
   type: ss
+- name: 🇺🇸[www.v2nodes.com] trojan-US-...
+  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  port: 10013
+  server: us2.australiacaregroup.site
+  skip-cert-verify: true
+  sni: us2.australiacaregroup.site
+  type: trojan
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #1'
+  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  port: 10003
+  server: r627r8.vatilon.cc
+  skip-cert-verify: true
+  sni: r627r8.vatilon.cc
+  type: trojan
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #2'
+  password: UX82473651
+  port: 443
+  server: alert-titmouse.rooster465.autos
+  skip-cert-verify: true
+  sni: alert-titmouse.rooster465.autos
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国|@ripaojiedian
@@ -57,89 +78,45 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- client-fingerprint: chrome
+  name: 🇺🇸US_17|1.0MB/s
+  network: ws
+  password: e20fd145-65f1-4aa3-96be-da0524bbb16e
+  port: 20230
+  server: us003.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /
 - cipher: aes-256-gcm
-  name: '🇷🇺 俄罗斯 | RUS #1'
-  password: 895b4b796a357570
-  port: 50660
-  server: 46.17.41.166
+  name: '🇷🇺 俄罗斯 | RUS #3'
+  password: 6b39ae3234dfd68b
+  port: 20221
+  server: 46.17.42.141
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: '🇺🇸 美国 | USA #1'
-  password: amazonskr05
-  port: 443
-  server: 3.80.84.187
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '🇺🇸 美国 | USA #2'
-  password: amazonskr05
-  port: 443
-  server: 54.83.117.150
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '🇺🇸 美国 | USA #3'
-  password: amazonskr05
-  port: 443
-  server: 54.221.120.243
-  type: ss
-  udp: true
-- name: 🇺🇸 美国 | USA 6
+- name: 🇺🇸 美国 | USA 3
   network: ws
-  password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  password: humanity
   port: 443
-  server: us3-2.998998.best
+  server: www.speedtest.net
   skip-cert-verify: true
-  sni: nat3.xxai.dpdns.org
+  sni: www.calmlunch.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: nat3.xxai.dpdns.org
-    path: /anyway
-- name: 🇺🇸 美国 | USA 7
-  network: ws
-  password: b792ffa6-7007-43a9-ae9f-46f68da52a6a
-  port: 8443
-  server: x.com
-  skip-cert-verify: true
-  sni: avengers1.yang-1989.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: avengers1.yang-1989.xyz
-    path: /hm4m
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸 美国 | USA 10
-  port: 11267
-  server: goldcnmltyljgfwgov.vip67.wogcnmnnagfwgov.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-- name: '🇺🇸 美国 | USA #5'
-  password: 5504eaa8-1395-402f-8e0e-75ecd762e627
+      Host: www.calmlunch.com
+    path: /assignment
+- name: '🇺🇸 美国 | USA #3'
+  password: humanity
   port: 443
-  server: us3-2.998998.best
+  server: www.speedtest.net
   skip-cert-verify: true
-  sni: nat3.xxai.dpdns.org
+  sni: www.calmlunch.com
   type: trojan
-- name: '🇺🇸 美国 | USA #6'
-  password: b792ffa6-7007-43a9-ae9f-46f68da52a6a
-  port: 8443
-  server: x.com
-  skip-cert-verify: true
-  sni: avengers1.yang-1989.xyz
-  type: trojan
-- alterId: 2
-  cipher: auto
-  name: '🇺🇸 美国 | USA #9'
-  network: tcp
-  port: 11267
-  server: goldcnmltyljgfwgov.vip67.wogcnmnnagfwgov.com
-  tls: false
-  type: vmess
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
