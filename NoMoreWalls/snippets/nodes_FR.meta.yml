@@ -1,5 +1,5 @@
 proxies:
-- name: 🇫🇷[www.v2nodes.com] vless-FR-1...
+- name: '🇫🇷[www.v2nodes.com] vless-FR-1... #1'
   port: 20023
   server: 51.75.118.165
   tls: false
@@ -8,18 +8,18 @@ proxies:
   ws-opts:
     path: /ws/49ade50d-9cd6-81a9-db5d-8e4a7f56930b
 - client-fingerprint: chrome
-  name: '🇫🇷[www.v2nodes.com] vless-FR-1... #3'
+  name: '🇫🇷[www.v2nodes.com] vless-FR-1... #9'
   network: ws
   port: 443
-  server: fr2.vip-get.ru
-  servername: fr2.vip-get.ru
+  server: 199.232.78.170
+  servername: Speedtest.net
   tls: true
   type: vless
-  uuid: db4fb2a7-a31d-46d8-b6d2-76eafe8cfe2a
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: fr2.vip-get.ru
-    path: /api/download
+      Host: Appxdn.global.ssl.fastly.net
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: 🇫🇷[www.v2nodes.com] ss-FR-1536...
   password: BqnqToih0PbU
@@ -38,7 +38,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #7'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #6'
   network: ws
   password: humanity
   port: 443
@@ -50,21 +50,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- alpn:
-  - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
-  name: '🇫🇷[www.v2nodes.com] trojan-FR-... #2'
-  network: ws
-  password: humanity
-  port: 8443
-  server: 212.227.144.37
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #3'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #2'
   network: ws
   password: humanity
   port: 443
@@ -76,7 +62,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #4'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #3'
   network: ws
   password: humanity
   port: 443
@@ -87,7 +73,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #5'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #4'
   network: ws
   password: humanity
   port: 2053
@@ -99,7 +85,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #6'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #5'
   network: ws
   password: humanity
   port: 443
@@ -111,14 +97,14 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #8'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #7'
   password: humanity
   port: 443
   server: 165.215.250.14
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #9'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #8'
   network: ws
   password: humanity
   port: 443
@@ -130,7 +116,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #10'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #9'
   network: ws
   password: humanity
   port: 443
@@ -142,7 +128,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #11'
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #10'
   network: ws
   password: humanity
   port: 443
@@ -153,7 +139,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: 🇫🇷 法国 | FRA
+- name: 🇫🇷 法国 | FRA 4
   password: github.com/Alvin9999-newpac/fanqiang
   port: 30099
   server: ip5.934618.xyz
@@ -161,14 +147,44 @@ proxies:
   sni: ip5.934618.xyz
   type: anytls
   udp: true
-- client-fingerprint: chrome
+- alpn:
+  - h2
+  client-fingerprint: chrome
   encryption: none
-  fingerprint: cd6e838b9bfe31cab8b3d5c858b0d6223fe84ece236c1fdb281be93c302e1e6e
-  name: '🇺🇸 美国 | USA #1'
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_2|2.0MB/s
+  network: tcp
+  port: 443
+  server: 7q4eiwcseu-193708596-direct.rahbarii.com
+  servername: 7q4eiwcseu-193708596-direct.rahbarii.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
+- name: 🇫🇷FR_3|2.0MB/s
+  port: 8082
+  server: 169.58.243.58
+  skip-cert-verify: true
+  type: http
+- alterId: 2
+  cipher: auto
+  name: 🇫🇷 法国 | FRA 2
+  port: 30835
+  server: v35.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇫🇷 法国 | FRA #3'
   network: ws
   port: 443
-  server: 199.232.78.170
-  servername: Speedtest.net
+  server: 140.248.186.45
+  servername: ssl.fastly.com
   tls: true
   type: vless
   udp: true
@@ -177,16 +193,12 @@ proxies:
     headers:
       Host: Appxdn.global.ssl.fastly.net
     path: /
-  xudp: true
-- name: 🇫🇷FR_3|3.1MB/s
-  port: 9443
-  server: 138.199.47.247
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇫🇷FR_4|2.3MB/s
-  port: 8090
-  server: 82.96.128.175
-  skip-cert-verify: true
-  tls: true
-  type: http
+- alterId: 2
+  cipher: auto
+  name: '🇫🇷 法国 | FRA #2'
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

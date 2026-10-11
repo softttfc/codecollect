@@ -34,15 +34,9 @@ proxies:
     headers:
       Host: 194.87.143.165
     path: /
-- name: 🇷🇺RU_1|3.4MB/s
+- name: 🇷🇺RU_2|1.1MB/s
   port: 1446
   server: 46.29.166.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇷🇺RU_2|3.0MB/s
-  port: 443
-  server: 178.219.43.226
   skip-cert-verify: true
   tls: true
   type: http

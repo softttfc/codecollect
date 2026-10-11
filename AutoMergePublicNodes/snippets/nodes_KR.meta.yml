@@ -37,14 +37,12 @@ proxies:
   password: UX82473651
   port: 443
   server: central-jawfish.rooster465.autos
-  skip-cert-verify: true
   sni: central-jawfish.rooster465.autos
   type: trojan
 - name: '🇰🇷[www.v2nodes.com] trojan-KR-... #5'
   password: UX82473651
   port: 443
   server: working-tomcat.rooster465.autos
-  skip-cert-verify: true
   sni: working-tomcat.rooster465.autos
   type: trojan
 - name: '🇰🇷[www.v2nodes.com] trojan-KR-... #6'
@@ -63,7 +61,8 @@ proxies:
 - name: '🇰🇷[www.v2nodes.com] trojan-KR-... #8'
   password: UX82473651
   port: 443
-  server: 52.78.203.191
+  server: delicate-buck.rooster465.autos
+  sni: delicate-buck.rooster465.autos
   type: trojan
 - name: '🇰🇷[www.v2nodes.com] trojan-KR-... #9'
   password: UX82473651
@@ -92,14 +91,13 @@ proxies:
 - name: '🇰🇷[www.v2nodes.com] trojan-KR-... #13'
   password: UX82473651
   port: 443
-  server: 13.125.69.162
+  server: engaging-toucan.rooster465.autos
+  sni: engaging-toucan.rooster465.autos
   type: trojan
 - name: '🇰🇷[www.v2nodes.com] trojan-KR-... #14'
-  network: tcp
   password: UX82473651
   port: 443
-  server: 3.34.131.153
-  skip-cert-verify: false
+  server: pretty-rat.rooster465.autos
   sni: pretty-rat.rooster465.autos
   type: trojan
 - name: '🇰🇷[www.v2nodes.com] trojan-KR-... #15'
@@ -107,12 +105,6 @@ proxies:
   port: 443
   server: main-fawn.rooster465.autos
   sni: main-fawn.rooster465.autos
-  type: trojan
-- name: '🇰🇷[www.v2nodes.com] trojan-KR-... #16'
-  password: UX82473651
-  port: 443
-  server: balanced-stag.rooster465.autos
-  sni: balanced-stag.rooster465.autos
   type: trojan
 - alterId: 0
   cipher: auto
@@ -137,19 +129,19 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '🇰🇷 韩国 | KOR #1'
-  password: UX82473651
+- auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  name: '🇰🇷 韩国 | KOR #1'
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443
-  server: cunning-grub.rooster465.autos
+  server: 52.79.212.191
   skip-cert-verify: true
-  sni: cunning-grub.rooster465.autos
-  type: trojan
-  udp: true
-- name: 🇰🇷 韩国 | KOR 2
-  password: 81c4547b-e5d8-4af8-baf0-91c5c0c05a9b
-  port: 1892
-  server: icn-a-02.auuas.com
-  skip-cert-verify: true
-  sni: images.apple.com
-  type: anytls
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: '🇰🇷 韩国 | KOR #2'
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 8443
+  server: 52.79.212.191
+  type: ss
   udp: true
