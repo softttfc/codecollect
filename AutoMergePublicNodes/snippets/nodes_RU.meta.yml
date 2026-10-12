@@ -10,6 +10,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: random
+  encryption: none
   grpc-opts:
     grpc-service-name: grpc-ru
   name: '🇷🇺[www.v2nodes.com] vless-RU-1... #1'
@@ -34,9 +35,9 @@ proxies:
     headers:
       Host: 194.87.143.165
     path: /
-- name: 🇷🇺RU_2|1.1MB/s
-  port: 1446
-  server: 46.29.166.134
+- name: 🇷🇺RU_2|2.9MB/s
+  port: 8443
+  server: 87.242.85.187
   skip-cert-verify: true
   tls: true
   type: http
