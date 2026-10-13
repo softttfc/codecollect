@@ -27,11 +27,17 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
+- name: 🇩🇪[www.v2nodes.com] vless-DE-1...
+  port: 2443
+  server: 144.31.238.115
+  tls: false
+  type: vless
+  uuid: b8df3f50-ffef-4c7e-9ef3-d5b156a47c02
 - alpn:
   - http/1.1
   client-fingerprint: random
   encryption: none
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #1'
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #3'
   network: ws
   port: 2083
   server: 140.225.208.50
@@ -43,7 +49,7 @@ proxies:
   ws-opts:
     path: /vless-ws
 - encryption: none
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #3'
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #5'
   network: ws
   port: 443
   server: 199.232.78.159
@@ -56,7 +62,7 @@ proxies:
       Host: pan2e.global.ssl.fastly.net
     path: /
 - client-fingerprint: android
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #4'
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #6'
   network: ws
   port: 443
   server: msk.ai-boost.tech
@@ -68,17 +74,6 @@ proxies:
     headers:
       Host: msk.ai-boost.tech
     path: /3a7lzIHlgUuz2QnV1CaQ
-- encryption: none
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #8'
-  network: tcp
-  port: 35696
-  server: 91.107.249.108
-  tls: false
-  type: vless
-  uuid: 89238afb-0166-4ff0-85de-f7bec650a818
-  ws-opts:
-    headers:
-      Host: play.google.com
 - encryption: none
   name: '🇩🇪[www.v2nodes.com] vless-DE-1... #9'
   network: ws
@@ -99,25 +94,6 @@ proxies:
   tls: false
   type: vless
   uuid: bb0f1ed0-0298-40a1-adb1-1f5d6ab33d54
-- client-fingerprint: chrome
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #13'
-  network: ws
-  port: 20202
-  server: 209.38.238.229
-  servername: wzs.echo.net.eu.org
-  tls: true
-  type: vless
-  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
-  ws-opts:
-    headers:
-      Host: wzs.echo.net.eu.org
-    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HUlZXSwcZUQABSgMNQRoaSVhfRhoOChkDDUs=
-- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #15'
-  port: 45021
-  server: 31.77.148.89
-  tls: false
-  type: vless
-  uuid: ad263f1c-199e-4aaf-bf22-c3ad0407d377
 - cipher: aes-128-gcm
   name: 🇹🇷[www.v2nodes.com] ss-TR-1567...
   password: l2NidZbckMu4PnIHsJTYJg
@@ -142,14 +118,86 @@ proxies:
   server: ger2.fytpn.com
   skip-cert-verify: false
   type: trojan
+- name: 🇩🇪DE_1|1.2MB/s
+  port: 9002
+  server: 158.173.154.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_2|3.1MB/s
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_3|2.4MB/s
+  password: None
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_4|2.1MB/s
+  port: 9002
+  server: 158.173.154.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_5|1.7MB/s
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_6|1.9MB/s
+  port: 443
+  server: 79.127.156.177
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_7|2.9MB/s
+  port: 443
+  server: 213.109.163.119
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_9|3.4MB/s
+  password: '!!str 1234'
+  port: 2080
+  server: 18.194.239.151
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- client-fingerprint: qq
+  name: '🇩🇪 德国 | DEU #1'
+  network: xhttp
+  port: 443
+  server: no-lim2.nomush.ir
+  servername: speedtest.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2c5f2d6e-d683-49f7-a12b-a95460b90a92
+  xhttp-opts:
+    host: nolimiraniserv1.global.ssl.fastly.net
+    mode: packet-up
+    path: /nolimitx
+- cipher: 2022-blake3-aes-256-gcm
+  name: '🇩🇪 德国 | DEU #2'
+  password: H0xd2BvITDs4Z8jwL4POl0CngqZjoUUAhoMvUd92cTY=:JNpUztWVZ7O+t34KTu3jbruxstkaqLzqIvO+BPmxUdg=
+  port: 31344
+  server: 91.98.105.50
+  type: ss
+  udp: true
 - alpn:
-  - http/1.1
-  client-fingerprint: unsafe
-  encryption: none
-  name: 🇩🇪DE_1|2.1MB/s
+  - h3
+  - h2
+  client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #3'
   network: ws
   port: 443
-  server: 31.77.126.2
+  server: 162.159.135.234
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -158,90 +206,31 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /fdip=sstp://vpn:vpn@VPNine1.opengw.net:1458?ed=2560
-  xudp: true
-- alpn:
-  - h2
-  alterId: '0'
-  cipher: auto
-  name: 🇩🇪DE_2|3.1MB/s
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+- encryption: mlkem768x25519plus.native.0rtt.BheP3zTPlA3cijplJnfrJSIp9rYlrGqnqEOnYD-wA20
+  name: '🇩🇪 德国 | DEU #6'
   network: ws
-  port: 443
-  server: renderer-stream-2-114.mirra.now
-  servername: renderer-stream-2-114.mirra.now
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 8ffa41d4-e6b5-4af5-a8a9-69e26bec75f5
-  ws-opts:
-    headers:
-      Host: renderer-stream-2-114.mirra.now
-    path: /api/v1/gpu-stream/socket
-  xudp: true
-- name: 🇩🇪DE_3|1.7MB/s
-  password: None
-  port: 9443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_4|3.6MB/s
-  port: 9002
-  server: 158.173.154.3
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_5|1.7MB/s
-  port: 9443
-  server: 79.127.156.177
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_6|3.2MB/s
-  port: 9002
-  server: 158.173.154.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_7|2.6MB/s
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_8|1.2MB/s
-  port: 443
-  server: 87.106.223.158
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_9|2.6MB/s
-  port: 443
-  server: 152.233.20.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  name: '🇩🇪 德国 | DEU #4'
-  network: ws
-  port: 443
-  server: 199.232.239.239
-  servername: speedtest.net
-  tls: true
+  port: 8880
+  server: 188.114.99.0
+  tls: false
   type: vless
   udp: true
-  uuid: 2968eb62-dd97-4c8f-fbca-d69388f1b572
+  uuid: 3ee10440-225e-4cbc-83ed-3c80b90bcb07
   ws-opts:
     headers:
-      Host: mr_anonoijji.global.ssl.fastly.net
-    path: /?ed=2056/؟/@v2ray_configs_pools
+      Host: ovh-gr1.mahkhorshidi.ir
+    path: /notls
+- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  name: '🇩🇪 德国 | DEU #7'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-de-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-de-002.fastervpn.world
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #6'
+  name: '🇩🇪 德国 | DEU #8'
   network: ws
   port: 443
   server: 162.159.130.234
@@ -254,28 +243,18 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-- name: '🇩🇪 德国 | DEU #7'
-  password: 3ixF51QWmFNmKOO_utPxVL-7gYYUb6HC
-  port: 8443
-  server: b1.3danimation3.com
-  skip-cert-verify: true
-  sni: b1.3danimation3.com
-  type: trojan
-  udp: true
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #8'
-  network: ws
+- client-fingerprint: qq
+  encryption: mlkem768x25519plus.native.0rtt.UZhmQ7SrtJB3vEJ5YZFId-JvYxzxdYlkXl1lQ4hxU08
+  name: '🇩🇪 德国 | DEU #9'
+  network: xhttp
   port: 443
-  server: saas.sin.fan
-  servername: snip.edgeoneai.cc.cd
+  server: no-lim.nomush.ir
+  servername: speedtest.net
   tls: true
   type: vless
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
+  uuid: 2c5f2d6e-d683-49f7-a12b-a95460b90a92
+  xhttp-opts:
+    host: nolimiraniserv2.global.ssl.fastly.net
+    mode: packet-up
+    path: /nolimitx

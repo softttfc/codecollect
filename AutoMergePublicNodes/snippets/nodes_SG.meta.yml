@@ -1,16 +1,19 @@
 proxies:
-- name: 🇸🇬[www.v2nodes.com] vless-SG
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬[www.v2nodes.com] vless-SG
   network: ws
   port: 443
-  server: cf.090227.xyz
+  server: 188.164.248.216
   servername: ccc.010304.xyz
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: d342d11e-d224-4463-b982-532309285094
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-    path: /fp=chrome
+    path: /
 - encryption: none
   name: '🇸🇬[www.v2nodes.com] vless-SG #1'
   network: ws
@@ -25,8 +28,6 @@ proxies:
     path: /eyJqdW5rIjoiRGtvTEVIeGU4cXFaTVVZIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19
 - alpn:
   - http/1.1
-  client-fingerprint: ios
-  encryption: none
   name: '🇸🇬[www.v2nodes.com] vless-SG #2'
   network: ws
   port: 443
@@ -38,7 +39,7 @@ proxies:
   ws-opts:
     headers:
       Host: fdjl8sdmc774ru70b3a45lv4w8.akbar1sale6.workers.dev
-    path: /vl/EpnESUGGdoM40CHmsDT?ed=2560
+    path: /vl/EpnESUGGdoM40CHmsDT?ed=2560fp=ios
 - name: '🇸🇬[www.v2nodes.com] vless-SG #3'
   network: ws
   port: 8880
@@ -50,34 +51,25 @@ proxies:
     headers:
       Host: vms.lifetime61.workers.dev
     path: /
-- name: '🇸🇬[www.v2nodes.com] vless-SG #4'
-  port: 2082
-  server: 172.64.150.28
-  tls: false
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    path: /fp
-- client-fingerprint: chrome
-  encryption: none
-  name: '🇸🇬[www.v2nodes.com] vless-SG #5'
+- encryption: none
+  name: '🇸🇬[www.v2nodes.com] vless-SG #4'
   network: ws
-  port: 443
-  server: 172.64.156.60
-  servername: powered-by-surena.configfarsi6982dd6e0355e.workers.dev
+  port: 2083
+  server: 27.50.49.154
+  servername: proxy-34l.pages.dev
   tls: true
   type: vless
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
   ws-opts:
     headers:
-      Host: powered-by-surena.configfarsi6982dd6e0355e.workers.dev
-    path: /
+      Host: proxy-34l.pages.dev
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
 - client-fingerprint: chrome
   encryption: none
   name: 🇸🇬[www.v2nodes.com] vless-SG-1...
   network: ws
   port: 8443
-  server: 170.114.45.6
+  server: 170.114.46.6
   servername: primelinelk.me
   skip-cert-verify: false
   tls: true
@@ -88,13 +80,28 @@ proxies:
       Host: primelinelk.me
     path: /xprolk-primeline
 - encryption: none
-  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #2'
+  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
   network: tcp
   port: 16263
   server: 47.237.74.17
   tls: false
   type: vless
   uuid: c538c9dd-2e3f-488f-a8ca-ac5b7c0773f3
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #2'
+  network: ws
+  port: 2096
+  server: 139.162.27.96
+  servername: free-server.techsonic.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  ws-opts:
+    headers:
+      Host: free-server.techsonic.dev
+    path: /free-server.techsonic.dev
 - cipher: aes-128-gcm
   name: 🇸🇬[www.v2nodes.com] ss-SG-1592...
   password: 85590bd2-807b-49b9-af20-1101c18b9eda
@@ -180,43 +187,36 @@ proxies:
   sni: present-ram.rooster465.autos
   type: trojan
 - name: '🇸🇬[www.v2nodes.com] trojan-SG-... #11'
-  password: UX82473651
-  port: 443
-  server: real-werewolf.rooster465.autos
-  skip-cert-verify: true
-  sni: real-werewolf.rooster465.autos
-  type: trojan
-- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #12'
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   port: 8886
   server: 139.180.146.200
   sni: 139.180.146.200
   type: trojan
-- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #13'
+- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #12'
   password: UX82473651
   port: 443
   server: inviting-ferret.rooster465.autos
   sni: inviting-ferret.rooster465.autos
   type: trojan
-- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #14'
+- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #13'
   password: UX82473651
   port: 443
   server: holy-lamb.rooster465.autos
   sni: holy-lamb.rooster465.autos
   type: trojan
-- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #15'
+- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #14'
   password: UX82473651
   port: 443
   server: pet-antelope.rooster465.autos
   sni: pet-antelope.rooster465.autos
   type: trojan
-- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #16'
+- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #15'
   password: UX82473651
   port: 443
   server: real-cardinal.rooster465.autos
   sni: real-cardinal.rooster465.autos
   type: trojan
-- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #17'
+- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #16'
   password: UX82473651
   port: 443
   server: 18.143.92.167
@@ -261,34 +261,103 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
+- name: 🇸🇬SG_1|1.5MB/s
+  port: 9443
+  server: 152.233.9.239
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇸🇬SG_2|2.4MB/s
+  port: 9443
+  server: 149.88.99.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇸🇬SG_3|4.1MB/s
+  password: '!!str 1234'
+  port: 2080
+  server: 18.143.144.220
+  skip-cert-verify: true
+  type: http
+  username: '1234'
+- name: 🇸🇬SG_4|2.0MB/s
+  password: '!!str 1234'
+  port: 2080
+  server: 47.129.200.52
+  skip-cert-verify: true
+  type: http
+  username: '1234'
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬SG_1|2.6MB/s
+  name: '🇸🇬 新加坡 | SGP #1'
   network: ws
   port: 443
-  server: epam.com
-  servername: wallweb-4r0.pages.dev
+  server: 103.169.142.90
   tls: true
   type: vless
   udp: true
-  uuid: e53eacb6-cd30-4964-a57c-febcb5151b98
+  uuid: af4399b8-a152-486b-9cf6-acdd42d6c40c
   ws-opts:
     headers:
-      Host: wallweb-4r0.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2272.104 Safari/537.36
-    path: /
-  xudp: true
-- name: '🇸🇬 新加坡 | SGP #2'
+      Host: sg.lovehk.xyz
+    path: /Singapore1
+- client-fingerprint: chrome
+  name: '🇸🇬 新加坡 | SGP #2'
   network: ws
-  port: 2082
-  server: 104.18.35.86
-  servername: hhlfy.twiladaphne.ndjp.net
-  tls: false
+  port: 443
+  server: 103.169.142.90
+  tls: true
   type: vless
   udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  uuid: 60f73cb3-9cf8-41bf-b7bc-752e6434a7a9
   ws-opts:
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /fp
+      Host: sg.lovehk.xyz
+    path: /Singapore1
+- client-fingerprint: chrome
+  name: '🇸🇬 新加坡 | SGP #3'
+  network: ws
+  port: 443
+  server: 154.194.12.78
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7010447d-5f0f-47a4-ae88-328e3928eac9
+  ws-opts:
+    headers:
+      Host: sg.lovehk.xyz
+    path: /Singapore1
+- client-fingerprint: chrome
+  name: '🇸🇬 新加坡 | SGP #4'
+  network: ws
+  port: 443
+  server: 154.194.12.78
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0ce8738c-518d-4a1c-a846-c97c87c5ee0f
+  ws-opts:
+    headers:
+      Host: sg.lovehk.xyz
+    path: /Singapore1
+- client-fingerprint: chrome
+  name: '🇸🇬 新加坡 | SGP #5'
+  network: ws
+  port: 443
+  server: 154.194.12.78
+  tls: true
+  type: vless
+  udp: true
+  uuid: 31c3e8e7-f600-436a-87d4-9716143b0b0c
+  ws-opts:
+    headers:
+      Host: sg.lovehk.xyz
+    path: /Singapore1
+- name: 🇸🇬 新加坡 | SGP 6
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 1023
+  server: qdmf68uv.zf-mix.9999231.xyz
+  skip-cert-verify: true
+  sni: sg-sjy.9999231.xyz
+  type: anytls
+  udp: true
