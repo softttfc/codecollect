@@ -24,6 +24,25 @@ dns:
     - https://1.1.1.1/dns-query#🚀 节点选择
     - https://8.8.8.8/dns-query#🚀 节点选择
 proxies:
+- name: 🇨🇳_CN_中国
+  type: vmess
+  server: 39.108.113.127
+  port: 10086
+  uuid: 2b910c43-51e3-4b15-9be8-b658106ba35e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  udp: true
+- name: 🇦🇹_AT_奥地利
+  type: vless
+  server: 138.124.90.177
+  port: 10443
+  uuid: 3a0e4040-67cc-43e0-a9fb-98e15ddb0526
+  tls: false
+  skip-cert-verify: true
+  udp: true
 - name: 🇨🇳_CN_中国->🇺🇸_US_美国
   type: vless
   server: jp.sofast.live
@@ -32,26 +51,29 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- cipher: aes-256-gcm
-  name: 🇨🇱[www.v2nodes.com] ss-CL-1564...
-  password: xBStBEVqvGwHPocc
-  port: 8388
-  server: 64.176.2.21
-  type: ss
-- alpn:
-  - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
-  name: '🇫🇷[www.v2nodes.com] trojan-FR-... #2'
+- name: '🇳🇱 荷兰 | NLD #2'
   network: ws
-  password: humanity
-  port: 8443
-  server: 212.227.144.37
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
+  port: 14430
+  server: 91.196.163.140
+  servername: 91.196.163.140
+  tls: false
+  type: vless
+  udp: true
+  uuid: e86a3662-9b31-4d59-bc80-9e8644749b95
   ws-opts:
     headers:
-      Host: www.calmlunch.com
-    path: /assignment
+      Host: 91.196.163.140
+    path: /vless
+- name: '🇺🇸 美国 | USA #3'
+  network: tcp
+  port: 30006
+  server: 104.207.132.12
+  tls: false
+  type: vless
+  udp: true
+  uuid: 157bf3e0-9467-4600-9b76-71323f7ef14e
+  ws-opts:
+    path: /
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian
@@ -166,42 +188,65 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- client-fingerprint: chrome
-  name: '🇯🇵 日本 | JPN #2'
-  network: ws
-  port: 8443
-  server: 166.88.2.248
-  servername: snip.edgeoneai.cc.cd
-  tls: true
+- name: 🇫🇷FR_4|3.4MB/s
+  port: 8082
+  server: 213.199.46.59
+  skip-cert-verify: true
+  type: http
+- name: 🇫🇷FR_5|1.3MB/s
+  port: 4402
+  server: 45.74.31.41
+  skip-cert-verify: true
+  type: socks5
+- name: 🇺🇸US_11|2.0MB/s
+  port: 4176
+  server: 45.74.31.41
+  skip-cert-verify: true
+  type: socks5
+- name: '🇦🇹 奥地利 | AUT #1'
+  network: tcp
+  port: 10443
+  server: 138.124.90.177
+  servername: 138.124.90.177
+  tls: false
   type: vless
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  uuid: 3a0e4040-67cc-43e0-a9fb-98e15ddb0526
+  ws-opts:
+    path: /
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - sjskendn.dingtalk.com
+    method: GET
+    path:
+    - /x
+  name: '🇭🇰 香港 | HKG #1'
+  network: http
+  port: 800
+  server: 47.86.167.194
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
+- name: '🇸🇪 瑞典 | SWE #3'
+  network: ws
+  port: 14430
+  server: 193.188.21.253
+  servername: 193.188.21.253
+  tls: false
+  type: vless
+  udp: true
+  uuid: 57f7772d-f5d6-4d8f-992d-5fa5e0d6da55
   ws-opts:
     headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-- cipher: chacha20-ietf-poly1305
-  name: '🇰🇷 韩国 | KOR #1'
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  port: 8443
-  server: 13.125.180.150
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇸🇬 新加坡 | SGP #1'
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  port: 8443
-  server: 54.254.240.48
-  type: ss
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 6
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 1023
-  server: qdmf68uv.zf-mix.9999231.xyz
-  skip-cert-verify: true
-  sni: sg-sjy.9999231.xyz
-  type: anytls
-  udp: true
+      Host: 193.188.21.253
+    path: /vless
 - name: RO_speednode_0011
   port: 9002
   server: 84.239.49.218
@@ -981,29 +1026,17 @@ proxies:
   tls: false
   type: socks5
   udp: true
-- name: 🇩🇪 德国 | DEU 6
-  server: 45.133.151.173
-  port: 25550
-  type: vless
-  uuid: 83383473-0d62-4089-ac4d-d7ecb413504a
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: 2NETEB242BYUAfGq2zfFjqI2XtnKGGA4O4RUdvCuSHM
-    short-id: 6f5c241c3a917c66
-  servername: cdn.jsdelivr.net
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
 proxy-groups:
 - name: ermao.net | 🚀 节点选择
   type: select
   proxies:
   - ermao.net | ♻️ 自动选择
   - DIRECT
+  - 🇨🇳_CN_中国
+  - 🇦🇹_AT_奥地利
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇱[www.v2nodes.com] ss-CL-1564...
-  - '🇫🇷[www.v2nodes.com] trojan-FR-... #2'
+  - '🇳🇱 荷兰 | NLD #2'
+  - '🇺🇸 美国 | USA #3'
   - 🇭🇰 香港|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
   - 香港|@ripaojiedian
@@ -1017,10 +1050,12 @@ proxy-groups:
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
   - 韩国|@ripaojiedian
-  - '🇯🇵 日本 | JPN #2'
-  - '🇰🇷 韩国 | KOR #1'
-  - '🇸🇬 新加坡 | SGP #1'
-  - 🇸🇬 新加坡 | SGP 6
+  - 🇫🇷FR_4|3.4MB/s
+  - 🇫🇷FR_5|1.3MB/s
+  - 🇺🇸US_11|2.0MB/s
+  - '🇦🇹 奥地利 | AUT #1'
+  - '🇭🇰 香港 | HKG #1'
+  - '🇸🇪 瑞典 | SWE #3'
   - RO_speednode_0011
   - RO_speednode_0012
   - RO_speednode_0013
@@ -1128,13 +1163,14 @@ proxy-groups:
   - RO_speednode_0127
   - RO_speednode_0128
   - SI_speednode_0129
-  - 🇩🇪 德国 | DEU 6
 - name: ermao.net | ♻️ 自动选择
   type: url-test
   proxies:
+  - 🇨🇳_CN_中国
+  - 🇦🇹_AT_奥地利
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇱[www.v2nodes.com] ss-CL-1564...
-  - '🇫🇷[www.v2nodes.com] trojan-FR-... #2'
+  - '🇳🇱 荷兰 | NLD #2'
+  - '🇺🇸 美国 | USA #3'
   - 🇭🇰 香港|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
   - 香港|@ripaojiedian
@@ -1148,10 +1184,12 @@ proxy-groups:
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
   - 韩国|@ripaojiedian
-  - '🇯🇵 日本 | JPN #2'
-  - '🇰🇷 韩国 | KOR #1'
-  - '🇸🇬 新加坡 | SGP #1'
-  - 🇸🇬 新加坡 | SGP 6
+  - 🇫🇷FR_4|3.4MB/s
+  - 🇫🇷FR_5|1.3MB/s
+  - 🇺🇸US_11|2.0MB/s
+  - '🇦🇹 奥地利 | AUT #1'
+  - '🇭🇰 香港 | HKG #1'
+  - '🇸🇪 瑞典 | SWE #3'
   - RO_speednode_0011
   - RO_speednode_0012
   - RO_speednode_0013
@@ -1259,7 +1297,6 @@ proxy-groups:
   - RO_speednode_0127
   - RO_speednode_0128
   - SI_speednode_0129
-  - 🇩🇪 德国 | DEU 6
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -1269,9 +1306,11 @@ proxy-groups:
   - ermao.net | 🚀 节点选择
   - ermao.net | ♻️ 自动选择
   - 🎯 全球直连
+  - 🇨🇳_CN_中国
+  - 🇦🇹_AT_奥地利
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇱[www.v2nodes.com] ss-CL-1564...
-  - '🇫🇷[www.v2nodes.com] trojan-FR-... #2'
+  - '🇳🇱 荷兰 | NLD #2'
+  - '🇺🇸 美国 | USA #3'
   - 🇭🇰 香港|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
   - 香港|@ripaojiedian
@@ -1285,10 +1324,12 @@ proxy-groups:
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
   - 韩国|@ripaojiedian
-  - '🇯🇵 日本 | JPN #2'
-  - '🇰🇷 韩国 | KOR #1'
-  - '🇸🇬 新加坡 | SGP #1'
-  - 🇸🇬 新加坡 | SGP 6
+  - 🇫🇷FR_4|3.4MB/s
+  - 🇫🇷FR_5|1.3MB/s
+  - 🇺🇸US_11|2.0MB/s
+  - '🇦🇹 奥地利 | AUT #1'
+  - '🇭🇰 香港 | HKG #1'
+  - '🇸🇪 瑞典 | SWE #3'
   - RO_speednode_0011
   - RO_speednode_0012
   - RO_speednode_0013
@@ -1396,15 +1437,16 @@ proxy-groups:
   - RO_speednode_0127
   - RO_speednode_0128
   - SI_speednode_0129
-  - 🇩🇪 德国 | DEU 6
 - name: 📲 电报信息
   type: select
   proxies:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
+  - 🇨🇳_CN_中国
+  - 🇦🇹_AT_奥地利
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇱[www.v2nodes.com] ss-CL-1564...
-  - '🇫🇷[www.v2nodes.com] trojan-FR-... #2'
+  - '🇳🇱 荷兰 | NLD #2'
+  - '🇺🇸 美国 | USA #3'
   - 🇭🇰 香港|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
   - 香港|@ripaojiedian
@@ -1418,10 +1460,12 @@ proxy-groups:
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
   - 韩国|@ripaojiedian
-  - '🇯🇵 日本 | JPN #2'
-  - '🇰🇷 韩国 | KOR #1'
-  - '🇸🇬 新加坡 | SGP #1'
-  - 🇸🇬 新加坡 | SGP 6
+  - 🇫🇷FR_4|3.4MB/s
+  - 🇫🇷FR_5|1.3MB/s
+  - 🇺🇸US_11|2.0MB/s
+  - '🇦🇹 奥地利 | AUT #1'
+  - '🇭🇰 香港 | HKG #1'
+  - '🇸🇪 瑞典 | SWE #3'
   - RO_speednode_0011
   - RO_speednode_0012
   - RO_speednode_0013
@@ -1529,15 +1573,16 @@ proxy-groups:
   - RO_speednode_0127
   - RO_speednode_0128
   - SI_speednode_0129
-  - 🇩🇪 德国 | DEU 6
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
   - 🎯 全球直连
   - ermao.net | 🚀 节点选择
+  - 🇨🇳_CN_中国
+  - 🇦🇹_AT_奥地利
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇱[www.v2nodes.com] ss-CL-1564...
-  - '🇫🇷[www.v2nodes.com] trojan-FR-... #2'
+  - '🇳🇱 荷兰 | NLD #2'
+  - '🇺🇸 美国 | USA #3'
   - 🇭🇰 香港|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
   - 香港|@ripaojiedian
@@ -1551,10 +1596,12 @@ proxy-groups:
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
   - 韩国|@ripaojiedian
-  - '🇯🇵 日本 | JPN #2'
-  - '🇰🇷 韩国 | KOR #1'
-  - '🇸🇬 新加坡 | SGP #1'
-  - 🇸🇬 新加坡 | SGP 6
+  - 🇫🇷FR_4|3.4MB/s
+  - 🇫🇷FR_5|1.3MB/s
+  - 🇺🇸US_11|2.0MB/s
+  - '🇦🇹 奥地利 | AUT #1'
+  - '🇭🇰 香港 | HKG #1'
+  - '🇸🇪 瑞典 | SWE #3'
   - RO_speednode_0011
   - RO_speednode_0012
   - RO_speednode_0013
@@ -1662,15 +1709,16 @@ proxy-groups:
   - RO_speednode_0127
   - RO_speednode_0128
   - SI_speednode_0129
-  - 🇩🇪 德国 | DEU 6
 - name: 🍎 苹果服务
   type: select
   proxies:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
+  - 🇨🇳_CN_中国
+  - 🇦🇹_AT_奥地利
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇱[www.v2nodes.com] ss-CL-1564...
-  - '🇫🇷[www.v2nodes.com] trojan-FR-... #2'
+  - '🇳🇱 荷兰 | NLD #2'
+  - '🇺🇸 美国 | USA #3'
   - 🇭🇰 香港|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
   - 香港|@ripaojiedian
@@ -1684,10 +1732,12 @@ proxy-groups:
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
   - 韩国|@ripaojiedian
-  - '🇯🇵 日本 | JPN #2'
-  - '🇰🇷 韩国 | KOR #1'
-  - '🇸🇬 新加坡 | SGP #1'
-  - 🇸🇬 新加坡 | SGP 6
+  - 🇫🇷FR_4|3.4MB/s
+  - 🇫🇷FR_5|1.3MB/s
+  - 🇺🇸US_11|2.0MB/s
+  - '🇦🇹 奥地利 | AUT #1'
+  - '🇭🇰 香港 | HKG #1'
+  - '🇸🇪 瑞典 | SWE #3'
   - RO_speednode_0011
   - RO_speednode_0012
   - RO_speednode_0013
@@ -1795,7 +1845,6 @@ proxy-groups:
   - RO_speednode_0127
   - RO_speednode_0128
   - SI_speednode_0129
-  - 🇩🇪 德国 | DEU 6
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -1823,9 +1872,11 @@ proxy-groups:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
   - ermao.net | ♻️ 自动选择
+  - 🇨🇳_CN_中国
+  - 🇦🇹_AT_奥地利
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇱[www.v2nodes.com] ss-CL-1564...
-  - '🇫🇷[www.v2nodes.com] trojan-FR-... #2'
+  - '🇳🇱 荷兰 | NLD #2'
+  - '🇺🇸 美国 | USA #3'
   - 🇭🇰 香港|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
   - 香港|@ripaojiedian
@@ -1839,10 +1890,12 @@ proxy-groups:
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
   - 韩国|@ripaojiedian
-  - '🇯🇵 日本 | JPN #2'
-  - '🇰🇷 韩国 | KOR #1'
-  - '🇸🇬 新加坡 | SGP #1'
-  - 🇸🇬 新加坡 | SGP 6
+  - 🇫🇷FR_4|3.4MB/s
+  - 🇫🇷FR_5|1.3MB/s
+  - 🇺🇸US_11|2.0MB/s
+  - '🇦🇹 奥地利 | AUT #1'
+  - '🇭🇰 香港 | HKG #1'
+  - '🇸🇪 瑞典 | SWE #3'
   - RO_speednode_0011
   - RO_speednode_0012
   - RO_speednode_0013
@@ -1950,7 +2003,6 @@ proxy-groups:
   - RO_speednode_0127
   - RO_speednode_0128
   - SI_speednode_0129
-  - 🇩🇪 德国 | DEU 6
 rule-providers:
   LocalAreaNetwork:
     type: http

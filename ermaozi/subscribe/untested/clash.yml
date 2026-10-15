@@ -164,6 +164,13 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
+- name: vpnsal
+  password: 033dc6b532
+  port: 11592
+  server: 77.232.139.128
+  sni: srv-8718e6.frd21.ru
+  tls: false
+  type: hysteria2
 - name: '@ange1Vpn کانال تلگرام ما'
   obfs: salamander
   obfs-password: 7y0p9k93w7ryw8tz
@@ -243,13 +250,6 @@ proxies:
   server: 79.137.206.157
   skip-cert-verify: false
   sni: hy.kirian.su
-  tls: false
-  type: hysteria2
-- name: 🫧9@oneclickvpnkeys
-  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
-  port: 2053
-  server: 194.87.118.184
-  sni: match-stream.lovkisport.blog
   tls: false
   type: hysteria2
 - name: Telegram 🆔@Cnetvpn 🇺🇲
@@ -442,53 +442,64 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 🇩🇪 德国 | DEU 5
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 500
-- auth: 5fa748137b6d822308eea4611f474ad5
-  name: 🇺🇸 美国 | USA
-  obfs: salamander
-  obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
-  password: 5fa748137b6d822308eea4611f474ad5
-  port: 443
-  server: 155.117.19.17
-  skip-cert-verify: true
-  sni: www.bing.com
+  down: ''
+  fingerprint: ''
+  name: 🇫🇮FI_4|4.1MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
+  port: 20326
+  server: finkawwwbroy5.qcloud.surf
+  skip-cert-verify: false
+  sni: finkawwwbroy5.qcloud.surf
   type: hysteria2
-- name: '🇺🇸 美国 | USA #1'
-  obfs: salamander
-  obfs-password: salamander
-  password: 5fa748137b6d822308eea4611f474ad5
+  up: ''
+- auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  name: '🇰🇷 韩国 | KOR #3'
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443
-  server: 155.117.19.17
+  server: 43.201.24.167
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: 🇩🇪 德国 | DEU
-  server: qcloudge1.exitvpn.shop
-  port: 20270
-  type: hysteria2
+- auth: 8bd04756-3beb-4348-82c9-d35453df50ce
+  name: '🇸🇪 瑞典 | SWE #4'
   password: 8bd04756-3beb-4348-82c9-d35453df50ce
-  auth: 8bd04756-3beb-4348-82c9-d35453df50ce
-  sni: qcloudge1.exitvpn.shop
-  skip-cert-verify: true
-- name: 🇸🇪 瑞典 | SWE
-  server: sweedenqfds777.qcloud.surf
   port: 21223
-  type: hysteria2
-  password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
-  auth: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
-  sni: sweedenqfds777.qcloud.surf
+  server: sweedenqfds777.qcloud.surf
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  name: '🇸🇬 新加坡 | SGP #1'
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 443
+  server: 47.131.225.255
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- auth: 8A9905B7-801B-41AF-BFC9-2034212770F6
+  name: 🇸🇬 新加坡 | SGP 2
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: 8A9905B7-801B-41AF-BFC9-2034212770F6
+  port: 20654
+  server: sg4.dexlos.com
+  skip-cert-verify: true
+  sni: sg4.dexlos.com
+  type: hysteria2
+- name: '🇸🇬 新加坡 | SGP #2'
+  obfs: salamander
+  obfs-password: salamander
+  password: 8A9905B7-801B-41AF-BFC9-2034212770F6
+  port: 20654
+  server: sg4.dexlos.com
+  skip-cert-verify: true
+  sni: sg4.dexlos.com
+  tls: false
+  type: hysteria2
 proxy-groups:
 - name: ermao.net | 🚀 节点选择
   type: select
@@ -510,6 +521,7 @@ proxy-groups:
   - 🇩🇪192088 | ⚡️Telegram = t.me/v...
   - '@KAFING_2'
   - 🇺🇸139909 | ⚡️Telegram = t.me/S...
+  - vpnsal
   - '@ange1Vpn کانال تلگرام ما'
   - 🇩🇪 @MDvpnSEC
   - '@v2ray_configs_pools 🇫🇷 ⚡️'
@@ -518,7 +530,6 @@ proxy-groups:
   - Telegram 🆔@cnetvpn 🇷🇺
   - Telegram:@v2rayng3
   - 🇫🇮@Azaranv2ray
-  - 🫧9@oneclickvpnkeys
   - Telegram 🆔@Cnetvpn 🇺🇲
   - Telegram 🆔@cnetvpn 🇩🇪
   - کانال تلگرام ما ange1Vpn@
@@ -538,11 +549,12 @@ proxy-groups:
   - Telegram 🆔@cnetvpn 🇸🇪
   - '[ 🇨🇭 ] | @Cfox_SerVer'
   - Telegram 🆔@cnetvpn 🇫🇮
-  - 🇩🇪 德国 | DEU 5
-  - 🇺🇸 美国 | USA
-  - '🇺🇸 美国 | USA #1'
-  - 🇩🇪 德国 | DEU
-  - 🇸🇪 瑞典 | SWE
+  - 🇫🇮FI_4|4.1MB/s
+  - '🇰🇷 韩国 | KOR #3'
+  - '🇸🇪 瑞典 | SWE #4'
+  - '🇸🇬 新加坡 | SGP #1'
+  - 🇸🇬 新加坡 | SGP 2
+  - '🇸🇬 新加坡 | SGP #2'
 - name: ermao.net | ♻️ 自动选择
   type: url-test
   proxies:
@@ -561,6 +573,7 @@ proxy-groups:
   - 🇩🇪192088 | ⚡️Telegram = t.me/v...
   - '@KAFING_2'
   - 🇺🇸139909 | ⚡️Telegram = t.me/S...
+  - vpnsal
   - '@ange1Vpn کانال تلگرام ما'
   - 🇩🇪 @MDvpnSEC
   - '@v2ray_configs_pools 🇫🇷 ⚡️'
@@ -569,7 +582,6 @@ proxy-groups:
   - Telegram 🆔@cnetvpn 🇷🇺
   - Telegram:@v2rayng3
   - 🇫🇮@Azaranv2ray
-  - 🫧9@oneclickvpnkeys
   - Telegram 🆔@Cnetvpn 🇺🇲
   - Telegram 🆔@cnetvpn 🇩🇪
   - کانال تلگرام ما ange1Vpn@
@@ -589,11 +601,12 @@ proxy-groups:
   - Telegram 🆔@cnetvpn 🇸🇪
   - '[ 🇨🇭 ] | @Cfox_SerVer'
   - Telegram 🆔@cnetvpn 🇫🇮
-  - 🇩🇪 德国 | DEU 5
-  - 🇺🇸 美国 | USA
-  - '🇺🇸 美国 | USA #1'
-  - 🇩🇪 德国 | DEU
-  - 🇸🇪 瑞典 | SWE
+  - 🇫🇮FI_4|4.1MB/s
+  - '🇰🇷 韩国 | KOR #3'
+  - '🇸🇪 瑞典 | SWE #4'
+  - '🇸🇬 新加坡 | SGP #1'
+  - 🇸🇬 新加坡 | SGP 2
+  - '🇸🇬 新加坡 | SGP #2'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -618,6 +631,7 @@ proxy-groups:
   - 🇩🇪192088 | ⚡️Telegram = t.me/v...
   - '@KAFING_2'
   - 🇺🇸139909 | ⚡️Telegram = t.me/S...
+  - vpnsal
   - '@ange1Vpn کانال تلگرام ما'
   - 🇩🇪 @MDvpnSEC
   - '@v2ray_configs_pools 🇫🇷 ⚡️'
@@ -626,7 +640,6 @@ proxy-groups:
   - Telegram 🆔@cnetvpn 🇷🇺
   - Telegram:@v2rayng3
   - 🇫🇮@Azaranv2ray
-  - 🫧9@oneclickvpnkeys
   - Telegram 🆔@Cnetvpn 🇺🇲
   - Telegram 🆔@cnetvpn 🇩🇪
   - کانال تلگرام ما ange1Vpn@
@@ -646,11 +659,12 @@ proxy-groups:
   - Telegram 🆔@cnetvpn 🇸🇪
   - '[ 🇨🇭 ] | @Cfox_SerVer'
   - Telegram 🆔@cnetvpn 🇫🇮
-  - 🇩🇪 德国 | DEU 5
-  - 🇺🇸 美国 | USA
-  - '🇺🇸 美国 | USA #1'
-  - 🇩🇪 德国 | DEU
-  - 🇸🇪 瑞典 | SWE
+  - 🇫🇮FI_4|4.1MB/s
+  - '🇰🇷 韩国 | KOR #3'
+  - '🇸🇪 瑞典 | SWE #4'
+  - '🇸🇬 新加坡 | SGP #1'
+  - 🇸🇬 新加坡 | SGP 2
+  - '🇸🇬 新加坡 | SGP #2'
 - name: 📲 电报信息
   type: select
   proxies:
@@ -671,6 +685,7 @@ proxy-groups:
   - 🇩🇪192088 | ⚡️Telegram = t.me/v...
   - '@KAFING_2'
   - 🇺🇸139909 | ⚡️Telegram = t.me/S...
+  - vpnsal
   - '@ange1Vpn کانال تلگرام ما'
   - 🇩🇪 @MDvpnSEC
   - '@v2ray_configs_pools 🇫🇷 ⚡️'
@@ -679,7 +694,6 @@ proxy-groups:
   - Telegram 🆔@cnetvpn 🇷🇺
   - Telegram:@v2rayng3
   - 🇫🇮@Azaranv2ray
-  - 🫧9@oneclickvpnkeys
   - Telegram 🆔@Cnetvpn 🇺🇲
   - Telegram 🆔@cnetvpn 🇩🇪
   - کانال تلگرام ما ange1Vpn@
@@ -699,11 +713,12 @@ proxy-groups:
   - Telegram 🆔@cnetvpn 🇸🇪
   - '[ 🇨🇭 ] | @Cfox_SerVer'
   - Telegram 🆔@cnetvpn 🇫🇮
-  - 🇩🇪 德国 | DEU 5
-  - 🇺🇸 美国 | USA
-  - '🇺🇸 美国 | USA #1'
-  - 🇩🇪 德国 | DEU
-  - 🇸🇪 瑞典 | SWE
+  - 🇫🇮FI_4|4.1MB/s
+  - '🇰🇷 韩国 | KOR #3'
+  - '🇸🇪 瑞典 | SWE #4'
+  - '🇸🇬 新加坡 | SGP #1'
+  - 🇸🇬 新加坡 | SGP 2
+  - '🇸🇬 新加坡 | SGP #2'
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
@@ -724,6 +739,7 @@ proxy-groups:
   - 🇩🇪192088 | ⚡️Telegram = t.me/v...
   - '@KAFING_2'
   - 🇺🇸139909 | ⚡️Telegram = t.me/S...
+  - vpnsal
   - '@ange1Vpn کانال تلگرام ما'
   - 🇩🇪 @MDvpnSEC
   - '@v2ray_configs_pools 🇫🇷 ⚡️'
@@ -732,7 +748,6 @@ proxy-groups:
   - Telegram 🆔@cnetvpn 🇷🇺
   - Telegram:@v2rayng3
   - 🇫🇮@Azaranv2ray
-  - 🫧9@oneclickvpnkeys
   - Telegram 🆔@Cnetvpn 🇺🇲
   - Telegram 🆔@cnetvpn 🇩🇪
   - کانال تلگرام ما ange1Vpn@
@@ -752,11 +767,12 @@ proxy-groups:
   - Telegram 🆔@cnetvpn 🇸🇪
   - '[ 🇨🇭 ] | @Cfox_SerVer'
   - Telegram 🆔@cnetvpn 🇫🇮
-  - 🇩🇪 德国 | DEU 5
-  - 🇺🇸 美国 | USA
-  - '🇺🇸 美国 | USA #1'
-  - 🇩🇪 德国 | DEU
-  - 🇸🇪 瑞典 | SWE
+  - 🇫🇮FI_4|4.1MB/s
+  - '🇰🇷 韩国 | KOR #3'
+  - '🇸🇪 瑞典 | SWE #4'
+  - '🇸🇬 新加坡 | SGP #1'
+  - 🇸🇬 新加坡 | SGP 2
+  - '🇸🇬 新加坡 | SGP #2'
 - name: 🍎 苹果服务
   type: select
   proxies:
@@ -777,6 +793,7 @@ proxy-groups:
   - 🇩🇪192088 | ⚡️Telegram = t.me/v...
   - '@KAFING_2'
   - 🇺🇸139909 | ⚡️Telegram = t.me/S...
+  - vpnsal
   - '@ange1Vpn کانال تلگرام ما'
   - 🇩🇪 @MDvpnSEC
   - '@v2ray_configs_pools 🇫🇷 ⚡️'
@@ -785,7 +802,6 @@ proxy-groups:
   - Telegram 🆔@cnetvpn 🇷🇺
   - Telegram:@v2rayng3
   - 🇫🇮@Azaranv2ray
-  - 🫧9@oneclickvpnkeys
   - Telegram 🆔@Cnetvpn 🇺🇲
   - Telegram 🆔@cnetvpn 🇩🇪
   - کانال تلگرام ما ange1Vpn@
@@ -805,11 +821,12 @@ proxy-groups:
   - Telegram 🆔@cnetvpn 🇸🇪
   - '[ 🇨🇭 ] | @Cfox_SerVer'
   - Telegram 🆔@cnetvpn 🇫🇮
-  - 🇩🇪 德国 | DEU 5
-  - 🇺🇸 美国 | USA
-  - '🇺🇸 美国 | USA #1'
-  - 🇩🇪 德国 | DEU
-  - 🇸🇪 瑞典 | SWE
+  - 🇫🇮FI_4|4.1MB/s
+  - '🇰🇷 韩国 | KOR #3'
+  - '🇸🇪 瑞典 | SWE #4'
+  - '🇸🇬 新加坡 | SGP #1'
+  - 🇸🇬 新加坡 | SGP 2
+  - '🇸🇬 新加坡 | SGP #2'
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -852,6 +869,7 @@ proxy-groups:
   - 🇩🇪192088 | ⚡️Telegram = t.me/v...
   - '@KAFING_2'
   - 🇺🇸139909 | ⚡️Telegram = t.me/S...
+  - vpnsal
   - '@ange1Vpn کانال تلگرام ما'
   - 🇩🇪 @MDvpnSEC
   - '@v2ray_configs_pools 🇫🇷 ⚡️'
@@ -860,7 +878,6 @@ proxy-groups:
   - Telegram 🆔@cnetvpn 🇷🇺
   - Telegram:@v2rayng3
   - 🇫🇮@Azaranv2ray
-  - 🫧9@oneclickvpnkeys
   - Telegram 🆔@Cnetvpn 🇺🇲
   - Telegram 🆔@cnetvpn 🇩🇪
   - کانال تلگرام ما ange1Vpn@
@@ -880,11 +897,12 @@ proxy-groups:
   - Telegram 🆔@cnetvpn 🇸🇪
   - '[ 🇨🇭 ] | @Cfox_SerVer'
   - Telegram 🆔@cnetvpn 🇫🇮
-  - 🇩🇪 德国 | DEU 5
-  - 🇺🇸 美国 | USA
-  - '🇺🇸 美国 | USA #1'
-  - 🇩🇪 德国 | DEU
-  - 🇸🇪 瑞典 | SWE
+  - 🇫🇮FI_4|4.1MB/s
+  - '🇰🇷 韩国 | KOR #3'
+  - '🇸🇪 瑞典 | SWE #4'
+  - '🇸🇬 新加坡 | SGP #1'
+  - 🇸🇬 新加坡 | SGP 2
+  - '🇸🇬 新加坡 | SGP #2'
 rule-providers:
   LocalAreaNetwork:
     type: http

@@ -10,10 +10,9 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: random
-  encryption: none
   grpc-opts:
     grpc-service-name: grpc-ru
-  name: '🇷🇺[www.v2nodes.com] vless-RU-1... #1'
+  name: 🇷🇺[www.v2nodes.com] vless-RU-1...
   network: grpc
   port: 443
   server: xsru1.ddnsfree.com
@@ -22,7 +21,7 @@ proxies:
   type: vless
   uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
 - client-fingerprint: random
-  name: '🇷🇺[www.v2nodes.com] vless-RU-1... #2'
+  name: '🇷🇺[www.v2nodes.com] vless-RU-1... #1'
   network: ws
   port: 8443
   server: 194.87.143.165
@@ -38,15 +37,3 @@ proxies:
   port: 22037
   server: ruot.ayucloudservices.nl
   type: ss
-- name: 🇷🇺RU_1|2.0MB/s
-  port: 1446
-  server: 46.29.166.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇷🇺RU_2|1.1MB/s
-  port: 8443
-  server: 87.242.85.187
-  skip-cert-verify: true
-  tls: true
-  type: http
