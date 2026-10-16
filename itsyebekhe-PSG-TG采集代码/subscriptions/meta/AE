@@ -1,0 +1,19 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: info
+proxies:
+  - {"name": "🇦🇪 AE | VLESS | @outlinereleasedkey #1 [fast]", "server": "157.228.155.238", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "4d852af3-a121-41aa-9aed-4ca40a6f7b4d", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "randomized", "flow": "xtls-rprx-vision", "servername": "addons.mozilla.org", "reality-opts": {"public-key": "5BDht3tAZdKEKpJymGlRK9JugOnieA-kMSWz_0FoE0I", "short-id": "6f76ad09"}}
+proxy-groups:
+  - name: "PROXY"
+    type: select
+    proxies:
+      - '🇦🇪 AE | VLESS | @outlinereleasedkey #1 [fast]'
+      - DIRECT
+  - name: "Auto"
+    type: url-test
+    proxies:
+      - '🇦🇪 AE | VLESS | @outlinereleasedkey #1 [fast]'
+rules:
+  - GEOIP,IR,DIRECT
+  - MATCH,PROXY
