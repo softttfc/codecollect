@@ -9,20 +9,31 @@ proxies:
   type: hysteria2
 - name: '🇺🇸[www.v2nodes.com] vless-US-1... #1'
   network: ws
-  port: 80
-  server: platform101.golnamakcert.top
+  port: 2095
+  server: www.csgo.net
   tls: false
   type: vless
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: platform101.halalkhor.info
-    path: /platform101
+      Host: openapi.next-ai.us.ci
+    path: /
+- name: '🇺🇸[www.v2nodes.com] vless-US-1... #2'
+  network: ws
+  port: 2095
+  server: www.epicgames.com
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: openapi.next-ai.us.ci
+    path: /
 - alpn:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #7'
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #5'
   network: ws
   port: 443
   server: 104.21.70.22
@@ -35,26 +46,48 @@ proxies:
     headers:
       Host: luminouspetal.cyou
     path: /raccoonwsvless
-- name: '🇺🇸[www.v2nodes.com] vless-US-1... #3'
-  network: ws
-  port: 14430
-  server: 193.233.130.118
-  servername: 193.233.130.118
-  tls: false
-  type: vless
-  uuid: dfc3077e-b013-4fcb-a500-df3e210e88b0
-  ws-opts:
-    headers:
-      Host: 193.233.130.118
-    path: /vless
-- client-fingerprint: chrome
-  name: 🇺🇸US_1|1.6MB/s
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸[www.v2nodes.com] ss-US-1598...
+  password: '!!str 123456'
+  port: 46008
+  server: 95.169.3.45
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '🇺🇸[www.v2nodes.com] ss-US-1598... #1'
+  password: '!!str 123456'
+  port: 46007
+  server: 95.169.3.45
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '🇺🇸[www.v2nodes.com] ss-US-1598... #2'
+  password: '!!str 123456'
+  port: 46003
+  server: 95.169.3.45
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '🇺🇸[www.v2nodes.com] ss-US-1598... #3'
+  password: '!!str 123456'
+  port: 46009
+  server: 95.169.3.45
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '🇺🇸[www.v2nodes.com] ss-US-1598... #4'
+  password: '!!str 123456'
+  port: 46010
+  server: 95.169.3.45
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '🇺🇸[www.v2nodes.com] ss-US-1598... #5'
+  password: '!!str 123456'
+  port: 46013
+  server: 95.169.3.45
+  type: ss
+- name: 🇺🇸[www.v2nodes.com] trojan-US-...
   password: ae7eb4dwyaz25pxwgq59
   port: 59689
   server: 66.23.203.21
   skip-cert-verify: true
   type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国|@ripaojiedian
@@ -101,139 +134,82 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇺🇸US_2|1.3MB/s
+- name: 🇺🇸US_2|1.6MB/s
   port: 443
-  server: 121.127.34.82
+  server: 167.88.60.242
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_3|1.5MB/s
+- name: 🇺🇸US_3|2.4MB/s
+  port: 443
+  server: 148.135.10.80
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_4|3.4MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_5|1.0MB/s
   port: 9443
   server: 38.95.111.226
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇺🇸US_4|3.1MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_5|1.5MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_6|3.6MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.217
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_7|2.8MB/s
-  port: 443
-  server: 193.239.236.134
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_8|1.9MB/s
+- name: 🇺🇸US_6|2.0MB/s
   port: 443
   server: 12.221.146.147
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_9|1.8MB/s
-  port: 9443
-  server: 198.44.138.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_10|2.9MB/s
-  port: 443
-  server: 167.88.60.242
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_11|2.4MB/s
-  port: 443
-  server: 12.202.180.118
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_12|1.4MB/s
-  port: 443
-  server: 12.202.180.10
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_13|1011KB/s
+- name: 🇺🇸US_7|1.4MB/s
   port: 443
   server: 198.44.135.27
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_14|1.8MB/s
-  port: 9443
-  server: 154.47.25.78
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_15|2.7MB/s
+- name: 🇺🇸US_8|1.6MB/s
   port: 443
-  server: 149.88.21.140
+  server: 12.202.180.10
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_16|1.7MB/s
-  port: 8443
-  server: 44.217.145.28
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_17|2.9MB/s
-  port: 443
-  server: 148.135.10.80
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_18|1.3MB/s
+- name: 🇺🇸US_9|2.5MB/s
   port: 443
   server: 68.235.56.59
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_19|3.0MB/s
-  port: 8888
-  server: 38.18.230.153
-  skip-cert-verify: true
-  type: http
-- name: 🇺🇸US_20|1.7MB/s
-  port: 3000
-  server: 20.121.252.238
-  skip-cert-verify: true
-  type: socks5
-- alterId: 0
-  cipher: auto
-  name: '🇦🇺 澳大利亚 | AUS #1'
-  network: ws
+- name: 🇺🇸US_10|1.3MB/s
   port: 443
-  server: 172.67.197.71
+  server: 121.127.34.82
   skip-cert-verify: true
   tls: true
-  type: vmess
-  udp: true
-  uuid: 1c22bf94-702b-49ac-8f5e-24259beed2d8
-  ws-opts:
-    headers:
-      Host: aus.lovehk.xyz
-    path: /Sydney3
+  type: http
+- name: 🇺🇸US_11|1.1MB/s
+  port: 9443
+  server: 149.88.21.140
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_12|1.0MB/s
+  port: 443
+  server: 162.244.227.36
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_13|1.6MB/s
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
 - auth: 633bc3be486b646190661ac2387c150a
-  name: 🇦🇺 澳大利亚 | AUS 2
+  name: 🇦🇺 澳大利亚 | AUS
   obfs: salamander
   obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
   password: 633bc3be486b646190661ac2387c150a
@@ -242,10 +218,37 @@ proxies:
   skip-cert-verify: true
   sni: www.bing.com
   type: hysteria2
+- auth: a34f3990b69f44bfa0d32385
+  name: 🇦🇺 澳大利亚 | AUS 2
+  obfs: salamander
+  obfs-password: a34f3990b69f44bfa0d32385
+  password: a34f3990b69f44bfa0d32385
+  port: 20000
+  ports: 20000-30000
+  server: 137.23.27.143
+  skip-cert-verify: true
+  sni: rmgyvpn.rest
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '🇦🇺 澳大利亚 | AUS #2'
+  network: ws
+  port: 443
+  server: 172.67.195.146
+  servername: aus.lovehk.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
+  ws-opts:
+    headers:
+      Host: aus.lovehk.xyz
+    path: /Sydney3
 - alpn:
   - h2
   client-fingerprint: firefox
-  name: '🇷🇺 俄罗斯 | RUS #1'
+  name: '🇷🇺 俄罗斯 | RUS #2'
   network: xhttp
   port: 443
   server: 188.72.103.4
@@ -272,7 +275,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: firefox
-  name: '🇷🇺 俄罗斯 | RUS #4'
+  name: '🇷🇺 俄罗斯 | RUS #3'
   network: xhttp
   port: 2053
   server: randomquaint.net
@@ -285,64 +288,34 @@ proxies:
     host: randomquaint.net
     mode: auto
     path: /api/v1/upload
-- name: '🇺🇸 美国 | USA #2'
-  network: tcp
-  port: 10443
-  server: 45.138.100.248
-  servername: 45.138.100.248
-  tls: false
-  type: vless
-  udp: true
-  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
-  ws-opts:
-    path: /
-- name: '🇺🇸 美国 | USA #4'
-  network: ws
-  port: 2082
-  server: 104.18.35.86
-  servername: hhlfy.twiladaphne.ndjp.net
-  tls: false
-  type: vless
-  udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /fp
-- name: '🇺🇸 美国 | USA #6'
-  network: ws
-  port: 14430
-  server: 45.138.100.248
-  servername: 45.138.100.248
-  tls: false
-  type: vless
-  udp: true
-  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
-  ws-opts:
-    headers:
-      Host: 45.138.100.248
-    path: /vless
 - alpn:
-  - h3
   - h2
-  client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #8'
-  network: ws
-  port: 443
-  server: 162.159.135.234
-  servername: snip.edgeoneai.cc.cd
+  - http/1.1
+  client-fingerprint: firefox
+  name: '🇷🇺 俄罗斯 | RUS #4'
+  network: xhttp
+  port: 2053
+  server: 78.159.246.179
+  servername: randomquaint.net
   tls: true
   type: vless
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+  uuid: 95a608b6-bff1-4e10-bb61-0a39f221bb7d
+  xhttp-opts:
+    host: randomquaint.net
+    mode: auto
+    path: /api/v1/upload
+- cipher: 2022-blake3-aes-128-gcm
+  name: '🇺🇸 美国 | USA #1'
+  password: jr+T2RS0sCHBmC4u6aY6Vg==
+  port: 30832
+  server: 172.86.108.79
+  type: ss
+  udp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #9'
+  name: '🇺🇸 美国 | USA #2'
   network: ws
   port: 443
   server: 188.114.98.0
@@ -355,20 +328,81 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /fdip
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #10'
+- auth: https://xship.best
+  name: 🇺🇸 美国 | USA 3
+  password: https://xship.best
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
+  type: hysteria2
+  udp: true
+- auth: https://xship.top
+  name: 🇺🇸 美国 | USA 4
+  password: https://xship.top
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
+  type: hysteria2
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #3'
   network: ws
   port: 443
-  server: 172.67.139.229
+  server: www.speedtest.net
+  servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
   udp: true
-  uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   ws-opts:
     headers:
-      Host: usa.lovehk.xyz
-    path: /Dallas1
-- name: '🇦🇺 澳大利亚 | AUS #2'
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560#Telegram---bored_vpn
+- alpn:
+  - http/1.1
+  name: 🇺🇸 美国 | USA 6
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.118.45
+  skip-cert-verify: true
+  sni: www.volumeroot.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.volumeroot.com
+    path: /assignment
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #6'
+  network: ws
+  port: 443
+  server: 188.114.97.6
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+- auth: https://xship.2fa.cat
+  name: 🇺🇸 美国 | USA 11
+  password: https://xship.2fa.cat
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
+  type: hysteria2
+  udp: true
+- name: '🇦🇺 澳大利亚 | AUS #1'
   obfs: salamander
   obfs-password: salamander
   password: 633bc3be486b646190661ac2387c150a
@@ -378,6 +412,13 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: '🇺🇸 美国 | USA #4'
+  password: humanity
+  port: 443
+  server: 172.67.118.45
+  skip-cert-verify: true
+  sni: www.volumeroot.com
+  type: trojan
 - name: US_speednode_0131
   password: 'null'
   port: 9002

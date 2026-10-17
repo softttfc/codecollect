@@ -56,9 +56,12 @@
         "types": []
     },
     "Proxymelimon": {
-        "title": "پروکسی",
+        "title": "پروکسی و کانفیگ رایگان",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/Proxymelimon.jpg",
-        "types": []
+        "types": [
+            "vless",
+            "vmess"
+        ]
     },
     "TelMTProto": {
         "title": "Proxy MTProto | پروکسی",
@@ -321,8 +324,8 @@
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/free1_vpn.jpg",
         "types": [
             "ss",
-            "vless",
-            "vmess"
+            "trojan",
+            "vless"
         ]
     },
     "free4allvpn": {
@@ -751,8 +754,7 @@
         "title": "پروکسی و v2rayمهربانی",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mehrosaboran.jpg",
         "types": [
-            "vless",
-            "vmess"
+            "vless"
         ]
     },
     "meli_v2rayng": {
@@ -1169,8 +1171,10 @@
         "title": "Red2Ray | V2rayNG | کانفیگ رایگان",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/red2ray.jpg",
         "types": [
+            "ss",
             "trojan",
-            "vless"
+            "vless",
+            "vmess"
         ]
     },
     "renetvpn": {

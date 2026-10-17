@@ -53,8 +53,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @orange_vpns #1 [fast]",
         "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]",
+        "🇮🇷 IR | VLESS | @Proxymelimon #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -66,8 +66,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @orange_vpns #1 [fast]",
-        "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]"
+        "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]",
+        "🇮🇷 IR | VLESS | @Proxymelimon #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -115,29 +115,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @orange_vpns #1 [fast]",
-      "server": "de5.wizard.select",
-      "server_port": 443,
-      "uuid": "cebcaf04-c567-11f1-9902-a337233c6cda",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "de5.wizard.select",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "KIawAxTmmnz2tLnTg26djq1f20QSgBzy9y2mp9HCiFA",
-          "short_id": "c4a866"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]",
       "server": "de-2.starsping.com",
       "server_port": 443,
@@ -155,6 +132,28 @@
           "enabled": true,
           "public_key": "ZBv1jOEHziWtQQoThg63_1gm4zIPyk_cfVmNJ1SOZSk",
           "short_id": "a88550765b9956ee"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇷 IR | VLESS | @Proxymelimon #1 [medium]",
+      "server": "morti.brifelo.ir",
+      "server_port": 4231,
+      "uuid": "4155973e-3df6-45fa-a649-6759d96bd5e0",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.technolife.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "YfpMcHPP5SGnjyLhIKtapygk6Zs7W3-Cva3e0wJSWGY",
+          "short_id": "264d0aa9e38e20ab"
         }
       }
     },

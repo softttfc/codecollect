@@ -52,17 +52,17 @@
         "auto",
         "🇮🇷 IR | VLESS | @config_proxy #1 [fast]",
         "🇮🇷 IR | VLESS | @config_proxy #2 [fast]",
-        "🇮🇷 IR | VLESS | @mimitdl #1 [medium]",
         "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @netmellianti #1 [fast]",
         "🇮🇷 IR | VLESS | @mpproxy #1 [fast]",
         "🇮🇷 IR | SS | @tanhanet #1 [medium]",
-        "🇮🇷 IR | VLESS | @lax_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
+        "🇮🇷 IR | VLESS | @Proxymelimon #1 [medium]",
+        "🇮🇷 IR | VMESS | @Proxymelimon #1 [fast]",
         "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
         "🇮🇷 IR | VMESS | @NamiraConfigs #1 [fast]",
         "🇮🇷 IR | VLESS | @NamiraConfigs #1 [fast]",
-        "🇮🇷 IR | VLESS | @NamiraConfigs #2 [medium]",
+        "🇮🇷 IR | VLESS | @NamiraConfigs #2 [fast]",
         "🇮🇷 IR | VLESS | @prooxyk #1 [fast]",
         "🇮🇷 IR | VMESS | @khoneproxy #1 [fast]",
         "🇮🇷 IR | VLESS | @nn_vpn #1 [medium]",
@@ -78,17 +78,17 @@
       "outbounds": [
         "🇮🇷 IR | VLESS | @config_proxy #1 [fast]",
         "🇮🇷 IR | VLESS | @config_proxy #2 [fast]",
-        "🇮🇷 IR | VLESS | @mimitdl #1 [medium]",
         "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @netmellianti #1 [fast]",
         "🇮🇷 IR | VLESS | @mpproxy #1 [fast]",
         "🇮🇷 IR | SS | @tanhanet #1 [medium]",
-        "🇮🇷 IR | VLESS | @lax_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
+        "🇮🇷 IR | VLESS | @Proxymelimon #1 [medium]",
+        "🇮🇷 IR | VMESS | @Proxymelimon #1 [fast]",
         "🇮🇷 IR | VLESS | @ai_duet #1 [fast]",
         "🇮🇷 IR | VMESS | @NamiraConfigs #1 [fast]",
         "🇮🇷 IR | VLESS | @NamiraConfigs #1 [fast]",
-        "🇮🇷 IR | VLESS | @NamiraConfigs #2 [medium]",
+        "🇮🇷 IR | VLESS | @NamiraConfigs #2 [fast]",
         "🇮🇷 IR | VLESS | @prooxyk #1 [fast]",
         "🇮🇷 IR | VMESS | @khoneproxy #1 [fast]",
         "🇮🇷 IR | VLESS | @nn_vpn #1 [medium]",
@@ -122,28 +122,6 @@
         "path": "/",
         "headers": {
           "Host": "vixon.portab.org"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @mimitdl #1 [medium]",
-      "server": "62.60.222.174",
-      "server_port": 443,
-      "uuid": "MiMiTdL",
-      "network": "xhttp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "TOkCRZCKG9Dyz667DlXzpj6855eUyWUC6TH-M5AIeV0",
-          "short_id": "362a3a4331"
         }
       }
     },
@@ -202,26 +180,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @lax_vpn #1 [fast]",
-      "server": "s19.speedyconnect.pro",
-      "server_port": 443,
-      "uuid": "97dce074-7db1-4d59-99ca-0ef8311e2425",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "s19.speedyconnect.pro"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/downloader/10005?ed=2048",
-        "headers": {
-          "Host": "s19.speedyconnect.pro"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
       "server": "parspack.com",
       "server_port": 443,
@@ -247,6 +205,41 @@
           "Host": "biA.ALlhub.LTD"
         }
       }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇷 IR | VLESS | @Proxymelimon #1 [medium]",
+      "server": "morti.brifelo.ir",
+      "server_port": 4231,
+      "uuid": "4155973e-3df6-45fa-a649-6759d96bd5e0",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.technolife.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "YfpMcHPP5SGnjyLhIKtapygk6Zs7W3-Cva3e0wJSWGY",
+          "short_id": "264d0aa9e38e20ab"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇮🇷 IR | VMESS | @Proxymelimon #1 [fast]",
+      "server": "NlS3.zelnora.ir",
+      "server_port": 55306,
+      "uuid": "f003b7ed-c3c8-4155-b3b3-de7feafd1e7f",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "network": "tcp",
+      "packet_encoding": ""
     },
     {
       "type": "vless",
@@ -289,7 +282,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @NamiraConfigs #2 [medium]",
+      "tag": "🇮🇷 IR | VLESS | @NamiraConfigs #2 [fast]",
       "server": "a.samrayan.ir",
       "server_port": 443,
       "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",

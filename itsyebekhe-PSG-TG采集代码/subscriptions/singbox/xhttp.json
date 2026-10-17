@@ -57,7 +57,6 @@
         "🇷🇺 RU | VLESS | @prrofile_purple #1 [fast]",
         "🇷🇺 RU | VLESS | @prrofile_purple #2 [fast]",
         "🇷🇺 RU | VLESS | @prrofile_purple #3 [fast]",
-        "🇮🇷 IR | VLESS | @mimitdl #1 [medium]",
         "🇺🇸 US | VLESS | @netmellianti #1 [fast]",
         "🇸🇨 SC | VLESS | @tanhanet #1 [fast]",
         "🇺🇸 US | VLESS | @free4allvpn #1 [fast]",
@@ -72,7 +71,8 @@
         "🇺🇸 US | VLESS | @qeshmserver #1 [fast]",
         "🇽🇽 XX | VLESS | @kafing_2 #5 [fast]",
         "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]",
-        "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
+        "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
+        "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2 [fast]",
         "direct"
       ],
@@ -89,7 +89,6 @@
         "🇷🇺 RU | VLESS | @prrofile_purple #1 [fast]",
         "🇷🇺 RU | VLESS | @prrofile_purple #2 [fast]",
         "🇷🇺 RU | VLESS | @prrofile_purple #3 [fast]",
-        "🇮🇷 IR | VLESS | @mimitdl #1 [medium]",
         "🇺🇸 US | VLESS | @netmellianti #1 [fast]",
         "🇸🇨 SC | VLESS | @tanhanet #1 [fast]",
         "🇺🇸 US | VLESS | @free4allvpn #1 [fast]",
@@ -104,7 +103,8 @@
         "🇺🇸 US | VLESS | @qeshmserver #1 [fast]",
         "🇽🇽 XX | VLESS | @kafing_2 #5 [fast]",
         "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]",
-        "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
+        "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
+        "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
@@ -177,28 +177,6 @@
       "tag": "🇷🇺 RU | VLESS | @prrofile_purple #1 [fast]",
       "server": "84.38.187.134",
       "server_port": 443,
-      "uuid": "53ffd172-de4c-002f-aa77-1a6830a36cf8",
-      "network": "xhttp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "git.xpkg.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "QSAIpsE696lDqkumfo7dyBt92XzrVDPTF6KogbeKhGc",
-          "short_id": "2c9431dc7a306018"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #2 [fast]",
-      "server": "84.38.187.134",
-      "server_port": 443,
       "uuid": "53ffd172-de4c-0037-aa77-1a6830a36cf8",
       "network": "xhttp",
       "packet_encoding": "xudp",
@@ -218,7 +196,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #3 [fast]",
+      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #2 [fast]",
       "server": "95.143.188.10",
       "server_port": 443,
       "uuid": "53ffd172-de4c-0037-aa77-1a6830a36cf8",
@@ -240,23 +218,23 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @mimitdl #1 [medium]",
-      "server": "62.60.222.174",
+      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #3 [fast]",
+      "server": "84.38.187.134",
       "server_port": 443,
-      "uuid": "MiMiTdL",
+      "uuid": "53ffd172-de4c-002f-aa77-1a6830a36cf8",
       "network": "xhttp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "www.microsoft.com",
+        "server_name": "git.xpkg.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "TOkCRZCKG9Dyz667DlXzpj6855eUyWUC6TH-M5AIeV0",
-          "short_id": "362a3a4331"
+          "public_key": "QSAIpsE696lDqkumfo7dyBt92XzrVDPTF6KogbeKhGc",
+          "short_id": "2c9431dc7a306018"
         }
       }
     },
@@ -516,23 +494,41 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
-      "server": "nl.cachevault.net",
+      "tag": "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
+      "server": "kala.fortresshost.ir",
       "server_port": 443,
-      "uuid": "2b9fc113-db27-4635-86d8-fa4556a5b7ba",
+      "uuid": "9f309ae0-172e-4b6e-d382-b2a70be59823",
       "network": "xhttp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "nl.cachevault.net",
+        "server_name": "kala.fortresshost.ir",
+        "alpn": [
+          "h2"
+        ],
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
+      "server": "1bccfbc69597.salzivo.ir",
+      "server_port": 443,
+      "uuid": "410bc842-c3df-4fc5-9e11-0feab5c97d64",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "google.com",
+        "alpn": [
+          "h2"
+        ],
+        "utls": {
           "enabled": true,
-          "public_key": "XTX6Yvtj5B4HENQbNCS0MH3jDqq5vj5gWlg2nilTviE",
-          "short_id": "8ba02790a1480848"
+          "fingerprint": "chrome"
         }
       }
     },
