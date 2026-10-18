@@ -54,9 +54,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇽🇽 XX | VLESS | @evay_vpn #1 [fast]",
-        "🇷🇺 RU | VLESS | @prrofile_purple #1 [fast]",
         "🇺🇸 US | VLESS | @netmellianti #1 [fast]",
         "🇸🇨 SC | VLESS | @tanhanet #1 [fast]",
+        "🇫🇷 FR | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #2 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
@@ -73,9 +73,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇽🇽 XX | VLESS | @evay_vpn #1 [fast]",
-        "🇷🇺 RU | VLESS | @prrofile_purple #1 [fast]",
         "🇺🇸 US | VLESS | @netmellianti #1 [fast]",
         "🇸🇨 SC | VLESS | @tanhanet #1 [fast]",
+        "🇫🇷 FR | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #2 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
@@ -148,28 +148,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #1 [fast]",
-      "server": "84.38.187.134",
-      "server_port": 443,
-      "uuid": "53ffd172-de4c-0037-aa77-1a6830a36cf8",
-      "network": "xhttp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "git.xpkg.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "QSAIpsE696lDqkumfo7dyBt92XzrVDPTF6KogbeKhGc",
-          "short_id": "2c9431dc7a306018"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇺🇸 US | VLESS | @netmellianti #1 [fast]",
       "server": "23.235.33.98",
       "server_port": 80,
@@ -197,6 +175,15 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇷 FR | VLESS | @red2ray #1 [fast]",
+      "server": "170.39.216.98",
+      "server_port": 1001,
+      "uuid": "08042e25-2db6-4c82-bc2e-f496ecac33e1",
+      "network": "xhttp",
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",

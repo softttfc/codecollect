@@ -171,7 +171,7 @@ proxies:
   sni: srv-8718e6.frd21.ru
   tls: false
   type: hysteria2
-- name: 🇷🇺195463 | ⚡️Telegram = t.me/S...
+- name: '@meliproxyy'
   obfs: salamander
   obfs-password: eba1b4766d2a26d6c167e2d2e9efabf4
   password: 033dc6b532
@@ -181,21 +181,27 @@ proxies:
   sni: srv-8718e6.frd21.ru
   tls: false
   type: hysteria2
+- auth: 082f5694-9019-4110-b67b-8125dbb9bab8
+  name: '🇷🇺 俄罗斯 | RUS #2'
+  password: 082f5694-9019-4110-b67b-8125dbb9bab8
+  port: 54183
+  server: 189.74.106.162
+  skip-cert-verify: true
+  sni: outh.yandex-cloud.org
+  tls: false
+  type: hysteria2
+- name: 🛩️15@oneclickvpnkeys
+  password: 082f5694-9019-4110-b67b-8125dbb9bab8
+  port: 54183
+  server: 189.74.114.2
+  sni: outh.yandex-cloud.org
+  tls: false
+  type: hysteria2
 - name: 🫑67@oneclickvpnkeys
   password: 082f5694-9019-4110-b67b-8125dbb9bab8
   port: 54183
   server: outh.yandex-cloud.org
   sni: outh.yandex-cloud.org
-  tls: false
-  type: hysteria2
-- name: '@ange1Vpn کانال تلگرام ما'
-  obfs: salamander
-  obfs-password: 7y0p9k93w7ryw8tz
-  password: 17537e14543a478b9c7a558870d814f3
-  port: 51791
-  server: mhzedir.qzz.io
-  skip-cert-verify: false
-  sni: mhzedir.qzz.io
   tls: false
   type: hysteria2
 - name: '@v2ray_configs_pools 🇫🇷 ⚡️'
@@ -208,14 +214,17 @@ proxies:
   sni: srv-0e5387.frd21.ru
   tls: false
   type: hysteria2
-- name: 🍂62@oneclickvpnkeys
-  password: 43212c32-01f2-4356-b216-67dc1c178262
-  port: 5443
-  server: ees92.shhflow.xyz
-  sni: ees92.shhflow.xyz
+- name: 🛩️61@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: c13f29db6a638ad2b211b9ce2669ef27
+  password: 3a702d4d1de4949005d8431220e040fb
+  port: 443
+  server: 152.67.75.161
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '@vasl_bashim'
+- name: '@vpnbaz🍂'
   obfs: salamander
   obfs-password: 588c76723192f87cfe6d6786816177cd2bd9773acdc545928d7d1d5e8338d4ce
   password: 56ff50da-a238-4646-95ab-dd159634bd87
@@ -243,13 +252,6 @@ proxies:
   server: giftcard.gisora.ir
   skip-cert-verify: false
   sni: giftcard.gisora.ir
-  tls: false
-  type: hysteria2
-- name: 🍂67@oneclickvpnkeys
-  password: 6656cc0a-5908-4d04-a436-64f5843c0c7a
-  port: 20326
-  server: finkawwwbroy5.qcloud.surf
-  sni: finkawwwbroy5.qcloud.surf
   tls: false
   type: hysteria2
 - name: Telegram:@v2rayng3
@@ -290,16 +292,6 @@ proxies:
   server: gift-catalog.aroonia.ir
   skip-cert-verify: false
   sni: gift-catalog.aroonia.ir
-  tls: false
-  type: hysteria2
-- name: کانال تلگرام ما ange1Vpn@
-  obfs: salamander
-  obfs-password: 7y0p9k93w7ryw8tz
-  password: 9ed56ba1c7c44bbab670d83a435591b8
-  port: 51791
-  server: mhzedir.qzz.io
-  skip-cert-verify: false
-  sni: mhzedir.qzz.io
   tls: false
   type: hysteria2
 - name: 🫑92@oneclickvpnkeys
@@ -387,22 +379,22 @@ proxies:
   sni: srv-3fc7c9.21freedom.net
   tls: false
   type: hysteria2
-- name: 🍂33@oneclickvpnkeys
-  obfs: salamander
-  obfs-password: ypvL8T4HFIBLoH8q
-  password: capadm54312235
-  port: 443
-  server: 51.15.16.68
-  skip-cert-verify: true
-  sni: vpn.local
-  tls: false
-  type: hysteria2
 - name: 🇨🇭192087 | ⚡️Telegram = t.me/v...
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
   password: capadm96216165
   port: 443
   server: 208.69.78.217
+  skip-cert-verify: true
+  sni: vpn.local
+  tls: false
+  type: hysteria2
+- name: 🛩️64@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: ChY5QQQT3ZtUdNT8
+  password: capadmbd5f18bd
+  port: 443
+  server: 51.77.217.70
   skip-cert-verify: true
   sni: vpn.local
   tls: false
@@ -415,12 +407,19 @@ proxies:
   sni: hy2.561891.xyz
   tls: false
   type: hysteria2
-- name: 🇺🇸195447 | ⚡️Telegram = t.me/S...
+- name: برای اتصال دائمی جوین شو🪭 Tele...
   password: dongtaiwang.com
   port: 44356
   server: hy2.561891.xyz
   skip-cert-verify: false
   sni: hy2.561891.xyz
+  tls: false
+  type: hysteria2
+- name: 🛩️31@oneclickvpnkeys
+  password: e625f8ef-f935-4c7d-a259-0f154b6842fd
+  port: 443
+  server: 177.3.209.226
+  sni: hy-se.bypassme.online
   tls: false
   type: hysteria2
 - name: 'برای اتصال دائمی جوین شو🥏 Tele... #2'
@@ -443,11 +442,12 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 🍂45@oneclickvpnkeys
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+- name: 🛩️39@oneclickvpnkeys
+  password: gf1
   port: 443
-  server: 91.196.32.163
+  server: 173.212.201.85
   skip-cert-verify: true
+  sni: www.docker.com
   tls: false
   type: hysteria2
 - name: '@confiig_hub #1'
@@ -470,13 +470,6 @@ proxies:
   port: 44100
   server: pro2.riziro.ir
   sni: pro2.riziro.ir
-  tls: false
-  type: hysteria2
-- name: 🇳🇱195494 | ⚡️Telegram = t.me/S...
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 46.229.243.140
-  sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇳🇱
@@ -520,7 +513,7 @@ proxies:
   tls: false
   type: hysteria2
 - auth: CyG0RFxMjzs41uQD4OLuHQ==
-  name: 🇧🇷 巴西 | BRA 2
+  name: 🇧🇷 巴西 | BRA
   obfs: salamander
   obfs-password: CyG0RFxMjzs41uQD4OLuHQ==
   password: CyG0RFxMjzs41uQD4OLuHQ==
@@ -540,52 +533,22 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
-- name: 🇦🇺 澳大利亚 | AUS 2
-  server: 137.23.27.143
-  port: 20000
+- name: 🇩🇪 德国 | DEU 2
+  server: 50.7.87.150
+  port: 54183
   type: hysteria2
-  password: a34f3990b69f44bfa0d32385
-  auth: a34f3990b69f44bfa0d32385
-  sni: rmgyvpn.rest
+  password: 082f5694-9019-4110-b67b-8125dbb9bab8
+  auth: 082f5694-9019-4110-b67b-8125dbb9bab8
+  sni: outh.yandex-cloud.org
   skip-cert-verify: true
-  obfs: salamander
-  obfs-password: a34f3990b69f44bfa0d32385
-  ports: 20000-30000
-- name: 🇸🇪 瑞典 | SWE
-  server: hy-se.bypassme.online
-  port: 443
+- name: 🇷🇺 俄罗斯 | RUS
+  server: 189.74.106.162
+  port: 54183
   type: hysteria2
-  password: e625f8ef-f935-4c7d-a259-0f154b6842fd
-  auth: e625f8ef-f935-4c7d-a259-0f154b6842fd
-  sni: hy-se.bypassme.online
+  password: 082f5694-9019-4110-b67b-8125dbb9bab8
+  auth: 082f5694-9019-4110-b67b-8125dbb9bab8
+  sni: outh.yandex-cloud.org
   skip-cert-verify: true
-- name: 🇺🇸 美国 | USA 3
-  server: starlink-ft.251313.xyz
-  port: 443
-  type: hysteria2
-  password: https://xship.best
-  auth: https://xship.best
-  sni: xship.top
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸 美国 | USA 4
-  server: starlink-ft.251313.xyz
-  port: 443
-  type: hysteria2
-  password: https://xship.top
-  auth: https://xship.top
-  sni: xship.top
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸 美国 | USA 11
-  server: starlink-ft.251313.xyz
-  port: 443
-  type: hysteria2
-  password: https://xship.2fa.cat
-  auth: https://xship.2fa.cat
-  sni: xship.top
-  skip-cert-verify: true
-  udp: true
 proxy-groups:
 - name: ermao.net | 🚀 节点选择
   type: select
@@ -608,20 +571,19 @@ proxy-groups:
   - '@KAFING_2'
   - 🇺🇸139909 | ⚡️Telegram = t.me/S...
   - vpnsal
-  - 🇷🇺195463 | ⚡️Telegram = t.me/S...
+  - '@meliproxyy'
+  - '🇷🇺 俄罗斯 | RUS #2'
+  - 🛩️15@oneclickvpnkeys
   - 🫑67@oneclickvpnkeys
-  - '@ange1Vpn کانال تلگرام ما'
   - '@v2ray_configs_pools 🇫🇷 ⚡️'
-  - 🍂62@oneclickvpnkeys
-  - '@vasl_bashim'
+  - 🛩️61@oneclickvpnkeys
+  - '@vpnbaz🍂'
   - '@Begoo_VPN ²⁹⁰'
   - Telegram 🆔@cnetvpn 🇷🇺
-  - 🍂67@oneclickvpnkeys
   - Telegram:@v2rayng3
   - 🇫🇮@Azaranv2ray
   - Telegram 🆔@Cnetvpn 🇺🇲
   - Telegram 🆔@cnetvpn 🇩🇪
-  - کانال تلگرام ما ange1Vpn@
   - 🫑92@oneclickvpnkeys
   - '@v2ray_configs_pools 🌍 ⚡️'
   - 🫑11@oneclickvpnkeys
@@ -631,27 +593,24 @@ proxy-groups:
   - برای اتصال دائمی جوین شو🥏 Tele...
   - '@KAFING_2 #2'
   - '@V2rayng_mar_ket #1'
-  - 🍂33@oneclickvpnkeys
   - 🇨🇭192087 | ⚡️Telegram = t.me/v...
+  - 🛩️64@oneclickvpnkeys
   - 'برای اتصال دائمی جوین شو🥏 Tele... #1'
-  - 🇺🇸195447 | ⚡️Telegram = t.me/S...
+  - برای اتصال دائمی جوین شو🪭 Tele...
+  - 🛩️31@oneclickvpnkeys
   - 'برای اتصال دائمی جوین شو🥏 Tele... #2'
   - 'Telegram 🆔@Cnetvpn 🇺🇲 #1'
-  - 🍂45@oneclickvpnkeys
+  - 🛩️39@oneclickvpnkeys
   - '@confiig_hub #1'
   - 🇱🇻hysteria
-  - 🇳🇱195494 | ⚡️Telegram = t.me/S...
   - Telegram 🆔@cnetvpn 🇳🇱
   - '@fastkanfig کانال تلگرام'
   - Telegram 🆔@cnetvpn 🇸🇪
   - Telegram 🆔@cnetvpn 🇫🇮
-  - 🇧🇷 巴西 | BRA 2
+  - 🇧🇷 巴西 | BRA
   - 🇦🇺 澳大利亚 | AUS
-  - 🇦🇺 澳大利亚 | AUS 2
-  - 🇸🇪 瑞典 | SWE
-  - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 4
-  - 🇺🇸 美国 | USA 11
+  - 🇩🇪 德国 | DEU 2
+  - 🇷🇺 俄罗斯 | RUS
 - name: ermao.net | ♻️ 自动选择
   type: url-test
   proxies:
@@ -671,20 +630,19 @@ proxy-groups:
   - '@KAFING_2'
   - 🇺🇸139909 | ⚡️Telegram = t.me/S...
   - vpnsal
-  - 🇷🇺195463 | ⚡️Telegram = t.me/S...
+  - '@meliproxyy'
+  - '🇷🇺 俄罗斯 | RUS #2'
+  - 🛩️15@oneclickvpnkeys
   - 🫑67@oneclickvpnkeys
-  - '@ange1Vpn کانال تلگرام ما'
   - '@v2ray_configs_pools 🇫🇷 ⚡️'
-  - 🍂62@oneclickvpnkeys
-  - '@vasl_bashim'
+  - 🛩️61@oneclickvpnkeys
+  - '@vpnbaz🍂'
   - '@Begoo_VPN ²⁹⁰'
   - Telegram 🆔@cnetvpn 🇷🇺
-  - 🍂67@oneclickvpnkeys
   - Telegram:@v2rayng3
   - 🇫🇮@Azaranv2ray
   - Telegram 🆔@Cnetvpn 🇺🇲
   - Telegram 🆔@cnetvpn 🇩🇪
-  - کانال تلگرام ما ange1Vpn@
   - 🫑92@oneclickvpnkeys
   - '@v2ray_configs_pools 🌍 ⚡️'
   - 🫑11@oneclickvpnkeys
@@ -694,27 +652,24 @@ proxy-groups:
   - برای اتصال دائمی جوین شو🥏 Tele...
   - '@KAFING_2 #2'
   - '@V2rayng_mar_ket #1'
-  - 🍂33@oneclickvpnkeys
   - 🇨🇭192087 | ⚡️Telegram = t.me/v...
+  - 🛩️64@oneclickvpnkeys
   - 'برای اتصال دائمی جوین شو🥏 Tele... #1'
-  - 🇺🇸195447 | ⚡️Telegram = t.me/S...
+  - برای اتصال دائمی جوین شو🪭 Tele...
+  - 🛩️31@oneclickvpnkeys
   - 'برای اتصال دائمی جوین شو🥏 Tele... #2'
   - 'Telegram 🆔@Cnetvpn 🇺🇲 #1'
-  - 🍂45@oneclickvpnkeys
+  - 🛩️39@oneclickvpnkeys
   - '@confiig_hub #1'
   - 🇱🇻hysteria
-  - 🇳🇱195494 | ⚡️Telegram = t.me/S...
   - Telegram 🆔@cnetvpn 🇳🇱
   - '@fastkanfig کانال تلگرام'
   - Telegram 🆔@cnetvpn 🇸🇪
   - Telegram 🆔@cnetvpn 🇫🇮
-  - 🇧🇷 巴西 | BRA 2
+  - 🇧🇷 巴西 | BRA
   - 🇦🇺 澳大利亚 | AUS
-  - 🇦🇺 澳大利亚 | AUS 2
-  - 🇸🇪 瑞典 | SWE
-  - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 4
-  - 🇺🇸 美国 | USA 11
+  - 🇩🇪 德国 | DEU 2
+  - 🇷🇺 俄罗斯 | RUS
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -740,20 +695,19 @@ proxy-groups:
   - '@KAFING_2'
   - 🇺🇸139909 | ⚡️Telegram = t.me/S...
   - vpnsal
-  - 🇷🇺195463 | ⚡️Telegram = t.me/S...
+  - '@meliproxyy'
+  - '🇷🇺 俄罗斯 | RUS #2'
+  - 🛩️15@oneclickvpnkeys
   - 🫑67@oneclickvpnkeys
-  - '@ange1Vpn کانال تلگرام ما'
   - '@v2ray_configs_pools 🇫🇷 ⚡️'
-  - 🍂62@oneclickvpnkeys
-  - '@vasl_bashim'
+  - 🛩️61@oneclickvpnkeys
+  - '@vpnbaz🍂'
   - '@Begoo_VPN ²⁹⁰'
   - Telegram 🆔@cnetvpn 🇷🇺
-  - 🍂67@oneclickvpnkeys
   - Telegram:@v2rayng3
   - 🇫🇮@Azaranv2ray
   - Telegram 🆔@Cnetvpn 🇺🇲
   - Telegram 🆔@cnetvpn 🇩🇪
-  - کانال تلگرام ما ange1Vpn@
   - 🫑92@oneclickvpnkeys
   - '@v2ray_configs_pools 🌍 ⚡️'
   - 🫑11@oneclickvpnkeys
@@ -763,27 +717,24 @@ proxy-groups:
   - برای اتصال دائمی جوین شو🥏 Tele...
   - '@KAFING_2 #2'
   - '@V2rayng_mar_ket #1'
-  - 🍂33@oneclickvpnkeys
   - 🇨🇭192087 | ⚡️Telegram = t.me/v...
+  - 🛩️64@oneclickvpnkeys
   - 'برای اتصال دائمی جوین شو🥏 Tele... #1'
-  - 🇺🇸195447 | ⚡️Telegram = t.me/S...
+  - برای اتصال دائمی جوین شو🪭 Tele...
+  - 🛩️31@oneclickvpnkeys
   - 'برای اتصال دائمی جوین شو🥏 Tele... #2'
   - 'Telegram 🆔@Cnetvpn 🇺🇲 #1'
-  - 🍂45@oneclickvpnkeys
+  - 🛩️39@oneclickvpnkeys
   - '@confiig_hub #1'
   - 🇱🇻hysteria
-  - 🇳🇱195494 | ⚡️Telegram = t.me/S...
   - Telegram 🆔@cnetvpn 🇳🇱
   - '@fastkanfig کانال تلگرام'
   - Telegram 🆔@cnetvpn 🇸🇪
   - Telegram 🆔@cnetvpn 🇫🇮
-  - 🇧🇷 巴西 | BRA 2
+  - 🇧🇷 巴西 | BRA
   - 🇦🇺 澳大利亚 | AUS
-  - 🇦🇺 澳大利亚 | AUS 2
-  - 🇸🇪 瑞典 | SWE
-  - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 4
-  - 🇺🇸 美国 | USA 11
+  - 🇩🇪 德国 | DEU 2
+  - 🇷🇺 俄罗斯 | RUS
 - name: 📲 电报信息
   type: select
   proxies:
@@ -805,20 +756,19 @@ proxy-groups:
   - '@KAFING_2'
   - 🇺🇸139909 | ⚡️Telegram = t.me/S...
   - vpnsal
-  - 🇷🇺195463 | ⚡️Telegram = t.me/S...
+  - '@meliproxyy'
+  - '🇷🇺 俄罗斯 | RUS #2'
+  - 🛩️15@oneclickvpnkeys
   - 🫑67@oneclickvpnkeys
-  - '@ange1Vpn کانال تلگرام ما'
   - '@v2ray_configs_pools 🇫🇷 ⚡️'
-  - 🍂62@oneclickvpnkeys
-  - '@vasl_bashim'
+  - 🛩️61@oneclickvpnkeys
+  - '@vpnbaz🍂'
   - '@Begoo_VPN ²⁹⁰'
   - Telegram 🆔@cnetvpn 🇷🇺
-  - 🍂67@oneclickvpnkeys
   - Telegram:@v2rayng3
   - 🇫🇮@Azaranv2ray
   - Telegram 🆔@Cnetvpn 🇺🇲
   - Telegram 🆔@cnetvpn 🇩🇪
-  - کانال تلگرام ما ange1Vpn@
   - 🫑92@oneclickvpnkeys
   - '@v2ray_configs_pools 🌍 ⚡️'
   - 🫑11@oneclickvpnkeys
@@ -828,27 +778,24 @@ proxy-groups:
   - برای اتصال دائمی جوین شو🥏 Tele...
   - '@KAFING_2 #2'
   - '@V2rayng_mar_ket #1'
-  - 🍂33@oneclickvpnkeys
   - 🇨🇭192087 | ⚡️Telegram = t.me/v...
+  - 🛩️64@oneclickvpnkeys
   - 'برای اتصال دائمی جوین شو🥏 Tele... #1'
-  - 🇺🇸195447 | ⚡️Telegram = t.me/S...
+  - برای اتصال دائمی جوین شو🪭 Tele...
+  - 🛩️31@oneclickvpnkeys
   - 'برای اتصال دائمی جوین شو🥏 Tele... #2'
   - 'Telegram 🆔@Cnetvpn 🇺🇲 #1'
-  - 🍂45@oneclickvpnkeys
+  - 🛩️39@oneclickvpnkeys
   - '@confiig_hub #1'
   - 🇱🇻hysteria
-  - 🇳🇱195494 | ⚡️Telegram = t.me/S...
   - Telegram 🆔@cnetvpn 🇳🇱
   - '@fastkanfig کانال تلگرام'
   - Telegram 🆔@cnetvpn 🇸🇪
   - Telegram 🆔@cnetvpn 🇫🇮
-  - 🇧🇷 巴西 | BRA 2
+  - 🇧🇷 巴西 | BRA
   - 🇦🇺 澳大利亚 | AUS
-  - 🇦🇺 澳大利亚 | AUS 2
-  - 🇸🇪 瑞典 | SWE
-  - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 4
-  - 🇺🇸 美国 | USA 11
+  - 🇩🇪 德国 | DEU 2
+  - 🇷🇺 俄罗斯 | RUS
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
@@ -870,20 +817,19 @@ proxy-groups:
   - '@KAFING_2'
   - 🇺🇸139909 | ⚡️Telegram = t.me/S...
   - vpnsal
-  - 🇷🇺195463 | ⚡️Telegram = t.me/S...
+  - '@meliproxyy'
+  - '🇷🇺 俄罗斯 | RUS #2'
+  - 🛩️15@oneclickvpnkeys
   - 🫑67@oneclickvpnkeys
-  - '@ange1Vpn کانال تلگرام ما'
   - '@v2ray_configs_pools 🇫🇷 ⚡️'
-  - 🍂62@oneclickvpnkeys
-  - '@vasl_bashim'
+  - 🛩️61@oneclickvpnkeys
+  - '@vpnbaz🍂'
   - '@Begoo_VPN ²⁹⁰'
   - Telegram 🆔@cnetvpn 🇷🇺
-  - 🍂67@oneclickvpnkeys
   - Telegram:@v2rayng3
   - 🇫🇮@Azaranv2ray
   - Telegram 🆔@Cnetvpn 🇺🇲
   - Telegram 🆔@cnetvpn 🇩🇪
-  - کانال تلگرام ما ange1Vpn@
   - 🫑92@oneclickvpnkeys
   - '@v2ray_configs_pools 🌍 ⚡️'
   - 🫑11@oneclickvpnkeys
@@ -893,27 +839,24 @@ proxy-groups:
   - برای اتصال دائمی جوین شو🥏 Tele...
   - '@KAFING_2 #2'
   - '@V2rayng_mar_ket #1'
-  - 🍂33@oneclickvpnkeys
   - 🇨🇭192087 | ⚡️Telegram = t.me/v...
+  - 🛩️64@oneclickvpnkeys
   - 'برای اتصال دائمی جوین شو🥏 Tele... #1'
-  - 🇺🇸195447 | ⚡️Telegram = t.me/S...
+  - برای اتصال دائمی جوین شو🪭 Tele...
+  - 🛩️31@oneclickvpnkeys
   - 'برای اتصال دائمی جوین شو🥏 Tele... #2'
   - 'Telegram 🆔@Cnetvpn 🇺🇲 #1'
-  - 🍂45@oneclickvpnkeys
+  - 🛩️39@oneclickvpnkeys
   - '@confiig_hub #1'
   - 🇱🇻hysteria
-  - 🇳🇱195494 | ⚡️Telegram = t.me/S...
   - Telegram 🆔@cnetvpn 🇳🇱
   - '@fastkanfig کانال تلگرام'
   - Telegram 🆔@cnetvpn 🇸🇪
   - Telegram 🆔@cnetvpn 🇫🇮
-  - 🇧🇷 巴西 | BRA 2
+  - 🇧🇷 巴西 | BRA
   - 🇦🇺 澳大利亚 | AUS
-  - 🇦🇺 澳大利亚 | AUS 2
-  - 🇸🇪 瑞典 | SWE
-  - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 4
-  - 🇺🇸 美国 | USA 11
+  - 🇩🇪 德国 | DEU 2
+  - 🇷🇺 俄罗斯 | RUS
 - name: 🍎 苹果服务
   type: select
   proxies:
@@ -935,20 +878,19 @@ proxy-groups:
   - '@KAFING_2'
   - 🇺🇸139909 | ⚡️Telegram = t.me/S...
   - vpnsal
-  - 🇷🇺195463 | ⚡️Telegram = t.me/S...
+  - '@meliproxyy'
+  - '🇷🇺 俄罗斯 | RUS #2'
+  - 🛩️15@oneclickvpnkeys
   - 🫑67@oneclickvpnkeys
-  - '@ange1Vpn کانال تلگرام ما'
   - '@v2ray_configs_pools 🇫🇷 ⚡️'
-  - 🍂62@oneclickvpnkeys
-  - '@vasl_bashim'
+  - 🛩️61@oneclickvpnkeys
+  - '@vpnbaz🍂'
   - '@Begoo_VPN ²⁹⁰'
   - Telegram 🆔@cnetvpn 🇷🇺
-  - 🍂67@oneclickvpnkeys
   - Telegram:@v2rayng3
   - 🇫🇮@Azaranv2ray
   - Telegram 🆔@Cnetvpn 🇺🇲
   - Telegram 🆔@cnetvpn 🇩🇪
-  - کانال تلگرام ما ange1Vpn@
   - 🫑92@oneclickvpnkeys
   - '@v2ray_configs_pools 🌍 ⚡️'
   - 🫑11@oneclickvpnkeys
@@ -958,27 +900,24 @@ proxy-groups:
   - برای اتصال دائمی جوین شو🥏 Tele...
   - '@KAFING_2 #2'
   - '@V2rayng_mar_ket #1'
-  - 🍂33@oneclickvpnkeys
   - 🇨🇭192087 | ⚡️Telegram = t.me/v...
+  - 🛩️64@oneclickvpnkeys
   - 'برای اتصال دائمی جوین شو🥏 Tele... #1'
-  - 🇺🇸195447 | ⚡️Telegram = t.me/S...
+  - برای اتصال دائمی جوین شو🪭 Tele...
+  - 🛩️31@oneclickvpnkeys
   - 'برای اتصال دائمی جوین شو🥏 Tele... #2'
   - 'Telegram 🆔@Cnetvpn 🇺🇲 #1'
-  - 🍂45@oneclickvpnkeys
+  - 🛩️39@oneclickvpnkeys
   - '@confiig_hub #1'
   - 🇱🇻hysteria
-  - 🇳🇱195494 | ⚡️Telegram = t.me/S...
   - Telegram 🆔@cnetvpn 🇳🇱
   - '@fastkanfig کانال تلگرام'
   - Telegram 🆔@cnetvpn 🇸🇪
   - Telegram 🆔@cnetvpn 🇫🇮
-  - 🇧🇷 巴西 | BRA 2
+  - 🇧🇷 巴西 | BRA
   - 🇦🇺 澳大利亚 | AUS
-  - 🇦🇺 澳大利亚 | AUS 2
-  - 🇸🇪 瑞典 | SWE
-  - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 4
-  - 🇺🇸 美国 | USA 11
+  - 🇩🇪 德国 | DEU 2
+  - 🇷🇺 俄罗斯 | RUS
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -1022,20 +961,19 @@ proxy-groups:
   - '@KAFING_2'
   - 🇺🇸139909 | ⚡️Telegram = t.me/S...
   - vpnsal
-  - 🇷🇺195463 | ⚡️Telegram = t.me/S...
+  - '@meliproxyy'
+  - '🇷🇺 俄罗斯 | RUS #2'
+  - 🛩️15@oneclickvpnkeys
   - 🫑67@oneclickvpnkeys
-  - '@ange1Vpn کانال تلگرام ما'
   - '@v2ray_configs_pools 🇫🇷 ⚡️'
-  - 🍂62@oneclickvpnkeys
-  - '@vasl_bashim'
+  - 🛩️61@oneclickvpnkeys
+  - '@vpnbaz🍂'
   - '@Begoo_VPN ²⁹⁰'
   - Telegram 🆔@cnetvpn 🇷🇺
-  - 🍂67@oneclickvpnkeys
   - Telegram:@v2rayng3
   - 🇫🇮@Azaranv2ray
   - Telegram 🆔@Cnetvpn 🇺🇲
   - Telegram 🆔@cnetvpn 🇩🇪
-  - کانال تلگرام ما ange1Vpn@
   - 🫑92@oneclickvpnkeys
   - '@v2ray_configs_pools 🌍 ⚡️'
   - 🫑11@oneclickvpnkeys
@@ -1045,27 +983,24 @@ proxy-groups:
   - برای اتصال دائمی جوین شو🥏 Tele...
   - '@KAFING_2 #2'
   - '@V2rayng_mar_ket #1'
-  - 🍂33@oneclickvpnkeys
   - 🇨🇭192087 | ⚡️Telegram = t.me/v...
+  - 🛩️64@oneclickvpnkeys
   - 'برای اتصال دائمی جوین شو🥏 Tele... #1'
-  - 🇺🇸195447 | ⚡️Telegram = t.me/S...
+  - برای اتصال دائمی جوین شو🪭 Tele...
+  - 🛩️31@oneclickvpnkeys
   - 'برای اتصال دائمی جوین شو🥏 Tele... #2'
   - 'Telegram 🆔@Cnetvpn 🇺🇲 #1'
-  - 🍂45@oneclickvpnkeys
+  - 🛩️39@oneclickvpnkeys
   - '@confiig_hub #1'
   - 🇱🇻hysteria
-  - 🇳🇱195494 | ⚡️Telegram = t.me/S...
   - Telegram 🆔@cnetvpn 🇳🇱
   - '@fastkanfig کانال تلگرام'
   - Telegram 🆔@cnetvpn 🇸🇪
   - Telegram 🆔@cnetvpn 🇫🇮
-  - 🇧🇷 巴西 | BRA 2
+  - 🇧🇷 巴西 | BRA
   - 🇦🇺 澳大利亚 | AUS
-  - 🇦🇺 澳大利亚 | AUS 2
-  - 🇸🇪 瑞典 | SWE
-  - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 4
-  - 🇺🇸 美国 | USA 11
+  - 🇩🇪 德国 | DEU 2
+  - 🇷🇺 俄罗斯 | RUS
 rule-providers:
   LocalAreaNetwork:
     type: http

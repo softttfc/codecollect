@@ -54,15 +54,17 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇽🇽 XX | VLESS | @evay_vpn #1 [fast]",
-        "🇷🇺 RU | VLESS | @prrofile_purple #1 [fast]",
         "🇺🇸 US | VLESS | @netmellianti #1 [fast]",
         "🇸🇨 SC | VLESS | @tanhanet #1 [fast]",
+        "🇫🇷 FR | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #2 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇺🇸 US | VLESS | @qeshmserver #1 [fast]",
         "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]",
+        "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
         "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
+        "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2 [fast]",
         "direct"
       ],
@@ -76,15 +78,17 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇽🇽 XX | VLESS | @evay_vpn #1 [fast]",
-        "🇷🇺 RU | VLESS | @prrofile_purple #1 [fast]",
         "🇺🇸 US | VLESS | @netmellianti #1 [fast]",
         "🇸🇨 SC | VLESS | @tanhanet #1 [fast]",
+        "🇫🇷 FR | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #2 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇺🇸 US | VLESS | @qeshmserver #1 [fast]",
         "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]",
+        "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
         "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
+        "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
@@ -154,28 +158,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #1 [fast]",
-      "server": "84.38.187.134",
-      "server_port": 443,
-      "uuid": "53ffd172-de4c-0037-aa77-1a6830a36cf8",
-      "network": "xhttp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "git.xpkg.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "QSAIpsE696lDqkumfo7dyBt92XzrVDPTF6KogbeKhGc",
-          "short_id": "2c9431dc7a306018"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇺🇸 US | VLESS | @netmellianti #1 [fast]",
       "server": "23.235.33.98",
       "server_port": 80,
@@ -203,6 +185,15 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇷 FR | VLESS | @red2ray #1 [fast]",
+      "server": "170.39.216.98",
+      "server_port": 1001,
+      "uuid": "08042e25-2db6-4c82-bc2e-f496ecac33e1",
+      "network": "xhttp",
+      "packet_encoding": "xudp"
     },
     {
       "type": "vless",
@@ -305,6 +296,26 @@
     },
     {
       "type": "vless",
+      "tag": "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
+      "server": "kala.fortresshost.ir",
+      "server_port": 443,
+      "uuid": "9f309ae0-172e-4b6e-d382-b2a70be59823",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kala.fortresshost.ir",
+        "alpn": [
+          "h2"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
       "server": "1bccfbc69597.salzivo.ir",
       "server_port": 443,
@@ -320,6 +331,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
+      "server": "sub.skyshopnet.ir",
+      "server_port": 2086,
+      "uuid": "b26f4a4b-9530-4b08-a67a-0b603a5a2f9c",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.radeon.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "hWQNka_B_4CBdrU608qJ0ukLPsxVoR9pCBnmy35EGX0",
+          "short_id": "40be0a1893bc95"
         }
       }
     },

@@ -53,12 +53,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇫🇷 FR | VMESS | @orange_vpns #1 [medium]",
         "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
+        "🇺🇸 US | VMESS | @freev2rays #2 [fast]",
         "🇨🇿 CZ | VMESS | @freev2rays #1 [fast]",
         "🇮🇷 IR | VMESS | @Proxymelimon #1 [fast]",
         "🇽🇽 XX | VMESS | @iranvpnet #1 [fast]",
-        "🇮🇷 IR | VMESS | @NamiraConfigs #1 [fast]",
+        "🇮🇷 IR | VMESS | @NamiraConfigs #1 [medium]",
         "🇺🇸 US | VMESS | @NamiraConfigs #1 [fast]",
         "🇮🇷 IR | VMESS | @khoneproxy #1 [fast]",
         "🇺🇸 US | VMESS | @mi_pn_official #1 [fast]",
@@ -70,6 +70,7 @@
         "🇽🇽 XX | VMESS | @manstervpn #1 [fast]",
         "🇧🇾 BY | VMESS | @ir_netproxy #1 [fast]",
         "🇺🇸 US | VMESS | @ir_netproxy #1 [fast]",
+        "🇺🇸 US | VMESS | @beshkan #1 [fast]",
         "🇽🇽 XX | VMESS | @hope_net #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #2 [fast]",
@@ -87,12 +88,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇫🇷 FR | VMESS | @orange_vpns #1 [medium]",
         "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
+        "🇺🇸 US | VMESS | @freev2rays #2 [fast]",
         "🇨🇿 CZ | VMESS | @freev2rays #1 [fast]",
         "🇮🇷 IR | VMESS | @Proxymelimon #1 [fast]",
         "🇽🇽 XX | VMESS | @iranvpnet #1 [fast]",
-        "🇮🇷 IR | VMESS | @NamiraConfigs #1 [fast]",
+        "🇮🇷 IR | VMESS | @NamiraConfigs #1 [medium]",
         "🇺🇸 US | VMESS | @NamiraConfigs #1 [fast]",
         "🇮🇷 IR | VMESS | @khoneproxy #1 [fast]",
         "🇺🇸 US | VMESS | @mi_pn_official #1 [fast]",
@@ -104,6 +105,7 @@
         "🇽🇽 XX | VMESS | @manstervpn #1 [fast]",
         "🇧🇾 BY | VMESS | @ir_netproxy #1 [fast]",
         "🇺🇸 US | VMESS | @ir_netproxy #1 [fast]",
+        "🇺🇸 US | VMESS | @beshkan #1 [fast]",
         "🇽🇽 XX | VMESS | @hope_net #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #2 [fast]",
@@ -157,27 +159,28 @@
     },
     {
       "type": "vmess",
-      "tag": "🇫🇷 FR | VMESS | @orange_vpns #1 [medium]",
-      "server": "145.239.55.210",
-      "server_port": 80,
-      "uuid": "067fcd63-b215-4abd-8529-ae929a9971a9",
+      "tag": "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
+      "server": "xc115-1.meiziba5566.com",
+      "server_port": 443,
+      "uuid": "f40a8d65-a9ac-42ce-ebcc-9e6447a9866d",
       "security": "auto",
       "alter_id": 0,
       "global_padding": false,
       "authenticated_length": true,
       "network": "ws",
       "packet_encoding": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "xc115-1.meiziba5566.com"
+      },
       "transport": {
         "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "google.whatsapp.snapp.torob.basalam.fortresshost.ir."
-        }
+        "path": "/f40a8d65"
       }
     },
     {
       "type": "vmess",
-      "tag": "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
+      "tag": "🇺🇸 US | VMESS | @freev2rays #2 [fast]",
       "server": "xcf037.facai2024.com",
       "server_port": 443,
       "uuid": "d9863037-0463-4615-e972-36ba9662d1e9",
@@ -262,7 +265,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇮🇷 IR | VMESS | @NamiraConfigs #1 [fast]",
+      "tag": "🇮🇷 IR | VMESS | @NamiraConfigs #1 [medium]",
       "server": "s1.connect.labex.pro",
       "server_port": 1007,
       "uuid": "d4c556a2-3d61-4b1d-9550-d6d010ff1d3f",
@@ -506,6 +509,19 @@
           "Host": "ophelia.mom"
         }
       }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 US | VMESS | @beshkan #1 [fast]",
+      "server": "67.220.95.3",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "network": "tcp",
+      "packet_encoding": ""
     },
     {
       "type": "vmess",

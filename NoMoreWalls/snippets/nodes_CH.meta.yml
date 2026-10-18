@@ -15,7 +15,7 @@ proxies:
   port: 8388
   server: 132.243.175.144
   type: ss
-- name: 🇨🇭CH_1|1.6MB/s|R002-260618
+- name: 🇨🇭CH_1|2.8MB/s|R002-260618
   port: 9443
   server: 37.120.213.210
   skip-cert-verify: true
@@ -29,3 +29,11 @@ proxies:
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇨🇭CH_3|2.2MB/s|K001-260618
+  port: 9443
+  server: 149.88.27.33
+  skip-cert-verify: true
+  sub_tag: K001-260618
+  tls: true
+  type: http
+  udp: true
