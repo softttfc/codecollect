@@ -25,8 +25,8 @@ proxies:
 - client-fingerprint: chrome
   name: '🇰🇷 韩国 | KOR #1'
   network: ws
-  port: 2053
-  server: 140.245.65.12
+  port: 443
+  server: 144.24.71.172
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless

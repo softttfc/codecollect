@@ -53,9 +53,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇯🇵 JP | VLESS | @orange_vpns #1 [fast]",
         "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]",
-        "🇺🇸 US | VLESS | @beshkan #1 [fast]",
-        "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -67,9 +66,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]",
-        "🇺🇸 US | VLESS | @beshkan #1 [fast]",
-        "🇩🇪 DE | VLESS | @red2ray #1 [fast]"
+        "🇯🇵 JP | VLESS | @orange_vpns #1 [fast]",
+        "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -117,6 +115,25 @@
     },
     {
       "type": "vless",
+      "tag": "🇯🇵 JP | VLESS | @orange_vpns #1 [fast]",
+      "server": "jp4.oh-node.com",
+      "server_port": 443,
+      "uuid": "7cfd34ae-edad-4cc5-9d6f-066f7add7829",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bandainamcoent.co.jp",
+        "reality": {
+          "enabled": true,
+          "public_key": "qkSw1mYeebLzLGFAxnSu0CuNaSQXdhR-doksZoqEniA",
+          "short_id": "f75fbd5b"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]",
       "server": "de-2.starsping.com",
       "server_port": 443,
@@ -134,51 +151,6 @@
           "enabled": true,
           "public_key": "ZBv1jOEHziWtQQoThg63_1gm4zIPyk_cfVmNJ1SOZSk",
           "short_id": "a88550765b9956ee"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @beshkan #1 [fast]",
-      "server": "ge-s-1.pythonmakemigreat.wiki",
-      "server_port": 443,
-      "uuid": "f8d52ece-fad4-478d-875d-df6eed3befa7",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "ge-s-1.pythonmakemigreat.wiki",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "5fkwwCKZzMsE6Eb_b3iqluu-1AWIfnYl-p0N3EL9Al8",
-          "short_id": "2c9a2790ad5900b2"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
-      "server": "sub.skyshopnet.ir",
-      "server_port": 2086,
-      "uuid": "b26f4a4b-9530-4b08-a67a-0b603a5a2f9c",
-      "network": "xhttp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.radeon.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "hWQNka_B_4CBdrU608qJ0ukLPsxVoR9pCBnmy35EGX0",
-          "short_id": "40be0a1893bc95"
         }
       }
     },

@@ -50,6 +50,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
+        "🇮🇹 IT | VLESS | @red2ray #1 [fast]",
         "🇮🇹 IT | VLESS | @NamiraConfigs #1 [fast]",
         "direct"
       ],
@@ -59,12 +60,42 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
+        "🇮🇹 IT | VLESS | @red2ray #1 [fast]",
         "🇮🇹 IT | VLESS | @NamiraConfigs #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
       "tolerance": 50,
       "idle_timeout": "30m"
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇹 IT | VLESS | @red2ray #1 [fast]",
+      "server": "43.249.72.254",
+      "server_port": 443,
+      "uuid": "ba33c872-d552-4c44-b0f2-b9bd8669d70c",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "default.ssl.fastly.net",
+        "alpn": [
+          "h3",
+          "h2",
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "henzooo.global.ssl.fastly.net"
+        }
+      }
     },
     {
       "type": "vless",
