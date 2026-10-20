@@ -59,7 +59,8 @@
         "title": "پروکسی و کانفیگ رایگان",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/Proxymelimon.jpg",
         "types": [
-            "vless"
+            "vless",
+            "vmess"
         ]
     },
     "TelMTProto": {
@@ -120,7 +121,11 @@
     "beshkan": {
         "title": "بشکن Beshkan",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/beshkan.jpg",
-        "types": []
+        "types": [
+            "ss",
+            "vless",
+            "vmess"
+        ]
     },
     "bored_vpn": {
         "title": "𝐏𝐫𝐨𝐱𝐲 &amp; 𝐯𝐩𝐧 𝐁𝐨𝐫𝐞𝐝",
@@ -857,6 +862,7 @@
         "title": "پروکسی تلگرام| انواع VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mtproxy22_v2ray.jpg",
         "types": [
+            "ss",
             "trojan",
             "vless"
         ]
@@ -1162,7 +1168,7 @@
         "title": "Red2Ray | V2rayNG | کانفیگ رایگان",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/red2ray.jpg",
         "types": [
-            "ss",
+            "trojan",
             "vless"
         ]
     },
