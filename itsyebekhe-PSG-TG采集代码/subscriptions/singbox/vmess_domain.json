@@ -53,6 +53,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇽🇽 XX | VMESS | @outlinereleasedkey #1 [fast]",
+        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1 [fast]",
         "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
         "🇺🇸 US | VMESS | @freev2rays #2 [fast]",
         "🇨🇿 CZ | VMESS | @freev2rays #1 [fast]",
@@ -81,6 +83,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇽🇽 XX | VMESS | @outlinereleasedkey #1 [fast]",
+        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1 [fast]",
         "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
         "🇺🇸 US | VMESS | @freev2rays #2 [fast]",
         "🇨🇿 CZ | VMESS | @freev2rays #1 [fast]",
@@ -141,6 +145,50 @@
       "transport": {
         "type": "ws",
         "path": "/"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇽🇽 XX | VMESS | @outlinereleasedkey #1 [fast]",
+      "server": "eu3.998998.best",
+      "server_port": 443,
+      "uuid": "5504eaa8-1395-402f-8e0e-75ecd762e627",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "network": "ws",
+      "packet_encoding": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "server40.9966338.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aiaiai",
+        "headers": {
+          "Host": "server40.9966338.xyz"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1 [fast]",
+      "server": "104.21.7.133",
+      "server_port": 80,
+      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "network": "ws",
+      "packet_encoding": "",
+      "transport": {
+        "type": "ws",
+        "path": "/ws?ed=2048",
+        "headers": {
+          "Host": "vmess.lbw666.dpdns.org"
+        }
       }
     },
     {

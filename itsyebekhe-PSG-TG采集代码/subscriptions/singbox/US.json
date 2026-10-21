@@ -62,17 +62,16 @@
         "🇺🇸 US | VLESS | @nofiltering2 #1 [fast]",
         "🇺🇸 US | VLESS | @nofiltering2 #2 [fast]",
         "🇺🇸 US | VLESS | @nofiltering2 #3 [fast]",
-        "🇺🇸 US | SS | @outlinereleasedkey #1 [fast]",
         "🇺🇸 US | VLESS | @free1_vpn #1 [fast]",
-        "🇺🇸 US | VLESS | @bored_vpn #1 [fast]",
         "🇺🇸 US | VLESS | @beshkan #1 [fast]",
-        "🇺🇸 US | VLESS | @Proxymelimon #1 [fast]",
+        "🇺🇸 US | VLESS | @beshkan #2 [fast]",
         "🇺🇸 US | VLESS | @msv2raynp #1 [fast]",
         "🇺🇸 US | VLESS | @msv2raynp #2 [fast]",
-        "🇺🇸 US | VLESS | @red2ray #1 [medium]",
+        "🇺🇸 US | VLESS | @red2ray #1 [fast]",
         "🇺🇸 US | VLESS | @jokerv2ray #1 [fast]",
         "🇺🇸 US | VLESS | @jokerv2ray #2 [fast]",
         "🇺🇸 US | VLESS | @orange_vpns #1 [fast]",
+        "🇺🇸 US | VLESS | @orange_vpns #2 [fast]",
         "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
         "🇺🇸 US | VMESS | @freev2rays #2 [fast]",
         "🇺🇸 US | VLESS | @netmellianti #1 [fast]",
@@ -127,17 +126,16 @@
         "🇺🇸 US | VLESS | @nofiltering2 #1 [fast]",
         "🇺🇸 US | VLESS | @nofiltering2 #2 [fast]",
         "🇺🇸 US | VLESS | @nofiltering2 #3 [fast]",
-        "🇺🇸 US | SS | @outlinereleasedkey #1 [fast]",
         "🇺🇸 US | VLESS | @free1_vpn #1 [fast]",
-        "🇺🇸 US | VLESS | @bored_vpn #1 [fast]",
         "🇺🇸 US | VLESS | @beshkan #1 [fast]",
-        "🇺🇸 US | VLESS | @Proxymelimon #1 [fast]",
+        "🇺🇸 US | VLESS | @beshkan #2 [fast]",
         "🇺🇸 US | VLESS | @msv2raynp #1 [fast]",
         "🇺🇸 US | VLESS | @msv2raynp #2 [fast]",
-        "🇺🇸 US | VLESS | @red2ray #1 [medium]",
+        "🇺🇸 US | VLESS | @red2ray #1 [fast]",
         "🇺🇸 US | VLESS | @jokerv2ray #1 [fast]",
         "🇺🇸 US | VLESS | @jokerv2ray #2 [fast]",
         "🇺🇸 US | VLESS | @orange_vpns #1 [fast]",
+        "🇺🇸 US | VLESS | @orange_vpns #2 [fast]",
         "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
         "🇺🇸 US | VMESS | @freev2rays #2 [fast]",
         "🇺🇸 US | VLESS | @netmellianti #1 [fast]",
@@ -201,26 +199,6 @@
     {
       "type": "vless",
       "tag": "🇺🇸 US | VLESS | @mehrosaboran #1 [fast]",
-      "server": "199.232.78.170",
-      "server_port": 443,
-      "uuid": "XpnTeam-2",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "Appxdn.global.ssl.fastly.net"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @mehrosaboran #2 [fast]",
       "server": "199.232.78.159",
       "server_port": 443,
       "uuid": "XpnTeam-8",
@@ -240,7 +218,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @mehrosaboran #3 [fast]",
+      "tag": "🇺🇸 US | VLESS | @mehrosaboran #2 [fast]",
       "server": "199.232.78.159",
       "server_port": 443,
       "uuid": "XpnTeam-9",
@@ -260,7 +238,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @mehrosaboran #4 [fast]",
+      "tag": "🇺🇸 US | VLESS | @mehrosaboran #3 [fast]",
       "server": "199.232.78.159",
       "server_port": 443,
       "uuid": "XpnTeam-11",
@@ -280,7 +258,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @mehrosaboran #5 [fast]",
+      "tag": "🇺🇸 US | VLESS | @mehrosaboran #4 [fast]",
       "server": "199.232.78.159",
       "server_port": 443,
       "uuid": "XpnTeam-15",
@@ -289,6 +267,26 @@
       "tls": {
         "enabled": true,
         "server_name": "play.google.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "Appxdn.global.ssl.fastly.net"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @mehrosaboran #5 [fast]",
+      "server": "199.232.78.170",
+      "server_port": 443,
+      "uuid": "XpnTeam-17",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.akamai.steamstatic.com"
       },
       "transport": {
         "type": "ws",
@@ -421,18 +419,6 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇺🇸 US | SS | @outlinereleasedkey #1 [fast]",
-      "server": "173.244.56.6",
-      "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
       "type": "vless",
       "tag": "🇺🇸 US | VLESS | @free1_vpn #1 [fast]",
       "server": "162.159.152.4",
@@ -440,26 +426,6 @@
       "uuid": "16a74c64-15bf-4fea-89e1-0a33ca535cc9",
       "network": "httpupgrade",
       "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @bored_vpn #1 [fast]",
-      "server": "199.232.78.159",
-      "server_port": 443,
-      "uuid": "XpnTeam-13",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "Appxdn.global.ssl.fastly.net"
-        }
-      }
     },
     {
       "type": "vless",
@@ -486,20 +452,24 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @Proxymelimon #1 [fast]",
-      "server": "199.232.78.159",
-      "server_port": 443,
-      "uuid": "e0ef0fb4-f18a-4284-bcf3-f5b3e738c594",
-      "network": "ws",
+      "tag": "🇺🇸 US | VLESS | @beshkan #2 [fast]",
+      "server": "15.204.97.195",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "google.com"
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "pan2e.global.ssl.fastly.net"
+        "server_name": "fuck.rkn",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01"
         }
       }
     },
@@ -529,25 +499,28 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @red2ray #1 [medium]",
-      "server": "212.104.141.233",
-      "server_port": 443,
-      "uuid": "6338c01a-310e-42c3-bf4f-2a20e161054b",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
+      "tag": "🇺🇸 US | VLESS | @red2ray #1 [fast]",
+      "server": "45.91.248.127",
+      "server_port": 8443,
+      "uuid": "81a227e3-cb97-40fe-b7b6-45a60ed065cf",
+      "network": "grpc",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "freeus.aiage.work",
+        "server_name": "node.nodebrcsp.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "pxLk0ocXqKYYqUFyALvH2BVXaswI-6NE00posKNayy0",
-          "short_id": "ccaf7283610c6fa8"
+          "public_key": "75SvxhvlOLct7K2eSg4-a1o6Z6N3JMTqp3wIQmLSqTA",
+          "short_id": "8c609726e0233f08"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc-api-v2"
       }
     },
     {
@@ -605,6 +578,26 @@
     {
       "type": "vless",
       "tag": "🇺🇸 US | VLESS | @orange_vpns #1 [fast]",
+      "server": "199.232.78.159",
+      "server_port": 443,
+      "uuid": "eccc053a-7196-47cb-a4b5-f4b8bfd743d9",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "firefox.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?TELEGRAM-TOOTFFARANGI",
+        "headers": {
+          "Host": "copy_az_channel_NUFiLTER_5i.global.ssl.fastly.net."
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @orange_vpns #2 [fast]",
       "server": "199.232.78.159",
       "server_port": 443,
       "uuid": "dc7d45c9-c942-41e3-b880-9a7fd5b64e2f",

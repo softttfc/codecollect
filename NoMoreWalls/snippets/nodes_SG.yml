@@ -3,7 +3,7 @@ proxies:
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   port: 8886
   server: 139.180.146.200
-  sni: 139.180.146.200
+  skip-cert-verify: true
   type: trojan
 - alterId: 0
   cipher: auto
@@ -43,10 +43,11 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- cipher: rc4-md5
-  name: '🇸🇬 新加坡 | SGP #3'
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 128.1.186.132
-  type: ss
+- name: '🇸🇬 新加坡 | SGP #2'
+  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+  port: 8886
+  server: 139.180.146.200
+  skip-cert-verify: true
+  sni: 139.180.146.200
+  type: trojan
   udp: true

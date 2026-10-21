@@ -12,6 +12,15 @@ proxies:
     headers:
       Host: tn1r.eu.cc
     path: /id-pusat
+- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #4'
+  network: ws
+  port: 80
+  server: 130.94.67.40
+  tls: false
+  type: vless
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  ws-opts:
+    path: /platform118
 - name: '🇯🇵[www.v2nodes.com] vless-JP-1... #6'
   network: ws
   port: 80
@@ -23,18 +32,31 @@ proxies:
     headers:
       Host: platform117.halalkhor.info
     path: /platform117
-- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #11'
+- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #10'
   port: 27916
   server: 39.109.110.80
   tls: false
   type: vless
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #12'
-  port: 35544
-  server: funagfrdfs.alixxplay.com
+- client-fingerprint: unsafe
+  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #12'
+  network: ws
+  port: 443
+  server: 104.19.33.237
+  servername: jp3.yohototo.top
+  tls: true
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  ws-opts:
+    headers:
+      Host: jp3.yohototo.top
+    path: /tyxyws
+- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #13'
+  port: 443
+  server: 137.220.221.179
   tls: false
   type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
 - cipher: aes-256-gcm
   name: 🇯🇵[www.v2nodes.com] ss-JP-1599...
   password: BeaUf9c0AEWH40Pu
@@ -63,16 +85,12 @@ proxies:
   type: trojan
   ws-opts:
     path: /
-- client-fingerprint: chrome
-  name: '🇯🇵 日本 | JPN #2'
-  network: tcp
+- name: '🇯🇵[www.v2nodes.com] trojan-JP-... #2'
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   port: 8886
   server: 45.32.52.173
-  skip-cert-verify: true
   sni: 45.32.52.173
   type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: 🇯🇵 日本|@ripaojiedian
@@ -127,10 +145,10 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - client-fingerprint: chrome
-  name: '🇯🇵 日本 | JPN #1'
+  name: '🇯🇵 日本 | JPN #2'
   network: ws
   port: 443
-  server: 13.193.183.187
+  server: 217.142.225.47
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -143,8 +161,8 @@ proxies:
 - client-fingerprint: chrome
   name: '🇯🇵 日本 | JPN #3'
   network: ws
-  port: 8443
-  server: 131.143.214.44
+  port: 443
+  server: 66.245.220.243
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -154,53 +172,11 @@ proxies:
     headers:
       Host: snip.edgeoneai.cc.cd
     path: /
-- client-fingerprint: chrome
-  name: '🇯🇵 日本 | JPN #4'
-  network: ws
-  port: 443
-  server: 84.247.155.106
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-- client-fingerprint: chrome
-  name: '🇯🇵 日本 | JPN #5'
-  network: ws
-  port: 443
-  server: 161.33.15.101
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: '🇯🇵 日本 | JPN #6'
-  network: ws
-  port: 443
-  server: 142.91.109.211
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
 - client-fingerprint: chrome
   name: '🇯🇵 日本 | JPN #7'
   network: ws
   port: 443
-  server: 104.105.140.77
+  server: 54.64.190.109
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -209,46 +185,11 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-- client-fingerprint: chrome
-  name: '🇯🇵 日本 | JPN #8'
-  network: ws
-  port: 443
-  server: 216.23.82.224
-  servername: snip.edgeoneai.cc.cd
+    path: /
+- name: JP_speednode_0011
+  port: 343
+  server: 133.18.200.207
+  skip-cert-verify: true
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-- client-fingerprint: chrome
-  name: '🇯🇵 日本 | JPN #9'
-  network: ws
-  port: 443
-  server: 131.143.215.37
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
-- client-fingerprint: chrome
-  name: '🇯🇵 日本 | JPN #10'
-  network: ws
-  port: 443
-  server: 172.237.5.76
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443

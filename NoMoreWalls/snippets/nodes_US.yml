@@ -1,22 +1,46 @@
 proxies:
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #1'
+- cipher: aes-256-gcm
+  name: 🇺🇸[www.v2nodes.com] ss-US-1602...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.151.163.18
+  type: ss
+- cipher: aes-256-gcm
+  name: '🇺🇸[www.v2nodes.com] ss-US-1602... #1'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 45.86.51.18
+  type: ss
+- cipher: aes-256-gcm
+  name: '🇺🇸[www.v2nodes.com] ss-US-1602... #2'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.151.160.18
+  type: ss
+- cipher: aes-256-gcm
+  name: '🇺🇸[www.v2nodes.com] ss-US-1602... #3'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.215.132.9
+  type: ss
+- name: 🇺🇸[www.v2nodes.com] trojan-US-...
+  password: 600421cf-11d7-429f-a65b-c30397f1bc03
+  port: 443
+  server: 23.106.44.14
+  sni: sj6.freeguard.org
+  type: trojan
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #3'
+  password: f0eb8c92ce8946aaba856569cff1a16b
+  port: 443
+  server: resources.findlocaljobnetworkandbuildcommunityconnections.com
+  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
+  type: trojan
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #6'
   password: dba20dcb635e430fa4d3bfc303a149d2
   port: 443
   server: blog.findlocaljobnetworkandbuildcommunityconnections.com
   skip-cert-verify: true
   sni: blog.findlocaljobnetworkandbuildcommunityconnections.com
-  type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #2'
-  password: f0eb8c92ce8946aaba856569cff1a16b
-  port: 443
-  server: resources.findlocaljobnetworkandbuildcommunityconnections.com
-  skip-cert-verify: true
-  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
-  type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #3'
-  password: ae7eb4dwyaz25pxwgq59
-  port: 59689
-  server: 66.23.203.21
   type: trojan
 - alterId: 0
   cipher: auto
@@ -64,25 +88,23 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '🇦🇺 澳大利亚 | AUS #1'
+- name: 🇺🇸 美国 | USA 7
   network: ws
-  port: 8443
-  server: 199.34.228.160
+  password: mitivpn
+  port: 443
+  server: b2n.ir
   skip-cert-verify: true
-  tls: true
-  type: vmess
+  sni: de.mitivpn.in.net
+  type: trojan
   udp: true
-  uuid: 1c22bf94-702b-49ac-8f5e-24259beed2d8
   ws-opts:
     headers:
-      Host: aus.frnhk.xyz
-    path: /Sydney3
-- cipher: rc4-md5
-  name: '🇺🇸 美国 | USA #5'
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 98.98.79.198
-  type: ss
-  udp: true
+      Host: de.mitivpn.in.net
+    path: ''
+- name: '🇺🇸 美国 | USA #7'
+  password: mitivpn
+  port: 443
+  server: b2n.ir
+  skip-cert-verify: true
+  sni: de.mitivpn.in.net
+  type: trojan

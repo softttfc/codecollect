@@ -55,14 +55,11 @@
         "KingRezaPahlavi",
         "🇷🇸 RS | VLESS | @prrofile_purple #1 [fast]",
         "🇷🇸 RS | VLESS | @prrofile_purple #2 [fast]",
-        "🇩🇪 DE | VLESS | @flyv2ray #1 [fast]",
-        "🇫🇮 FI | VLESS | @outlinereleasedkey #1 [fast]",
         "🇺🇸 US | VLESS | @beshkan #1 [fast]",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
-        "🇺🇸 US | VLESS | @red2ray #1 [medium]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
-        "🇩🇪 DE | VLESS | @nepo_v2ray #1 [fast]",
+        "🇩🇪 DE | VLESS | @nepo_v2ray #1 [medium]",
         "direct"
       ],
       "default": "auto"
@@ -76,14 +73,11 @@
         "KingRezaPahlavi",
         "🇷🇸 RS | VLESS | @prrofile_purple #1 [fast]",
         "🇷🇸 RS | VLESS | @prrofile_purple #2 [fast]",
-        "🇩🇪 DE | VLESS | @flyv2ray #1 [fast]",
-        "🇫🇮 FI | VLESS | @outlinereleasedkey #1 [fast]",
         "🇺🇸 US | VLESS | @beshkan #1 [fast]",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1 [fast]",
-        "🇺🇸 US | VLESS | @red2ray #1 [medium]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
-        "🇩🇪 DE | VLESS | @nepo_v2ray #1 [fast]"
+        "🇩🇪 DE | VLESS | @nepo_v2ray #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -183,52 +177,6 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @flyv2ray #1 [fast]",
-      "server": "64.188.83.186",
-      "server_port": 443,
-      "uuid": "616c7b3b-41f4-4038-88c6-d6fedd0ae4a7",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "de-2.ardesnode.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "PKlt_5ASsz137EvA9SKSadtjEv1k_U7VRtoelKCgADs",
-          "short_id": "9ea74b83f4993ca9"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 FI | VLESS | @outlinereleasedkey #1 [fast]",
-      "server": "152.233.71.81",
-      "server_port": 443,
-      "uuid": "741809be-e44e-000b-b411-bf66f0ae3860",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "brointelengence.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY",
-          "short_id": "1c3e8241a8743df9"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇺🇸 US | VLESS | @beshkan #1 [fast]",
       "server": "47.77.196.79",
       "server_port": 443,
@@ -270,29 +218,6 @@
           "enabled": true,
           "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
           "short_id": "01"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @red2ray #1 [medium]",
-      "server": "212.104.141.233",
-      "server_port": 443,
-      "uuid": "6338c01a-310e-42c3-bf4f-2a20e161054b",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "freeus.aiage.work",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "pxLk0ocXqKYYqUFyALvH2BVXaswI-6NE00posKNayy0",
-          "short_id": "ccaf7283610c6fa8"
         }
       }
     },
@@ -342,7 +267,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @nepo_v2ray #1 [fast]",
+      "tag": "🇩🇪 DE | VLESS | @nepo_v2ray #1 [medium]",
       "server": "49.13.27.100",
       "server_port": 443,
       "uuid": "5f8c9ef2-d6a5-4ef2-bc68-eeef97f6b6af",
