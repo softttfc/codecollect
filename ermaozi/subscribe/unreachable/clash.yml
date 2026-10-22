@@ -21,49 +21,10 @@ dns:
   - https://doh.pub/dns-query
   nameserver-policy:
     geosite:geolocation-!cn:
-    - https://1.1.1.1/dns-query#рџљЂ иЉ‚з‚№йЂ‰ж‹©
-    - https://8.8.8.8/dns-query#рџљЂ иЉ‚з‚№йЂ‰ж‹©
+    - https://1.1.1.1/dns-query#🚀 节点选择
+    - https://8.8.8.8/dns-query#🚀 节点选择
 proxies:
-- name: рџ‡ёрџ‡¬_SG_ж–°еЉ еқҰ->рџ‡Ёрџ‡¦_CA_еЉ ж‹үе¤§
-  type: vmess
-  server: sg-transit-3.nebulacloud.win
-  port: 30330
-  uuid: dfa9f875-3805-49d9-8636-46b6899be24e
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: sg-transit-3.nebulacloud.win
-  network: ws
-  ws-opts:
-    path: /ca/getData
-    headers:
-      Host: sg-transit-3.nebulacloud.win
-  udp: true
-- name: рџ‡ёрџ‡¬_SG_ж–°еЉ еқҰ->рџ‡ғрџ‡ё_US_зңҺе›Ң
-  type: vmess
-  server: sg-transit-3.nebulacloud.win
-  port: 31414
-  uuid: dfa9f875-3805-49d9-8636-46b6899be24e
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /getData/us
-  udp: true
-- name: рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡«рџ‡·_FR_жі•е›Ң
-  type: vmess
-  server: v35.hdacd.com
-  port: 30835
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡ғрџ‡ё_US_зңҺе›Ң
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国
   type: vless
   server: jp.sofast.live
   port: 52683
@@ -71,17 +32,27 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡ірџ‡±_NL_иҚ·е…°
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
   type: vmess
-  server: v29.hdacd.com
-  port: 30829
+  server: v24.hdacd.com
+  port: 30824
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: true
   udp: true
-- name: рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡®рџ‡Ғ_IE_з€±е°”е…°
+- name: 🇨🇳_CN_中国->🇯🇵_JP_日本
+  type: vmess
+  server: v6.hdacd.com
+  port: 30806
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 🇨🇳_CN_中国->🇮🇪_IE_爱尔兰
   type: vmess
   server: v4.hdacd.com
   port: 30804
@@ -91,18 +62,36 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #10'
-  port: 27916
-  server: 39.109.110.80
+- name: 🇨🇳_CN_中国->🇫🇷_FR_法国
+  type: vmess
+  server: v35.hdacd.com
+  port: 30835
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
   tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
   type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  server: us22.sofast.live
+  port: 58011
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+  tls: false
+  skip-cert-verify: true
+  udp: true
 - cipher: aes-256-gcm
-  name: 🇸🇪[www.v2nodes.com] ss-SE-1560...
-  password: AxIYWtskJWIIaefW
+  name: 🇨🇱[www.v2nodes.com] ss-CL-1564...
+  password: xBStBEVqvGwHPocc
   port: 8388
-  server: 70.34.212.124
+  server: 64.176.2.21
   type: ss
+- name: 🇪🇪[www.v2nodes.com] trojan-EE-...
+  password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
+  port: 449
+  server: 109.206.241.10
+  sni: russiapower.accesscam.org
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港|@ripaojiedian
@@ -217,65 +206,133 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 🇺🇸US_2|3.5MB/s
-  network: ws
-  port: 8033
-  server: 120.232.202.14
+  name: 🇳🇱NL_2|1.4MB/s
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  servername: v29.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 74499dd9-f4c0-4450-8a4a-e06c8b25b77d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /3ff53f15-4c9a-45b0-99ad-c8dfa3825d8f
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
-- name: ❓Other_1|1.9MB/s
-  port: 9090
-  server: 104.248.151.93
+- name: 🇰🇷KR_1|4.1MB/s
+  port: 1080
+  server: 144.24.94.153
   skip-cert-verify: true
   type: http
-- name: '🇫🇷 法国 | FRA #3'
+- name: '🇫🇷 法国 | FRA #2'
   network: tcp
   port: 22223
-  server: 15.236.57.31
+  server: 13.36.145.160
   tls: false
   type: vless
   udp: true
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
   ws-opts:
     path: /
-- name: 🇯🇵 日本 | JPN 4
-  server: 103.204.174.176
-  port: 443
+- name: '🇫🇷 法国 | FRA #3'
+  network: tcp
+  port: 22222
+  server: 51.44.117.74
+  tls: false
   type: vless
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  tls: true
-  servername: snip.edgeoneai.cc.cd
-  client-fingerprint: chrome
-  network: ws
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
   ws-opts:
-    path: /fp=chrome
+    path: /
+- name: '🇬🇧 英国 | GBR #1'
+  network: tcp
+  port: 22224
+  server: 13.134.170.98
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  ws-opts:
+    path: /
+- client-fingerprint: chrome
+  name: '🇹🇼 🇨🇳 台湾 | TWN #2'
+  network: ws
+  port: 443
+  server: 103.137.22.71
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
+    path: /
+- cipher: aes-256-cfb
+  name: '🇺🇸 美国 | USA #1'
+  password: amazonskr05
+  port: 443
+  server: 3.15.220.122
+  type: ss
+  udp: true
+- name: 🇪🇪 爱沙尼亚 | EST
+  server: 132.243.66.17
+  port: 443
+  type: vless
+  uuid: 697386bb-c121-4933-b426-ad701cae90d8
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: nH6ZEj8w9tsiRI7_0dco42KKil48EksTnuCs1OcN2B0
+    short-id: 2036c1b147c5d31e
+  servername: ee.shapka-global.com
+  client-fingerprint: qq
+  network: tcp
+  udp: true
+- name: 🇫🇷 法国 | FRA
+  server: 13.37.140.13
+  port: 22223
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  tls: false
+  network: tcp
+  udp: true
+- name: 🇫🇷 法国 | FRA 3
+  server: 35.180.76.81
+  port: 22224
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  tls: false
+  network: tcp
+  udp: true
+- name: 🇯🇵 日本 | JPN 2
+  server: funagfrdfs.alixxplay.com
+  port: 34379
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: KfOrtENkHAXDFlsCluw6fv62Q-WuJXCKI98XZihtemA
+    short-id: e51285e3
+  servername: us1p1.xn--ghq880n3na965a.com
+  client-fingerprint: random
+  network: tcp
   udp: true
 proxy-groups:
-- name: ermao.net | рџљЂ иЉ‚з‚№йЂ‰ж‹©
+- name: ermao.net | 🚀 节点选择
   type: select
   proxies:
-  - ermao.net | в™»пёЏ и‡ҒеЉЁйЂ‰ж‹©
+  - ermao.net | ♻️ 自动选择
   - DIRECT
-  - рџ‡ёрџ‡¬_SG_ж–°еЉ еқҰ->рџ‡Ёрџ‡¦_CA_еЉ ж‹үе¤§
-  - рџ‡ёрџ‡¬_SG_ж–°еЉ еқҰ->рџ‡ғрџ‡ё_US_зңҺе›Ң
-  - рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡«рџ‡·_FR_жі•е›Ң
-  - рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡ғрџ‡ё_US_зңҺе›Ң
-  - рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡ірџ‡±_NL_иҚ·е…°
-  - рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡®рџ‡Ғ_IE_з€±е°”е…°
-  - '🇯🇵[www.v2nodes.com] vless-JP-1... #10'
-  - 🇸🇪[www.v2nodes.com] ss-SE-1560...
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  - 🇨🇳_CN_中国->🇯🇵_JP_日本
+  - 🇨🇳_CN_中国->🇮🇪_IE_爱尔兰
+  - 🇨🇳_CN_中国->🇫🇷_FR_法国
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+  - 🇨🇱[www.v2nodes.com] ss-CL-1564...
+  - 🇪🇪[www.v2nodes.com] trojan-EE-...
   - 🇭🇰 香港|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
   - 香港|@ripaojiedian
@@ -289,21 +346,28 @@ proxy-groups:
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
   - 韩国|@ripaojiedian
-  - 🇺🇸US_2|3.5MB/s
-  - ❓Other_1|1.9MB/s
+  - 🇳🇱NL_2|1.4MB/s
+  - 🇰🇷KR_1|4.1MB/s
+  - '🇫🇷 法国 | FRA #2'
   - '🇫🇷 法国 | FRA #3'
-  - 🇯🇵 日本 | JPN 4
-- name: ermao.net | в™»пёЏ и‡ҒеЉЁйЂ‰ж‹©
+  - '🇬🇧 英国 | GBR #1'
+  - '🇹🇼 🇨🇳 台湾 | TWN #2'
+  - '🇺🇸 美国 | USA #1'
+  - 🇪🇪 爱沙尼亚 | EST
+  - 🇫🇷 法国 | FRA
+  - 🇫🇷 法国 | FRA 3
+  - 🇯🇵 日本 | JPN 2
+- name: ermao.net | ♻️ 自动选择
   type: url-test
   proxies:
-  - рџ‡ёрџ‡¬_SG_ж–°еЉ еқҰ->рџ‡Ёрџ‡¦_CA_еЉ ж‹үе¤§
-  - рџ‡ёрџ‡¬_SG_ж–°еЉ еқҰ->рџ‡ғрџ‡ё_US_зңҺе›Ң
-  - рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡«рџ‡·_FR_жі•е›Ң
-  - рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡ғрџ‡ё_US_зңҺе›Ң
-  - рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡ірџ‡±_NL_иҚ·е…°
-  - рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡®рџ‡Ғ_IE_з€±е°”е…°
-  - '🇯🇵[www.v2nodes.com] vless-JP-1... #10'
-  - 🇸🇪[www.v2nodes.com] ss-SE-1560...
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  - 🇨🇳_CN_中国->🇯🇵_JP_日本
+  - 🇨🇳_CN_中国->🇮🇪_IE_爱尔兰
+  - 🇨🇳_CN_中国->🇫🇷_FR_法国
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+  - 🇨🇱[www.v2nodes.com] ss-CL-1564...
+  - 🇪🇪[www.v2nodes.com] trojan-EE-...
   - 🇭🇰 香港|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
   - 香港|@ripaojiedian
@@ -317,27 +381,34 @@ proxy-groups:
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
   - 韩国|@ripaojiedian
-  - 🇺🇸US_2|3.5MB/s
-  - ❓Other_1|1.9MB/s
+  - 🇳🇱NL_2|1.4MB/s
+  - 🇰🇷KR_1|4.1MB/s
+  - '🇫🇷 法国 | FRA #2'
   - '🇫🇷 法国 | FRA #3'
-  - 🇯🇵 日本 | JPN 4
+  - '🇬🇧 英国 | GBR #1'
+  - '🇹🇼 🇨🇳 台湾 | TWN #2'
+  - '🇺🇸 美国 | USA #1'
+  - 🇪🇪 爱沙尼亚 | EST
+  - 🇫🇷 法国 | FRA
+  - 🇫🇷 法国 | FRA 3
+  - 🇯🇵 日本 | JPN 2
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
-- name: рџЊҚ е›Ңе¤–еҒ’дҢ“
+- name: 🌍 国外媒体
   type: select
   proxies:
-  - ermao.net | рџљЂ иЉ‚з‚№йЂ‰ж‹©
-  - ermao.net | в™»пёЏ и‡ҒеЉЁйЂ‰ж‹©
-  - рџҺҮ е…Ёзђѓз›өиүһ
-  - рџ‡ёрџ‡¬_SG_ж–°еЉ еқҰ->рџ‡Ёрџ‡¦_CA_еЉ ж‹үе¤§
-  - рџ‡ёрџ‡¬_SG_ж–°еЉ еқҰ->рџ‡ғрџ‡ё_US_зңҺе›Ң
-  - рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡«рџ‡·_FR_жі•е›Ң
-  - рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡ғрџ‡ё_US_зңҺе›Ң
-  - рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡ірџ‡±_NL_иҚ·е…°
-  - рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡®рџ‡Ғ_IE_з€±е°”е…°
-  - '🇯🇵[www.v2nodes.com] vless-JP-1... #10'
-  - 🇸🇪[www.v2nodes.com] ss-SE-1560...
+  - ermao.net | 🚀 节点选择
+  - ermao.net | ♻️ 自动选择
+  - 🎯 全球直连
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  - 🇨🇳_CN_中国->🇯🇵_JP_日本
+  - 🇨🇳_CN_中国->🇮🇪_IE_爱尔兰
+  - 🇨🇳_CN_中国->🇫🇷_FR_法国
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+  - 🇨🇱[www.v2nodes.com] ss-CL-1564...
+  - 🇪🇪[www.v2nodes.com] trojan-EE-...
   - 🇭🇰 香港|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
   - 香港|@ripaojiedian
@@ -351,23 +422,30 @@ proxy-groups:
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
   - 韩国|@ripaojiedian
-  - 🇺🇸US_2|3.5MB/s
-  - ❓Other_1|1.9MB/s
+  - 🇳🇱NL_2|1.4MB/s
+  - 🇰🇷KR_1|4.1MB/s
+  - '🇫🇷 法国 | FRA #2'
   - '🇫🇷 法国 | FRA #3'
-  - 🇯🇵 日本 | JPN 4
-- name: рџ“І з”µжЉӨдүҰжЃҮ
+  - '🇬🇧 英国 | GBR #1'
+  - '🇹🇼 🇨🇳 台湾 | TWN #2'
+  - '🇺🇸 美国 | USA #1'
+  - 🇪🇪 爱沙尼亚 | EST
+  - 🇫🇷 法国 | FRA
+  - 🇫🇷 法国 | FRA 3
+  - 🇯🇵 日本 | JPN 2
+- name: 📲 电报信息
   type: select
   proxies:
-  - ermao.net | рџљЂ иЉ‚з‚№йЂ‰ж‹©
-  - рџҺҮ е…Ёзђѓз›өиүһ
-  - рџ‡ёрџ‡¬_SG_ж–°еЉ еқҰ->рџ‡Ёрџ‡¦_CA_еЉ ж‹үе¤§
-  - рџ‡ёрџ‡¬_SG_ж–°еЉ еқҰ->рџ‡ғрџ‡ё_US_зңҺе›Ң
-  - рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡«рџ‡·_FR_жі•е›Ң
-  - рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡ғрџ‡ё_US_зңҺе›Ң
-  - рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡ірџ‡±_NL_иҚ·е…°
-  - рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡®рџ‡Ғ_IE_з€±е°”е…°
-  - '🇯🇵[www.v2nodes.com] vless-JP-1... #10'
-  - 🇸🇪[www.v2nodes.com] ss-SE-1560...
+  - ermao.net | 🚀 节点选择
+  - 🎯 全球直连
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  - 🇨🇳_CN_中国->🇯🇵_JP_日本
+  - 🇨🇳_CN_中国->🇮🇪_IE_爱尔兰
+  - 🇨🇳_CN_中国->🇫🇷_FR_法国
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+  - 🇨🇱[www.v2nodes.com] ss-CL-1564...
+  - 🇪🇪[www.v2nodes.com] trojan-EE-...
   - 🇭🇰 香港|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
   - 香港|@ripaojiedian
@@ -381,23 +459,30 @@ proxy-groups:
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
   - 韩国|@ripaojiedian
-  - 🇺🇸US_2|3.5MB/s
-  - ❓Other_1|1.9MB/s
+  - 🇳🇱NL_2|1.4MB/s
+  - 🇰🇷KR_1|4.1MB/s
+  - '🇫🇷 法国 | FRA #2'
   - '🇫🇷 法国 | FRA #3'
-  - 🇯🇵 日本 | JPN 4
-- name: в“‚пёЏ ең®иҢҮжњҚеЉҰ
+  - '🇬🇧 英国 | GBR #1'
+  - '🇹🇼 🇨🇳 台湾 | TWN #2'
+  - '🇺🇸 美国 | USA #1'
+  - 🇪🇪 爱沙尼亚 | EST
+  - 🇫🇷 法国 | FRA
+  - 🇫🇷 法国 | FRA 3
+  - 🇯🇵 日本 | JPN 2
+- name: Ⓜ️ 微软服务
   type: select
   proxies:
-  - рџҺҮ е…Ёзђѓз›өиүһ
-  - ermao.net | рџљЂ иЉ‚з‚№йЂ‰ж‹©
-  - рџ‡ёрџ‡¬_SG_ж–°еЉ еқҰ->рџ‡Ёрџ‡¦_CA_еЉ ж‹үе¤§
-  - рџ‡ёрџ‡¬_SG_ж–°еЉ еқҰ->рџ‡ғрџ‡ё_US_зңҺе›Ң
-  - рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡«рџ‡·_FR_жі•е›Ң
-  - рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡ғрџ‡ё_US_зңҺе›Ң
-  - рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡ірџ‡±_NL_иҚ·е…°
-  - рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡®рџ‡Ғ_IE_з€±е°”е…°
-  - '🇯🇵[www.v2nodes.com] vless-JP-1... #10'
-  - 🇸🇪[www.v2nodes.com] ss-SE-1560...
+  - 🎯 全球直连
+  - ermao.net | 🚀 节点选择
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  - 🇨🇳_CN_中国->🇯🇵_JP_日本
+  - 🇨🇳_CN_中国->🇮🇪_IE_爱尔兰
+  - 🇨🇳_CN_中国->🇫🇷_FR_法国
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+  - 🇨🇱[www.v2nodes.com] ss-CL-1564...
+  - 🇪🇪[www.v2nodes.com] trojan-EE-...
   - 🇭🇰 香港|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
   - 香港|@ripaojiedian
@@ -411,23 +496,30 @@ proxy-groups:
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
   - 韩国|@ripaojiedian
-  - 🇺🇸US_2|3.5MB/s
-  - ❓Other_1|1.9MB/s
+  - 🇳🇱NL_2|1.4MB/s
+  - 🇰🇷KR_1|4.1MB/s
+  - '🇫🇷 法国 | FRA #2'
   - '🇫🇷 法国 | FRA #3'
-  - 🇯🇵 日本 | JPN 4
-- name: рџҚҺ и‹№жһњжњҚеЉҰ
+  - '🇬🇧 英国 | GBR #1'
+  - '🇹🇼 🇨🇳 台湾 | TWN #2'
+  - '🇺🇸 美国 | USA #1'
+  - 🇪🇪 爱沙尼亚 | EST
+  - 🇫🇷 法国 | FRA
+  - 🇫🇷 法国 | FRA 3
+  - 🇯🇵 日本 | JPN 2
+- name: 🍎 苹果服务
   type: select
   proxies:
-  - ermao.net | рџљЂ иЉ‚з‚№йЂ‰ж‹©
-  - рџҺҮ е…Ёзђѓз›өиүһ
-  - рџ‡ёрџ‡¬_SG_ж–°еЉ еқҰ->рџ‡Ёрџ‡¦_CA_еЉ ж‹үе¤§
-  - рџ‡ёрџ‡¬_SG_ж–°еЉ еқҰ->рџ‡ғрџ‡ё_US_зңҺе›Ң
-  - рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡«рџ‡·_FR_жі•е›Ң
-  - рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡ғрџ‡ё_US_зңҺе›Ң
-  - рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡ірџ‡±_NL_иҚ·е…°
-  - рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡®рџ‡Ғ_IE_з€±е°”е…°
-  - '🇯🇵[www.v2nodes.com] vless-JP-1... #10'
-  - 🇸🇪[www.v2nodes.com] ss-SE-1560...
+  - ermao.net | 🚀 节点选择
+  - 🎯 全球直连
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  - 🇨🇳_CN_中国->🇯🇵_JP_日本
+  - 🇨🇳_CN_中国->🇮🇪_IE_爱尔兰
+  - 🇨🇳_CN_中国->🇫🇷_FR_法国
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+  - 🇨🇱[www.v2nodes.com] ss-CL-1564...
+  - 🇪🇪[www.v2nodes.com] trojan-EE-...
   - 🇭🇰 香港|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
   - 香港|@ripaojiedian
@@ -441,45 +533,52 @@ proxy-groups:
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
   - 韩国|@ripaojiedian
-  - 🇺🇸US_2|3.5MB/s
-  - ❓Other_1|1.9MB/s
+  - 🇳🇱NL_2|1.4MB/s
+  - 🇰🇷KR_1|4.1MB/s
+  - '🇫🇷 法国 | FRA #2'
   - '🇫🇷 法国 | FRA #3'
-  - 🇯🇵 日本 | JPN 4
-- name: рџҺҮ е…Ёзђѓз›өиүһ
+  - '🇬🇧 英国 | GBR #1'
+  - '🇹🇼 🇨🇳 台湾 | TWN #2'
+  - '🇺🇸 美国 | USA #1'
+  - 🇪🇪 爱沙尼亚 | EST
+  - 🇫🇷 法国 | FRA
+  - 🇫🇷 法国 | FRA 3
+  - 🇯🇵 日本 | JPN 2
+- name: 🎯 全球直连
   type: select
   proxies:
   - DIRECT
-  - ermao.net | рџљЂ иЉ‚з‚№йЂ‰ж‹©
-  - ermao.net | в™»пёЏ и‡ҒеЉЁйЂ‰ж‹©
-- name: рџ›‘ е…Ёзђѓж‹¦ж€Ғ
+  - ermao.net | 🚀 节点选择
+  - ermao.net | ♻️ 自动选择
+- name: 🛑 全球拦截
   type: select
   proxies:
   - REJECT
   - DIRECT
-- name: рџҚѓ еғ”з”Ёе‡ЂеЊ–
+- name: 🍃 应用净化
   type: select
   proxies:
   - REJECT
   - DIRECT
-- name: рџ†Һ AdBlock
+- name: 🆎 AdBlock
   type: select
   proxies:
   - REJECT
   - DIRECT
-- name: рџђџ жәЏзҢ‘д№‹й±ә
+- name: 🐟 漏网之鱼
   type: select
   proxies:
-  - ermao.net | рџљЂ иЉ‚з‚№йЂ‰ж‹©
-  - рџҺҮ е…Ёзђѓз›өиүһ
-  - ermao.net | в™»пёЏ и‡ҒеЉЁйЂ‰ж‹©
-  - рџ‡ёрџ‡¬_SG_ж–°еЉ еқҰ->рџ‡Ёрџ‡¦_CA_еЉ ж‹үе¤§
-  - рџ‡ёрџ‡¬_SG_ж–°еЉ еқҰ->рџ‡ғрџ‡ё_US_зңҺе›Ң
-  - рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡«рџ‡·_FR_жі•е›Ң
-  - рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡ғрџ‡ё_US_зңҺе›Ң
-  - рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡ірџ‡±_NL_иҚ·е…°
-  - рџ‡Ёрџ‡і_CN_дё­е›Ң->рџ‡®рџ‡Ғ_IE_з€±е°”е…°
-  - '🇯🇵[www.v2nodes.com] vless-JP-1... #10'
-  - 🇸🇪[www.v2nodes.com] ss-SE-1560...
+  - ermao.net | 🚀 节点选择
+  - 🎯 全球直连
+  - ermao.net | ♻️ 自动选择
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  - 🇨🇳_CN_中国->🇯🇵_JP_日本
+  - 🇨🇳_CN_中国->🇮🇪_IE_爱尔兰
+  - 🇨🇳_CN_中国->🇫🇷_FR_法国
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+  - 🇨🇱[www.v2nodes.com] ss-CL-1564...
+  - 🇪🇪[www.v2nodes.com] trojan-EE-...
   - 🇭🇰 香港|@ripaojiedian
   - 🇸🇬 新加坡2|@ripaojiedian
   - 香港|@ripaojiedian
@@ -493,10 +592,17 @@ proxy-groups:
   - 美国2|@ripaojiedian
   - 台湾|@ripaojiedian
   - 韩国|@ripaojiedian
-  - 🇺🇸US_2|3.5MB/s
-  - ❓Other_1|1.9MB/s
+  - 🇳🇱NL_2|1.4MB/s
+  - 🇰🇷KR_1|4.1MB/s
+  - '🇫🇷 法国 | FRA #2'
   - '🇫🇷 法国 | FRA #3'
-  - 🇯🇵 日本 | JPN 4
+  - '🇬🇧 英国 | GBR #1'
+  - '🇹🇼 🇨🇳 台湾 | TWN #2'
+  - '🇺🇸 美国 | USA #1'
+  - 🇪🇪 爱沙尼亚 | EST
+  - 🇫🇷 法国 | FRA
+  - 🇫🇷 法国 | FRA 3
+  - 🇯🇵 日本 | JPN 2
 rule-providers:
   LocalAreaNetwork:
     type: http
@@ -574,20 +680,20 @@ rule-providers:
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ChinaCompanyIp.list
     path: ./rules/ChinaCompanyIp.yaml
 rules:
-- RULE-SET,LocalAreaNetwork,рџҺҮ е…Ёзђѓз›өиүһ
-- RULE-SET,BanAD,рџ›‘ е…Ёзђѓж‹¦ж€Ғ
-- RULE-SET,BanProgramAD,рџҚѓ еғ”з”Ёе‡ЂеЊ–
-- RULE-SET,BanEasyList,рџ†Һ AdBlock
-- RULE-SET,BanEasyListChina,рџ†Һ AdBlock
-- RULE-SET,BanEasyPrivacy,рџ†Һ AdBlock
-- RULE-SET,GoogleCN,рџҺҮ е…Ёзђѓз›өиүһ
-- RULE-SET,SteamCN,рџҺҮ е…Ёзђѓз›өиүһ
-- RULE-SET,Microsoft,в“‚пёЏ ең®иҢҮжњҚеЉҰ
-- RULE-SET,Apple,рџҚҺ и‹№жһњжњҚеЉҰ
-- RULE-SET,ProxyMedia,рџЊҚ е›Ңе¤–еҒ’дҢ“
-- RULE-SET,Telegram,рџ“І з”µжЉӨдүҰжЃҮ
-- RULE-SET,ProxyLite,ermao.net | рџљЂ иЉ‚з‚№йЂ‰ж‹©
-- RULE-SET,ChinaDomain,рџҺҮ е…Ёзђѓз›өиүһ
-- RULE-SET,ChinaCompanyIp,рџҺҮ е…Ёзђѓз›өиүһ
-- GEOIP,CN,рџҺҮ е…Ёзђѓз›өиүһ
-- MATCH,рџђџ жәЏзҢ‘д№‹й±ә
+- RULE-SET,LocalAreaNetwork,🎯 全球直连
+- RULE-SET,BanAD,🛑 全球拦截
+- RULE-SET,BanProgramAD,🍃 应用净化
+- RULE-SET,BanEasyList,🆎 AdBlock
+- RULE-SET,BanEasyListChina,🆎 AdBlock
+- RULE-SET,BanEasyPrivacy,🆎 AdBlock
+- RULE-SET,GoogleCN,🎯 全球直连
+- RULE-SET,SteamCN,🎯 全球直连
+- RULE-SET,Microsoft,Ⓜ️ 微软服务
+- RULE-SET,Apple,🍎 苹果服务
+- RULE-SET,ProxyMedia,🌍 国外媒体
+- RULE-SET,Telegram,📲 电报信息
+- RULE-SET,ProxyLite,ermao.net | 🚀 节点选择
+- RULE-SET,ChinaDomain,🎯 全球直连
+- RULE-SET,ChinaCompanyIp,🎯 全球直连
+- GEOIP,CN,🎯 全球直连
+- MATCH,🐟 漏网之鱼

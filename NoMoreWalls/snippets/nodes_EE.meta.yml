@@ -1,25 +1,43 @@
 proxies:
-- name: '🇪🇪[www.v2nodes.com] vless-EE-1... #4'
-  port: 443
-  server: 77.110.105.122
-  tls: false
-  type: vless
-  uuid: 019fbe0f-2d9f-4b89-9f81-e1e36129892a
-- name: 🇪🇪[www.v2nodes.com] trojan-EE-...
-  password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
-  port: 449
-  server: 109.206.241.10
-  sni: russiapower.accesscam.org
-  type: trojan
-- name: 🇪🇪EE_1|2.9MB/s
+- name: 🇪🇪EE_1|2.0MB/s
   port: 9443
   server: 95.153.31.66
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇪🇪EE_2|1.8MB/s
+- name: 🇪🇪EE_2|2.2MB/s|K001-260618
   port: 9443
-  server: 192.159.101.174
+  server: 95.153.32.2
   skip-cert-verify: true
+  sub_tag: K001-260618
   tls: true
   type: http
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: lalibobi.orbit.v3.Connect
+  name: 🇪🇪EE_3|3.4MB/s
+  network: grpc
+  port: 443
+  server: lalibobi.online
+  servername: lalibobi.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 21ffcccd-8fbe-43fb-9dd1-24452fdfa8ad
+  xudp: true
+- client-fingerprint: chrome
+  name: '🇪🇪 爱沙尼亚 | EST #2'
+  network: ws
+  port: 443
+  server: 213.165.46.55
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /

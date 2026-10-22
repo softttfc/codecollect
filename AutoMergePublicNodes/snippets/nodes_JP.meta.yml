@@ -12,38 +12,14 @@ proxies:
     headers:
       Host: tn1r.eu.cc
     path: /id-pusat
-- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #4'
-  network: ws
-  port: 80
-  server: 130.94.67.40
-  tls: false
-  type: vless
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  ws-opts:
-    path: /platform118
-- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #6'
-  network: ws
-  port: 80
-  server: platform117.golnamakcert.top
-  tls: false
-  type: vless
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  ws-opts:
-    headers:
-      Host: platform117.halalkhor.info
-    path: /platform117
-- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #10'
-  port: 27916
-  server: 39.109.110.80
-  tls: false
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
 - client-fingerprint: unsafe
-  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #12'
+  encryption: none
+  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #9'
   network: ws
   port: 443
-  server: 104.19.33.237
+  server: 104.16.111.102
   servername: jp3.yohototo.top
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
@@ -51,7 +27,7 @@ proxies:
     headers:
       Host: jp3.yohototo.top
     path: /tyxyws
-- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #13'
+- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #10'
   port: 443
   server: 137.220.221.179
   tls: false
@@ -85,12 +61,6 @@ proxies:
   type: trojan
   ws-opts:
     path: /
-- name: '🇯🇵[www.v2nodes.com] trojan-JP-... #2'
-  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
-  port: 8886
-  server: 45.32.52.173
-  sni: 45.32.52.173
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 🇯🇵 日本|@ripaojiedian
@@ -145,10 +115,10 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - client-fingerprint: chrome
-  name: '🇯🇵 日本 | JPN #2'
+  name: 🇯🇵JP_1|3.6MB/s
   network: ws
-  port: 443
-  server: 217.142.225.47
+  port: 8443
+  server: 45.77.131.33
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -157,12 +127,15 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /
+  xudp: true
 - client-fingerprint: chrome
-  name: '🇯🇵 日本 | JPN #3'
+  name: '🇯🇵 日本 | JPN #1'
   network: ws
-  port: 443
-  server: 66.245.220.243
+  port: 8443
+  server: 178.239.117.133
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -171,21 +144,7 @@ proxies:
   ws-opts:
     headers:
       Host: snip.edgeoneai.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: '🇯🇵 日本 | JPN #7'
-  network: ws
-  port: 443
-  server: 54.64.190.109
-  servername: snip.edgeoneai.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  ws-opts:
-    headers:
-      Host: snip.edgeoneai.cc.cd
-    path: /
+    path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
 - name: JP_speednode_0011
   port: 343
   server: 133.18.200.207

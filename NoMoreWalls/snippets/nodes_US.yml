@@ -1,24 +1,42 @@
 proxies:
 - cipher: aes-256-gcm
+  name: 🇺🇸[www.v2nodes.com] ss-US-1603...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.230.230.18
+  type: ss
+- cipher: aes-256-gcm
+  name: '🇺🇸[www.v2nodes.com] ss-US-1603... #1'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.215.132.18
+  type: ss
+- cipher: aes-256-gcm
   name: 🇺🇸[www.v2nodes.com] ss-US-1602...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 193.151.163.18
+  server: 95.215.201.18
   type: ss
 - cipher: aes-256-gcm
   name: '🇺🇸[www.v2nodes.com] ss-US-1602... #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 45.86.51.18
+  server: 193.151.163.18
   type: ss
 - cipher: aes-256-gcm
   name: '🇺🇸[www.v2nodes.com] ss-US-1602... #2'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 193.151.160.18
+  server: 45.86.51.18
   type: ss
 - cipher: aes-256-gcm
   name: '🇺🇸[www.v2nodes.com] ss-US-1602... #3'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.151.160.18
+  type: ss
+- cipher: aes-256-gcm
+  name: '🇺🇸[www.v2nodes.com] ss-US-1602... #4'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 185.215.132.9
@@ -29,18 +47,20 @@ proxies:
   server: 23.106.44.14
   sni: sj6.freeguard.org
   type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #3'
-  password: f0eb8c92ce8946aaba856569cff1a16b
-  port: 443
-  server: resources.findlocaljobnetworkandbuildcommunityconnections.com
-  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
-  type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #6'
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #4'
   password: dba20dcb635e430fa4d3bfc303a149d2
   port: 443
   server: blog.findlocaljobnetworkandbuildcommunityconnections.com
   skip-cert-verify: true
   sni: blog.findlocaljobnetworkandbuildcommunityconnections.com
+  type: trojan
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #2'
+  network: tcp
+  password: f0eb8c92ce8946aaba856569cff1a16b
+  port: 443
+  server: resources.findlocaljobnetworkandbuildcommunityconnections.com
+  skip-cert-verify: false
+  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
   type: trojan
 - alterId: 0
   cipher: auto
@@ -88,23 +108,20 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇺🇸 美国 | USA 7
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸US_14|1.8MB/s
   network: ws
-  password: mitivpn
+  password: e7TTceggMwUMg+aFN:F4
   port: 443
-  server: b2n.ir
-  skip-cert-verify: true
-  sni: de.mitivpn.in.net
+  server: 172.66.47.18
+  skip-cert-verify: false
+  sni: APkD964o1oghlTghHt0L0Of.pAgeS.Dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: de.mitivpn.in.net
-    path: ''
-- name: '🇺🇸 美国 | USA #7'
-  password: mitivpn
-  port: 443
-  server: b2n.ir
-  skip-cert-verify: true
-  sni: de.mitivpn.in.net
-  type: trojan
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /tr/SIeRkg2QvR2Zcpu0SeEMow?ed=2560
