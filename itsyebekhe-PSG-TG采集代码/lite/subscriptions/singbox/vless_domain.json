@@ -53,18 +53,22 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇹🇷 TR | VLESS | @orange_vpns #1 [slow]",
+        "🇺🇸 US | VLESS | @prrofile_purple #1 [fast]",
         "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]",
-        "🇩🇪 DE | VLESS | @nofiltering2 #2 [medium]",
+        "🇩🇪 DE | VLESS | @nofiltering2 #2 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #1 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #2 [fast]",
         "🇽🇽 XX | VLESS | @lockey_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @lockey_vpn #2 [fast]",
+        "🇩🇪 DE | VLESS | @bored_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @luckyvpn #1 [medium]",
         "🇽🇽 XX | VLESS | @kilid_stor #1 [fast]",
         "🇽🇽 XX | VLESS | @f_nirevil #1 [fast]",
         "🇽🇽 XX | VLESS | @f_nirevil #2 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
-        "🇩🇪 DE | VLESS | @Proxymelimon #1 [fast]",
+        "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
+        "🇽🇽 XX | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2 [fast]",
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
@@ -100,18 +104,22 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇹🇷 TR | VLESS | @orange_vpns #1 [slow]",
+        "🇺🇸 US | VLESS | @prrofile_purple #1 [fast]",
         "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]",
-        "🇩🇪 DE | VLESS | @nofiltering2 #2 [medium]",
+        "🇩🇪 DE | VLESS | @nofiltering2 #2 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #1 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #2 [fast]",
         "🇽🇽 XX | VLESS | @lockey_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @lockey_vpn #2 [fast]",
+        "🇩🇪 DE | VLESS | @bored_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @luckyvpn #1 [medium]",
         "🇽🇽 XX | VLESS | @kilid_stor #1 [fast]",
         "🇽🇽 XX | VLESS | @f_nirevil #1 [fast]",
         "🇽🇽 XX | VLESS | @f_nirevil #2 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
-        "🇩🇪 DE | VLESS | @Proxymelimon #1 [fast]",
+        "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
+        "🇽🇽 XX | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2 [fast]",
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
@@ -183,6 +191,55 @@
     },
     {
       "type": "vless",
+      "tag": "🇹🇷 TR | VLESS | @orange_vpns #1 [slow]",
+      "server": "sable56.fars-remen.ir",
+      "server_port": 8446,
+      "uuid": "633c1bb0-60d5-41fb-a9c4-11f408b264ec",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "storage-p2.googleapis.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "7OwcalQiQ5RaMsYRjvtwTxZWS3sCpjOefcr3WYKFh04",
+          "short_id": "73da8baa63f8d537"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @prrofile_purple #1 [fast]",
+      "server": "djdjsj-production.up.railway.app",
+      "server_port": 443,
+      "uuid": "5ff8e256-cb7e-41fc-8ed2-14a46fd46e4e",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "djdjsj-production.up.railway.app",
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws/vless/5ff8e256-cb7e-41fc-8ed2-14a46fd46e4e?ed",
+        "headers": {
+          "Host": "djdjsj-production.up.railway.app"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇩🇪 DE | VLESS | @nofiltering2 #1 [fast]",
       "server": "de-2.starsping.com",
       "server_port": 443,
@@ -205,7 +262,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @nofiltering2 #2 [medium]",
+      "tag": "🇩🇪 DE | VLESS | @nofiltering2 #2 [fast]",
       "server": "dl6.sepid-dl.ir",
       "server_port": 80,
       "uuid": "b40ddc5e-9d01-43e1-975c-30200fda12c4",
@@ -254,6 +311,29 @@
       "uuid": "8a20ecfe-6a72-4e88-aa2c-65a9e43a8512",
       "network": "httpupgrade",
       "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 DE | VLESS | @bored_vpn #1 [fast]",
+      "server": "account.datagrid.cl",
+      "server_port": 8443,
+      "uuid": "TeLEgRAM-ID-conf0088",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "nbg1-speed.hetzner.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "8m9MBxGrlPxtC4cYpEkEQsUHt5sHf9EBzb2DkOn2niw",
+          "short_id": "ed50ca"
+        }
+      }
     },
     {
       "type": "vless",
@@ -361,22 +441,42 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @Proxymelimon #1 [fast]",
-      "server": "host.taghvimtime.ir",
-      "server_port": 8443,
-      "uuid": "90c08c98-7ec8-4fab-da36-cf140d18c708",
-      "network": "xhttp",
+      "tag": "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
+      "server": "tickets.betust.net",
+      "server_port": 443,
+      "uuid": "3b1fa839-2cb9-4511-9711-08800450aea3",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "host.taghvimtime.ir",
-        "alpn": [
-          "h2"
-        ],
+        "server_name": "tickets.betust.net",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "TRaUsnzFf-AhWUuW4RQUQOBYTdM-qJdLDTTkzQNkcRw",
+          "short_id": "f70764f8"
         }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇽🇽 XX | VLESS | @red2ray #1 [fast]",
+      "server": "903.rtgpu.com",
+      "server_port": 443,
+      "uuid": "c6438331-a79b-4471-fd5e-42c2eeac29fa",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "903.rtgpu.com"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/nmd2"
       }
     },
     {

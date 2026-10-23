@@ -28,6 +28,44 @@ proxies:
   tls: false
   type: hysteria2
 - name: 🇩🇪[www.v2nodes.com] vless-DE-1...
+  port: 443
+  server: 45.144.30.86
+  tls: false
+  type: vless
+  uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
+- client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #10'
+  network: ws
+  port: 443
+  server: wwww.qarvian.ir
+  servername: firefox.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 153900df-5824-4b55-98c4-418c5baea523
+  ws-opts:
+    headers:
+      Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
+    path: /
+- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #2'
+  port: 2087
+  server: shortbig.ir
+  tls: false
+  type: vless
+  uuid: 31f185b6-e591-413b-ba72-88083a87feb2
+  ws-opts:
+    path: /hokm
+- encryption: none
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #3'
+  network: ws
+  port: 443
+  server: 903.rtgpu.com
+  tls: true
+  type: vless
+  uuid: c6438331-a79b-4471-fd5e-42c2eeac29fa
+  ws-opts:
+    path: /nmd2
+- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #4'
   network: ws
   port: 2051
   server: dl.hessabb.ir
@@ -40,7 +78,7 @@ proxies:
     path: /download
 - client-fingerprint: chrome
   encryption: none
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #2'
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #4'
   network: ws
   port: 443
   server: wwww.qarvian.ir
@@ -56,7 +94,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: unsafe
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #2'
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #6'
   network: ws
   port: 443
   server: shortbig.ir
@@ -69,7 +107,7 @@ proxies:
       Host: alman.5f2vvtqh5syot.info
     path: /9d9fdbc18c834cffab4276811501fbae
 - encryption: none
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #4'
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #8'
   network: ws
   port: 443
   server: 146.75.59.186
@@ -82,43 +120,20 @@ proxies:
     headers:
       Host: copy_az_channel_NUFiLTER_a1i.global.ssl.fastly.net.
     path: /
-- encryption: none
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #8'
-  network: tcp
-  port: 10000
-  server: connect.wecantos.site
-  tls: false
-  type: vless
-  uuid: a05ecf37-c661-4247-ab09-4432cf0f3cc1
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: studiofeed
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #9'
-  network: grpc
-  port: 443
-  server: 45.12.63.96
-  servername: studio.10media.top
-  tls: true
-  type: vless
-  uuid: 9cb8d71c-fe06-4402-a591-eaa1f173b890
-- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #10'
-  port: 443
-  server: 146.75.59.186
-  tls: false
-  type: vless
-  uuid: eccc053a-7196-47cb-a4b5-f4b8bfd743d9
 - cipher: aes-256-gcm
   name: 🇩🇪[www.v2nodes.com] ss-DE-1602...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 185.176.204.18
   type: ss
-- name: 🇩🇪[www.v2nodes.com] trojan-DE-...
+- alpn:
+  - http/1.1
+  name: 🇩🇪[www.v2nodes.com] trojan-DE-...
+  network: tcp
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
-  server: it1.dedushka.top
+  server: de3.dedushka.top
   skip-cert-verify: false
-  sni: it1.dedushka.top
   type: trojan
 - alpn:
   - http/1.1
@@ -126,9 +141,9 @@ proxies:
   network: tcp
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
-  server: de2.dedushka.top
+  server: de12.dedushka.top
   skip-cert-verify: false
-  sni: de2.dedushka.top
+  sni: de12.dedushka.top
   type: trojan
 - alpn:
   - http/1.1
@@ -136,93 +151,133 @@ proxies:
   network: tcp
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
-  server: de6.dedushka.top
-  sni: de6.dedushka.top
+  server: de5.dedushka.top
+  skip-cert-verify: false
+  sni: de5.dedushka.top
   type: trojan
 - name: '🇩🇪[www.v2nodes.com] trojan-DE-... #3'
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  port: 443
+  server: it1.dedushka.top
+  sni: it1.dedushka.top
+  type: trojan
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #4'
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  port: 443
+  server: de2.dedushka.top
+  sni: de2.dedushka.top
+  type: trojan
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #5'
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
   server: de8.dedushka.top
   sni: de8.dedushka.top
   type: trojan
-- alpn:
-  - http/1.1
-  name: '🇩🇪[www.v2nodes.com] trojan-DE-... #4'
-  network: tcp
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #6'
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
   server: de4.dedushka.top
-  skip-cert-verify: false
   sni: de4.dedushka.top
   type: trojan
-- alpn:
-  - http/1.1
-  name: '🇩🇪[www.v2nodes.com] trojan-DE-... #5'
-  network: tcp
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  port: 443
-  server: de10.dedushka.top
-  skip-cert-verify: false
-  sni: de10.dedushka.top
-  type: trojan
 - name: DE_speednode_0003
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: DE_speednode_0004
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇩🇪DE_3|3.8MB/s
-  port: 9002
-  server: 158.173.154.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_4|2.1MB/s
-  port: 443
-  server: 79.76.126.155
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_5|3.3MB/s
-  port: 9002
-  server: 158.173.154.5
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_6|3.5MB/s|R002-260618
   password: None
   port: 443
-  server: 87.249.132.97
+  server: 213.109.163.119
   skip-cert-verify: true
-  sub_tag: R002-260618
   tls: true
   type: http
   udp: true
-- name: 🇩🇪DE_7|1.2MB/s
-  port: 9443
-  server: 213.177.229.161
+- name: DK_speednode_0005
+  port: 9002
+  server: 158.173.154.2
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_8|3.2MB/s
+  udp: true
+- name: 🇩🇪DE_4|1.3MB/s
+  port: 80
+  server: 57.131.128.2
+  type: http
+- name: 🇩🇪DE_5|1.9MB/s
   port: 443
   server: 79.127.156.177
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇩🇪DE_6|1.7MB/s
+  password: None
+  port: 9002
+  server: 158.173.154.3
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_7|2.6MB/s
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_8|1.9MB/s
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_9|3.0MB/s
+  port: 443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #1'
+  network: ws
+  port: 2087
+  server: 45.157.233.109
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
 - client-fingerprint: chrome
   name: '🇩🇪 德国 | DEU #2'
   network: ws
+  port: 8443
+  server: 62.133.60.134
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
+- client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #3'
+  network: ws
+  port: 2083
+  server: 64.188.71.236
+  servername: snip.edgeoneai.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  ws-opts:
+    headers:
+      Host: snip.edgeoneai.cc.cd
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #4'
+  network: ws
   port: 443
-  server: 104.26.8.117
+  server: 185.230.44.140
   servername: snip.edgeoneai.cc.cd
   tls: true
   type: vless
@@ -239,33 +294,19 @@ proxies:
     method: GET
     path:
     - /
-  name: '🇩🇪 德国 | DEU #3'
+  name: DE_speednode_0002
   network: http
   port: 443
   server: 3.79.233.186
+  servername: play.googleapis.com
+  skip-cert-verify: false
   tls: false
   type: vless
   udp: true
   uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-- http-opts:
-    headers:
-      Host:
-      - play.googleapis.com
-    method: GET
-    path:
-    - /
-  name: '🇩🇪 德国 | DEU #4'
-  network: http
+- name: DE_speednode_0004
   port: 443
-  server: 63.178.23.66
-  tls: false
-  type: vless
-  udp: true
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-- name: DE_speednode_0002
-  password: None
-  port: 9443
-  server: 87.249.132.97
+  server: 213.109.163.119
   skip-cert-verify: true
   tls: true
   type: http
