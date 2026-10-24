@@ -164,21 +164,6 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- name: vpnsal
-  password: 033dc6b532
-  port: 11592
-  server: 77.232.139.128
-  sni: srv-8718e6.frd21.ru
-  tls: false
-  type: hysteria2
-- name: 🛕97@oneclickvpnkeys
-  password: 099830134df5ac3a04a4b21d39b8c395
-  port: 50160
-  server: 163.192.14.135
-  skip-cert-verify: true
-  sni: vk.com
-  tls: false
-  type: hysteria2
 - name: '@V2rayng_mar_ket'
   obfs: salamander
   obfs-password: 87d72c2949c0ca85bbda09459244e374
@@ -196,11 +181,7 @@ proxies:
   sni: clash2.deep-links.com
   tls: false
   type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: 🇺🇸US_23|4.7MB/s
-  obfs: ''
-  obfs-password: ''
+- name: 🛸69@oneclickvpnkeys
   password: 4fUg3KH31LpMhko6o0Ka9Q
   port: 36720
   server: 198.46.146.118
@@ -208,7 +189,6 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-  up: ''
 - name: '@v2ray_phoenix'
   obfs: salamander
   obfs-password: 588c76723192f87cfe6d6786816177cd2bd9773acdc545928d7d1d5e8338d4ce
@@ -227,6 +207,16 @@ proxies:
   server: 91.142.73.159
   skip-cert-verify: true
   sni: cdn77.dmtr.ru
+  tls: false
+  type: hysteria2
+- name: 🛸96@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
+  password: 5fa748137b6d822308eea4611f474ad5
+  port: 443
+  server: 155.117.19.17
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇷🇺
@@ -277,6 +267,14 @@ proxies:
   server: gift-catalog.aroonia.ir
   skip-cert-verify: false
   sni: gift-catalog.aroonia.ir
+  tls: false
+  type: hysteria2
+- name: 🛸100@oneclickvpnkeys
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 160.187.100.109
+  skip-cert-verify: true
+  sni: vpn-tw-002.fastervpn.world
   tls: false
   type: hysteria2
 - name: '@v2ray_configs_pools 🌍 ⚡️'
@@ -539,14 +537,26 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 🇰🇷 韩国 | KOR
-  server: 43.202.58.174
-  port: 443
-  type: hysteria2
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  sni: www.bing.com
+- auth: c8ed6cd1-6566-4f7a-819e-1c55b2b360c9
+  name: 🇹🇷 土耳其 | TUR
+  obfs: salamander
+  obfs-password: 9a33460c-b037-47aa-a606-d04211f4e0ec
+  password: c8ed6cd1-6566-4f7a-819e-1c55b2b360c9
+  port: 34121
+  server: 153.56.210.134
   skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- name: '🇹🇷 土耳其 | TUR #1'
+  obfs: salamander
+  obfs-password: salamander
+  password: c8ed6cd1-6566-4f7a-819e-1c55b2b360c9
+  port: 34121
+  server: 153.56.210.134
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 proxy-groups:
 - name: ermao.net | 🚀 节点选择
   type: select
@@ -568,18 +578,18 @@ proxy-groups:
   - 🇩🇪192088 | ⚡️Telegram = t.me/v...
   - '@KAFING_2'
   - 🇺🇸139909 | ⚡️Telegram = t.me/S...
-  - vpnsal
-  - 🛕97@oneclickvpnkeys
   - '@V2rayng_mar_ket'
   - 🛸62@oneclickvpnkeys
-  - 🇺🇸US_23|4.7MB/s
+  - 🛸69@oneclickvpnkeys
   - '@v2ray_phoenix'
   - '@Begoo_VPN ²⁹⁰'
+  - 🛸96@oneclickvpnkeys
   - Telegram 🆔@cnetvpn 🇷🇺
   - Telegram:@v2rayng3
   - 🇫🇮@Azaranv2ray
   - Telegram 🆔@Cnetvpn 🇺🇲
   - Telegram 🆔@cnetvpn 🇩🇪
+  - 🛸100@oneclickvpnkeys
   - '@v2ray_configs_pools 🌍 ⚡️'
   - 🩵+@Azarakhsh_Proxy+🩷
   - '@meliproxyy'
@@ -606,7 +616,8 @@ proxy-groups:
   - '@fastkanfig کانال تلگرام'
   - Telegram 🆔@cnetvpn 🇸🇪
   - Telegram 🆔@cnetvpn 🇫🇮
-  - 🇰🇷 韩国 | KOR
+  - 🇹🇷 土耳其 | TUR
+  - '🇹🇷 土耳其 | TUR #1'
 - name: ermao.net | ♻️ 自动选择
   type: url-test
   proxies:
@@ -625,18 +636,18 @@ proxy-groups:
   - 🇩🇪192088 | ⚡️Telegram = t.me/v...
   - '@KAFING_2'
   - 🇺🇸139909 | ⚡️Telegram = t.me/S...
-  - vpnsal
-  - 🛕97@oneclickvpnkeys
   - '@V2rayng_mar_ket'
   - 🛸62@oneclickvpnkeys
-  - 🇺🇸US_23|4.7MB/s
+  - 🛸69@oneclickvpnkeys
   - '@v2ray_phoenix'
   - '@Begoo_VPN ²⁹⁰'
+  - 🛸96@oneclickvpnkeys
   - Telegram 🆔@cnetvpn 🇷🇺
   - Telegram:@v2rayng3
   - 🇫🇮@Azaranv2ray
   - Telegram 🆔@Cnetvpn 🇺🇲
   - Telegram 🆔@cnetvpn 🇩🇪
+  - 🛸100@oneclickvpnkeys
   - '@v2ray_configs_pools 🌍 ⚡️'
   - 🩵+@Azarakhsh_Proxy+🩷
   - '@meliproxyy'
@@ -663,7 +674,8 @@ proxy-groups:
   - '@fastkanfig کانال تلگرام'
   - Telegram 🆔@cnetvpn 🇸🇪
   - Telegram 🆔@cnetvpn 🇫🇮
-  - 🇰🇷 韩国 | KOR
+  - 🇹🇷 土耳其 | TUR
+  - '🇹🇷 土耳其 | TUR #1'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -688,18 +700,18 @@ proxy-groups:
   - 🇩🇪192088 | ⚡️Telegram = t.me/v...
   - '@KAFING_2'
   - 🇺🇸139909 | ⚡️Telegram = t.me/S...
-  - vpnsal
-  - 🛕97@oneclickvpnkeys
   - '@V2rayng_mar_ket'
   - 🛸62@oneclickvpnkeys
-  - 🇺🇸US_23|4.7MB/s
+  - 🛸69@oneclickvpnkeys
   - '@v2ray_phoenix'
   - '@Begoo_VPN ²⁹⁰'
+  - 🛸96@oneclickvpnkeys
   - Telegram 🆔@cnetvpn 🇷🇺
   - Telegram:@v2rayng3
   - 🇫🇮@Azaranv2ray
   - Telegram 🆔@Cnetvpn 🇺🇲
   - Telegram 🆔@cnetvpn 🇩🇪
+  - 🛸100@oneclickvpnkeys
   - '@v2ray_configs_pools 🌍 ⚡️'
   - 🩵+@Azarakhsh_Proxy+🩷
   - '@meliproxyy'
@@ -726,7 +738,8 @@ proxy-groups:
   - '@fastkanfig کانال تلگرام'
   - Telegram 🆔@cnetvpn 🇸🇪
   - Telegram 🆔@cnetvpn 🇫🇮
-  - 🇰🇷 韩国 | KOR
+  - 🇹🇷 土耳其 | TUR
+  - '🇹🇷 土耳其 | TUR #1'
 - name: 📲 电报信息
   type: select
   proxies:
@@ -747,18 +760,18 @@ proxy-groups:
   - 🇩🇪192088 | ⚡️Telegram = t.me/v...
   - '@KAFING_2'
   - 🇺🇸139909 | ⚡️Telegram = t.me/S...
-  - vpnsal
-  - 🛕97@oneclickvpnkeys
   - '@V2rayng_mar_ket'
   - 🛸62@oneclickvpnkeys
-  - 🇺🇸US_23|4.7MB/s
+  - 🛸69@oneclickvpnkeys
   - '@v2ray_phoenix'
   - '@Begoo_VPN ²⁹⁰'
+  - 🛸96@oneclickvpnkeys
   - Telegram 🆔@cnetvpn 🇷🇺
   - Telegram:@v2rayng3
   - 🇫🇮@Azaranv2ray
   - Telegram 🆔@Cnetvpn 🇺🇲
   - Telegram 🆔@cnetvpn 🇩🇪
+  - 🛸100@oneclickvpnkeys
   - '@v2ray_configs_pools 🌍 ⚡️'
   - 🩵+@Azarakhsh_Proxy+🩷
   - '@meliproxyy'
@@ -785,7 +798,8 @@ proxy-groups:
   - '@fastkanfig کانال تلگرام'
   - Telegram 🆔@cnetvpn 🇸🇪
   - Telegram 🆔@cnetvpn 🇫🇮
-  - 🇰🇷 韩国 | KOR
+  - 🇹🇷 土耳其 | TUR
+  - '🇹🇷 土耳其 | TUR #1'
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
@@ -806,18 +820,18 @@ proxy-groups:
   - 🇩🇪192088 | ⚡️Telegram = t.me/v...
   - '@KAFING_2'
   - 🇺🇸139909 | ⚡️Telegram = t.me/S...
-  - vpnsal
-  - 🛕97@oneclickvpnkeys
   - '@V2rayng_mar_ket'
   - 🛸62@oneclickvpnkeys
-  - 🇺🇸US_23|4.7MB/s
+  - 🛸69@oneclickvpnkeys
   - '@v2ray_phoenix'
   - '@Begoo_VPN ²⁹⁰'
+  - 🛸96@oneclickvpnkeys
   - Telegram 🆔@cnetvpn 🇷🇺
   - Telegram:@v2rayng3
   - 🇫🇮@Azaranv2ray
   - Telegram 🆔@Cnetvpn 🇺🇲
   - Telegram 🆔@cnetvpn 🇩🇪
+  - 🛸100@oneclickvpnkeys
   - '@v2ray_configs_pools 🌍 ⚡️'
   - 🩵+@Azarakhsh_Proxy+🩷
   - '@meliproxyy'
@@ -844,7 +858,8 @@ proxy-groups:
   - '@fastkanfig کانال تلگرام'
   - Telegram 🆔@cnetvpn 🇸🇪
   - Telegram 🆔@cnetvpn 🇫🇮
-  - 🇰🇷 韩国 | KOR
+  - 🇹🇷 土耳其 | TUR
+  - '🇹🇷 土耳其 | TUR #1'
 - name: 🍎 苹果服务
   type: select
   proxies:
@@ -865,18 +880,18 @@ proxy-groups:
   - 🇩🇪192088 | ⚡️Telegram = t.me/v...
   - '@KAFING_2'
   - 🇺🇸139909 | ⚡️Telegram = t.me/S...
-  - vpnsal
-  - 🛕97@oneclickvpnkeys
   - '@V2rayng_mar_ket'
   - 🛸62@oneclickvpnkeys
-  - 🇺🇸US_23|4.7MB/s
+  - 🛸69@oneclickvpnkeys
   - '@v2ray_phoenix'
   - '@Begoo_VPN ²⁹⁰'
+  - 🛸96@oneclickvpnkeys
   - Telegram 🆔@cnetvpn 🇷🇺
   - Telegram:@v2rayng3
   - 🇫🇮@Azaranv2ray
   - Telegram 🆔@Cnetvpn 🇺🇲
   - Telegram 🆔@cnetvpn 🇩🇪
+  - 🛸100@oneclickvpnkeys
   - '@v2ray_configs_pools 🌍 ⚡️'
   - 🩵+@Azarakhsh_Proxy+🩷
   - '@meliproxyy'
@@ -903,7 +918,8 @@ proxy-groups:
   - '@fastkanfig کانال تلگرام'
   - Telegram 🆔@cnetvpn 🇸🇪
   - Telegram 🆔@cnetvpn 🇫🇮
-  - 🇰🇷 韩国 | KOR
+  - 🇹🇷 土耳其 | TUR
+  - '🇹🇷 土耳其 | TUR #1'
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -946,18 +962,18 @@ proxy-groups:
   - 🇩🇪192088 | ⚡️Telegram = t.me/v...
   - '@KAFING_2'
   - 🇺🇸139909 | ⚡️Telegram = t.me/S...
-  - vpnsal
-  - 🛕97@oneclickvpnkeys
   - '@V2rayng_mar_ket'
   - 🛸62@oneclickvpnkeys
-  - 🇺🇸US_23|4.7MB/s
+  - 🛸69@oneclickvpnkeys
   - '@v2ray_phoenix'
   - '@Begoo_VPN ²⁹⁰'
+  - 🛸96@oneclickvpnkeys
   - Telegram 🆔@cnetvpn 🇷🇺
   - Telegram:@v2rayng3
   - 🇫🇮@Azaranv2ray
   - Telegram 🆔@Cnetvpn 🇺🇲
   - Telegram 🆔@cnetvpn 🇩🇪
+  - 🛸100@oneclickvpnkeys
   - '@v2ray_configs_pools 🌍 ⚡️'
   - 🩵+@Azarakhsh_Proxy+🩷
   - '@meliproxyy'
@@ -984,7 +1000,8 @@ proxy-groups:
   - '@fastkanfig کانال تلگرام'
   - Telegram 🆔@cnetvpn 🇸🇪
   - Telegram 🆔@cnetvpn 🇫🇮
-  - 🇰🇷 韩国 | KOR
+  - 🇹🇷 土耳其 | TUR
+  - '🇹🇷 土耳其 | TUR #1'
 rule-providers:
   LocalAreaNetwork:
     type: http
