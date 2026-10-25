@@ -1,0 +1,100 @@
+{
+  "capability_limitations": [
+    "Juicity has no faithful adapter among pinned installed cores; explicit unsupported result, raw URI retained.",
+    "Format-specific omissions are explicit; raw connections are retained.",
+    "Hosted runner loss before checkpoint upload can lose current-run observations; artifacts expire after 90 days.",
+    "Candidate and event-identity cardinality needs a long-term lifecycle policy."
+  ],
+  "checks": {
+    "actionlint": true,
+    "actionlint_optional_shellcheck_pyflakes": "disabled/not available",
+    "actionlint_version": "1.7.12",
+    "all_snapshot_output_hashes_equal_to_actual_client_validated_snapshot": true,
+    "bash_syntax": true,
+    "git_diff_check": true,
+    "migration_scores_sources_integrity_final_check": true,
+    "outside_checkout_wheel": true,
+    "ruff_format": true,
+    "ruff_lint": true,
+    "ruff_version": "0.16.10"
+  },
+  "database_schema": 4,
+  "evidence_scope_note": "Corpus, migration, wheel and original client snapshot evidence describe the baseline rehearsal. Later GitHub CI and publication recovery records verify the deployed fixes and live snapshot.",
+  "fresh_dependency_install_note": "Verified on Linux and Windows GitHub Actions; local PyPI requests had previously timed out. Distribution hashes are still not locked.",
+  "github_ci": {
+    "commit": "693cab9f625ca83c08e4ed8d76b7ef7f76f95ea2",
+    "fresh_dependency_install": true,
+    "linux": true,
+    "tests_per_platform": 49,
+    "url": "https://github.com/sakha1370/OpenRay/actions/runs/37135631561",
+    "windows": true
+  },
+  "github_publication_recovery": {
+    "attempt": 2,
+    "connections": 7454,
+    "files": 141,
+    "snapshot_id": "5c0467ce3c5383ae2468efaa81986b62ad3cf8824a3e4503fb628dd54f1bfe5e",
+    "success": true,
+    "url": "https://github.com/sakha1370/OpenRay/actions/runs/37124963455"
+  },
+  "identity_version": 2,
+  "implementation_baseline": "f26d036cc717ff954fd840da6578cbbb46dee1b9",
+  "language_decision": "Keep Python; measured pool and TCP prefilter are slower than the default subprocess validator; no profiling evidence justifies a native rewrite.",
+  "migration": {
+    "all_context_scores_match": true,
+    "deep_history_records_verified": 2979711,
+    "integrity": "ok",
+    "source_hashes_unchanged": true
+  },
+  "not_yet_accepted": {
+    "dependency_distribution_hash_lock": true,
+    "distribution_license_provenance": true,
+    "forced_parent_death_cleanup_outside_supervisor": true,
+    "linux_runner_execution": false,
+    "offsite_checkpoint_restore_on_deployment_host": true,
+    "one_week_global_and_all_required_iranian_operator_canaries": true,
+    "ssr_actual_server_interoperability": true,
+    "target_host_24_hour_endurance": true
+  },
+  "original_published_outputs_and_legacy_seed_inputs_unchanged": true,
+  "package_version": "2.0.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "production_network_action_note": "Code pushed to main; normal collector and actual publication have succeeded. Later publishing download reset recovered using saved immutable artifacts.",
+  "production_network_actions_performed": true,
+  "python": "3.13.15",
+  "recorded_at_utc": "2026-10-03T16:16:56.667112+00:00",
+  "snapshot": {
+    "actual_validation_source_manifest": "61fdf7a645ab695581c53fe411f0733b3d46e65b344d353fd87cfe552df145ff",
+    "client_check_reuse": "Only after exact equality of every output hash/size and client profile; collector/publisher changes affect manifest producer metadata only.",
+    "client_checks": 14,
+    "client_checks_valid": 14,
+    "connections": 7555,
+    "files": 140,
+    "id": "8d2aed764edccf6050aa37dc1084b4b5ea0499914cd7f5c838a9a817fa57895a",
+    "producer": {
+      "code_sha256": "f7bf28d64b73e51e62c8063ed59e79b6064c7f7cddd5a4c031671db7ae240bbd",
+      "core_lock_sha256": "5f30e36fcb14c2141bd753cfeb2c976310bf7f0a0dfa251f9bd1bef5221b721a",
+      "geo_mmdb_sha256": "579315be6ae603193537ebaec19bff1d7b35a2290bfc6f61c145a5b37b9713bb",
+      "rules_lock_sha256": "afa8f728e905750394f8d1fe73dfe07b12d2b77b49282a41bc5728ba8643b405",
+      "templates_sha256": "82a9d0d6e278306aaf0962d14fba6261d969977d7c99b98e46fe61afc33f26b3",
+      "version": "2.0.0"
+    }
+  },
+  "tests": {
+    "command": "python -m unittest discover -v",
+    "failed": 0,
+    "log_sha256": "81cd10be1fbee0f7820ee6edbcaa7e284258bfc13500ab4bf1a6da7dde2783b0",
+    "passed": 49,
+    "skipped": 0,
+    "wall_seconds": 124.105
+  },
+  "wheel": {
+    "files": 140,
+    "outside_checkout_export": true,
+    "package_version": "2.0.0",
+    "packaged_assets": true,
+    "runtime_dependencies": "shared exact installed versions; clean network dependency install unverified",
+    "wheel_package_import": true,
+    "wheel_sha256": "a22294b6f318fbc4380d6a1bc43cb0be50b868a7acbeb4657a68bfd98c2d728b"
+  }
+}

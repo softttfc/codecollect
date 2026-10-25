@@ -1,0 +1,113 @@
+{
+  "budget_exhausted": false,
+  "bundle": "C:\\D\\Development\\OpenRay\\.state\\runs\\1675ecf688f442f1890c27bc24a5cee7.bundle.json",
+  "checks": 13969,
+  "checks_per_minute": 781.1977759554678,
+  "client_validation": [
+    {
+      "diagnostic_sha256": "da61e69e54537c3e58f29c1efa8c1117800e522a8d391471273b5ad8b1c1f18a",
+      "file": "output/converted/all_valid_proxies_clash_config.yaml",
+      "valid": true
+    },
+    {
+      "diagnostic_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "file": "output/converted/all_valid_proxies_singbox_config.json",
+      "valid": true
+    },
+    {
+      "diagnostic_sha256": "5b2500365696d2a807b55405575f1721c592eb9fa7a4c1573415d0da70e24e02",
+      "file": "output_iran/converted/iran_all_valid_proxies_clash_config.yaml",
+      "valid": true
+    },
+    {
+      "diagnostic_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "file": "output_iran/converted/iran_all_valid_proxies_singbox_config.json",
+      "valid": true
+    },
+    {
+      "diagnostic_sha256": "105f008b06a72eb6846f9ff12df0e2b62e58d19944b0f493d18812236950c2f6",
+      "file": "output_iran/converted/iran_top100_clash_config.yaml",
+      "valid": true
+    },
+    {
+      "diagnostic_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "file": "output_iran/converted/iran_top100_singbox_config.json",
+      "valid": true
+    },
+    {
+      "diagnostic_sha256": "09beb33a4e2df0bf9bef4ddb60bbfdc518848e590927f83897a39dafaaa79be1",
+      "file": "output_iran/converted/irancell_top100_clash_config.yaml",
+      "valid": true
+    },
+    {
+      "diagnostic_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "file": "output_iran/converted/irancell_top100_singbox_config.json",
+      "valid": true
+    },
+    {
+      "diagnostic_sha256": "7adc9c0785a2e3bb59f8211c14b323393ecaed75eb1e33bd080954620cba521b",
+      "file": "output_iran/converted/mci_top100_clash_config.yaml",
+      "valid": true
+    },
+    {
+      "diagnostic_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "file": "output_iran/converted/mci_top100_singbox_config.json",
+      "valid": true
+    },
+    {
+      "diagnostic_sha256": "2dab96c8fcfdea548f80bd52594044957c3a2ff5368258b49b4a74ced54417a8",
+      "file": "output_iran/converted/others_top100_clash_config.yaml",
+      "valid": true
+    },
+    {
+      "diagnostic_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "file": "output_iran/converted/others_top100_singbox_config.json",
+      "valid": true
+    },
+    {
+      "diagnostic_sha256": "7fbb11566168dd2494fa6eeee7d576f9c24f241e212263098d14655545175133",
+      "file": "output_iran/converted/tci_top100_clash_config.yaml",
+      "valid": true
+    },
+    {
+      "diagnostic_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "file": "output_iran/converted/tci_top100_singbox_config.json",
+      "valid": true
+    }
+  ],
+  "context": "others",
+  "core_errors": 0,
+  "due": {
+    "accepted": 0,
+    "never_checked": 0,
+    "retests": 0,
+    "retired": 0
+  },
+  "migration": {},
+  "mode": "iran",
+  "outcomes": {
+    "proxy_failure": 883,
+    "success": 180,
+    "timeout": 12623,
+    "unsupported": 283
+  },
+  "p50_ms": 3008.019399945624,
+  "p95_ms": 6013.223599991761,
+  "p99_ms": 6020.09319991339,
+  "pending_due": 0,
+  "recovered_pending": 546,
+  "run": "1675ecf688f442f1890c27bc24a5cee7",
+  "snapshot": "C:\\D\\Development\\OpenRay\\.state\\snapshots\\8863292c6f29350fd2a0e50d88c055eb0ff4bbf75d1f837f67df09ca1665ff20",
+  "stages": [
+    {
+      "accepted": true,
+      "allotted_s": 2930.5,
+      "checks": 13969,
+      "retests": false,
+      "target": "connectivity",
+      "used_s": 1017.9
+    }
+  ],
+  "validation_wall_s": 1030.9861714999424,
+  "wall_s": 1072.890919300029
+}

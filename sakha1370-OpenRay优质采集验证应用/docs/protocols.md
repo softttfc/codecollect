@@ -1,0 +1,22 @@
+# Protocol and format contract
+
+The original URI is retained in SQLite aliases and in raw subscriptions. Identity v3 hashes the connection a client would make: structured fields, normalized host/port and the parameters the client profiles read. Presentation remarks do not affect identity. Neither do parameters the profiles ignore for that connection: advertising tags (`telegram`, `descriptions`, `_t`), `host`/`path` on a TCP connection without an HTTP header, transport options of a transport the connection does not use, and TLS or Reality options when the security mode does not use them. Defaults and spellings resolve to one form (`type=tcp`/`raw`/absent, `headerType=none`/absent, `encryption=none`/absent on VLESS, a blank/absent `fp`/`alpn`/`flow`, `sni` equal to the server, `allowInsecure=0`/absent, VMess JSON number-vs-string and redundant `net`/`tls`/`scy` fields). A parameter leaves the identity only if every client profile ignores it and its mere presence cannot change what a profile accepts, so `mode`, `extra`, `authority`, `multiMode`, `spx` and unknown names are always kept. `tests/test_identity.py` renders merged connections through Xray, sing-box and mihomo and requires identical output. Xray short custom IDs map to UUIDv5 with the nil namespace, matching the pinned core. Unknown connection parameters are retained and cause an explicit capability omission instead of being silently dropped.
+
+Opening a checkpoint written by identity v2 (SQLite schema 5) re-keys it once, inside one transaction: connections that now share an identity fold into one proxy row whose URI is the accepted member's, aliases and observations are re-pointed, scores merge by maximum, and each health row comes from the member with the newest target version and observation. The migration verifies alias/observation counts and foreign keys and otherwise rolls back. It raises the schema to 6, so older code refuses the database instead of duplicating every proxy; roll back by restoring a schema 5 checkpoint with the matching code.
+
+| Protocol | Validation adapter | Clash/mihomo | sing-box 1.14 profile |
+|---|---|---|---|
+| VLESS, VMess, Trojan | Xray; sing-box fallback | Yes, supported transports | Yes, supported transports |
+| Shadowsocks, SOCKS, HTTP/HTTPS | Xray; sing-box fallback | Yes | Yes |
+| Hysteria, Hysteria2/hy2, TUIC | sing-box | Yes | Yes |
+| SSR | mihomo | Yes | Explicit omission |
+| WireGuard/wg | sing-box endpoint | Yes | Endpoint |
+| Juicity | No verified client adapter available | Explicit omission | Explicit omission |
+
+Xray supports raw/TCP, WebSocket, gRPC, HTTPUpgrade and XHTTP in the new renderer. Formats that lack a matching transport omit that connection and identify its stable hash and reason in `output/conversion_report.json`. Reality, TLS, passwords, gRPC services, WebSocket paths/queries and supported plugin settings are preserved. ECH, fragmentation, unknown future parameters and unsupported fingerprint profiles are reported rather than approximated.
+
+`allowInsecure` is removed in the pinned Xray release. The supervisor selects sing-box for connections that request it; it does not silently enable verification or downgrade TLS. The controlled Xray server fixture allows only its ephemeral loopback target port through `finalRules`; production workers have no direct fallback route.
+
+Portable client defaults use loopback mixed listeners. TUN remains available in the source templates and is opt-in with `OPENRAY_CLIENT_TUN=1`; enabling automatic system routing needs an appropriate platform and privileges. Raw subscriptions retain the existing names/paths and all parseable legacy connections until validation applies the health policy. Malformed concatenated URIs, broken encodings and invalid authentication fields are quarantined at import, with counts in the migration report.
+
+Client exports are schema checked with the pinned actual clients before automatic pipeline installation/publication. A schema-valid export is not proof that a remote proxy is currently reachable. Controlled end-to-end tests cover VLESS/VMess/Trojan, SS/SOCKS/HTTP/HTTPS, WebSocket including path queries, gRPC, Reality, both Hysteria versions, TUIC and userspace WireGuard. Actual client schema tests also cover SSR and dual-stack WireGuard with reserved bytes. SSR still needs a representative controlled server for end-to-end acceptance; schema validity alone does not prove interoperability.

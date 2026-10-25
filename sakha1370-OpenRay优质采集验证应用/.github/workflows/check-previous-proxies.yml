@@ -1,0 +1,11 @@
+name: Check Previous Proxies
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  collector:
+    uses: ./.github/workflows/collector.yml
+    with:
+      mode: existing

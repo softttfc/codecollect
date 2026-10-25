@@ -12,21 +12,21 @@ proxies:
     headers:
       Host: tn1r.eu.cc
     path: /id-pusat
-- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #4'
-  port: 35544
-  server: funagfrdfs.alixxplay.com
-  tls: false
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #7'
+- encryption: none
+  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #6'
+  network: ws
   port: 443
-  server: 104.16.111.102
-  tls: false
+  server: 104.17.50.53
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
   type: vless
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   ws-opts:
+    headers:
+      Host: jp3.yohototo.top
     path: /tyxyws
-- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #8'
+- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #7'
   port: 443
   server: 137.220.221.179
   tls: false
@@ -50,12 +50,14 @@ proxies:
   port: 80
   server: 84.247.155.196
   type: ss
-- name: 🇯🇵[www.v2nodes.com] trojan-JP-...
+- name: '🇯🇵 日本 | JPN #1'
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   port: 8886
   server: 45.32.52.173
+  skip-cert-verify: true
   sni: 45.32.52.173
   type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   name: 🇯🇵 日本|@ripaojiedian
@@ -109,8 +111,3 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇯🇵JP_1|1.8MB/s
-  port: 7000
-  server: 58.32.16.138
-  skip-cert-verify: true
-  type: socks5
