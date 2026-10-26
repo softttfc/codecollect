@@ -5,15 +5,9 @@ proxies:
   port: 19999
   server: 185.176.204.18
   type: ss
-- name: 🇳🇱[www.v2nodes.com] trojan-NL-...
-  password: happybirthdaydaniel
-  port: 25267
-  server: de-bots4.h1cloud.net
-  sni: t.me/FuckTheWall
-  type: trojan
 - alpn:
   - http/1.1
-  name: '🇩🇪[www.v2nodes.com] trojan-DE-... #1'
+  name: 🇩🇪[www.v2nodes.com] trojan-DE-...
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
   server: de12.dedushka.top
@@ -21,18 +15,24 @@ proxies:
   type: trojan
 - alpn:
   - http/1.1
-  name: '🇩🇪[www.v2nodes.com] trojan-DE-... #2'
+  name: '🇩🇪[www.v2nodes.com] trojan-DE-... #1'
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
   server: de5.dedushka.top
   skip-cert-verify: false
   sni: de5.dedushka.top
   type: trojan
-- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #3'
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #2'
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   port: 443
   server: it1.dedushka.top
   sni: it1.dedushka.top
+  type: trojan
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #3'
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  port: 443
+  server: de6.dedushka.top
+  sni: de6.dedushka.top
   type: trojan
 - name: '🇩🇪[www.v2nodes.com] trojan-DE-... #4'
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
@@ -40,24 +40,31 @@ proxies:
   server: de4.dedushka.top
   sni: de4.dedushka.top
   type: trojan
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇩🇪 德国 | DEU
-  port: 19552
-  server: 195.26.26.7
+- name: '🇩🇪 德国 | DEU #5'
+  password: e2c626bcab2143cf
+  port: 20029
+  server: oge126.pacemakere.com
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: oge126.pacemakere.com
+  type: trojan
   udp: true
-  uuid: 483a9bd7-a1d3-4cc9-ad90-761e063943c7
-- alterId: 0
-  cipher: auto
-  name: '🇩🇪 德国 | DEU #1'
-  network: tcp
-  port: 19552
-  server: 195.26.26.7
-  tls: false
-  type: vmess
-  uuid: 483a9bd7-a1d3-4cc9-ad90-761e063943c7
+- name: 🇩🇪 德国 | DEU 8
+  network: ws
+  password: 288c33ad-4c57-45fe-8e7b-22f6209980c1
+  port: 443
+  server: de01.node.qixi.best
+  skip-cert-verify: true
+  sni: de01.node.qixi.best
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: de01.node.qixi.best
+    path: /download
+- name: '🇩🇪 德国 | DEU #8'
+  password: 288c33ad-4c57-45fe-8e7b-22f6209980c1
+  port: 443
+  server: de01.node.qixi.best
+  skip-cert-verify: true
+  sni: de01.node.qixi.best
+  type: trojan

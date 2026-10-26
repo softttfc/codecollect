@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgTVk=
+//profile-title: base64:UFNHIHwgUEw=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://telegram.me/yebekhe
@@ -50,7 +50,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇾 MY | VLESS | @red2ray #1 [medium]",
+        "🇵🇱 PL | VLESS | @red2ray #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -59,7 +59,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇾 MY | VLESS | @red2ray #1 [medium]"
+        "🇵🇱 PL | VLESS | @red2ray #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -68,28 +68,20 @@
     },
     {
       "type": "vless",
-      "tag": "🇲🇾 MY | VLESS | @red2ray #1 [medium]",
-      "server": "111.90.143.184",
-      "server_port": 61111,
-      "uuid": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
-      "network": "grpc",
+      "tag": "🇵🇱 PL | VLESS | @red2ray #1 [fast]",
+      "server": "31.59.143.242",
+      "server_port": 34451,
+      "uuid": "f259a2e5-fd8d-4db9-a3ac-6b26322cffa9",
+      "network": "xhttp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "github.com",
+        "server_name": "pl-cfe6b10b7f.shamanapp.online",
+        "insecure": true,
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "jT5prLDhvJ86zZVz5pDX907oQbeZ0Hyb_VcDSiJxQQU",
-          "short_id": "1378f725da558887"
+          "fingerprint": "firefox"
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "grpc"
       }
     },
     {
