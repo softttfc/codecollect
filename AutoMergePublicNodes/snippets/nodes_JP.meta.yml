@@ -12,11 +12,11 @@ proxies:
     headers:
       Host: tn1r.eu.cc
     path: /id-pusat
-- client-fingerprint: unsafe
-  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #4'
+- client-fingerprint: chrome
+  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #5'
   network: ws
   port: 443
-  server: 104.21.0.87
+  server: 104.18.42.98
   servername: jp3.yohototo.top
   tls: true
   type: vless
@@ -25,30 +25,19 @@ proxies:
     headers:
       Host: jp3.yohototo.top
     path: /tyxyws
-- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #5'
+- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #6'
   port: 443
   server: 137.220.221.179
   tls: false
   type: vless
   uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
-- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #7'
-  network: ws
-  port: 443
-  server: 141.11.139.215
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /fp=chrome
 - cipher: aes-256-gcm
-  name: 🇯🇵[www.v2nodes.com] ss-JP-1599...
+  name: '🇯🇵 日本 | JPN #1'
   password: BeaUf9c0AEWH40Pu
   port: 8388
   server: 154.36.158.197
   type: ss
+  udp: true
 - cipher: aes-256-gcm
   name: 🇯🇵[www.v2nodes.com] ss-JP-1598...
   password: JuD6MNgtX3nVpCzFzXYVYjDTZ7nsmaTv
@@ -58,20 +47,8 @@ proxies:
 - cipher: aes-256-gcm
   name: 🇯🇵[www.v2nodes.com] ss-JP-1544...
   password: 3eOFeNssde7PYYMv
-  port: 80
+  port: 443
   server: 84.247.155.196
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇯🇵[www.v2nodes.com] ss-JP-5141...
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.204
-  type: ss
-- cipher: aes-128-gcm
-  name: 🇯🇵[www.v2nodes.com] ss-JP-1291...
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.240
   type: ss
 - name: 🇯🇵[www.v2nodes.com] trojan-JP-...
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
@@ -132,11 +109,15 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: '🇯🇵 日本 | JPN #2'
-  password: 29086912-33e4-4e06-ba2b-60f1a195864f
-  port: 24999
-  server: tjrb.m2k699.com
+- name: 🇯🇵JP_2|3.4MB/s
+  password: None
+  port: 343
+  server: 133.18.200.207
   skip-cert-verify: true
-  sni: www.itunes.com
-  type: trojan
-  udp: true
+  tls: true
+  type: http
+- name: 🇯🇵JP_3|2.1MB/s
+  port: 3128
+  server: 116.80.65.235
+  skip-cert-verify: true
+  type: http
