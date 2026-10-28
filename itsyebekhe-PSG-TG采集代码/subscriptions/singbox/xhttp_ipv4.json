@@ -58,7 +58,7 @@
         "🇸🇨 SC | VLESS | @tanhanet #1 [fast]",
         "🇨🇦 CA | VLESS | @ai_duet #1 [fast]",
         "🇺🇸 US | VLESS | @free4allvpn #1 [fast]",
-        "🇵🇱 PL | VLESS | @red2ray #1 [fast]",
+        "🇳🇱 NL | VLESS | @red2ray #2 [fast]",
         "🇽🇽 XX | VLESS | @proxie #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #2 [fast]",
         "🇽🇽 XX | VLESS | @proxie #3 [fast]",
@@ -83,7 +83,7 @@
         "🇸🇨 SC | VLESS | @tanhanet #1 [fast]",
         "🇨🇦 CA | VLESS | @ai_duet #1 [fast]",
         "🇺🇸 US | VLESS | @free4allvpn #1 [fast]",
-        "🇵🇱 PL | VLESS | @red2ray #1 [fast]",
+        "🇳🇱 NL | VLESS | @red2ray #2 [fast]",
         "🇽🇽 XX | VLESS | @proxie #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #2 [fast]",
         "🇽🇽 XX | VLESS | @proxie #3 [fast]",
@@ -207,20 +207,18 @@
     },
     {
       "type": "vless",
-      "tag": "🇵🇱 PL | VLESS | @red2ray #1 [fast]",
-      "server": "31.59.143.242",
-      "server_port": 34451,
-      "uuid": "f259a2e5-fd8d-4db9-a3ac-6b26322cffa9",
+      "tag": "🇳🇱 NL | VLESS | @red2ray #2 [fast]",
+      "server": "206.71.158.125",
+      "server_port": 443,
+      "uuid": "3536e1fa-0850-44d1-b123-925ce12476cf",
       "network": "xhttp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "pl-cfe6b10b7f.shamanapp.online",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
+        "server_name": "dey.lnmarketplace.net",
+        "alpn": [
+          "h2"
+        ]
       }
     },
     {

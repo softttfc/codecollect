@@ -1,69 +1,45 @@
 proxies:
-- client-fingerprint: chrome
-  name: '🇬🇧[www.v2nodes.com] vless-GB-1... #4'
-  network: ws
-  port: 443
-  server: wwww.qarvian.ir
-  servername: firefox.com
-  tls: true
-  type: vless
-  uuid: 9f5f0438-0d05-44a0-b9bd-a2b91780b2a0
-  ws-opts:
-    headers:
-      Host: albaniaoijji.global.ssl.fastly.net
-    path: /
-- name: '🇬🇧[www.v2nodes.com] vless-GB-1... #7'
+- name: '🇬🇧[www.v2nodes.com] vless-GB-1... #5'
   port: 10002
   server: connect.hondamotor.site
   tls: false
   type: vless
   uuid: c6362720-0931-4b91-b187-d8ecf3149734
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '🇬🇧[www.v2nodes.com] vless-GB-1... #8'
-  network: ws
-  port: 443
-  server: vpn.kovira.site
-  servername: vpn.kovira.site
-  tls: true
+- name: '🇬🇧[www.v2nodes.com] vless-GB-1... #6'
+  port: 1222
+  server: 23.81.36.148
+  tls: false
   type: vless
-  uuid: 22e6604e-0481-411f-8028-ffbd65f624b6
-  ws-opts:
-    headers:
-      Host: vpn.kovira.site
-    path: /ws-738d2d0c5eba7609f3c37de2
+  uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: '🇬🇧[www.v2nodes.com] vless-GB-1... #11'
-  network: tcp
+  name: '🇬🇧[www.v2nodes.com] vless-GB-1... #8'
   port: 8443
   server: node-uk.connectsuite.org
   servername: node-uk.connectsuite.org
   tls: true
   type: vless
   uuid: c08f0056-7a6d-4931-813b-aaa3cdd00aed
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '🇬🇧[www.v2nodes.com] vless-GB-1... #12'
-  network: tcp
+- client-fingerprint: chrome
+  name: '🇬🇧[www.v2nodes.com] vless-GB-1... #9'
+  network: ws
   port: 443
-  server: 186.190.211.188
-  servername: 186.190.211.188
-  skip-cert-verify: true
+  server: 159.65.51.189
+  servername: ccc.010304.xyz
   tls: true
   type: vless
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧[www.v2nodes.com] ss-GB-1605...
   password: uvKNudV-N8AUCrykPiyznA
   port: 56137
-  server: 177.202.111.18
+  server: 37.153.158.167
   type: ss
 - cipher: aes-256-gcm
   name: 🇬🇧[www.v2nodes.com] ss-GB-1602...
@@ -83,56 +59,37 @@ proxies:
   port: 7001
   server: 94.156.250.148
   type: ss
-- name: 🇬🇧GB_1|1.1MB/s
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇬🇧GB_2|2.4MB/s
+- name: 🇬🇧GB_1|2.6MB/s
   password: None
   port: 443
   server: 185.164.138.156
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_3|3.4MB/s|R002-260618
-  password: None
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- name: 🇬🇧GB_4|2.8MB/s
-  password: None
-  port: 9443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_5|1.1MB/s
-  password: None
-  port: 9443
-  server: 84.233.178.33
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_6|2.0MB/s
+- name: 🇬🇧GB_2|1.5MB/s
   password: None
   port: 443
   server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http
-- auth: 70043bfa-d6fb-4980-b27e-773e9e8b2004
-  name: '🇬🇧 英国 | GBR #1'
-  password: 70043bfa-d6fb-4980-b27e-773e9e8b2004
-  port: 443
-  server: 141.0.187.15
+- name: 🇬🇧GB_3|1.7MB/s
+  port: 9443
+  server: 84.233.178.33
   skip-cert-verify: true
-  sni: crt.onecloudstream.com
-  tls: false
-  type: hysteria2
+  tls: true
+  type: http
+- name: 🇬🇧GB_4|2.5MB/s
+  password: None
+  port: 9443
+  server: 84.17.50.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_5|2.1MB/s
+  password: None
+  port: 9443
+  server: 84.17.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http

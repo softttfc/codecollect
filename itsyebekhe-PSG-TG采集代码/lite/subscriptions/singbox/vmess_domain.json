@@ -53,7 +53,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | VMESS | @outlinereleasedkey #1 [fast]",
         "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
         "🇺🇸 US | VMESS | @freev2rays #2 [fast]",
         "🇹🇷 TR | VMESS | @Proxymelimon #1 [fast]",
@@ -77,7 +76,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | VMESS | @outlinereleasedkey #1 [fast]",
         "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
         "🇺🇸 US | VMESS | @freev2rays #2 [fast]",
         "🇹🇷 TR | VMESS | @Proxymelimon #1 [fast]",
@@ -133,30 +131,6 @@
       "transport": {
         "type": "ws",
         "path": "/"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇽🇽 XX | VMESS | @outlinereleasedkey #1 [fast]",
-      "server": "mix2.998998.best",
-      "server_port": 443,
-      "uuid": "5504eaa8-1395-402f-8e0e-75ecd762e627",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "network": "ws",
-      "packet_encoding": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "server10.9966338.xyz"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/rthiugoyretdsuigg",
-        "headers": {
-          "Host": "server10.9966338.xyz"
-        }
       }
     },
     {

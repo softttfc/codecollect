@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgUEw=
+//profile-title: base64:UFNHIHwgQUU=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://telegram.me/yebekhe
@@ -50,8 +50,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇵🇱 PL | VLESS | @red2ray #1 [fast]",
-        "🇵🇱 PL | VLESS | @red2ray #2 [fast]",
+        "🇦🇪 AE | VLESS | @red2ray #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -60,8 +59,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @red2ray #1 [fast]",
-        "🇵🇱 PL | VLESS | @red2ray #2 [fast]"
+        "🇦🇪 AE | VLESS | @red2ray #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -70,38 +68,28 @@
     },
     {
       "type": "vless",
-      "tag": "🇵🇱 PL | VLESS | @red2ray #1 [fast]",
-      "server": "31.59.143.242",
-      "server_port": 34451,
-      "uuid": "f259a2e5-fd8d-4db9-a3ac-6b26322cffa9",
-      "network": "xhttp",
+      "tag": "🇦🇪 AE | VLESS | @red2ray #1 [fast]",
+      "server": "140.225.199.136",
+      "server_port": 8443,
+      "uuid": "6c713691-3ca2-002b-ad25-113d1bed6b03",
+      "network": "grpc",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "pl-cfe6b10b7f.shamanapp.online",
-        "insecure": true,
+        "server_name": "strm.yandex.net",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 PL | VLESS | @red2ray #2 [fast]",
-      "server": "pl-cfe6b10b7f.shamanapp.online",
-      "server_port": 34451,
-      "uuid": "f259a2e5-fd8d-4db9-a3ac-6b26322cffa9",
-      "network": "xhttp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl-cfe6b10b7f.shamanapp.online",
-        "insecure": true,
-        "utls": {
+        },
+        "reality": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "public_key": "86EUYgrS7mazQ-GsiMnStyHSx9AlG8B_-KgXluNdWXI",
+          "short_id": "d3ab13e9c496c399"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "google.storage.v2.Storage"
       }
     },
     {

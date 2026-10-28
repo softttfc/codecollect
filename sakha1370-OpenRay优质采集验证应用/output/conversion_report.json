@@ -86,18 +86,6 @@
     },
     {
       "format": "clash",
-      "id": "012697ff0176a2894f9b0dd090778872aefbf2764f2a17d66ea5cf86e6f9aa5b",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "012697ff0176a2894f9b0dd090778872aefbf2764f2a17d66ea5cf86e6f9aa5b",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
       "id": "01575bce369d81797ccc8a39778d37c4d42ff24d6451e1e137a972adbab987f1",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -154,6 +142,18 @@
       "format": "singbox",
       "id": "027349e547e313a0562156f13fe871884708bb6d2ad5adad28fe069df4b570f5",
       "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "027a87248141edc3ca74f20aac5e8e80c1640a062a4988867a2dea9da081607b",
+      "reason": "TCP camouflage requires the Xray profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "027a87248141edc3ca74f20aac5e8e80c1640a062a4988867a2dea9da081607b",
+      "reason": "TCP HTTP camouflage unsupported by sing-box",
       "scheme": "vless"
     },
     {
@@ -200,6 +200,18 @@
     },
     {
       "format": "clash",
+      "id": "041adab9880f3834bf4059f7d3ac99195752094613d63f97cac2ad8523cb3c2b",
+      "reason": "XHTTP unsupported by mihomo profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "041adab9880f3834bf4059f7d3ac99195752094613d63f97cac2ad8523cb3c2b",
+      "reason": "sing-box transport unsupported",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "04b6fa4de77c58bf53dea3c4e5f48e93d4abcc96272747165a45fec84b96a3da",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -315,6 +327,18 @@
     {
       "format": "singbox",
       "id": "05ce558bcbe72b33145a6e7fecde6295c683776e600d98212e70b8c0d5e8021f",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "05e56a326fde58fb0c453cbffcfba9187e03c6f8933802dc4bc56773c618d68a",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "05e56a326fde58fb0c453cbffcfba9187e03c6f8933802dc4bc56773c618d68a",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
@@ -340,18 +364,6 @@
       "format": "singbox",
       "id": "0636065d0b59eaf32923d33cfee16fe41c531a08d5dad9be2d8be250263a52f2",
       "reason": "sing-box fingerprint profile unsupported",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "064bb7904eebd003c8b07ae80f3308e6e85242fe86829510a7ecac9026bee698",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "064bb7904eebd003c8b07ae80f3308e6e85242fe86829510a7ecac9026bee698",
-      "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
     {
@@ -500,6 +512,18 @@
     },
     {
       "format": "clash",
+      "id": "08b604c04be368a31402674bfa4094a8792d332328f4d041b39bc4f1094bf5ca",
+      "reason": "XHTTP unsupported by mihomo profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "08b604c04be368a31402674bfa4094a8792d332328f4d041b39bc4f1094bf5ca",
+      "reason": "sing-box transport unsupported",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "08b79818fad0c9c001a38a96c8b55d5e89f610d9aed0c5ff88e40ea6ff89d535",
       "reason": "unknown transport security mode",
       "scheme": "vless"
@@ -703,6 +727,12 @@
       "scheme": "vless"
     },
     {
+      "format": "singbox",
+      "id": "0aa48b8a27ba2849b468de32ec7db18d5aa67a59d6fda7293b53121bad7d91ff",
+      "reason": "sing-box VLESS flow unsupported",
+      "scheme": "vless"
+    },
+    {
       "format": "clash",
       "id": "0aa84ecc6c15bc6f9df650ecedb4dd4a78219c927af5ce0b434a69f3ca9b55ac",
       "reason": "unknown transport security mode",
@@ -800,18 +830,6 @@
     },
     {
       "format": "clash",
-      "id": "0bd74bdbfd2e736f8bd6e2d2ed58cf4a8da9d09ca75a1ced7cab2aa165a51874",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "0bd74bdbfd2e736f8bd6e2d2ed58cf4a8da9d09ca75a1ced7cab2aa165a51874",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
       "id": "0c1f88109fd3e112a361c22ca67fb26358f2b2fc989f336eeb2f2d2efc548182",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -831,6 +849,18 @@
     {
       "format": "singbox",
       "id": "0c2e40a76151f0512d442c4f77ec1aab08ef1e0cd748d03afa66cfae6e592ea1",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "0c531a9cfba838e78bddc41cfab1d77d28193a2dd6849f851d60896d2c95f406",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "0c531a9cfba838e78bddc41cfab1d77d28193a2dd6849f851d60896d2c95f406",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
@@ -880,18 +910,6 @@
       "format": "singbox",
       "id": "0ccf1a6eca91ea8050d1141216d6fec3b38f1dbd702aca3988ecff88f3221b3e",
       "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "0d01aae646b0ac40255667e31c813b7c51f988785af231f7a78f66e20d3f5202",
-      "reason": "TCP camouflage requires the Xray profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "0d01aae646b0ac40255667e31c813b7c51f988785af231f7a78f66e20d3f5202",
-      "reason": "sing-box cannot represent VLESS encryption",
       "scheme": "vless"
     },
     {
@@ -989,6 +1007,18 @@
       "id": "0e8eee785802bfe25954dfe56ffd2f4e588318b97d52ebf67d6d006b0beffa3f",
       "reason": "sing-box fingerprint profile unsupported",
       "scheme": "trojan"
+    },
+    {
+      "format": "clash",
+      "id": "0ecb2a4617a08a91b39297ba524d524679e753068572b2a148ab0fadedef7012",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "0ecb2a4617a08a91b39297ba524d524679e753068572b2a148ab0fadedef7012",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
     },
     {
       "format": "clash",
@@ -1232,6 +1262,18 @@
     },
     {
       "format": "clash",
+      "id": "119ab899bde390de8ab455b84cebf4a22da03c324168551528b61772f964bd8e",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "119ab899bde390de8ab455b84cebf4a22da03c324168551528b61772f964bd8e",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "11b7fdea6a8585e89bdfd8195f080fe8edfa7b8773ae19a41eee48ffa6fae6b5",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -1311,6 +1353,18 @@
     {
       "format": "singbox",
       "id": "1221ac1c4cb921b8b465c06475e92ed002f66069a132849b0ffc82c1a476949e",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "1231aff8f7763592854b76cbbaa01f4fd148ea1ba7f3f3df17ca6e099d80bd00",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "1231aff8f7763592854b76cbbaa01f4fd148ea1ba7f3f3df17ca6e099d80bd00",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
@@ -1504,18 +1558,6 @@
       "format": "singbox",
       "id": "13eb00b190dcf3a26df40be8881e5ec16ab05c59f03c8e13b47e3f979322674f",
       "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "13eeab44cd055b03ea2c1f3625f73ac729c151e3123fe08ae536b16d2faae5dd",
-      "reason": "mihomo VLESS encryption unsupported",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "13eeab44cd055b03ea2c1f3625f73ac729c151e3123fe08ae536b16d2faae5dd",
-      "reason": "sing-box cannot represent VLESS encryption",
       "scheme": "vless"
     },
     {
@@ -1636,6 +1678,18 @@
       "format": "singbox",
       "id": "15dab4e9ac18a98c0d38afe45520ca82b51471a69a6203be2edf7ada1fe38a69",
       "reason": "unknown transport security mode",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "15e562c2a9bb7ec33d0655c5fd31992cb358b384e1606b5e329ad1eff103c3f3",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "15e562c2a9bb7ec33d0655c5fd31992cb358b384e1606b5e329ad1eff103c3f3",
+      "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
     {
@@ -1706,6 +1760,18 @@
     },
     {
       "format": "clash",
+      "id": "17c3eb00d0bae24a2e1aee9723f3ca8fe8d17059c82d5b4409a3cd2c5f3bbea7",
+      "reason": "TCP camouflage requires the Xray profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "17c3eb00d0bae24a2e1aee9723f3ca8fe8d17059c82d5b4409a3cd2c5f3bbea7",
+      "reason": "sing-box cannot represent VLESS encryption",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "17d4426d442466084da8b502ebcc06f212f7380310fcdffd63ae4f9c86e43145",
       "reason": "unknown transport security mode",
       "scheme": "vless"
@@ -1958,6 +2024,18 @@
     },
     {
       "format": "clash",
+      "id": "1a7df9edd12ef7eda2581f2b7c155b82ad804437cb035208d2d973976b604e22",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "1a7df9edd12ef7eda2581f2b7c155b82ad804437cb035208d2d973976b604e22",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "1a99c776cf7d358d24bdefc342121ef3565a5bd6eb2ef6a6ed0e76500455b4d0",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -2121,6 +2199,18 @@
     {
       "format": "singbox",
       "id": "1c44bda5cd29d036b9702d8047b463f1905517a3de286e65119858c6273504c2",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "1c55886abaab963da2acbf998a2ceba5ab4c88b7f10316f18d157c5e9fbcbfc0",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "1c55886abaab963da2acbf998a2ceba5ab4c88b7f10316f18d157c5e9fbcbfc0",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
@@ -2349,18 +2439,6 @@
     {
       "format": "singbox",
       "id": "1fca5b75c0775a54ab8c9b1a1b5058277243e08bfec050b421c8b521da4fc076",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "1fd07be0382096180d795c9a5b347683d7d851e02ea508a418ed4f2337da4701",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "1fd07be0382096180d795c9a5b347683d7d851e02ea508a418ed4f2337da4701",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
@@ -2498,6 +2576,18 @@
     },
     {
       "format": "clash",
+      "id": "2266a500c30f3a3a5d5d59af296aabeb234243ba895f51c012b734332408e84c",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "2266a500c30f3a3a5d5d59af296aabeb234243ba895f51c012b734332408e84c",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "229a0caeb4c142dcdceb2b2b1a853bea0bc3d4984b73d8069633b3aaaf4a4d41",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -2630,12 +2720,6 @@
     },
     {
       "format": "clash",
-      "id": "24731dde482c8f0306c7ab589a7c2d3c329574fe1969344a25d8547dcc0eaa49",
-      "reason": "mihomo transport unsupported",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
       "id": "24ff9917a92d75846d0022e418187cc5889abebdb55965ae32036e03aa74f2c1",
       "reason": "mihomo fingerprint profile unsupported",
       "scheme": "vless"
@@ -2756,12 +2840,6 @@
     },
     {
       "format": "clash",
-      "id": "26079055fa8a6b1810057fbfba2a99da108b94c986c53237b9d3c116308c1b55",
-      "reason": "mihomo transport unsupported",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
       "id": "2638bed510dc04f136020d30dbac5529f0e7bcd8ed406862c9d578838638069c",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -2770,18 +2848,6 @@
       "format": "singbox",
       "id": "2638bed510dc04f136020d30dbac5529f0e7bcd8ed406862c9d578838638069c",
       "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "26a702cc959a14402b7732f0a3ab96720bd8493d811e7725f642e7faf93927d9",
-      "reason": "mihomo fingerprint profile unsupported",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "26a702cc959a14402b7732f0a3ab96720bd8493d811e7725f642e7faf93927d9",
-      "reason": "sing-box fingerprint profile unsupported",
       "scheme": "vless"
     },
     {
@@ -2894,6 +2960,18 @@
     },
     {
       "format": "clash",
+      "id": "27dc7ca350e70b836c4d735edcd5adda25dc18f4bc144317076be26b83733bcc",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "27dc7ca350e70b836c4d735edcd5adda25dc18f4bc144317076be26b83733bcc",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "27e048f65366d9701f77fa44515ec6512b5859342f470aa344a624920d780f7e",
       "reason": "XHTTP unsupported by mihomo profile",
       "scheme": "vless"
@@ -2918,6 +2996,18 @@
     },
     {
       "format": "clash",
+      "id": "280e059eb8018f3e3782c3352283578551433cfbca0428bcfef816a45793fe5d",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "280e059eb8018f3e3782c3352283578551433cfbca0428bcfef816a45793fe5d",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "283988c276eae379b19d43ef9a36aa5b84ac4d44a0bb42726eaffa19ab53c71c",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -3026,14 +3116,14 @@
     },
     {
       "format": "clash",
-      "id": "29e4b9131b565c62038ced0474804dc106cf480beac46085b7b604729577cfea",
-      "reason": "XHTTP unsupported by mihomo profile",
+      "id": "29b80e819ffc503f8fc612dad3343880c87ef4b2c6d331a43b1c8552b4db73f6",
+      "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
     {
       "format": "singbox",
-      "id": "29e4b9131b565c62038ced0474804dc106cf480beac46085b7b604729577cfea",
-      "reason": "sing-box transport unsupported",
+      "id": "29b80e819ffc503f8fc612dad3343880c87ef4b2c6d331a43b1c8552b4db73f6",
+      "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
     {
@@ -3242,12 +3332,6 @@
     },
     {
       "format": "clash",
-      "id": "2c46225abf55410822768a9c9602839f79c670ef2cf9f1600aeb45935a6a86ae",
-      "reason": "HTTPUpgrade unsupported by mihomo profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
       "id": "2c6986723682a96e4698e9e13b9e2aa42e91e7b33d2df60ef6e9c5eadb0d7f56",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -3404,25 +3488,25 @@
     },
     {
       "format": "clash",
-      "id": "2ee326a7de119e948337a8d422fa1aadf4b5e6db6674644dd74b4f0246166f2f",
+      "id": "2f2ef3d78abbb24ae8afa4b36c51124a94852cb37b0e6de3a02677474aec6a2f",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
     {
       "format": "singbox",
-      "id": "2ee326a7de119e948337a8d422fa1aadf4b5e6db6674644dd74b4f0246166f2f",
+      "id": "2f2ef3d78abbb24ae8afa4b36c51124a94852cb37b0e6de3a02677474aec6a2f",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
     {
       "format": "clash",
-      "id": "2f2ef3d78abbb24ae8afa4b36c51124a94852cb37b0e6de3a02677474aec6a2f",
+      "id": "2f39d4ccb53b8edc1dc14dd5cd8cb651f883db54317161305e3e96d17d125e1d",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
     {
       "format": "singbox",
-      "id": "2f2ef3d78abbb24ae8afa4b36c51124a94852cb37b0e6de3a02677474aec6a2f",
+      "id": "2f39d4ccb53b8edc1dc14dd5cd8cb651f883db54317161305e3e96d17d125e1d",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
@@ -3520,6 +3604,18 @@
       "format": "singbox",
       "id": "30533992b9f86df7e52266530761f4e80aaab8d3d2a70fe6986f97140f485362",
       "reason": "unknown transport security mode",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "3056c3d9f1489cd2a81cbac43ee573109b115d90e3d0674af9b0160a698ffac6",
+      "reason": "XHTTP unsupported by mihomo profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "3056c3d9f1489cd2a81cbac43ee573109b115d90e3d0674af9b0160a698ffac6",
+      "reason": "sing-box transport unsupported",
       "scheme": "vless"
     },
     {
@@ -3680,6 +3776,18 @@
     },
     {
       "format": "clash",
+      "id": "32ccb322f644738a02e823acd5c64be5faa78a0a8d4140312c98fc1a5800d53f",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "32ccb322f644738a02e823acd5c64be5faa78a0a8d4140312c98fc1a5800d53f",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "32ce66c6d079b3feb1cb16ad94a74db2dbf398c930842a4f3bde43310adb2bc9",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -3800,6 +3908,18 @@
     },
     {
       "format": "clash",
+      "id": "33e92849506e31969ae5ab14a4b312b4cc2a748d3e3cc5414dc0f50d64d65301",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "33e92849506e31969ae5ab14a4b312b4cc2a748d3e3cc5414dc0f50d64d65301",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "3426ceb4e2ef4d7ef642202875e40e3a6c1f2a98876831bed84078048cbca85c",
       "reason": "mihomo fingerprint profile unsupported",
       "scheme": "vless"
@@ -3908,6 +4028,18 @@
     },
     {
       "format": "clash",
+      "id": "360b8b8f4bea98069c71e16e80aa197038a6f30a83a593f738dae076e81af876",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "360b8b8f4bea98069c71e16e80aa197038a6f30a83a593f738dae076e81af876",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "363b6913e48e264af87ff688bccc2f389a03d4f4f090512fa55429a68c71c94c",
       "reason": "unknown transport security mode",
       "scheme": "vless"
@@ -3940,6 +4072,18 @@
       "format": "singbox",
       "id": "369d6aa361f10b87b52db7ff2f42c827bebb46932ef21b3e8c8c4b13276174eb",
       "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "36a8865357511a0b8ffcfbc1c46cc4644c24708f3ae04363c08e7de6b9886bde",
+      "reason": "XHTTP unsupported by mihomo profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "36a8865357511a0b8ffcfbc1c46cc4644c24708f3ae04363c08e7de6b9886bde",
+      "reason": "sing-box transport unsupported",
       "scheme": "vless"
     },
     {
@@ -3989,6 +4133,18 @@
       "id": "36fe42f74c8595d7695d5c2470ac7b935891a5c9d96a8c2536fca2963bf44b21",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "trojan"
+    },
+    {
+      "format": "clash",
+      "id": "370155533e23fe2c768b29b748eebcfbba8404beddf1d5f6cce766a7b2719f69",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "370155533e23fe2c768b29b748eebcfbba8404beddf1d5f6cce766a7b2719f69",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
     },
     {
       "format": "clash",
@@ -4100,25 +4256,25 @@
     },
     {
       "format": "clash",
-      "id": "381daf4a24dfcac1a81d79cb726f7900f01fca00333254c436fa67b05a8b3ce1",
+      "id": "381b49ecda180cbb8fb2068d98594efcd38d32db9aa1f6ccb15898860dfca735",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
     {
       "format": "singbox",
-      "id": "381daf4a24dfcac1a81d79cb726f7900f01fca00333254c436fa67b05a8b3ce1",
+      "id": "381b49ecda180cbb8fb2068d98594efcd38d32db9aa1f6ccb15898860dfca735",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
     {
       "format": "clash",
-      "id": "381f83640484a485d1904109e8ecae8efbc33e06aa357e2aa5daa70eb9034c77",
+      "id": "381daf4a24dfcac1a81d79cb726f7900f01fca00333254c436fa67b05a8b3ce1",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
     {
       "format": "singbox",
-      "id": "381f83640484a485d1904109e8ecae8efbc33e06aa357e2aa5daa70eb9034c77",
+      "id": "381daf4a24dfcac1a81d79cb726f7900f01fca00333254c436fa67b05a8b3ce1",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
@@ -4388,18 +4544,6 @@
     },
     {
       "format": "clash",
-      "id": "3b93032ef17446b0596abeaf4341fff616f0d2767193d11a1b83fd653a8e5a7f",
-      "reason": "TCP camouflage requires the Xray profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "3b93032ef17446b0596abeaf4341fff616f0d2767193d11a1b83fd653a8e5a7f",
-      "reason": "sing-box cannot represent VLESS encryption",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
       "id": "3bb0b1778092f207401123e58b938ac4e274597f39b0e33698d437bffd66b818",
       "reason": "mihomo fingerprint profile unsupported",
       "scheme": "vless"
@@ -4408,6 +4552,18 @@
       "format": "singbox",
       "id": "3bb0b1778092f207401123e58b938ac4e274597f39b0e33698d437bffd66b818",
       "reason": "sing-box fingerprint profile unsupported",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "3bbff13fb35ad1fc1434dc8bf8a90ecbe55bb1d185db9abdb79ef9a866b2fb4b",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "3bbff13fb35ad1fc1434dc8bf8a90ecbe55bb1d185db9abdb79ef9a866b2fb4b",
+      "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
     {
@@ -4712,18 +4868,6 @@
     },
     {
       "format": "clash",
-      "id": "3f59da61ba607826ec2cac8900f0b960e24ae605aa7aead6dbe44d01f28249e3",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "3f59da61ba607826ec2cac8900f0b960e24ae605aa7aead6dbe44d01f28249e3",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
       "id": "3f5fdeb99b5d87c4cf657a0a5e5e4c7c24cefad04b07b8653f28960930d658e6",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -4839,6 +4983,18 @@
     {
       "format": "singbox",
       "id": "406c9dcc36da88c9ccc5619088d2e7bc27432928e03fc3ec27cf020e47c112ff",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "407c6caad313620051bb2ad4a3f19b429940ee8e7ffb535251fbf5fe19107baa",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "407c6caad313620051bb2ad4a3f19b429940ee8e7ffb535251fbf5fe19107baa",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
@@ -5168,18 +5324,6 @@
     },
     {
       "format": "clash",
-      "id": "44ac4e6341415dd01051449a9b411906711623e7ea488cdb94e543d6caf81872",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "44ac4e6341415dd01051449a9b411906711623e7ea488cdb94e543d6caf81872",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
       "id": "44b81a6f22dfcfc9d08625d27b60758a41e495b1408e1953c5d0292ae3d157d4",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -5199,18 +5343,6 @@
     {
       "format": "singbox",
       "id": "44ef56f87135047af25f4177d0e6918155456f190f7239280ae08dd9838cf708",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "4508bc89815fdb699969b28fb736edfa662e88c1a145a6a425b98c0708e8d25c",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "4508bc89815fdb699969b28fb736edfa662e88c1a145a6a425b98c0708e8d25c",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
@@ -5468,26 +5600,26 @@
     },
     {
       "format": "clash",
-      "id": "481cf5b02054d87d51387994bde25b2a1f8197311698db60e7cfa772d2563b55",
-      "reason": "connection has parameters not representable by this profile",
+      "id": "4819ca2cc1a5469145ead1c3c6ff2e7b3340922a89e0009447b0884ca8077390",
+      "reason": "TCP camouflage requires the Xray profile",
       "scheme": "vless"
     },
     {
       "format": "singbox",
-      "id": "481cf5b02054d87d51387994bde25b2a1f8197311698db60e7cfa772d2563b55",
-      "reason": "connection has parameters not representable by this profile",
+      "id": "4819ca2cc1a5469145ead1c3c6ff2e7b3340922a89e0009447b0884ca8077390",
+      "reason": "sing-box cannot represent VLESS encryption",
       "scheme": "vless"
     },
     {
       "format": "clash",
-      "id": "483a1f636f765ee075fa9023d91580d14f629f12844e5856dc4c1737f3b0a439",
-      "reason": "mihomo VLESS encryption unsupported",
+      "id": "481cf5b02054d87d51387994bde25b2a1f8197311698db60e7cfa772d2563b55",
+      "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
     {
       "format": "singbox",
-      "id": "483a1f636f765ee075fa9023d91580d14f629f12844e5856dc4c1737f3b0a439",
-      "reason": "sing-box cannot represent VLESS encryption",
+      "id": "481cf5b02054d87d51387994bde25b2a1f8197311698db60e7cfa772d2563b55",
+      "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
     {
@@ -5619,6 +5751,18 @@
     {
       "format": "singbox",
       "id": "4a28be9d44a2ec95b3b293cbaeeeaf9549878789cc4a262f69d963bc9111cfb5",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "4a6c5845c745505d1e88de2b836c8f7529df1ecc6c0c72e02add106bb8a62ea4",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "4a6c5845c745505d1e88de2b836c8f7529df1ecc6c0c72e02add106bb8a62ea4",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
@@ -5642,12 +5786,6 @@
     },
     {
       "format": "clash",
-      "id": "4ac70255c6f1f291a1761a85560d9e4181156c00dcac9f6408a02289f2f1bee5",
-      "reason": "mihomo transport unsupported",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
       "id": "4ad615f97602bcc869c3c7dffd75e906389c346b7a2ccdd8fbbdd0600fb5225a",
       "reason": "TCP camouflage requires the Xray profile",
       "scheme": "vless"
@@ -5660,12 +5798,6 @@
     },
     {
       "format": "clash",
-      "id": "4adc60ca274e1afc82b0b5c3e1fe1a7fd963a2d4fd3ee0c36986088969e113f5",
-      "reason": "mihomo transport unsupported",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
       "id": "4ae5625b5da71d5ef8779958e90a77f8d3eb6948f7ed638cb18f04602e4d3e9d",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -5685,18 +5817,6 @@
     {
       "format": "singbox",
       "id": "4b03584dffab4875b33534acb0b3238d77ed250e44d34d5a2035209dc0ece119",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "4b18b7ed36a7b9f735f2e38fddead0facd3e9e912059d7dfb6fc8dd793194a9f",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "4b18b7ed36a7b9f735f2e38fddead0facd3e9e912059d7dfb6fc8dd793194a9f",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
@@ -5984,18 +6104,6 @@
     },
     {
       "format": "clash",
-      "id": "5097f72c52d39406d6164cc2a3f20f2bd25e2c427a5f66758def2a0bb6e40bcf",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "5097f72c52d39406d6164cc2a3f20f2bd25e2c427a5f66758def2a0bb6e40bcf",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
       "id": "50d6c5db15f5fdb5b897556b95ceb717edde71d6d4dee5417cf1791b68026a41",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -6016,18 +6124,6 @@
       "format": "singbox",
       "id": "50e01788e18f8ff7d06622ddf108fd261bcb06f6f2c25cd38a9efae39587a70b",
       "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "50e2d1d6177ea6cb135c694b6e315daf70bad5f697aa3f6c73dcd1488913cc2c",
-      "reason": "XHTTP unsupported by mihomo profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "50e2d1d6177ea6cb135c694b6e315daf70bad5f697aa3f6c73dcd1488913cc2c",
-      "reason": "sing-box transport unsupported",
       "scheme": "vless"
     },
     {
@@ -6104,237 +6200,261 @@
     },
     {
       "format": "clash",
-      "id": "51db98222c88b5b66dbdd6eafdd1b81d2fca7a579b745ab2789f3e6f9fb4768a",
+      "id": "51dd3f78bec81811c70de9f343af93e9ec5eb01524ca6cb3375764640b6484ab",
+      "reason": "mihomo fingerprint profile unsupported",
+      "scheme": "trojan"
+    },
+    {
+      "format": "singbox",
+      "id": "51dd3f78bec81811c70de9f343af93e9ec5eb01524ca6cb3375764640b6484ab",
+      "reason": "sing-box fingerprint profile unsupported",
+      "scheme": "trojan"
+    },
+    {
+      "format": "clash",
+      "id": "51f6af0897f6b598ce879fd1b62830de5607e153b7ef78935c5052aff7743e3b",
+      "reason": "unknown transport security mode",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "51f6af0897f6b598ce879fd1b62830de5607e153b7ef78935c5052aff7743e3b",
+      "reason": "unknown transport security mode",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "51f8c65bd73862e4fe4fd9c2c90e1a8f253146e029f6aadafa7f91d173fc0f62",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "51f8c65bd73862e4fe4fd9c2c90e1a8f253146e029f6aadafa7f91d173fc0f62",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "5255aace0c50dc44d8c4e0794fdfca29e36c9930555e99ccdacb2f575b920824",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "5255aace0c50dc44d8c4e0794fdfca29e36c9930555e99ccdacb2f575b920824",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "5276fbd79875332e4176705e8d050c0ca9466ea35b7c48cfd39b367fce86d2c6",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "5276fbd79875332e4176705e8d050c0ca9466ea35b7c48cfd39b367fce86d2c6",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "5294c365f9fd6045662993008a50a60e05f49de50aa9f85fb26f983b8823f3bf",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "5294c365f9fd6045662993008a50a60e05f49de50aa9f85fb26f983b8823f3bf",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "5339a7893be83bfb631b16836b648083598c92e8029aa5c1d982db8acae27fd4",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "5339a7893be83bfb631b16836b648083598c92e8029aa5c1d982db8acae27fd4",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "5383d4cf5739b9444402a9c51dbb5778169a816a4875bb6e3a6774e60b09f765",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "trojan"
+    },
+    {
+      "format": "singbox",
+      "id": "5383d4cf5739b9444402a9c51dbb5778169a816a4875bb6e3a6774e60b09f765",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "trojan"
+    },
+    {
+      "format": "clash",
+      "id": "53b74d5388c900bb9fd965e5e4f78f222d242c40066890e139d592c2650edd70",
+      "reason": "XHTTP unsupported by mihomo profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "53b74d5388c900bb9fd965e5e4f78f222d242c40066890e139d592c2650edd70",
+      "reason": "sing-box transport unsupported",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "53d587b2042e86aa2d58c444f5a8c905fc046484567916e82f5c1ce86a85bd5b",
+      "reason": "XHTTP unsupported by mihomo profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "53d587b2042e86aa2d58c444f5a8c905fc046484567916e82f5c1ce86a85bd5b",
+      "reason": "sing-box transport unsupported",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "53df4658d26e0a6ed11300c400fc561f61b78ebab026694f3e0a1929bdbcc73d",
+      "reason": "mihomo fingerprint profile unsupported",
+      "scheme": "trojan"
+    },
+    {
+      "format": "singbox",
+      "id": "53df4658d26e0a6ed11300c400fc561f61b78ebab026694f3e0a1929bdbcc73d",
+      "reason": "sing-box fingerprint profile unsupported",
+      "scheme": "trojan"
+    },
+    {
+      "format": "clash",
+      "id": "53f30897c6ad3fc8c030b7796fac1c5816159a3a20c0c588779d22330d31e7b4",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "53f30897c6ad3fc8c030b7796fac1c5816159a3a20c0c588779d22330d31e7b4",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "5401a61766e240dcfc021ea96f29c095d0460a4385d0c25ccdb0c75c4c2ff05a",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "5401a61766e240dcfc021ea96f29c095d0460a4385d0c25ccdb0c75c4c2ff05a",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "541d13b0232fbcd2429cf72ce95693b86f6da351a6c5d8d9f1db5b65c826e6fa",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "541d13b0232fbcd2429cf72ce95693b86f6da351a6c5d8d9f1db5b65c826e6fa",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "543506e5c33a3ed48c9dfcb87ae24484e48a0f28f6b5efd4e910e0c3835e1baf",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "543506e5c33a3ed48c9dfcb87ae24484e48a0f28f6b5efd4e910e0c3835e1baf",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "5487e1ffe326b03a2c0680e3e0248ad3f333ba0f02277ccc4e39f42fed933ff9",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "5487e1ffe326b03a2c0680e3e0248ad3f333ba0f02277ccc4e39f42fed933ff9",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "54a805eb03b8774a521e3726c620b52bf322ff478038d5bb7764fb5b92477033",
+      "reason": "mihomo fingerprint profile unsupported",
+      "scheme": "trojan"
+    },
+    {
+      "format": "singbox",
+      "id": "54a805eb03b8774a521e3726c620b52bf322ff478038d5bb7764fb5b92477033",
+      "reason": "sing-box fingerprint profile unsupported",
+      "scheme": "trojan"
+    },
+    {
+      "format": "clash",
+      "id": "54b5f34e4a0d94e0b551c8a0f72f249648a74c071ea5347ccba7292396a3ae22",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "54b5f34e4a0d94e0b551c8a0f72f249648a74c071ea5347ccba7292396a3ae22",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "54c8b2099e0d3710d6fc99a8836814fb877d8296c43d5d37d1faa5c4d1ebc395",
+      "reason": "TCP camouflage requires the Xray profile",
+      "scheme": "vmess"
+    },
+    {
+      "format": "singbox",
+      "id": "54c8b2099e0d3710d6fc99a8836814fb877d8296c43d5d37d1faa5c4d1ebc395",
+      "reason": "TCP HTTP camouflage unsupported by sing-box",
+      "scheme": "vmess"
+    },
+    {
+      "format": "clash",
+      "id": "552dc166e3a2a2d71f6f94548e60c852aae3d3711a1afe984019a187ac8e3d5b",
+      "reason": "TCP camouflage requires the Xray profile",
+      "scheme": "vmess"
+    },
+    {
+      "format": "singbox",
+      "id": "552dc166e3a2a2d71f6f94548e60c852aae3d3711a1afe984019a187ac8e3d5b",
+      "reason": "TCP HTTP camouflage unsupported by sing-box",
+      "scheme": "vmess"
+    },
+    {
+      "format": "clash",
+      "id": "554982f7dd9dfd29267b9547259410826fce18da1ac579ef97909b7b36fd4bdd",
+      "reason": "mihomo fingerprint profile unsupported",
+      "scheme": "trojan"
+    },
+    {
+      "format": "singbox",
+      "id": "554982f7dd9dfd29267b9547259410826fce18da1ac579ef97909b7b36fd4bdd",
+      "reason": "sing-box fingerprint profile unsupported",
+      "scheme": "trojan"
+    },
+    {
+      "format": "clash",
+      "id": "557ebcd86ff96ca0da981b2b2330a0202221614af4e4a08f5b6a32689bee2938",
       "reason": "mihomo transport unsupported",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "51dd3f78bec81811c70de9f343af93e9ec5eb01524ca6cb3375764640b6484ab",
-      "reason": "mihomo fingerprint profile unsupported",
-      "scheme": "trojan"
-    },
-    {
-      "format": "singbox",
-      "id": "51dd3f78bec81811c70de9f343af93e9ec5eb01524ca6cb3375764640b6484ab",
-      "reason": "sing-box fingerprint profile unsupported",
-      "scheme": "trojan"
-    },
-    {
-      "format": "clash",
-      "id": "51f6af0897f6b598ce879fd1b62830de5607e153b7ef78935c5052aff7743e3b",
-      "reason": "unknown transport security mode",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "51f6af0897f6b598ce879fd1b62830de5607e153b7ef78935c5052aff7743e3b",
-      "reason": "unknown transport security mode",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "51f8c65bd73862e4fe4fd9c2c90e1a8f253146e029f6aadafa7f91d173fc0f62",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "51f8c65bd73862e4fe4fd9c2c90e1a8f253146e029f6aadafa7f91d173fc0f62",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "5276fbd79875332e4176705e8d050c0ca9466ea35b7c48cfd39b367fce86d2c6",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "5276fbd79875332e4176705e8d050c0ca9466ea35b7c48cfd39b367fce86d2c6",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "5294c365f9fd6045662993008a50a60e05f49de50aa9f85fb26f983b8823f3bf",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "5294c365f9fd6045662993008a50a60e05f49de50aa9f85fb26f983b8823f3bf",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "5339a7893be83bfb631b16836b648083598c92e8029aa5c1d982db8acae27fd4",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "5339a7893be83bfb631b16836b648083598c92e8029aa5c1d982db8acae27fd4",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "5383d4cf5739b9444402a9c51dbb5778169a816a4875bb6e3a6774e60b09f765",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "trojan"
-    },
-    {
-      "format": "singbox",
-      "id": "5383d4cf5739b9444402a9c51dbb5778169a816a4875bb6e3a6774e60b09f765",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "trojan"
-    },
-    {
-      "format": "clash",
-      "id": "53b74d5388c900bb9fd965e5e4f78f222d242c40066890e139d592c2650edd70",
-      "reason": "XHTTP unsupported by mihomo profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "53b74d5388c900bb9fd965e5e4f78f222d242c40066890e139d592c2650edd70",
-      "reason": "sing-box transport unsupported",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "53d587b2042e86aa2d58c444f5a8c905fc046484567916e82f5c1ce86a85bd5b",
-      "reason": "XHTTP unsupported by mihomo profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "53d587b2042e86aa2d58c444f5a8c905fc046484567916e82f5c1ce86a85bd5b",
-      "reason": "sing-box transport unsupported",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "53df4658d26e0a6ed11300c400fc561f61b78ebab026694f3e0a1929bdbcc73d",
-      "reason": "mihomo fingerprint profile unsupported",
-      "scheme": "trojan"
-    },
-    {
-      "format": "singbox",
-      "id": "53df4658d26e0a6ed11300c400fc561f61b78ebab026694f3e0a1929bdbcc73d",
-      "reason": "sing-box fingerprint profile unsupported",
-      "scheme": "trojan"
-    },
-    {
-      "format": "clash",
-      "id": "53f30897c6ad3fc8c030b7796fac1c5816159a3a20c0c588779d22330d31e7b4",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "53f30897c6ad3fc8c030b7796fac1c5816159a3a20c0c588779d22330d31e7b4",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "5401a61766e240dcfc021ea96f29c095d0460a4385d0c25ccdb0c75c4c2ff05a",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "5401a61766e240dcfc021ea96f29c095d0460a4385d0c25ccdb0c75c4c2ff05a",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "543506e5c33a3ed48c9dfcb87ae24484e48a0f28f6b5efd4e910e0c3835e1baf",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "543506e5c33a3ed48c9dfcb87ae24484e48a0f28f6b5efd4e910e0c3835e1baf",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "5487e1ffe326b03a2c0680e3e0248ad3f333ba0f02277ccc4e39f42fed933ff9",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "5487e1ffe326b03a2c0680e3e0248ad3f333ba0f02277ccc4e39f42fed933ff9",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "54a805eb03b8774a521e3726c620b52bf322ff478038d5bb7764fb5b92477033",
-      "reason": "mihomo fingerprint profile unsupported",
-      "scheme": "trojan"
-    },
-    {
-      "format": "singbox",
-      "id": "54a805eb03b8774a521e3726c620b52bf322ff478038d5bb7764fb5b92477033",
-      "reason": "sing-box fingerprint profile unsupported",
-      "scheme": "trojan"
-    },
-    {
-      "format": "clash",
-      "id": "54b5f34e4a0d94e0b551c8a0f72f249648a74c071ea5347ccba7292396a3ae22",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "54b5f34e4a0d94e0b551c8a0f72f249648a74c071ea5347ccba7292396a3ae22",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "54c8b2099e0d3710d6fc99a8836814fb877d8296c43d5d37d1faa5c4d1ebc395",
-      "reason": "TCP camouflage requires the Xray profile",
       "scheme": "vmess"
-    },
-    {
-      "format": "singbox",
-      "id": "54c8b2099e0d3710d6fc99a8836814fb877d8296c43d5d37d1faa5c4d1ebc395",
-      "reason": "TCP HTTP camouflage unsupported by sing-box",
-      "scheme": "vmess"
-    },
-    {
-      "format": "clash",
-      "id": "552dc166e3a2a2d71f6f94548e60c852aae3d3711a1afe984019a187ac8e3d5b",
-      "reason": "TCP camouflage requires the Xray profile",
-      "scheme": "vmess"
-    },
-    {
-      "format": "singbox",
-      "id": "552dc166e3a2a2d71f6f94548e60c852aae3d3711a1afe984019a187ac8e3d5b",
-      "reason": "TCP HTTP camouflage unsupported by sing-box",
-      "scheme": "vmess"
-    },
-    {
-      "format": "clash",
-      "id": "554982f7dd9dfd29267b9547259410826fce18da1ac579ef97909b7b36fd4bdd",
-      "reason": "mihomo fingerprint profile unsupported",
-      "scheme": "trojan"
-    },
-    {
-      "format": "singbox",
-      "id": "554982f7dd9dfd29267b9547259410826fce18da1ac579ef97909b7b36fd4bdd",
-      "reason": "sing-box fingerprint profile unsupported",
-      "scheme": "trojan"
     },
     {
       "format": "clash",
@@ -7088,6 +7208,18 @@
     },
     {
       "format": "clash",
+      "id": "6041c799b240191fcbc5bbc35a28306892e8824fce1cbf0a7b2338efe635b118",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "6041c799b240191fcbc5bbc35a28306892e8824fce1cbf0a7b2338efe635b118",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "607b72afb181198a3c87eb13e22f6323519274beae1d6a6b46cf8c1b283d8ef7",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -7184,6 +7316,18 @@
     },
     {
       "format": "clash",
+      "id": "61d3e17d5440acf20c8f5c756d7fba18a2653d1681ce68fbea71b59603e228a0",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "61d3e17d5440acf20c8f5c756d7fba18a2653d1681ce68fbea71b59603e228a0",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "61ef11304621b7d13988f98e6420edd3bda64e9adda23658059fa798d4012434",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -7220,6 +7364,18 @@
     },
     {
       "format": "clash",
+      "id": "6280b3045396b8c4235a04905a5be806fee2f265dbb0dbc113f47bd5464e9de6",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "6280b3045396b8c4235a04905a5be806fee2f265dbb0dbc113f47bd5464e9de6",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "6293edbdcb6c0401ac99672a33bee3549de729ed8d943ada42bfb6c141012ff8",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -7227,6 +7383,18 @@
     {
       "format": "singbox",
       "id": "6293edbdcb6c0401ac99672a33bee3549de729ed8d943ada42bfb6c141012ff8",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "6299e21401456808bc406bab14549153c4f84a61678b191964038457fbe759a9",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "6299e21401456808bc406bab14549153c4f84a61678b191964038457fbe759a9",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
@@ -7352,18 +7520,6 @@
     },
     {
       "format": "clash",
-      "id": "64bbf992b2d1dc6951d5317c74db93c355f58ca9f188f68aed0b0c2a719a8aa3",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "64bbf992b2d1dc6951d5317c74db93c355f58ca9f188f68aed0b0c2a719a8aa3",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
       "id": "64bf330e1394ed5f3436eb4cb5aaa8525c43f2194512ece61daad8bfa19561c3",
       "reason": "XHTTP unsupported by mihomo profile",
       "scheme": "vless"
@@ -7395,18 +7551,6 @@
     {
       "format": "singbox",
       "id": "64f03b8e8dd43c22a7cd33056326fe48fc9bee418af107577207f1aef2f7b9ac",
-      "reason": "sing-box fingerprint profile unsupported",
-      "scheme": "trojan"
-    },
-    {
-      "format": "clash",
-      "id": "65099666467eb083c3e5270aee8627d1e46ffeb0b7dea6375232a0e512895ef7",
-      "reason": "mihomo fingerprint profile unsupported",
-      "scheme": "trojan"
-    },
-    {
-      "format": "singbox",
-      "id": "65099666467eb083c3e5270aee8627d1e46ffeb0b7dea6375232a0e512895ef7",
       "reason": "sing-box fingerprint profile unsupported",
       "scheme": "trojan"
     },
@@ -7553,18 +7697,6 @@
       "id": "66d2e251a4dfaa1954e2838dbe3a20da396877b7559938d7523b4a91cfc9b42d",
       "reason": "TCP HTTP camouflage unsupported by sing-box",
       "scheme": "vmess"
-    },
-    {
-      "format": "clash",
-      "id": "66e354a0a6052ed43c6764fa1f73098f47b5a52a7c5f09b2fd0ba2ab236159fd",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "66e354a0a6052ed43c6764fa1f73098f47b5a52a7c5f09b2fd0ba2ab236159fd",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
     },
     {
       "format": "clash",
@@ -7610,18 +7742,6 @@
     },
     {
       "format": "clash",
-      "id": "67ad0e462fa9a7d0bc1bddc780dc7fce4459100154b816dc96a79f97c615de55",
-      "reason": "mihomo VLESS encryption unsupported",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "67ad0e462fa9a7d0bc1bddc780dc7fce4459100154b816dc96a79f97c615de55",
-      "reason": "sing-box cannot represent VLESS encryption",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
       "id": "67e530d620c10b3324a57ad949e5e10295ce5f6af37c147619f45b5ba77aaa44",
       "reason": "unknown transport security mode",
       "scheme": "vless"
@@ -7702,6 +7822,18 @@
       "format": "singbox",
       "id": "68fce869beadd3e2f9ed24fa71d672791cd34b8998c7c951f7d96ac869af6c6a",
       "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "690231a6358106778b51cb643d251f5d59c9a7cb92190d58bb62fcb918d6fb9e",
+      "reason": "XHTTP unsupported by mihomo profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "690231a6358106778b51cb643d251f5d59c9a7cb92190d58bb62fcb918d6fb9e",
+      "reason": "sing-box transport unsupported",
       "scheme": "vless"
     },
     {
@@ -7833,18 +7965,6 @@
     {
       "format": "singbox",
       "id": "6a8540b746647db43f7ef0e6e6a39393fddf2c163e6d614249d40225e0288a93",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "6abc74723d760a3d98bd1997382e71b9a35dba89ce8b4f8a8c1649f20b9c4144",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "6abc74723d760a3d98bd1997382e71b9a35dba89ce8b4f8a8c1649f20b9c4144",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
@@ -7982,13 +8102,25 @@
     },
     {
       "format": "clash",
-      "id": "6c9dbb54e6d7bcb33cbc3c73feb512b9405a3e8054fb755dde56167bc416d12a",
+      "id": "6c899051469841fa0375de0d792181fe8259536224a1b09c126ff8fe63f87c75",
+      "reason": "XHTTP unsupported by mihomo profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "6c899051469841fa0375de0d792181fe8259536224a1b09c126ff8fe63f87c75",
+      "reason": "sing-box transport unsupported",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "6c8fd218340a4770c02a9f942eb42f53df509c35f0385e6b523b1918d3814141",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
     {
       "format": "singbox",
-      "id": "6c9dbb54e6d7bcb33cbc3c73feb512b9405a3e8054fb755dde56167bc416d12a",
+      "id": "6c8fd218340a4770c02a9f942eb42f53df509c35f0385e6b523b1918d3814141",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
@@ -8114,18 +8246,6 @@
     },
     {
       "format": "clash",
-      "id": "6dda6103b9e040f4fcc936d6cc4bdbfbefd1976aefa3e1e65fb2eee0dfe0c023",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "6dda6103b9e040f4fcc936d6cc4bdbfbefd1976aefa3e1e65fb2eee0dfe0c023",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
       "id": "6de427158b034d79ce27280a203a76e62d4d48192e00da0902b8a0d96a125364",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -8169,18 +8289,6 @@
     {
       "format": "singbox",
       "id": "6e5efcb08ac78d397123a51022a8616b3f11084948d113b3055d489c3cf484ae",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "6ea5c154e07237d1ea3206cda4bdd7eabd9742879e9d843fad81fed286f5f1bf",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "6ea5c154e07237d1ea3206cda4bdd7eabd9742879e9d843fad81fed286f5f1bf",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
@@ -8498,12 +8606,6 @@
     },
     {
       "format": "clash",
-      "id": "73a9822bb197b617a4f57bd808778ca56480cac81f8998ebc0b1743161b9836a",
-      "reason": "mihomo transport unsupported",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
       "id": "73cf86d3c204cad7e2373ebbb3db72301d4a02c8ba35c8e330d46fb527f45904",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -8636,18 +8738,6 @@
     },
     {
       "format": "clash",
-      "id": "74e662520774a66385d0b7e5e720cb9a0d58f4f9abe38d238a31c166ef88b472",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "74e662520774a66385d0b7e5e720cb9a0d58f4f9abe38d238a31c166ef88b472",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
       "id": "750f3dd1c53a38f93469a7c6ee05f7d777b35e131f2320a6de5e39c096d5bd23",
       "reason": "mihomo fingerprint profile unsupported",
       "scheme": "vless"
@@ -8696,6 +8786,18 @@
     },
     {
       "format": "clash",
+      "id": "75b4ee4b47fc4ed5dc5bdbd1a96cc8c71d1e3f14949f92f44f909677b0bab9db",
+      "reason": "XHTTP unsupported by mihomo profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "75b4ee4b47fc4ed5dc5bdbd1a96cc8c71d1e3f14949f92f44f909677b0bab9db",
+      "reason": "sing-box transport unsupported",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "76078e9add8d6711ce65cb92debdbf49070d4ad3e5a906ee17e9ab360b7a30d6",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -8703,6 +8805,18 @@
     {
       "format": "singbox",
       "id": "76078e9add8d6711ce65cb92debdbf49070d4ad3e5a906ee17e9ab360b7a30d6",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "765ee66bccdfad0e120fad8132b673708ca62d5f0efc049578827ad7374fe5be",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "765ee66bccdfad0e120fad8132b673708ca62d5f0efc049578827ad7374fe5be",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
@@ -9044,6 +9158,18 @@
     },
     {
       "format": "clash",
+      "id": "7a217e2d4c8d583c00a640effa7a954b8468293d6de81e01d4790713ac4119f3",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "7a217e2d4c8d583c00a640effa7a954b8468293d6de81e01d4790713ac4119f3",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "7a3ed0a57b09305739b1db3d358112cefbbc66579d30e55e5896cd1c1be726ef",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -9148,18 +9274,6 @@
       "format": "singbox",
       "id": "7c87eceee443c7704f854431df3206ea58998b3bab918fa987c004359f98640c",
       "reason": "unknown transport security mode",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "7cb4037a24c4d844a87007229fb7721c41b9141eaf7cf2a027aa78e052636746",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "7cb4037a24c4d844a87007229fb7721c41b9141eaf7cf2a027aa78e052636746",
-      "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
     {
@@ -9326,18 +9440,6 @@
     },
     {
       "format": "clash",
-      "id": "7ef8fbed855ff395e2858df0b96f64883be350dbefd16f9ea7c30f8d6ced25f5",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "7ef8fbed855ff395e2858df0b96f64883be350dbefd16f9ea7c30f8d6ced25f5",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
       "id": "7f158d5f6eee026577f37a552bb2b92c04d7f959a9a8d0217bd2251425565e10",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -9394,18 +9496,6 @@
       "format": "singbox",
       "id": "7f91bc35cc0cf1fc66817cb230b48d09aa38b4570d07828bacd75f42a80ea623",
       "reason": "unknown transport security mode",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "7fb12053aec7047ea4c4b1e82caa654764337daa39eb1edfe4d466f653c5dfd4",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "7fb12053aec7047ea4c4b1e82caa654764337daa39eb1edfe4d466f653c5dfd4",
-      "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
     {
@@ -9434,6 +9524,30 @@
     },
     {
       "format": "clash",
+      "id": "7feffbba61650edf7111d95bc2a5e4757d0a7bafbdc51868d222aed1f3f00943",
+      "reason": "mihomo fingerprint profile unsupported",
+      "scheme": "trojan"
+    },
+    {
+      "format": "singbox",
+      "id": "7feffbba61650edf7111d95bc2a5e4757d0a7bafbdc51868d222aed1f3f00943",
+      "reason": "sing-box fingerprint profile unsupported",
+      "scheme": "trojan"
+    },
+    {
+      "format": "clash",
+      "id": "8018beeb5aec3428ccf3f74735615aa4938fda5972fae1b6a265c01d5b60e04b",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "8018beeb5aec3428ccf3f74735615aa4938fda5972fae1b6a265c01d5b60e04b",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "80465603fdba43e0bd83446694056a27e4f74bbb0f2d65cd7fd67a3ddb253771",
       "reason": "mihomo fingerprint profile unsupported",
       "scheme": "trojan"
@@ -9466,6 +9580,18 @@
       "format": "singbox",
       "id": "8069686bf430e00b60dc830fefb111d02a6e87ae4f89a1257965e999189d0c63",
       "reason": "sing-box fingerprint profile unsupported",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "808ecdedbe61d7b29c4dace092ae1cc34808d3040a180aa0fec4cd8839ee70b9",
+      "reason": "XHTTP unsupported by mihomo profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "808ecdedbe61d7b29c4dace092ae1cc34808d3040a180aa0fec4cd8839ee70b9",
+      "reason": "sing-box transport unsupported",
       "scheme": "vless"
     },
     {
@@ -9587,18 +9713,6 @@
       "id": "81e950c72f4c06905a36a96e63829b8469288622d19804a36309cfda8a0a9ec3",
       "reason": "sing-box fingerprint profile unsupported",
       "scheme": "trojan"
-    },
-    {
-      "format": "clash",
-      "id": "81ffab5acdbc566623353253ec59860c7ab705018104c938cce2803943f2fb3e",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "81ffab5acdbc566623353253ec59860c7ab705018104c938cce2803943f2fb3e",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
     },
     {
       "format": "clash",
@@ -9779,6 +9893,18 @@
       "id": "841c2508abb09c0efaa00861b317dac572d9cfb4dd423521891aaa523bd4ff8d",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "841e0e3ec3c0658fa12c188116e4a61e27ee65f9190e5362d5da2440fff336a4",
+      "reason": "TCP camouflage requires the Xray profile",
+      "scheme": "vmess"
+    },
+    {
+      "format": "singbox",
+      "id": "841e0e3ec3c0658fa12c188116e4a61e27ee65f9190e5362d5da2440fff336a4",
+      "reason": "TCP HTTP camouflage unsupported by sing-box",
+      "scheme": "vmess"
     },
     {
       "format": "clash",
@@ -9818,18 +9944,6 @@
     },
     {
       "format": "clash",
-      "id": "844d3896acd8e3baac4ffe95f787fdcb0af5236b77608c7a107efa37c66328a1",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "844d3896acd8e3baac4ffe95f787fdcb0af5236b77608c7a107efa37c66328a1",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
       "id": "845560f0e82e99b01a7df9743ad2271285a40d8f773a918105b43651095a09fd",
       "reason": "unknown transport security mode",
       "scheme": "vless"
@@ -9861,18 +9975,6 @@
     {
       "format": "singbox",
       "id": "847bb7322cb3a18641762bfcc91e2605a71002d39e18722454ac3cd18e3ec34a",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "8499a53cd3cd2e3b0b0f95cc09aaffc4a57d9f9d33c4980ecc108fb2120a34cf",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "8499a53cd3cd2e3b0b0f95cc09aaffc4a57d9f9d33c4980ecc108fb2120a34cf",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
@@ -9974,8 +10076,14 @@
     },
     {
       "format": "clash",
-      "id": "865e3d57864a4cd73f82cff50e82daccb3a4c76823009be7d39fa5cd22489218",
-      "reason": "mihomo transport unsupported",
+      "id": "86ad7b38e73719ba5f00da0c6e497237ed7bf1040424f4a276b9d998a013f329",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "86ad7b38e73719ba5f00da0c6e497237ed7bf1040424f4a276b9d998a013f329",
+      "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
     {
@@ -10040,18 +10148,6 @@
     },
     {
       "format": "clash",
-      "id": "87892d03a4df765695f40c4b3d2b95bb6d0e9b76fa907275ca372310ac1c6ec1",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "87892d03a4df765695f40c4b3d2b95bb6d0e9b76fa907275ca372310ac1c6ec1",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
       "id": "878c4d83a198969a43ea4496538df6014ae16ae134a44b9b5356f306da8aa66e",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vmess"
@@ -10096,18 +10192,6 @@
       "format": "singbox",
       "id": "87cb38549d8bd2ee025ad89b21932f8c2afaace0546da79dc1f3986febcaa247",
       "reason": "TCP HTTP camouflage unsupported by sing-box",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "881709ef54ea8655cf997e08d3c12e28db55064ae35a220c47f692f201b6ce9f",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "881709ef54ea8655cf997e08d3c12e28db55064ae35a220c47f692f201b6ce9f",
-      "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
     {
@@ -10214,18 +10298,6 @@
     },
     {
       "format": "clash",
-      "id": "892f0a4b2fc767bc707f31c9707df9b85a62d25f94ce313bd646bbfe5328f292",
-      "reason": "XHTTP unsupported by mihomo profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "892f0a4b2fc767bc707f31c9707df9b85a62d25f94ce313bd646bbfe5328f292",
-      "reason": "sing-box transport unsupported",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
       "id": "893da957dab8237bcf31b4bb45dadca0ba910061c91d8f0a15585ba63bbd7a9e",
       "reason": "unknown transport security mode",
       "scheme": "vless"
@@ -10318,18 +10390,6 @@
       "format": "singbox",
       "id": "8a1f115cf263dab41502e1555261cbd1b4be2cf2d97c0d09d3f70ad6204483bf",
       "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "8a3aae422656c37ee2895c58acf6d41cab600c08c7ca898da4e3e1d68e004744",
-      "reason": "TCP camouflage requires the Xray profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "8a3aae422656c37ee2895c58acf6d41cab600c08c7ca898da4e3e1d68e004744",
-      "reason": "sing-box cannot represent VLESS encryption",
       "scheme": "vless"
     },
     {
@@ -10402,6 +10462,18 @@
       "format": "singbox",
       "id": "8ad30f6243e4b0961703da03e9598d27e0bbb0afefb5e7b3b3d8ce7dca6d123c",
       "reason": "sing-box transport unsupported",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "8ae6acd3b102723e91a7cb38c79fa08e8899d2214e235101766d0a3ffb369ec0",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "8ae6acd3b102723e91a7cb38c79fa08e8899d2214e235101766d0a3ffb369ec0",
+      "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
     {
@@ -10655,6 +10727,12 @@
       "id": "8f12ef472984be1c6964b31a845cf33eb54cfa6da200e45368d375d014f71897",
       "reason": "sing-box fingerprint profile unsupported",
       "scheme": "trojan"
+    },
+    {
+      "format": "clash",
+      "id": "8f2ab3c91db295bdb973c524cd970f246ea3224f45f064c1fdeacc3277e13407",
+      "reason": "HTTPUpgrade unsupported by mihomo profile",
+      "scheme": "vless"
     },
     {
       "format": "clash",
@@ -10803,18 +10881,6 @@
     {
       "format": "singbox",
       "id": "91817871ca7b5b1136511a66eb0e1e66b9739cb6d1a4a78b696f89e991217be6",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "91c16d89f60652a05a6bdc5d34a5d8f52794c3bbba555efffc0accbcfa2a04db",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "91c16d89f60652a05a6bdc5d34a5d8f52794c3bbba555efffc0accbcfa2a04db",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
@@ -11018,6 +11084,18 @@
     },
     {
       "format": "clash",
+      "id": "94b1eb9b5a7126ce94b636b605287eae4f271fed8a5d003c6a2f63f6b1e3fd99",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "94b1eb9b5a7126ce94b636b605287eae4f271fed8a5d003c6a2f63f6b1e3fd99",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "94b4fe264cee48a2b0ff6924f6f0600dd76efedf5f6c70194c7339e2555d9529",
       "reason": "mihomo fingerprint profile unsupported",
       "scheme": "vless"
@@ -11051,18 +11129,6 @@
       "id": "9505028cdb689dd6504b1b09e572592e3d87fb0bc0ed7b92b9fc85f2fe361da6",
       "reason": "connection includes options belonging to a different protocol",
       "scheme": "trojan"
-    },
-    {
-      "format": "clash",
-      "id": "952cc0feb887274d55b0073af5527bd4816ca93d3231b5ecce34b877ff1cdfa6",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "952cc0feb887274d55b0073af5527bd4816ca93d3231b5ecce34b877ff1cdfa6",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
     },
     {
       "format": "clash",
@@ -11126,6 +11192,18 @@
     },
     {
       "format": "clash",
+      "id": "95a673b68afc57c0f8e31fb273f47413842969179138eaf775eb39bcd6ca4fbc",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "95a673b68afc57c0f8e31fb273f47413842969179138eaf775eb39bcd6ca4fbc",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "95f928136f16348aefca0f49ce7cc778085e3b46724952a86fba90bb137d0ba3",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -11157,18 +11235,6 @@
     {
       "format": "singbox",
       "id": "9677b6eda0bf73c6dc6dc4a1f8940e17a4b4cab6d6d4b58153191c3fa8e9187e",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "9689638efccb8781fb22c697a6b0046dfa242cdfd3651c1d92ae998236ecfcad",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "9689638efccb8781fb22c697a6b0046dfa242cdfd3651c1d92ae998236ecfcad",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
@@ -11229,18 +11295,6 @@
     {
       "format": "singbox",
       "id": "9734469dfe72f87d16df8e80b68087e00157bbb269cb5d7053afc1dad490fdcd",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "977a9ef865a5729a9fbad539c6d10020835f1a217fafb20260bc0a04d465d219",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "977a9ef865a5729a9fbad539c6d10020835f1a217fafb20260bc0a04d465d219",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
@@ -11552,6 +11606,18 @@
     },
     {
       "format": "clash",
+      "id": "9e67173e5496ef15f72528de78f6ca844b3ec7391568bc2c4012d298ab823fa1",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "9e67173e5496ef15f72528de78f6ca844b3ec7391568bc2c4012d298ab823fa1",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "9ec36ea12d951a58095c557e84050d4e3100c1eddb6a2e9c4fb51d35eeea9343",
       "reason": "mihomo fingerprint profile unsupported",
       "scheme": "vless"
@@ -11738,18 +11804,6 @@
     },
     {
       "format": "clash",
-      "id": "a129e97753c741081eacecbd1d3d6a38c5d78e58a15529060d34459a82c38bc9",
-      "reason": "mihomo fingerprint profile unsupported",
-      "scheme": "trojan"
-    },
-    {
-      "format": "singbox",
-      "id": "a129e97753c741081eacecbd1d3d6a38c5d78e58a15529060d34459a82c38bc9",
-      "reason": "sing-box fingerprint profile unsupported",
-      "scheme": "trojan"
-    },
-    {
-      "format": "clash",
       "id": "a1eef457d78144c2d964cc0eee9969f7617678236f0be0bf21aa939260ef5149",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -11806,6 +11860,18 @@
       "format": "singbox",
       "id": "a2bc98d1cbddf101c0b62124c7a881bcd5c914a916d99e3155fca5c0e26efeca",
       "reason": "sing-box fingerprint profile unsupported",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "a2c68e9524cff391dcce13732690a8297f04d13de72ae4c1dfa9afefc2397595",
+      "reason": "XHTTP unsupported by mihomo profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "a2c68e9524cff391dcce13732690a8297f04d13de72ae4c1dfa9afefc2397595",
+      "reason": "sing-box transport unsupported",
       "scheme": "vless"
     },
     {
@@ -12230,6 +12296,18 @@
     },
     {
       "format": "clash",
+      "id": "a8b12fe3a4df6754c9150d7b61254e4f8443a6f22872d1513541777a276aeffc",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "a8b12fe3a4df6754c9150d7b61254e4f8443a6f22872d1513541777a276aeffc",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "a9339cbd0f8f5b98ea43ec794578bfbd616b717609c378b960ee0167ee66f445",
       "reason": "unknown transport security mode",
       "scheme": "vless"
@@ -12386,6 +12464,18 @@
     },
     {
       "format": "clash",
+      "id": "aaae5415b93e8d4b3d16af1e6a4041a7518eeaa9970c5969995b4081ed812eed",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "aaae5415b93e8d4b3d16af1e6a4041a7518eeaa9970c5969995b4081ed812eed",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "aaee522e0256241683017ee9e66ba1b2efb258ed873a40a4c545bb389da90e29",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -12442,6 +12532,18 @@
       "format": "singbox",
       "id": "abf4e610f9a6568831f9df1f5a252f2393ab75b4bb960e7144df8d30389c5ffd",
       "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "abf53b1688b557596c55b1ac93a6155b4fc5f13b0cec14813c18ffcab1c39c60",
+      "reason": "TCP camouflage requires the Xray profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "abf53b1688b557596c55b1ac93a6155b4fc5f13b0cec14813c18ffcab1c39c60",
+      "reason": "sing-box cannot represent VLESS encryption",
       "scheme": "vless"
     },
     {
@@ -12650,13 +12752,13 @@
     },
     {
       "format": "clash",
-      "id": "afb00bd8265bc6fcbf27cd4737924e70468547284547a9b64fa1e529e7c99b48",
+      "id": "af69b9db91dfc19871dc4dacb92b00760a0ca4f8833e501f8e9b6b04942a4db9",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
     {
       "format": "singbox",
-      "id": "afb00bd8265bc6fcbf27cd4737924e70468547284547a9b64fa1e529e7c99b48",
+      "id": "af69b9db91dfc19871dc4dacb92b00760a0ca4f8833e501f8e9b6b04942a4db9",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
@@ -12758,6 +12860,18 @@
     },
     {
       "format": "clash",
+      "id": "b2d3c742bb29cd08152b8f912e818f95a4c1ca4e773523e89eaf2556ed04179d",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "b2d3c742bb29cd08152b8f912e818f95a4c1ca4e773523e89eaf2556ed04179d",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "b2d4f52fc21fcac9ce0544ffb093903cb4bf094c1b13ef9cdd24bb1689421288",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -12777,18 +12891,6 @@
     {
       "format": "singbox",
       "id": "b3b45ebeac1ac63ed666d8a6ec50ed393328f12784d5a577ed70abb9d6cf4b6c",
-      "reason": "sing-box fingerprint profile unsupported",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "b404458f12b157973fee9206bd8891d1ebcb0fb15aa1e372281b9ab68b95eb39",
-      "reason": "mihomo fingerprint profile unsupported",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "b404458f12b157973fee9206bd8891d1ebcb0fb15aa1e372281b9ab68b95eb39",
       "reason": "sing-box fingerprint profile unsupported",
       "scheme": "vless"
     },
@@ -12814,6 +12916,18 @@
       "format": "singbox",
       "id": "b4b4d7965024a8b3486762786a082f62ba584c1ee5e32b94c4b422e752cf9fa5",
       "reason": "sing-box fingerprint profile unsupported",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "b513e61d567912ffc9617567f7fff25853f061d3e7df23aa37d3115271694de5",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "b513e61d567912ffc9617567f7fff25853f061d3e7df23aa37d3115271694de5",
+      "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
     {
@@ -12872,18 +12986,6 @@
     },
     {
       "format": "clash",
-      "id": "b6f191c5b4a4a7caa0553becfa8bf4170bc8d585d702dad0e72c17f5f69c169f",
-      "reason": "TCP camouflage requires the Xray profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "b6f191c5b4a4a7caa0553becfa8bf4170bc8d585d702dad0e72c17f5f69c169f",
-      "reason": "sing-box cannot represent VLESS encryption",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
       "id": "b6f6711f97b3493b95d528aec2f35ebec3003cdf18aac006a0cae64a9483767d",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -12915,18 +13017,6 @@
     {
       "format": "singbox",
       "id": "b702bb46ba0024653573aa2f09db05145b98a20294d0567d8b42be3d66a120c9",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "b70b4c9245a53f9e37ca989fa6ada966c9049b4a715e793c9e9c26d5a7743c68",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "b70b4c9245a53f9e37ca989fa6ada966c9049b4a715e793c9e9c26d5a7743c68",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
@@ -12998,6 +13088,30 @@
     },
     {
       "format": "clash",
+      "id": "b7e078b03fb763e599474fbe3395ae097eaf3031147db51593308a730e61ac61",
+      "reason": "XHTTP unsupported by mihomo profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "b7e078b03fb763e599474fbe3395ae097eaf3031147db51593308a730e61ac61",
+      "reason": "sing-box transport unsupported",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "b809515e50ffb28d66785dbeb9bd1672889cab04587eecf22ccd02e857cfceef",
+      "reason": "mihomo VLESS encryption unsupported",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "b809515e50ffb28d66785dbeb9bd1672889cab04587eecf22ccd02e857cfceef",
+      "reason": "sing-box cannot represent VLESS encryption",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "b8129bd5d2d385d48a83cbdf770375ce8cb0efab07ca53a963cb26a389f56df3",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -13058,6 +13172,18 @@
     },
     {
       "format": "clash",
+      "id": "b88b2499dcaa2108e26d710b65f5e9308c5f3b54a0141d28a2c4a5eb85f78d9d",
+      "reason": "XHTTP unsupported by mihomo profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "b88b2499dcaa2108e26d710b65f5e9308c5f3b54a0141d28a2c4a5eb85f78d9d",
+      "reason": "sing-box transport unsupported",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "b8998b43207a49cf9ae3f0020686475323d4de7d830252e651b72f9f7ec6afb9",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -13150,18 +13276,6 @@
       "format": "singbox",
       "id": "b97ba23598e46cd91f103690f72f677f0e758fe3d8e0b41be23d61cd14ecf753",
       "reason": "sing-box fingerprint profile unsupported",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "b991d210ab2f0bf449687ccdd9d1a8cddc1c0b1c8957a5117dfca84a72e532b5",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "b991d210ab2f0bf449687ccdd9d1a8cddc1c0b1c8957a5117dfca84a72e532b5",
-      "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
     {
@@ -13334,6 +13448,18 @@
     },
     {
       "format": "clash",
+      "id": "bb53640f2ee3a859dcfdfe518db7849c856d83206b4253774ed7f384c4e5c19b",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "bb53640f2ee3a859dcfdfe518db7849c856d83206b4253774ed7f384c4e5c19b",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "bb97d0abfdd4dec09fdc9a317c4b883a79dac2193637f9825b23b5784285c22b",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -13353,18 +13479,6 @@
     {
       "format": "singbox",
       "id": "bbb482fce2d07168ee2ce2498699eb54c4bc59323547d17a8e0aa4771bcc4dd5",
-      "reason": "sing-box fingerprint profile unsupported",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "bbb87d92ea76687c17c5ca59be06837a97d04a6a6cd945222b856e800610597b",
-      "reason": "mihomo fingerprint profile unsupported",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "bbb87d92ea76687c17c5ca59be06837a97d04a6a6cd945222b856e800610597b",
       "reason": "sing-box fingerprint profile unsupported",
       "scheme": "vless"
     },
@@ -13588,12 +13702,6 @@
       "format": "singbox",
       "id": "be7dabfe1ecf3b58e38d4385b59912ef4575e2f7abbe2e0d3ec5f06d90900aa8",
       "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "bec128bb7554b2b012eed969601df6ba44c113370a17f05fae2f5a45961f365b",
-      "reason": "mihomo transport unsupported",
       "scheme": "vless"
     },
     {
@@ -13868,6 +13976,18 @@
     },
     {
       "format": "clash",
+      "id": "c2343ee20b199c91a76e6ed53fb4aa1bc7d914763575ae5a54753fe84ed596fa",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "c2343ee20b199c91a76e6ed53fb4aa1bc7d914763575ae5a54753fe84ed596fa",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "c27390680d6aa6cf0a112dd2ca0904fde996c70891e562dd2f2606efc09b7fa7",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "trojan"
@@ -14084,14 +14204,14 @@
     },
     {
       "format": "clash",
-      "id": "c52446f98aa1224f32ae8ae54a9c80485c4e326a4fb773335414057138508f12",
-      "reason": "TCP camouflage requires the Xray profile",
+      "id": "c51f3c3c9bc37dc167942bf315b57db7fd54d9037846cb0df2d45a35ae18d91b",
+      "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
     {
       "format": "singbox",
-      "id": "c52446f98aa1224f32ae8ae54a9c80485c4e326a4fb773335414057138508f12",
-      "reason": "TCP HTTP camouflage unsupported by sing-box",
+      "id": "c51f3c3c9bc37dc167942bf315b57db7fd54d9037846cb0df2d45a35ae18d91b",
+      "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
     {
@@ -14140,6 +14260,18 @@
       "format": "singbox",
       "id": "c5c56d1b0d001839014f77936693b9b4f01b6d305a0659befc595d4ccb8ae291",
       "reason": "sing-box fingerprint profile unsupported",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "c5c91998b635aca33b70685b7cd8f301968028d6dd6223c631d4d0aaba6a15cb",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "c5c91998b635aca33b70685b7cd8f301968028d6dd6223c631d4d0aaba6a15cb",
+      "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
     {
@@ -14228,99 +14360,99 @@
     },
     {
       "format": "clash",
-      "id": "c65874e457f78b8ff35ed64fa225d17597e1ef8e2a10d52c03b0ffc6a0349e4b",
-      "reason": "XHTTP unsupported by mihomo profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "c65874e457f78b8ff35ed64fa225d17597e1ef8e2a10d52c03b0ffc6a0349e4b",
-      "reason": "sing-box transport unsupported",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "c66d69848e2456a1e88d25af3fa8dd0c73de269dc59315d889f489d7cba8c475",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "c66d69848e2456a1e88d25af3fa8dd0c73de269dc59315d889f489d7cba8c475",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "c68b8a196fd1fa65da331beb4b29b3dc4d4534dbc60a712b68d6978f3cabc77b",
-      "reason": "XHTTP unsupported by mihomo profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "c68b8a196fd1fa65da331beb4b29b3dc4d4534dbc60a712b68d6978f3cabc77b",
-      "reason": "sing-box transport unsupported",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "c69d8ea5c1baeb2e489ff5f3344fab68924d4aaa6b62375c62bb31a966380951",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "c69d8ea5c1baeb2e489ff5f3344fab68924d4aaa6b62375c62bb31a966380951",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "c6dc568f517a8bd61b676e0f0bd25611a459faac69fcc754541de672a89ca83a",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "c6dc568f517a8bd61b676e0f0bd25611a459faac69fcc754541de672a89ca83a",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "c71cc8c5d3bdeec1b2e3b391830739c1dd5600a921454071ff11aebf886411e9",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "c71cc8c5d3bdeec1b2e3b391830739c1dd5600a921454071ff11aebf886411e9",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "c7a00f469bced70d0b636ff19c563a008d017950a9f4665f5af5ad1e642cfc8b",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "trojan"
-    },
-    {
-      "format": "singbox",
-      "id": "c7a00f469bced70d0b636ff19c563a008d017950a9f4665f5af5ad1e642cfc8b",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "trojan"
-    },
-    {
-      "format": "clash",
-      "id": "c80ac2e6f649bca9a30e5be0394597a81778409fae87c4ee3ba9dd4a76e2181c",
+      "id": "c636d21d9a06cbe447b5ac476ed3383c27e4b0c14d84a8bbdc40e017fd6f3d36",
       "reason": "mihomo fingerprint profile unsupported",
       "scheme": "trojan"
     },
     {
       "format": "singbox",
-      "id": "c80ac2e6f649bca9a30e5be0394597a81778409fae87c4ee3ba9dd4a76e2181c",
+      "id": "c636d21d9a06cbe447b5ac476ed3383c27e4b0c14d84a8bbdc40e017fd6f3d36",
       "reason": "sing-box fingerprint profile unsupported",
       "scheme": "trojan"
+    },
+    {
+      "format": "clash",
+      "id": "c66d69848e2456a1e88d25af3fa8dd0c73de269dc59315d889f489d7cba8c475",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "c66d69848e2456a1e88d25af3fa8dd0c73de269dc59315d889f489d7cba8c475",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "c68b8a196fd1fa65da331beb4b29b3dc4d4534dbc60a712b68d6978f3cabc77b",
+      "reason": "XHTTP unsupported by mihomo profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "c68b8a196fd1fa65da331beb4b29b3dc4d4534dbc60a712b68d6978f3cabc77b",
+      "reason": "sing-box transport unsupported",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "c69d8ea5c1baeb2e489ff5f3344fab68924d4aaa6b62375c62bb31a966380951",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "c69d8ea5c1baeb2e489ff5f3344fab68924d4aaa6b62375c62bb31a966380951",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "c6dc568f517a8bd61b676e0f0bd25611a459faac69fcc754541de672a89ca83a",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "c6dc568f517a8bd61b676e0f0bd25611a459faac69fcc754541de672a89ca83a",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "c71cc8c5d3bdeec1b2e3b391830739c1dd5600a921454071ff11aebf886411e9",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "c71cc8c5d3bdeec1b2e3b391830739c1dd5600a921454071ff11aebf886411e9",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "c7a00f469bced70d0b636ff19c563a008d017950a9f4665f5af5ad1e642cfc8b",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "trojan"
+    },
+    {
+      "format": "singbox",
+      "id": "c7a00f469bced70d0b636ff19c563a008d017950a9f4665f5af5ad1e642cfc8b",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "trojan"
+    },
+    {
+      "format": "clash",
+      "id": "c81120e5c7955e57130e8255566b8dab4482ced5cad0817563d51350a4a461b0",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "c81120e5c7955e57130e8255566b8dab4482ced5cad0817563d51350a4a461b0",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
     },
     {
       "format": "clash",
@@ -14396,18 +14528,6 @@
     },
     {
       "format": "clash",
-      "id": "c90e0425ab85089743bdb97ee45c065e029ae44ec8ca54b92684f041da66ccce",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "c90e0425ab85089743bdb97ee45c065e029ae44ec8ca54b92684f041da66ccce",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
       "id": "c910a4dac84fcaab6e2f2724bdea2f70db556415457fddd51cf3556386c3bf26",
       "reason": "TCP camouflage requires the Xray profile",
       "scheme": "vless"
@@ -14416,18 +14536,6 @@
       "format": "singbox",
       "id": "c910a4dac84fcaab6e2f2724bdea2f70db556415457fddd51cf3556386c3bf26",
       "reason": "TCP HTTP camouflage unsupported by sing-box",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "c92eb12f985f0ea20e66ac8be15f5f6d83105f2ae1747bb951bb0a3b5957ef65",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "c92eb12f985f0ea20e66ac8be15f5f6d83105f2ae1747bb951bb0a3b5957ef65",
-      "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
     {
@@ -14465,18 +14573,6 @@
       "id": "c99094856100e1b8e61fed98c8de10b5eccbdf1667048fde1900dfca30f09ce0",
       "reason": "sing-box fingerprint profile unsupported",
       "scheme": "trojan"
-    },
-    {
-      "format": "clash",
-      "id": "c9a5e0f99e370a03a3b8e13cc793ed532068a403ca8ef404c9ec1217b4bb5445",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "c9a5e0f99e370a03a3b8e13cc793ed532068a403ca8ef404c9ec1217b4bb5445",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
     },
     {
       "format": "clash",
@@ -14540,6 +14636,30 @@
     },
     {
       "format": "clash",
+      "id": "ca902d2c58b06bcdd72ae09bc865e8a9b214ecebbb3a1d73d02e94078c331c7e",
+      "reason": "mihomo VLESS encryption unsupported",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "ca902d2c58b06bcdd72ae09bc865e8a9b214ecebbb3a1d73d02e94078c331c7e",
+      "reason": "sing-box cannot represent VLESS encryption",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "cabfb0fa58a38944142c6245c0a00417ecdf0dfc13822516f554c2932cf7b49d",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "cabfb0fa58a38944142c6245c0a00417ecdf0dfc13822516f554c2932cf7b49d",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "cadba45781fd90c8a2ec80790d2047b4b12c395015fb2447597bef4911eb81e0",
       "reason": "mihomo fingerprint profile unsupported",
       "scheme": "vless"
@@ -14584,18 +14704,6 @@
       "format": "singbox",
       "id": "cb948b5b50f51fbcb063670594870e06f5975de3e47e6c80635c4a4168ab4dbb",
       "reason": "sing-box transport unsupported",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "cbce3f2104843179a4e21e47369224a51a15c72e180ca297837bb91b2b3b6e7d",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "cbce3f2104843179a4e21e47369224a51a15c72e180ca297837bb91b2b3b6e7d",
-      "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
     {
@@ -14667,6 +14775,18 @@
     {
       "format": "singbox",
       "id": "cccd062855e2d6ba0635b80454f9ecb99bc6f7950357602c918f1bf2e2d253ed",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "ccda66bcbedc712bf0b8514685bbbe94b806c964299e922111c757e75c0fe0dd",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "ccda66bcbedc712bf0b8514685bbbe94b806c964299e922111c757e75c0fe0dd",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
@@ -14810,6 +14930,18 @@
     },
     {
       "format": "clash",
+      "id": "cec4111560158287a2b98d2de658ab915542347c23efa1a1478da97b239d6d7a",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "cec4111560158287a2b98d2de658ab915542347c23efa1a1478da97b239d6d7a",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "cecabb1bd59f2a4a80787d2438ec5119623ee399f76a4e175ad14b1ce3a36d61",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -14954,6 +15086,18 @@
     },
     {
       "format": "clash",
+      "id": "d0bcfd0e5d7c65964e4da948641e3fc6cc8db8df4722fbed167d73022c5124a2",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "d0bcfd0e5d7c65964e4da948641e3fc6cc8db8df4722fbed167d73022c5124a2",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "d0c32dc1ed0674cabc469c6523110c4945f62daae77a2f83625303a3e69243fb",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -14986,18 +15130,6 @@
       "format": "singbox",
       "id": "d0d67dac1785198ab782b2d60f7f333b153f4e5abfd0432332b821f71c89f249",
       "reason": "sing-box fingerprint profile unsupported",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "d0f12720c7f02db76770dd9865670940948120ab4b9c0a9de5e344c09f6b8bdf",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "d0f12720c7f02db76770dd9865670940948120ab4b9c0a9de5e344c09f6b8bdf",
-      "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
     {
@@ -15034,18 +15166,6 @@
       "format": "singbox",
       "id": "d180c8b9b38ff2d9800a0724fdc107582cd5de1f77cc92d4c328ba772f7b1a8e",
       "reason": "sing-box cannot represent VLESS encryption",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "d1e2bd859680c511dbd9b0fc53d1064587a6b8462866df4556f291c160d76008",
-      "reason": "XHTTP unsupported by mihomo profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "d1e2bd859680c511dbd9b0fc53d1064587a6b8462866df4556f291c160d76008",
-      "reason": "sing-box transport unsupported",
       "scheme": "vless"
     },
     {
@@ -15112,18 +15232,6 @@
       "format": "singbox",
       "id": "d24969763f25aa476940c54471311da68c74595e65985ff8b8f9bafabf70f774",
       "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "d29effafbce54694d2337cbe97ab348fbb77b2416f37fa6f078b5b19d268ef12",
-      "reason": "mihomo fingerprint profile unsupported",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "d29effafbce54694d2337cbe97ab348fbb77b2416f37fa6f078b5b19d268ef12",
-      "reason": "sing-box fingerprint profile unsupported",
       "scheme": "vless"
     },
     {
@@ -15237,18 +15345,6 @@
     {
       "format": "singbox",
       "id": "d3fb9e5d9f884a0d8de45bca57c70601f5aa8dcb6f8584bcb4051a457a925495",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "d40793155caaf34b1ba0d7909f385e05bcb677aa79cf7892723ad6803990a19d",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "d40793155caaf34b1ba0d7909f385e05bcb677aa79cf7892723ad6803990a19d",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
@@ -15704,18 +15800,6 @@
     },
     {
       "format": "clash",
-      "id": "d8cd59a36480696a088bba28b42488cfbf8e8335dfdb1c2802d8698c7b1b3484",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "d8cd59a36480696a088bba28b42488cfbf8e8335dfdb1c2802d8698c7b1b3484",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
       "id": "d91a4e9198156082e822c1c6907eb203161e6ac8c602d0c08fb99403b2071cac",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -15752,6 +15836,18 @@
     },
     {
       "format": "clash",
+      "id": "d96374a994bc9aa5782026940f740d5c931eedb765472ba3e5630eba2ab7dfc3",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "d96374a994bc9aa5782026940f740d5c931eedb765472ba3e5630eba2ab7dfc3",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "d990d3067611f6d0d896e9d877eb2c316dd5f543f5d971f19dd7da66eac43909",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -15784,18 +15880,6 @@
       "format": "singbox",
       "id": "d9e2b6d84ea00fbf32ad7b56decacc08258e604f74f654e254447b0ff26c71eb",
       "reason": "unknown transport security mode",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "d9fa4c20c9212ac1dee95e6f7f8a20bb314c79fb48567c71c1a1685ce16379be",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "d9fa4c20c9212ac1dee95e6f7f8a20bb314c79fb48567c71c1a1685ce16379be",
-      "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
     {
@@ -15896,6 +15980,18 @@
     },
     {
       "format": "clash",
+      "id": "daf322121b27cf2f32543e331862e86cee224aeede04ffc9f5027931bcc4e493",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "daf322121b27cf2f32543e331862e86cee224aeede04ffc9f5027931bcc4e493",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "daf7d4ea0b461981ada3a6ceee3aaa6581d274d27686a2ea604a7d4bb1dea2d6",
       "reason": "unknown transport security mode",
       "scheme": "vless"
@@ -15939,6 +16035,18 @@
     {
       "format": "singbox",
       "id": "db6a4b0a119c9773ee49f986049e5580fc7d3c51e2aa8dfa81fb0555f21c2e9f",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "db8d851c32e044df65bcf4903f55183ac6de76112a77ad04c49ab99cd123ac9f",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "db8d851c32e044df65bcf4903f55183ac6de76112a77ad04c49ab99cd123ac9f",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
@@ -16208,39 +16316,39 @@
     },
     {
       "format": "clash",
-      "id": "df831360f9a667735608fb8d76d3cb505282be8bbaf711713d24eab538e5a725",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "df831360f9a667735608fb8d76d3cb505282be8bbaf711713d24eab538e5a725",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "dfdd8ee0821449a5d7bdc06ec2380212e8e0d83d0d88694306a480a053259d72",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "dfdd8ee0821449a5d7bdc06ec2380212e8e0d83d0d88694306a480a053259d72",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "dfe889254e6daafacf5f195c2fe50d379f06e4f12f207c9dc5b6daeef973b07a",
+      "id": "df63dbacf6fcbebf34ccf06e3ab78ffbb102de6c68b49005e072350a1fdfddf4",
       "reason": "mihomo fingerprint profile unsupported",
-      "scheme": "trojan"
+      "scheme": "vless"
     },
     {
       "format": "singbox",
-      "id": "dfe889254e6daafacf5f195c2fe50d379f06e4f12f207c9dc5b6daeef973b07a",
+      "id": "df63dbacf6fcbebf34ccf06e3ab78ffbb102de6c68b49005e072350a1fdfddf4",
       "reason": "sing-box fingerprint profile unsupported",
-      "scheme": "trojan"
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "df831360f9a667735608fb8d76d3cb505282be8bbaf711713d24eab538e5a725",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "df831360f9a667735608fb8d76d3cb505282be8bbaf711713d24eab538e5a725",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "dfdd8ee0821449a5d7bdc06ec2380212e8e0d83d0d88694306a480a053259d72",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "dfdd8ee0821449a5d7bdc06ec2380212e8e0d83d0d88694306a480a053259d72",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
     },
     {
       "format": "clash",
@@ -16352,6 +16460,18 @@
     },
     {
       "format": "clash",
+      "id": "e100aacddf0a5fe04ec2eba968f61ffa0e6558482885d2767a04162ae0b49154",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "e100aacddf0a5fe04ec2eba968f61ffa0e6558482885d2767a04162ae0b49154",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "e10a68ce98bab1c52dd713095d41000ee378096e5c5548e1d44e931fd968eabd",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -16424,18 +16544,6 @@
     },
     {
       "format": "clash",
-      "id": "e1ac5939a422e1e5ab40b9f2343df6109ca540a56aee70ed054f9f4c883614c3",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "e1ac5939a422e1e5ab40b9f2343df6109ca540a56aee70ed054f9f4c883614c3",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
       "id": "e1afe70f10e3a592e2bcf61f26251472ea62c96d8e5c8cff177540ff622f2ed8",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -16456,6 +16564,18 @@
       "format": "singbox",
       "id": "e1ccba329926cea7220741ab7abd2852694719c2a7eea01ff3333f854e6dab1c",
       "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "e232e252f5b0d67b954edbe497e4f69dba15db0b70303ec66467eb7851f6ed42",
+      "reason": "mihomo fingerprint profile unsupported",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "e232e252f5b0d67b954edbe497e4f69dba15db0b70303ec66467eb7851f6ed42",
+      "reason": "sing-box fingerprint profile unsupported",
       "scheme": "vless"
     },
     {
@@ -16575,18 +16695,6 @@
     {
       "format": "singbox",
       "id": "e3b7ecc704fcccbf72d39a7ee8f6b7e37bb33edb7d09973e49ef584b54c3fd01",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "e3ba319c16440b74bffb318110d68d7b23e5766ba4c15f24347bbb0e33a0170c",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "e3ba319c16440b74bffb318110d68d7b23e5766ba4c15f24347bbb0e33a0170c",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
@@ -16751,18 +16859,6 @@
       "id": "e63fb22436c2a16feff6da75f38aea85be8021391de75a6eb0c5e331fb66b3f8",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "e6b6861d3b18b415129d822216c302c60f67ed11e95802eaaea30980ff8f0089",
-      "reason": "mihomo fingerprint profile unsupported",
-      "scheme": "trojan"
-    },
-    {
-      "format": "singbox",
-      "id": "e6b6861d3b18b415129d822216c302c60f67ed11e95802eaaea30980ff8f0089",
-      "reason": "sing-box fingerprint profile unsupported",
-      "scheme": "trojan"
     },
     {
       "format": "clash",
@@ -17084,6 +17180,18 @@
     },
     {
       "format": "clash",
+      "id": "eb4d0be7aa7793f1a90d477a1a50399640698c45ba8d257ab9aabf64f6e1e7c9",
+      "reason": "XHTTP unsupported by mihomo profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "eb4d0be7aa7793f1a90d477a1a50399640698c45ba8d257ab9aabf64f6e1e7c9",
+      "reason": "sing-box transport unsupported",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "eb77689f7515de04a3f9ea0afacb0fbe28cdc741ee150d8a885475f0063b850f",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -17115,6 +17223,18 @@
     {
       "format": "singbox",
       "id": "ebc4299d6e41cde2624980c8f6b0bb0ec77dfcf99013b757faec1534eaf32f67",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "ec2e3ae5a9a6b974391818a12011517a0397f477767b01955dd509efb79de51a",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "ec2e3ae5a9a6b974391818a12011517a0397f477767b01955dd509efb79de51a",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
@@ -17128,6 +17248,12 @@
       "format": "singbox",
       "id": "ec3c0f3a3f6d833787a17a29907f1c918352715e1480b68e6faced087f3263cb",
       "reason": "TCP HTTP camouflage unsupported by sing-box",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "ec46181cdf1b25dfcbc2e9b6455dbcb191448a4b1d091534d281e5e32be64b8d",
+      "reason": "mihomo transport unsupported",
       "scheme": "vless"
     },
     {
@@ -17426,14 +17552,8 @@
     },
     {
       "format": "clash",
-      "id": "efe0207a707d053b62760131493359a2a1af7436e0decd6adfc6dd69fbd61508",
-      "reason": "TCP camouflage requires the Xray profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "efe0207a707d053b62760131493359a2a1af7436e0decd6adfc6dd69fbd61508",
-      "reason": "sing-box cannot represent VLESS encryption",
+      "id": "efe2c21d5ff65067d8ef94c8651d3152c4bb90cdee1d686ce57a4fdea488c79b",
+      "reason": "mihomo transport unsupported",
       "scheme": "vless"
     },
     {
@@ -17564,18 +17684,6 @@
     },
     {
       "format": "clash",
-      "id": "f0f49a2d36e75027a26d2aced788a3d8ebc9796beb7d152bdc6b6c38f49a697f",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "f0f49a2d36e75027a26d2aced788a3d8ebc9796beb7d152bdc6b6c38f49a697f",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
       "id": "f124f47d100d5ed0218a4d5a3f495db132ac494b65da5c346455ef2dcbde3a5c",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -17728,18 +17836,6 @@
       "format": "singbox",
       "id": "f3358160858d3d6880bd232ca861ca61e05a9b0f551795ba36bfaeacbaef8f45",
       "reason": "sing-box transport unsupported",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "f36da7331920a7dc6867b6c915eee898f3914590754a57fb7a831541c79ec276",
-      "reason": "TCP camouflage requires the Xray profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "f36da7331920a7dc6867b6c915eee898f3914590754a57fb7a831541c79ec276",
-      "reason": "sing-box cannot represent VLESS encryption",
       "scheme": "vless"
     },
     {
@@ -18020,27 +18116,27 @@
     },
     {
       "format": "clash",
-      "id": "f682ff8dd1df67828db4b43ba7079f796207afe1ae3e91aec97c21f0bd0132ab",
+      "id": "f679a66b7d3419e2df9b0f666de50b7ce7782e7527f9db78291916d5a5f1dd66",
       "reason": "connection has parameters not representable by this profile",
-      "scheme": "vmess"
+      "scheme": "vless"
     },
     {
       "format": "singbox",
-      "id": "f682ff8dd1df67828db4b43ba7079f796207afe1ae3e91aec97c21f0bd0132ab",
+      "id": "f679a66b7d3419e2df9b0f666de50b7ce7782e7527f9db78291916d5a5f1dd66",
       "reason": "connection has parameters not representable by this profile",
-      "scheme": "vmess"
+      "scheme": "vless"
     },
     {
       "format": "clash",
-      "id": "f68324eb63f1cb91089b9564f564da700f4f6bd03e0cebf709342ed05600ad94",
+      "id": "f682ff8dd1df67828db4b43ba7079f796207afe1ae3e91aec97c21f0bd0132ab",
       "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
+      "scheme": "vmess"
     },
     {
       "format": "singbox",
-      "id": "f68324eb63f1cb91089b9564f564da700f4f6bd03e0cebf709342ed05600ad94",
+      "id": "f682ff8dd1df67828db4b43ba7079f796207afe1ae3e91aec97c21f0bd0132ab",
       "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
+      "scheme": "vmess"
     },
     {
       "format": "clash",
@@ -18123,18 +18219,6 @@
     {
       "format": "singbox",
       "id": "f6ff6698016643780be928cb7f76f479543c045f8327d67e3f291f014d6b3e17",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "clash",
-      "id": "f700760b0889ac7b6c3907b6aa2f44b7d11f9d7e8fe21bc04c3956399fbb5a6a",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "f700760b0889ac7b6c3907b6aa2f44b7d11f9d7e8fe21bc04c3956399fbb5a6a",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
@@ -18536,14 +18620,8 @@
     },
     {
       "format": "clash",
-      "id": "fb7fac4c598e571518d62559a841c96d3b10fd3b971a5489f4732e747fe19b16",
-      "reason": "connection has parameters not representable by this profile",
-      "scheme": "vless"
-    },
-    {
-      "format": "singbox",
-      "id": "fb7fac4c598e571518d62559a841c96d3b10fd3b971a5489f4732e747fe19b16",
-      "reason": "connection has parameters not representable by this profile",
+      "id": "fb6c6ba8d0ee71c6dfc79ad22823f178ce44942b4d84faa46f9e36f001a820f3",
+      "reason": "HTTPUpgrade unsupported by mihomo profile",
       "scheme": "vless"
     },
     {
@@ -18617,6 +18695,18 @@
       "id": "fbe7fa3976a09d381fce63d8c8c71c50cfc3a99771d8dd7483c370cd52577048",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vmess"
+    },
+    {
+      "format": "clash",
+      "id": "fbeb9a6673a5c9bb1ebb2ab74c328ebb6c9f4c90a30b30a96517c6fc47010c1c",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "fbeb9a6673a5c9bb1ebb2ab74c328ebb6c9f4c90a30b30a96517c6fc47010c1c",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
     },
     {
       "format": "clash",
@@ -18686,14 +18776,14 @@
     },
     {
       "format": "clash",
-      "id": "fcd8a958ae01b10ad1033dac033123849ae6b6921d51d441dc9532077697bd04",
-      "reason": "connection has parameters not representable by this profile",
+      "id": "fcd92658557a029333de0b78f12396e17448efbc3e05a7d230bc23f1fc516063",
+      "reason": "XHTTP unsupported by mihomo profile",
       "scheme": "vless"
     },
     {
       "format": "singbox",
-      "id": "fcd8a958ae01b10ad1033dac033123849ae6b6921d51d441dc9532077697bd04",
-      "reason": "connection has parameters not representable by this profile",
+      "id": "fcd92658557a029333de0b78f12396e17448efbc3e05a7d230bc23f1fc516063",
+      "reason": "sing-box transport unsupported",
       "scheme": "vless"
     },
     {
@@ -18710,6 +18800,18 @@
     },
     {
       "format": "clash",
+      "id": "fcfed549003badb793a9fa57525661ea634a53405bbf33009ef4ccc9e8a6cfea",
+      "reason": "XHTTP unsupported by mihomo profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "fcfed549003badb793a9fa57525661ea634a53405bbf33009ef4ccc9e8a6cfea",
+      "reason": "sing-box transport unsupported",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
       "id": "fd325a9829728d83c9d29abcc40f7d3ad3477614091649efb0b701526a437a10",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
@@ -18717,6 +18819,18 @@
     {
       "format": "singbox",
       "id": "fd325a9829728d83c9d29abcc40f7d3ad3477614091649efb0b701526a437a10",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "fd44d353fd484fd2b67a4afaad17bb81548c48f94fef7c6e916bac9c0b70c84c",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "fd44d353fd484fd2b67a4afaad17bb81548c48f94fef7c6e916bac9c0b70c84c",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
@@ -18765,6 +18879,18 @@
     {
       "format": "singbox",
       "id": "fdfa9bd6052b0da19ce168b4ab4757f5de40a069f14146633d1f6adec47e645d",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "clash",
+      "id": "fe00767da53ba545eb6aa9e5e891f7e475d7a6c2f9d6b09448ab94b90157a026",
+      "reason": "connection has parameters not representable by this profile",
+      "scheme": "vless"
+    },
+    {
+      "format": "singbox",
+      "id": "fe00767da53ba545eb6aa9e5e891f7e475d7a6c2f9d6b09448ab94b90157a026",
       "reason": "connection has parameters not representable by this profile",
       "scheme": "vless"
     },
