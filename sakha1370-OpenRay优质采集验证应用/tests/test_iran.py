@@ -5,6 +5,7 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 from openray import iran
 from openray.domain import parse_uri
@@ -187,6 +188,10 @@ class ProbeTests(unittest.TestCase):
         # One failing probe is one network's filtering, and an untrusted probe counts for nothing.
         self.assertEqual(iran.eyeball_verdict({"a": [False]}, trusted), "unknown")
         self.assertEqual(iran.eyeball_verdict({"a": [False], "c": [False]}, trusted), "unknown")
+        # With a single probe online nothing can be dropped, however often it fails.
+        alone = iran.trusted_probes({"start": {"a": True}, "end": {"a": True}})
+        self.assertEqual(iran.eyeball_verdict({"a": [False, False]}, alone), "unknown")
+        self.assertEqual(iran.eyeball_verdict({"a": [True]}, alone), "reachable")
 
     def test_only_ipv4_literals_are_probed(self):
         self.assertEqual(iran_filter.endpoint_key(parse_uri(TLS_WS)), "1.2.3.4:443")
@@ -333,6 +338,43 @@ class ToolTests(unittest.TestCase):
             report = json.loads((root / "gated.json").read_text(encoding="utf-8"))
             self.assertTrue(report["gates"].startswith("FAIL"))
 
+    def test_probe_falls_back_to_check_host_unless_told_not_to(self):
+        line = "trojan://secret@9.9.9.9:443?type=ws&sni=t.example.com&fp=chrome#e"
+        calls = []
+
+        async def globalping_run(endpoints, minutes):
+            return {"prober": "globalping", "status": "no-probes", "endpoints": {}}
+
+        async def check_host(endpoints, minutes):
+            calls.append(endpoints)
+            return {"status": "ok", "endpoints": {}}
+
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            source, work, results = root / "source.txt", root / "work", root / "results"
+            source.write_text(line + "\n", encoding="utf-8")
+            self.assertEqual(run("prepare", "--source", source, "--work", work, "--shards", 1), 0)
+            results.mkdir()
+            rows = [{"id": "0.o", "outcome": "success", "ms": 100}]
+            (results / "results-0.jsonl").write_text(iran_filter.jsonl_text(rows), encoding="utf-8")
+            args = ("probe", "--work", work, "--results", results)
+            with (
+                patch.object(iran_filter.globalping, "run", globalping_run),
+                patch.object(iran_filter, "run_probe", check_host),
+            ):
+                kept = root / "kept.json"
+                self.assertEqual(run(*args, "--output", kept, "--no-fallback"), 0)
+                report = json.loads(kept.read_text(encoding="utf-8"))
+                self.assertEqual((report["prober"], report["status"]), ("globalping", "no-probes"))
+                self.assertEqual(calls, [])
+
+                rescued = root / "rescued.json"
+                self.assertEqual(run(*args, "--output", rescued), 0)
+                report = json.loads(rescued.read_text(encoding="utf-8"))
+                self.assertEqual(report["prober"], "check-host")
+                self.assertEqual(report["fallback_from"]["status"], "no-probes")
+                self.assertEqual(calls, [["9.9.9.9:443"]])
+
     def test_assemble_with_probes_on_subscriber_networks(self):
         lines = [
             "trojan://secret@9.9.9.9:443?type=ws&sni=t.example.com&fp=chrome#e",
@@ -386,6 +428,20 @@ class ToolTests(unittest.TestCase):
             code = run("assemble", *common, "--probe", root / "probe.json", *strict, *demand)
             self.assertEqual(code, 3)
             self.assertFalse(short.exists() or none_out.exists())
+
+            # A probe that dropped out early covered 3 of 10 endpoints: too thin to publish at half, fine at a third.
+            (root / "probe.json").write_text(
+                json.dumps({**probe, "requested": 10, "probed": 3}), encoding="utf-8"
+            )
+            thin, thin_report = root / "thin.txt", root / "thin.json"
+            args = ("--probe", root / "probe.json", "--output", thin, "--report", thin_report)
+            share = ("--min-lines", 1, "--verified", root / "thin_verified.txt", "--min-verified", 1)
+            self.assertEqual(run("assemble", *common, *args, *share, "--min-probed-share", 0.5), 3)
+            self.assertFalse(thin.exists())
+            self.assertEqual(
+                json.loads(thin_report.read_text(encoding="utf-8"))["gates"], "FAIL: enough endpoints probed"
+            )
+            self.assertEqual(run("assemble", *common, *args, *share, "--min-probed-share", 0.3), 0)
 
 
 if __name__ == "__main__":

@@ -353,7 +353,7 @@ def probe(args) -> int:
     # The head of the published list first, each tier in a fixed shuffle, so a spent budget has covered it.
     ordered = sorted(best, key=lambda k: (*best[k], hashlib.sha256(k.encode()).hexdigest()))
     report = asyncio.run(globalping.run(ordered, args.budget_minutes))
-    if report["status"] != "ok":
+    if report["status"] != "ok" and not args.no_fallback:
         # Globalping could not serve us; the check-host nodes are hosting networks, but they are something.
         failed = {k: v for k, v in report.items() if k != "endpoints"}
         report = asyncio.run(run_probe(ordered, args.budget_minutes))
@@ -535,6 +535,9 @@ def assemble(args) -> int:
     }
     if args.verified:
         gates["enough verified lines (needs Globalping probes)"] = len(verified) >= args.min_verified
+        # A probe that drops out mid-run leaves most endpoints unasked and the verified list thin.
+        covered = probing.get("probed", 0) >= args.min_probed_share * probing.get("requested", 0)
+        gates["enough endpoints probed"] = covered
     failed = [name for name, ok in gates.items() if not ok]
     nodes = {name.split(".")[0]: describe_node(info) for name, info in probing.get("nodes", {}).items()}
     report = {
@@ -715,6 +718,8 @@ def main(argv=None) -> int:
     p.add_argument("--results", type=Path, required=True)
     p.add_argument("--output", type=Path, required=True)
     p.add_argument("--budget-minutes", type=float, default=120)
+    # Verified lines need Globalping, so check-host cannot rescue a publish and only burns the whole budget.
+    p.add_argument("--no-fallback", action="store_true", help="do not fall back to check-host nodes")
     p.set_defaults(run=probe)
 
     p = commands.add_parser("assemble")
@@ -729,6 +734,7 @@ def main(argv=None) -> int:
     p.add_argument("--min-share", type=float, default=0.25)
     p.add_argument("--verified", type=Path)
     p.add_argument("--min-verified", type=int, default=1)
+    p.add_argument("--min-probed-share", type=float, default=0.0)
     p.set_defaults(run=assemble)
 
     p = commands.add_parser("fragment")
