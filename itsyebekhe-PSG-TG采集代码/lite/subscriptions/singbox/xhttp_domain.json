@@ -53,8 +53,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇮🇷 IR | VLESS | @free1_vpn #1 [medium]",
-        "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
+        "🇮🇷 IR | VLESS | @luckyvpn #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -66,8 +65,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇮🇷 IR | VLESS | @free1_vpn #1 [medium]",
-        "🇺🇸 US | VLESS | @kafing_2 #1 [fast]"
+        "🇮🇷 IR | VLESS | @luckyvpn #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -115,34 +113,20 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @free1_vpn #1 [medium]",
-      "server": "mojigr.fusetea.ir",
-      "server_port": 1102,
-      "uuid": "1a62ce14-2bac-4a56-98a8-851841b41df6",
+      "tag": "🇮🇷 IR | VLESS | @luckyvpn #1 [fast]",
+      "server": "blue.rodya.ir",
+      "server_port": 443,
+      "uuid": "e0fa5345-c640-4458-8049-42ed926d3b2c",
       "network": "xhttp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "www.aparat.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "r753xovnUQvFw0toamiB3UsmgR33o8SXswOK_HrKrmU",
-          "short_id": "886cff912766c2d1"
-        }
+        "server_name": "blue.rodya.ir",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ]
       }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
-      "server": "spd-mynames.global.ssl.fastly.net",
-      "server_port": 80,
-      "uuid": "8e378a41-d5e1-427a-aaf8-30190d4be0a0",
-      "network": "xhttp",
-      "packet_encoding": "xudp"
     },
     {
       "type": "direct",

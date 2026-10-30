@@ -94,18 +94,12 @@
     {
       "type": "vless",
       "tag": "🇫🇮 FI | VLESS | @red2ray #1 [fast]",
-      "server": "45.144.234.157",
-      "server_port": 14430,
-      "uuid": "59b0d30e-9b29-4fda-a35c-b2901ec32db7",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "45.144.234.157"
-        }
-      }
+      "server": "scr3.fars-remen.ir",
+      "server_port": 47607,
+      "uuid": "c420281f-b827-49c9-8027-0d1a6579a544",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp"
     },
     {
       "type": "direct",

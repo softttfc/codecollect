@@ -55,13 +55,12 @@
         "KingRezaPahlavi",
         "🇫🇮 FI | VLESS | @orange_vpns #1 [fast]",
         "🇩🇪 DE | VLESS | @orange_vpns #2 [fast]",
-        "🇮🇷 IR | VLESS | @nofiltering2 #1 [fast]",
+        "🇮🇷 IR | VLESS | @nofiltering2 #1 [medium]",
         "🇩🇪 DE | VLESS | @flyv2ray #1 [fast]",
         "🇩🇪 DE | VLESS | @flyv2ray #2 [fast]",
-        "🇮🇷 IR | VLESS | @free1_vpn #1 [medium]",
+        "🇩🇪 DE | VLESS | @flyv2ray #3 [fast]",
         "🇷🇺 RU | VLESS | @Proxymelimon #1 [fast]",
-        "🇮🇷 IR | VLESS | @red2ray #1 [fast]",
-        "🇮🇷 IR | VLESS | @red2ray #2 [fast]",
+        "🇺🇸 US | VLESS | @red2ray #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -75,13 +74,12 @@
         "KingRezaPahlavi",
         "🇫🇮 FI | VLESS | @orange_vpns #1 [fast]",
         "🇩🇪 DE | VLESS | @orange_vpns #2 [fast]",
-        "🇮🇷 IR | VLESS | @nofiltering2 #1 [fast]",
+        "🇮🇷 IR | VLESS | @nofiltering2 #1 [medium]",
         "🇩🇪 DE | VLESS | @flyv2ray #1 [fast]",
         "🇩🇪 DE | VLESS | @flyv2ray #2 [fast]",
-        "🇮🇷 IR | VLESS | @free1_vpn #1 [medium]",
+        "🇩🇪 DE | VLESS | @flyv2ray #3 [fast]",
         "🇷🇺 RU | VLESS | @Proxymelimon #1 [fast]",
-        "🇮🇷 IR | VLESS | @red2ray #1 [fast]",
-        "🇮🇷 IR | VLESS | @red2ray #2 [fast]"
+        "🇺🇸 US | VLESS | @red2ray #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -175,7 +173,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @nofiltering2 #1 [fast]",
+      "tag": "🇮🇷 IR | VLESS | @nofiltering2 #1 [medium]",
       "server": "p2tun0.greewebservices.ir",
       "server_port": 28820,
       "uuid": "2582857a-632b-4c4e-9b67-96213cbaf58c",
@@ -243,23 +241,24 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @free1_vpn #1 [medium]",
-      "server": "mojigr.fusetea.ir",
-      "server_port": 1102,
-      "uuid": "1a62ce14-2bac-4a56-98a8-851841b41df6",
-      "network": "xhttp",
+      "tag": "🇩🇪 DE | VLESS | @flyv2ray #3 [fast]",
+      "server": "fly.lumexa.ir",
+      "server_port": 443,
+      "uuid": "47e7e14d-2519-4146-aa2f-6eaa52c0a908",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "www.aparat.com",
+        "server_name": "dynu.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "r753xovnUQvFw0toamiB3UsmgR33o8SXswOK_HrKrmU",
-          "short_id": "886cff912766c2d1"
+          "public_key": "0E-OTXVHsukKvwgwynrI49nTaT5m6rxdaFPg4D_UszI",
+          "short_id": "9cc0"
         }
       }
     },
@@ -288,46 +287,20 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @red2ray #1 [fast]",
-      "server": "fst.mobistora.ir",
+      "tag": "🇺🇸 US | VLESS | @red2ray #1 [fast]",
+      "server": "s12.bsh-net.ru",
       "server_port": 443,
-      "uuid": "4cebda86-2af3-4757-a83f-b31136856884",
-      "network": "xhttp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "link.aparat.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "HLpLMCvrPiRj4klewfrHBu0Yqz8EX6Hzk2v-vy44wQQ",
-          "short_id": "1e0815e664af2cd4"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @red2ray #2 [fast]",
-      "server": "tr-pro.mobistora.ir",
-      "server_port": 1091,
-      "uuid": "4cebda86-2af3-4757-a83f-b31136856884",
+      "uuid": "a0fa7e19-70ec-41e0-b0cc-bcc984d4201a",
       "flow": "xtls-rprx-vision",
       "network": "tcp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "amzn.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
+        "server_name": "s12.bsh-net.ru",
         "reality": {
           "enabled": true,
-          "public_key": "xoaAnIMfk3f33p-0G8vVc1_JDiJkxE4ucJTGrWZMDHU",
-          "short_id": "3556bb1b5635ee32"
+          "public_key": "QvT-t_h_AF2EAT4Ggh_a6pcCK3StY8G9WCXn6-dJbxk",
+          "short_id": "51079f144d661484"
         }
       }
     },
