@@ -53,7 +53,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
+        "🇹🇷 TR | VLESS | @free1_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @luckyvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2 [fast]",
         "direct"
@@ -67,7 +67,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
+        "🇹🇷 TR | VLESS | @free1_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @luckyvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2 [fast]"
       ],
@@ -117,21 +117,23 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
-      "server": "kala.fortresshost.ir",
-      "server_port": 443,
-      "uuid": "c60cd62f-8dc5-415f-826b-abb7856027d1",
+      "tag": "🇹🇷 TR | VLESS | @free1_vpn #1 [fast]",
+      "server": "tr.peregrine-sub.net",
+      "server_port": 8443,
+      "uuid": "42a64b9a-ab79-4094-8656-30366a7c2ea3",
       "network": "xhttp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "kala.fortresshost.ir",
-        "alpn": [
-          "h2"
-        ],
+        "server_name": "tr.peregrine-sub.net",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "PUj1la__ltNjv_ASE5n4HJY7GiRs--N-0aYhkcAApCI",
+          "short_id": "7b6803a79bba5c52"
         }
       }
     },

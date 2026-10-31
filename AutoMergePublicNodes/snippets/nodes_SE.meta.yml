@@ -9,10 +9,11 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: 🇸🇪[www.v2nodes.com] vless-SE-1...
+- name: '🇸🇪[www.v2nodes.com] vless-SE-1... #1'
   network: ws
   port: 14430
   server: 5.178.109.174
+  servername: 5.178.109.174
   tls: false
   type: vless
   uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
@@ -20,32 +21,43 @@ proxies:
     headers:
       Host: 5.178.109.174
     path: /vless
-- name: 🇸🇪SE_1|2.1MB/s
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇪[www.v2nodes.com] ss-SE-1608...
+  password: MODziWLa9qMuW-4yPa0rfw
+  port: 8388
+  server: 159.194.251.76
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇸🇪[www.v2nodes.com] ss-SE-1560...
+  password: AxIYWtskJWIIaefW
+  port: 8388
+  server: 70.34.212.124
+  type: ss
+- name: 🇸🇪SE_1|1.1MB/s
+  password: None
   port: 443
-  server: 146.70.242.130
+  server: 217.210.129.243
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: chrome
+- name: 🇸🇪SE_2|3.0MB/s
+  password: None
+  port: 443
+  server: 79.142.77.63
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: random
   name: '🇸🇪 瑞典 | SWE #2'
-  network: xhttp
-  port: 33744
-  server: 132.243.231.14
-  servername: se-5060f39afb.shamanapp.online
+  network: ws
+  port: 443
+  server: 139.162.40.240
+  servername: se-sto.862400.xyz
   tls: true
   type: vless
   udp: true
-  uuid: 5d9fb46f-c4bc-4d6e-9a26-a4d5f51abd28
-  xhttp-opts:
-    host: se-5060f39afb.shamanapp.online
-    mode: stream-up
-    path: /ShamanXHTTP2026
-- auth: a0052f4f-4c63-0002-a16f-ab2d5d718cd3
-  name: '🇸🇪 瑞典 | SWE #3'
-  password: a0052f4f-4c63-0002-a16f-ab2d5d718cd3
-  port: 443
-  server: 192.142.23.46
-  skip-cert-verify: true
-  sni: diffoscope.com
-  tls: false
-  type: hysteria2
+  uuid: b782eda8-7846-437c-ab93-07c3476c2887
+  ws-opts:
+    headers:
+      Host: se-sto.862400.xyz
+    path: /announcement?ed=2048

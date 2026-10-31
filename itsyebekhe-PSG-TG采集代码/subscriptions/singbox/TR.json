@@ -51,7 +51,7 @@
       "outbounds": [
         "auto",
         "🇹🇷 TR | SS | @free1_vpn #1 [fast]",
-        "🇹🇷 TR | VLESS | @netfreedom0 #1 [fast]",
+        "🇹🇷 TR | VLESS | @free1_vpn #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -61,7 +61,7 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇷 TR | SS | @free1_vpn #1 [fast]",
-        "🇹🇷 TR | VLESS | @netfreedom0 #1 [fast]"
+        "🇹🇷 TR | VLESS | @free1_vpn #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -82,24 +82,23 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 TR | VLESS | @netfreedom0 #1 [fast]",
-      "server": "212.87.198.97",
-      "server_port": 443,
-      "uuid": "0dab10de-af72-483b-b5d8-7f30cab4d35c",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
+      "tag": "🇹🇷 TR | VLESS | @free1_vpn #1 [fast]",
+      "server": "tr.peregrine-sub.net",
+      "server_port": 8443,
+      "uuid": "42a64b9a-ab79-4094-8656-30366a7c2ea3",
+      "network": "xhttp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "ist.ascella.network",
+        "server_name": "tr.peregrine-sub.net",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "y8zu3te3MMaqdsQs8XlACT_IRcIBoenmGYnMaS-ZbX4",
-          "short_id": "fc7aa00fc02c"
+          "public_key": "PUj1la__ltNjv_ASE5n4HJY7GiRs--N-0aYhkcAApCI",
+          "short_id": "7b6803a79bba5c52"
         }
       }
     },

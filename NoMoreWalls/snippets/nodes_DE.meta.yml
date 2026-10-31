@@ -9,273 +9,184 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #8'
-  port: 2112
-  server: mci.amir12.ir
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: 🇩🇪[www.v2nodes.com] vless-DE-1...
+  network: ws
+  port: 443
+  server: z1q3pv4g78.rucdncomp.pro
+  servername: z1q3pv4g78.rucdncomp.pro
+  tls: true
+  type: vless
+  uuid: c720cb74-4c84-4fce-b8ae-637dbaa16199
+  ws-opts:
+    headers:
+      Host: z1q3pv4g78.rucdncomp.pro
+    path: /useraction/events/b892639b7195/
+- encryption: none
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #5'
+  network: ws
+  port: 465
+  server: 91.107.180.176
+  servername: hw7.divarkhaghazi.com
+  tls: true
+  type: vless
+  uuid: d0d3d49c-56e8-40e1-9e83-793d03f83d93
+  ws-opts:
+    headers:
+      Host: hw7.divarkhaghazi.com.
+    path: /
+- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #6'
+  port: 25362
+  server: 193.148.253.194
   tls: false
   type: vless
-  uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
-- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #9'
-  port: 10000
-  server: connect.wecantos.site
-  tls: false
-  type: vless
-  uuid: a05ecf37-c661-4247-ab09-4432cf0f3cc1
-- cipher: aes-256-gcm
-  name: 🇩🇪[www.v2nodes.com] ss-DE-1602...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 185.176.204.18
+  uuid: 36fb6650-8a50-42b5-9f66-06538806f32c
+- cipher: 2022-blake3-chacha20-poly1305
+  name: 🇩🇪[www.v2nodes.com] ss-DE-1608...
+  password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
+  port: 443
+  server: 8.211.196.252
   type: ss
-- name: 🇩🇪[www.v2nodes.com] trojan-DE-...
-  password: happybirthdaydaniel
-  port: 25267
-  server: de-bots4.h1cloud.net
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #3'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.15
+  skip-cert-verify: true
+  sni: courses.iloverussia2026.com
   type: trojan
-- client-fingerprint: firefox
-  encryption: none
-  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-  name: 🇩🇪DE_1|2.1MB/s
-  network: xhttp
+- name: 🇩🇪DE_1|2.3MB/s
   port: 443
-  server: avr.rlrlco.ir
-  servername: cdn.akamai.steamstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: fd65fd49-beaf-4dbf-b689-bcc53595bd89
-  xhttp-opts:
-    host: gertypp.global.ssl.fastly.net
-    mode: auto
-    path: /setare
-    reuse-settings:
-      h-keep-alive-period: 20
-      h-max-request-times: 300-500
-      h-max-reusable-secs: 300-480
-      max-concurrency: 16-32
-    x-padding-bytes: 100-1000
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_2|1.7MB/s
-  network: xhttp
-  port: 443
-  server: 144.31.217.28
-  servername: 9187bd6f.con.fernarchive.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: abca037b-bee5-41cc-a888-0668e4c66176
-  xhttp-opts:
-    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '🇬🇧 英国 | GBR #2'
-  network: xhttp
-  port: 443
-  server: 144.31.213.229
-  servername: 6d160a52.con.fernarchive.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: abca037b-bee5-41cc-a888-0668e4c66176
-  xhttp-opts:
-    path: /conv4/stream/77dd2aeeb94331fbff325bb48850392b
-  xudp: true
-- name: 🇩🇪DE_4|3.1MB/s
-  password: None
-  port: 443
-  server: 79.76.126.155
+  server: 149.36.50.157
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_5|2.6MB/s
+- name: 🇩🇪DE_2|1.5MB/s
   password: None
   port: 443
   server: 87.106.223.158
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_6|1.4MB/s
+- name: 🇩🇪DE_3|1.2MB/s
+  password: None
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_4|1.3MB/s
   password: None
   port: 443
   server: 152.233.20.206
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_7|3.5MB/s
-  password: None
-  port: 9443
-  server: 79.127.156.177
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_8|2.9MB/s
-  port: 9002
-  server: 158.173.154.3
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: firefox
-  encryption: none
-  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-  name: '🇩🇪 德国 | DEU #5'
-  network: xhttp
-  port: 443
-  server: pp-fx2.firelinkservers.ir
-  servername: cdn.akamai.steamstatic.com
-  tls: true
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: '🇩🇪 德国 | DEU #1'
+  password: 1CnkHSmfGN42U74vwEjLEzULi5SbzvtK
+  port: 1044
+  server: 37.152.175.116
+  type: ss
   udp: true
-  uuid: bc6b024b-34ad-4c58-b4bd-12049380d118
-  xhttp-opts:
-    host: GermanLrNovein.global.ssl.fastly.net
-    mode: auto
-    path: /
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇩🇪DE_10|1.8MB/s
-  network: xhttp
-  port: 443
-  server: 883f1393.con.rasterparcel.tech
-  servername: 883f1393.con.rasterparcel.tech
-  tls: true
-  type: vless
-  udp: true
-  uuid: abca037b-bee5-41cc-a888-0668e4c66176
-  xhttp-opts:
-    mode: auto
-    path: /conv4/stream/d34366ecdd31367d0fc76955c6b8d77c
-  xudp: true
-- name: 🇩🇪DE_13|1.1MB/s
-  port: 9002
-  server: 158.173.154.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_14|2.3MB/s
-  port: 443
-  server: 193.233.75.115
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: firefox
-  encryption: mlkem768x25519plus.native.0rtt.HgOBFNZBsI-IbLuV7IeOJbMRNb9CodLXi3YDHVWPWQU
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
   name: '🇩🇪 德国 | DEU #2'
   network: ws
   port: 443
-  server: www.naviga-ting.com
-  servername: www.naviga-ting.com
+  server: 195.141.65.98
+  servername: 148-253-210-191.sslip.io
   tls: true
   type: vless
   udp: true
-  uuid: 024cf4e8-fa64-44ea-b22f-c28437120563
+  uuid: 53f03acd-fec1-6685-fc8f-03baf9550cb8
   ws-opts:
     headers:
-      Host: ded1ws.samcdn.shop
-    path: /51544/ws
-- client-fingerprint: firefox
-  name: '🇩🇪 德国 | DEU #3'
-  network: ws
-  port: 443
-  server: 155.212.240.10
-  servername: n.bitpulse.me
-  tls: true
-  type: vless
-  udp: true
-  uuid: f27b6f65-6e59-4f89-b929-afa397ca587f
-  ws-opts:
-    headers:
-      Host: n.bitpulse.me
-    path: /019bcbad-3813-7cce-8786-3ac0e418f128?ed=2560
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.HgOBFNZBsI-IbLuV7IeOJbMRNb9CodLXi3YDHVWPWQU
+      Host: 148-253-210-191.sslip.io
+    path: /test-ws
+- alpn:
+  - http/1.1
+  client-fingerprint: safari
   name: '🇩🇪 德国 | DEU #4'
   network: ws
-  port: 443
-  server: 43.174.247.63
-  servername: msydjt.com
+  port: 2083
+  server: 140.225.208.60
+  servername: speedtestmark.com
   tls: true
   type: vless
   udp: true
-  uuid: 024cf4e8-fa64-44ea-b22f-c28437120563
+  uuid: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
   ws-opts:
+    path: /vless-ws
+- encryption: mlkem768x25519plus.random.0rtt.mOSkb5qnmlzYH83OfbD6A6XBBjsIlaICRAsImZcMx0E
+  http-opts:
     headers:
-      Host: ded1ws.samcdn.shop
-    path: /51544/ws
-- client-fingerprint: firefox
-  encryption: mlkem768x25519plus.native.0rtt.HgOBFNZBsI-IbLuV7IeOJbMRNb9CodLXi3YDHVWPWQU
-  name: '🇩🇪 德国 | DEU #7'
-  network: ws
-  port: 443
-  server: msydjt.com
-  servername: msydjt.com
-  tls: true
+      Host:
+      - tgju.org
+    method: GET
+    path:
+    - /
+  name: 🇩🇪 德国 | DEU 5
+  network: http
+  port: 58302
+  server: TGR.Private-Ai.IR
+  tls: false
   type: vless
   udp: true
-  uuid: 024cf4e8-fa64-44ea-b22f-c28437120563
-  ws-opts:
-    headers:
-      Host: ded1ws.samcdn.shop
-    path: /51544/ws
+  uuid: a6f263ad-2d3e-42c6-9584-ed80a5b1134d
 - alpn:
-  - h3
+  - http/1.1
   client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #6'
+  network: ws
+  port: 8443
+  server: 104.17.70.206
+  servername: free.sahanwickramasinghe.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5f704d93-7e7f-45b5-81f5-08db4a946220
+  ws-opts:
+    headers:
+      Host: free.sahanwickramasinghe.com
+    path: /
+- client-fingerprint: chrome
   name: '🇩🇪 德国 | DEU #8'
   network: xhttp
   port: 443
-  server: 151.101.67.6
-  servername: amp-api-edge.apps.apple.com
+  server: 177.3.214.133
+  servername: planktonmanager.xyz
   tls: true
   type: vless
   udp: true
-  uuid: bdf38176-48e9-40f1-9d1c-d501c333b464
+  uuid: 4023b626-ce42-4a8f-a1c4-93e263118e7c
   xhttp-opts:
-    host: kkbr.tm
+    host: planktonmanager.xyz
     mode: auto
-    path: /crownnet
-- name: '🇩🇪 德国 | DEU #9'
-  network: tcp
-  port: 46605
-  server: 91.107.147.12
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0c45be70-e001-41e5-b39d-39351fe4a2d7
-  ws-opts:
-    path: /
-- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  name: '🇩🇪 德国 | DEU #10'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 3.69.232.199
-  skip-cert-verify: true
-  sni: vpn-de-002.fastervpn.world
-  tls: false
-  type: hysteria2
+    path: /assets/e4e35f44b368/3eaeda2dcb5e/index.html
 - alpn:
   - h3
-  auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  down: 200
-  name: 🇩🇪 德国 | DEU 11
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-de-002.fastervpn.world
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: 🇩🇪 德国 | DEU 9
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
   skip-cert-verify: true
-  sni: 127.0.0.1
-  type: hysteria2
-  udp: true
-  up: 100
-- name: '🇩🇪 德国 | DEU #11'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-de-002.fastervpn.world
-  skip-cert-verify: true
-  sni: 127.0.0.1
+  sni: apple.com
+  type: hysteria
+  up: 500
+- name: '🇩🇪 德国 | DEU #5'
+  network: http
+  port: 58302
+  server: tgr.private-ai.ir
   tls: false
-  type: hysteria2
+  type: vless
+  uuid: a6f263ad-2d3e-42c6-9584-ed80a5b1134d
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119
