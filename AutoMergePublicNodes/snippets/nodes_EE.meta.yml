@@ -1,22 +1,15 @@
 proxies:
-- name: 🇪🇪EE_1|1.9MB/s
+- name: 🇪🇪EE_1|2.8MB/s
   password: None
-  port: 443
+  port: 9443
   server: 95.153.32.2
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: chrome
-  name: '🇪🇪 爱沙尼亚 | EST #1'
-  network: xhttp
-  port: 34451
-  server: ee-2e06d85dc0.shamanapp.online
-  servername: ee-2e06d85dc0.shamanapp.online
+- name: 🇪🇪EE_2|2.3MB/s
+  password: None
+  port: 9443
+  server: 95.153.31.66
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 5d9fb46f-c4bc-4d6e-9a26-a4d5f51abd28
-  xhttp-opts:
-    host: ee-2e06d85dc0.shamanapp.online
-    mode: stream-up
-    path: /ShamanXHTTP2026
+  type: http

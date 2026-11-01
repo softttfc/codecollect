@@ -53,12 +53,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @orange_vpns #2 [fast]",
-        "🇮🇷 IR | VLESS | @nofiltering2 #1 [fast]",
-        "🇩🇪 DE | VLESS | @flyv2ray #1 [fast]",
-        "🇩🇪 DE | VLESS | @flyv2ray #2 [fast]",
-        "🇩🇪 DE | VLESS | @flyv2ray #3 [fast]",
-        "🇹🇷 TR | VLESS | @free1_vpn #1 [fast]",
+        "🇩🇪 DE | VLESS | @orange_vpns #1 [fast]",
+        "🇮🇷 IR | VLESS | @nofiltering2 #1 [medium]",
+        "🇹🇷 TR | VLESS | @free1_vpn #1 [medium]",
         "🇷🇺 RU | VLESS | @Proxymelimon #1 [fast]",
         "direct"
       ],
@@ -71,12 +68,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @orange_vpns #2 [fast]",
-        "🇮🇷 IR | VLESS | @nofiltering2 #1 [fast]",
-        "🇩🇪 DE | VLESS | @flyv2ray #1 [fast]",
-        "🇩🇪 DE | VLESS | @flyv2ray #2 [fast]",
-        "🇩🇪 DE | VLESS | @flyv2ray #3 [fast]",
-        "🇹🇷 TR | VLESS | @free1_vpn #1 [fast]",
+        "🇩🇪 DE | VLESS | @orange_vpns #1 [fast]",
+        "🇮🇷 IR | VLESS | @nofiltering2 #1 [medium]",
+        "🇹🇷 TR | VLESS | @free1_vpn #1 [medium]",
         "🇷🇺 RU | VLESS | @Proxymelimon #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
@@ -125,7 +119,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @orange_vpns #2 [fast]",
+      "tag": "🇩🇪 DE | VLESS | @orange_vpns #1 [fast]",
       "server": "dlx-2.viralforge.ru",
       "server_port": 443,
       "uuid": "047466dd-05aa-4331-abf7-322c5aaecf97",
@@ -148,7 +142,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @nofiltering2 #1 [fast]",
+      "tag": "🇮🇷 IR | VLESS | @nofiltering2 #1 [medium]",
       "server": "p2tun0.greewebservices.ir",
       "server_port": 28820,
       "uuid": "2582857a-632b-4c4e-9b67-96213cbaf58c",
@@ -170,76 +164,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @flyv2ray #1 [fast]",
-      "server": "fly.lumexa.ir",
-      "server_port": 443,
-      "uuid": "756c8a9d-ff97-41f3-90b8-50f29acaba1f",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "dynu.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "0E-OTXVHsukKvwgwynrI49nTaT5m6rxdaFPg4D_UszI",
-          "short_id": "9cc0"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @flyv2ray #2 [fast]",
-      "server": "fly.lumexa.ir",
-      "server_port": 443,
-      "uuid": "7a96136a-20ad-4aec-86bd-f6622fbb8ce6",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "dynu.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "0E-OTXVHsukKvwgwynrI49nTaT5m6rxdaFPg4D_UszI",
-          "short_id": "9cc0"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @flyv2ray #3 [fast]",
-      "server": "fly.lumexa.ir",
-      "server_port": 443,
-      "uuid": "47e7e14d-2519-4146-aa2f-6eaa52c0a908",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "dynu.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "0E-OTXVHsukKvwgwynrI49nTaT5m6rxdaFPg4D_UszI",
-          "short_id": "9cc0"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇷 TR | VLESS | @free1_vpn #1 [fast]",
+      "tag": "🇹🇷 TR | VLESS | @free1_vpn #1 [medium]",
       "server": "tr.peregrine-sub.net",
       "server_port": 8443,
       "uuid": "42a64b9a-ab79-4094-8656-30366a7c2ea3",

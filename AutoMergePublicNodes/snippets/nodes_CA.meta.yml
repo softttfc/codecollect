@@ -1,15 +1,9 @@
 proxies:
-- name: '🇨🇦[www.v2nodes.com] vless-CA-1... #1'
-  port: 2093
-  server: 213.152.165.203
-  tls: false
-  type: vless
-  uuid: 0b418782-e023-447e-ba99-e66b84ff118d
-- name: '🇨🇦[www.v2nodes.com] vless-CA-1... #4'
+- encryption: none
+  name: '🏳[www.v2nodes.com] vless- #11'
   network: tcp
   port: 8080
-  server: milo.networkforexir.site
-  servername: milo.networkforexir.site
+  server: milo.rubinaz.xyz
   tls: false
   type: vless
   uuid: 6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8
@@ -67,16 +61,53 @@ proxies:
   port: 445
   server: 51.222.12.127
   type: ss
-- name: 🇨🇦CA_1|1.1MB/s
-  password: None
+- name: 🇨🇦[www.v2nodes.com] trojan-CA-...
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 206.223.161.47
+  server: 216.152.147.89
+  sni: www.connectingpeoplewithgreatjobs.com
+  type: trojan
+- name: '🇨🇦[www.v2nodes.com] trojan-CA-... #1'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.147.48
+  sni: courses.connectingpeoplewithgreatjobs.com
+  type: trojan
+- name: '🇨🇦[www.v2nodes.com] trojan-CA-... #2'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.147.89
+  type: trojan
+- name: '🇨🇦[www.v2nodes.com] trojan-CA-... #3'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.147.93
+  sni: connectingpeoplewithgreatjobs.com
+  type: trojan
+- name: '🇨🇦[www.v2nodes.com] trojan-CA-... #4'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.147.201
+  sni: resources.connectingpeoplewithgreatjobs.com
+  type: trojan
+- name: '🇨🇦[www.v2nodes.com] trojan-CA-... #5'
+  network: tcp
+  password: 5t6i121em5lkmsmk
+  port: 46977
+  server: ca001.zestapp778.com
+  sni: ca001.zestapp778.com
+  type: trojan
+- name: 🇨🇦CA_1|1.5MB/s
+  password: None
+  port: 9443
+  server: 198.44.157.19
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇨🇦CA_2|1.7MB/s
+- name: 🇨🇦CA_2|2.6MB/s
+  password: None
   port: 443
-  server: 206.223.183.16
+  server: 206.223.183.13
   skip-cert-verify: true
   tls: true
   type: http

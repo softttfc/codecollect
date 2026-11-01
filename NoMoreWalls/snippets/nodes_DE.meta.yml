@@ -9,11 +9,86 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: 🇩🇪204269 | ⚡️Telegram = t.me/S...
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 3.76.221.4
+  skip-cert-verify: true
+  sni: 3.76.221.4
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #1'
+  network: tcp
+  port: 63053
+  server: 179.253.179.109
+  servername: de2.derevohom.xyz
+  tls: true
+  type: vless
+  uuid: e3aa3d22-a95e-407b-aacc-d855b90a5d70
+  ws-opts:
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #2'
+  network: ws
+  port: 465
+  server: hw14.roghanmo.com
+  servername: hw14.roghanmo.com.
+  tls: true
+  type: vless
+  uuid: 98aa35fc-7d2f-4744-a91b-7e33b4fdd9c8
+  ws-opts:
+    headers:
+      Host: hw14.roghanmo.com
+    path: /
+- client-fingerprint: chrome
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #6'
+  network: ws
+  port: 2083
+  server: 140.225.208.140
+  servername: speedtestmark.com
+  tls: true
+  type: vless
+  uuid: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  ws-opts:
+    headers:
+      Host: speedtestmark.com
+    path: /vless-ws
+- alpn:
+  - http/1.1
+  client-fingerprint: safari
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #8'
+  network: ws
+  port: 2083
+  server: 140.225.208.60
+  servername: speedtestmark.com
+  tls: true
+  type: vless
+  uuid: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  ws-opts:
+    path: /vless-ws
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #9'
+  network: ws
+  port: 443
+  server: 195.141.65.98
+  servername: 148-253-210-191.sslip.io
+  tls: true
+  type: vless
+  uuid: 53f03acd-fec1-6685-fc8f-03baf9550cb8
+  ws-opts:
+    headers:
+      Host: 148-253-210-191.sslip.io
+    path: /test-ws
 - alpn:
   - http/1.1
   client-fingerprint: random
   encryption: none
-  name: 🇩🇪[www.v2nodes.com] vless-DE-1...
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #10'
   network: ws
   port: 443
   server: z1q3pv4g78.rucdncomp.pro
@@ -25,168 +100,167 @@ proxies:
     headers:
       Host: z1q3pv4g78.rucdncomp.pro
     path: /useraction/events/b892639b7195/
-- encryption: none
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #5'
-  network: ws
-  port: 465
-  server: 91.107.180.176
-  servername: hw7.divarkhaghazi.com
-  tls: true
-  type: vless
-  uuid: d0d3d49c-56e8-40e1-9e83-793d03f83d93
-  ws-opts:
-    headers:
-      Host: hw7.divarkhaghazi.com.
-    path: /
-- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #6'
-  port: 25362
-  server: 193.148.253.194
-  tls: false
-  type: vless
-  uuid: 36fb6650-8a50-42b5-9f66-06538806f32c
-- cipher: 2022-blake3-chacha20-poly1305
-  name: 🇩🇪[www.v2nodes.com] ss-DE-1608...
-  password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
-  port: 443
-  server: 8.211.196.252
-  type: ss
-- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #3'
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #4'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 193.108.119.15
-  skip-cert-verify: true
   sni: courses.iloverussia2026.com
   type: trojan
-- name: 🇩🇪DE_1|2.3MB/s
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #1'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.96
+  sni: learn.iloverussia2026.com
+  type: trojan
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #2'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.15
+  type: trojan
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #3'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.29
+  sni: blog.iloverussia2026.com
+  type: trojan
+- name: 🇩🇪DE_1|1.0MB/s
+  password: None
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_2|2.1MB/s
+  password: None
   port: 443
   server: 149.36.50.157
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_2|1.5MB/s
-  password: None
-  port: 443
-  server: 87.106.223.158
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_3|1.2MB/s
+- name: 🇩🇪DE_3|1.5MB/s
   password: None
   port: 9443
-  server: 213.177.229.161
+  server: 87.249.132.97
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_4|1.3MB/s
+- name: 🇩🇪DE_4|2.4MB/s
   password: None
   port: 443
   server: 152.233.20.206
   skip-cert-verify: true
   tls: true
   type: http
-- cipher: chacha20-ietf-poly1305
-  name: '🇩🇪 德国 | DEU #1'
-  password: 1CnkHSmfGN42U74vwEjLEzULi5SbzvtK
-  port: 1044
-  server: 37.152.175.116
-  type: ss
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #2'
-  network: ws
-  port: 443
-  server: 195.141.65.98
-  servername: 148-253-210-191.sslip.io
+- name: 🇩🇪DE_5|2.0MB/s
+  password: None
+  port: 9443
+  server: 79.127.156.177
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 53f03acd-fec1-6685-fc8f-03baf9550cb8
-  ws-opts:
-    headers:
-      Host: 148-253-210-191.sslip.io
-    path: /test-ws
-- alpn:
-  - http/1.1
-  client-fingerprint: safari
-  name: '🇩🇪 德国 | DEU #4'
-  network: ws
-  port: 2083
-  server: 140.225.208.60
-  servername: speedtestmark.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
-  ws-opts:
-    path: /vless-ws
-- encryption: mlkem768x25519plus.random.0rtt.mOSkb5qnmlzYH83OfbD6A6XBBjsIlaICRAsImZcMx0E
-  http-opts:
-    headers:
-      Host:
-      - tgju.org
-    method: GET
-    path:
-    - /
-  name: 🇩🇪 德国 | DEU 5
-  network: http
-  port: 58302
-  server: TGR.Private-Ai.IR
-  tls: false
-  type: vless
-  udp: true
-  uuid: a6f263ad-2d3e-42c6-9584-ed80a5b1134d
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #6'
-  network: ws
+  type: http
+- name: 🇩🇪DE_6|2.1MB/s
   port: 8443
-  server: 104.17.70.206
-  servername: free.sahanwickramasinghe.com
+  server: 188.120.225.125
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 5f704d93-7e7f-45b5-81f5-08db4a946220
-  ws-opts:
-    headers:
-      Host: free.sahanwickramasinghe.com
-    path: /
+  type: http
 - client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #8'
-  network: xhttp
-  port: 443
-  server: 177.3.214.133
-  servername: planktonmanager.xyz
+  name: 🇩🇪DE_8|1.4MB/s
+  password: happybirthdaydaniel
+  port: 25267
+  server: de-bots4.h1cloud.net
+  skip-cert-verify: true
+  sni: t.me/fuckthewall
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  name: '🇩🇪 德国 | DEU #1'
+  network: tcp
+  port: 63080
+  server: 179.253.179.109
+  servername: de2.derevohom.xyz
   tls: true
   type: vless
   udp: true
-  uuid: 4023b626-ce42-4a8f-a1c4-93e263118e7c
-  xhttp-opts:
-    host: planktonmanager.xyz
-    mode: auto
-    path: /assets/e4e35f44b368/3eaeda2dcb5e/index.html
+  uuid: e3aa3d22-a95e-407b-aacc-d855b90a5d70
+  ws-opts:
+    path: /
 - alpn:
   - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: 🇩🇪 德国 | DEU 9
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
+  auth: 2a0fc918-9c61-451b-a9ad-e8f796e70f52
+  down: 200
+  name: 🇩🇪 德国 | DEU 2
+  password: 2a0fc918-9c61-451b-a9ad-e8f796e70f52
+  port: 443
+  server: 9.247.54.69
   skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 500
-- name: '🇩🇪 德国 | DEU #5'
-  network: http
-  port: 58302
-  server: tgr.private-ai.ir
-  tls: false
+  sni: nl1.obxodvpn.us
+  type: hysteria2
+  udp: true
+  up: 100
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #4'
+  network: ws
+  port: 443
+  server: 199.232.239.239
+  servername: firefox.com
+  tls: true
   type: vless
-  uuid: a6f263ad-2d3e-42c6-9584-ed80a5b1134d
+  udp: true
+  uuid: 40694ced-9a8c-42fd-f5f8-3ac3c8b27fc2
+  ws-opts:
+    headers:
+      Host: mpkoe7ypcibr80p102020123.global.ssl.fastly.net
+    path: /@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel?ed=2056
+- name: '🇩🇪 德国 | DEU #6'
+  password: happybirthdaydaniel
+  port: 25267
+  server: de-bots4.h1cloud.net
+  skip-cert-verify: true
+  sni: t.me/FuckTheWall
+  type: trojan
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: 🇩🇪 德国 | DEU 7
+  password: c86efa7e-f7fb-47d6-b832-6b44cf5e8b71
+  port: 11105
+  server: de01.dw.sh-cloudflare.sbs
+  skip-cert-verify: true
+  sni: de01.shanhai.me
+  type: anytls
+  udp: true
+- name: 🇩🇪 德国 | DEU 8
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.22.89.207
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: '🇩🇪 德国 | DEU #2'
+  password: 2a0fc918-9c61-451b-a9ad-e8f796e70f52
+  port: 443
+  server: 9.247.54.69
+  skip-cert-verify: true
+  sni: nl1.obxodvpn.us
+  tls: false
+  type: hysteria2
+- name: '🇩🇪 德国 | DEU #7'
+  password: humanity
+  port: 443
+  server: 165.22.89.207
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
 - name: DE_speednode_0004
   port: 443
   server: 213.109.163.119

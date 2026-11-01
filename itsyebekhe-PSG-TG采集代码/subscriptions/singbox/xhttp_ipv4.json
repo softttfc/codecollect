@@ -53,10 +53,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | VLESS | @orange_vpns #1 [fast]",
-        "🇷🇺 RU | VLESS | @prrofile_purple #1 [fast]",
-        "🇷🇺 RU | VLESS | @prrofile_purple #2 [fast]",
-        "🇮🇷 IR | VLESS | @flyv2ray #1 [medium]",
+        "🇷🇺 RU | VLESS | @prrofile_purple #1 [medium]",
+        "🇷🇺 RU | VLESS | @prrofile_purple #2 [medium]",
         "🇺🇸 US | VLESS | @netmellianti #1 [fast]",
         "🇸🇨 SC | VLESS | @tanhanet #1 [fast]",
         "🇨🇦 CA | VLESS | @ai_duet #1 [fast]",
@@ -80,10 +78,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | VLESS | @orange_vpns #1 [fast]",
-        "🇷🇺 RU | VLESS | @prrofile_purple #1 [fast]",
-        "🇷🇺 RU | VLESS | @prrofile_purple #2 [fast]",
-        "🇮🇷 IR | VLESS | @flyv2ray #1 [medium]",
+        "🇷🇺 RU | VLESS | @prrofile_purple #1 [medium]",
+        "🇷🇺 RU | VLESS | @prrofile_purple #2 [medium]",
         "🇺🇸 US | VLESS | @netmellianti #1 [fast]",
         "🇸🇨 SC | VLESS | @tanhanet #1 [fast]",
         "🇨🇦 CA | VLESS | @ai_duet #1 [fast]",
@@ -143,27 +139,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @orange_vpns #1 [fast]",
-      "server": "199.232.20.113",
-      "server_port": 443,
-      "uuid": "d0136cca-a5a5-4c70-87dd-ce2ef76b7f82",
-      "network": "xhttp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.firefox.com",
-        "alpn": [
-          "h2"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #1 [fast]",
+      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #1 [medium]",
       "server": "84.38.187.169",
       "server_port": 443,
       "uuid": "82282910-54a0-0032-b2df-86bfbce8ed36",
@@ -185,7 +161,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #2 [fast]",
+      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #2 [medium]",
       "server": "84.38.187.169",
       "server_port": 443,
       "uuid": "82282910-54a0-0032-b2df-86bfbce8ed36",
@@ -202,28 +178,6 @@
           "enabled": true,
           "public_key": "rJMYW6mHgjs61mHxfm8Gmm_Re23sV_xe5b0IrTpLsiQ",
           "short_id": "94c9dbbf07366d96"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @flyv2ray #1 [medium]",
-      "server": "89.42.196.237",
-      "server_port": 2030,
-      "uuid": "2dcf2405-102b-471f-be53-296b0bf8c1a7",
-      "network": "xhttp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "amp-api-edge.apps.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "3mA0RBw4RFVbXJN3RbtA4U0TsaD4EtVELLyQ9K8xww8",
-          "short_id": "135ce189ff681b18"
         }
       }
     },

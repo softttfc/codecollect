@@ -13,7 +13,6 @@ proxies:
   network: ws
   port: 14430
   server: 5.178.109.174
-  servername: 5.178.109.174
   tls: false
   type: vless
   uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
@@ -25,7 +24,7 @@ proxies:
   name: 🇸🇪[www.v2nodes.com] ss-SE-1608...
   password: MODziWLa9qMuW-4yPa0rfw
   port: 8388
-  server: 159.194.251.76
+  server: msk2.rvpn.app
   type: ss
 - cipher: aes-256-gcm
   name: 🇸🇪[www.v2nodes.com] ss-SE-1560...
@@ -33,31 +32,29 @@ proxies:
   port: 8388
   server: 70.34.212.124
   type: ss
-- name: 🇸🇪SE_1|1.1MB/s
-  password: None
+- name: 🇸🇪SE_1|1.4MB/s
   port: 443
-  server: 217.210.129.243
+  server: 146.70.242.130
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇸🇪SE_2|3.0MB/s
-  password: None
-  port: 443
-  server: 79.142.77.63
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: random
-  name: '🇸🇪 瑞典 | SWE #2'
+- name: 🇸🇪 瑞典 | SWE
   network: ws
+  password: humanity
   port: 443
-  server: 139.162.40.240
-  servername: se-sto.862400.xyz
-  tls: true
-  type: vless
+  server: 77.221.139.114
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
   udp: true
-  uuid: b782eda8-7846-437c-ab93-07c3476c2887
   ws-opts:
     headers:
-      Host: se-sto.862400.xyz
-    path: /announcement?ed=2048
+      Host: www.cordweave.com
+    path: /assignment
+- name: '🇸🇪 瑞典 | SWE #1'
+  password: humanity
+  port: 443
+  server: 77.221.139.114
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
