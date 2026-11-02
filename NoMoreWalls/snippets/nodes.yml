@@ -162,6 +162,12 @@ proxies:
   server: 51.222.12.127
   type: ss
 - cipher: aes-256-gcm
+  name: 🇨🇴[www.v2nodes.com] ss-CO-1539...
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 149.104.107.41
+  type: ss
+- cipher: aes-256-gcm
   name: 🇪🇬[www.v2nodes.com] ss-EG-1599...
   password: pKEW8JPByTVTLtM
   port: 443
@@ -198,11 +204,18 @@ proxies:
   server: 94.156.250.148
   type: ss
 - cipher: aes-256-gcm
-  name: 🇮🇹[www.v2nodes.com] ss-IT-1602...
+  name: 🇮🇳[www.v2nodes.com] ss-IN-1561...
+  password: GEdoeeqLZtkJRgSa
+  port: 8388
+  server: 139.84.166.47
+  type: ss
+- cipher: aes-256-gcm
+  name: '🇮🇹 意大利 | ITA #2'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
   type: ss
+  udp: true
 - cipher: aes-256-gcm
   name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -228,12 +241,11 @@ proxies:
   server: 202.50.253.99
   type: ss
 - cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #2'
+  name: '🇮🇹 意大利 | ITA #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.45
   type: ss
-  udp: true
 - cipher: aes-256-gcm
   name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #6'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -241,18 +253,18 @@ proxies:
   server: 202.50.253.36
   type: ss
 - cipher: aes-256-gcm
-  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #7'
+  name: 🇮🇹 意大利 | ITA 2
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.81
   type: ss
+  udp: true
 - cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #1'
+  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #8'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
   type: ss
-  udp: true
 - cipher: aes-256-gcm
   name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #9'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -280,7 +292,7 @@ proxies:
 - cipher: aes-256-gcm
   name: 🇯🇵[www.v2nodes.com] ss-JP-1544...
   password: 3eOFeNssde7PYYMv
-  port: 80
+  port: 443
   server: 84.247.155.196
   type: ss
 - cipher: aes-128-gcm
@@ -291,15 +303,15 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   name: 🇰🇷[www.v2nodes.com] ss-KR-1185...
-  password: RexnBgU7EV5ADxG
-  port: 7001
+  password: TEzjfAYq2IjtuoS
+  port: 6679
   server: 141.164.45.187
   type: ss
-- cipher: aes-256-gcm
-  name: 🇲🇽[www.v2nodes.com] ss-MX-1564...
-  password: BWyPPTusFKhGgzKh
-  port: 8388
-  server: 64.177.90.30
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱[www.v2nodes.com] ss-NL-1610...
+  password: hNfeLCN3XzYgLFSAWo_fxOl4HC1gNw0V
+  port: 8044
+  server: dns22.m3hrzd.ir
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱[www.v2nodes.com] ss-NL-1604...
@@ -335,7 +347,7 @@ proxies:
   name: 🇵🇱[www.v2nodes.com] ss-PL-1273...
   password: 6heexyz
   port: 443
-  server: pl140.vpnbook.com
+  server: 54.36.174.140
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '🇵🇱[www.v2nodes.com] ss-PL-1273... #1'
@@ -367,12 +379,6 @@ proxies:
   port: 8388
   server: msk2.rvpn.app
   type: ss
-- cipher: aes-256-gcm
-  name: 🇸🇪[www.v2nodes.com] ss-SE-1560...
-  password: AxIYWtskJWIIaefW
-  port: 8388
-  server: 70.34.212.124
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇿🇦[www.v2nodes.com] ss-ZA-1336...
   password: aduB9HGxQHjA2SBMRjkHX6
@@ -399,25 +405,19 @@ proxies:
 - name: '🇨🇦[www.v2nodes.com] trojan-CA-... #6'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 216.152.147.48
-  sni: courses.connectingpeoplewithgreatjobs.com
+  server: 216.152.147.89
   type: trojan
-- name: '🇨🇦[www.v2nodes.com] trojan-CA-... #4'
+- name: '🇨🇦[www.v2nodes.com] trojan-CA-... #2'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 216.152.147.89
+  server: 216.152.147.79
   type: trojan
 - name: '🇨🇦[www.v2nodes.com] trojan-CA-... #5'
+  network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 216.152.147.89
-  sni: www.connectingpeoplewithgreatjobs.com
-  type: trojan
-- name: '🇨🇦[www.v2nodes.com] trojan-CA-... #3'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.147.152
-  sni: learn.connectingpeoplewithgreatjobs.com
+  server: 216.152.147.79
+  sni: blog.connectingpeoplewithgreatjobs.com
   type: trojan
 - name: '🇨🇦[www.v2nodes.com] trojan-CA-... #7'
   network: tcp
@@ -426,7 +426,7 @@ proxies:
   server: ca001.zestapp778.com
   sni: ca001.zestapp778.com
   type: trojan
-- name: '🇨🇭[www.v2nodes.com] trojan-CH-... #1'
+- name: '🇨🇭[www.v2nodes.com] trojan-CH-... #4'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 208.69.78.19
@@ -436,42 +436,41 @@ proxies:
   port: 443
   server: 64.176.7.205
   type: trojan
+- name: 🇩🇪[www.v2nodes.com] trojan-DE-...
+  password: happybirthdaydaniel
+  port: 25267
+  server: de-bots4.h1cloud.net
+  type: trojan
 - name: '🇩🇪[www.v2nodes.com] trojan-DE-... #4'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 193.108.119.15
   sni: courses.iloverussia2026.com
   type: trojan
-- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #1'
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #2'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 193.108.119.96
   sni: learn.iloverussia2026.com
   type: trojan
-- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #2'
+- name: 🏳[www.v2nodes.com] trojan-
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 193.108.119.15
   type: trojan
-- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #3'
+- name: '🇪🇸[www.v2nodes.com] trojan-ES-... #5'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 193.108.119.29
-  sni: blog.iloverussia2026.com
+  server: 66.163.118.244
+  sni: api.discovergreatjobsandadvanceyourcareer.com
   type: trojan
-- name: 🇪🇸[www.v2nodes.com] trojan-ES-...
+- name: '🇪🇸[www.v2nodes.com] trojan-ES-... #2'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 66.163.118.62
-  sni: courses.discovergreatjobsandadvanceyourcareer.com
+  server: 66.163.118.166
+  sni: learn.discovergreatjobsandadvanceyourcareer.com
   type: trojan
-- name: '🇪🇸[www.v2nodes.com] trojan-ES-... #6'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.118.62
-  type: trojan
-- name: '🇪🇸[www.v2nodes.com] trojan-ES-... #3'
-  network: tcp
+- name: '🇪🇸[www.v2nodes.com] trojan-ES-... #1'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 66.163.118.251
@@ -481,15 +480,17 @@ proxies:
 - name: '🇪🇸[www.v2nodes.com] trojan-ES-... #4'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 66.163.118.166
-  sni: learn.discovergreatjobsandadvanceyourcareer.com
+  server: 66.163.118.62
+  sni: courses.discovergreatjobsandadvanceyourcareer.com
   type: trojan
-- name: '🇪🇸[www.v2nodes.com] trojan-ES-... #5'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.118.244
-  sni: api.discovergreatjobsandadvanceyourcareer.com
+- name: 🇩🇪 德国 | DEU 4
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 41184
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
   type: trojan
+  udp: true
 - name: 🇫🇷[www.v2nodes.com] trojan-FR-...
   network: ws
   password: humanity
@@ -606,13 +607,26 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: 🇬🇧[www.v2nodes.com] trojan-GB-...
-  password: 5t6i121em5lkmsmk
-  port: 29813
-  server: en001.zestapp778.com
+- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #10'
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.215.250.14
   skip-cert-verify: true
-  sni: en001.zestapp778.com
+  sni: www.calmlunch.com
   type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: '%2Fassignment'
+- name: 🇭🇰 香港 | HKG 9
+  password: 778f5385b4254495
+  port: 20014
+  server: hik160.pacemakere.com
+  skip-cert-verify: true
+  sni: hik160.pacemakere.com
+  type: trojan
+  udp: true
 - name: 🇮🇱[www.v2nodes.com] trojan-IL-...
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
@@ -627,42 +641,23 @@ proxies:
   sni: in002.zestapp778.com
   type: trojan
 - name: 🇯🇵[www.v2nodes.com] trojan-JP-...
-  password: 9646699a-18b0-4ebc-9f53-453cc1c8e637
-  port: 8443
-  server: 43.167.186.78
-  sni: 43.167.186.78
-  type: trojan
-- name: '🇯🇵[www.v2nodes.com] trojan-JP-... #1'
   password: d050aca3-9df2-4461-90ec-92373c1d7636
   port: 44184
   server: v2jp.k1.ssnss.live
   type: trojan
-- name: '🇯🇵[www.v2nodes.com] trojan-JP-... #2'
+- name: '🇯🇵[www.v2nodes.com] trojan-JP-... #1'
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   port: 8886
   server: 45.32.52.173
   sni: 45.32.52.173
   type: trojan
-- name: 🇲🇾[www.v2nodes.com] trojan-MY-...
+- name: 🇲🇾 马来西亚 | MYS
   password: 5931134d1cde66bf83a54acdfebe7ab2
   port: 443
   server: 47.250.84.25
+  skip-cert-verify: true
   sni: moltbot.doctoroyy.net
   type: trojan
-- alpn:
-  - http/1.1
-  name: 🇳🇱[www.v2nodes.com] trojan-NL-...
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.66.40.99
-  skip-cert-verify: false
-  sni: www.trusteeforward.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.trusteeforward.com
-    path: '%2Fassignment'
 - name: 🇵🇱[www.v2nodes.com] trojan-PL-...
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
@@ -670,69 +665,96 @@ proxies:
   sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
   type: trojan
 - name: 🇸🇬[www.v2nodes.com] trojan-SG-...
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 15589
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #1'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 149.28.130.108
   sni: searchcreativejobsandshowcaseyourartistictalents.com
   type: trojan
-- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #1'
+- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #2'
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   port: 8886
   server: 139.180.146.200
   type: trojan
-- name: 🇺🇸[www.v2nodes.com] trojan-US-...
+- name: 🇹🇼 🇨🇳 台湾 | TWN
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 45503
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 🇹🇼 🇨🇳 台湾 | TWN 2
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 47786
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 🇺🇸 美国 | USA 16
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 38994
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 🇺🇸 美国 | USA 9
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 35929
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #2'
+  password: va3E77I9fZCnCVcGKkxBCfz5
+  port: 443
+  server: 186.241.105.213
+  skip-cert-verify: false
+  sni: vpn.liumr.top
+  type: trojan
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #12'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 167.88.61.193
+  type: trojan
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #7'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 170.101.101.53
   sni: www.explorecreativejobsandenhanceyourcareerportfolio.com
   type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #9'
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #5'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 170.101.101.67
-  sni: courses.explorecreativejobsandenhanceyourcareerportfolio.com
+  server: 170.101.101.19
+  sni: learn.explorecreativejobsandenhanceyourcareerportfolio.com
   type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #2'
-  network: tcp
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #6'
   password: 5t6i121em5lkmsmk
   port: 57277
   server: us001.zestapp778.com
   skip-cert-verify: true
   sni: us001.zestapp778.com
   type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #3'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 170.101.101.131
-  sni: blog.explorecreativejobsandenhanceyourcareerportfolio.com
-  type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #4'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 170.101.101.112
-  sni: resources.explorecreativejobsandenhanceyourcareerportfolio.com
-  type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #8'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 167.88.61.193
-  type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #6'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 170.101.101.211
-  sni: api.explorecreativejobsandenhanceyourcareerportfolio.com
-  type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #7'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 170.101.101.19
-  sni: learn.explorecreativejobsandenhanceyourcareerportfolio.com
-  type: trojan
 - name: '🇺🇸[www.v2nodes.com] trojan-US-... #10'
-  password: MiTiVPN
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 167.82.64.120
+  server: 170.101.101.53
+  type: trojan
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #13'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 170.101.101.67
+  sni: courses.explorecreativejobsandenhanceyourcareerportfolio.com
   type: trojan
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
@@ -1020,41 +1042,98 @@ proxies:
   sni: m.ctrip.com
   type: trojan
 - client-fingerprint: chrome
-  name: 🇩🇪DE_8|1.4MB/s
-  password: happybirthdaydaniel
-  port: 25267
-  server: de-bots4.h1cloud.net
-  skip-cert-verify: true
-  sni: t.me/fuckthewall
-  type: trojan
-  udp: true
-- name: '🇩🇪 德国 | DEU #6'
-  password: happybirthdaydaniel
-  port: 25267
-  server: de-bots4.h1cloud.net
-  skip-cert-verify: true
-  sni: t.me/FuckTheWall
-  type: trojan
-  udp: true
-- name: 🇩🇪 德国 | DEU 8
-  network: ws
-  password: humanity
+  name: 🇺🇸US_11|1.7MB/s
+  network: tcp
+  password: va3E77I9fZCnCVcGKkxBCfz5
   port: 443
-  server: 165.22.89.207
+  server: vpn.liumr.top
+  servername: vpn.liumr.top
   skip-cert-verify: true
-  sni: www.cordweave.com
+  sni: vpn.liumr.top
+  tls: true
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
+- name: 🇹🇼TW_1|3.0MB/s
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 54815
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 🇳🇱NL_5|2.5MB/s
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 38963
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 🇰🇷KR_1|3.5MB/s
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 29628
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 🇹🇼TW_2|1.4MB/s
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 22003
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 🇺🇸US_9|2.1MB/s
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 26429
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 🇧🇷 巴西 | BRA
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 16932
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 🇩🇪 德国 | DEU 2
+  port: 30553
+  server: 109.70.74.113
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8846e18f-109a-4d8f-a32f-1a41fd6afc8e
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 香港 | HKG #1'
+  name: 🇭🇰 香港 | HKG 2
+  network: ws
+  port: 23026
+  server: 47.244.120.197
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
+  ws-opts:
+    headers:
+      Host: 47.244.120.197
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港 | HKG 3
   network: ws
   port: 443
-  server: vah4urdzl3jdx5r2.v.3dns.vip
+  server: 47.243.153.153
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -1062,27 +1141,31 @@ proxies:
   uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   ws-opts:
     headers:
-      Host: vah4urdzl3jdx5r2.v.3dns.vip
+      Host: i2psm3knof5qjjix.v.3dns.vip
     path: /ws-vmess
-- name: 🇭🇰 香港 | HKG 2
-  network: ws
-  password: humanity
-  port: 8443
-  server: 207.57.132.189
+- name: 🇭🇰 香港 | HKG 4
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 53004
+  server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
-  sni: www.cordweave.com
+  sni: cm.g.doubleclick.net
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
+- name: 🇭🇰 香港 | HKG 6
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 43638
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: '🇭🇰 香港 | HKG #3'
+  name: 🇭🇰 香港 | HKG 7
   network: ws
   port: 443
-  server: 8.218.195.61
+  server: 8.217.254.88
+  servername: 2b9hwy8ocx7q74nm.v.3dns.vip
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -1090,28 +1173,81 @@ proxies:
   uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   ws-opts:
     headers:
-      Host: EX1oGt73NzPQKAc2.v.3dns.vip
+      Host: 2b9hwy8ocx7q74nm.v.3dns.vip
     path: /ws-vmess
-- name: 🇰🇷 韩国 | KOR
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港 | HKG 8
   network: ws
-  password: humanity
   port: 443
-  server: 64.110.82.71
+  server: 47.243.65.243
+  servername: lcv8v9l7oyamxxfz.v.3dns.vip
   skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
+  tls: true
+  type: vmess
   udp: true
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   ws-opts:
     headers:
-      Host: www.cordweave.com
-    path: /assignment
-- cipher: chacha20-ietf-poly1305
-  name: '🇳🇱 荷兰 | NLD #3'
-  password: hNfeLCN3XzYgLFSAWo_fxOl4HC1gNw0V
-  port: 8044
-  server: dns22.m3hrzd.ir
-  type: ss
+      Host: lcv8v9l7oyamxxfz.v.3dns.vip
+    path: /ws-vmess
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - openai.com
+    method: GET
+    path:
+    - /QQqun-737805443
+  name: 🇭🇰 香港 | HKG 10
+  network: http
+  port: 52080
+  server: 47.242.81.94
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
+  uuid: e47b9f77-60e4-4738-8d53-772b6002e146
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 日本 | JPN
+  port: 28787
+  server: qdiysly-g05.jp06-jz-vm0.entry.fr0528.art
+  servername: qdiysly-g05.jp06-jz-vm0.entry.fr0528.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- name: 🇯🇵 日本 | JPN 2
+  password: ef95390a-0bcb-45b8-a2bc-3ab33bf0e297
+  port: 40014
+  server: zz.jp01.fogvip-zz.uk
+  skip-cert-verify: true
+  sni: ld.jp01.yuiuingkig.icu
+  type: trojan
+  udp: true
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 🇯🇵 日本 | JPN 3
+  network: ws
+  port: 443
+  server: JP032008.ssgreen.org
+  servername: JP032008.ssgreen.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9ddbe6b7-8ad5-43d5-b30a-35e35b633103
+  ws-opts:
+    headers:
+      Host: JP032008.ssgreen.org
+    path: /wes
 - cipher: aes-256-gcm
   name: '🇷🇺 俄罗斯 | RUS #1'
   password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
@@ -1119,9 +1255,25 @@ proxies:
   server: 46.17.46.27
   type: ss
   udp: true
+- name: 🇸🇬 新加坡 | SGP
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 42338
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 🇸🇬 新加坡 | SGP 6
+  password: ef95390a-0bcb-45b8-a2bc-3ab33bf0e297
+  port: 40013
+  server: zz.xinjp01.fogvip-zz.uk
+  skip-cert-verify: true
+  sni: ld.xinjp01.yuiuingkig.icu
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: '🇺🇸 美国 | USA #19'
+  name: 🇺🇸 美国 | USA 12
   network: ws
   port: 443
   server: cf.0sm.com
@@ -1135,24 +1287,89 @@ proxies:
     headers:
       Host: vmess.lbw666.dpdns.org
     path: /ws
-- name: '🇩🇪 德国 | DEU #7'
-  password: humanity
-  port: 443
-  server: 165.22.89.207
+- name: 🇺🇸 美国 | USA 15
+  password: ef95390a-0bcb-45b8-a2bc-3ab33bf0e297
+  port: 40044
+  server: zz.usa02.fogvip-zz.uk
   skip-cert-verify: true
-  sni: www.cordweave.com
+  sni: ld.meiguo02.yuiuingkig.icu
   type: trojan
-- name: '🇭🇰 香港 | HKG #2'
-  password: humanity
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰 香港 | HKG #1'
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  tls: false
+  type: vmess
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰 香港 | HKG #2'
+  network: ws
+  port: 443
+  server: i2psm3knof5qjjix.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: i2psm3knof5qjjix.v.3dns.vip
+    path: /ws-vmess
+- name: '🇭🇰 香港 | HKG #3'
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 41495
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+- name: '🇯🇵 日本 | JPN #1'
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 18295
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+- name: '🇯🇵 日本 | JPN #2'
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 24914
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+- name: 🇰🇷 韩国 | KOR
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 18572
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: '🇸🇬 新加坡 | SGP #1'
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 8443
-  server: 207.57.132.189
+  server: 18.143.185.164
+  type: ss
+- name: '🇸🇬 新加坡 | SGP #2'
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 37212
+  server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
-  sni: www.cordweave.com
+  sni: cm.g.doubleclick.net
   type: trojan
-- name: '🇰🇷 韩国 | KOR #1'
-  password: humanity
+- name: '🇸🇬 新加坡 | SGP #3'
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 47966
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+- cipher: aes-256-gcm
+  name: '🇺🇸 美国 | USA #16'
+  password: 6lb9wr4ibspbl022
   port: 443
-  server: 64.110.82.71
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
+  server: b2friday.buzrel.ir
+  type: ss

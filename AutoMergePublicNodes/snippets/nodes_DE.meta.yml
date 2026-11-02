@@ -9,16 +9,58 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 🇩🇪204269 | ⚡️Telegram = t.me/S...
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 3.76.221.4
+- name: 'Telegram@vpnjey #7'
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
+  password: vpnjey
+  port: 36264
+  server: 179.61.138.145
   skip-cert-verify: true
-  sni: 3.76.221.4
+  sni: de2.jey.cc.cd
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
+- encryption: none
   name: '🇩🇪[www.v2nodes.com] vless-DE-1... #1'
+  network: ws
+  port: 443
+  server: 188.114.96.198
+  servername: tepar-k4j9.jounet.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: b15f187e-9b34-437c-8243-8651a8ada76c
+  ws-opts:
+    headers:
+      Host: tepar-k4j9.jounet.workers.dev
+    path: /stream/DEVCOP/8651a8ada76c/loc-1
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #3'
+  network: tcp
+  port: 63053
+  server: 179.253.179.109
+  servername: de2.derevohom.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: e3aa3d22-a95e-407b-aacc-d855b90a5d70
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #4'
+  network: ws
+  port: 465
+  server: hw14.roghanmo.com
+  servername: hw14.roghanmo.com.
+  tls: true
+  type: vless
+  uuid: 98aa35fc-7d2f-4744-a91b-7e33b4fdd9c8
+  ws-opts:
+    headers:
+      Host: hw14.roghanmo.com
+    path: /
+- client-fingerprint: chrome
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #8'
   network: ws
   port: 2083
   server: 140.225.208.140
@@ -33,7 +75,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: safari
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #3'
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #10'
   network: ws
   port: 2083
   server: 140.225.208.60
@@ -46,7 +88,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #4'
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #11'
   network: ws
   port: 443
   server: 195.141.65.98
@@ -58,67 +100,63 @@ proxies:
     headers:
       Host: 148-253-210-191.sslip.io
     path: /test-ws
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  encryption: none
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #5'
-  network: ws
-  port: 443
-  server: z1q3pv4g78.rucdncomp.pro
-  servername: z1q3pv4g78.rucdncomp.pro
-  tls: true
-  type: vless
-  uuid: c720cb74-4c84-4fce-b8ae-637dbaa16199
-  ws-opts:
-    headers:
-      Host: z1q3pv4g78.rucdncomp.pro
-    path: /useraction/events/b892639b7195/
-- encryption: none
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #9'
-  network: ws
-  port: 465
-  server: 91.107.180.176
-  servername: hw7.divarkhaghazi.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: d0d3d49c-56e8-40e1-9e83-793d03f83d93
-  ws-opts:
-    headers:
-      Host: hw7.divarkhaghazi.com.
-    path: /
 - name: 🇩🇪[www.v2nodes.com] trojan-DE-...
+  password: happybirthdaydaniel
+  port: 25267
+  server: de-bots4.h1cloud.net
+  type: trojan
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #4'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 193.108.119.15
   sni: courses.iloverussia2026.com
   type: trojan
-- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #1'
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #2'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.96
+  sni: learn.iloverussia2026.com
+  type: trojan
+- name: 🏳[www.v2nodes.com] trojan-
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 193.108.119.15
   type: trojan
-- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #3'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+- name: 🇩🇪DE_10|2.6MB/s
+  password: None
   port: 443
-  server: 193.108.119.29
-  sni: blog.iloverussia2026.com
-  type: trojan
-- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #5'
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_8|2.7MB/s
+  password: None
   port: 443
-  server: 193.108.119.96
-  skip-cert-verify: false
-  sni: learn.iloverussia2026.com
-  type: trojan
-- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #6'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_3|2.2MB/s
+  password: None
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: DE_speednode_0004
   port: 443
-  server: 193.108.119.78
-  sni: www.iloverussia2026.com
-  type: trojan
+  server: 213.109.163.119
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: DK_speednode_0005
+  port: 9002
+  server: 158.173.154.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: DK_speednode_0006
   port: 9002
   server: 158.173.154.1
@@ -126,40 +164,69 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: 🇩🇪DE_2|1023KB/s
-  password: None
-  port: 443
-  server: 152.233.20.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_3|3.0MB/s
-  password: None
+- name: 🇩🇪DE_7|3.6MB/s
   port: 9002
   server: 158.173.154.3
   skip-cert-verify: true
   tls: true
   type: http
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #1'
-  network: ws
+- name: 🇩🇪DE_9|2.3MB/s
   port: 443
-  server: 199.232.239.239
-  servername: firefox.com
+  server: 87.106.223.158
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_11|1.6MB/s
+  password: None
+  port: 443
+  server: 193.233.75.115
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_12|2.9MB/s
+  password: None
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_13|2.8MB/s
+  port: 12345
+  server: 141.147.19.47
+  skip-cert-verify: true
+  type: http
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 🇩🇪 德国 | DEU 2
+  port: 30553
+  server: 109.70.74.113
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8846e18f-109a-4d8f-a32f-1a41fd6afc8e
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #3'
+  network: xhttp
+  port: 443
+  server: 151.101.67.6
+  servername: amp-api-edge.apps.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 40694ced-9a8c-42fd-f5f8-3ac3c8b27fc2
-  ws-opts:
-    headers:
-      Host: mpkoe7ypcibr80p102020123.global.ssl.fastly.net
-    path: /@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel?ed=2056
+  uuid: bdf38176-48e9-40f1-9d1c-d501c333b464
+  xhttp-opts:
+    host: kkbr.tm
+    mode: auto
+    path: /crownnet
 - alpn:
   - h3
   client-fingerprint: edge
-  name: '🇩🇪 德国 | DEU #2'
+  name: '🇩🇪 德国 | DEU #5'
   network: xhttp
   port: 443
   server: 151.101.131.6
@@ -172,10 +239,42 @@ proxies:
     host: kkbr.tm
     mode: auto
     path: /crownnet
-- name: DE_speednode_0004
+- client-fingerprint: random
+  name: '🇩🇪 德国 | DEU #6'
+  network: ws
   port: 443
-  server: 213.109.163.119
-  skip-cert-verify: true
+  server: 185.184.122.157
+  servername: se-sto.862400.xyz
   tls: true
-  type: http
+  type: vless
   udp: true
+  uuid: 9c55c7eb-d53e-40fa-a0c9-e25d2a345073
+  ws-opts:
+    headers:
+      Host: se-sto.862400.xyz
+    path: /announcement?ed=2048
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: safari
+  name: '🇩🇪 德国 | DEU #7'
+  network: xhttp
+  port: 18443
+  server: 103.88.242.98
+  servername: 5.42.118.163
+  tls: true
+  type: vless
+  udp: true
+  uuid: 260c3225-67b4-4d36-ac56-fef94aaef311
+  xhttp-opts:
+    mode: packet-up
+    path: /assets/twru01/
+- alterId: 0
+  cipher: auto
+  name: '🇩🇪 德国 | DEU #2'
+  network: tcp
+  port: 30553
+  server: 109.70.74.113
+  tls: false
+  type: vmess
+  uuid: 8846e18f-109a-4d8f-a32f-1a41fd6afc8e

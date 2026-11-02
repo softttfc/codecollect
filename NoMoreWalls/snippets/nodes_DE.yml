@@ -1,61 +1,35 @@
 proxies:
+- name: 🇩🇪[www.v2nodes.com] trojan-DE-...
+  password: happybirthdaydaniel
+  port: 25267
+  server: de-bots4.h1cloud.net
+  type: trojan
 - name: '🇩🇪[www.v2nodes.com] trojan-DE-... #4'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 193.108.119.15
   sni: courses.iloverussia2026.com
   type: trojan
-- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #1'
+- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #2'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 193.108.119.96
   sni: learn.iloverussia2026.com
   type: trojan
-- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #2'
+- name: 🏳[www.v2nodes.com] trojan-
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 193.108.119.15
   type: trojan
-- name: '🇩🇪[www.v2nodes.com] trojan-DE-... #3'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 193.108.119.29
-  sni: blog.iloverussia2026.com
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇩🇪DE_8|1.4MB/s
-  password: happybirthdaydaniel
-  port: 25267
-  server: de-bots4.h1cloud.net
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 🇩🇪 德国 | DEU 2
+  port: 30553
+  server: 109.70.74.113
   skip-cert-verify: true
-  sni: t.me/fuckthewall
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: '🇩🇪 德国 | DEU #6'
-  password: happybirthdaydaniel
-  port: 25267
-  server: de-bots4.h1cloud.net
-  skip-cert-verify: true
-  sni: t.me/FuckTheWall
-  type: trojan
-  udp: true
-- name: 🇩🇪 德国 | DEU 8
-  network: ws
-  password: humanity
-  port: 443
-  server: 165.22.89.207
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: '🇩🇪 德国 | DEU #7'
-  password: humanity
-  port: 443
-  server: 165.22.89.207
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
+  uuid: 8846e18f-109a-4d8f-a32f-1a41fd6afc8e

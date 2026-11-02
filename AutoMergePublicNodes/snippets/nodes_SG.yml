@@ -1,15 +1,22 @@
 proxies:
-- name: 🇸🇬[www.v2nodes.com] trojan-SG-...
+- name: 🇸🇬SG_2|3.5MB/s
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 15589
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #1'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 149.28.130.108
   sni: searchcreativejobsandshowcaseyourartistictalents.com
   type: trojan
-- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #1'
+- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #2'
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   port: 8886
   server: 139.180.146.200
-  sni: 139.180.146.200
   type: trojan
 - alterId: 0
   cipher: auto
@@ -49,23 +56,19 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇸🇬 新加坡 | SGP 2
-  network: ws
-  password: humanity
-  port: 443
-  server: 194.114.138.162
+- name: '🇸🇬 新加坡 | SGP #1'
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 42338
+  server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
-  sni: www.cordweave.com
+  sni: cm.g.doubleclick.net
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: '🇸🇬 新加坡 | SGP #2'
-  password: humanity
-  port: 443
-  server: 194.114.138.162
+- name: '🇸🇬 新加坡 | SGP #5'
+  password: ef95390a-0bcb-45b8-a2bc-3ab33bf0e297
+  port: 40013
+  server: zz.xinjp01.fogvip-zz.uk
   skip-cert-verify: true
-  sni: www.cordweave.com
+  sni: ld.xinjp01.yuiuingkig.icu
   type: trojan
+  udp: true
