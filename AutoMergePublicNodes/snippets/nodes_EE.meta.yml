@@ -1,25 +1,35 @@
 proxies:
+- name: '🇪🇪[www.v2nodes.com] vless-EE-1... #1'
+  port: 443
+  server: 185.225.205.53
+  tls: false
+  type: vless
+  uuid: 3d526c7f-059c-4e2b-b09a-8569b268935b
 - client-fingerprint: firefox
-  name: '🇪🇪[www.v2nodes.com] vless-EE-1... #3'
-  network: tcp
-  port: 57043
-  server: 179.253.179.109
-  servername: 87.121.86.24
+  name: '🇪🇪 爱沙尼亚 | EST #1'
+  network: xhttp
+  port: 34451
+  server: 31.56.187.35
+  servername: ee-2e06d85dc0.shamanapp.online
   tls: true
   type: vless
-  uuid: da8fab8e-4a25-4eb0-b224-88ab96c753ce
-  ws-opts:
-    path: /
-- name: 🇪🇪EE_1|2.5MB/s
-  password: None
-  port: 9443
-  server: 192.159.101.174
-  skip-cert-verify: true
+  udp: true
+  uuid: 5d9fb46f-c4bc-4d6e-9a26-a4d5f51abd28
+  xhttp-opts:
+    host: ee-2e06d85dc0.shamanapp.online
+    mode: stream-up
+    path: /ShamanXHTTP2026
+- client-fingerprint: chrome
+  name: '🇪🇪 爱沙尼亚 | EST #2'
+  network: xhttp
+  port: 34451
+  server: ee-2e06d85dc0.shamanapp.online
+  servername: ee-2e06d85dc0.shamanapp.online
   tls: true
-  type: http
-- name: 🇪🇪EE_2|2.6MB/s
-  port: 9443
-  server: 95.153.31.66
-  skip-cert-verify: true
-  tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: 5d9fb46f-c4bc-4d6e-9a26-a4d5f51abd28
+  xhttp-opts:
+    host: ee-2e06d85dc0.shamanapp.online
+    mode: stream-up
+    path: /ShamanXHTTP2026

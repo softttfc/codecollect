@@ -54,22 +54,20 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
-        "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
+        "🇮🇷 IR | VLESS | @father_vpn #1 [medium]",
         "🇽🇽 XX | VLESS | @lockey_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @lockey_vpn #2 [fast]",
-        "🇮🇷 IR | VLESS | @luckyvpn #1 [fast]",
-        "🇮🇷 IR | VLESS | @luckyvpn #2 [fast]",
         "🇽🇽 XX | VLESS | @kilid_stor #1 [fast]",
         "🇽🇽 XX | VLESS | @f_nirevil #1 [fast]",
         "🇽🇽 XX | VLESS | @f_nirevil #2 [fast]",
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
+        "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
         "🇺🇸 US | VLESS | @Proxymelimon #1 [fast]",
-        "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
+        "🇲🇩 MD | VLESS | @red2ray #2 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #1 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #2 [fast]",
-        "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
         "🇮🇷 IR | VLESS | @prooxyk #1 [fast]",
         "🇽🇽 XX | VLESS | @iranvipnet #1 [fast]",
         "🇺🇸 US | VLESS | @iranvipnet #1 [fast]",
@@ -102,22 +100,20 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
-        "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
+        "🇮🇷 IR | VLESS | @father_vpn #1 [medium]",
         "🇽🇽 XX | VLESS | @lockey_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @lockey_vpn #2 [fast]",
-        "🇮🇷 IR | VLESS | @luckyvpn #1 [fast]",
-        "🇮🇷 IR | VLESS | @luckyvpn #2 [fast]",
         "🇽🇽 XX | VLESS | @kilid_stor #1 [fast]",
         "🇽🇽 XX | VLESS | @f_nirevil #1 [fast]",
         "🇽🇽 XX | VLESS | @f_nirevil #2 [fast]",
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
+        "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
         "🇺🇸 US | VLESS | @Proxymelimon #1 [fast]",
-        "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
+        "🇲🇩 MD | VLESS | @red2ray #2 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #1 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #2 [fast]",
-        "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
         "🇮🇷 IR | VLESS | @prooxyk #1 [fast]",
         "🇽🇽 XX | VLESS | @iranvipnet #1 [fast]",
         "🇺🇸 US | VLESS | @iranvipnet #1 [fast]",
@@ -194,7 +190,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
+      "tag": "🇮🇷 IR | VLESS | @father_vpn #1 [medium]",
       "server": "snapp.ir",
       "server_port": 2052,
       "uuid": "7b81a350-89c3-47da-a3a9-5f2b65313d03",
@@ -218,40 +214,6 @@
       "uuid": "8a20ecfe-6a72-4e88-aa2c-65a9e43a8512",
       "network": "httpupgrade",
       "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @luckyvpn #1 [fast]",
-      "server": "blue.rodya.ir",
-      "server_port": 443,
-      "uuid": "e0fa5345-c640-4458-8049-42ed926d3b2c",
-      "network": "xhttp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "blue.rodya.ir",
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ]
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇷 IR | VLESS | @luckyvpn #2 [fast]",
-      "server": "blue.rodya.ir",
-      "server_port": 443,
-      "uuid": "e0fa5345-c640-4458-8049-42ed926d3b2c",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "blue.rodya.ir",
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ]
-      }
     },
     {
       "type": "vless",
@@ -328,6 +290,34 @@
     },
     {
       "type": "vless",
+      "tag": "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
+      "server": "sub.shadowsokstes.workers.dev",
+      "server_port": 2096,
+      "uuid": "70f5d3b8-7d31-4d7d-9467-e43752d66fca",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "sub.shadowsokstes.WoRkErs.DeV",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "vless-ws/?ed=2048",
+        "headers": {
+          "Host": "sub.shadowsokstes.WoRkErs.DeV"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇺🇸 US | VLESS | @Proxymelimon #1 [fast]",
       "server": "wwww.qarvian.ir",
       "server_port": 443,
@@ -349,24 +339,28 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
-      "server": "bigshagy.zqpm.ir",
-      "server_port": 5780,
-      "uuid": "996f6fed-a94e-4e9d-b876-82bc4ad02847",
-      "network": "tcp",
+      "tag": "🇲🇩 MD | VLESS | @red2ray #2 [fast]",
+      "server": "md3.univesalsrv.com",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "network": "grpc",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "yahoo.com",
+        "server_name": "md3.univesalsrv.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "PF8LdirtBEOQ_w9-1-i3mhgeFYbIQ1iOu1FPCfxUHQo",
-          "short_id": "2efbb0033df59520"
+          "public_key": "q38CddDj2g-XNDc0uW1m6S6b8iGY_Bne2RwX7C_FYCQ",
+          "short_id": "9a72d40f1ff882b3"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "stats.v2.PushService"
       }
     },
     {
@@ -411,34 +405,6 @@
       "uuid": "DIGIV2RAY",
       "network": "httpupgrade",
       "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
-      "server": "sub.shadowsokstes.workers.dev",
-      "server_port": 2096,
-      "uuid": "70f5d3b8-7d31-4d7d-9467-e43752d66fca",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "sub.shadowsokstes.WoRkErs.DeV",
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "vless-ws/?ed=2048",
-        "headers": {
-          "Host": "sub.shadowsokstes.WoRkErs.DeV"
-        }
-      }
     },
     {
       "type": "vless",

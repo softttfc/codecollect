@@ -19,7 +19,6 @@ proxies:
   - {"name": "🇺🇸 US | VLESS | @flyv2ray #1 [fast]", "server": "199.232.78.159", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "f9a9aa1f-75fb-4490-9155-85567af7a0ff", "network": "ws", "tls": true, "udp": true, "client-fingerprint": "chrome", "servername": "cdn.akamai.steamstatic.com", "ws-opts": {"path": "", "headers": {"Host": "copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net."}}}
   - {"name": "🇺🇸 US | VMESS | @freev2rays #1 [fast]", "server": "xc115-1.meiziba5566.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "f40a8d65-a9ac-42ce-ebcc-9e6447a9866d", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/f40a8d65", "headers": {"Host": "xc115-1.meiziba5566.com"}}}
   - {"name": "🇺🇸 US | VMESS | @freev2rays #2 [fast]", "server": "xcf037.facai2024.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d9863037-0463-4615-e972-36ba9662d1e9", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/d9863037", "headers": {"Host": "xcf037.facai2024.com"}}}
-  - {"name": "🇺🇸 US | VLESS | @bored_vpn #1 [fast]", "server": "199.232.78.170", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "XpnTeam-51", "network": "ws", "tls": true, "udp": true, "client-fingerprint": "chrome", "servername": "cdn.akamai.steamstatic.com", "ws-opts": {"path": "", "headers": {"Host": "Appxdn.global.ssl.fastly.net"}}}
   - {"name": "🇺🇸 US | VLESS | @netmellianti #1 [fast]", "server": "23.235.33.98", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "b742d8e7-ed7d-4f7d-bb16-bf49bdb4cb44", "network": "xhttp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇺🇸 US | VLESS | @free4allvpn #1 [fast]", "server": "151.101.25.242", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "02d87d00-c769-48d8-91cb-bd05e2f62790", "network": "xhttp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇺🇸 US | VLESS | @Proxymelimon #1 [fast]", "server": "wwww.qarvian.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "e9a9d2ba-8c33-4e5e-a903-efa595db2fff", "network": "ws", "tls": true, "udp": true, "client-fingerprint": "chrome", "servername": "cdn.akamai.steamstatic.com", "ws-opts": {"path": "", "headers": {"Host": "copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net."}}}
@@ -31,6 +30,7 @@ proxies:
   - {"name": "🇺🇸 US | VLESS | @jokerv2ray #1 [fast]", "server": "66.235.200.51", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "6aeba177-ee11-41c0-9d51-5136a3032deb", "network": "ws", "tls": true, "udp": true, "client-fingerprint": "chrome", "servername": "joinchannel.buffalochest.cfd", "ws-opts": {"path": "", "headers": {"Host": "capitalnet.buffalochest.cfd"}}}
   - {"name": "🇺🇸 US | VLESS | @jokerv2ray #2 [fast]", "server": "66.235.200.51", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "a70e4c16-319a-49e4-bbe1-aa8c34d1380b", "network": "grpc", "tls": true, "udp": true, "client-fingerprint": "chrome", "servername": "figr1.blackflag.blog", "grpc-opts": {"grpc-service-name": "jkrv2ry"}}
   - {"name": "🇺🇸 US | VMESS | @NamiraConfigs #1 [fast]", "server": "57.129.132.223", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "a25cbf11-2908-4a1b-a3a8-9a571777dca3", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/vmess/", "headers": {"Host": "google.com"}}}
+  - {"name": "🇺🇸 US | VLESS | @netfreedom0 #1 [fast]", "server": "199.232.78.159", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "cd07ae0d-f31d-4209-a0a4-d9d9cfcca1ad", "network": "ws", "tls": true, "udp": true, "client-fingerprint": "chrome", "servername": "firefox.com", "ws-opts": {"path": "", "headers": {"Host": "copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net."}}}
   - {"name": "🇺🇸 US | VLESS | @iranvipnet #1 [fast]", "server": "hajlab.ucdavis.edu", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "Telegram-VPNCUSTOMIZE", "network": "ws", "tls": true, "udp": true, "client-fingerprint": "randomized", "servername": "hajlab.ucdavis.edu", "ws-opts": {"path": "", "headers": {"Host": "JoinBedeeee--VPNCUSTOMIZE.ir"}}}
   - {"name": "🇺🇸 US | VLESS | @iranvipnet #2 [fast]", "server": "hajlab.ucdavis.edu", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "Telegram-VPNCUSTOMIZE", "network": "ws", "tls": true, "udp": true, "client-fingerprint": "randomized", "servername": "hajlab.ucdavis.edu", "ws-opts": {"path": "", "headers": {"Host": "6.fidsxss16x.ir"}}}
   - {"name": "🇺🇸 US | VLESS | @iranvipnet #3 [fast]", "server": "hajlab.ucdavis.edu", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "82409acf-abb1-4f97-b4b2-4ebf40e8b507", "network": "ws", "tls": true, "udp": true, "client-fingerprint": "randomized", "servername": "hajlab.ucdavis.edu", "ws-opts": {"path": "", "headers": {"Host": "JoinBedee--VPNCUSTOMIZE.ai"}}}
@@ -79,7 +79,6 @@ proxy-groups:
       - '🇺🇸 US | VLESS | @flyv2ray #1 [fast]'
       - '🇺🇸 US | VMESS | @freev2rays #1 [fast]'
       - '🇺🇸 US | VMESS | @freev2rays #2 [fast]'
-      - '🇺🇸 US | VLESS | @bored_vpn #1 [fast]'
       - '🇺🇸 US | VLESS | @netmellianti #1 [fast]'
       - '🇺🇸 US | VLESS | @free4allvpn #1 [fast]'
       - '🇺🇸 US | VLESS | @Proxymelimon #1 [fast]'
@@ -91,6 +90,7 @@ proxy-groups:
       - '🇺🇸 US | VLESS | @jokerv2ray #1 [fast]'
       - '🇺🇸 US | VLESS | @jokerv2ray #2 [fast]'
       - '🇺🇸 US | VMESS | @NamiraConfigs #1 [fast]'
+      - '🇺🇸 US | VLESS | @netfreedom0 #1 [fast]'
       - '🇺🇸 US | VLESS | @iranvipnet #1 [fast]'
       - '🇺🇸 US | VLESS | @iranvipnet #2 [fast]'
       - '🇺🇸 US | VLESS | @iranvipnet #3 [fast]'
@@ -139,7 +139,6 @@ proxy-groups:
       - '🇺🇸 US | VLESS | @flyv2ray #1 [fast]'
       - '🇺🇸 US | VMESS | @freev2rays #1 [fast]'
       - '🇺🇸 US | VMESS | @freev2rays #2 [fast]'
-      - '🇺🇸 US | VLESS | @bored_vpn #1 [fast]'
       - '🇺🇸 US | VLESS | @netmellianti #1 [fast]'
       - '🇺🇸 US | VLESS | @free4allvpn #1 [fast]'
       - '🇺🇸 US | VLESS | @Proxymelimon #1 [fast]'
@@ -151,6 +150,7 @@ proxy-groups:
       - '🇺🇸 US | VLESS | @jokerv2ray #1 [fast]'
       - '🇺🇸 US | VLESS | @jokerv2ray #2 [fast]'
       - '🇺🇸 US | VMESS | @NamiraConfigs #1 [fast]'
+      - '🇺🇸 US | VLESS | @netfreedom0 #1 [fast]'
       - '🇺🇸 US | VLESS | @iranvipnet #1 [fast]'
       - '🇺🇸 US | VLESS | @iranvipnet #2 [fast]'
       - '🇺🇸 US | VLESS | @iranvipnet #3 [fast]'
