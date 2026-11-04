@@ -16,29 +16,24 @@ proxies:
   server: 167.88.61.198
   sni: cdn.browseseniorrolesandenhanceyourcareertoday.com
   type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #2'
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #3'
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 38994
   server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #3'
+- name: '🇺🇸[www.v2nodes.com] trojan-US-... #4'
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   port: 35929
   server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #4'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 170.101.101.53
-  type: trojan
 - name: '🇺🇸[www.v2nodes.com] trojan-US-... #5'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 170.101.101.131
+  server: 170.101.101.53
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
@@ -64,11 +59,123 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- name: '🇺🇸 美国 | USA #4'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+- name: 🇺🇸 美国 | USA
+  network: ws
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
   port: 443
-  server: 167.88.61.52
+  server: 179.253.239.152
   skip-cert-verify: true
-  sni: courses.browseseniorrolesandenhanceyourcareertoday.com
+  sni: api.85s.me
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: api.85s.me
+    path: /
+- name: 🇺🇸 美国 | USA 2
+  network: ws
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  port: 443
+  server: 179.255.115.161
+  skip-cert-verify: true
+  sni: api.85s.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: api.85s.me
+    path: /
+- name: 🇺🇸 美国 | USA 5
+  network: ws
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  port: 443
+  server: 179.253.255.213
+  skip-cert-verify: true
+  sni: api.85s.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: api.85s.me
+    path: /
+- name: 🇺🇸 美国 | USA 7
+  network: ws
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  port: 443
+  server: 47.75.104.211
+  skip-cert-verify: true
+  sni: api.85s.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: api.85s.me
+    path: /
+- name: 🇺🇸 美国 | USA 9
+  network: ws
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  port: 443
+  server: 104.24.0.4
+  skip-cert-verify: true
+  sni: api.85s.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: api.85s.me
+    path: /
+- name: 🇺🇸 美国 | USA 12
+  network: ws
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  port: 443
+  server: 179.253.255.7
+  skip-cert-verify: true
+  sni: api.85s.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: api.85s.me
+    path: /
+- name: '🇺🇸 美国 | USA #1'
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  port: 443
+  server: 179.253.239.152
+  skip-cert-verify: true
+  sni: api.85s.me
+  type: trojan
+- name: '🇺🇸 美国 | USA #2'
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  port: 443
+  server: 179.255.115.161
+  skip-cert-verify: true
+  sni: api.85s.me
+  type: trojan
+- name: '🇺🇸 美国 | USA #5'
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  port: 443
+  server: 179.253.255.213
+  skip-cert-verify: true
+  sni: api.85s.me
+  type: trojan
+- name: '🇺🇸 美国 | USA #7'
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  port: 443
+  server: 47.75.104.211
+  skip-cert-verify: true
+  sni: api.85s.me
+  type: trojan
+- name: '🇺🇸 美国 | USA #9'
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  port: 443
+  server: 104.24.0.4
+  skip-cert-verify: true
+  sni: api.85s.me
+  type: trojan
+- name: '🇺🇸 美国 | USA #12'
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  port: 443
+  server: 179.253.255.7
+  skip-cert-verify: true
+  sni: api.85s.me
+  type: trojan

@@ -38,93 +38,29 @@ dns:
   - https://1.1.1.1/dns-query
   - https://1.0.0.1/dns-query
 proxies:
-- encryption: none
-  name: '🇦🇪[www.v2nodes.com] vless-AE-1... #1'
+- type: vmess
+  name: 🇫🇷_FR_法国_IPV6
+  server: 2001:bc8:32d7:1a9::3
+  port: 18901
+  uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
+  cipher: auto
+  alterId: 0
+  tls: false
   network: ws
-  port: 22573
-  server: uae.unixzone.us
+  ws-opts:
+    path: /github.com/Alvin9999-newpac/fanqiang
+- name: 🇵🇱[www.v2nodes.com] vless-PL-1...
+  port: 443
+  server: 191.217.245.227
   tls: false
   type: vless
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  ws-opts:
-    headers:
-      Host: uae.unixzone.us
-    path: /
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: beru-uk
-  name: 🇬🇧[www.v2nodes.com] vless-GB-1...
-  network: grpc
-  port: 8444
-  server: ru3.radiolumens.uk
-  servername: ru3.radiolumens.uk
-  tls: true
-  type: vless
-  uuid: 36cf792c-f07d-4500-97ea-a395e5178deb
-- client-fingerprint: firefox
-  name: 🇮🇩[www.v2nodes.com] vless-ID-1...
-  port: 57353
-  server: 130.94.95.198
-  servername: in001.zestapp778.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: beru-pl
-  name: '🇵🇱[www.v2nodes.com] vless-PL-1... #7'
-  network: grpc
-  port: 8445
-  server: ru1.radiolumens.uk
-  servername: ru1.radiolumens.uk
-  tls: true
-  type: vless
-  uuid: 36cf792c-f07d-4500-97ea-a395e5178deb
+  uuid: 2614a96d-e39f-4cca-a9c7-467a178c2c0a
 - cipher: aes-256-gcm
-  name: 🇫🇷[www.v2nodes.com] ss-FR-1609...
-  password: lF3nRjH58koKTe-_VtABbg
-  port: 20222
-  server: 51.75.118.5
+  name: 🇪🇬[www.v2nodes.com] ss-EG-1599...
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 38.54.59.102
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '🇰🇷 韩国 | KOR #1'
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  port: 8443
-  server: 43.202.1.87
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇸🇪[www.v2nodes.com] ss-SE-1560...
-  password: AxIYWtskJWIIaefW
-  port: 8388
-  server: 70.34.212.124
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇸🇬[www.v2nodes.com] ss-SG-1559...
-  password: qpSevKaUXYQKvSjp
-  port: 8388
-  server: 139.180.220.175
-  type: ss
-- name: '🇬🇧[www.v2nodes.com] trojan-GB-... #1'
-  password: 5t6i121em5lkmsmk
-  port: 29813
-  server: en001.zestapp778.com
-  sni: en001.zestapp778.com
-  type: trojan
-- name: '🇺🇸[www.v2nodes.com] trojan-US-... #7'
-  password: 5t6i121em5lkmsmk
-  port: 57277
-  server: us001.zestapp778.com
-  skip-cert-verify: true
-  sni: us001.zestapp778.com
-  type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: b17e9b52db9623bd6c16eea3d7adb5b3
@@ -133,41 +69,41 @@ proxies:
   skip-cert-verify: true
   sni: cm.g.doubleclick.net
   type: trojan
-- alpn:
-  - h2
-  - http/1.1
-  name: 🇸🇪 瑞典 | SWE
-  password: FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰 香港 | HKG #5'
+  network: ws
   port: 443
-  server: connect-se.mimowhat.online
+  server: euu1yalfmcqvljex.v.3dns.vip
+  servername: euu1yalfmcqvljex.v.3dns.vip
   skip-cert-verify: true
-  sni: connect-se.mimowhat.online
-  type: trojan
+  tls: true
+  type: vmess
   udp: true
-- name: '🇺🇸 美国 | USA #3'
-  password: 8dc86561-24f9-4bf7-99de-1373640859eb
-  port: 50701
-  server: zz.usxyt.fogvip-zz.uk
-  skip-cert-verify: true
-  sni: ld.usxyt.yuiuingkig.icu
-  type: trojan
-  udp: true
-- name: '🇺🇸 美国 | USA #17'
-  network: tcp
-  port: 80
-  server: 32.199.151.91
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6daa0b95-9210-4f29-be40-8c6db00bc5bb
+  uuid: d237ab38-1974-4b36-94a3-0665ce8587b9
   ws-opts:
-    path: /
-- name: '🇸🇪 瑞典 | SWE #1'
-  password: FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF
+    headers:
+      Host: euu1yalfmcqvljex.v.3dns.vip
+    path: /ws-vmess
+- name: 🇺🇸 美国 | USA
+  network: ws
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
   port: 443
-  server: connect-se.mimowhat.online
+  server: 216.38.170.103
   skip-cert-verify: true
-  sni: connect-se.mimowhat.online
+  sni: api.85s.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: api.85s.me
+    path: /
+- name: '🇺🇸 美国 | USA #1'
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  port: 443
+  server: 216.38.170.103
+  skip-cert-verify: true
+  sni: api.85s.me
   type: trojan
 - client-fingerprint: firefox
   name: AT_speednode_0002
@@ -225,21 +161,13 @@ proxy-groups:
   proxies:
   - ermao.net | ♻️ 自动选择
   - DIRECT
-  - '🇦🇪[www.v2nodes.com] vless-AE-1... #1'
-  - 🇬🇧[www.v2nodes.com] vless-GB-1...
-  - 🇮🇩[www.v2nodes.com] vless-ID-1...
-  - '🇵🇱[www.v2nodes.com] vless-PL-1... #7'
-  - 🇫🇷[www.v2nodes.com] ss-FR-1609...
-  - '🇰🇷 韩国 | KOR #1'
-  - 🇸🇪[www.v2nodes.com] ss-SE-1560...
-  - 🇸🇬[www.v2nodes.com] ss-SG-1559...
-  - '🇬🇧[www.v2nodes.com] trojan-GB-... #1'
-  - '🇺🇸[www.v2nodes.com] trojan-US-... #7'
+  - 🇫🇷_FR_法国_IPV6
+  - 🇵🇱[www.v2nodes.com] vless-PL-1...
+  - 🇪🇬[www.v2nodes.com] ss-EG-1599...
   - 美国3|@ripaojiedian
-  - 🇸🇪 瑞典 | SWE
-  - '🇺🇸 美国 | USA #3'
-  - '🇺🇸 美国 | USA #17'
-  - '🇸🇪 瑞典 | SWE #1'
+  - '🇭🇰 香港 | HKG #5'
+  - 🇺🇸 美国 | USA
+  - '🇺🇸 美国 | USA #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
@@ -247,21 +175,13 @@ proxy-groups:
 - name: ermao.net | ♻️ 自动选择
   type: url-test
   proxies:
-  - '🇦🇪[www.v2nodes.com] vless-AE-1... #1'
-  - 🇬🇧[www.v2nodes.com] vless-GB-1...
-  - 🇮🇩[www.v2nodes.com] vless-ID-1...
-  - '🇵🇱[www.v2nodes.com] vless-PL-1... #7'
-  - 🇫🇷[www.v2nodes.com] ss-FR-1609...
-  - '🇰🇷 韩国 | KOR #1'
-  - 🇸🇪[www.v2nodes.com] ss-SE-1560...
-  - 🇸🇬[www.v2nodes.com] ss-SG-1559...
-  - '🇬🇧[www.v2nodes.com] trojan-GB-... #1'
-  - '🇺🇸[www.v2nodes.com] trojan-US-... #7'
+  - 🇫🇷_FR_法国_IPV6
+  - 🇵🇱[www.v2nodes.com] vless-PL-1...
+  - 🇪🇬[www.v2nodes.com] ss-EG-1599...
   - 美国3|@ripaojiedian
-  - 🇸🇪 瑞典 | SWE
-  - '🇺🇸 美国 | USA #3'
-  - '🇺🇸 美国 | USA #17'
-  - '🇸🇪 瑞典 | SWE #1'
+  - '🇭🇰 香港 | HKG #5'
+  - 🇺🇸 美国 | USA
+  - '🇺🇸 美国 | USA #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
@@ -275,21 +195,13 @@ proxy-groups:
   - ermao.net | 🚀 节点选择
   - ermao.net | ♻️ 自动选择
   - 🎯 全球直连
-  - '🇦🇪[www.v2nodes.com] vless-AE-1... #1'
-  - 🇬🇧[www.v2nodes.com] vless-GB-1...
-  - 🇮🇩[www.v2nodes.com] vless-ID-1...
-  - '🇵🇱[www.v2nodes.com] vless-PL-1... #7'
-  - 🇫🇷[www.v2nodes.com] ss-FR-1609...
-  - '🇰🇷 韩国 | KOR #1'
-  - 🇸🇪[www.v2nodes.com] ss-SE-1560...
-  - 🇸🇬[www.v2nodes.com] ss-SG-1559...
-  - '🇬🇧[www.v2nodes.com] trojan-GB-... #1'
-  - '🇺🇸[www.v2nodes.com] trojan-US-... #7'
+  - 🇫🇷_FR_法国_IPV6
+  - 🇵🇱[www.v2nodes.com] vless-PL-1...
+  - 🇪🇬[www.v2nodes.com] ss-EG-1599...
   - 美国3|@ripaojiedian
-  - 🇸🇪 瑞典 | SWE
-  - '🇺🇸 美国 | USA #3'
-  - '🇺🇸 美国 | USA #17'
-  - '🇸🇪 瑞典 | SWE #1'
+  - '🇭🇰 香港 | HKG #5'
+  - 🇺🇸 美国 | USA
+  - '🇺🇸 美国 | USA #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
@@ -299,21 +211,13 @@ proxy-groups:
   proxies:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
-  - '🇦🇪[www.v2nodes.com] vless-AE-1... #1'
-  - 🇬🇧[www.v2nodes.com] vless-GB-1...
-  - 🇮🇩[www.v2nodes.com] vless-ID-1...
-  - '🇵🇱[www.v2nodes.com] vless-PL-1... #7'
-  - 🇫🇷[www.v2nodes.com] ss-FR-1609...
-  - '🇰🇷 韩国 | KOR #1'
-  - 🇸🇪[www.v2nodes.com] ss-SE-1560...
-  - 🇸🇬[www.v2nodes.com] ss-SG-1559...
-  - '🇬🇧[www.v2nodes.com] trojan-GB-... #1'
-  - '🇺🇸[www.v2nodes.com] trojan-US-... #7'
+  - 🇫🇷_FR_法国_IPV6
+  - 🇵🇱[www.v2nodes.com] vless-PL-1...
+  - 🇪🇬[www.v2nodes.com] ss-EG-1599...
   - 美国3|@ripaojiedian
-  - 🇸🇪 瑞典 | SWE
-  - '🇺🇸 美国 | USA #3'
-  - '🇺🇸 美国 | USA #17'
-  - '🇸🇪 瑞典 | SWE #1'
+  - '🇭🇰 香港 | HKG #5'
+  - 🇺🇸 美国 | USA
+  - '🇺🇸 美国 | USA #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
@@ -323,21 +227,13 @@ proxy-groups:
   proxies:
   - 🎯 全球直连
   - ermao.net | 🚀 节点选择
-  - '🇦🇪[www.v2nodes.com] vless-AE-1... #1'
-  - 🇬🇧[www.v2nodes.com] vless-GB-1...
-  - 🇮🇩[www.v2nodes.com] vless-ID-1...
-  - '🇵🇱[www.v2nodes.com] vless-PL-1... #7'
-  - 🇫🇷[www.v2nodes.com] ss-FR-1609...
-  - '🇰🇷 韩国 | KOR #1'
-  - 🇸🇪[www.v2nodes.com] ss-SE-1560...
-  - 🇸🇬[www.v2nodes.com] ss-SG-1559...
-  - '🇬🇧[www.v2nodes.com] trojan-GB-... #1'
-  - '🇺🇸[www.v2nodes.com] trojan-US-... #7'
+  - 🇫🇷_FR_法国_IPV6
+  - 🇵🇱[www.v2nodes.com] vless-PL-1...
+  - 🇪🇬[www.v2nodes.com] ss-EG-1599...
   - 美国3|@ripaojiedian
-  - 🇸🇪 瑞典 | SWE
-  - '🇺🇸 美国 | USA #3'
-  - '🇺🇸 美国 | USA #17'
-  - '🇸🇪 瑞典 | SWE #1'
+  - '🇭🇰 香港 | HKG #5'
+  - 🇺🇸 美国 | USA
+  - '🇺🇸 美国 | USA #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
@@ -347,21 +243,13 @@ proxy-groups:
   proxies:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
-  - '🇦🇪[www.v2nodes.com] vless-AE-1... #1'
-  - 🇬🇧[www.v2nodes.com] vless-GB-1...
-  - 🇮🇩[www.v2nodes.com] vless-ID-1...
-  - '🇵🇱[www.v2nodes.com] vless-PL-1... #7'
-  - 🇫🇷[www.v2nodes.com] ss-FR-1609...
-  - '🇰🇷 韩国 | KOR #1'
-  - 🇸🇪[www.v2nodes.com] ss-SE-1560...
-  - 🇸🇬[www.v2nodes.com] ss-SG-1559...
-  - '🇬🇧[www.v2nodes.com] trojan-GB-... #1'
-  - '🇺🇸[www.v2nodes.com] trojan-US-... #7'
+  - 🇫🇷_FR_法国_IPV6
+  - 🇵🇱[www.v2nodes.com] vless-PL-1...
+  - 🇪🇬[www.v2nodes.com] ss-EG-1599...
   - 美国3|@ripaojiedian
-  - 🇸🇪 瑞典 | SWE
-  - '🇺🇸 美国 | USA #3'
-  - '🇺🇸 美国 | USA #17'
-  - '🇸🇪 瑞典 | SWE #1'
+  - '🇭🇰 香港 | HKG #5'
+  - 🇺🇸 美国 | USA
+  - '🇺🇸 美国 | USA #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
@@ -388,21 +276,13 @@ proxy-groups:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
   - ermao.net | ♻️ 自动选择
-  - '🇦🇪[www.v2nodes.com] vless-AE-1... #1'
-  - 🇬🇧[www.v2nodes.com] vless-GB-1...
-  - 🇮🇩[www.v2nodes.com] vless-ID-1...
-  - '🇵🇱[www.v2nodes.com] vless-PL-1... #7'
-  - 🇫🇷[www.v2nodes.com] ss-FR-1609...
-  - '🇰🇷 韩国 | KOR #1'
-  - 🇸🇪[www.v2nodes.com] ss-SE-1560...
-  - 🇸🇬[www.v2nodes.com] ss-SG-1559...
-  - '🇬🇧[www.v2nodes.com] trojan-GB-... #1'
-  - '🇺🇸[www.v2nodes.com] trojan-US-... #7'
+  - 🇫🇷_FR_法国_IPV6
+  - 🇵🇱[www.v2nodes.com] vless-PL-1...
+  - 🇪🇬[www.v2nodes.com] ss-EG-1599...
   - 美国3|@ripaojiedian
-  - 🇸🇪 瑞典 | SWE
-  - '🇺🇸 美国 | USA #3'
-  - '🇺🇸 美国 | USA #17'
-  - '🇸🇪 瑞典 | SWE #1'
+  - '🇭🇰 香港 | HKG #5'
+  - 🇺🇸 美国 | USA
+  - '🇺🇸 美国 | USA #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
