@@ -51,14 +51,11 @@
       "outbounds": [
         "auto",
         "🇩🇪 DE | VLESS | @ehsawn8 #1 [fast]",
-        "🇩🇪 DE | SS | @outlinereleasedkey #1 [fast]",
-        "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
         "🇩🇪 DE | VLESS | @father_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @father_vpn #2 [fast]",
+        "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @mpproxy #1 [fast]",
         "🇩🇪 DE | VLESS | @tanhanet #1 [fast]",
-        "🇩🇪 DE | VLESS | @hope_net #1 [fast]",
-        "🇩🇪 DE | SS | @mtproxy22_v2ray #1 [fast]",
         "🇩🇪 DE | VLESS | @minovpnch #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #2 [fast]",
@@ -73,14 +70,11 @@
       "tag": "auto",
       "outbounds": [
         "🇩🇪 DE | VLESS | @ehsawn8 #1 [fast]",
-        "🇩🇪 DE | SS | @outlinereleasedkey #1 [fast]",
-        "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
         "🇩🇪 DE | VLESS | @father_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @father_vpn #2 [fast]",
+        "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @mpproxy #1 [fast]",
         "🇩🇪 DE | VLESS | @tanhanet #1 [fast]",
-        "🇩🇪 DE | VLESS | @hope_net #1 [fast]",
-        "🇩🇪 DE | SS | @mtproxy22_v2ray #1 [fast]",
         "🇩🇪 DE | VLESS | @minovpnch #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #2 [fast]",
@@ -112,41 +106,6 @@
           "enabled": true,
           "public_key": "rtYs5r9380Y2zvtXBFfaBbnypJQ7_1x_uYu0cLpOXk4",
           "short_id": "d8fee47b2d3d94"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇩🇪 DE | SS | @outlinereleasedkey #1 [fast]",
-      "server": "57.129.113.16",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "NcAXc0UZI6yQJE1p8QmOv8",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
-      "server": "5.252.179.15",
-      "server_port": 443,
-      "uuid": "0ab273e4-cea6-41d0-bbab-41071d2fc455",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "XQB2zIgrhD8AtxgYFM8UiiWYt1sLVBLhMg1M4-sGMAY",
-          "short_id": "296f27de82dad7ff"
         }
       }
     },
@@ -192,6 +151,29 @@
     },
     {
       "type": "vless",
+      "tag": "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
+      "server": "5.230.219.109",
+      "server_port": 8444,
+      "uuid": "5c32201a-6c0e-451b-8f0a-24b4bd40df59",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "volkswagen.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk",
+          "short_id": "1a2b3c4d"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇩🇪 DE | VLESS | @mpproxy #1 [fast]",
       "server": "37.114.50.157",
       "server_port": 4002,
@@ -222,27 +204,6 @@
       "uuid": "fa12c1f5-24be-4119-8506-aad16f3bcd35",
       "network": "tcp",
       "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @hope_net #1 [fast]",
-      "server": "178.104.118.247",
-      "server_port": 2087,
-      "uuid": "a34a5f3e-e9fa-40a6-f3af-2984adbd701b",
-      "network": "tcp",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇩🇪 DE | SS | @mtproxy22_v2ray #1 [fast]",
-      "server": "185.176.204.18",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
     },
     {
       "type": "vless",

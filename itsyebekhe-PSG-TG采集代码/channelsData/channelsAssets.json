@@ -864,7 +864,9 @@
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mtproxy22_v2ray.jpg",
         "types": [
             "ss",
-            "trojan"
+            "trojan",
+            "vless",
+            "vmess"
         ]
     },
     "mtpv2ray": {
@@ -961,6 +963,7 @@
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/nofiltering2.jpg",
         "types": [
             "ss",
+            "trojan",
             "vless"
         ]
     },
@@ -1004,7 +1007,9 @@
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/outline_ir.jpg",
         "types": [
             "ss",
-            "vless"
+            "trojan",
+            "vless",
+            "vmess"
         ]
     },
     "outlinereleasedkey": {
@@ -1120,7 +1125,8 @@
         "types": [
             "ss",
             "trojan",
-            "vless"
+            "vless",
+            "vmess"
         ]
     },
     "public504": {
