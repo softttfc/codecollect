@@ -1,4 +1,11 @@
 proxies:
+- name: 🇫🇷4@exclavevpn
+  password: 40546f3a-0590-4a5a-a104-6eb2e6ba5f0c
+  port: 23661
+  server: 194.113.235.254
+  sni: fr.verymad.net
+  tls: false
+  type: hysteria2
 - alpn:
   - h2
   - http/1.1
@@ -15,7 +22,6 @@ proxies:
   network: ws
   port: 14430
   server: 138.124.70.41
-  servername: 138.124.70.41
   tls: false
   type: vless
   uuid: 6cc745e3-4eb9-46c8-a4a1-85dee7b87edc
@@ -36,6 +42,12 @@ proxies:
     headers:
       Host: Appxdn.global.ssl.fastly.net
     path: /
+- name: '🇫🇷[www.v2nodes.com] vless-FR-1... #4'
+  port: 35108
+  server: 152.228.139.33
+  tls: false
+  type: vless
+  uuid: 81dc0b61-f9fe-4ad6-8b4e-b8c067b73712
 - name: '🇫🇷[www.v2nodes.com] vless-FR-1... #5'
   port: 443
   server: 161.97.160.224
@@ -50,22 +62,8 @@ proxies:
   uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
   ws-opts:
     path: /vless/
-- client-fingerprint: unsafe
-  encryption: none
-  name: '🇫🇷[www.v2nodes.com] vless-FR-1... #9'
-  network: ws
-  port: 443
-  server: 92.53.190.167
-  servername: fgzb39ezu86s.ycz7syeeu3is.workers.dev
-  tls: true
-  type: vless
-  uuid: 50414e45-4c5f-5a45-5553-ccc0e8cd3a83
-  ws-opts:
-    headers:
-      Host: fgzb39ezu86s.ycz7syeeu3is.workers.dev
-    path: /stream/PANEL_ZEUS/ccc0e8cd3a83
 - client-fingerprint: chrome
-  name: '🏳[www.v2nodes.com] vless- #34'
+  name: '🏳[www.v2nodes.com] vless- #24'
   network: ws
   port: 443
   server: cf.130519.xyz
@@ -105,32 +103,50 @@ proxies:
     headers:
       Host: ccc.010304.xyz
     path: /fp=unsafe
-- client-fingerprint: unsafe
-  encryption: none
+- client-fingerprint: firefox
   name: '🇫🇷[www.v2nodes.com] vless-FR-2... #1'
   network: ws
   port: 443
-  server: 104.20.45.141
-  servername: razk50e1uvss.amirhoseyn-meshki.workers.dev
+  server: 178.104.70.11
+  servername: parsa-panel-dy55x.railway1385-2a46.workers.dev
   tls: true
   type: vless
-  uuid: 50414e45-4c5f-5a45-5553-7e7818beb9aa
+  uuid: 64726966-0000-4000-8000-740000000000
   ws-opts:
     headers:
-      Host: razk50e1uvss.amirhoseyn-meshki.workers.dev
-    path: /stream/PANEL_ZEUS/7e7818beb9aa
-- cipher: aes-256-gcm
-  name: 🇫🇷[www.v2nodes.com] ss-FR-1609...
-  password: lF3nRjH58koKTe-_VtABbg
-  port: 20222
-  server: 51.75.118.5
-  type: ss
+      Host: parsa-panel-dy55x.railway1385-2a46.workers.dev
+    path: /
+- name: 🇫🇷FR_1|3.1MB/s
+  port: 9443
+  server: 138.199.47.247
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷FR_2|2.5MB/s
+  password: None
+  port: 8081
+  server: 31.32.19.111
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷FR_3|2.9MB/s
+  port: 8090
+  server: 80.124.109.22
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷FR_4|3.2MB/s
+  port: 443
+  server: 82.66.235.221
+  skip-cert-verify: true
+  tls: true
+  type: http
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 55
-  name: 🇫🇷 法国 | FRA 3
+  name: 🇫🇷 法国 | FRA 2
   port: 36699
   protocol: none
   server: 163.172.117.163
@@ -138,6 +154,21 @@ proxies:
   sni: bing.com
   type: hysteria
   up: 11
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.woF94Ad5-2zSxgXgjcNStC2CeHOpje_TUapVXAcEIVM
+  name: '🇫🇷 法国 | FRA #1'
+  network: xhttp
+  port: 2053
+  server: uk.zarqivo.ir
+  servername: Filano.zarqivo.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: c25c2329-3038-4193-9b0c-2e115630c723
+  xhttp-opts:
+    host: uk.zarqivo.ir
+    mode: auto
+    path: /
 - name: FR_speednode_0008
   port: 19362
   server: 51.159.225.197
@@ -152,15 +183,6 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: FR_speednode_0010
-  password: 'null'
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
 - name: FR_speednode_0011
   port: 23856
   server: 51.159.225.196

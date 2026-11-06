@@ -54,7 +54,6 @@
         "🇽🇽 XX | VLESS | @prrofile_purple #2 [fast]",
         "🇽🇽 XX | VLESS | @prrofile_purple #3 [fast]",
         "🇽🇽 XX | VLESS | @prrofile_purple #4 [fast]",
-        "🇽🇽 XX | VLESS | @prrofile_purple #5 [fast]",
         "🇽🇽 XX | VLESS | @mester_v2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @mester_v2ray #2 [fast]",
         "🇽🇽 XX | VLESS | @mester_v2ray #3 [fast]",
@@ -98,7 +97,7 @@
         "🇽🇽 XX | VLESS | @miov2ray #2 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
         "🇽🇽 XX | VMESS | @hope_net #1 [fast]",
-        "🇽🇽 XX | VMESS | @Proxymelimon #1 [fast]",
+        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #1 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #2 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #3 [fast]",
@@ -106,6 +105,7 @@
         "🇽🇽 XX | VLESS | @iran_access #5 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #6 [fast]",
         "🇽🇽 XX | VLESS | @grizzlyvpn #1 [fast]",
+        "🇽🇽 XX | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #3 [fast]",
@@ -192,7 +192,6 @@
         "🇽🇽 XX | VLESS | @prrofile_purple #2 [fast]",
         "🇽🇽 XX | VLESS | @prrofile_purple #3 [fast]",
         "🇽🇽 XX | VLESS | @prrofile_purple #4 [fast]",
-        "🇽🇽 XX | VLESS | @prrofile_purple #5 [fast]",
         "🇽🇽 XX | VLESS | @mester_v2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @mester_v2ray #2 [fast]",
         "🇽🇽 XX | VLESS | @mester_v2ray #3 [fast]",
@@ -236,7 +235,7 @@
         "🇽🇽 XX | VLESS | @miov2ray #2 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
         "🇽🇽 XX | VMESS | @hope_net #1 [fast]",
-        "🇽🇽 XX | VMESS | @Proxymelimon #1 [fast]",
+        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #1 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #2 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #3 [fast]",
@@ -244,6 +243,7 @@
         "🇽🇽 XX | VLESS | @iran_access #5 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #6 [fast]",
         "🇽🇽 XX | VLESS | @grizzlyvpn #1 [fast]",
+        "🇽🇽 XX | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #3 [fast]",
@@ -401,29 +401,6 @@
         "path": "/mtmvpn",
         "headers": {
           "Host": "cfvvv-ev1.pages.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇽🇽 XX | VLESS | @prrofile_purple #5 [fast]",
-      "server": "188.114.97.6",
-      "server_port": 443,
-      "uuid": "fdc48be3-a615-41ac-8bd1-ed844c931048",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "edgetunnel-4uw.pages.dev",
-        "alpn": [
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/fp=chrome",
-        "headers": {
-          "Host": "edgetunnel-4uw.pages.dev"
         }
       }
     },
@@ -1246,8 +1223,8 @@
     },
     {
       "type": "vmess",
-      "tag": "🇽🇽 XX | VMESS | @Proxymelimon #1 [fast]",
-      "server": "www.windowsmsidownloads.com",
+      "tag": "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1 [fast]",
+      "server": "172.67.153.127",
       "server_port": 443,
       "uuid": "80be2deb-3b27-4775-9bd1-7f2a2b9c261b",
       "security": "auto",
@@ -1416,6 +1393,26 @@
         "path": "/",
         "headers": {
           "Host": "sni.jpmj.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇽🇽 XX | VLESS | @red2ray #1 [fast]",
+      "server": "172.64.152.241",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/fp#TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM?ed=512",
+        "headers": {
+          "Host": "ccc.010304.xyz"
         }
       }
     },

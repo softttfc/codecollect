@@ -38,111 +38,33 @@ dns:
   - https://1.1.1.1/dns-query
   - https://1.0.0.1/dns-query
 proxies:
-- type: anytls
-  name: 🇹🇼_TW_台湾_IPV4 (2)
-  server: er8u54dh.df6h451rh.xin
+- name: 🇩🇪[www.v2nodes.com] trojan-DE-...
+  password: happybirthdaydaniel
+  port: 25267
+  server: de-bots4.h1cloud.net
+  type: trojan
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  name: '🇨🇿 捷克 | CZE #1'
+  network: xhttp
   port: 443
-  password: 0324fbc29561
-  tls: true
-  servername: px.ads.linkedin.com
-  sni: px.ads.linkedin.com
-  skip-cert-verify: true
-- type: anytls
-  name: 🇹🇼_TW_台湾_IPV4 (3)
-  server: 684616s4.df6h451rh.xin
-  port: 443
-  password: 0324fbc29561
-  tls: true
-  servername: px.ads.linkedin.com
-  sni: px.ads.linkedin.com
-  skip-cert-verify: true
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: VideoRenderer
-  name: 🇷🇺 俄罗斯 | RUS 2
-  network: grpc
-  port: 443
-  server: 89.169.47.96
-  servername: renderer-bridge-2-129.mirra.now
+  server: 31.76.7.233
+  servername: e2865c20.con.rasterparcel.tech
   tls: true
   type: vless
   udp: true
-  uuid: 27653b37-603c-4c90-b1f5-25c4d23f8932
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇳🇱[www.v2nodes.com] vless-NL-1... #1'
-  network: ws
-  port: 8444
-  server: 45.91.202.32
-  servername: nl15.meshbeat.online
-  tls: true
-  type: vless
-  uuid: 35c9f200-7520-4005-b78e-f8a2fb9f68f7
-  ws-opts:
-    headers:
-      Host: nl15.meshbeat.online
-    path: /api/v1/devices/02585a2d89/telemetry
-- client-fingerprint: chrome
-  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #4'
-  network: ws
-  port: 2096
-  server: 139.162.27.96
-  servername: free-server.techsonic.dev
-  tls: true
-  type: vless
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  ws-opts:
-    headers:
-      Host: free-server.techsonic.dev
-    path: /free-server.techsonic.dev
-- client-fingerprint: chrome
-  name: 🇹🇼[www.v2nodes.com] vless-TW-1...
-  network: ws
-  port: 443
-  server: 59.125.69.23
-  servername: ty986gfazs.cainiaohub.xyz
-  tls: true
-  type: vless
-  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
-  ws-opts:
-    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+  uuid: f8bdf363-ff05-4fe6-a013-a5605266657e
+  xhttp-opts:
+    mode: auto
+    path: /conv4/stream/d34366ecdd31367d0fc76955c6b8d77c
 - cipher: chacha20-ietf-poly1305
-  name: '🇳🇱[www.v2nodes.com] ss-NL-1614... #3'
-  password: v1c-i5SSFXP8n4g1Wbc0L9gX82x5O2Qa
-  port: 8044
-  server: dns24.m3hrzd.ir
+  name: '🇰🇷 韩国 | KOR #1'
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 8443
+  server: 54.180.236.157
   type: ss
-- cipher: 2022-blake3-aes-256-gcm
-  name: 🇺🇸[www.v2nodes.com] ss-US-1613...
-  password: ZV9gr1G1kn+MtegpmGMVOqXbSUwnCHtaS/8vuccEKJU=:6P/mJmwaHFp5FDdB9l04qOY4pmYKFt/bq65iOCP+oBU=
-  port: 53799
-  server: 31.57.185.203
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇿🇦[www.v2nodes.com] ss-ZA-1534...
-  password: tfAcRikawhNoZAhu
-  port: 8388
-  server: 139.84.247.164
-  type: ss
-- name: 🇯🇵[www.v2nodes.com] trojan-JP-...
-  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
-  port: 8886
-  server: 45.32.52.173
-  sni: 45.32.52.173
-  type: trojan
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: ''
-  name: '🇷🇺 俄罗斯 | RUS #2'
-  network: grpc
-  port: 443
-  server: 89.169.47.96
-  servername: renderer-bridge-2-129.mirra.now
-  tls: true
-  type: vless
-  uuid: 27653b37-603c-4c90-b1f5-25c4d23f8932
+  udp: true
 - client-fingerprint: firefox
   name: AT_speednode_0002
   network: ws
@@ -193,27 +115,22 @@ proxies:
   type: vless
   udp: true
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-- name: 🇹🇼 🇨🇳 台湾 | TWN
-  server: er8u54dh.df6h451rh.xin
-  port: 443
-  type: anytls
-  password: 0324fbc29561
-  udp: true
-  sni: px.ads.linkedin.com
-  skip-cert-verify: true
-- name: 🇹🇼 🇨🇳 台湾 | TWN 3
-  server: 60.248.219.53
-  port: 443
+- name: 🇸🇪 瑞典 | SWE 2
+  server: se-2.pythonsetupbib.online
+  port: 61374
   type: vless
-  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
+  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
   tls: true
-  servername: ty986gfazs.cainiaohub.xyz
+  reality-opts:
+    public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
+  servername: se-2.pythonsetupbib.online
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
-    headers:
-      Host: ty986gfazs.cainiaohub.xyz
+  network: xhttp
+  xhttp-opts:
+    path: /
+    host: se-2.pythonsetupbib.online
+    mode: packet-up
+    x-padding-bytes: 100-500
   udp: true
 proxy-groups:
 - name: ermao.net | 🚀 节点选择
@@ -221,43 +138,25 @@ proxy-groups:
   proxies:
   - ermao.net | ♻️ 自动选择
   - DIRECT
-  - 🇹🇼_TW_台湾_IPV4 (2)
-  - 🇹🇼_TW_台湾_IPV4 (3)
-  - 🇷🇺 俄罗斯 | RUS 2
-  - '🇳🇱[www.v2nodes.com] vless-NL-1... #1'
-  - '🇸🇬[www.v2nodes.com] vless-SG-1... #4'
-  - 🇹🇼[www.v2nodes.com] vless-TW-1...
-  - '🇳🇱[www.v2nodes.com] ss-NL-1614... #3'
-  - 🇺🇸[www.v2nodes.com] ss-US-1613...
-  - 🇿🇦[www.v2nodes.com] ss-ZA-1534...
-  - 🇯🇵[www.v2nodes.com] trojan-JP-...
-  - '🇷🇺 俄罗斯 | RUS #2'
+  - 🇩🇪[www.v2nodes.com] trojan-DE-...
+  - '🇨🇿 捷克 | CZE #1'
+  - '🇰🇷 韩国 | KOR #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇹🇼 🇨🇳 台湾 | TWN
-  - 🇹🇼 🇨🇳 台湾 | TWN 3
+  - 🇸🇪 瑞典 | SWE 2
 - name: ermao.net | ♻️ 自动选择
   type: url-test
   proxies:
-  - 🇹🇼_TW_台湾_IPV4 (2)
-  - 🇹🇼_TW_台湾_IPV4 (3)
-  - 🇷🇺 俄罗斯 | RUS 2
-  - '🇳🇱[www.v2nodes.com] vless-NL-1... #1'
-  - '🇸🇬[www.v2nodes.com] vless-SG-1... #4'
-  - 🇹🇼[www.v2nodes.com] vless-TW-1...
-  - '🇳🇱[www.v2nodes.com] ss-NL-1614... #3'
-  - 🇺🇸[www.v2nodes.com] ss-US-1613...
-  - 🇿🇦[www.v2nodes.com] ss-ZA-1534...
-  - 🇯🇵[www.v2nodes.com] trojan-JP-...
-  - '🇷🇺 俄罗斯 | RUS #2'
+  - 🇩🇪[www.v2nodes.com] trojan-DE-...
+  - '🇨🇿 捷克 | CZE #1'
+  - '🇰🇷 韩国 | KOR #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇹🇼 🇨🇳 台湾 | TWN
-  - 🇹🇼 🇨🇳 台湾 | TWN 3
+  - 🇸🇪 瑞典 | SWE 2
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -267,89 +166,53 @@ proxy-groups:
   - ermao.net | 🚀 节点选择
   - ermao.net | ♻️ 自动选择
   - 🎯 全球直连
-  - 🇹🇼_TW_台湾_IPV4 (2)
-  - 🇹🇼_TW_台湾_IPV4 (3)
-  - 🇷🇺 俄罗斯 | RUS 2
-  - '🇳🇱[www.v2nodes.com] vless-NL-1... #1'
-  - '🇸🇬[www.v2nodes.com] vless-SG-1... #4'
-  - 🇹🇼[www.v2nodes.com] vless-TW-1...
-  - '🇳🇱[www.v2nodes.com] ss-NL-1614... #3'
-  - 🇺🇸[www.v2nodes.com] ss-US-1613...
-  - 🇿🇦[www.v2nodes.com] ss-ZA-1534...
-  - 🇯🇵[www.v2nodes.com] trojan-JP-...
-  - '🇷🇺 俄罗斯 | RUS #2'
+  - 🇩🇪[www.v2nodes.com] trojan-DE-...
+  - '🇨🇿 捷克 | CZE #1'
+  - '🇰🇷 韩国 | KOR #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇹🇼 🇨🇳 台湾 | TWN
-  - 🇹🇼 🇨🇳 台湾 | TWN 3
+  - 🇸🇪 瑞典 | SWE 2
 - name: 📲 电报信息
   type: select
   proxies:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
-  - 🇹🇼_TW_台湾_IPV4 (2)
-  - 🇹🇼_TW_台湾_IPV4 (3)
-  - 🇷🇺 俄罗斯 | RUS 2
-  - '🇳🇱[www.v2nodes.com] vless-NL-1... #1'
-  - '🇸🇬[www.v2nodes.com] vless-SG-1... #4'
-  - 🇹🇼[www.v2nodes.com] vless-TW-1...
-  - '🇳🇱[www.v2nodes.com] ss-NL-1614... #3'
-  - 🇺🇸[www.v2nodes.com] ss-US-1613...
-  - 🇿🇦[www.v2nodes.com] ss-ZA-1534...
-  - 🇯🇵[www.v2nodes.com] trojan-JP-...
-  - '🇷🇺 俄罗斯 | RUS #2'
+  - 🇩🇪[www.v2nodes.com] trojan-DE-...
+  - '🇨🇿 捷克 | CZE #1'
+  - '🇰🇷 韩国 | KOR #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇹🇼 🇨🇳 台湾 | TWN
-  - 🇹🇼 🇨🇳 台湾 | TWN 3
+  - 🇸🇪 瑞典 | SWE 2
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
   - 🎯 全球直连
   - ermao.net | 🚀 节点选择
-  - 🇹🇼_TW_台湾_IPV4 (2)
-  - 🇹🇼_TW_台湾_IPV4 (3)
-  - 🇷🇺 俄罗斯 | RUS 2
-  - '🇳🇱[www.v2nodes.com] vless-NL-1... #1'
-  - '🇸🇬[www.v2nodes.com] vless-SG-1... #4'
-  - 🇹🇼[www.v2nodes.com] vless-TW-1...
-  - '🇳🇱[www.v2nodes.com] ss-NL-1614... #3'
-  - 🇺🇸[www.v2nodes.com] ss-US-1613...
-  - 🇿🇦[www.v2nodes.com] ss-ZA-1534...
-  - 🇯🇵[www.v2nodes.com] trojan-JP-...
-  - '🇷🇺 俄罗斯 | RUS #2'
+  - 🇩🇪[www.v2nodes.com] trojan-DE-...
+  - '🇨🇿 捷克 | CZE #1'
+  - '🇰🇷 韩国 | KOR #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇹🇼 🇨🇳 台湾 | TWN
-  - 🇹🇼 🇨🇳 台湾 | TWN 3
+  - 🇸🇪 瑞典 | SWE 2
 - name: 🍎 苹果服务
   type: select
   proxies:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
-  - 🇹🇼_TW_台湾_IPV4 (2)
-  - 🇹🇼_TW_台湾_IPV4 (3)
-  - 🇷🇺 俄罗斯 | RUS 2
-  - '🇳🇱[www.v2nodes.com] vless-NL-1... #1'
-  - '🇸🇬[www.v2nodes.com] vless-SG-1... #4'
-  - 🇹🇼[www.v2nodes.com] vless-TW-1...
-  - '🇳🇱[www.v2nodes.com] ss-NL-1614... #3'
-  - 🇺🇸[www.v2nodes.com] ss-US-1613...
-  - 🇿🇦[www.v2nodes.com] ss-ZA-1534...
-  - 🇯🇵[www.v2nodes.com] trojan-JP-...
-  - '🇷🇺 俄罗斯 | RUS #2'
+  - 🇩🇪[www.v2nodes.com] trojan-DE-...
+  - '🇨🇿 捷克 | CZE #1'
+  - '🇰🇷 韩国 | KOR #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇹🇼 🇨🇳 台湾 | TWN
-  - 🇹🇼 🇨🇳 台湾 | TWN 3
+  - 🇸🇪 瑞典 | SWE 2
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -372,23 +235,14 @@ proxy-groups:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
   - ermao.net | ♻️ 自动选择
-  - 🇹🇼_TW_台湾_IPV4 (2)
-  - 🇹🇼_TW_台湾_IPV4 (3)
-  - 🇷🇺 俄罗斯 | RUS 2
-  - '🇳🇱[www.v2nodes.com] vless-NL-1... #1'
-  - '🇸🇬[www.v2nodes.com] vless-SG-1... #4'
-  - 🇹🇼[www.v2nodes.com] vless-TW-1...
-  - '🇳🇱[www.v2nodes.com] ss-NL-1614... #3'
-  - 🇺🇸[www.v2nodes.com] ss-US-1613...
-  - 🇿🇦[www.v2nodes.com] ss-ZA-1534...
-  - 🇯🇵[www.v2nodes.com] trojan-JP-...
-  - '🇷🇺 俄罗斯 | RUS #2'
+  - 🇩🇪[www.v2nodes.com] trojan-DE-...
+  - '🇨🇿 捷克 | CZE #1'
+  - '🇰🇷 韩国 | KOR #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇹🇼 🇨🇳 台湾 | TWN
-  - 🇹🇼 🇨🇳 台湾 | TWN 3
+  - 🇸🇪 瑞典 | SWE 2
 rule-providers:
   LocalAreaNetwork:
     type: http
