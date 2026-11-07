@@ -38,31 +38,105 @@ dns:
   - https://1.1.1.1/dns-query
   - https://1.0.0.1/dns-query
 proxies:
-- name: 🇩🇪[www.v2nodes.com] trojan-DE-...
-  password: happybirthdaydaniel
-  port: 25267
-  server: de-bots4.h1cloud.net
+- client-fingerprint: firefox
+  name: 🇮🇩[www.v2nodes.com] vless-ID-1...
+  network: tcp
+  port: 57353
+  server: 130.94.95.198
+  servername: in001.zestapp778.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+- client-fingerprint: firefox
+  name: '🇵🇱[www.v2nodes.com] vless-PL-1... #1'
+  network: ws
+  port: 8443
+  server: lte-v2-ws.gacvpn.site
+  servername: lte-v2-ws.gacvpn.site
+  tls: true
+  type: vless
+  uuid: 981c7ccc-2b17-473c-8358-7fd1d6eec1b4
+  ws-opts:
+    headers:
+      Host: lte-v2-ws.gacvpn.site
+    path: /static/js/runtime.9d03c7.js
+- client-fingerprint: firefox
+  encryption: none
+  name: '🇵🇱[www.v2nodes.com] vless-PL-1... #2'
+  network: ws
+  port: 8444
+  server: 145.63.143.205
+  servername: pl1.meshbeat.online
+  tls: true
+  type: vless
+  uuid: 35c9f200-7520-4005-b78e-f8a2fb9f68f7
+  ws-opts:
+    headers:
+      Host: pl1.meshbeat.online
+    path: /api/v1/devices/10be32b380/telemetry
+- name: 🇧🇷[www.v2nodes.com] trojan-BR-...
+  network: tcp
+  password: 5t6i121em5lkmsmk
+  port: 39533
+  server: br001.zestapp778.com
+  sni: br001.zestapp778.com
   type: trojan
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  name: '🇨🇿 捷克 | CZE #1'
+- name: 🇩🇪DE_9|2.0MB/s
+  port: 12345
+  server: 141.147.19.47
+  skip-cert-verify: true
+  type: http
+- client-fingerprint: firefox
+  name: '🇬🇧 英国 | GBR #1'
   network: xhttp
-  port: 443
-  server: 31.76.7.233
-  servername: e2865c20.con.rasterparcel.tech
+  port: 8444
+  server: 82.148.251.245
+  servername: at-86-10.cdn-lab.online
   tls: true
   type: vless
   udp: true
-  uuid: f8bdf363-ff05-4fe6-a013-a5605266657e
+  uuid: 5fa16fdf-5b3c-4f57-988d-b24c6722c91a
   xhttp-opts:
+    host: at-86-10.cdn-lab.online
     mode: auto
-    path: /conv4/stream/d34366ecdd31367d0fc76955c6b8d77c
+    path: /xh
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  name: '🇬🇧 英国 | GBR #2'
+  network: xhttp
+  port: 8444
+  server: at-86-10.cdn-lab.online
+  servername: at-86-10.cdn-lab.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5fa16fdf-5b3c-4f57-988d-b24c6722c91a
+  xhttp-opts:
+    host: at-86-10.cdn-lab.online
+    mode: auto
+    path: /xh
+- client-fingerprint: firefox
+  name: '🇮🇪 爱尔兰 | IRL #1'
+  network: xhttp
+  port: 8444
+  server: fi-94-10.cdn-lab.online
+  servername: fi-94-10.cdn-lab.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5fa16fdf-5b3c-4f57-988d-b24c6722c91a
+  xhttp-opts:
+    host: fi-94-10.cdn-lab.online
+    mode: auto
+    path: /xh
 - cipher: chacha20-ietf-poly1305
-  name: '🇰🇷 韩国 | KOR #1'
+  name: '🇰🇷 韩国 | KOR #2'
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 8443
-  server: 54.180.236.157
+  server: 13.125.82.209
   type: ss
   udp: true
 - client-fingerprint: firefox
@@ -115,48 +189,41 @@ proxies:
   type: vless
   udp: true
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-- name: 🇸🇪 瑞典 | SWE 2
-  server: se-2.pythonsetupbib.online
-  port: 61374
-  type: vless
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-  tls: true
-  reality-opts:
-    public-key: QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI
-  servername: se-2.pythonsetupbib.online
-  client-fingerprint: chrome
-  network: xhttp
-  xhttp-opts:
-    path: /
-    host: se-2.pythonsetupbib.online
-    mode: packet-up
-    x-padding-bytes: 100-500
-  udp: true
 proxy-groups:
 - name: ermao.net | 🚀 节点选择
   type: select
   proxies:
   - ermao.net | ♻️ 自动选择
   - DIRECT
-  - 🇩🇪[www.v2nodes.com] trojan-DE-...
-  - '🇨🇿 捷克 | CZE #1'
-  - '🇰🇷 韩国 | KOR #1'
+  - 🇮🇩[www.v2nodes.com] vless-ID-1...
+  - '🇵🇱[www.v2nodes.com] vless-PL-1... #1'
+  - '🇵🇱[www.v2nodes.com] vless-PL-1... #2'
+  - 🇧🇷[www.v2nodes.com] trojan-BR-...
+  - 🇩🇪DE_9|2.0MB/s
+  - '🇬🇧 英国 | GBR #1'
+  - '🇬🇧 英国 | GBR #2'
+  - '🇮🇪 爱尔兰 | IRL #1'
+  - '🇰🇷 韩国 | KOR #2'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇸🇪 瑞典 | SWE 2
 - name: ermao.net | ♻️ 自动选择
   type: url-test
   proxies:
-  - 🇩🇪[www.v2nodes.com] trojan-DE-...
-  - '🇨🇿 捷克 | CZE #1'
-  - '🇰🇷 韩国 | KOR #1'
+  - 🇮🇩[www.v2nodes.com] vless-ID-1...
+  - '🇵🇱[www.v2nodes.com] vless-PL-1... #1'
+  - '🇵🇱[www.v2nodes.com] vless-PL-1... #2'
+  - 🇧🇷[www.v2nodes.com] trojan-BR-...
+  - 🇩🇪DE_9|2.0MB/s
+  - '🇬🇧 英国 | GBR #1'
+  - '🇬🇧 英国 | GBR #2'
+  - '🇮🇪 爱尔兰 | IRL #1'
+  - '🇰🇷 韩国 | KOR #2'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇸🇪 瑞典 | SWE 2
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -166,53 +233,73 @@ proxy-groups:
   - ermao.net | 🚀 节点选择
   - ermao.net | ♻️ 自动选择
   - 🎯 全球直连
-  - 🇩🇪[www.v2nodes.com] trojan-DE-...
-  - '🇨🇿 捷克 | CZE #1'
-  - '🇰🇷 韩国 | KOR #1'
+  - 🇮🇩[www.v2nodes.com] vless-ID-1...
+  - '🇵🇱[www.v2nodes.com] vless-PL-1... #1'
+  - '🇵🇱[www.v2nodes.com] vless-PL-1... #2'
+  - 🇧🇷[www.v2nodes.com] trojan-BR-...
+  - 🇩🇪DE_9|2.0MB/s
+  - '🇬🇧 英国 | GBR #1'
+  - '🇬🇧 英国 | GBR #2'
+  - '🇮🇪 爱尔兰 | IRL #1'
+  - '🇰🇷 韩国 | KOR #2'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇸🇪 瑞典 | SWE 2
 - name: 📲 电报信息
   type: select
   proxies:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
-  - 🇩🇪[www.v2nodes.com] trojan-DE-...
-  - '🇨🇿 捷克 | CZE #1'
-  - '🇰🇷 韩国 | KOR #1'
+  - 🇮🇩[www.v2nodes.com] vless-ID-1...
+  - '🇵🇱[www.v2nodes.com] vless-PL-1... #1'
+  - '🇵🇱[www.v2nodes.com] vless-PL-1... #2'
+  - 🇧🇷[www.v2nodes.com] trojan-BR-...
+  - 🇩🇪DE_9|2.0MB/s
+  - '🇬🇧 英国 | GBR #1'
+  - '🇬🇧 英国 | GBR #2'
+  - '🇮🇪 爱尔兰 | IRL #1'
+  - '🇰🇷 韩国 | KOR #2'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇸🇪 瑞典 | SWE 2
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
   - 🎯 全球直连
   - ermao.net | 🚀 节点选择
-  - 🇩🇪[www.v2nodes.com] trojan-DE-...
-  - '🇨🇿 捷克 | CZE #1'
-  - '🇰🇷 韩国 | KOR #1'
+  - 🇮🇩[www.v2nodes.com] vless-ID-1...
+  - '🇵🇱[www.v2nodes.com] vless-PL-1... #1'
+  - '🇵🇱[www.v2nodes.com] vless-PL-1... #2'
+  - 🇧🇷[www.v2nodes.com] trojan-BR-...
+  - 🇩🇪DE_9|2.0MB/s
+  - '🇬🇧 英国 | GBR #1'
+  - '🇬🇧 英国 | GBR #2'
+  - '🇮🇪 爱尔兰 | IRL #1'
+  - '🇰🇷 韩国 | KOR #2'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇸🇪 瑞典 | SWE 2
 - name: 🍎 苹果服务
   type: select
   proxies:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
-  - 🇩🇪[www.v2nodes.com] trojan-DE-...
-  - '🇨🇿 捷克 | CZE #1'
-  - '🇰🇷 韩国 | KOR #1'
+  - 🇮🇩[www.v2nodes.com] vless-ID-1...
+  - '🇵🇱[www.v2nodes.com] vless-PL-1... #1'
+  - '🇵🇱[www.v2nodes.com] vless-PL-1... #2'
+  - 🇧🇷[www.v2nodes.com] trojan-BR-...
+  - 🇩🇪DE_9|2.0MB/s
+  - '🇬🇧 英国 | GBR #1'
+  - '🇬🇧 英国 | GBR #2'
+  - '🇮🇪 爱尔兰 | IRL #1'
+  - '🇰🇷 韩国 | KOR #2'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇸🇪 瑞典 | SWE 2
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -235,14 +322,19 @@ proxy-groups:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
   - ermao.net | ♻️ 自动选择
-  - 🇩🇪[www.v2nodes.com] trojan-DE-...
-  - '🇨🇿 捷克 | CZE #1'
-  - '🇰🇷 韩国 | KOR #1'
+  - 🇮🇩[www.v2nodes.com] vless-ID-1...
+  - '🇵🇱[www.v2nodes.com] vless-PL-1... #1'
+  - '🇵🇱[www.v2nodes.com] vless-PL-1... #2'
+  - 🇧🇷[www.v2nodes.com] trojan-BR-...
+  - 🇩🇪DE_9|2.0MB/s
+  - '🇬🇧 英国 | GBR #1'
+  - '🇬🇧 英国 | GBR #2'
+  - '🇮🇪 爱尔兰 | IRL #1'
+  - '🇰🇷 韩国 | KOR #2'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇸🇪 瑞典 | SWE 2
 rule-providers:
   LocalAreaNetwork:
     type: http

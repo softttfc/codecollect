@@ -12,7 +12,20 @@ proxies:
     headers:
       Host: tn1r.eu.cc
     path: /id-pusat
-- name: 🇯🇵[www.v2nodes.com] vless-JP-1...
+- encryption: none
+  name: 🇯🇵[www.v2nodes.com] vless-JP-1...
+  network: ws
+  port: 8080
+  server: 104.21.70.21
+  servername: nautica-cff.kloningstrife002.workers.dev
+  tls: false
+  type: vless
+  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+  ws-opts:
+    headers:
+      Host: nautica-cff.kloningstrife002.workers.dev
+    path: /138.2.74.219-28616
+- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #1'
   network: ws
   port: 443
   server: 207.148.115.152
@@ -26,7 +39,7 @@ proxies:
     path: /socks5=888:888@hkip.1d.mom:1080fp=chrome
 - client-fingerprint: chrome
   encryption: none
-  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #1'
+  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #2'
   network: ws
   port: 443
   server: 207.148.115.152
@@ -38,11 +51,11 @@ proxies:
     headers:
       Host: vlso5.1d.mom
     path: /socks5=888:888@hkip.1d.mom:1080
-- client-fingerprint: firefox
-  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #3'
+- client-fingerprint: chrome
+  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #4'
   network: ws
   port: 443
-  server: 43.170.8.95
+  server: 104.16.10.234
   servername: jp3.yohototo.top
   tls: true
   type: vless
@@ -51,40 +64,41 @@ proxies:
     headers:
       Host: jp3.yohototo.top
     path: /tyxyws
-- encryption: none
-  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #6'
+- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #7'
   network: tcp
   port: 47878
   server: 152.69.195.67
-  servername: 152.69.195.67
   tls: false
   type: vless
   uuid: eb8613e3-8393-4cff-a3ad-6501fd4adc63
-- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #7'
+- client-fingerprint: unsafe
+  encryption: none
+  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #8'
   network: ws
   port: 443
-  server: 104.21.221.158
-  servername: ccc.010304.xyz
-  skip-cert-verify: false
+  server: 188.114.97.6
+  servername: nautica-cff.kloningstrife002.workers.dev
   tls: true
   type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
   ws-opts:
     headers:
-      Host: ccc.010304.xyz
-    path: /fp=unsafefp=unsafe
-- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #8'
+      Host: nautica-cff.kloningstrife002.workers.dev
+    path: /138.2.74.219-28616
+- client-fingerprint: ios
+  encryption: none
+  name: 🇯🇵[www.v2nodes.com] vless-JP-4...
   network: ws
-  port: 8080
-  server: 188.114.99.0
-  servername: hhlfy.twiladaphne.ndjp.net
-  tls: false
+  port: 443
+  server: 104.21.73.135
+  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
+  tls: true
   type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
   ws-opts:
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /sg-melbi
+      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
+    path: /api/ws
 - encryption: none
   name: '🇯🇵[www.v2nodes.com] vless-JP-1... #9'
   network: ws
@@ -99,6 +113,20 @@ proxies:
     headers:
       Host: notls.lukongtou.eu.org
     path: Telegram-WangCai2🇨🇳
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #10'
+  network: ws
+  port: 2096
+  server: courses.mftplus.qzz.io
+  servername: courses.mftplus.qzz.io
+  tls: true
+  type: vless
+  uuid: b9ede7a5-5b4b-4aee-ac37-2c307e587e47
+  ws-opts:
+    headers:
+      Host: courses.mftplus.qzz.io
+    path: /eyJqdW5rIjoidVkzQm1ROUg4dyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
 - cipher: aes-256-gcm
   name: 🇯🇵[www.v2nodes.com] ss-JP-1599...
   password: BeaUf9c0AEWH40Pu
@@ -108,7 +136,7 @@ proxies:
 - cipher: aes-256-gcm
   name: 🇯🇵[www.v2nodes.com] ss-JP-1544...
   password: 3eOFeNssde7PYYMv
-  port: 80
+  port: 443
   server: 84.247.155.196
   type: ss
 - cipher: aes-128-gcm
@@ -123,9 +151,9 @@ proxies:
   port: 443
   server: 149.22.87.240
   type: ss
-- name: 🇯🇵JP_1|1.3MB/s
-  port: 40583
-  server: 120.232.204.58
-  skip-cert-verify: true
-  tls: true
-  type: http
+- cipher: aes-128-gcm
+  name: 🇯🇵[www.v2nodes.com] ss-JP-9223...
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.241
+  type: ss
