@@ -13,39 +13,48 @@ proxies:
   type: vless
   uuid: 32b5ca9b-3f81-4031-965d-e8b074216e8d
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc-ru
-  name: 🇷🇺 俄罗斯 | RUS
-  network: grpc
+  name: '🇷🇺 俄罗斯 | RUS #3'
+  network: ws
   port: 443
-  server: xssite.webredirect.org
-  servername: xssite.webredirect.org
+  server: xsru2.freeddns.org
+  servername: xsru2.freeddns.org
   tls: true
   type: vless
   udp: true
   uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
-- cipher: chacha20-ietf-poly1305
-  name: 🇷🇺[www.v2nodes.com] ss-RU-1614...
-  password: v1c-i5SSFXP8n4g1Wbc0L9gX82x5O2Qa
-  port: 1355
-  server: dns27.m3hrzd.ir
+  ws-opts:
+    headers:
+      Host: xsru2.freeddns.org
+    path: /wsru
+- cipher: aes-128-gcm
+  name: 🇷🇺[www.v2nodes.com] ss-RU-1617...
+  password: 8722de56b6c0b3f6a4d01cf91c07e6aa
+  port: 13108
+  server: 38.60.223.125
   type: ss
+- cipher: aes-256-gcm
+  name: '🇷🇺 俄罗斯 | RUS #1'
+  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
+  port: 18443
+  server: 46.17.47.58
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇷🇺[www.v2nodes.com] ss-RU-1163...
   password: VVlAff77CnAU43Aoc5j15Y
   port: 5112
   server: 90.156.203.62
   type: ss
-- name: 🇷🇺RU_1|2.1MB/s
+- name: 🇷🇺RU_1|4.1MB/s
   password: None
   port: 1446
   server: 46.29.166.134
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇷🇺RU_2|2.4MB/s
-  port: 10800
-  server: 46.8.158.144
+- name: 🇷🇺RU_2|1.1MB/s
+  port: 8443
+  server: 87.242.85.187
   skip-cert-verify: true
-  type: socks5
+  tls: true
+  type: http
