@@ -1,7 +1,28 @@
 proxies:
+- name: 🇸🇬 8@exclavevpn
+  password: 4fa0ca1b-0742-419d-8fd2-3f698e06b206
+  port: 20443
+  server: 84.32.23.62
+  skip-cert-verify: true
+  sni: hy530899-3.w-mebel.pro
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 🇸🇬[www.v2nodes.com] vless-SG-1...
+  network: ws
+  port: 8443
+  server: sg01.cf.sh-cloudflare.sbs
+  servername: sg01.cdn00.top
+  tls: true
+  type: vless
+  uuid: a8d9c86f-cddb-4fa5-96f7-f68eb48b3cb3
+  ws-opts:
+    headers:
+      Host: sg01.cdn00.top
+    path: /shanhai/sg01
 - client-fingerprint: firefox
   encryption: none
-  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
+  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #2'
   network: tcp
   port: 56984
   server: 140.235.11.243
@@ -10,7 +31,7 @@ proxies:
   type: vless
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
 - client-fingerprint: firefox
-  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #2'
+  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #3'
   port: 443
   server: 45.76.155.179
   servername: sg003.zestapp778.com
@@ -18,7 +39,7 @@ proxies:
   type: vless
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
 - client-fingerprint: chrome
-  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #7'
+  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #8'
   network: ws
   port: 2096
   server: 139.162.27.96
@@ -83,43 +104,31 @@ proxies:
   port: 8886
   server: 139.180.146.200
   type: trojan
-- name: 🇸🇬SG_1|2.2MB/s
-  port: 9090
-  server: 128.199.113.85
-  skip-cert-verify: true
-  type: http
 - client-fingerprint: chrome
   name: '🇸🇬 新加坡 | SGP #1'
   network: ws
-  port: 2096
-  server: sg01.cf.sh-cloudflare.sbs
-  servername: sg01.cdn00.top
+  port: 443
+  server: 172.93.186.31
+  servername: cat.ilovezhenjiu.top
   tls: true
   type: vless
   udp: true
-  uuid: a8d9c86f-cddb-4fa5-96f7-f68eb48b3cb3
+  uuid: affb10d4-3835-4b1f-b5a3-3481489911b6
   ws-opts:
     headers:
-      Host: sg01.cdn00.top
-    path: /shanhai/sg01
-- alpn:
-  - h3
-  auth: tX2WVPT3RUHDK2iQQpc9FDxP
-  down: 200
-  name: 🇸🇬 新加坡 | SGP 5
-  password: tX2WVPT3RUHDK2iQQpc9FDxP
-  port: 20000
-  server: 47.129.134.122
-  skip-cert-verify: true
-  sni: sg-transit-2.nebulacloud.win
-  type: hysteria2
+      Host: cat.ilovezhenjiu.top
+    path: /cgciws
+- client-fingerprint: chrome
+  name: '🇸🇬 新加坡 | SGP #2'
+  network: ws
+  port: 443
+  server: 172.237.91.206
+  servername: cat.ilovezhenjiu.top
+  tls: true
+  type: vless
   udp: true
-  up: 100
-- name: '🇸🇬 新加坡 | SGP #5'
-  password: tX2WVPT3RUHDK2iQQpc9FDxP
-  port: 20000
-  server: 47.129.134.122
-  skip-cert-verify: true
-  sni: sg-transit-2.nebulacloud.win
-  tls: false
-  type: hysteria2
+  uuid: affb10d4-3835-4b1f-b5a3-3481489911b6
+  ws-opts:
+    headers:
+      Host: cat.ilovezhenjiu.top
+    path: /cgciws

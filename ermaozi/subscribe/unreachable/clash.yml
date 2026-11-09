@@ -38,47 +38,70 @@ dns:
   - https://1.1.1.1/dns-query
   - https://1.0.0.1/dns-query
 proxies:
-- name: 🇺🇸US_20|2.1MB/s
-  port: 6801
-  server: 45.74.31.42
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: '🇳🇱[www.v2nodes.com] vless-NL-1... #2'
+  network: ws
+  port: 8444
+  server: 95.142.32.42
+  servername: nl18.meshbeat.online
+  tls: true
+  type: vless
+  uuid: a8321cfe-39a2-48a0-a918-f01f7d9006ed
+  ws-opts:
+    headers:
+      Host: nl18.meshbeat.online
+    path: /api/v1/devices/86f81c4330/telemetry
+- client-fingerprint: firefox
+  encryption: none
+  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
+  network: tcp
+  port: 56984
+  server: 140.235.11.243
+  servername: sg1.zestapp778.com
+  tls: true
+  type: vless
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+- cipher: aes-256-gcm
+  name: 🇮🇳[www.v2nodes.com] ss-IN-1561...
+  password: GEdoeeqLZtkJRgSa
+  port: 8388
+  server: 139.84.166.47
+  type: ss
+- cipher: aes-256-gcm
+  name: 🏳[www.v2nodes.com] ss-
+  password: dongtaiwang.com
+  port: 35678
+  server: 137.175.73.178
+  type: ss
+- name: 🇧🇬 保加利亚 | BGR
+  network: ws
+  password: 46d221fa-e9b4-748c-4eae-019a88e42991
+  port: 443
+  server: 191.44.112.170.sslip.io
   skip-cert-verify: true
-  type: socks5
-- name: 🇺🇸US_21|1.9MB/s
-  port: 6771
-  server: 45.74.31.47
-  skip-cert-verify: true
-  type: socks5
-- name: 🇺🇸US_23|1.6MB/s
-  port: 12142
-  server: 45.74.31.40
-  skip-cert-verify: true
-  type: socks5
-- name: 🇩🇪DE_6|2.8MB/s
-  port: 12345
-  server: 141.147.19.47
-  skip-cert-verify: true
-  type: http
+  sni: orbylume.my.to
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: orbylume.my.to
+    path: /tvpn-trojan/bg
 - cipher: chacha20-ietf-poly1305
   name: '🇰🇷 韩国 | KOR #2'
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 8443
-  server: 13.124.54.30
+  server: 52.78.103.20
   type: ss
   udp: true
-- client-fingerprint: qq
-  name: '🇺🇸 美国 | USA #6'
-  network: xhttp
+- name: '🇧🇬 保加利亚 | BGR #1'
+  password: 46d221fa-e9b4-748c-4eae-019a88e42991
   port: 443
-  server: us2.qik-fin.uk
-  servername: us2.qik-fin.uk
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3c4aa500-e3ae-4778-837b-f02dfea8c85f
-  xhttp-opts:
-    host: us2.qik-fin.uk
-    mode: stream-one
-    path: /static/js/chunk
+  server: 191.44.112.170.sslip.io
+  skip-cert-verify: true
+  sni: orbylume.my.to
+  type: trojan
 - client-fingerprint: firefox
   name: AT_speednode_0002
   network: ws
@@ -129,35 +152,53 @@ proxies:
   type: vless
   udp: true
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+- name: 🇨🇭 瑞士 | CHE
+  server: 62.109.1.5
+  port: 2058
+  type: vless
+  uuid: 4ad9f982-b56a-444a-9684-35ce51307a36
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: lJBsn9ndieTIUBzXkJUhf6O0OE8pm29_z1fUtARwL0s
+    short-id: 937255313d6ce673
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
 proxy-groups:
 - name: ermao.net | 🚀 节点选择
   type: select
   proxies:
   - ermao.net | ♻️ 自动选择
   - DIRECT
-  - 🇺🇸US_20|2.1MB/s
-  - 🇺🇸US_21|1.9MB/s
-  - 🇺🇸US_23|1.6MB/s
-  - 🇩🇪DE_6|2.8MB/s
+  - '🇳🇱[www.v2nodes.com] vless-NL-1... #2'
+  - '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
+  - 🇮🇳[www.v2nodes.com] ss-IN-1561...
+  - 🏳[www.v2nodes.com] ss-
+  - 🇧🇬 保加利亚 | BGR
   - '🇰🇷 韩国 | KOR #2'
-  - '🇺🇸 美国 | USA #6'
+  - '🇧🇬 保加利亚 | BGR #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
+  - 🇨🇭 瑞士 | CHE
 - name: ermao.net | ♻️ 自动选择
   type: url-test
   proxies:
-  - 🇺🇸US_20|2.1MB/s
-  - 🇺🇸US_21|1.9MB/s
-  - 🇺🇸US_23|1.6MB/s
-  - 🇩🇪DE_6|2.8MB/s
+  - '🇳🇱[www.v2nodes.com] vless-NL-1... #2'
+  - '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
+  - 🇮🇳[www.v2nodes.com] ss-IN-1561...
+  - 🏳[www.v2nodes.com] ss-
+  - 🇧🇬 保加利亚 | BGR
   - '🇰🇷 韩国 | KOR #2'
-  - '🇺🇸 美国 | USA #6'
+  - '🇧🇬 保加利亚 | BGR #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
+  - 🇨🇭 瑞士 | CHE
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -167,61 +208,69 @@ proxy-groups:
   - ermao.net | 🚀 节点选择
   - ermao.net | ♻️ 自动选择
   - 🎯 全球直连
-  - 🇺🇸US_20|2.1MB/s
-  - 🇺🇸US_21|1.9MB/s
-  - 🇺🇸US_23|1.6MB/s
-  - 🇩🇪DE_6|2.8MB/s
+  - '🇳🇱[www.v2nodes.com] vless-NL-1... #2'
+  - '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
+  - 🇮🇳[www.v2nodes.com] ss-IN-1561...
+  - 🏳[www.v2nodes.com] ss-
+  - 🇧🇬 保加利亚 | BGR
   - '🇰🇷 韩国 | KOR #2'
-  - '🇺🇸 美国 | USA #6'
+  - '🇧🇬 保加利亚 | BGR #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
+  - 🇨🇭 瑞士 | CHE
 - name: 📲 电报信息
   type: select
   proxies:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸US_20|2.1MB/s
-  - 🇺🇸US_21|1.9MB/s
-  - 🇺🇸US_23|1.6MB/s
-  - 🇩🇪DE_6|2.8MB/s
+  - '🇳🇱[www.v2nodes.com] vless-NL-1... #2'
+  - '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
+  - 🇮🇳[www.v2nodes.com] ss-IN-1561...
+  - 🏳[www.v2nodes.com] ss-
+  - 🇧🇬 保加利亚 | BGR
   - '🇰🇷 韩国 | KOR #2'
-  - '🇺🇸 美国 | USA #6'
+  - '🇧🇬 保加利亚 | BGR #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
+  - 🇨🇭 瑞士 | CHE
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
   - 🎯 全球直连
   - ermao.net | 🚀 节点选择
-  - 🇺🇸US_20|2.1MB/s
-  - 🇺🇸US_21|1.9MB/s
-  - 🇺🇸US_23|1.6MB/s
-  - 🇩🇪DE_6|2.8MB/s
+  - '🇳🇱[www.v2nodes.com] vless-NL-1... #2'
+  - '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
+  - 🇮🇳[www.v2nodes.com] ss-IN-1561...
+  - 🏳[www.v2nodes.com] ss-
+  - 🇧🇬 保加利亚 | BGR
   - '🇰🇷 韩国 | KOR #2'
-  - '🇺🇸 美国 | USA #6'
+  - '🇧🇬 保加利亚 | BGR #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
+  - 🇨🇭 瑞士 | CHE
 - name: 🍎 苹果服务
   type: select
   proxies:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸US_20|2.1MB/s
-  - 🇺🇸US_21|1.9MB/s
-  - 🇺🇸US_23|1.6MB/s
-  - 🇩🇪DE_6|2.8MB/s
+  - '🇳🇱[www.v2nodes.com] vless-NL-1... #2'
+  - '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
+  - 🇮🇳[www.v2nodes.com] ss-IN-1561...
+  - 🏳[www.v2nodes.com] ss-
+  - 🇧🇬 保加利亚 | BGR
   - '🇰🇷 韩国 | KOR #2'
-  - '🇺🇸 美国 | USA #6'
+  - '🇧🇬 保加利亚 | BGR #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
+  - 🇨🇭 瑞士 | CHE
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -244,16 +293,18 @@ proxy-groups:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
   - ermao.net | ♻️ 自动选择
-  - 🇺🇸US_20|2.1MB/s
-  - 🇺🇸US_21|1.9MB/s
-  - 🇺🇸US_23|1.6MB/s
-  - 🇩🇪DE_6|2.8MB/s
+  - '🇳🇱[www.v2nodes.com] vless-NL-1... #2'
+  - '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
+  - 🇮🇳[www.v2nodes.com] ss-IN-1561...
+  - 🏳[www.v2nodes.com] ss-
+  - 🇧🇬 保加利亚 | BGR
   - '🇰🇷 韩国 | KOR #2'
-  - '🇺🇸 美国 | USA #6'
+  - '🇧🇬 保加利亚 | BGR #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
+  - 🇨🇭 瑞士 | CHE
 rule-providers:
   LocalAreaNetwork:
     type: http

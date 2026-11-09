@@ -54,11 +54,10 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
-        "🇨🇿 CZ | VMESS | @freev2rays #1 [fast]",
-        "🇮🇷 IR | VMESS | @Proxymelimon #1 [medium]",
-        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1 [fast]",
+        "🇺🇸 US | VMESS | @freev2rays #2 [fast]",
+        "🇮🇷 IR | VMESS | @Proxymelimon #1 [fast]",
         "🇽🇽 XX | VMESS | @iranvpnet #1 [fast]",
-        "🇮🇷 IR | VMESS | @NamiraConfigs #1 [medium]",
+        "🇮🇷 IR | VMESS | @NamiraConfigs #1 [fast]",
         "🇺🇸 US | VMESS | @mi_pn_official #1 [fast]",
         "🇺🇸 US | VMESS | @mi_pn_official #2 [fast]",
         "🇺🇸 US | VMESS | @proxy48 #1 [fast]",
@@ -81,11 +80,10 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
-        "🇨🇿 CZ | VMESS | @freev2rays #1 [fast]",
-        "🇮🇷 IR | VMESS | @Proxymelimon #1 [medium]",
-        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1 [fast]",
+        "🇺🇸 US | VMESS | @freev2rays #2 [fast]",
+        "🇮🇷 IR | VMESS | @Proxymelimon #1 [fast]",
         "🇽🇽 XX | VMESS | @iranvpnet #1 [fast]",
-        "🇮🇷 IR | VMESS | @NamiraConfigs #1 [medium]",
+        "🇮🇷 IR | VMESS | @NamiraConfigs #1 [fast]",
         "🇺🇸 US | VMESS | @mi_pn_official #1 [fast]",
         "🇺🇸 US | VMESS | @mi_pn_official #2 [fast]",
         "🇺🇸 US | VMESS | @proxy48 #1 [fast]",
@@ -164,10 +162,10 @@
     },
     {
       "type": "vmess",
-      "tag": "🇨🇿 CZ | VMESS | @freev2rays #1 [fast]",
-      "server": "time.is",
+      "tag": "🇺🇸 US | VMESS | @freev2rays #2 [fast]",
+      "server": "xcf037.facai2024.com",
       "server_port": 443,
-      "uuid": "b526926d-1474-4f41-985e-8b877cb840cd",
+      "uuid": "d9863037-0463-4615-e972-36ba9662d1e9",
       "security": "auto",
       "alter_id": 0,
       "global_padding": false,
@@ -176,19 +174,19 @@
       "packet_encoding": "",
       "tls": {
         "enabled": true,
-        "server_name": "time.is"
+        "server_name": "xcf037.facai2024.com"
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/d9863037",
         "headers": {
-          "Host": "shs111.kejixiaoqi666.store"
+          "Host": "xcf037.facai2024.com"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "🇮🇷 IR | VMESS | @Proxymelimon #1 [medium]",
+      "tag": "🇮🇷 IR | VMESS | @Proxymelimon #1 [fast]",
       "server": "getnet.serversubasli.top",
       "server_port": 8080,
       "uuid": "d2b67e48-c341-47ba-8caa-5658df693ac4",
@@ -204,30 +202,6 @@
       "transport": {
         "type": "ws",
         "path": "/"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1 [fast]",
-      "server": "172.67.153.127",
-      "server_port": 443,
-      "uuid": "80be2deb-3b27-4775-9bd1-7f2a2b9c261b",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "network": "ws",
-      "packet_encoding": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.windowsmsidownloads.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/truth",
-        "headers": {
-          "Host": "www.windowsmsidownloads.com"
-        }
       }
     },
     {
@@ -256,7 +230,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇮🇷 IR | VMESS | @NamiraConfigs #1 [medium]",
+      "tag": "🇮🇷 IR | VMESS | @NamiraConfigs #1 [fast]",
       "server": "s1.connect.labex.pro",
       "server_port": 1007,
       "uuid": "d4c556a2-3d61-4b1d-9550-d6d010ff1d3f",

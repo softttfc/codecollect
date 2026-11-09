@@ -1,21 +1,31 @@
 proxies:
-- name: '🇪🇪[www.v2nodes.com] vless-EE-1... #3'
+- encryption: none
+  name: '🇪🇪[www.v2nodes.com] vless-EE-1... #3'
   network: tcp
   port: 16443
   server: 45.86.60.174
   tls: false
   type: vless
   uuid: 13e541f3-d09d-4633-89df-8513db0ced20
-- name: 🇪🇪EE_1|1.6MB/s
-  port: 443
-  server: 95.153.32.2
-  skip-cert-verify: true
+- grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc446
+  name: 🇪🇪 爱沙尼亚 | EST
+  network: grpc
+  port: 446
+  server: 144.31.129.202
+  servername: 144.31.129.202
   tls: true
-  type: http
-- name: 🇪🇪EE_2|1019KB/s
-  password: None
-  port: 9443
-  server: 95.153.31.66
-  skip-cert-verify: true
+  type: vless
+  udp: true
+  uuid: 4cb5f361-ac35-4a80-b6da-f34bc90ee775
+- grpc-opts:
+    grpc-service-name: ''
+  name: '🇪🇪 爱沙尼亚 | EST #1'
+  network: grpc
+  port: 446
+  server: 144.31.129.202
+  servername: 144.31.129.202
   tls: true
-  type: http
+  type: vless
+  uuid: 4cb5f361-ac35-4a80-b6da-f34bc90ee775
