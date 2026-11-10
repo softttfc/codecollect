@@ -38,70 +38,119 @@ dns:
   - https://1.1.1.1/dns-query
   - https://1.0.0.1/dns-query
 proxies:
+- type: vmess
+  name: 🇺🇸_US_美国_IPV4 (3)
+  server: 23.94.83.37
+  port: 52080
+  uuid: 355c1760-9bde-4b77-916b-5191e7f704a3
+  cipher: auto
+  alterId: 0
+  tls: false
+  servername: down-cdn.dingtalk.com
+  sni: down-cdn.dingtalk.com
+  network: http
+  http-opts:
+    path:
+    - /QQqun-737805443
+    headers:
+      Host:
+      - down-cdn.dingtalk.com
+- name: '🇳🇱[www.v2nodes.com] trojan-NL-... #2'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.127.154
+  type: trojan
 - alpn:
   - http/1.1
   client-fingerprint: firefox
-  name: '🇳🇱[www.v2nodes.com] vless-NL-1... #2'
+  name: 🇺🇸 US1@ripaojiedian
   network: ws
-  port: 8444
-  server: 95.142.32.42
-  servername: nl18.meshbeat.online
-  tls: true
-  type: vless
-  uuid: a8321cfe-39a2-48a0-a918-f01f7d9006ed
-  ws-opts:
-    headers:
-      Host: nl18.meshbeat.online
-    path: /api/v1/devices/86f81c4330/telemetry
-- client-fingerprint: firefox
-  encryption: none
-  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
-  network: tcp
-  port: 56984
-  server: 140.235.11.243
-  servername: sg1.zestapp778.com
-  tls: true
-  type: vless
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-- cipher: aes-256-gcm
-  name: 🇮🇳[www.v2nodes.com] ss-IN-1561...
-  password: GEdoeeqLZtkJRgSa
-  port: 8388
-  server: 139.84.166.47
-  type: ss
-- cipher: aes-256-gcm
-  name: 🏳[www.v2nodes.com] ss-
-  password: dongtaiwang.com
-  port: 35678
-  server: 137.175.73.178
-  type: ss
-- name: 🇧🇬 保加利亚 | BGR
-  network: ws
-  password: 46d221fa-e9b4-748c-4eae-019a88e42991
   port: 443
-  server: 191.44.112.170.sslip.io
+  server: 156.225.64.8
+  servername: speedtest.danfengno1.kdns.fr
   skip-cert-verify: true
-  sni: orbylume.my.to
-  type: trojan
+  tfo: false
+  tls: true
+  type: vless
   udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: orbylume.my.to
-    path: /tvpn-trojan/bg
+      Host: speedtest.danfengno1.kdns.fr
+    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
 - cipher: chacha20-ietf-poly1305
-  name: '🇰🇷 韩国 | KOR #2'
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  port: 8443
-  server: 52.78.103.20
+  name: '🇨🇿 捷克 | CZE #1'
+  password: KKmi4xBN5s0-9Oz49g7zkH4l0LWq6Uaq
+  port: 8044
+  server: 86.54.82.116
   type: ss
   udp: true
-- name: '🇧🇬 保加利亚 | BGR #1'
-  password: 46d221fa-e9b4-748c-4eae-019a88e42991
+- client-fingerprint: chrome
+  name: '🇩🇪 德国 | DEU #3'
+  network: ws
+  port: 8443
+  server: 142.111.77.179
+  servername: fs.qicai99.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  ws-opts:
+    headers:
+      Host: fs.qicai99.com
+    path: /
+- client-fingerprint: random
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc-ru
+  name: 🇷🇺 俄罗斯 | RUS
+  network: grpc
   port: 443
-  server: 191.44.112.170.sslip.io
-  skip-cert-verify: true
-  sni: orbylume.my.to
-  type: trojan
+  server: xsru1.ddnsfree.com
+  servername: xsru1.ddnsfree.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+- alpn:
+  - h2
+  client-fingerprint: ios
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: mobile.api.Event
+  name: 🇷🇺 俄罗斯 | RUS 2
+  network: grpc
+  port: 443
+  server: vps2.nemnogogo.com
+  servername: vps2.nemnogogo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95f85937-7b95-45c4-8d69-95da6a978569
+- client-fingerprint: random
+  grpc-opts:
+    grpc-service-name: ''
+  name: '🇷🇺 俄罗斯 | RUS #1'
+  network: grpc
+  port: 443
+  server: xsru1.ddnsfree.com
+  servername: xsru1.ddnsfree.com
+  tls: true
+  type: vless
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+- alpn:
+  - h2
+  client-fingerprint: ios
+  grpc-opts:
+    grpc-service-name: ''
+  name: '🇷🇺 俄罗斯 | RUS #2'
+  network: grpc
+  port: 443
+  server: vps2.nemnogogo.com
+  servername: vps2.nemnogogo.com
+  tls: true
+  type: vless
+  uuid: 95f85937-7b95-45c4-8d69-95da6a978569
 - client-fingerprint: firefox
   name: AT_speednode_0002
   network: ws
@@ -152,53 +201,41 @@ proxies:
   type: vless
   udp: true
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-- name: 🇨🇭 瑞士 | CHE
-  server: 62.109.1.5
-  port: 2058
-  type: vless
-  uuid: 4ad9f982-b56a-444a-9684-35ce51307a36
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: lJBsn9ndieTIUBzXkJUhf6O0OE8pm29_z1fUtARwL0s
-    short-id: 937255313d6ce673
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
 proxy-groups:
 - name: ermao.net | 🚀 节点选择
   type: select
   proxies:
   - ermao.net | ♻️ 自动选择
   - DIRECT
-  - '🇳🇱[www.v2nodes.com] vless-NL-1... #2'
-  - '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
-  - 🇮🇳[www.v2nodes.com] ss-IN-1561...
-  - 🏳[www.v2nodes.com] ss-
-  - 🇧🇬 保加利亚 | BGR
-  - '🇰🇷 韩国 | KOR #2'
-  - '🇧🇬 保加利亚 | BGR #1'
+  - 🇺🇸_US_美国_IPV4 (3)
+  - '🇳🇱[www.v2nodes.com] trojan-NL-... #2'
+  - 🇺🇸 US1@ripaojiedian
+  - '🇨🇿 捷克 | CZE #1'
+  - '🇩🇪 德国 | DEU #3'
+  - 🇷🇺 俄罗斯 | RUS
+  - 🇷🇺 俄罗斯 | RUS 2
+  - '🇷🇺 俄罗斯 | RUS #1'
+  - '🇷🇺 俄罗斯 | RUS #2'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇨🇭 瑞士 | CHE
 - name: ermao.net | ♻️ 自动选择
   type: url-test
   proxies:
-  - '🇳🇱[www.v2nodes.com] vless-NL-1... #2'
-  - '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
-  - 🇮🇳[www.v2nodes.com] ss-IN-1561...
-  - 🏳[www.v2nodes.com] ss-
-  - 🇧🇬 保加利亚 | BGR
-  - '🇰🇷 韩国 | KOR #2'
-  - '🇧🇬 保加利亚 | BGR #1'
+  - 🇺🇸_US_美国_IPV4 (3)
+  - '🇳🇱[www.v2nodes.com] trojan-NL-... #2'
+  - 🇺🇸 US1@ripaojiedian
+  - '🇨🇿 捷克 | CZE #1'
+  - '🇩🇪 德国 | DEU #3'
+  - 🇷🇺 俄罗斯 | RUS
+  - 🇷🇺 俄罗斯 | RUS 2
+  - '🇷🇺 俄罗斯 | RUS #1'
+  - '🇷🇺 俄罗斯 | RUS #2'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇨🇭 瑞士 | CHE
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -208,69 +245,73 @@ proxy-groups:
   - ermao.net | 🚀 节点选择
   - ermao.net | ♻️ 自动选择
   - 🎯 全球直连
-  - '🇳🇱[www.v2nodes.com] vless-NL-1... #2'
-  - '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
-  - 🇮🇳[www.v2nodes.com] ss-IN-1561...
-  - 🏳[www.v2nodes.com] ss-
-  - 🇧🇬 保加利亚 | BGR
-  - '🇰🇷 韩国 | KOR #2'
-  - '🇧🇬 保加利亚 | BGR #1'
+  - 🇺🇸_US_美国_IPV4 (3)
+  - '🇳🇱[www.v2nodes.com] trojan-NL-... #2'
+  - 🇺🇸 US1@ripaojiedian
+  - '🇨🇿 捷克 | CZE #1'
+  - '🇩🇪 德国 | DEU #3'
+  - 🇷🇺 俄罗斯 | RUS
+  - 🇷🇺 俄罗斯 | RUS 2
+  - '🇷🇺 俄罗斯 | RUS #1'
+  - '🇷🇺 俄罗斯 | RUS #2'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇨🇭 瑞士 | CHE
 - name: 📲 电报信息
   type: select
   proxies:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
-  - '🇳🇱[www.v2nodes.com] vless-NL-1... #2'
-  - '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
-  - 🇮🇳[www.v2nodes.com] ss-IN-1561...
-  - 🏳[www.v2nodes.com] ss-
-  - 🇧🇬 保加利亚 | BGR
-  - '🇰🇷 韩国 | KOR #2'
-  - '🇧🇬 保加利亚 | BGR #1'
+  - 🇺🇸_US_美国_IPV4 (3)
+  - '🇳🇱[www.v2nodes.com] trojan-NL-... #2'
+  - 🇺🇸 US1@ripaojiedian
+  - '🇨🇿 捷克 | CZE #1'
+  - '🇩🇪 德国 | DEU #3'
+  - 🇷🇺 俄罗斯 | RUS
+  - 🇷🇺 俄罗斯 | RUS 2
+  - '🇷🇺 俄罗斯 | RUS #1'
+  - '🇷🇺 俄罗斯 | RUS #2'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇨🇭 瑞士 | CHE
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
   - 🎯 全球直连
   - ermao.net | 🚀 节点选择
-  - '🇳🇱[www.v2nodes.com] vless-NL-1... #2'
-  - '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
-  - 🇮🇳[www.v2nodes.com] ss-IN-1561...
-  - 🏳[www.v2nodes.com] ss-
-  - 🇧🇬 保加利亚 | BGR
-  - '🇰🇷 韩国 | KOR #2'
-  - '🇧🇬 保加利亚 | BGR #1'
+  - 🇺🇸_US_美国_IPV4 (3)
+  - '🇳🇱[www.v2nodes.com] trojan-NL-... #2'
+  - 🇺🇸 US1@ripaojiedian
+  - '🇨🇿 捷克 | CZE #1'
+  - '🇩🇪 德国 | DEU #3'
+  - 🇷🇺 俄罗斯 | RUS
+  - 🇷🇺 俄罗斯 | RUS 2
+  - '🇷🇺 俄罗斯 | RUS #1'
+  - '🇷🇺 俄罗斯 | RUS #2'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇨🇭 瑞士 | CHE
 - name: 🍎 苹果服务
   type: select
   proxies:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
-  - '🇳🇱[www.v2nodes.com] vless-NL-1... #2'
-  - '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
-  - 🇮🇳[www.v2nodes.com] ss-IN-1561...
-  - 🏳[www.v2nodes.com] ss-
-  - 🇧🇬 保加利亚 | BGR
-  - '🇰🇷 韩国 | KOR #2'
-  - '🇧🇬 保加利亚 | BGR #1'
+  - 🇺🇸_US_美国_IPV4 (3)
+  - '🇳🇱[www.v2nodes.com] trojan-NL-... #2'
+  - 🇺🇸 US1@ripaojiedian
+  - '🇨🇿 捷克 | CZE #1'
+  - '🇩🇪 德国 | DEU #3'
+  - 🇷🇺 俄罗斯 | RUS
+  - 🇷🇺 俄罗斯 | RUS 2
+  - '🇷🇺 俄罗斯 | RUS #1'
+  - '🇷🇺 俄罗斯 | RUS #2'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇨🇭 瑞士 | CHE
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -293,18 +334,19 @@ proxy-groups:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
   - ermao.net | ♻️ 自动选择
-  - '🇳🇱[www.v2nodes.com] vless-NL-1... #2'
-  - '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
-  - 🇮🇳[www.v2nodes.com] ss-IN-1561...
-  - 🏳[www.v2nodes.com] ss-
-  - 🇧🇬 保加利亚 | BGR
-  - '🇰🇷 韩国 | KOR #2'
-  - '🇧🇬 保加利亚 | BGR #1'
+  - 🇺🇸_US_美国_IPV4 (3)
+  - '🇳🇱[www.v2nodes.com] trojan-NL-... #2'
+  - 🇺🇸 US1@ripaojiedian
+  - '🇨🇿 捷克 | CZE #1'
+  - '🇩🇪 德国 | DEU #3'
+  - 🇷🇺 俄罗斯 | RUS
+  - 🇷🇺 俄罗斯 | RUS 2
+  - '🇷🇺 俄罗斯 | RUS #1'
+  - '🇷🇺 俄罗斯 | RUS #2'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇨🇭 瑞士 | CHE
 rule-providers:
   LocalAreaNetwork:
     type: http
