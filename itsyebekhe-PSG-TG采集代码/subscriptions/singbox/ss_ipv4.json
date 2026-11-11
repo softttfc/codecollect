@@ -56,21 +56,20 @@
         "🇺🇸 US | SS | @outline_ir #1 [fast]",
         "🇬🇧 GB | SS | @nofiltering2 #1 [fast]",
         "🇬🇧 GB | SS | @nofiltering2 #2 [fast]",
-        "🇩🇪 DE | SS | @outlinereleasedkey #1 [fast]",
         "🇨🇭 CH | SS | @outlinereleasedkey #1 [fast]",
+        "🇬🇧 GB | SS | @outlinereleasedkey #1 [fast]",
+        "🇪🇸 ES | SS | @outlinereleasedkey #1 [fast]",
         "🇬🇧 GB | SS | @beshkan #1 [fast]",
         "🇬🇧 GB | SS | @beshkan #2 [fast]",
         "🇺🇸 US | SS | @beshkan #1 [fast]",
         "🇬🇧 GB | SS | @free4allvpn #1 [fast]",
-        "🇺🇸 US | SS | @mtproxy22_v2ray #1 [fast]",
-        "🇷🇴 RO | SS | @mtproxy22_v2ray #1 [medium]",
-        "🇷🇺 RU | SS | @mtproxy22_v2ray #1 [medium]",
         "🇪🇸 ES | SS | @mtproxy22_v2ray #1 [fast]",
-        "🇸🇬 SG | SS | @red2ray #1 [medium]",
+        "🇺🇸 US | SS | @mtproxy22_v2ray #1 [fast]",
+        "🇸🇪 SE | SS | @mtproxy22_v2ray #1 [fast]",
+        "🇺🇸 US | SS | @mtproxy22_v2ray #2 [fast]",
+        "🇷🇺 RU | SS | @red2ray #1 [fast]",
         "🇬🇧 GB | SS | @father_vpn #1 [fast]",
-        "🇮🇹 IT | SS | @netfreedom0 #1 [fast]",
         "🇺🇸 US | SS | @netfreedom0 #1 [fast]",
-        "🇩🇪 DE | SS | @netfreedom0 #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -85,21 +84,20 @@
         "🇺🇸 US | SS | @outline_ir #1 [fast]",
         "🇬🇧 GB | SS | @nofiltering2 #1 [fast]",
         "🇬🇧 GB | SS | @nofiltering2 #2 [fast]",
-        "🇩🇪 DE | SS | @outlinereleasedkey #1 [fast]",
         "🇨🇭 CH | SS | @outlinereleasedkey #1 [fast]",
+        "🇬🇧 GB | SS | @outlinereleasedkey #1 [fast]",
+        "🇪🇸 ES | SS | @outlinereleasedkey #1 [fast]",
         "🇬🇧 GB | SS | @beshkan #1 [fast]",
         "🇬🇧 GB | SS | @beshkan #2 [fast]",
         "🇺🇸 US | SS | @beshkan #1 [fast]",
         "🇬🇧 GB | SS | @free4allvpn #1 [fast]",
-        "🇺🇸 US | SS | @mtproxy22_v2ray #1 [fast]",
-        "🇷🇴 RO | SS | @mtproxy22_v2ray #1 [medium]",
-        "🇷🇺 RU | SS | @mtproxy22_v2ray #1 [medium]",
         "🇪🇸 ES | SS | @mtproxy22_v2ray #1 [fast]",
-        "🇸🇬 SG | SS | @red2ray #1 [medium]",
+        "🇺🇸 US | SS | @mtproxy22_v2ray #1 [fast]",
+        "🇸🇪 SE | SS | @mtproxy22_v2ray #1 [fast]",
+        "🇺🇸 US | SS | @mtproxy22_v2ray #2 [fast]",
+        "🇷🇺 RU | SS | @red2ray #1 [fast]",
         "🇬🇧 GB | SS | @father_vpn #1 [fast]",
-        "🇮🇹 IT | SS | @netfreedom0 #1 [fast]",
-        "🇺🇸 US | SS | @netfreedom0 #1 [fast]",
-        "🇩🇪 DE | SS | @netfreedom0 #1 [fast]"
+        "🇺🇸 US | SS | @netfreedom0 #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -183,8 +181,8 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇩🇪 DE | SS | @outlinereleasedkey #1 [fast]",
-      "server": "193.108.119.83",
+      "tag": "🇨🇭 CH | SS | @outlinereleasedkey #1 [fast]",
+      "server": "79.127.184.104",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
@@ -195,8 +193,20 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇨🇭 CH | SS | @outlinereleasedkey #1 [fast]",
-      "server": "79.127.184.104",
+      "tag": "🇬🇧 GB | SS | @outlinereleasedkey #1 [fast]",
+      "server": "198.244.202.215",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇪🇸 ES | SS | @outlinereleasedkey #1 [fast]",
+      "server": "79.127.139.242",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
@@ -255,42 +265,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇺🇸 US | SS | @mtproxy22_v2ray #1 [fast]",
-      "server": "193.151.160.9",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇷🇴 RO | SS | @mtproxy22_v2ray #1 [medium]",
-      "server": "82.152.132.211",
-      "server_port": 8044,
-      "method": "chacha20-ietf-poly1305",
-      "password": "dCamglzrORaopqbpBlptzbt9QdiH4CSN",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇷🇺 RU | SS | @mtproxy22_v2ray #1 [medium]",
-      "server": "130.49.189.158",
-      "server_port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "yZiPrr484OdSYcivDUv+UIygwvyW+HQYytKsIgTw9tU=",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "type": "shadowsocks",
       "tag": "🇪🇸 ES | SS | @mtproxy22_v2ray #1 [fast]",
       "server": "193.148.19.214",
       "server_port": 12798,
@@ -303,11 +277,47 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇸🇬 SG | SS | @red2ray #1 [medium]",
-      "server": "149.88.107.47",
+      "tag": "🇺🇸 US | SS | @mtproxy22_v2ray #1 [fast]",
+      "server": "193.151.160.18",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇸🇪 SE | SS | @mtproxy22_v2ray #1 [fast]",
+      "server": "70.34.212.124",
+      "server_port": 8388,
+      "method": "aes-256-gcm",
+      "password": "AxIYWtskJWIIaefW",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 US | SS | @mtproxy22_v2ray #2 [fast]",
+      "server": "84.20.27.183",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇷🇺 RU | SS | @red2ray #1 [fast]",
+      "server": "185.22.153.117",
+      "server_port": 18443,
+      "method": "aes-256-gcm",
+      "password": "NTiHBg64fsY8u8DbGrtypD9gPGSL386p",
       "network": "tcp",
       "tls": {
         "enabled": true
@@ -327,35 +337,11 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇮🇹 IT | SS | @netfreedom0 #1 [fast]",
-      "server": "202.50.253.45",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "type": "shadowsocks",
       "tag": "🇺🇸 US | SS | @netfreedom0 #1 [fast]",
       "server": "156.146.38.170",
       "server_port": 443,
       "method": "aes-128-gcm",
       "password": "shadowsocks",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇩🇪 DE | SS | @netfreedom0 #1 [fast]",
-      "server": "18.196.58.183",
-      "server_port": 443,
-      "method": "aes-256-cfb",
-      "password": "amazonskr05",
       "network": "tcp",
       "tls": {
         "enabled": true

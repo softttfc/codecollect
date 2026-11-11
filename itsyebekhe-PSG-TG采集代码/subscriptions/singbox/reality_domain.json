@@ -54,11 +54,12 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇫🇷 FR | VLESS | @free1_vpn #1 [fast]",
-        "🇹🇷 TR | VLESS | @selinc #1 [fast]",
+        "🇵🇱 PL | VLESS | @free1_vpn #1 [fast]",
+        "🇹🇷 TR | VLESS | @selinc #1 [slow]",
+        "🇧🇬 BG | VLESS | @hope_net #1 [fast]",
         "🇹🇷 TR | VLESS | @Proxymelimon #1 [fast]",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1 [fast]",
-        "🇺🇸 US | VLESS | @red2ray #1 [fast]",
-        "🇷🇴 RO | VLESS | @orange_vpns #1 [fast]",
+        "🇨🇦 CA | VLESS | @red2ray #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -71,11 +72,12 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇫🇷 FR | VLESS | @free1_vpn #1 [fast]",
-        "🇹🇷 TR | VLESS | @selinc #1 [fast]",
+        "🇵🇱 PL | VLESS | @free1_vpn #1 [fast]",
+        "🇹🇷 TR | VLESS | @selinc #1 [slow]",
+        "🇧🇬 BG | VLESS | @hope_net #1 [fast]",
         "🇹🇷 TR | VLESS | @Proxymelimon #1 [fast]",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1 [fast]",
-        "🇺🇸 US | VLESS | @red2ray #1 [fast]",
-        "🇷🇴 RO | VLESS | @orange_vpns #1 [fast]"
+        "🇨🇦 CA | VLESS | @red2ray #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -145,7 +147,25 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 TR | VLESS | @selinc #1 [fast]",
+      "tag": "🇵🇱 PL | VLESS | @free1_vpn #1 [fast]",
+      "server": "tg.riotvpn.eu",
+      "server_port": 443,
+      "uuid": "a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "reality": {
+          "enabled": true,
+          "public_key": "8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho",
+          "short_id": "2f49bccf11150ef2"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 TR | VLESS | @selinc #1 [slow]",
       "server": "tr.0a0.uk",
       "server_port": 443,
       "uuid": "4a414062-e1b2-496a-bf50-d447e786f3f4",
@@ -163,6 +183,28 @@
           "enabled": true,
           "public_key": "U-2PKc5vWQ8drgWUeoxL58r4v_GNpmuvxarkDRat9R0",
           "short_id": "2eec85de34f4cc39"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇬 BG | VLESS | @hope_net #1 [fast]",
+      "server": "p11real3.greewebservices.ir",
+      "server_port": 1040,
+      "uuid": "1ca12389-0d86-4197-a79a-49d24539ce05",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.googleapis.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8",
+          "short_id": "9b60d3"
         }
       }
     },
@@ -214,46 +256,24 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @red2ray #1 [fast]",
-      "server": "parvaz.zqpm.ir",
-      "server_port": 20753,
-      "uuid": "92b368fe-8991-4345-a726-b512ba6da8da",
+      "tag": "🇨🇦 CA | VLESS | @red2ray #1 [fast]",
+      "server": "ca1.fox-lisa.ru",
+      "server_port": 443,
+      "uuid": "ccb8ff48-3934-4250-b4ec-bb76b95d154f",
+      "flow": "xtls-rprx-vision",
       "network": "tcp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "yahoo.com",
+        "server_name": "ca1.fox-lisa.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "PF8LdirtBEOQ_w9-1-i3mhgeFYbIQ1iOu1FPCfxUHQo",
-          "short_id": "2efbb0033df59520"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇴 RO | VLESS | @orange_vpns #1 [fast]",
-      "server": "cdn-rum-keno-prsv.keno.su",
-      "server_port": 443,
-      "uuid": "dc95c1dd-2cd3-414c-8cf1-71ae86dad666",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn-rum-keno-prsv.keno.su",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Cw04nkURk7InPCPZl-0PovP44rh5o74dMHBUFOsjFig",
-          "short_id": "a1b2c3d4e5f60718"
+          "public_key": "NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs",
+          "short_id": "027af64166562b09"
         }
       }
     },

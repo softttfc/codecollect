@@ -8,16 +8,13 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: '🇸🇬 新加坡 | SGP #2'
-  network: tcp
+  name: 🇸🇬[www.v2nodes.com] vless-SG-1...
   port: 8443
   server: 207.148.124.12
   servername: www.bing.com
   tls: true
   type: vless
   uuid: bcdb425f-80bc-4ec8-92a5-8edf53639c01
-  ws-opts:
-    path: /
 - client-fingerprint: chrome
   name: '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
   network: ws
@@ -63,6 +60,12 @@ proxies:
     headers:
       Host: free-server.techsonic.dev
     path: /free-server.techsonic.dev
+- name: '🇸🇬[www.v2nodes.com] vless-SG-1... #11'
+  port: 41688
+  server: 54.169.200.246
+  tls: false
+  type: vless
+  uuid: 49c0aac1-5e05-4f04-b624-248fc59e03c4
 - client-fingerprint: chrome
   encryption: none
   name: '🇸🇬[www.v2nodes.com] vless-SG-1... #12'
@@ -125,13 +128,13 @@ proxies:
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 149.28.130.108
-  skip-cert-verify: true
   sni: searchcreativejobsandshowcaseyourartistictalents.com
   type: trojan
 - name: '🇸🇬[www.v2nodes.com] trojan-SG-... #2'
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   port: 8886
   server: 139.180.146.200
+  sni: 139.180.146.200
   type: trojan
 - client-fingerprint: firefox
   name: 🇸🇬 新加坡｜07｜BGP
@@ -201,77 +204,75 @@ proxies:
     headers:
       Host: speedtest.danfengno1.kdns.fr
     path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
-- name: 🇸🇬SG_1|1.1MB/s
-  port: 9090
-  server: 167.172.76.176
+- name: 🇸🇬SG_1|1.8MB/s
+  password: '!!str 8888'
+  port: 1080
+  server: 47.236.168.243
+  skip-cert-verify: true
+  type: socks5
+  username: '8888'
+- name: 🇸🇬SG_2|3.3MB/s
+  port: 9443
+  server: 149.88.99.209
+  skip-cert-verify: true
+  tls: true
   type: http
-- client-fingerprint: chrome
+  udp: true
+- name: 🇸🇬SG_4|1.8MB/s
+  password: None
+  port: 9090
+  server: 167.99.74.174
+  skip-cert-verify: true
+  type: http
+- auth: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  fingerprint: C1:FD:40:94:1F:91:9B:5C:78:96:24:40:97:F2:2D:9D:95:8E:62:5C:D9:58:B7:5F:34:CC:FA:42:18:1F:50:B2
   name: '🇸🇬 新加坡 | SGP #1'
-  network: ws
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 443
-  server: 159.223.79.119
-  servername: 5269t.pages.dev
+  server: 18.143.131.177
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: '🇸🇬 新加坡 | SGP #2'
+  network: tcp
+  port: 443
+  server: sg003.zestapp778.com
+  servername: sg003.zestapp778.com
   tls: true
   type: vless
   udp: true
-  uuid: 8c7588f8-2d81-4b09-86d4-4a623e9f2dca
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   ws-opts:
     headers:
-      Host: 5269t.pages.dev
+      Host: sg003.zestapp778.com
     path: /
-- client-fingerprint: chrome
-  name: '🇸🇬 新加坡 | SGP #3'
-  network: ws
-  port: 443
-  server: 139.162.62.195
-  servername: fs.qicai99.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  ws-opts:
-    headers:
-      Host: fs.qicai99.com
-    path: /
-- client-fingerprint: chrome
+- client-fingerprint: random
   name: '🇸🇬 新加坡 | SGP #4'
   network: ws
   port: 443
-  server: 157.230.248.19
-  servername: fs.qicai99.com
+  server: 139.162.33.165
+  servername: eu-central.862400.xyz
   tls: true
   type: vless
   udp: true
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  uuid: 5b28a0c9-eda3-4c78-b07b-48cbd1670771
   ws-opts:
     headers:
-      Host: fs.qicai99.com
-    path: /
-- client-fingerprint: chrome
+      Host: eu-central.862400.xyz
+    path: /announcement?ed=2048
+- client-fingerprint: random
   name: '🇸🇬 新加坡 | SGP #5'
   network: ws
   port: 443
-  server: 143.42.66.91
-  servername: fs.qicai99.com
+  server: 139.162.46.201
+  servername: us-lax.862400.xyz
   tls: true
   type: vless
   udp: true
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  uuid: 5b28a0c9-eda3-4c78-b07b-48cbd1670771
   ws-opts:
     headers:
-      Host: fs.qicai99.com
-    path: /
-- client-fingerprint: chrome
-  name: '🇸🇬 新加坡 | SGP #6'
-  network: ws
-  port: 443
-  server: 43.170.38.62
-  servername: 5269t.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8c7588f8-2d81-4b09-86d4-4a623e9f2dca
-  ws-opts:
-    headers:
-      Host: 5269t.pages.dev
-    path: /
+      Host: us-lax.862400.xyz
+    path: /announcement?ed=2048

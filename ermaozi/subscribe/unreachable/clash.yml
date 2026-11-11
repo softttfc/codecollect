@@ -38,28 +38,6 @@ dns:
   - https://1.1.1.1/dns-query
   - https://1.0.0.1/dns-query
 proxies:
-- type: vmess
-  name: 🇺🇸_US_美国_IPV4 (3)
-  server: 23.94.83.37
-  port: 52080
-  uuid: 355c1760-9bde-4b77-916b-5191e7f704a3
-  cipher: auto
-  alterId: 0
-  tls: false
-  servername: down-cdn.dingtalk.com
-  sni: down-cdn.dingtalk.com
-  network: http
-  http-opts:
-    path:
-    - /QQqun-737805443
-    headers:
-      Host:
-      - down-cdn.dingtalk.com
-- name: '🇳🇱[www.v2nodes.com] trojan-NL-... #2'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.127.154
-  type: trojan
 - alpn:
   - http/1.1
   client-fingerprint: firefox
@@ -78,79 +56,6 @@ proxies:
     headers:
       Host: speedtest.danfengno1.kdns.fr
     path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
-- cipher: chacha20-ietf-poly1305
-  name: '🇨🇿 捷克 | CZE #1'
-  password: KKmi4xBN5s0-9Oz49g7zkH4l0LWq6Uaq
-  port: 8044
-  server: 86.54.82.116
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: '🇩🇪 德国 | DEU #3'
-  network: ws
-  port: 8443
-  server: 142.111.77.179
-  servername: fs.qicai99.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  ws-opts:
-    headers:
-      Host: fs.qicai99.com
-    path: /
-- client-fingerprint: random
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc-ru
-  name: 🇷🇺 俄罗斯 | RUS
-  network: grpc
-  port: 443
-  server: xsru1.ddnsfree.com
-  servername: xsru1.ddnsfree.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
-- alpn:
-  - h2
-  client-fingerprint: ios
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: mobile.api.Event
-  name: 🇷🇺 俄罗斯 | RUS 2
-  network: grpc
-  port: 443
-  server: vps2.nemnogogo.com
-  servername: vps2.nemnogogo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 95f85937-7b95-45c4-8d69-95da6a978569
-- client-fingerprint: random
-  grpc-opts:
-    grpc-service-name: ''
-  name: '🇷🇺 俄罗斯 | RUS #1'
-  network: grpc
-  port: 443
-  server: xsru1.ddnsfree.com
-  servername: xsru1.ddnsfree.com
-  tls: true
-  type: vless
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
-- alpn:
-  - h2
-  client-fingerprint: ios
-  grpc-opts:
-    grpc-service-name: ''
-  name: '🇷🇺 俄罗斯 | RUS #2'
-  network: grpc
-  port: 443
-  server: vps2.nemnogogo.com
-  servername: vps2.nemnogogo.com
-  tls: true
-  type: vless
-  uuid: 95f85937-7b95-45c4-8d69-95da6a978569
 - client-fingerprint: firefox
   name: AT_speednode_0002
   network: ws
@@ -201,41 +106,58 @@ proxies:
   type: vless
   udp: true
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+- name: 🇫🇷 法国 | FRA 6
+  server: 89.187.7.4
+  port: 2166
+  type: vless
+  uuid: e1862eef-e3f2-4e27-b0a5-ddf8df384af9
+  tls: false
+  network: ws
+  ws-opts:
+    path: /Telegram=@AmyraxVPN
+    headers:
+      Host: 89.187.7.4
+    v2ray-http-upgrade: true
+  udp: true
+- name: 🇳🇱 荷兰 | NLD 5
+  server: ndfst11.neuroblur.top
+  port: 14443
+  type: vless
+  uuid: 010be6fa-ab5f-404a-9edf-ab2db1f09f0c
+  tls: true
+  alpn:
+  - http/1.1
+  servername: ndfst11.neuroblur.top
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /api/generate
+    headers:
+      Host: ndfst11.neuroblur.top
+  udp: true
 proxy-groups:
 - name: ermao.net | 🚀 节点选择
   type: select
   proxies:
   - ermao.net | ♻️ 自动选择
   - DIRECT
-  - 🇺🇸_US_美国_IPV4 (3)
-  - '🇳🇱[www.v2nodes.com] trojan-NL-... #2'
   - 🇺🇸 US1@ripaojiedian
-  - '🇨🇿 捷克 | CZE #1'
-  - '🇩🇪 德国 | DEU #3'
-  - 🇷🇺 俄罗斯 | RUS
-  - 🇷🇺 俄罗斯 | RUS 2
-  - '🇷🇺 俄罗斯 | RUS #1'
-  - '🇷🇺 俄罗斯 | RUS #2'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
+  - 🇫🇷 法国 | FRA 6
+  - 🇳🇱 荷兰 | NLD 5
 - name: ermao.net | ♻️ 自动选择
   type: url-test
   proxies:
-  - 🇺🇸_US_美国_IPV4 (3)
-  - '🇳🇱[www.v2nodes.com] trojan-NL-... #2'
   - 🇺🇸 US1@ripaojiedian
-  - '🇨🇿 捷克 | CZE #1'
-  - '🇩🇪 德国 | DEU #3'
-  - 🇷🇺 俄罗斯 | RUS
-  - 🇷🇺 俄罗斯 | RUS 2
-  - '🇷🇺 俄罗斯 | RUS #1'
-  - '🇷🇺 俄罗斯 | RUS #2'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
+  - 🇫🇷 法国 | FRA 6
+  - 🇳🇱 荷兰 | NLD 5
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -245,73 +167,49 @@ proxy-groups:
   - ermao.net | 🚀 节点选择
   - ermao.net | ♻️ 自动选择
   - 🎯 全球直连
-  - 🇺🇸_US_美国_IPV4 (3)
-  - '🇳🇱[www.v2nodes.com] trojan-NL-... #2'
   - 🇺🇸 US1@ripaojiedian
-  - '🇨🇿 捷克 | CZE #1'
-  - '🇩🇪 德国 | DEU #3'
-  - 🇷🇺 俄罗斯 | RUS
-  - 🇷🇺 俄罗斯 | RUS 2
-  - '🇷🇺 俄罗斯 | RUS #1'
-  - '🇷🇺 俄罗斯 | RUS #2'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
+  - 🇫🇷 法国 | FRA 6
+  - 🇳🇱 荷兰 | NLD 5
 - name: 📲 电报信息
   type: select
   proxies:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸_US_美国_IPV4 (3)
-  - '🇳🇱[www.v2nodes.com] trojan-NL-... #2'
   - 🇺🇸 US1@ripaojiedian
-  - '🇨🇿 捷克 | CZE #1'
-  - '🇩🇪 德国 | DEU #3'
-  - 🇷🇺 俄罗斯 | RUS
-  - 🇷🇺 俄罗斯 | RUS 2
-  - '🇷🇺 俄罗斯 | RUS #1'
-  - '🇷🇺 俄罗斯 | RUS #2'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
+  - 🇫🇷 法国 | FRA 6
+  - 🇳🇱 荷兰 | NLD 5
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
   - 🎯 全球直连
   - ermao.net | 🚀 节点选择
-  - 🇺🇸_US_美国_IPV4 (3)
-  - '🇳🇱[www.v2nodes.com] trojan-NL-... #2'
   - 🇺🇸 US1@ripaojiedian
-  - '🇨🇿 捷克 | CZE #1'
-  - '🇩🇪 德国 | DEU #3'
-  - 🇷🇺 俄罗斯 | RUS
-  - 🇷🇺 俄罗斯 | RUS 2
-  - '🇷🇺 俄罗斯 | RUS #1'
-  - '🇷🇺 俄罗斯 | RUS #2'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
+  - 🇫🇷 法国 | FRA 6
+  - 🇳🇱 荷兰 | NLD 5
 - name: 🍎 苹果服务
   type: select
   proxies:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸_US_美国_IPV4 (3)
-  - '🇳🇱[www.v2nodes.com] trojan-NL-... #2'
   - 🇺🇸 US1@ripaojiedian
-  - '🇨🇿 捷克 | CZE #1'
-  - '🇩🇪 德国 | DEU #3'
-  - 🇷🇺 俄罗斯 | RUS
-  - 🇷🇺 俄罗斯 | RUS 2
-  - '🇷🇺 俄罗斯 | RUS #1'
-  - '🇷🇺 俄罗斯 | RUS #2'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
+  - 🇫🇷 法国 | FRA 6
+  - 🇳🇱 荷兰 | NLD 5
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -334,19 +232,13 @@ proxy-groups:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
   - ermao.net | ♻️ 自动选择
-  - 🇺🇸_US_美国_IPV4 (3)
-  - '🇳🇱[www.v2nodes.com] trojan-NL-... #2'
   - 🇺🇸 US1@ripaojiedian
-  - '🇨🇿 捷克 | CZE #1'
-  - '🇩🇪 德国 | DEU #3'
-  - 🇷🇺 俄罗斯 | RUS
-  - 🇷🇺 俄罗斯 | RUS 2
-  - '🇷🇺 俄罗斯 | RUS #1'
-  - '🇷🇺 俄罗斯 | RUS #2'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
+  - 🇫🇷 法国 | FRA 6
+  - 🇳🇱 荷兰 | NLD 5
 rule-providers:
   LocalAreaNetwork:
     type: http

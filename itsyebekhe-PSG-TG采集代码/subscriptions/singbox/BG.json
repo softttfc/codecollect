@@ -50,7 +50,9 @@
       "tag": "select",
       "outbounds": [
         "auto",
+        "🇧🇬 BG | VLESS | @hope_net #1 [fast]",
         "🇧🇬 BG | SS | @filtershekan_channel #1 [medium]",
+        "🇧🇬 BG | VLESS | @red2ray #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -59,12 +61,36 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇬 BG | SS | @filtershekan_channel #1 [medium]"
+        "🇧🇬 BG | VLESS | @hope_net #1 [fast]",
+        "🇧🇬 BG | SS | @filtershekan_channel #1 [medium]",
+        "🇧🇬 BG | VLESS | @red2ray #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
       "tolerance": 50,
       "idle_timeout": "30m"
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇬 BG | VLESS | @hope_net #1 [fast]",
+      "server": "p11real3.greewebservices.ir",
+      "server_port": 1040,
+      "uuid": "1ca12389-0d86-4197-a79a-49d24539ce05",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.googleapis.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8",
+          "short_id": "9b60d3"
+        }
+      }
     },
     {
       "type": "shadowsocks",
@@ -76,6 +102,25 @@
       "network": "tcp",
       "tls": {
         "enabled": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇬 BG | VLESS | @red2ray #1 [fast]",
+      "server": "131.123.43.103",
+      "server_port": 443,
+      "uuid": "3f5e89d5-591f-4ac9-b071-b05680b573c3",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "bg2.gacvpn.site",
+        "reality": {
+          "enabled": true,
+          "public_key": "SgFQg7srP1xgjWhnSU9lpUMDRlsoLIXlw6nX-mfOdlg",
+          "short_id": "1f8bab7ad81089f2"
+        }
       }
     },
     {

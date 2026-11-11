@@ -53,8 +53,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | VMESS | @hope_net #1 [fast]",
+        "🇸🇪 SE | VMESS | @outlinereleasedkey #1 [fast]",
         "🇳🇱 NL | VMESS | @Proxymelimon #1 [fast]",
+        "🇫🇷 FR | VMESS | @Proxymelimon #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #2 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #3 [fast]",
@@ -70,8 +71,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | VMESS | @hope_net #1 [fast]",
+        "🇸🇪 SE | VMESS | @outlinereleasedkey #1 [fast]",
         "🇳🇱 NL | VMESS | @Proxymelimon #1 [fast]",
+        "🇫🇷 FR | VMESS | @Proxymelimon #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #2 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #3 [fast]",
@@ -123,19 +125,19 @@
     },
     {
       "type": "vmess",
-      "tag": "🇽🇽 XX | VMESS | @hope_net #1 [fast]",
-      "server": "104.16.61.8",
-      "server_port": 80,
-      "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+      "tag": "🇸🇪 SE | VMESS | @outlinereleasedkey #1 [fast]",
+      "server": "138.199.55.230",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "security": "auto",
       "alter_id": 0,
       "global_padding": false,
       "authenticated_length": true,
-      "network": "ws",
+      "network": "tcp",
       "packet_encoding": "",
-      "transport": {
-        "type": "ws",
-        "path": "/"
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com"
       }
     },
     {
@@ -150,6 +152,23 @@
       "authenticated_length": true,
       "network": "tcp",
       "packet_encoding": ""
+    },
+    {
+      "type": "vmess",
+      "tag": "🇫🇷 FR | VMESS | @Proxymelimon #1 [fast]",
+      "server": "79.137.99.183",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "network": "tcp",
+      "packet_encoding": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com"
+      }
     },
     {
       "type": "vmess",
