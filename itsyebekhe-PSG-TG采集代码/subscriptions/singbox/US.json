@@ -64,23 +64,23 @@
         "🇺🇸 US | VLESS | @ehsawn8 #1 [fast]",
         "🇺🇸 US | VLESS | @nofiltering2 #1 [fast]",
         "🇺🇸 US | VLESS | @nofiltering2 #2 [fast]",
+        "🇺🇸 US | VLESS | @nofiltering2 #3 [fast]",
         "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
         "🇺🇸 US | VMESS | @freev2rays #2 [fast]",
-        "🇺🇸 US | VLESS | @bored_vpn #1 [fast]",
         "🇺🇸 US | VLESS | @netmellianti #1 [fast]",
         "🇺🇸 US | SS | @beshkan #1 [fast]",
         "🇺🇸 US | VLESS | @free4allvpn #1 [fast]",
         "🇺🇸 US | VLESS | @Proxymelimon #1 [fast]",
-        "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇺🇸 US | SS | @mtproxy22_v2ray #1 [fast]",
         "🇺🇸 US | VMESS | @mtproxy22_v2ray #1 [fast]",
         "🇺🇸 US | SS | @mtproxy22_v2ray #2 [fast]",
+        "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇺🇸 US | VLESS | @msv2raynp #1 [fast]",
         "🇺🇸 US | VLESS | @msv2raynp #2 [fast]",
         "🇺🇸 US | VLESS | @jokerv2ray #1 [fast]",
         "🇺🇸 US | VLESS | @jokerv2ray #2 [fast]",
         "🇺🇸 US | VMESS | @NamiraConfigs #1 [fast]",
-        "🇺🇸 US | SS | @netfreedom0 #1 [fast]",
+        "🇺🇸 US | HY2 | @netfreedom0 #1 [fast]",
         "🇺🇸 US | VLESS | @iranvipnet #1 [fast]",
         "🇺🇸 US | VLESS | @iranvipnet #2 [fast]",
         "🇺🇸 US | VLESS | @iranvipnet #3 [fast]",
@@ -132,23 +132,23 @@
         "🇺🇸 US | VLESS | @ehsawn8 #1 [fast]",
         "🇺🇸 US | VLESS | @nofiltering2 #1 [fast]",
         "🇺🇸 US | VLESS | @nofiltering2 #2 [fast]",
+        "🇺🇸 US | VLESS | @nofiltering2 #3 [fast]",
         "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
         "🇺🇸 US | VMESS | @freev2rays #2 [fast]",
-        "🇺🇸 US | VLESS | @bored_vpn #1 [fast]",
         "🇺🇸 US | VLESS | @netmellianti #1 [fast]",
         "🇺🇸 US | SS | @beshkan #1 [fast]",
         "🇺🇸 US | VLESS | @free4allvpn #1 [fast]",
         "🇺🇸 US | VLESS | @Proxymelimon #1 [fast]",
-        "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇺🇸 US | SS | @mtproxy22_v2ray #1 [fast]",
         "🇺🇸 US | VMESS | @mtproxy22_v2ray #1 [fast]",
         "🇺🇸 US | SS | @mtproxy22_v2ray #2 [fast]",
+        "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
         "🇺🇸 US | VLESS | @msv2raynp #1 [fast]",
         "🇺🇸 US | VLESS | @msv2raynp #2 [fast]",
         "🇺🇸 US | VLESS | @jokerv2ray #1 [fast]",
         "🇺🇸 US | VLESS | @jokerv2ray #2 [fast]",
         "🇺🇸 US | VMESS | @NamiraConfigs #1 [fast]",
-        "🇺🇸 US | SS | @netfreedom0 #1 [fast]",
+        "🇺🇸 US | HY2 | @netfreedom0 #1 [fast]",
         "🇺🇸 US | VLESS | @iranvipnet #1 [fast]",
         "🇺🇸 US | VLESS | @iranvipnet #2 [fast]",
         "🇺🇸 US | VLESS | @iranvipnet #3 [fast]",
@@ -281,25 +281,6 @@
       "tag": "🇺🇸 US | VLESS | @mehrosaboran #1 [fast]",
       "server": "199.232.78.159",
       "server_port": 443,
-      "uuid": "72881b3f-76f7-4cae-912d-e95e602a5ca4",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn.akamai.steamstatic.com"
-      },
-      "transport": {
-        "type": "ws",
-        "headers": {
-          "Host": "copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net."
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @mehrosaboran #2 [fast]",
-      "server": "199.232.78.159",
-      "server_port": 443,
       "uuid": "33751cb1-43ea-458c-8dc5-0b8993746bce",
       "network": "ws",
       "packet_encoding": "xudp",
@@ -316,7 +297,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @mehrosaboran #3 [fast]",
+      "tag": "🇺🇸 US | VLESS | @mehrosaboran #2 [fast]",
       "server": "199.232.249.131",
       "server_port": 443,
       "uuid": "33751cb1-43ea-458c-8dc5-0b8993746bce",
@@ -335,7 +316,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @mehrosaboran #4 [fast]",
+      "tag": "🇺🇸 US | VLESS | @mehrosaboran #3 [fast]",
       "server": "167.82.64.7",
       "server_port": 443,
       "uuid": "XpnTeam-100",
@@ -348,7 +329,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @mehrosaboran #5 [fast]",
+      "tag": "🇺🇸 US | VLESS | @mehrosaboran #4 [fast]",
       "server": "199.232.78.159",
       "server_port": 443,
       "uuid": "8fdeb819-df0c-456d-9a1d-e3a9950ece4d",
@@ -367,7 +348,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @mehrosaboran #6 [fast]",
+      "tag": "🇺🇸 US | VLESS | @mehrosaboran #5 [fast]",
       "server": "167.82.64.7",
       "server_port": 443,
       "uuid": "XpnTeam-104",
@@ -376,6 +357,25 @@
       "tls": {
         "enabled": true,
         "server_name": "cdn.akamai.steamstatic.com"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @mehrosaboran #6 [fast]",
+      "server": "199.232.78.159",
+      "server_port": 443,
+      "uuid": "64ce5faf-427b-4dd1-926c-6b7ced6b8c38",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.akamai.steamstatic.com"
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net."
+        }
       }
     },
     {
@@ -441,6 +441,22 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @nofiltering2 #3 [fast]",
+      "server": "199.232.78.160",
+      "server_port": 443,
+      "uuid": "bad0b0df-f838-48a7-a86b-7d5f8b075952",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.akamai.steamstatic.com",
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
       "type": "vmess",
       "tag": "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
       "server": "xc115-1.meiziba5566.com",
@@ -482,26 +498,6 @@
         "path": "/d9863037",
         "headers": {
           "Host": "xcf037.facai2024.com"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @bored_vpn #1 [fast]",
-      "server": "199.232.78.160",
-      "server_port": 443,
-      "uuid": "XpnTeam-91",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn.akamai.steamstatic.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "Appxdn.global.ssl.fastly.net"
         }
       }
     },
@@ -554,29 +550,6 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
-      "server": "136.176.65.251",
-      "server_port": 443,
-      "uuid": "39826f32-f5ca-42a5-ab33-188f7d199478",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "O5NcKiTtNcJZiLMJhxT5d0Pn8KjVBvXGmztGd4_D-RI",
-          "short_id": "cdac1a856b81390f"
-        }
-      }
-    },
-    {
       "type": "shadowsocks",
       "tag": "🇺🇸 US | SS | @mtproxy22_v2ray #1 [fast]",
       "server": "193.151.160.18",
@@ -618,6 +591,29 @@
       "network": "tcp",
       "tls": {
         "enabled": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @mtproxy22_v2ray #1 [fast]",
+      "server": "195.206.235.202",
+      "server_port": 443,
+      "uuid": "4201786b-d99b-4147-a5f0-20d47acddb81",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "4935e4t.de25.h1clayd.click",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw",
+          "short_id": "6976d670818644cc"
+        }
       }
     },
     {
@@ -717,15 +713,19 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇺🇸 US | SS | @netfreedom0 #1 [fast]",
-      "server": "156.146.38.170",
+      "type": "hysteria2",
+      "tag": "🇺🇸 US | HY2 | @netfreedom0 #1 [fast]",
+      "server": "67.216.207.144",
       "server_port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks",
-      "network": "tcp",
+      "password": "740f1a75659256a8c0e2a5686d573496b2a2",
+      "obfs": {
+        "type": "salamander",
+        "password": "salamander"
+      },
       "tls": {
-        "enabled": true
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
       }
     },
     {

@@ -38,24 +38,79 @@ dns:
   - https://1.1.1.1/dns-query
   - https://1.0.0.1/dns-query
 proxies:
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 🇺🇸 US1@ripaojiedian
-  network: ws
-  port: 443
-  server: 156.225.64.8
-  servername: speedtest.danfengno1.kdns.fr
-  skip-cert-verify: true
-  tfo: false
+- encryption: none
+  name: '🇫🇷[www.v2nodes.com] vless-FR-1... #2'
+  network: tcp
+  port: 2053
+  server: w.geogame.ir
+  servername: w.geogame.ir
   tls: true
   type: vless
+  uuid: fbda2834-b1e7-4148-afb9-deda31036a30
+- name: '🏳[www.v2nodes.com] trojan- #8'
+  password: 5t6i121em5lkmsmk
+  port: 33079
+  server: th001.zestapp778.com
+  sni: th001.zestapp778.com
+  type: trojan
+- name: 🇺🇸US_4|1018KB/s
+  password: None
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇺🇸US_6|2.8MB/s
+  password: None
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_12|3.6MB/s
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: speedtest.danfengno1.kdns.fr
-    path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
+  x-toolall-mihomo: true
+- name: 🇺🇸US_16|3.2MB/s
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 🇺🇸US_17|2.6MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  sni: 138.199.35.219
+  tls: true
+  type: http
+  username: 'null'
+- name: 🇦🇹AT_2|4.4MB/s
+  port: 8080
+  server: 159.195.110.240
+  skip-cert-verify: true
+  type: http
+- name: 🇺🇸US_21|2.4MB/s
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+- cipher: chacha20-ietf-poly1305
+  name: '🇰🇷 韩国 | KOR #1'
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 8443
+  server: 3.36.109.202
+  type: ss
+  udp: true
 - client-fingerprint: firefox
   name: AT_speednode_0002
   network: ws
@@ -106,58 +161,43 @@ proxies:
   type: vless
   udp: true
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-- name: 🇫🇷 法国 | FRA 6
-  server: 89.187.7.4
-  port: 2166
-  type: vless
-  uuid: e1862eef-e3f2-4e27-b0a5-ddf8df384af9
-  tls: false
-  network: ws
-  ws-opts:
-    path: /Telegram=@AmyraxVPN
-    headers:
-      Host: 89.187.7.4
-    v2ray-http-upgrade: true
-  udp: true
-- name: 🇳🇱 荷兰 | NLD 5
-  server: ndfst11.neuroblur.top
-  port: 14443
-  type: vless
-  uuid: 010be6fa-ab5f-404a-9edf-ab2db1f09f0c
-  tls: true
-  alpn:
-  - http/1.1
-  servername: ndfst11.neuroblur.top
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /api/generate
-    headers:
-      Host: ndfst11.neuroblur.top
-  udp: true
 proxy-groups:
 - name: ermao.net | 🚀 节点选择
   type: select
   proxies:
   - ermao.net | ♻️ 自动选择
   - DIRECT
-  - 🇺🇸 US1@ripaojiedian
+  - '🇫🇷[www.v2nodes.com] vless-FR-1... #2'
+  - '🏳[www.v2nodes.com] trojan- #8'
+  - 🇺🇸US_4|1018KB/s
+  - 🇺🇸US_6|2.8MB/s
+  - 🇺🇸US_12|3.6MB/s
+  - 🇺🇸US_16|3.2MB/s
+  - 🇺🇸US_17|2.6MB/s
+  - 🇦🇹AT_2|4.4MB/s
+  - 🇺🇸US_21|2.4MB/s
+  - '🇰🇷 韩国 | KOR #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇫🇷 法国 | FRA 6
-  - 🇳🇱 荷兰 | NLD 5
 - name: ermao.net | ♻️ 自动选择
   type: url-test
   proxies:
-  - 🇺🇸 US1@ripaojiedian
+  - '🇫🇷[www.v2nodes.com] vless-FR-1... #2'
+  - '🏳[www.v2nodes.com] trojan- #8'
+  - 🇺🇸US_4|1018KB/s
+  - 🇺🇸US_6|2.8MB/s
+  - 🇺🇸US_12|3.6MB/s
+  - 🇺🇸US_16|3.2MB/s
+  - 🇺🇸US_17|2.6MB/s
+  - 🇦🇹AT_2|4.4MB/s
+  - 🇺🇸US_21|2.4MB/s
+  - '🇰🇷 韩国 | KOR #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇫🇷 法国 | FRA 6
-  - 🇳🇱 荷兰 | NLD 5
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -167,49 +207,77 @@ proxy-groups:
   - ermao.net | 🚀 节点选择
   - ermao.net | ♻️ 自动选择
   - 🎯 全球直连
-  - 🇺🇸 US1@ripaojiedian
+  - '🇫🇷[www.v2nodes.com] vless-FR-1... #2'
+  - '🏳[www.v2nodes.com] trojan- #8'
+  - 🇺🇸US_4|1018KB/s
+  - 🇺🇸US_6|2.8MB/s
+  - 🇺🇸US_12|3.6MB/s
+  - 🇺🇸US_16|3.2MB/s
+  - 🇺🇸US_17|2.6MB/s
+  - 🇦🇹AT_2|4.4MB/s
+  - 🇺🇸US_21|2.4MB/s
+  - '🇰🇷 韩国 | KOR #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇫🇷 法国 | FRA 6
-  - 🇳🇱 荷兰 | NLD 5
 - name: 📲 电报信息
   type: select
   proxies:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸 US1@ripaojiedian
+  - '🇫🇷[www.v2nodes.com] vless-FR-1... #2'
+  - '🏳[www.v2nodes.com] trojan- #8'
+  - 🇺🇸US_4|1018KB/s
+  - 🇺🇸US_6|2.8MB/s
+  - 🇺🇸US_12|3.6MB/s
+  - 🇺🇸US_16|3.2MB/s
+  - 🇺🇸US_17|2.6MB/s
+  - 🇦🇹AT_2|4.4MB/s
+  - 🇺🇸US_21|2.4MB/s
+  - '🇰🇷 韩国 | KOR #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇫🇷 法国 | FRA 6
-  - 🇳🇱 荷兰 | NLD 5
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
   - 🎯 全球直连
   - ermao.net | 🚀 节点选择
-  - 🇺🇸 US1@ripaojiedian
+  - '🇫🇷[www.v2nodes.com] vless-FR-1... #2'
+  - '🏳[www.v2nodes.com] trojan- #8'
+  - 🇺🇸US_4|1018KB/s
+  - 🇺🇸US_6|2.8MB/s
+  - 🇺🇸US_12|3.6MB/s
+  - 🇺🇸US_16|3.2MB/s
+  - 🇺🇸US_17|2.6MB/s
+  - 🇦🇹AT_2|4.4MB/s
+  - 🇺🇸US_21|2.4MB/s
+  - '🇰🇷 韩国 | KOR #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇫🇷 法国 | FRA 6
-  - 🇳🇱 荷兰 | NLD 5
 - name: 🍎 苹果服务
   type: select
   proxies:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸 US1@ripaojiedian
+  - '🇫🇷[www.v2nodes.com] vless-FR-1... #2'
+  - '🏳[www.v2nodes.com] trojan- #8'
+  - 🇺🇸US_4|1018KB/s
+  - 🇺🇸US_6|2.8MB/s
+  - 🇺🇸US_12|3.6MB/s
+  - 🇺🇸US_16|3.2MB/s
+  - 🇺🇸US_17|2.6MB/s
+  - 🇦🇹AT_2|4.4MB/s
+  - 🇺🇸US_21|2.4MB/s
+  - '🇰🇷 韩国 | KOR #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇫🇷 法国 | FRA 6
-  - 🇳🇱 荷兰 | NLD 5
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -232,13 +300,20 @@ proxy-groups:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
   - ermao.net | ♻️ 自动选择
-  - 🇺🇸 US1@ripaojiedian
+  - '🇫🇷[www.v2nodes.com] vless-FR-1... #2'
+  - '🏳[www.v2nodes.com] trojan- #8'
+  - 🇺🇸US_4|1018KB/s
+  - 🇺🇸US_6|2.8MB/s
+  - 🇺🇸US_12|3.6MB/s
+  - 🇺🇸US_16|3.2MB/s
+  - 🇺🇸US_17|2.6MB/s
+  - 🇦🇹AT_2|4.4MB/s
+  - 🇺🇸US_21|2.4MB/s
+  - '🇰🇷 韩国 | KOR #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇫🇷 法国 | FRA 6
-  - 🇳🇱 荷兰 | NLD 5
 rule-providers:
   LocalAreaNetwork:
     type: http

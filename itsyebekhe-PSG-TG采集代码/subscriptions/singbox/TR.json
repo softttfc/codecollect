@@ -50,9 +50,9 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇷 TR | VLESS | @selinc #1 [slow]",
+        "🇹🇷 TR | VLESS | @selinc #1 [fast]",
         "🇹🇷 TR | VLESS | @Proxymelimon #1 [fast]",
-        "🇹🇷 TR | VLESS | @NamiraConfigs #1 [medium]",
+        "🇹🇷 TR | VLESS | @NamiraConfigs #1 [slow]",
         "direct"
       ],
       "default": "auto"
@@ -61,9 +61,9 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @selinc #1 [slow]",
+        "🇹🇷 TR | VLESS | @selinc #1 [fast]",
         "🇹🇷 TR | VLESS | @Proxymelimon #1 [fast]",
-        "🇹🇷 TR | VLESS | @NamiraConfigs #1 [medium]"
+        "🇹🇷 TR | VLESS | @NamiraConfigs #1 [slow]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -72,7 +72,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 TR | VLESS | @selinc #1 [slow]",
+      "tag": "🇹🇷 TR | VLESS | @selinc #1 [fast]",
       "server": "tr.0a0.uk",
       "server_port": 443,
       "uuid": "4a414062-e1b2-496a-bf50-d447e786f3f4",
@@ -118,7 +118,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 TR | VLESS | @NamiraConfigs #1 [medium]",
+      "tag": "🇹🇷 TR | VLESS | @NamiraConfigs #1 [slow]",
       "server": "188.132.237.20",
       "server_port": 2095,
       "uuid": "3b9e513e-30d9-4ca8-8340-8f33fc6710de",

@@ -53,6 +53,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇳🇱 NL | VMESS | @Proxymelimon #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #2 [fast]",
         "direct"
@@ -66,6 +67,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇳🇱 NL | VMESS | @Proxymelimon #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #2 [fast]"
       ],
@@ -112,6 +114,19 @@
         "type": "ws",
         "path": "/"
       }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇳🇱 NL | VMESS | @Proxymelimon #1 [fast]",
+      "server": "176.65.151.175",
+      "server_port": 11674,
+      "uuid": "a98a98cb-ae86-43ae-b695-cf0dbcad3fc2",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "network": "tcp",
+      "packet_encoding": ""
     },
     {
       "type": "vmess",

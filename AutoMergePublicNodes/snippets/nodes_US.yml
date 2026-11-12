@@ -1,21 +1,33 @@
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸[www.v2nodes.com] ss-US-1620...
+  password: ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu
+  port: 42878
+  server: 23.230.52.119
+  type: ss
 - cipher: aes-128-gcm
   name: 🇺🇸[www.v2nodes.com] ss-US-1619...
   password: 2f0c7e37-2534-48dc-9615-d85ae800c41f
   port: 12961
   server: mm.good2026.com
   type: ss
-- name: 🇺🇸[www.v2nodes.com] trojan-US-...
-  password: a75243d0f5c2e31bd6c8c118b4f6442f81ad
-  port: 443
-  server: 176.122.173.224
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 美国 | USA 3
+  port: 12330
+  server: p05.rghvf.sbs
+  servername: gb.uniquenames.net
   skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-- cipher: aes-256-cfb
-  name: '🇺🇸 美国 | USA #4'
-  password: amazonskr05
-  port: 443
-  server: 18.226.88.63
-  type: ss
+  tls: true
+  type: vmess
   udp: true
+  uuid: 68adffea-4146-4f92-b2f9-955cd634c274
+- alterId: 0
+  cipher: auto
+  name: '🇺🇸 美国 | USA #3'
+  network: tcp
+  port: 12330
+  server: p05.rghvf.sbs
+  tls: true
+  type: vmess
+  uuid: 68adffea-4146-4f92-b2f9-955cd634c274

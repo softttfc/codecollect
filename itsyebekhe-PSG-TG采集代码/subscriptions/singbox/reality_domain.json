@@ -53,11 +53,13 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇪🇪 EE | VLESS | @outlinereleasedkey #1 [fast]",
         "🇫🇷 FR | VLESS | @free1_vpn #1 [fast]",
         "🇵🇱 PL | VLESS | @free1_vpn #1 [fast]",
-        "🇹🇷 TR | VLESS | @selinc #1 [slow]",
+        "🇹🇷 TR | VLESS | @selinc #1 [fast]",
         "🇧🇬 BG | VLESS | @hope_net #1 [fast]",
         "🇹🇷 TR | VLESS | @Proxymelimon #1 [fast]",
+        "🇧🇬 BG | VLESS | @Proxymelimon #1 [fast]",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1 [fast]",
         "🇨🇦 CA | VLESS | @red2ray #1 [fast]",
         "direct"
@@ -71,11 +73,13 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇪🇪 EE | VLESS | @outlinereleasedkey #1 [fast]",
         "🇫🇷 FR | VLESS | @free1_vpn #1 [fast]",
         "🇵🇱 PL | VLESS | @free1_vpn #1 [fast]",
-        "🇹🇷 TR | VLESS | @selinc #1 [slow]",
+        "🇹🇷 TR | VLESS | @selinc #1 [fast]",
         "🇧🇬 BG | VLESS | @hope_net #1 [fast]",
         "🇹🇷 TR | VLESS | @Proxymelimon #1 [fast]",
+        "🇧🇬 BG | VLESS | @Proxymelimon #1 [fast]",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1 [fast]",
         "🇨🇦 CA | VLESS | @red2ray #1 [fast]"
       ],
@@ -125,6 +129,29 @@
     },
     {
       "type": "vless",
+      "tag": "🇪🇪 EE | VLESS | @outlinereleasedkey #1 [fast]",
+      "server": "ee.subv.ru",
+      "server_port": 443,
+      "uuid": "90157e25-cee1-4217-921e-91f300bc1a24",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "dvizhok.su",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
+          "short_id": "428ef87fd47a3a32"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇫🇷 FR | VLESS | @free1_vpn #1 [fast]",
       "server": "fr.abbaas.net",
       "server_port": 443,
@@ -165,7 +192,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 TR | VLESS | @selinc #1 [slow]",
+      "tag": "🇹🇷 TR | VLESS | @selinc #1 [fast]",
       "server": "tr.0a0.uk",
       "server_port": 443,
       "uuid": "4a414062-e1b2-496a-bf50-d447e786f3f4",
@@ -228,6 +255,24 @@
           "enabled": true,
           "public_key": "LEPvdc6l0Ij1Y5FwYqZHnGUwu9GfGiAaluE0FA1loDA",
           "short_id": "782dbb704cf2b781"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇬 BG | VLESS | @Proxymelimon #1 [fast]",
+      "server": "p11real2.greewebservices.ir",
+      "server_port": 1030,
+      "uuid": "1ca12389-0d86-4197-a79a-49d24539ce05",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.googleapis.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8",
+          "short_id": "9b60d3"
         }
       }
     },

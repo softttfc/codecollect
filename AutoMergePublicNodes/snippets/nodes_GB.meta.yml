@@ -1,10 +1,5 @@
 proxies:
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: '🇬🇧[www.v2nodes.com] vless-GB-1... #4'
-  network: tcp
+- name: '🇬🇧[www.v2nodes.com] vless-GB-1... #5'
   port: 8443
   server: node-uk.connectsuite.org
   servername: node-uk.connectsuite.org
@@ -59,57 +54,37 @@ proxies:
   port: 443
   server: 141.98.101.181
   type: ss
-- name: 🇬🇧[www.v2nodes.com] trojan-GB-...
-  password: 5t6i121em5lkmsmk
-  port: 29813
-  server: en001.zestapp778.com
-  sni: en001.zestapp778.com
-  type: trojan
-- name: 🇬🇧GB_1|1.7MB/s
-  password: None
-  port: 9443
-  server: 84.17.50.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_5|2.8MB/s
-  password: None
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_3|1002KB/s
-  password: None
-  port: 443
-  server: 185.164.138.156
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_4|1.4MB/s
+- name: 🇬🇧GB_1|3.0MB/s
   password: None
   port: 9443
   server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_6|1.6MB/s
-  port: 9443
-  server: 84.17.50.129
+- name: 🇬🇧GB_2|1.1MB/s|P002-260618
+  password: None
+  port: 443
+  server: 212.102.63.31
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+- name: 🇬🇧GB_3|2.8MB/s
+  port: 443
+  server: 212.102.63.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇬🇧GB_7|3.0MB/s
-  port: 9443
-  server: 84.233.178.33
+- name: 🇬🇧GB_4|2.8MB/s
+  port: 8888
+  server: 135.136.152.33
   skip-cert-verify: true
-  tls: true
   type: http
-- name: 🇬🇧 英国 | GBR
-  password: 66dff097-fa47-4ae1-8ed8-5e147e564f1c
-  port: 30000
-  server: uk1.fastfly.qzz.io
-  skip-cert-verify: true
-  sni: uk1.fastfly.qzz.io
-  type: anytls
+- cipher: chacha20-ietf-poly1305
+  name: '🇬🇧 英国 | GBR #1'
+  password: 8nrpt2il04ptci2j
+  port: 8080
+  server: 54.37.240.40
+  type: ss
   udp: true
