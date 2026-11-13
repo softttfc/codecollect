@@ -53,13 +53,14 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | SS | @outline_ir #1 [fast]",
         "🇮🇪 IE | SS | @prrofile_purple #1 [medium]",
-        "🇩🇪 DE | SS | @outlinereleasedkey #1 [fast]",
+        "🇫🇷 FR | SS | @outlinereleasedkey #1 [fast]",
+        "🇬🇧 GB | SS | @father_vpn #1 [fast]",
         "🇬🇧 GB | SS | @beshkan #1 [fast]",
         "🇺🇸 US | SS | @mtproxy22_v2ray #1 [fast]",
-        "🇬🇧 GB | SS | @father_vpn #1 [fast]",
-        "🇧🇬 BG | SS | @filtershekan_channel #1 [fast]",
+        "🇮🇪 IE | SS | @mtproxy22_v2ray #1 [fast]",
+        "🇨🇦 CA | SS | @netfreedom0 #1 [fast]",
+        "🇧🇬 BG | SS | @filtershekan_channel #1 [medium]",
         "🇺🇸 US | SS | @proxy_confiingir #1 [fast]",
         "direct"
       ],
@@ -72,13 +73,14 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | SS | @outline_ir #1 [fast]",
         "🇮🇪 IE | SS | @prrofile_purple #1 [medium]",
-        "🇩🇪 DE | SS | @outlinereleasedkey #1 [fast]",
+        "🇫🇷 FR | SS | @outlinereleasedkey #1 [fast]",
+        "🇬🇧 GB | SS | @father_vpn #1 [fast]",
         "🇬🇧 GB | SS | @beshkan #1 [fast]",
         "🇺🇸 US | SS | @mtproxy22_v2ray #1 [fast]",
-        "🇬🇧 GB | SS | @father_vpn #1 [fast]",
-        "🇧🇬 BG | SS | @filtershekan_channel #1 [fast]",
+        "🇮🇪 IE | SS | @mtproxy22_v2ray #1 [fast]",
+        "🇨🇦 CA | SS | @netfreedom0 #1 [fast]",
+        "🇧🇬 BG | SS | @filtershekan_channel #1 [medium]",
         "🇺🇸 US | SS | @proxy_confiingir #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
@@ -127,18 +129,6 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇺🇸 US | SS | @outline_ir #1 [fast]",
-      "server": "185.215.132.18",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "type": "shadowsocks",
       "tag": "🇮🇪 IE | SS | @prrofile_purple #1 [medium]",
       "server": "20.107.184.151",
       "server_port": 443,
@@ -151,32 +141,8 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇩🇪 DE | SS | @outlinereleasedkey #1 [fast]",
-      "server": "193.108.117.84",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 GB | SS | @beshkan #1 [fast]",
-      "server": "82.38.31.212",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇺🇸 US | SS | @mtproxy22_v2ray #1 [fast]",
-      "server": "193.151.160.18",
+      "tag": "🇫🇷 FR | SS | @outlinereleasedkey #1 [fast]",
+      "server": "79.137.99.183",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
@@ -199,7 +165,55 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇧🇬 BG | SS | @filtershekan_channel #1 [fast]",
+      "tag": "🇬🇧 GB | SS | @beshkan #1 [fast]",
+      "server": "82.38.31.212",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "k1dBOmOB4oqi7Ump37a1bQ",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 US | SS | @mtproxy22_v2ray #1 [fast]",
+      "server": "84.20.27.183",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇮🇪 IE | SS | @mtproxy22_v2ray #1 [fast]",
+      "server": "146.70.90.198",
+      "server_port": 17456,
+      "method": "aes-128-gcm",
+      "password": "881cf39affc5286799a585f1acd24d11",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇦 CA | SS | @netfreedom0 #1 [fast]",
+      "server": "35.182.245.215",
+      "server_port": 443,
+      "method": "aes-256-cfb",
+      "password": "amazonskr05",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇧🇬 BG | SS | @filtershekan_channel #1 [medium]",
       "server": "6.bmi.ir.asopardaz.ir",
       "server_port": 35176,
       "method": "2022-blake3-aes-256-gcm",

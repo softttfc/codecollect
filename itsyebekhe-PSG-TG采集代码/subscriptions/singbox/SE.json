@@ -51,8 +51,6 @@
       "outbounds": [
         "auto",
         "🇸🇪 SE | VMESS | @outlinereleasedkey #1 [fast]",
-        "🇸🇪 SE | VLESS | @free1_vpn #1 [fast]",
-        "🇸🇪 SE | VLESS | @orange_vpns #1 [fast]",
         "🇸🇪 SE | VLESS | @minovpnch #1 [fast]",
         "🇸🇪 SE | VLESS | @deli_servers #1 [fast]",
         "🇸🇪 SE | VLESS | @kurd_v2ray #1 [fast]",
@@ -79,8 +77,6 @@
       "tag": "auto",
       "outbounds": [
         "🇸🇪 SE | VMESS | @outlinereleasedkey #1 [fast]",
-        "🇸🇪 SE | VLESS | @free1_vpn #1 [fast]",
-        "🇸🇪 SE | VLESS | @orange_vpns #1 [fast]",
         "🇸🇪 SE | VLESS | @minovpnch #1 [fast]",
         "🇸🇪 SE | VLESS | @deli_servers #1 [fast]",
         "🇸🇪 SE | VLESS | @kurd_v2ray #1 [fast]",
@@ -119,52 +115,6 @@
       "tls": {
         "enabled": true,
         "server_name": "xmfhlpy.com"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇪 SE | VLESS | @free1_vpn #1 [fast]",
-      "server": "185.189.45.195",
-      "server_port": 443,
-      "uuid": "dd5bed0b-ee77-481b-9f2c-250a632ddd9f",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "get.jarbook.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "BIy6H-jndn24Ukyw83ML8LDB1HL8WLJmfCADEy8lzVs",
-          "short_id": "c6f97313"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇪 SE | VLESS | @orange_vpns #1 [fast]",
-      "server": "185.189.45.195",
-      "server_port": 443,
-      "uuid": "dd5bed0b-ee77-481b-9f2c-250a632ddd9f",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "get.jarbook.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "BIy6H-jndn24Ukyw83ML8LDB1HL8WLJmfCADEy8lzVs",
-          "short_id": "c6f97313"
-        }
       }
     },
     {

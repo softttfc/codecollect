@@ -144,13 +144,13 @@ proxies:
   server: 51.222.155.32
   type: ss
 - cipher: aes-256-gcm
-  name: 🇨🇦[www.v2nodes.com] ss-CA-1545...
+  name: 🏳[www.v2nodes.com] ss-
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 51.79.64.198
   type: ss
 - cipher: aes-256-gcm
-  name: '🇨🇦[www.v2nodes.com] ss-CA-1545... #1'
+  name: 🇨🇦[www.v2nodes.com] ss-CA-1545...
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 51.79.49.116
@@ -197,6 +197,12 @@ proxies:
   port: 19999
   server: 193.108.119.2
   type: ss
+- cipher: aes-128-gcm
+  name: 🇪🇸[www.v2nodes.com] ss-ES-1621...
+  password: cac96c2692d85bc2dceec378cea6c83f
+  port: 10840
+  server: 108.181.71.165
+  type: ss
 - cipher: aes-256-gcm
   name: 🇪🇸[www.v2nodes.com] ss-ES-1615...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -220,6 +226,24 @@ proxies:
   password: cd706a104284a70f9cffe6ac1df63c18
   port: 12798
   server: 193.148.19.214
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇫🇮[www.v2nodes.com] ss-FI-1621...
+  password: DgMywXKqojHXeuXY8hOJaYGPFcjweCIJeD5cdg/cUUY=
+  port: 40647
+  server: 213.176.92.148
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '🇫🇷[www.v2nodes.com] ss-FR-1621... #2'
+  password: byX4-DV0C42PLFTWQhMTAQ63mZ8qrDRB
+  port: 1352
+  server: dns24.m3hrzd.ir
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '🇫🇷[www.v2nodes.com] ss-FR-1621... #3'
+  password: 29irqk0paakcx19v
+  port: 8080
+  server: 51.83.61.102
   type: ss
 - cipher: aes-256-gcm
   name: 🇫🇷[www.v2nodes.com] ss-FR-1616...
@@ -257,6 +281,12 @@ proxies:
   port: 19999
   server: 167.17.64.22
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧[www.v2nodes.com] ss-GB-1621...
+  password: 8nrpt2il04ptci2j
+  port: 8080
+  server: 54.37.240.40
+  type: ss
 - cipher: aes-256-gcm
   name: 🇬🇧[www.v2nodes.com] ss-GB-1616...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -282,7 +312,7 @@ proxies:
   server: 38.114.120.221
   type: ss
 - cipher: aes-256-gcm
-  name: 🇬🇧[www.v2nodes.com] ss-GB-1602...
+  name: '🏳[www.v2nodes.com] ss- #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 185.176.206.9
@@ -299,11 +329,11 @@ proxies:
   port: 7001
   server: 94.156.250.148
   type: ss
-- cipher: aes-128-gcm
-  name: 🇬🇧[www.v2nodes.com] ss-GB-9184...
-  password: shadowsocks
-  port: 443
-  server: 141.98.101.181
+- cipher: aes-256-gcm
+  name: 🇭🇰[www.v2nodes.com] ss-HK-1621...
+  password: AMok40FfaM+Ikwre16psBpVk6JHxsQZw
+  port: 8388
+  server: 209.248.57.105
   type: ss
 - cipher: aes-128-gcm
   name: 🇮🇪[www.v2nodes.com] ss-IE-1209...
@@ -311,8 +341,20 @@ proxies:
   port: 17456
   server: 146.70.90.198
   type: ss
+- cipher: xchacha20-ietf-poly1305
+  name: 🇮🇳[www.v2nodes.com] ss-IN-1621...
+  password: tfvsLbsXV9PdNmxPA4zaWr7EOezLjv3dXejQq2Y5sXA=
+  port: 36542
+  server: dlc.deltapc.digital
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '🇮🇹[www.v2nodes.com] ss-IT-1621... #2'
+  password: byX4-DV0C42PLFTWQhMTAQ63mZ8qrDRB
+  port: 1349
+  server: dns24.m3hrzd.ir
+  type: ss
 - cipher: aes-256-gcm
-  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #2'
+  name: 🇮🇹[www.v2nodes.com] ss-IT-1619...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.72
@@ -332,41 +374,42 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #3'
+  name: '🇮🇹 意大利 | ITA #9'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: '🇮🇹[www.v2nodes.com] ss-IT-1602... #4'
+  name: '🇮🇹 意大利 | ITA #7'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.99
   type: ss
+  udp: true
 - cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #4'
+  name: '🇮🇹 意大利 | ITA #3'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #6'
+  name: '🇮🇹 意大利 | ITA #1'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.45
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_1|3.3MB/s
+  name: '🇮🇹 意大利 | ITA #6'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #7'
+  name: '🇮🇹 意大利 | ITA #4'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.54
@@ -379,12 +422,11 @@ proxies:
   server: 149.50.215.234
   type: ss
 - cipher: aes-256-gcm
-  name: '🇮🇹 意大利 | ITA #1'
+  name: 🇮🇹[www.v2nodes.com] ss-IT-1597...
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 202.50.253.18
+  server: 185.164.175.81
   type: ss
-  udp: true
 - cipher: aes-256-gcm
   name: 🇯🇵[www.v2nodes.com] ss-JP-1599...
   password: BeaUf9c0AEWH40Pu
@@ -403,6 +445,18 @@ proxies:
   port: 443
   server: 149.22.87.204
   type: ss
+- cipher: aes-128-gcm
+  name: 🇯🇵[www.v2nodes.com] ss-JP-1291...
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.240
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇯🇵[www.v2nodes.com] ss-JP-9223...
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.241
+  type: ss
 - cipher: aes-256-gcm
   name: 🇲🇽[www.v2nodes.com] ss-MX-1564...
   password: BWyPPTusFKhGgzKh
@@ -410,13 +464,13 @@ proxies:
   server: 64.177.90.30
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇳🇱[www.v2nodes.com] ss-NL-1620...
-  password: DYVqFDnYoMquRQunXC1xd2FyuDhd7JWs5jtf2eb7VkKLzXgZv8pt8gY1e91TT71V762zRX7MWW4HmjavanYdUF9bij8gG8AP
-  port: 47195
-  server: 104.222.183.180
+  name: 🇳🇱[www.v2nodes.com] ss-NL-1621...
+  password: xMfen2bSpUYyP3GjXHP_kqLA19L9r1cj
+  port: 8090
+  server: 153.56.229.84
   type: ss
 - cipher: aes-256-gcm
-  name: '🇳🇱[www.v2nodes.com] ss-NL-1620... #1'
+  name: 🇳🇱[www.v2nodes.com] ss-NL-1620...
   password: FJo_V-KMvriDekN0CYkdNH0C
   port: 1080
   server: 177.202.64.67
@@ -439,17 +493,17 @@ proxies:
   port: 24759
   server: 77.221.132.206
   type: ss
-- cipher: aes-256-gcm
-  name: 🇳🇱[www.v2nodes.com] ss-NL-1614...
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 151.241.19.36
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇴[www.v2nodes.com] ss-NO-1220...
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 185.213.23.63
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇵🇱[www.v2nodes.com] ss-PL-1273...
+  password: eetk7pw
+  port: 443
+  server: 54.36.174.140
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇷🇴[www.v2nodes.com] ss-RO-1595...
@@ -476,7 +530,7 @@ proxies:
   server: 38.60.223.125
   type: ss
 - cipher: aes-256-gcm
-  name: 🇷🇺[www.v2nodes.com] ss-RU-1616...
+  name: '🏳[www.v2nodes.com] ss- #2'
   password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
   port: 18443
   server: 46.17.47.58
@@ -492,6 +546,12 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 138.199.55.243
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇸🇪[www.v2nodes.com] ss-SE-1560...
+  password: AxIYWtskJWIIaefW
+  port: 8388
+  server: 70.34.212.124
   type: ss
 - cipher: aes-256-gcm
   name: 🇸🇬[www.v2nodes.com] ss-SG-1616...
@@ -518,16 +578,22 @@ proxies:
   server: 149.88.106.74
   type: ss
 - cipher: aes-256-gcm
-  name: 🏳[www.v2nodes.com] ss-
+  name: '🇸🇬[www.v2nodes.com] ss-SG-1615... #2'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 149.88.107.74
   type: ss
 - cipher: aes-256-gcm
-  name: '🏳[www.v2nodes.com] ss- #1'
+  name: '🇸🇬[www.v2nodes.com] ss-SG-1615... #3'
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 149.88.107.47
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇹🇷[www.v2nodes.com] ss-TR-1621...
+  password: xMfen2bSpUYyP3GjXHP_kqLA19L9r1cj
+  port: 545
+  server: 153.56.229.84
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇺🇸[www.v2nodes.com] ss-US-1620...
@@ -553,7 +619,7 @@ proxies:
   port: 16233
   server: 102.133.165.160
   type: ss
-- name: '🇦🇪[www.v2nodes.com] trojan-AE-... #2'
+- name: '🇦🇪[www.v2nodes.com] trojan-AE-... #4'
   network: tcp
   password: d9064589-74af-432a-9390-5d8a9da281bf
   port: 20123
@@ -561,14 +627,15 @@ proxies:
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
-- name: 🇦🇪[www.v2nodes.com] trojan-AE-...
+- name: '🇦🇪[www.v2nodes.com] trojan-AE-... #2'
   network: tcp
   password: d9064589-74af-432a-9390-5d8a9da281bf
   port: 20086
   server: sclass-c1.catcat321.com
+  skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
-- name: '🇦🇪[www.v2nodes.com] trojan-AE-... #3'
+- name: '🇦🇪[www.v2nodes.com] trojan-AE-... #5'
   password: d9064589-74af-432a-9390-5d8a9da281bf
   port: 20086
   server: sclass-c1.catcat321.com
@@ -584,60 +651,34 @@ proxies:
   port: 443
   server: 216.238.104.154
   type: trojan
-- name: 🇨🇦[www.v2nodes.com] trojan-CA-...
-  password: 5t6i121em5lkmsmk
-  port: 46977
-  server: ca001.zestapp778.com
-  sni: ca001.zestapp778.com
-  type: trojan
-- name: '🇨🇦[www.v2nodes.com] trojan-CA-... #1'
-  network: ws
-  password: '123456'
-  port: 2096
-  server: 104.18.35.86
-  skip-cert-verify: true
-  sni: 321dfbc6.uir-9i6.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 321dfbc6.uir-9i6.pages.dev
-    path: /
-- name: '🇨🇦[www.v2nodes.com] trojan-CA-... #7'
+- name: '🇨🇦[www.v2nodes.com] trojan-CA-... #5'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.74
+  type: trojan
+- name: '🇨🇦[www.v2nodes.com] trojan-CA-... #1'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.147.201
+  type: trojan
+- name: '🇨🇦[www.v2nodes.com] trojan-CA-... #2'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.147.201
+  sni: resources.connectingpeoplewithgreatjobs.com
   type: trojan
 - name: '🇨🇦[www.v2nodes.com] trojan-CA-... #3'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.93
   type: trojan
-- name: '🇨🇦[www.v2nodes.com] trojan-CA-... #4'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.147.201
-  sni: resources.connectingpeoplewithgreatjobs.com
-  type: trojan
-- name: '🇨🇦[www.v2nodes.com] trojan-CA-... #5'
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.147.79
-  skip-cert-verify: false
-  sni: blog.connectingpeoplewithgreatjobs.com
-  type: trojan
 - name: '🇨🇦[www.v2nodes.com] trojan-CA-... #6'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.147.85
-  type: trojan
-- name: '🇨🇦[www.v2nodes.com] trojan-CA-... #8'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.93
   sni: connectingpeoplewithgreatjobs.com
   type: trojan
-- name: '🏳[www.v2nodes.com] trojan- #2'
+- name: 🏳[www.v2nodes.com] trojan-
   network: ws
   password: humanity
   port: 443
@@ -647,45 +688,49 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '🏳[www.v2nodes.com] trojan- #4'
+- name: '🇨🇭[www.v2nodes.com] trojan-CH-... #3'
   network: tcp
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 208.69.78.33
   sni: courses.yourultimateprofessionalcareerhub.com
   type: trojan
-- name: '🇨🇭[www.v2nodes.com] trojan-CH-... #1'
+- name: '🇨🇭[www.v2nodes.com] trojan-CH-... #2'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 208.69.78.29
+  server: 208.69.78.158
   type: trojan
-- name: '🏳[www.v2nodes.com] trojan- #5'
+- name: 🇨🇱[www.v2nodes.com] trojan-CL-...
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 64.176.7.205
-  sni: advanceyouremploymentskillsandcareerdevelopmenthub.com
-  type: trojan
-- name: '🏳[www.v2nodes.com] trojan- #6'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.118.40
-  type: trojan
-- name: '🇪🇸[www.v2nodes.com] trojan-ES-... #3'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.118.166
   type: trojan
 - name: '🇪🇸[www.v2nodes.com] trojan-ES-... #4'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 66.163.118.62
+  server: 66.163.118.244
   type: trojan
 - name: '🇪🇸[www.v2nodes.com] trojan-ES-... #5'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 66.163.118.244
+  server: 66.163.118.62
   type: trojan
-- name: 🇰🇷[www.v2nodes.com] trojan-KR-...
+- name: '🇪🇸[www.v2nodes.com] trojan-ES-... #2'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.118.166
+  type: trojan
+- name: '🇪🇸[www.v2nodes.com] trojan-ES-... #3'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.118.40
+  type: trojan
+- name: '🇪🇸[www.v2nodes.com] trojan-ES-... #6'
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.118.203
+  type: trojan
+- name: '🏳[www.v2nodes.com] trojan- #2'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 158.247.253.243
@@ -697,7 +742,7 @@ proxies:
   port: 443
   server: 47.250.84.25
   type: trojan
-- name: '🇳🇱[www.v2nodes.com] trojan-NL-... #1'
+- name: '🏳[www.v2nodes.com] trojan- #3'
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 66.163.127.225
@@ -707,11 +752,6 @@ proxies:
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 66.163.127.215
-  type: trojan
-- name: '🇳🇱[www.v2nodes.com] trojan-NL-... #2'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.127.107
   type: trojan
 - name: 🇸🇪[www.v2nodes.com] trojan-SE-...
   password: FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF
@@ -723,6 +763,7 @@ proxies:
   password: f426d3c9-fb43-43c0-868b-898dfa451a74
   port: 443
   server: 121.127.33.130
+  skip-cert-verify: false
   sni: likejennie.pages.dev
   type: trojan
   ws-opts:
@@ -742,101 +783,97 @@ proxies:
   server: 149.28.130.108
   sni: searchcreativejobsandshowcaseyourartistictalents.com
   type: trojan
-- name: 🇹🇷[www.v2nodes.com] trojan-TR-...
+- client-fingerprint: chrome
+  name: 🇹🇷TR_1|2.9MB/s
+  network: tcp
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20027
+  server: sclass-b1.catcat321.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- name: '🇹🇷[www.v2nodes.com] trojan-TR-... #1'
   password: d7563108-615c-4338-a7bd-77f359869a4a
   port: 20028
   server: sclass-b1.catcat321.com
+  sni: hk.catxstar.com
+  type: trojan
+- cipher: aes-128-gcm
+  name: '🇧🇬 保加利亚 | BGR #2'
+  password: 3411b0af-589e-40f3-b8d5-d2e04ce19fa9
+  port: 35000
+  server: c17b957c5a76ec76.lebufflonfermegroup.us
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '🇫🇷 法国 | FRA #2'
+  password: 3411b0af-589e-40f3-b8d5-d2e04ce19fa9
+  port: 21191
+  server: c17b957c5a76ec76.lebufflonfermegroup.us
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '🇻🇳 越南 | VNM #1'
+  password: 3411b0af-589e-40f3-b8d5-d2e04ce19fa9
+  port: 22089
+  server: c17b957c5a76ec76.lebufflonfermegroup.us
+  type: ss
+- cipher: aes-128-gcm
+  name: '🇩🇰 丹麦 | DNK #1'
+  password: 3411b0af-589e-40f3-b8d5-d2e04ce19fa9
+  port: 35002
+  server: c17b957c5a76ec76.lebufflonfermegroup.us
+  type: ss
+- cipher: aes-128-gcm
+  name: '🇭🇰 香港 | HKG #1'
+  password: 3411b0af-589e-40f3-b8d5-d2e04ce19fa9
+  port: 40011
+  server: c17b957c5a76ec76.lebufflonfermegroup.us
+  type: ss
+  udp: true
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: '🇭🇰 香港 | HKG #2'
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    path: /arki
+- cipher: chacha20-ietf-poly1305
+  name: '🇮🇹 意大利 | ITA #8'
+  password: mx81glqbtlwuhcjo
+  port: 8080
+  server: 57.131.4.13
+  type: ss
+  udp: true
+- name: '🇳🇬 尼日利亚 | NGA #1'
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20103
+  server: sclass-01.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
-- name: 🇧🇬 保加利亚 | BGR
-  network: ws
-  password: 46d221fa-e9b4-748c-4eae-019a88e42991
-  port: 443
-  server: 191.44.112.170.sslip.io
+- name: '🇳🇬 尼日利亚 | NGA #2'
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  port: 20051
+  server: sclass-c2.catcat321.com
   skip-cert-verify: true
-  sni: orbylume.my.to
+  sni: hk.catxstar.com
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: orbylume.my.to
-    path: /tvpn-trojan/bg
-- cipher: chacha20-ietf-poly1305
-  name: '🇨🇦 加拿大 | CAN #1'
-  password: kxhnt5jtykd328cg
-  port: 8080
-  server: 15.235.57.6
-  type: ss
-  udp: true
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: '🇩🇪 德国 | DEU #1'
-  network: ws
-  port: 80
-  server: bmi2.kolman.com.de
+- name: '🇸🇬 新加坡 | SGP #3'
+  password: Z5lvhmLqSc
+  port: 48994
+  server: matrix.phonicsindia.mobi
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a564987a-380a-4c21-a462-a011863ca9be
-  ws-opts:
-    headers:
-      Host: zeo6-lylp.uti.realoslo-norg.maniyadg7shard.ir.
-    path: /f9bGbG7ZNy5L0tzXKZNxSX4q
-- cipher: chacha20-ietf-poly1305
-  name: '🇬🇧 英国 | GBR #1'
-  password: 8nrpt2il04ptci2j
-  port: 8080
-  server: 54.37.240.40
-  type: ss
-  udp: true
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - openai.com
-    method: GET
-    path:
-    - /QQqun-737805443
-  name: '🇭🇰 香港 | HKG #1'
-  network: http
-  port: 52080
-  server: 47.242.81.94
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e47b9f77-60e4-4738-8d53-772b6002e146
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国 | USA 3
-  port: 12330
-  server: p05.rghvf.sbs
-  servername: gb.uniquenames.net
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 68adffea-4146-4f92-b2f9-955cd634c274
-- name: '🇧🇬 保加利亚 | BGR #1'
-  password: 46d221fa-e9b4-748c-4eae-019a88e42991
-  port: 443
-  server: 191.44.112.170.sslip.io
-  skip-cert-verify: true
-  sni: orbylume.my.to
+  sni: m.microsoft.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '🇺🇸 美国 | USA #3'
-  network: tcp
-  port: 12330
-  server: p05.rghvf.sbs
-  tls: true
-  type: vmess
-  uuid: 68adffea-4146-4f92-b2f9-955cd634c274
+  udp: true

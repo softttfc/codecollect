@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgRUU=
+//profile-title: base64:UFNHIHwgWEhUVFBfRE9NQUlO
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://telegram.me/yebekhe
@@ -50,8 +50,10 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇪🇪 EE | VLESS | @outlinereleasedkey #1 [fast]",
-        "🇪🇪 EE | VLESS | @red2ray #1 [fast]",
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi",
+        "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -60,8 +62,10 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇪 EE | VLESS | @outlinereleasedkey #1 [fast]",
-        "🇪🇪 EE | VLESS | @red2ray #1 [fast]"
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi",
+        "🇺🇸 US | VLESS | @kafing_2 #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -70,47 +74,51 @@
     },
     {
       "type": "vless",
-      "tag": "🇪🇪 EE | VLESS | @outlinereleasedkey #1 [fast]",
-      "server": "ee.subv.ru",
+      "tag": "همکاری_ملی",
+      "server": "127.0.0.1",
       "server_port": 443,
-      "uuid": "90157e25-cee1-4217-921e-91f300bc1a24",
-      "flow": "xtls-rprx-vision",
-      "network": "tcp",
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "network": "ws",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "dvizhok.su",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
-          "short_id": "428ef87fd47a3a32"
-        }
+      "transport": {
+        "type": "ws",
+        "path": "/"
       }
     },
     {
       "type": "vless",
-      "tag": "🇪🇪 EE | VLESS | @red2ray #1 [fast]",
-      "server": "45.83.182.80",
+      "tag": "جاویدشاه",
+      "server": "127.0.0.1",
       "server_port": 443,
-      "uuid": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
+      "uuid": "00000000-0000-0000-0000-000000000000",
       "network": "ws",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "fs.qicai99.com",
-        "insecure": true
-      },
       "transport": {
         "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "fs.qicai99.com"
-        }
+        "path": "/"
       }
+    },
+    {
+      "type": "vless",
+      "tag": "KingRezaPahlavi",
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
+      "server": "spd-mynames.global.ssl.fastly.net",
+      "server_port": 80,
+      "uuid": "8e378a41-d5e1-427a-aaf8-30190d4be0a0",
+      "network": "xhttp",
+      "packet_encoding": "xudp"
     },
     {
       "type": "direct",
