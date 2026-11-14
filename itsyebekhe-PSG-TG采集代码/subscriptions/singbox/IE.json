@@ -51,7 +51,6 @@
       "outbounds": [
         "auto",
         "🇮🇪 IE | SS | @prrofile_purple #1 [medium]",
-        "🇮🇪 IE | SS | @mtproxy22_v2ray #1 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -60,8 +59,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇪 IE | SS | @prrofile_purple #1 [medium]",
-        "🇮🇪 IE | SS | @mtproxy22_v2ray #1 [fast]"
+        "🇮🇪 IE | SS | @prrofile_purple #1 [medium]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -75,18 +73,6 @@
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "zziXHDOFXc4qRjoj",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇮🇪 IE | SS | @mtproxy22_v2ray #1 [fast]",
-      "server": "146.70.90.198",
-      "server_port": 17456,
-      "method": "aes-128-gcm",
-      "password": "881cf39affc5286799a585f1acd24d11",
       "network": "tcp",
       "tls": {
         "enabled": true

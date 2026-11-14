@@ -53,8 +53,9 @@
         "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
         "🇩🇪 DE | VLESS | @outline_ir #2 [fast]",
         "🇩🇪 DE | VLESS | @orange_vpns #1 [fast]",
+        "🇩🇪 DE | VLESS | @orange_vpns #2 [fast]",
         "🇩🇪 DE | VLESS | @ehsawn8 #1 [fast]",
-        "🇩🇪 DE | SS | @outlinereleasedkey #1 [fast]",
+        "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
         "🇩🇪 DE | SS | @free1_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @father_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @father_vpn #2 [fast]",
@@ -62,7 +63,9 @@
         "🇩🇪 DE | VLESS | @mpproxy #1 [fast]",
         "🇩🇪 DE | VLESS | @tanhanet #1 [fast]",
         "🇩🇪 DE | VLESS | @Proxymelimon #1 [fast]",
+        "🇩🇪 DE | VLESS | @Proxymelimon #2 [fast]",
         "🇩🇪 DE | VLESS | @flyv2ray #1 [fast]",
+        "🇩🇪 DE | SS | @netfreedom0 #1 [fast]",
         "🇩🇪 DE | VLESS | @minovpnch #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #2 [fast]",
@@ -79,8 +82,9 @@
         "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
         "🇩🇪 DE | VLESS | @outline_ir #2 [fast]",
         "🇩🇪 DE | VLESS | @orange_vpns #1 [fast]",
+        "🇩🇪 DE | VLESS | @orange_vpns #2 [fast]",
         "🇩🇪 DE | VLESS | @ehsawn8 #1 [fast]",
-        "🇩🇪 DE | SS | @outlinereleasedkey #1 [fast]",
+        "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
         "🇩🇪 DE | SS | @free1_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @father_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @father_vpn #2 [fast]",
@@ -88,7 +92,9 @@
         "🇩🇪 DE | VLESS | @mpproxy #1 [fast]",
         "🇩🇪 DE | VLESS | @tanhanet #1 [fast]",
         "🇩🇪 DE | VLESS | @Proxymelimon #1 [fast]",
+        "🇩🇪 DE | VLESS | @Proxymelimon #2 [fast]",
         "🇩🇪 DE | VLESS | @flyv2ray #1 [fast]",
+        "🇩🇪 DE | SS | @netfreedom0 #1 [fast]",
         "🇩🇪 DE | VLESS | @minovpnch #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #2 [fast]",
@@ -157,6 +163,29 @@
     },
     {
       "type": "vless",
+      "tag": "🇩🇪 DE | VLESS | @orange_vpns #2 [fast]",
+      "server": "de166.mech-pro.online",
+      "server_port": 443,
+      "uuid": "976f82d9-0e6b-40ed-9c09-cafd06c4bc98",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "de166.mech-pro.online",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "jbiddtGRgeBvlkjbuA3aU-WPjKgEX87tOVh1mFfvOUI",
+          "short_id": "16e0f049"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇩🇪 DE | VLESS | @ehsawn8 #1 [fast]",
       "server": "13.140.92.21",
       "server_port": 80,
@@ -179,15 +208,24 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇩🇪 DE | SS | @outlinereleasedkey #1 [fast]",
-      "server": "57.129.83.85",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
-      "network": "tcp",
+      "type": "vless",
+      "tag": "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
+      "server": "tsjs9n5lm4r.apruxdomain.online",
+      "server_port": 443,
+      "uuid": "7592ca5c-b352-4562-8856-a9c936a3331b",
+      "network": "grpc",
+      "packet_encoding": "xudp",
       "tls": {
-        "enabled": true
+        "enabled": true,
+        "server_name": "u209akv3ob.hat.onl",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "v1.segment.9wLukD7VB0oToI10.ts"
       }
     },
     {
@@ -322,6 +360,27 @@
     },
     {
       "type": "vless",
+      "tag": "🇩🇪 DE | VLESS | @Proxymelimon #2 [fast]",
+      "server": "online.shop.ir.eeso.cc",
+      "server_port": 39653,
+      "uuid": "baded307-189c-4ffc-a271-9acdab51a324",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "online.shop.ir.eeso.cc",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇩🇪 DE | VLESS | @flyv2ray #1 [fast]",
       "server": "179.61.145.164",
       "server_port": 443,
@@ -341,6 +400,18 @@
           "public_key": "72QcQtX7aWGEcUQock3IzNypWaIH118df2kui1gDdiA",
           "short_id": "71d0188b"
         }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇩🇪 DE | SS | @netfreedom0 #1 [fast]",
+      "server": "57.129.83.85",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
       }
     },
     {

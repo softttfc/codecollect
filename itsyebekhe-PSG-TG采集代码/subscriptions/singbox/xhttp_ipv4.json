@@ -53,15 +53,13 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | VLESS | @mehrosaboran #1 [fast]",
-        "🇺🇸 US | VLESS | @mehrosaboran #3 [fast]",
+        "🇺🇸 US | VLESS | @mehrosaboran #2 [fast]",
+        "🇺🇸 US | VLESS | @mehrosaboran #4 [fast]",
         "🇺🇸 US | VLESS | @mehrosaboran #5 [fast]",
-        "🇺🇸 US | VLESS | @mehrosaboran #6 [fast]",
         "🇺🇸 US | VLESS | @netmellianti #1 [fast]",
         "🇸🇨 SC | VLESS | @tanhanet #1 [fast]",
         "🇨🇦 CA | VLESS | @ai_duet #1 [fast]",
         "🇺🇸 US | VLESS | @free4allvpn #1 [fast]",
-        "🇺🇸 US | VLESS | @Proxymelimon #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #2 [fast]",
         "🇽🇽 XX | VLESS | @proxie #3 [fast]",
@@ -81,15 +79,13 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | VLESS | @mehrosaboran #1 [fast]",
-        "🇺🇸 US | VLESS | @mehrosaboran #3 [fast]",
+        "🇺🇸 US | VLESS | @mehrosaboran #2 [fast]",
+        "🇺🇸 US | VLESS | @mehrosaboran #4 [fast]",
         "🇺🇸 US | VLESS | @mehrosaboran #5 [fast]",
-        "🇺🇸 US | VLESS | @mehrosaboran #6 [fast]",
         "🇺🇸 US | VLESS | @netmellianti #1 [fast]",
         "🇸🇨 SC | VLESS | @tanhanet #1 [fast]",
         "🇨🇦 CA | VLESS | @ai_duet #1 [fast]",
         "🇺🇸 US | VLESS | @free4allvpn #1 [fast]",
-        "🇺🇸 US | VLESS | @Proxymelimon #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #2 [fast]",
         "🇽🇽 XX | VLESS | @proxie #3 [fast]",
@@ -145,20 +141,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @mehrosaboran #1 [fast]",
-      "server": "167.82.64.7",
-      "server_port": 443,
-      "uuid": "XpnTeam-100",
-      "network": "xhttp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn.akamai.steamstatic.com"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @mehrosaboran #3 [fast]",
+      "tag": "🇺🇸 US | VLESS | @mehrosaboran #2 [fast]",
       "server": "167.82.64.7",
       "server_port": 443,
       "uuid": "XpnTeam-104",
@@ -171,7 +154,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @mehrosaboran #5 [fast]",
+      "tag": "🇺🇸 US | VLESS | @mehrosaboran #4 [fast]",
       "server": "167.82.64.7",
       "server_port": 443,
       "uuid": "XpnTeam-110",
@@ -184,7 +167,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @mehrosaboran #6 [fast]",
+      "tag": "🇺🇸 US | VLESS | @mehrosaboran #5 [fast]",
       "server": "167.82.64.7",
       "server_port": 443,
       "uuid": "XpnTeam-114",
@@ -242,24 +225,6 @@
       "uuid": "02d87d00-c769-48d8-91cb-bd05e2f62790",
       "network": "xhttp",
       "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @Proxymelimon #1 [fast]",
-      "server": "199.232.20.113",
-      "server_port": 443,
-      "uuid": "9a671182-63d4-40b0-a203-2cac6f7f0ccf",
-      "network": "xhttp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "community.fastly.steamstatic.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        }
-      }
     },
     {
       "type": "vless",
