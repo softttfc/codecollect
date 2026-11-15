@@ -85,7 +85,6 @@
         "p-aa2ee25901470b75",
         "p-b1eab8c0660f004c",
         "p-b2898639411a31a8",
-        "p-b2ee38a3bd9d87e3",
         "p-b703055e08a212a8",
         "p-b7388c7dd2bc640f",
         "p-b935ffb815de0d3d",
@@ -108,7 +107,6 @@
         "p-dd609df346ea2ecc",
         "p-df33a4775fba91af",
         "p-df5b3a3368248a22",
-        "p-e529d61848be8c34",
         "p-e9a31afad778db62",
         "p-ef0a70c34aadd087",
         "p-f88b8eb26888181c",
@@ -174,7 +172,6 @@
         "p-aa2ee25901470b75",
         "p-b1eab8c0660f004c",
         "p-b2898639411a31a8",
-        "p-b2ee38a3bd9d87e3",
         "p-b703055e08a212a8",
         "p-b7388c7dd2bc640f",
         "p-b935ffb815de0d3d",
@@ -197,7 +194,6 @@
         "p-dd609df346ea2ecc",
         "p-df33a4775fba91af",
         "p-df5b3a3368248a22",
-        "p-e529d61848be8c34",
         "p-e9a31afad778db62",
         "p-ef0a70c34aadd087",
         "p-f88b8eb26888181c",
@@ -845,28 +841,6 @@
       "type": "shadowsocks"
     },
     {
-      "flow": "xtls-rprx-vision",
-      "server": "3.39.4.109",
-      "server_port": 13672,
-      "tag": "p-b2ee38a3bd9d87e3",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
-          "short_id": "48050fab"
-        },
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "type": "vless",
-      "uuid": "814bd064-544d-4255-a070-5705c03f6da9"
-    },
-    {
       "method": "chacha20-ietf-poly1305",
       "password": "k1dBOmOB4oqi7Ump37a1bQ",
       "server": "82.38.31.185",
@@ -1173,22 +1147,6 @@
       "server_port": 8080,
       "tag": "p-df5b3a3368248a22",
       "type": "shadowsocks"
-    },
-    {
-      "alter_id": 0,
-      "security": "auto",
-      "server": "152.67.8.205",
-      "server_port": 80,
-      "tag": "p-e529d61848be8c34",
-      "transport": {
-        "headers": {
-          "Host": "152.67.8.205"
-        },
-        "path": "/",
-        "type": "ws"
-      },
-      "type": "vmess",
-      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d"
     },
     {
       "method": "aes-256-gcm",

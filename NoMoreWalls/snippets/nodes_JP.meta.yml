@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #9'
+  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #8'
   network: ws
   port: 443
   server: 46.250.248.210
@@ -12,14 +12,13 @@ proxies:
     headers:
       Host: fs.qicai99.com
     path: /
-- client-fingerprint: firefox
+- client-fingerprint: unsafe
   encryption: none
-  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #4'
+  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #3'
   network: ws
   port: 443
-  server: 104.21.70.228
+  server: 155.103.116.110
   servername: jp3.yohototo.top
-  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
@@ -27,37 +26,26 @@ proxies:
     headers:
       Host: jp3.yohototo.top
     path: /tyxyws
-- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #8'
+- encryption: none
+  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #7'
   network: ws
-  port: 443
-  server: 46.250.254.187
-  servername: fs.qicai99.com
+  port: 11424
+  server: 38.47.96.220
+  servername: notls.lukongtou.eu.org
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
   ws-opts:
     headers:
-      Host: fs.qicai99.com
-    path: /fp=chrome
-- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #10'
-  network: ws
-  port: 443
-  server: 46.250.248.210
-  servername: fs.qicai99.com
-  tls: true
-  type: vless
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  ws-opts:
-    headers:
-      Host: fs.qicai99.com
-    path: /fp=chrome
+      Host: notls.lukongtou.eu.org
+    path: Telegram-WangCai2🇨🇳
 - cipher: aes-256-gcm
-  name: '🇯🇵 日本 | JPN #2'
+  name: 🇯🇵[www.v2nodes.com] ss-JP-1599...
   password: BeaUf9c0AEWH40Pu
   port: 8388
   server: 154.36.158.197
   type: ss
-  udp: true
 - cipher: aes-256-gcm
   name: 🇯🇵[www.v2nodes.com] ss-JP-1544...
   password: 3eOFeNssde7PYYMv
@@ -82,22 +70,18 @@ proxies:
   port: 443
   server: 149.22.87.241
   type: ss
-- name: 🇯🇵JP_1|2.0MB/s
-  port: 20000
-  server: 43.163.219.10
+- name: 🇯🇵JP_1|4.2MB/s
+  password: EGJDy5Kg
+  port: 42000
+  server: 103.248.150.50
   skip-cert-verify: true
   type: socks5
-- client-fingerprint: firefox
-  name: '🇯🇵 日本 | JPN #3'
-  network: xhttp
-  port: 443
-  server: 185.178.208.140
-  servername: kfx7q.bakarova-top.ru
-  tls: true
-  type: vless
+  username: paZFN3JA
+- name: '🇳🇬 尼日利亚 | NGA #1'
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20051
+  server: sclass-b1.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
   udp: true
-  uuid: 5be144a2-75d3-476a-badb-fa57336617e5
-  xhttp-opts:
-    host: kfx7q.bakarova-top.ru
-    mode: packet-up
-    path: /api/v2/events

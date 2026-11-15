@@ -48,19 +48,29 @@ proxies:
   server: 149.28.130.108
   sni: searchcreativejobsandshowcaseyourartistictalents.com
   type: trojan
-- name: '🇸🇬 新加坡 | SGP #1'
-  password: Z5lvhmLqSc
-  port: 48994
-  server: 173.234.15.84
-  skip-cert-verify: true
-  sni: m.microsoft.com
-  type: trojan
-  udp: true
-- name: '🇸🇬 新加坡 | SGP #2'
+- name: 🇸🇬SG_2|2.4MB/s
   password: Z5lvhmLqSc
   port: 48994
   server: matrix.phonicsindia.mobi
   skip-cert-verify: true
   sni: m.microsoft.com
   type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬SG_4|3.9MB/s
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: ffbf920:68447
+    mode: tls
+  port: 2377
+  server: 18.141.181.229
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '🇸🇬 新加坡 | SGP #2'
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 8443
+  server: 54.254.3.195
+  type: ss
   udp: true
