@@ -38,124 +38,121 @@ dns:
   - https://1.1.1.1/dns-query
   - https://1.0.0.1/dns-query
 proxies:
-- type: anytls
-  name: 🇹🇼_TW_台湾->🇩🇪_DE_德国_IPV4
-  server: forwarded.frnhk.xyz
-  port: 2086
-  password: 9b24e5d0-62be-41df-b967-9b670cf90ff8
-  tls: true
-  servername: de.gosthk.site
-  sni: de.gosthk.site
-  skip-cert-verify: true
-- cipher: xchacha20-ietf-poly1305
-  name: 🇮🇳[www.v2nodes.com] ss-IN-1621...
-  password: tfvsLbsXV9PdNmxPA4zaWr7EOezLjv3dXejQq2Y5sXA=
-  port: 36542
-  server: dlc.deltapc.digital
-  type: ss
-- name: '🇸🇪[www.v2nodes.com] trojan-SE-... #1'
+- name: '🇦🇪[www.v2nodes.com] vless-AE-1... #1'
   network: ws
-  password: f426d3c9-fb43-43c0-868b-898dfa451a74
-  port: 443
-  server: 121.127.33.130
-  skip-cert-verify: false
-  sni: likejennie.pages.dev
-  type: trojan
+  port: 22573
+  server: 84.235.244.108
+  servername: uae.unixzone.us
+  tls: false
+  type: vless
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   ws-opts:
     headers:
-      Host: likejennie.pages.dev
-    path: '%2F'
-- name: 🇺🇸US_1|1.0MB/s
-  port: 7070
-  server: 20.83.154.79
-  skip-cert-verify: true
-  type: socks5
-- name: 🇨🇦 加拿大 | CAN
-  password: 7d63393e-d64d-4dff-a154-1081dbe0e138
-  port: 443
-  server: usa69.gosthk.site
-  skip-cert-verify: true
-  sni: usa69.gosthk.site
-  type: anytls
-  udp: true
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 🇩🇪 德国 | DEU 3
-  port: 26032
-  server: 123466.ru
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 804334e2-04ca-434c-8311-3ccee8218175
-- name: 🇯🇵 日本 | JPN 2
-  password: 9922ea3a-7314-4af5-a4cb-eb68a9b94fca
-  port: 2052
-  server: forwarded.frnhk.xyz
-  skip-cert-verify: true
-  sni: jp2.gosthk.site
-  type: anytls
+      Host: uae.unixzone.us
+    path: /
 - client-fingerprint: chrome
-  name: '🇱🇻 拉脱维亚 | LVA #1'
-  network: xhttp
-  port: 4443
-  server: 2.26.88.140
-  servername: lv3.nexfile.net
+  name: '🇷🇺 俄罗斯 | RUS #4'
+  network: tcp
+  port: 443
+  server: 84.54.57.122
+  servername: minjd-ru-61sb.my-fade.cloud
   tls: true
   type: vless
   udp: true
-  uuid: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  xhttp-opts:
-    host: lv3.nexfile.net
-    path: /api/v1/sync/
-- client-fingerprint: qq
-  name: '🇱🇻 拉脱维亚 | LVA #2'
-  network: xhttp
-  port: 4443
-  server: lv3.nexfile.net
-  servername: lv3.nexfile.net
+  uuid: 7b3150b4-7581-0001-8131-6f94fe3fd206
+  ws-opts:
+    path: /
+- client-fingerprint: chrome
+  name: '🇷🇺 俄罗斯 | RUS #8'
+  network: tcp
+  port: 443
+  server: 84.54.57.122
+  servername: minjd-ru-61sb.my-fade.cloud
   tls: true
   type: vless
   udp: true
-  uuid: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  xhttp-opts:
-    host: lv3.nexfile.net
-    mode: auto
-    path: /api/v1/sync/
-- name: 🇸🇬 新加坡 | SGP 3
-  password: cce1f769-d7db-42d5-b622-15803db8e428
-  port: 2082
-  server: forwarded.frnhk.xyz
-  skip-cert-verify: true
-  sni: sg.gosthk.site
-  type: anytls
-  udp: true
+  uuid: f87e553a-009d-0001-9aa3-4e737a4d0192
+  ws-opts:
+    path: /
 - cipher: chacha20-ietf-poly1305
-  name: '🇸🇬 新加坡 | SGP #3'
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  port: 8443
-  server: 47.129.144.40
+  name: 🇩🇪[www.v2nodes.com] ss-DE-1621...
+  password: zZMNTGpPl38ASlbI1EKOBJ
+  port: 46303
+  server: 135.220.178.46
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '🇫🇷[www.v2nodes.com] ss-FR-1621... #4'
+  password: byX4-DV0C42PLFTWQhMTAQ63mZ8qrDRB
+  port: 1352
+  server: dns24.m3hrzd.ir
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧[www.v2nodes.com] ss-GB-1622...
+  password: byX4-DV0C42PLFTWQhMTAQ63mZ8qrDRB
+  port: 1353
+  server: 185.194.191.35
+  type: ss
+- cipher: aes-128-gcm
+  name: '🏳[www.v2nodes.com] ss- #7'
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.178
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '🇮🇹[www.v2nodes.com] ss-IT-1621... #3'
+  password: byX4-DV0C42PLFTWQhMTAQ63mZ8qrDRB
+  port: 1349
+  server: dns24.m3hrzd.ir
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇸🇪[www.v2nodes.com] ss-SE-1560...
+  password: AxIYWtskJWIIaefW
+  port: 8388
+  server: 70.34.212.124
+  type: ss
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: wn-adaptcloud
+  name: 🇵🇱 波兰 | POL
+  network: grpc
+  port: 59715
+  server: 46.243.233.165
+  servername: wn-pl4.static-s3.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3ecbd833-40d8-4ddb-b80b-a7c4628ec7e5
+- client-fingerprint: chrome
+  name: '🇵🇱 波兰 | POL #2'
+  network: tcp
+  port: 443
+  server: 84.54.57.122
+  servername: minjd-ru-61sb.my-fade.cloud
+  tls: true
+  type: vless
+  udp: true
+  uuid: aea7b0f0-c7bd-0001-a2d9-79683eba69ef
+  ws-opts:
+    path: /
+- cipher: 2022-blake3-aes-256-gcm
+  name: '🇺🇸 美国 | USA #2'
+  password: f2Nq5YLnyclPaWR8my7/Vdd3ZX8URncXZNly5+HcUSs=:dQ6WYcPpGX5xIxUVPAR8w1A9eY6kEVoKKW3HleJ6o8Y=
+  port: 8086
+  server: frr.drwrdoh.org
   type: ss
   udp: true
-- name: 🇹🇼 🇨🇳 台湾 | TWN 2
-  password: b5bf323d-cccd-4e7b-9ecd-2ab4943b7396
-  port: 443
-  server: jp.gosthk.site
-  skip-cert-verify: true
-  sni: jp.gosthk.site
-  type: anytls
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '🇩🇪 德国 | DEU #3'
-  network: tcp
-  port: 26032
-  server: 123466.ru
-  tls: false
-  type: vmess
-  uuid: 804334e2-04ca-434c-8311-3ccee8218175
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: ''
+  name: '🇵🇱 波兰 | POL #1'
+  network: grpc
+  port: 59715
+  server: 46.243.233.165
+  servername: wn-pl4.static-s3.org
+  tls: true
+  type: vless
+  uuid: 3ecbd833-40d8-4ddb-b80b-a7c4628ec7e5
 - client-fingerprint: firefox
   name: AT_speednode_0002
   network: ws
@@ -206,14 +203,22 @@ proxies:
   type: vless
   udp: true
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-- name: 🇹🇷 土耳其 | TUR 2
-  server: n.shopthc.ir
-  port: 1003
+- name: 🇩🇪 德国 | DEU 3
+  server: inexall.cloudvipgamefall.ir
+  port: 8080
   type: vless
-  uuid: 7e8c5916-2070-4013-864d-be767d4e2fd7
-  tls: false
-  encryption: mlkem768x25519plus.native.0rtt.VnKsCjYzfK9Wa9J3iEOTyhiRmaKKVTDUr7tklDZLyRQ
-  network: tcp
+  uuid: 01f93877-3307-4e73-ba4c-592d4489a9ea
+  tls: true
+  servername: newnexip1.nexvpnfun.com
+  client-fingerprint: chrome
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - inexall.cloudvipgamefall.ir
   udp: true
 proxy-groups:
 - name: ermao.net | 🚀 节点选择
@@ -221,45 +226,45 @@ proxy-groups:
   proxies:
   - ermao.net | ♻️ 自动选择
   - DIRECT
-  - 🇹🇼_TW_台湾->🇩🇪_DE_德国_IPV4
-  - 🇮🇳[www.v2nodes.com] ss-IN-1621...
-  - '🇸🇪[www.v2nodes.com] trojan-SE-... #1'
-  - 🇺🇸US_1|1.0MB/s
-  - 🇨🇦 加拿大 | CAN
-  - 🇩🇪 德国 | DEU 3
-  - 🇯🇵 日本 | JPN 2
-  - '🇱🇻 拉脱维亚 | LVA #1'
-  - '🇱🇻 拉脱维亚 | LVA #2'
-  - 🇸🇬 新加坡 | SGP 3
-  - '🇸🇬 新加坡 | SGP #3'
-  - 🇹🇼 🇨🇳 台湾 | TWN 2
-  - '🇩🇪 德国 | DEU #3'
+  - '🇦🇪[www.v2nodes.com] vless-AE-1... #1'
+  - '🇷🇺 俄罗斯 | RUS #4'
+  - '🇷🇺 俄罗斯 | RUS #8'
+  - 🇩🇪[www.v2nodes.com] ss-DE-1621...
+  - '🇫🇷[www.v2nodes.com] ss-FR-1621... #4'
+  - 🇬🇧[www.v2nodes.com] ss-GB-1622...
+  - '🏳[www.v2nodes.com] ss- #7'
+  - '🇮🇹[www.v2nodes.com] ss-IT-1621... #3'
+  - 🇸🇪[www.v2nodes.com] ss-SE-1560...
+  - 🇵🇱 波兰 | POL
+  - '🇵🇱 波兰 | POL #2'
+  - '🇺🇸 美国 | USA #2'
+  - '🇵🇱 波兰 | POL #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇹🇷 土耳其 | TUR 2
+  - 🇩🇪 德国 | DEU 3
 - name: ermao.net | ♻️ 自动选择
   type: url-test
   proxies:
-  - 🇹🇼_TW_台湾->🇩🇪_DE_德国_IPV4
-  - 🇮🇳[www.v2nodes.com] ss-IN-1621...
-  - '🇸🇪[www.v2nodes.com] trojan-SE-... #1'
-  - 🇺🇸US_1|1.0MB/s
-  - 🇨🇦 加拿大 | CAN
-  - 🇩🇪 德国 | DEU 3
-  - 🇯🇵 日本 | JPN 2
-  - '🇱🇻 拉脱维亚 | LVA #1'
-  - '🇱🇻 拉脱维亚 | LVA #2'
-  - 🇸🇬 新加坡 | SGP 3
-  - '🇸🇬 新加坡 | SGP #3'
-  - 🇹🇼 🇨🇳 台湾 | TWN 2
-  - '🇩🇪 德国 | DEU #3'
+  - '🇦🇪[www.v2nodes.com] vless-AE-1... #1'
+  - '🇷🇺 俄罗斯 | RUS #4'
+  - '🇷🇺 俄罗斯 | RUS #8'
+  - 🇩🇪[www.v2nodes.com] ss-DE-1621...
+  - '🇫🇷[www.v2nodes.com] ss-FR-1621... #4'
+  - 🇬🇧[www.v2nodes.com] ss-GB-1622...
+  - '🏳[www.v2nodes.com] ss- #7'
+  - '🇮🇹[www.v2nodes.com] ss-IT-1621... #3'
+  - 🇸🇪[www.v2nodes.com] ss-SE-1560...
+  - 🇵🇱 波兰 | POL
+  - '🇵🇱 波兰 | POL #2'
+  - '🇺🇸 美国 | USA #2'
+  - '🇵🇱 波兰 | POL #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇹🇷 土耳其 | TUR 2
+  - 🇩🇪 德国 | DEU 3
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -269,93 +274,93 @@ proxy-groups:
   - ermao.net | 🚀 节点选择
   - ermao.net | ♻️ 自动选择
   - 🎯 全球直连
-  - 🇹🇼_TW_台湾->🇩🇪_DE_德国_IPV4
-  - 🇮🇳[www.v2nodes.com] ss-IN-1621...
-  - '🇸🇪[www.v2nodes.com] trojan-SE-... #1'
-  - 🇺🇸US_1|1.0MB/s
-  - 🇨🇦 加拿大 | CAN
-  - 🇩🇪 德国 | DEU 3
-  - 🇯🇵 日本 | JPN 2
-  - '🇱🇻 拉脱维亚 | LVA #1'
-  - '🇱🇻 拉脱维亚 | LVA #2'
-  - 🇸🇬 新加坡 | SGP 3
-  - '🇸🇬 新加坡 | SGP #3'
-  - 🇹🇼 🇨🇳 台湾 | TWN 2
-  - '🇩🇪 德国 | DEU #3'
+  - '🇦🇪[www.v2nodes.com] vless-AE-1... #1'
+  - '🇷🇺 俄罗斯 | RUS #4'
+  - '🇷🇺 俄罗斯 | RUS #8'
+  - 🇩🇪[www.v2nodes.com] ss-DE-1621...
+  - '🇫🇷[www.v2nodes.com] ss-FR-1621... #4'
+  - 🇬🇧[www.v2nodes.com] ss-GB-1622...
+  - '🏳[www.v2nodes.com] ss- #7'
+  - '🇮🇹[www.v2nodes.com] ss-IT-1621... #3'
+  - 🇸🇪[www.v2nodes.com] ss-SE-1560...
+  - 🇵🇱 波兰 | POL
+  - '🇵🇱 波兰 | POL #2'
+  - '🇺🇸 美国 | USA #2'
+  - '🇵🇱 波兰 | POL #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇹🇷 土耳其 | TUR 2
+  - 🇩🇪 德国 | DEU 3
 - name: 📲 电报信息
   type: select
   proxies:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
-  - 🇹🇼_TW_台湾->🇩🇪_DE_德国_IPV4
-  - 🇮🇳[www.v2nodes.com] ss-IN-1621...
-  - '🇸🇪[www.v2nodes.com] trojan-SE-... #1'
-  - 🇺🇸US_1|1.0MB/s
-  - 🇨🇦 加拿大 | CAN
-  - 🇩🇪 德国 | DEU 3
-  - 🇯🇵 日本 | JPN 2
-  - '🇱🇻 拉脱维亚 | LVA #1'
-  - '🇱🇻 拉脱维亚 | LVA #2'
-  - 🇸🇬 新加坡 | SGP 3
-  - '🇸🇬 新加坡 | SGP #3'
-  - 🇹🇼 🇨🇳 台湾 | TWN 2
-  - '🇩🇪 德国 | DEU #3'
+  - '🇦🇪[www.v2nodes.com] vless-AE-1... #1'
+  - '🇷🇺 俄罗斯 | RUS #4'
+  - '🇷🇺 俄罗斯 | RUS #8'
+  - 🇩🇪[www.v2nodes.com] ss-DE-1621...
+  - '🇫🇷[www.v2nodes.com] ss-FR-1621... #4'
+  - 🇬🇧[www.v2nodes.com] ss-GB-1622...
+  - '🏳[www.v2nodes.com] ss- #7'
+  - '🇮🇹[www.v2nodes.com] ss-IT-1621... #3'
+  - 🇸🇪[www.v2nodes.com] ss-SE-1560...
+  - 🇵🇱 波兰 | POL
+  - '🇵🇱 波兰 | POL #2'
+  - '🇺🇸 美国 | USA #2'
+  - '🇵🇱 波兰 | POL #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇹🇷 土耳其 | TUR 2
+  - 🇩🇪 德国 | DEU 3
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
   - 🎯 全球直连
   - ermao.net | 🚀 节点选择
-  - 🇹🇼_TW_台湾->🇩🇪_DE_德国_IPV4
-  - 🇮🇳[www.v2nodes.com] ss-IN-1621...
-  - '🇸🇪[www.v2nodes.com] trojan-SE-... #1'
-  - 🇺🇸US_1|1.0MB/s
-  - 🇨🇦 加拿大 | CAN
-  - 🇩🇪 德国 | DEU 3
-  - 🇯🇵 日本 | JPN 2
-  - '🇱🇻 拉脱维亚 | LVA #1'
-  - '🇱🇻 拉脱维亚 | LVA #2'
-  - 🇸🇬 新加坡 | SGP 3
-  - '🇸🇬 新加坡 | SGP #3'
-  - 🇹🇼 🇨🇳 台湾 | TWN 2
-  - '🇩🇪 德国 | DEU #3'
+  - '🇦🇪[www.v2nodes.com] vless-AE-1... #1'
+  - '🇷🇺 俄罗斯 | RUS #4'
+  - '🇷🇺 俄罗斯 | RUS #8'
+  - 🇩🇪[www.v2nodes.com] ss-DE-1621...
+  - '🇫🇷[www.v2nodes.com] ss-FR-1621... #4'
+  - 🇬🇧[www.v2nodes.com] ss-GB-1622...
+  - '🏳[www.v2nodes.com] ss- #7'
+  - '🇮🇹[www.v2nodes.com] ss-IT-1621... #3'
+  - 🇸🇪[www.v2nodes.com] ss-SE-1560...
+  - 🇵🇱 波兰 | POL
+  - '🇵🇱 波兰 | POL #2'
+  - '🇺🇸 美国 | USA #2'
+  - '🇵🇱 波兰 | POL #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇹🇷 土耳其 | TUR 2
+  - 🇩🇪 德国 | DEU 3
 - name: 🍎 苹果服务
   type: select
   proxies:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
-  - 🇹🇼_TW_台湾->🇩🇪_DE_德国_IPV4
-  - 🇮🇳[www.v2nodes.com] ss-IN-1621...
-  - '🇸🇪[www.v2nodes.com] trojan-SE-... #1'
-  - 🇺🇸US_1|1.0MB/s
-  - 🇨🇦 加拿大 | CAN
-  - 🇩🇪 德国 | DEU 3
-  - 🇯🇵 日本 | JPN 2
-  - '🇱🇻 拉脱维亚 | LVA #1'
-  - '🇱🇻 拉脱维亚 | LVA #2'
-  - 🇸🇬 新加坡 | SGP 3
-  - '🇸🇬 新加坡 | SGP #3'
-  - 🇹🇼 🇨🇳 台湾 | TWN 2
-  - '🇩🇪 德国 | DEU #3'
+  - '🇦🇪[www.v2nodes.com] vless-AE-1... #1'
+  - '🇷🇺 俄罗斯 | RUS #4'
+  - '🇷🇺 俄罗斯 | RUS #8'
+  - 🇩🇪[www.v2nodes.com] ss-DE-1621...
+  - '🇫🇷[www.v2nodes.com] ss-FR-1621... #4'
+  - 🇬🇧[www.v2nodes.com] ss-GB-1622...
+  - '🏳[www.v2nodes.com] ss- #7'
+  - '🇮🇹[www.v2nodes.com] ss-IT-1621... #3'
+  - 🇸🇪[www.v2nodes.com] ss-SE-1560...
+  - 🇵🇱 波兰 | POL
+  - '🇵🇱 波兰 | POL #2'
+  - '🇺🇸 美国 | USA #2'
+  - '🇵🇱 波兰 | POL #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇹🇷 土耳其 | TUR 2
+  - 🇩🇪 德国 | DEU 3
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -378,24 +383,24 @@ proxy-groups:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
   - ermao.net | ♻️ 自动选择
-  - 🇹🇼_TW_台湾->🇩🇪_DE_德国_IPV4
-  - 🇮🇳[www.v2nodes.com] ss-IN-1621...
-  - '🇸🇪[www.v2nodes.com] trojan-SE-... #1'
-  - 🇺🇸US_1|1.0MB/s
-  - 🇨🇦 加拿大 | CAN
-  - 🇩🇪 德国 | DEU 3
-  - 🇯🇵 日本 | JPN 2
-  - '🇱🇻 拉脱维亚 | LVA #1'
-  - '🇱🇻 拉脱维亚 | LVA #2'
-  - 🇸🇬 新加坡 | SGP 3
-  - '🇸🇬 新加坡 | SGP #3'
-  - 🇹🇼 🇨🇳 台湾 | TWN 2
-  - '🇩🇪 德国 | DEU #3'
+  - '🇦🇪[www.v2nodes.com] vless-AE-1... #1'
+  - '🇷🇺 俄罗斯 | RUS #4'
+  - '🇷🇺 俄罗斯 | RUS #8'
+  - 🇩🇪[www.v2nodes.com] ss-DE-1621...
+  - '🇫🇷[www.v2nodes.com] ss-FR-1621... #4'
+  - 🇬🇧[www.v2nodes.com] ss-GB-1622...
+  - '🏳[www.v2nodes.com] ss- #7'
+  - '🇮🇹[www.v2nodes.com] ss-IT-1621... #3'
+  - 🇸🇪[www.v2nodes.com] ss-SE-1560...
+  - 🇵🇱 波兰 | POL
+  - '🇵🇱 波兰 | POL #2'
+  - '🇺🇸 美国 | USA #2'
+  - '🇵🇱 波兰 | POL #1'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
-  - 🇹🇷 土耳其 | TUR 2
+  - 🇩🇪 德国 | DEU 3
 rule-providers:
   LocalAreaNetwork:
     type: http

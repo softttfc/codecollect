@@ -10,7 +10,7 @@ proxies:
   ws-opts:
     path: /
 - client-fingerprint: chrome
-  name: '🇰🇷[www.v2nodes.com] vless-KR-3... #4'
+  name: '🇰🇷[www.v2nodes.com] vless-KR-3... #5'
   network: ws
   port: 8443
   server: 64.110.79.66
@@ -22,12 +22,6 @@ proxies:
     headers:
       Host: fs.qicai99.com
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇰🇷[www.v2nodes.com] ss-KR-1126...
-  password: '!!str 12242'
-  port: 10099
-  server: 115.161.136.145
-  type: ss
 - name: 🇰🇷[www.v2nodes.com] trojan-KR-...
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
@@ -35,33 +29,3 @@ proxies:
   skip-cert-verify: true
   sni: connectgraduateswithjobopeningsandgrowprofessionally.com
   type: trojan
-- name: 🇰🇷KR_1|3.7MB/s
-  port: 80
-  server: 211.188.53.248
-  skip-cert-verify: true
-  type: http
-- name: 🇰🇷KR_2|4.6MB/s
-  port: 80
-  server: 211.188.60.84
-  skip-cert-verify: true
-  type: http
-- name: 🇰🇷KR_3|2.8MB/s
-  port: 80
-  server: 211.188.55.218
-  skip-cert-verify: true
-  type: http
-- name: 🇰🇷KR_4|1.5MB/s
-  port: 80
-  server: 211.188.59.191
-  skip-cert-verify: true
-  type: http
-- name: 🇰🇷KR_5|2.4MB/s
-  port: 80
-  server: 211.188.38.254
-  skip-cert-verify: true
-  type: http
-- name: 🇰🇷KR_6|4.6MB/s
-  port: 80
-  server: 211.188.69.153
-  skip-cert-verify: true
-  type: http
