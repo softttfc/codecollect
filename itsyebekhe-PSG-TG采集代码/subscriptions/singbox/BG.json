@@ -50,7 +50,9 @@
       "tag": "select",
       "outbounds": [
         "auto",
+        "🇧🇬 BG | VLESS | @beshkan #1 [fast]",
         "🇧🇬 BG | VLESS | @hope_net #1 [fast]",
+        "🇧🇬 BG | VLESS | @Proxymelimon #1 [fast]",
         "🇧🇬 BG | SS | @filtershekan_channel #1 [fast]",
         "direct"
       ],
@@ -60,13 +62,39 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
+        "🇧🇬 BG | VLESS | @beshkan #1 [fast]",
         "🇧🇬 BG | VLESS | @hope_net #1 [fast]",
+        "🇧🇬 BG | VLESS | @Proxymelimon #1 [fast]",
         "🇧🇬 BG | SS | @filtershekan_channel #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
       "tolerance": 50,
       "idle_timeout": "30m"
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇬 BG | VLESS | @beshkan #1 [fast]",
+      "server": "88.80.150.15",
+      "server_port": 443,
+      "uuid": "1d46250c-f015-439d-a7fd-c4d9e2a4c63d",
+      "network": "grpc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "bg2.oncloudvpn.com",
+        "alpn": [
+          "h2"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc"
+      }
     },
     {
       "type": "vless",
@@ -88,6 +116,30 @@
           "public_key": "xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8",
           "short_id": "9b60d3"
         }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇬 BG | VLESS | @Proxymelimon #1 [fast]",
+      "server": "88.80.150.15",
+      "server_port": 443,
+      "uuid": "1d46250c-f015-439d-a7fd-c4d9e2a4c63d",
+      "network": "grpc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "bg2.oncloudvpn.com",
+        "alpn": [
+          "h2"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc"
       }
     },
     {

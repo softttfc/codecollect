@@ -100,7 +100,6 @@
         "🇽🇽 XX | VLESS | @iran_access #5 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #6 [fast]",
         "🇽🇽 XX | VLESS | @grizzlyvpn #1 [fast]",
-        "🇽🇽 XX | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VMESS | @iranvpnet #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2 [fast]",
@@ -179,6 +178,8 @@
         "🇽🇽 XX | VLESS | @manstervpn #1 [fast]",
         "🇽🇽 XX | VLESS | @manstervpn #2 [fast]",
         "🇽🇽 XX | VLESS | @manstervpn #3 [fast]",
+        "🇽🇽 XX | VLESS | @manstervpn #4 [fast]",
+        "🇽🇽 XX | VMESS | @ir_netproxy #1 [fast]",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #1 [fast]",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #2 [fast]",
         "🇽🇽 XX | VLESS | @lemonshopvpn #1 [fast]",
@@ -240,7 +241,6 @@
         "🇽🇽 XX | VLESS | @iran_access #5 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #6 [fast]",
         "🇽🇽 XX | VLESS | @grizzlyvpn #1 [fast]",
-        "🇽🇽 XX | VLESS | @red2ray #1 [fast]",
         "🇽🇽 XX | VMESS | @iranvpnet #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2 [fast]",
@@ -319,6 +319,8 @@
         "🇽🇽 XX | VLESS | @manstervpn #1 [fast]",
         "🇽🇽 XX | VLESS | @manstervpn #2 [fast]",
         "🇽🇽 XX | VLESS | @manstervpn #3 [fast]",
+        "🇽🇽 XX | VLESS | @manstervpn #4 [fast]",
+        "🇽🇽 XX | VMESS | @ir_netproxy #1 [fast]",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #1 [fast]",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #2 [fast]",
         "🇽🇽 XX | VLESS | @lemonshopvpn #1 [fast]"
@@ -1329,30 +1331,6 @@
         "path": "/",
         "headers": {
           "Host": "sni.jpmj.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇽🇽 XX | VLESS | @red2ray #1 [fast]",
-      "server": "yx.l110.us.ci",
-      "server_port": 443,
-      "uuid": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "fs.qicai99.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "fs.qicai99.com"
         }
       }
     },
@@ -2839,6 +2817,57 @@
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇽🇽 XX | VLESS | @manstervpn #4 [fast]",
+      "server": "104.16.60.8",
+      "server_port": 443,
+      "uuid": "962a733d-2614-0b9b-7ffe-9ac92ffea8eb",
+      "network": "ws",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "ahmedquran19.xyz",
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/current_time",
+        "headers": {
+          "Host": "ahmedquran19.xyz"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇽🇽 XX | VMESS | @ir_netproxy #1 [fast]",
+      "server": "172.67.207.114",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 1,
+      "global_padding": false,
+      "authenticated_length": true,
+      "network": "ws",
+      "packet_encoding": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ophelia.mom"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
+        "headers": {
+          "Host": "ophelia.mom"
         }
       }
     },

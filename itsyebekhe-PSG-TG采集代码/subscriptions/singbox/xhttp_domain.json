@@ -55,6 +55,7 @@
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
         "🇺🇸 US | VLESS | @outline_ir #4 [fast]",
+        "🇫🇷 FR | VLESS | @free1_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2 [fast]",
         "direct"
       ],
@@ -69,6 +70,7 @@
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
         "🇺🇸 US | VLESS | @outline_ir #4 [fast]",
+        "🇫🇷 FR | VLESS | @free1_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
@@ -141,6 +143,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇷 FR | VLESS | @free1_vpn #1 [fast]",
+      "server": "fr.abbaas.net",
+      "server_port": 8443,
+      "uuid": "SoonTeam ",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.crazimals.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "GgO_laVIFUL5JOZrIesfGewuZSXQMLhC-ASCW76ziSk",
+          "short_id": "f4eaffbb"
         }
       }
     },
