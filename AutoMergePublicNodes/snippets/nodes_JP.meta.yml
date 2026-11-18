@@ -1,11 +1,12 @@
 proxies:
-- client-fingerprint: unsafe
+- client-fingerprint: firefox
   encryption: none
-  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #1'
+  name: 🇯🇵[www.v2nodes.com] vless-JP-1...
   network: ws
   port: 443
-  server: 45.153.245.181
+  server: 104.21.70.228
   servername: jp3.yohototo.top
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
@@ -13,31 +14,6 @@ proxies:
     headers:
       Host: jp3.yohototo.top
     path: /tyxyws
-- client-fingerprint: chrome
-  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #3'
-  network: ws
-  port: 443
-  server: 46.250.248.210
-  servername: fs.qicai99.com
-  tls: true
-  type: vless
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  ws-opts:
-    headers:
-      Host: fs.qicai99.com
-    path: /
-- name: '🇯🇵[www.v2nodes.com] vless-JP-1... #4'
-  network: ws
-  port: 443
-  server: 46.250.248.210
-  servername: fs.qicai99.com
-  tls: true
-  type: vless
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  ws-opts:
-    headers:
-      Host: fs.qicai99.com
-    path: /fp=chrome
 - cipher: aes-256-gcm
   name: 🇯🇵[www.v2nodes.com] ss-JP-1599...
   password: BeaUf9c0AEWH40Pu
@@ -49,6 +25,12 @@ proxies:
   password: 3eOFeNssde7PYYMv
   port: 80
   server: 84.247.155.196
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇯🇵[www.v2nodes.com] ss-JP-5141...
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
   type: ss
 - cipher: aes-128-gcm
   name: 🇯🇵[www.v2nodes.com] ss-JP-1291...
@@ -70,7 +52,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: '🇳🇬 尼日利亚 | NGA #1'
+- name: '🇳🇬 尼日利亚 | NGA #2'
   password: d7563108-615c-4338-a7bd-77f359869a4a
   port: 20051
   server: sclass-b1.catcat321.com

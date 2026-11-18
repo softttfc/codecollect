@@ -38,82 +38,100 @@ dns:
   - https://1.1.1.1/dns-query
   - https://1.0.0.1/dns-query
 proxies:
+- type: vless
+  name: 🇯🇵_JP_日本_IPV4 (3)
+  server: 104.238.160.118
+  port: 443
+  uuid: 396266a6-5617-4f57-9f01-a168756ee553
+  tls: true
+  servername: itunes.apple.com
+  sni: itunes.apple.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: noQmtZ2k0k7U_tlDJEXfL8Xxvv5t13LS6fm8NrvdCUY
+    short-id: 7b11dca1
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
 - client-fingerprint: chrome
   encryption: none
-  name: '🇮🇳[www.v2nodes.com] vless-IN-1... #1'
+  name: '🇬🇧[www.v2nodes.com] vless-GB-1... #3'
+  network: ws
+  port: 50818
+  server: 34.39.80.57
+  servername: yingguo.rymaker.cn
+  tls: true
+  type: vless
+  uuid: 408c814e-f70a-4d16-b3b3-8182bb70211d
+  ws-opts:
+    path: /GunService
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: 🇺🇸US_3|1.1MB/s
+  network: http
+  port: 52402
+  server: 104.225.148.201
+  tls: false
+  type: vmess
+  uuid: 0542f509-4368-4ee3-be54-0557fed80f6b
+  x-toolall-mihomo: true
+- name: 🇺🇸US_4|2.7MB/s
+  password: ozbqjztv
+  port: 8000
+  server: 192.220.47.85
+  type: http
+  username: ozbqjztv
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇺🇸US_5|3.1MB/s
+  network: http
+  port: 44441
+  server: 192.220.47.85
+  tls: false
+  type: vmess
+  uuid: de4e0335-2a3b-4006-d746-c939fa85fdc3
+  x-toolall-mihomo: true
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰 香港 | HKG #2'
   network: ws
   port: 443
-  server: decdn-28.nome-rkp.net
-  servername: decdn-28.nome-rkp.net
+  server: prozac-celebrities-inclusion-parallel.trycloudflare.com
+  servername: prozac-celebrities-inclusion-parallel.trycloudflare.com
+  skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: c1208c5a-2350-0003-affd-fc41b4319286
+  type: vmess
+  udp: true
+  uuid: 2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea
   ws-opts:
     headers:
-      Host: decdn-28.nome-rkp.net
-    path: /media/ws/
-- name: '🇸🇪[www.v2nodes.com] vless-SE-1... #2'
-  port: 443
-  server: 150.241.79.124
-  tls: false
-  type: vless
-  uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
+      Host: prozac-celebrities-inclusion-parallel.trycloudflare.com
+    path: /2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea-vm
 - cipher: chacha20-ietf-poly1305
-  name: 🇰🇷[www.v2nodes.com] ss-KR-1126...
-  password: '12242'
-  port: 10099
-  server: 115.161.136.145
-  type: ss
-- name: '🇸🇬[www.v2nodes.com] trojan-SG-... #1'
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 149.28.130.108
-  sni: searchcreativejobsandshowcaseyourartistictalents.com
-  type: trojan
-- name: 🇬🇧GB_2|2.5MB/s|R002-260618
-  port: 443
-  server: 37.120.233.50
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 🇬🇧GB_4|2.3MB/s|R002-260618
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇰🇷 韩国 | KOR #3'
+  name: '🇸🇬 新加坡 | SGP #7'
   password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 8443
-  server: 13.125.215.163
+  server: 54.151.179.216
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇸🇬 新加坡 | SGP #1'
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  port: 8443
-  server: 13.229.75.115
-  type: ss
-  udp: true
-- name: '🇺🇸 美国 | USA #2'
-  network: ws
+- cipher: aes-256-cfb
+  name: '🇺🇸 美国 | USA #5'
+  password: amazonskr05
   port: 443
-  server: sajed.kdns.fr
-  tls: false
-  type: vless
+  server: 3.22.241.58
+  type: ss
   udp: true
-  uuid: 8e40cd7b-ce15-4887-8fe2-0af534a941a2
-  ws-opts:
-    headers:
-      Host: sajed.kdns.fr
-    path: /
 - client-fingerprint: firefox
   name: AT_speednode_0002
   network: ws
@@ -164,41 +182,48 @@ proxies:
   type: vless
   udp: true
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+- name: 🇩🇪 德国 | DEU 6
+  server: 63.189.231.176
+  port: 443
+  type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  udp: true
 proxy-groups:
 - name: ermao.net | 🚀 节点选择
   type: select
   proxies:
   - ermao.net | ♻️ 自动选择
   - DIRECT
-  - '🇮🇳[www.v2nodes.com] vless-IN-1... #1'
-  - '🇸🇪[www.v2nodes.com] vless-SE-1... #2'
-  - 🇰🇷[www.v2nodes.com] ss-KR-1126...
-  - '🇸🇬[www.v2nodes.com] trojan-SG-... #1'
-  - 🇬🇧GB_2|2.5MB/s|R002-260618
-  - 🇬🇧GB_4|2.3MB/s|R002-260618
-  - '🇰🇷 韩国 | KOR #3'
-  - '🇸🇬 新加坡 | SGP #1'
-  - '🇺🇸 美国 | USA #2'
+  - 🇯🇵_JP_日本_IPV4 (3)
+  - '🇬🇧[www.v2nodes.com] vless-GB-1... #3'
+  - 🇺🇸US_3|1.1MB/s
+  - 🇺🇸US_4|2.7MB/s
+  - 🇺🇸US_5|3.1MB/s
+  - '🇭🇰 香港 | HKG #2'
+  - '🇸🇬 新加坡 | SGP #7'
+  - '🇺🇸 美国 | USA #5'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
+  - 🇩🇪 德国 | DEU 6
 - name: ermao.net | ♻️ 自动选择
   type: url-test
   proxies:
-  - '🇮🇳[www.v2nodes.com] vless-IN-1... #1'
-  - '🇸🇪[www.v2nodes.com] vless-SE-1... #2'
-  - 🇰🇷[www.v2nodes.com] ss-KR-1126...
-  - '🇸🇬[www.v2nodes.com] trojan-SG-... #1'
-  - 🇬🇧GB_2|2.5MB/s|R002-260618
-  - 🇬🇧GB_4|2.3MB/s|R002-260618
-  - '🇰🇷 韩国 | KOR #3'
-  - '🇸🇬 新加坡 | SGP #1'
-  - '🇺🇸 美国 | USA #2'
+  - 🇯🇵_JP_日本_IPV4 (3)
+  - '🇬🇧[www.v2nodes.com] vless-GB-1... #3'
+  - 🇺🇸US_3|1.1MB/s
+  - 🇺🇸US_4|2.7MB/s
+  - 🇺🇸US_5|3.1MB/s
+  - '🇭🇰 香港 | HKG #2'
+  - '🇸🇬 新加坡 | SGP #7'
+  - '🇺🇸 美国 | USA #5'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
+  - 🇩🇪 德国 | DEU 6
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -208,73 +233,73 @@ proxy-groups:
   - ermao.net | 🚀 节点选择
   - ermao.net | ♻️ 自动选择
   - 🎯 全球直连
-  - '🇮🇳[www.v2nodes.com] vless-IN-1... #1'
-  - '🇸🇪[www.v2nodes.com] vless-SE-1... #2'
-  - 🇰🇷[www.v2nodes.com] ss-KR-1126...
-  - '🇸🇬[www.v2nodes.com] trojan-SG-... #1'
-  - 🇬🇧GB_2|2.5MB/s|R002-260618
-  - 🇬🇧GB_4|2.3MB/s|R002-260618
-  - '🇰🇷 韩国 | KOR #3'
-  - '🇸🇬 新加坡 | SGP #1'
-  - '🇺🇸 美国 | USA #2'
+  - 🇯🇵_JP_日本_IPV4 (3)
+  - '🇬🇧[www.v2nodes.com] vless-GB-1... #3'
+  - 🇺🇸US_3|1.1MB/s
+  - 🇺🇸US_4|2.7MB/s
+  - 🇺🇸US_5|3.1MB/s
+  - '🇭🇰 香港 | HKG #2'
+  - '🇸🇬 新加坡 | SGP #7'
+  - '🇺🇸 美国 | USA #5'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
+  - 🇩🇪 德国 | DEU 6
 - name: 📲 电报信息
   type: select
   proxies:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
-  - '🇮🇳[www.v2nodes.com] vless-IN-1... #1'
-  - '🇸🇪[www.v2nodes.com] vless-SE-1... #2'
-  - 🇰🇷[www.v2nodes.com] ss-KR-1126...
-  - '🇸🇬[www.v2nodes.com] trojan-SG-... #1'
-  - 🇬🇧GB_2|2.5MB/s|R002-260618
-  - 🇬🇧GB_4|2.3MB/s|R002-260618
-  - '🇰🇷 韩国 | KOR #3'
-  - '🇸🇬 新加坡 | SGP #1'
-  - '🇺🇸 美国 | USA #2'
+  - 🇯🇵_JP_日本_IPV4 (3)
+  - '🇬🇧[www.v2nodes.com] vless-GB-1... #3'
+  - 🇺🇸US_3|1.1MB/s
+  - 🇺🇸US_4|2.7MB/s
+  - 🇺🇸US_5|3.1MB/s
+  - '🇭🇰 香港 | HKG #2'
+  - '🇸🇬 新加坡 | SGP #7'
+  - '🇺🇸 美国 | USA #5'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
+  - 🇩🇪 德国 | DEU 6
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
   - 🎯 全球直连
   - ermao.net | 🚀 节点选择
-  - '🇮🇳[www.v2nodes.com] vless-IN-1... #1'
-  - '🇸🇪[www.v2nodes.com] vless-SE-1... #2'
-  - 🇰🇷[www.v2nodes.com] ss-KR-1126...
-  - '🇸🇬[www.v2nodes.com] trojan-SG-... #1'
-  - 🇬🇧GB_2|2.5MB/s|R002-260618
-  - 🇬🇧GB_4|2.3MB/s|R002-260618
-  - '🇰🇷 韩国 | KOR #3'
-  - '🇸🇬 新加坡 | SGP #1'
-  - '🇺🇸 美国 | USA #2'
+  - 🇯🇵_JP_日本_IPV4 (3)
+  - '🇬🇧[www.v2nodes.com] vless-GB-1... #3'
+  - 🇺🇸US_3|1.1MB/s
+  - 🇺🇸US_4|2.7MB/s
+  - 🇺🇸US_5|3.1MB/s
+  - '🇭🇰 香港 | HKG #2'
+  - '🇸🇬 新加坡 | SGP #7'
+  - '🇺🇸 美国 | USA #5'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
+  - 🇩🇪 德国 | DEU 6
 - name: 🍎 苹果服务
   type: select
   proxies:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
-  - '🇮🇳[www.v2nodes.com] vless-IN-1... #1'
-  - '🇸🇪[www.v2nodes.com] vless-SE-1... #2'
-  - 🇰🇷[www.v2nodes.com] ss-KR-1126...
-  - '🇸🇬[www.v2nodes.com] trojan-SG-... #1'
-  - 🇬🇧GB_2|2.5MB/s|R002-260618
-  - 🇬🇧GB_4|2.3MB/s|R002-260618
-  - '🇰🇷 韩国 | KOR #3'
-  - '🇸🇬 新加坡 | SGP #1'
-  - '🇺🇸 美国 | USA #2'
+  - 🇯🇵_JP_日本_IPV4 (3)
+  - '🇬🇧[www.v2nodes.com] vless-GB-1... #3'
+  - 🇺🇸US_3|1.1MB/s
+  - 🇺🇸US_4|2.7MB/s
+  - 🇺🇸US_5|3.1MB/s
+  - '🇭🇰 香港 | HKG #2'
+  - '🇸🇬 新加坡 | SGP #7'
+  - '🇺🇸 美国 | USA #5'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
+  - 🇩🇪 德国 | DEU 6
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -297,19 +322,19 @@ proxy-groups:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
   - ermao.net | ♻️ 自动选择
-  - '🇮🇳[www.v2nodes.com] vless-IN-1... #1'
-  - '🇸🇪[www.v2nodes.com] vless-SE-1... #2'
-  - 🇰🇷[www.v2nodes.com] ss-KR-1126...
-  - '🇸🇬[www.v2nodes.com] trojan-SG-... #1'
-  - 🇬🇧GB_2|2.5MB/s|R002-260618
-  - 🇬🇧GB_4|2.3MB/s|R002-260618
-  - '🇰🇷 韩国 | KOR #3'
-  - '🇸🇬 新加坡 | SGP #1'
-  - '🇺🇸 美国 | USA #2'
+  - 🇯🇵_JP_日本_IPV4 (3)
+  - '🇬🇧[www.v2nodes.com] vless-GB-1... #3'
+  - 🇺🇸US_3|1.1MB/s
+  - 🇺🇸US_4|2.7MB/s
+  - 🇺🇸US_5|3.1MB/s
+  - '🇭🇰 香港 | HKG #2'
+  - '🇸🇬 新加坡 | SGP #7'
+  - '🇺🇸 美国 | USA #5'
   - AT_speednode_0002
   - ES_speednode_0007
   - US_speednode_0042
   - US_speednode_0043
+  - 🇩🇪 德国 | DEU 6
 rule-providers:
   LocalAreaNetwork:
     type: http

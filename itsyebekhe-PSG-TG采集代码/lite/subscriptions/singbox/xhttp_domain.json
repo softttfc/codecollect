@@ -54,6 +54,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #2 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -65,7 +66,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | VLESS | @kafing_2 #1 [fast]"
+        "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #2 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -119,6 +121,28 @@
       "uuid": "8e378a41-d5e1-427a-aaf8-30190d4be0a0",
       "network": "xhttp",
       "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #2 [fast]",
+      "server": "afshin.daltoonserver.ir",
+      "server_port": 8989,
+      "uuid": "a2c0d2ca-9420-4a26-a6d6-bb8ebee19d58",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "s6-sms-cdn.ecom-stg.samsung.con",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "5DVeaUVfUfD6bRT6pMDiRa70i6m1NrNp8tFNS9xf4yo",
+          "short_id": "b7b6"
+        }
+      }
     },
     {
       "type": "direct",
