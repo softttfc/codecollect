@@ -50,6 +50,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
+        "🇸🇪 SE | VLESS | @orange_vpns #1 [fast]",
         "🇸🇪 SE | VMESS | @Proxymelimon #1 [fast]",
         "🇸🇪 SE | VLESS | @minovpnch #1 [fast]",
         "🇸🇪 SE | VLESS | @deli_servers #1 [fast]",
@@ -76,6 +77,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
+        "🇸🇪 SE | VLESS | @orange_vpns #1 [fast]",
         "🇸🇪 SE | VMESS | @Proxymelimon #1 [fast]",
         "🇸🇪 SE | VLESS | @minovpnch #1 [fast]",
         "🇸🇪 SE | VLESS | @deli_servers #1 [fast]",
@@ -99,6 +101,28 @@
       "interval": "3m",
       "tolerance": 50,
       "idle_timeout": "30m"
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 SE | VLESS | @orange_vpns #1 [fast]",
+      "server": "88.216.214.159",
+      "server_port": 443,
+      "uuid": "a30903dc-1bf0-4be5-8b1b-603a3a56211c",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "api-svc-mgr.galioncc.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ",
+          "short_id": "a7c92e4b10d6f835"
+        }
+      }
     },
     {
       "type": "vmess",

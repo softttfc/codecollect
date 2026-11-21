@@ -51,16 +51,16 @@
       "outbounds": [
         "auto",
         "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
-        "🇩🇪 DE | SS | @orange_vpns #1 [fast]",
-        "🇩🇪 DE | VLESS | @ehsawn8 #1 [fast]",
+        "🇩🇪 DE | VLESS | @ehsawn8 #1 [medium]",
         "🇩🇪 DE | SS | @outlinereleasedkey #1 [fast]",
         "🇩🇪 DE | VLESS | @father_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @father_vpn #2 [fast]",
         "🇩🇪 DE | VLESS | @netmellianti #1 [fast]",
         "🇩🇪 DE | VLESS | @mpproxy #1 [fast]",
         "🇩🇪 DE | VLESS | @tanhanet #1 [fast]",
-        "🇩🇪 DE | VLESS | @Proxymelimon #1 [fast]",
-        "🇩🇪 DE | VLESS | @red2ray #1 [slow]",
+        "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
+        "🇩🇪 DE | VLESS | @red2ray #2 [fast]",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #1 [fast]",
         "🇩🇪 DE | SS | @netfreedom0 #1 [fast]",
         "🇩🇪 DE | SS | @netfreedom0 #2 [fast]",
         "🇩🇪 DE | VLESS | @minovpnch #1 [fast]",
@@ -77,16 +77,16 @@
       "tag": "auto",
       "outbounds": [
         "🇩🇪 DE | VLESS | @outline_ir #1 [fast]",
-        "🇩🇪 DE | SS | @orange_vpns #1 [fast]",
-        "🇩🇪 DE | VLESS | @ehsawn8 #1 [fast]",
+        "🇩🇪 DE | VLESS | @ehsawn8 #1 [medium]",
         "🇩🇪 DE | SS | @outlinereleasedkey #1 [fast]",
         "🇩🇪 DE | VLESS | @father_vpn #1 [fast]",
         "🇩🇪 DE | VLESS | @father_vpn #2 [fast]",
         "🇩🇪 DE | VLESS | @netmellianti #1 [fast]",
         "🇩🇪 DE | VLESS | @mpproxy #1 [fast]",
         "🇩🇪 DE | VLESS | @tanhanet #1 [fast]",
-        "🇩🇪 DE | VLESS | @Proxymelimon #1 [fast]",
-        "🇩🇪 DE | VLESS | @red2ray #1 [slow]",
+        "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
+        "🇩🇪 DE | VLESS | @red2ray #2 [fast]",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #1 [fast]",
         "🇩🇪 DE | SS | @netfreedom0 #1 [fast]",
         "🇩🇪 DE | SS | @netfreedom0 #2 [fast]",
         "🇩🇪 DE | VLESS | @minovpnch #1 [fast]",
@@ -124,20 +124,8 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇩🇪 DE | SS | @orange_vpns #1 [fast]",
-      "server": "leviko-de4943.shopingggg.ir",
-      "server_port": 1883,
-      "method": "2022-blake3-aes-256-gcm",
-      "password": "dfINKWLXoOgH3Ox72CAmkCvWmDlP+idaTuu/DdDG4FU=:V9v8Fd5AvDk3+nyah0WxCeqzv8Q5+cMXUj7WjVCgQz0=",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @ehsawn8 #1 [fast]",
+      "tag": "🇩🇪 DE | VLESS | @ehsawn8 #1 [medium]",
       "server": "13.140.92.21",
       "server_port": 80,
       "uuid": "35eb914a-f7c2-4ffa-8503-1bf30df0f1a5",
@@ -161,7 +149,7 @@
     {
       "type": "shadowsocks",
       "tag": "🇩🇪 DE | SS | @outlinereleasedkey #1 [fast]",
-      "server": "193.108.117.111",
+      "server": "23.157.88.43",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=",
@@ -268,23 +256,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @Proxymelimon #1 [fast]",
-      "server": "cdn.cloudof1.ir",
-      "server_port": 443,
-      "uuid": "00f7637c-acab-465b-933a-727becde5c1b",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/vcffrt",
-        "headers": {
-          "Host": "cdn.cloudof1.ir"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @red2ray #1 [slow]",
+      "tag": "🇩🇪 DE | VLESS | @red2ray #1 [fast]",
       "server": "153.52.85.198",
       "server_port": 443,
       "uuid": "26843758-24de-4f76-b5d0-624038e353c4",
@@ -297,6 +269,37 @@
           "enabled": true,
           "public_key": "xv6OUZcyzEHXFMTfumuJH-1Rd4NQ0cdmWikek4mm0m4",
           "short_id": "c71118d9399fb8c2"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 DE | VLESS | @red2ray #2 [fast]",
+      "server": "94.249.198.124",
+      "server_port": 31652,
+      "uuid": "2da03bdf-8af3-4207-96c7-d70e0dd22c36",
+      "network": "tcp",
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #1 [fast]",
+      "server": "80cb66x.nl13.h1clayd.click",
+      "server_port": 443,
+      "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+      "network": "xhttp",
+      "packet_encoding": "none",
+      "tls": {
+        "enabled": true,
+        "server_name": "80cb66x.nl13.h1clayd.click",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "jhVdP7NFUaEXGfrmOqJlMCHTvqn3fymbzPfPT6NO4i0",
+          "short_id": "f72d4a2c7cbbacb1"
         }
       }
     },

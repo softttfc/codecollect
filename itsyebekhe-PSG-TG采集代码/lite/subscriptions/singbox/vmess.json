@@ -55,7 +55,6 @@
         "KingRezaPahlavi",
         "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
         "🇺🇸 US | VMESS | @freev2rays #2 [fast]",
-        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1 [fast]",
         "🇽🇽 XX | VMESS | @iranvpnet #1 [fast]",
         "🇺🇸 US | VMESS | @mi_pn_official #1 [fast]",
         "🇺🇸 US | VMESS | @mi_pn_official #2 [fast]",
@@ -64,6 +63,8 @@
         "🇺🇸 US | VMESS | @manstervpn #1 [fast]",
         "🇧🇾 BY | VMESS | @ir_netproxy #1 [fast]",
         "🇽🇽 XX | VMESS | @ir_netproxy #1 [fast]",
+        "🇺🇸 US | VMESS | @Proxymelimon #1 [fast]",
+        "🇸🇪 SE | VMESS | @Proxymelimon #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #2 [fast]",
         "direct"
@@ -79,7 +80,6 @@
         "KingRezaPahlavi",
         "🇺🇸 US | VMESS | @freev2rays #1 [fast]",
         "🇺🇸 US | VMESS | @freev2rays #2 [fast]",
-        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1 [fast]",
         "🇽🇽 XX | VMESS | @iranvpnet #1 [fast]",
         "🇺🇸 US | VMESS | @mi_pn_official #1 [fast]",
         "🇺🇸 US | VMESS | @mi_pn_official #2 [fast]",
@@ -88,6 +88,8 @@
         "🇺🇸 US | VMESS | @manstervpn #1 [fast]",
         "🇧🇾 BY | VMESS | @ir_netproxy #1 [fast]",
         "🇽🇽 XX | VMESS | @ir_netproxy #1 [fast]",
+        "🇺🇸 US | VMESS | @Proxymelimon #1 [fast]",
+        "🇸🇪 SE | VMESS | @Proxymelimon #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #1 [fast]",
         "🇩🇪 DE | VMESS | @khoneproxy #2 [fast]"
       ],
@@ -177,30 +179,6 @@
         "path": "/d9863037",
         "headers": {
           "Host": "xcf037.facai2024.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1 [fast]",
-      "server": "US122207.ssgreen.org",
-      "server_port": 443,
-      "uuid": "74d216a3-fdb8-4774-a9c3-35f9e5a46819",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "network": "ws",
-      "packet_encoding": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "US122207.ssgreen.org"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/wes",
-        "headers": {
-          "Host": "US122207.ssgreen.org"
         }
       }
     },
@@ -379,6 +357,40 @@
         "headers": {
           "Host": "ophelia.mom"
         }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 US | VMESS | @Proxymelimon #1 [fast]",
+      "server": "38.91.107.57",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "network": "tcp",
+      "packet_encoding": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇸🇪 SE | VMESS | @Proxymelimon #1 [fast]",
+      "server": "62.93.166.184",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "network": "tcp",
+      "packet_encoding": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com"
       }
     },
     {

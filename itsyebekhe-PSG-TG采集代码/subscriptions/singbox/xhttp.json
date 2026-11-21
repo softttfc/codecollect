@@ -55,18 +55,21 @@
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @outline_ir #4 [fast]",
         "🇨🇿 CZ | VLESS | @orange_vpns #1 [fast]",
-        "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
-        "🇫🇮 FI | VLESS | @NamiraConfigs #1 [fast]",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #1 [fast]",
+        "🇺🇸 US | VLESS | @NamiraConfigs #1 [fast]",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2 [fast]",
-        "🇺🇸 US | VLESS | @mehrosaboran #3 [fast]",
-        "🇺🇸 US | VLESS | @mehrosaboran #4 [fast]",
-        "🇺🇸 US | VLESS | @mehrosaboran #5 [fast]",
-        "🇺🇸 US | VLESS | @mehrosaboran #6 [fast]",
+        "🇧🇬 BG | VLESS | @orange_vpns #1 [fast]",
+        "🇺🇸 US | VLESS | @bored_vpn #1 [fast]",
+        "🇺🇸 US | VLESS | @bored_vpn #2 [fast]",
+        "🇺🇸 US | VLESS | @bored_vpn #3 [fast]",
+        "🇺🇸 US | VLESS | @bored_vpn #4 [fast]",
+        "🇺🇸 US | VLESS | @bored_vpn #5 [fast]",
+        "🇺🇸 US | VLESS | @bored_vpn #6 [fast]",
         "🇺🇸 US | VLESS | @netmellianti #1 [fast]",
         "🇸🇨 SC | VLESS | @tanhanet #1 [fast]",
         "🇨🇦 CA | VLESS | @ai_duet #1 [fast]",
         "🇺🇸 US | VLESS | @free4allvpn #1 [fast]",
-        "🇺🇸 US | VLESS | @red2ray #1 [fast]",
+        "🇺🇸 US | VLESS | @red2ray #1 [medium]",
         "🇽🇽 XX | VLESS | @proxie #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #2 [fast]",
         "🇽🇽 XX | VLESS | @proxie #3 [fast]",
@@ -88,18 +91,21 @@
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @outline_ir #4 [fast]",
         "🇨🇿 CZ | VLESS | @orange_vpns #1 [fast]",
-        "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
-        "🇫🇮 FI | VLESS | @NamiraConfigs #1 [fast]",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #1 [fast]",
+        "🇺🇸 US | VLESS | @NamiraConfigs #1 [fast]",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2 [fast]",
-        "🇺🇸 US | VLESS | @mehrosaboran #3 [fast]",
-        "🇺🇸 US | VLESS | @mehrosaboran #4 [fast]",
-        "🇺🇸 US | VLESS | @mehrosaboran #5 [fast]",
-        "🇺🇸 US | VLESS | @mehrosaboran #6 [fast]",
+        "🇧🇬 BG | VLESS | @orange_vpns #1 [fast]",
+        "🇺🇸 US | VLESS | @bored_vpn #1 [fast]",
+        "🇺🇸 US | VLESS | @bored_vpn #2 [fast]",
+        "🇺🇸 US | VLESS | @bored_vpn #3 [fast]",
+        "🇺🇸 US | VLESS | @bored_vpn #4 [fast]",
+        "🇺🇸 US | VLESS | @bored_vpn #5 [fast]",
+        "🇺🇸 US | VLESS | @bored_vpn #6 [fast]",
         "🇺🇸 US | VLESS | @netmellianti #1 [fast]",
         "🇸🇨 SC | VLESS | @tanhanet #1 [fast]",
         "🇨🇦 CA | VLESS | @ai_duet #1 [fast]",
         "🇺🇸 US | VLESS | @free4allvpn #1 [fast]",
-        "🇺🇸 US | VLESS | @red2ray #1 [fast]",
+        "🇺🇸 US | VLESS | @red2ray #1 [medium]",
         "🇽🇽 XX | VLESS | @proxie #1 [fast]",
         "🇽🇽 XX | VLESS | @proxie #2 [fast]",
         "🇽🇽 XX | VLESS | @proxie #3 [fast]",
@@ -197,32 +203,40 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
-      "server": "spd-mynames.global.ssl.fastly.net",
-      "server_port": 80,
-      "uuid": "8e378a41-d5e1-427a-aaf8-30190d4be0a0",
+      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #1 [fast]",
+      "server": "80cb66x.nl13.h1clayd.click",
+      "server_port": 443,
+      "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
       "network": "xhttp",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 FI | VLESS | @NamiraConfigs #1 [fast]",
-      "server": "panel.jorvexo.ir",
-      "server_port": 1152,
-      "uuid": "62ff669a-ecb6-4bfd-bbbd-bed79b90a443",
-      "network": "xhttp",
-      "packet_encoding": "xudp",
+      "packet_encoding": "none",
       "tls": {
         "enabled": true,
-        "server_name": "in.tradingview.com",
+        "server_name": "80cb66x.nl13.h1clayd.click",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
-          "short_id": "ead6bdba606219a2"
+          "public_key": "jhVdP7NFUaEXGfrmOqJlMCHTvqn3fymbzPfPT6NO4i0",
+          "short_id": "f72d4a2c7cbbacb1"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @NamiraConfigs #1 [fast]",
+      "server": "render.com",
+      "server_port": 2087,
+      "uuid": "517570e9-a016-47d4-813e-5079065254b5",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "org-germn2-uwjushal-bssutudhdahuhssgsgahesye-beqhjdushswter.maniyadg7shard.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -249,7 +263,29 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @mehrosaboran #3 [fast]",
+      "tag": "🇧🇬 BG | VLESS | @orange_vpns #1 [fast]",
+      "server": "87.120.92.186",
+      "server_port": 2087,
+      "uuid": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "maps.blog-forme.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mbi4BZAuiq_L6pfhG2xxWmtosq0Z1Pzf18fvNSWKMxY",
+          "short_id": "3258252d44113e23"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @bored_vpn #1 [fast]",
       "server": "167.82.64.7",
       "server_port": 443,
       "uuid": "XpnTeam-120",
@@ -262,7 +298,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @mehrosaboran #4 [fast]",
+      "tag": "🇺🇸 US | VLESS | @bored_vpn #2 [fast]",
       "server": "167.82.64.7",
       "server_port": 443,
       "uuid": "XpnTeam-122",
@@ -275,7 +311,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @mehrosaboran #5 [fast]",
+      "tag": "🇺🇸 US | VLESS | @bored_vpn #3 [fast]",
       "server": "167.82.64.7",
       "server_port": 443,
       "uuid": "XpnTeam-124",
@@ -288,10 +324,36 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @mehrosaboran #6 [fast]",
+      "tag": "🇺🇸 US | VLESS | @bored_vpn #4 [fast]",
       "server": "167.82.64.7",
       "server_port": 443,
       "uuid": "XpnTeam-126",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.akamai.steamstatic.com"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @bored_vpn #5 [fast]",
+      "server": "167.82.64.7",
+      "server_port": 443,
+      "uuid": "XpnTeam-129",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.akamai.steamstatic.com"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @bored_vpn #6 [fast]",
+      "server": "167.82.64.7",
+      "server_port": 443,
+      "uuid": "XpnTeam-130",
       "network": "xhttp",
       "packet_encoding": "xudp",
       "tls": {
@@ -349,7 +411,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @red2ray #1 [fast]",
+      "tag": "🇺🇸 US | VLESS | @red2ray #1 [medium]",
       "server": "48.102.217.33",
       "server_port": 443,
       "uuid": "12c39efa-b6d8-4467-bfd5-22dca077225e",

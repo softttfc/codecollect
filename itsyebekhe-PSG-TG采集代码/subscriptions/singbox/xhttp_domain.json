@@ -55,8 +55,8 @@
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @outline_ir #4 [fast]",
         "🇨🇿 CZ | VLESS | @orange_vpns #1 [fast]",
-        "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
-        "🇫🇮 FI | VLESS | @NamiraConfigs #1 [fast]",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #1 [fast]",
+        "🇺🇸 US | VLESS | @NamiraConfigs #1 [fast]",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2 [fast]",
         "direct"
       ],
@@ -71,8 +71,8 @@
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @outline_ir #4 [fast]",
         "🇨🇿 CZ | VLESS | @orange_vpns #1 [fast]",
-        "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
-        "🇫🇮 FI | VLESS | @NamiraConfigs #1 [fast]",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #1 [fast]",
+        "🇺🇸 US | VLESS | @NamiraConfigs #1 [fast]",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
@@ -163,32 +163,40 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @kafing_2 #1 [fast]",
-      "server": "spd-mynames.global.ssl.fastly.net",
-      "server_port": 80,
-      "uuid": "8e378a41-d5e1-427a-aaf8-30190d4be0a0",
+      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #1 [fast]",
+      "server": "80cb66x.nl13.h1clayd.click",
+      "server_port": 443,
+      "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
       "network": "xhttp",
-      "packet_encoding": "xudp"
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 FI | VLESS | @NamiraConfigs #1 [fast]",
-      "server": "panel.jorvexo.ir",
-      "server_port": 1152,
-      "uuid": "62ff669a-ecb6-4bfd-bbbd-bed79b90a443",
-      "network": "xhttp",
-      "packet_encoding": "xudp",
+      "packet_encoding": "none",
       "tls": {
         "enabled": true,
-        "server_name": "in.tradingview.com",
+        "server_name": "80cb66x.nl13.h1clayd.click",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
-          "short_id": "ead6bdba606219a2"
+          "public_key": "jhVdP7NFUaEXGfrmOqJlMCHTvqn3fymbzPfPT6NO4i0",
+          "short_id": "f72d4a2c7cbbacb1"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @NamiraConfigs #1 [fast]",
+      "server": "render.com",
+      "server_port": 2087,
+      "uuid": "517570e9-a016-47d4-813e-5079065254b5",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "org-germn2-uwjushal-bssutudhdahuhssgsgahesye-beqhjdushswter.maniyadg7shard.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
