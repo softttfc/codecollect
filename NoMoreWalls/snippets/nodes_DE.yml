@@ -6,20 +6,10 @@ proxies:
   skip-cert-verify: true
   sni: alireza.karamoz1.ir
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '🇩🇪 德国 | DEU #5'
-  network: ws
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪DE_3|3.9MB/s
+  password: PhILhWBzyd28Q2ngasMt5E6l1Os4uCjv
   port: 443
-  server: 128.140.49.30
-  servername: germanyhetz.onlinernet.ir
-  skip-cert-verify: true
-  tls: true
-  type: vmess
+  server: P1.shoppingturbo.com
+  type: ss
   udp: true
-  uuid: 11edc5c6-bd3f-48f5-ae44-7b61758f323b
-  ws-opts:
-    headers:
-      Host: germanyhetz.onlinernet.ir
-    path: /
-  xudp: true

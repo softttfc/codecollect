@@ -1,12 +1,9 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼 🇨🇳 台湾 | TWN
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 16a89ef:154955
-    mode: tls
-  port: 2377
-  server: 60.248.221.27
-  type: ss
+- name: '🇹🇼 🇨🇳 台湾 | TWN #1'
+  password: 5KdDtpoJI58OTsoG0PwEYunqB0mkAEDm
+  port: 30502
+  server: 161.114.15.215
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
   udp: true

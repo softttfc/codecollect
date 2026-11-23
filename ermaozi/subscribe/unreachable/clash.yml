@@ -38,149 +38,80 @@ dns:
   - https://1.1.1.1/dns-query
   - https://1.0.0.1/dns-query
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇰🇷[www.v2nodes.com] ss-KR-1126...
-  password: '12242'
-  port: 10099
-  server: 115.161.136.145
+- cipher: 2022-blake3-chacha20-poly1305
+  name: 🇳🇱[www.v2nodes.com] ss-NL-1623...
+  password: Lqb/eLDa4LnfF6j965FkZEXTWkH65B083ivjy0xFpiI=
+  port: 45819
+  server: 158.178.157.15
   type: ss
-- name: 🇧🇷[www.v2nodes.com] trojan-BR-...
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.238.104.154
-  type: trojan
-- name: 🇭🇰HK_1|1.3MB/s
-  port: 3128
-  server: 45.205.18.25
+- cipher: 2022-blake3-chacha20-poly1305
+  name: '🏳[www.v2nodes.com] ss- #17'
+  password: EP/0kIjk18c43tfkqeJqdVQm8lGArteYkhhwgBJ3q70=
+  port: 50356
+  server: 161.153.38.61
+  type: ss
+- name: 🇯🇵 日本 | JPN 2
+  password: czxPueuXQB1wUfMU
+  port: 36835
+  server: 45.192.203.110
   skip-cert-verify: true
-  type: http
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇯🇵JP_1|2.4MB/s
-  network: tcp
-  port: 443
-  server: 23.27.11.86
-  servername: jp.burmy.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: e8a346c2-e14c-4f82-876f-367dc19ee541
-  xudp: true
-- name: 🇯🇵 日本 | JPN 3
-  password: e2413369-16de-4c90-97c5-b39b8d6b71cd
-  port: 443
-  server: im.frnhk.xyz
-  skip-cert-verify: true
-  sni: im.frnhk.xyz
+  sni: www.bing.com
   type: anytls
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇰🇷 韩国 | KOR #2'
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  port: 8443
-  server: 43.201.17.144
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '🇵🇱 波兰 | POL #1'
-  password: 9r6r3hcddrtqb2o1
-  port: 2090
-  server: 62.60.193.9
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '🇸🇬 新加坡 | SGP #2'
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  port: 8443
-  server: 54.255.214.149
-  type: ss
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: '🇺🇸 美国 | USA #10'
-  network: ws
-  port: 30004
-  server: 192.74.236.148
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.91334565.xyz
-    path: /path/1733477783705
-- client-fingerprint: firefox
-  name: AT_speednode_0002
-  network: ws
-  port: 8443
-  server: 152.53.31.46
-  servername: usa3.pad-sservice.lat
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
-  ws-opts:
-    headers:
-      Host: usa3.pad-service.com
-    path: /U1SA
 - client-fingerprint: chrome
-  name: ES_speednode_0007
-  network: ws
-  port: 8443
-  server: au5.pad-sservice.lat
-  servername: au5.pad-sservice.lat
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
-  ws-opts:
-    headers:
-      Host: au5.pad-sservice.lat
-    path: /AU5W
-- name: US_speednode_0039
-  port: 8443
-  server: 44.248.167.117
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  name: US_speednode_0042
-  port: 19167
-  server: mx001.zestapp778.com
-  servername: mx001.zestapp778.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-- client-fingerprint: firefox
-  name: US_speednode_0043
-  port: 54857
-  server: 130.94.18.208
-  servername: us001.zestapp778.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-- name: 🇺🇸 美国 | USA 8
-  server: 5.34.178.120
-  port: 443
-  type: vless
-  uuid: 23b848b7-93e5-4d96-b36d-ed704912e5b7
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: 4RaNuv9yehmcfpdzvRxCWWzEWERWzZSIHqcgg3l35Cw
-    short-id: e16bbf1a5bee2321
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
+  name: 🇯🇵JP_2|5.2MB/s
   network: tcp
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  port: 34745
+  server: win2loxfde0303.gggrelay.org
+  skip-cert-verify: true
+  sni: nu3rb.supertoolify.com
+  type: trojan
+  udp: true
+- name: 🇰🇷KR_1|4.1MB/s
+  port: 1090
+  server: 121.169.46.116
+  skip-cert-verify: true
+  type: socks5
+  username: T2clM0QlM0Q6
+- name: 🇸🇬SG_2|3.0MB/s
+  port: 9090
+  server: 128.199.254.13
+  skip-cert-verify: true
+  type: http
+- name: 🇫🇷FR_6|1.7MB/s
+  port: 3128
+  server: 54.36.150.233
+  skip-cert-verify: true
+  type: http
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.F5LiR4Hs6W_x17I2LmxdFA8MUGvpHSaVuZ4zxTCAkmI
+  name: '🇩🇪 德国 | DEU #15'
+  network: ws
+  port: 27181
+  server: du5g.altheora.ir
+  servername: login.zanjanphone.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c683113-0abe-4d0b-aad9-0f198186b45a
+  ws-opts:
+    headers:
+      Host: login.zanjanphone.ir
+    path: /user
+- cipher: chacha20-ietf-poly1305
+  name: '🇰🇷 韩国 | KOR #3'
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 8443
+  server: 3.35.138.10
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '🇸🇬 新加坡 | SGP #3'
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 8443
+  server: 54.179.142.35
+  type: ss
   udp: true
 proxy-groups:
 - name: ermao.net | 🚀 节点选择
@@ -188,39 +119,29 @@ proxy-groups:
   proxies:
   - ermao.net | ♻️ 自动选择
   - DIRECT
-  - 🇰🇷[www.v2nodes.com] ss-KR-1126...
-  - 🇧🇷[www.v2nodes.com] trojan-BR-...
-  - 🇭🇰HK_1|1.3MB/s
-  - 🇯🇵JP_1|2.4MB/s
-  - 🇯🇵 日本 | JPN 3
-  - '🇰🇷 韩国 | KOR #2'
-  - '🇵🇱 波兰 | POL #1'
-  - '🇸🇬 新加坡 | SGP #2'
-  - '🇺🇸 美国 | USA #10'
-  - AT_speednode_0002
-  - ES_speednode_0007
-  - US_speednode_0039
-  - US_speednode_0042
-  - US_speednode_0043
-  - 🇺🇸 美国 | USA 8
+  - 🇳🇱[www.v2nodes.com] ss-NL-1623...
+  - '🏳[www.v2nodes.com] ss- #17'
+  - 🇯🇵 日本 | JPN 2
+  - 🇯🇵JP_2|5.2MB/s
+  - 🇰🇷KR_1|4.1MB/s
+  - 🇸🇬SG_2|3.0MB/s
+  - 🇫🇷FR_6|1.7MB/s
+  - '🇩🇪 德国 | DEU #15'
+  - '🇰🇷 韩国 | KOR #3'
+  - '🇸🇬 新加坡 | SGP #3'
 - name: ermao.net | ♻️ 自动选择
   type: url-test
   proxies:
-  - 🇰🇷[www.v2nodes.com] ss-KR-1126...
-  - 🇧🇷[www.v2nodes.com] trojan-BR-...
-  - 🇭🇰HK_1|1.3MB/s
-  - 🇯🇵JP_1|2.4MB/s
-  - 🇯🇵 日本 | JPN 3
-  - '🇰🇷 韩国 | KOR #2'
-  - '🇵🇱 波兰 | POL #1'
-  - '🇸🇬 新加坡 | SGP #2'
-  - '🇺🇸 美国 | USA #10'
-  - AT_speednode_0002
-  - ES_speednode_0007
-  - US_speednode_0039
-  - US_speednode_0042
-  - US_speednode_0043
-  - 🇺🇸 美国 | USA 8
+  - 🇳🇱[www.v2nodes.com] ss-NL-1623...
+  - '🏳[www.v2nodes.com] ss- #17'
+  - 🇯🇵 日本 | JPN 2
+  - 🇯🇵JP_2|5.2MB/s
+  - 🇰🇷KR_1|4.1MB/s
+  - 🇸🇬SG_2|3.0MB/s
+  - 🇫🇷FR_6|1.7MB/s
+  - '🇩🇪 德国 | DEU #15'
+  - '🇰🇷 韩国 | KOR #3'
+  - '🇸🇬 新加坡 | SGP #3'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -230,81 +151,61 @@ proxy-groups:
   - ermao.net | 🚀 节点选择
   - ermao.net | ♻️ 自动选择
   - 🎯 全球直连
-  - 🇰🇷[www.v2nodes.com] ss-KR-1126...
-  - 🇧🇷[www.v2nodes.com] trojan-BR-...
-  - 🇭🇰HK_1|1.3MB/s
-  - 🇯🇵JP_1|2.4MB/s
-  - 🇯🇵 日本 | JPN 3
-  - '🇰🇷 韩国 | KOR #2'
-  - '🇵🇱 波兰 | POL #1'
-  - '🇸🇬 新加坡 | SGP #2'
-  - '🇺🇸 美国 | USA #10'
-  - AT_speednode_0002
-  - ES_speednode_0007
-  - US_speednode_0039
-  - US_speednode_0042
-  - US_speednode_0043
-  - 🇺🇸 美国 | USA 8
+  - 🇳🇱[www.v2nodes.com] ss-NL-1623...
+  - '🏳[www.v2nodes.com] ss- #17'
+  - 🇯🇵 日本 | JPN 2
+  - 🇯🇵JP_2|5.2MB/s
+  - 🇰🇷KR_1|4.1MB/s
+  - 🇸🇬SG_2|3.0MB/s
+  - 🇫🇷FR_6|1.7MB/s
+  - '🇩🇪 德国 | DEU #15'
+  - '🇰🇷 韩国 | KOR #3'
+  - '🇸🇬 新加坡 | SGP #3'
 - name: 📲 电报信息
   type: select
   proxies:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
-  - 🇰🇷[www.v2nodes.com] ss-KR-1126...
-  - 🇧🇷[www.v2nodes.com] trojan-BR-...
-  - 🇭🇰HK_1|1.3MB/s
-  - 🇯🇵JP_1|2.4MB/s
-  - 🇯🇵 日本 | JPN 3
-  - '🇰🇷 韩国 | KOR #2'
-  - '🇵🇱 波兰 | POL #1'
-  - '🇸🇬 新加坡 | SGP #2'
-  - '🇺🇸 美国 | USA #10'
-  - AT_speednode_0002
-  - ES_speednode_0007
-  - US_speednode_0039
-  - US_speednode_0042
-  - US_speednode_0043
-  - 🇺🇸 美国 | USA 8
+  - 🇳🇱[www.v2nodes.com] ss-NL-1623...
+  - '🏳[www.v2nodes.com] ss- #17'
+  - 🇯🇵 日本 | JPN 2
+  - 🇯🇵JP_2|5.2MB/s
+  - 🇰🇷KR_1|4.1MB/s
+  - 🇸🇬SG_2|3.0MB/s
+  - 🇫🇷FR_6|1.7MB/s
+  - '🇩🇪 德国 | DEU #15'
+  - '🇰🇷 韩国 | KOR #3'
+  - '🇸🇬 新加坡 | SGP #3'
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
   - 🎯 全球直连
   - ermao.net | 🚀 节点选择
-  - 🇰🇷[www.v2nodes.com] ss-KR-1126...
-  - 🇧🇷[www.v2nodes.com] trojan-BR-...
-  - 🇭🇰HK_1|1.3MB/s
-  - 🇯🇵JP_1|2.4MB/s
-  - 🇯🇵 日本 | JPN 3
-  - '🇰🇷 韩国 | KOR #2'
-  - '🇵🇱 波兰 | POL #1'
-  - '🇸🇬 新加坡 | SGP #2'
-  - '🇺🇸 美国 | USA #10'
-  - AT_speednode_0002
-  - ES_speednode_0007
-  - US_speednode_0039
-  - US_speednode_0042
-  - US_speednode_0043
-  - 🇺🇸 美国 | USA 8
+  - 🇳🇱[www.v2nodes.com] ss-NL-1623...
+  - '🏳[www.v2nodes.com] ss- #17'
+  - 🇯🇵 日本 | JPN 2
+  - 🇯🇵JP_2|5.2MB/s
+  - 🇰🇷KR_1|4.1MB/s
+  - 🇸🇬SG_2|3.0MB/s
+  - 🇫🇷FR_6|1.7MB/s
+  - '🇩🇪 德国 | DEU #15'
+  - '🇰🇷 韩国 | KOR #3'
+  - '🇸🇬 新加坡 | SGP #3'
 - name: 🍎 苹果服务
   type: select
   proxies:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
-  - 🇰🇷[www.v2nodes.com] ss-KR-1126...
-  - 🇧🇷[www.v2nodes.com] trojan-BR-...
-  - 🇭🇰HK_1|1.3MB/s
-  - 🇯🇵JP_1|2.4MB/s
-  - 🇯🇵 日本 | JPN 3
-  - '🇰🇷 韩国 | KOR #2'
-  - '🇵🇱 波兰 | POL #1'
-  - '🇸🇬 新加坡 | SGP #2'
-  - '🇺🇸 美国 | USA #10'
-  - AT_speednode_0002
-  - ES_speednode_0007
-  - US_speednode_0039
-  - US_speednode_0042
-  - US_speednode_0043
-  - 🇺🇸 美国 | USA 8
+  - 🇳🇱[www.v2nodes.com] ss-NL-1623...
+  - '🏳[www.v2nodes.com] ss- #17'
+  - 🇯🇵 日本 | JPN 2
+  - 🇯🇵JP_2|5.2MB/s
+  - 🇰🇷KR_1|4.1MB/s
+  - 🇸🇬SG_2|3.0MB/s
+  - 🇫🇷FR_6|1.7MB/s
+  - '🇩🇪 德国 | DEU #15'
+  - '🇰🇷 韩国 | KOR #3'
+  - '🇸🇬 新加坡 | SGP #3'
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -327,21 +228,16 @@ proxy-groups:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
   - ermao.net | ♻️ 自动选择
-  - 🇰🇷[www.v2nodes.com] ss-KR-1126...
-  - 🇧🇷[www.v2nodes.com] trojan-BR-...
-  - 🇭🇰HK_1|1.3MB/s
-  - 🇯🇵JP_1|2.4MB/s
-  - 🇯🇵 日本 | JPN 3
-  - '🇰🇷 韩国 | KOR #2'
-  - '🇵🇱 波兰 | POL #1'
-  - '🇸🇬 新加坡 | SGP #2'
-  - '🇺🇸 美国 | USA #10'
-  - AT_speednode_0002
-  - ES_speednode_0007
-  - US_speednode_0039
-  - US_speednode_0042
-  - US_speednode_0043
-  - 🇺🇸 美国 | USA 8
+  - 🇳🇱[www.v2nodes.com] ss-NL-1623...
+  - '🏳[www.v2nodes.com] ss- #17'
+  - 🇯🇵 日本 | JPN 2
+  - 🇯🇵JP_2|5.2MB/s
+  - 🇰🇷KR_1|4.1MB/s
+  - 🇸🇬SG_2|3.0MB/s
+  - 🇫🇷FR_6|1.7MB/s
+  - '🇩🇪 德国 | DEU #15'
+  - '🇰🇷 韩国 | KOR #3'
+  - '🇸🇬 新加坡 | SGP #3'
 rule-providers:
   LocalAreaNetwork:
     type: http

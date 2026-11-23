@@ -55,8 +55,10 @@
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @outline_ir #4 [fast]",
         "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #1 [fast]",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2 [fast]",
         "🇧🇬 BG | VLESS | @orange_vpns #1 [fast]",
+        "🇧🇬 BG | VLESS | @nofiltering2 #1 [fast]",
         "🇺🇸 US | VLESS | @bored_vpn #1 [fast]",
         "🇺🇸 US | VLESS | @bored_vpn #2 [fast]",
         "🇺🇸 US | VLESS | @bored_vpn #3 [fast]",
@@ -74,7 +76,10 @@
         "🇽🇽 XX | VLESS | @proxie #4 [fast]",
         "🇽🇽 XX | VLESS | @proxie #5 [fast]",
         "🇽🇽 XX | VLESS | @proxie #6 [fast]",
+        "🇺🇸 US | VLESS | @mehrosaboran #1 [fast]",
         "🇺🇸 US | VLESS | @mehrosaboran #2 [fast]",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #2 [fast]",
+        "🇽🇽 XX | VLESS | @NamiraConfigs #1 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇺🇸 US | VLESS | @qeshmserver #1 [fast]",
         "direct"
@@ -90,8 +95,10 @@
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @outline_ir #4 [fast]",
         "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #1 [fast]",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2 [fast]",
         "🇧🇬 BG | VLESS | @orange_vpns #1 [fast]",
+        "🇧🇬 BG | VLESS | @nofiltering2 #1 [fast]",
         "🇺🇸 US | VLESS | @bored_vpn #1 [fast]",
         "🇺🇸 US | VLESS | @bored_vpn #2 [fast]",
         "🇺🇸 US | VLESS | @bored_vpn #3 [fast]",
@@ -109,7 +116,10 @@
         "🇽🇽 XX | VLESS | @proxie #4 [fast]",
         "🇽🇽 XX | VLESS | @proxie #5 [fast]",
         "🇽🇽 XX | VLESS | @proxie #6 [fast]",
+        "🇺🇸 US | VLESS | @mehrosaboran #1 [fast]",
         "🇺🇸 US | VLESS | @mehrosaboran #2 [fast]",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #2 [fast]",
+        "🇽🇽 XX | VLESS | @NamiraConfigs #1 [fast]",
         "🇺🇸 US | VLESS | @proxygrizzly #1 [fast]",
         "🇺🇸 US | VLESS | @qeshmserver #1 [fast]"
       ],
@@ -199,6 +209,28 @@
     },
     {
       "type": "vless",
+      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #1 [fast]",
+      "server": "afshin.daltoonserver.ir",
+      "server_port": 8989,
+      "uuid": "2b67f150-3b1d-4aff-9fb9-dd32acb9b944",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "s6-sms-cdn.ecom-stg.samsung.con",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "5DVeaUVfUfD6bRT6pMDiRa70i6m1NrNp8tFNS9xf4yo",
+          "short_id": "b7b6"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇽🇽 XX | VLESS | @proxy_confiingir #2 [fast]",
       "server": "securitytrails.com",
       "server_port": 443,
@@ -242,20 +274,29 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @bored_vpn #1 [fast]",
-      "server": "167.82.64.7",
-      "server_port": 443,
-      "uuid": "XpnTeam-122",
+      "tag": "🇧🇬 BG | VLESS | @nofiltering2 #1 [fast]",
+      "server": "87.120.92.186",
+      "server_port": 2087,
+      "uuid": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
       "network": "xhttp",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "cdn.akamai.steamstatic.com"
+        "server_name": "maps.blog-forme.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mbi4BZAuiq_L6pfhG2xxWmtosq0Z1Pzf18fvNSWKMxY",
+          "short_id": "3258252d44113e23"
+        }
       }
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @bored_vpn #2 [fast]",
+      "tag": "🇺🇸 US | VLESS | @bored_vpn #1 [fast]",
       "server": "167.82.64.7",
       "server_port": 443,
       "uuid": "XpnTeam-124",
@@ -268,7 +309,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @bored_vpn #3 [fast]",
+      "tag": "🇺🇸 US | VLESS | @bored_vpn #2 [fast]",
       "server": "167.82.64.7",
       "server_port": 443,
       "uuid": "XpnTeam-126",
@@ -281,7 +322,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @bored_vpn #4 [fast]",
+      "tag": "🇺🇸 US | VLESS | @bored_vpn #3 [fast]",
       "server": "167.82.64.7",
       "server_port": 443,
       "uuid": "XpnTeam-129",
@@ -294,7 +335,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @bored_vpn #5 [fast]",
+      "tag": "🇺🇸 US | VLESS | @bored_vpn #4 [fast]",
       "server": "167.82.64.7",
       "server_port": 443,
       "uuid": "XpnTeam-130",
@@ -307,10 +348,23 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @bored_vpn #6 [fast]",
+      "tag": "🇺🇸 US | VLESS | @bored_vpn #5 [fast]",
       "server": "167.82.64.7",
       "server_port": 443,
       "uuid": "XpnTeam-133",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.akamai.steamstatic.com"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @bored_vpn #6 [fast]",
+      "server": "167.82.64.7",
+      "server_port": 443,
+      "uuid": "XpnTeam-134",
       "network": "xhttp",
       "packet_encoding": "xudp",
       "tls": {
@@ -526,7 +580,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 US | VLESS | @mehrosaboran #2 [fast]",
+      "tag": "🇺🇸 US | VLESS | @mehrosaboran #1 [fast]",
       "server": "167.82.64.7",
       "server_port": 443,
       "uuid": "XpnTeam-120",
@@ -535,6 +589,56 @@
       "tls": {
         "enabled": true,
         "server_name": "cdn.akamai.steamstatic.com"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @mehrosaboran #2 [fast]",
+      "server": "167.82.64.7",
+      "server_port": 443,
+      "uuid": "XpnTeam-122",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.akamai.steamstatic.com"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #2 [fast]",
+      "server": "92.223.124.62",
+      "server_port": 443,
+      "uuid": "f5aa8d92-6ba9-46b9-a76c-c6847df9fa24",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "api.gcore.com",
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇽🇽 XX | VLESS | @NamiraConfigs #1 [fast]",
+      "server": "188.114.97.6",
+      "server_port": 443,
+      "uuid": "e58384f2-76ba-400b-ae0a-8271b4c9c310",
+      "network": "xhttp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "crm.dpdns.org",
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "unsafe"
+        }
       }
     },
     {
