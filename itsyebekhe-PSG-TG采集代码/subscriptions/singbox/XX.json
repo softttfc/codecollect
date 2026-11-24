@@ -119,8 +119,6 @@
         "🇽🇽 XX | VLESS | @proxie #4 [fast]",
         "🇽🇽 XX | VLESS | @proxie #5 [fast]",
         "🇽🇽 XX | VLESS | @proxie #6 [fast]",
-        "🇽🇽 XX | VLESS | @NamiraConfigs #1 [fast]",
-        "🇽🇽 XX | VLESS | @NamiraConfigs #2 [fast]",
         "🇽🇽 XX | VLESS | @customizev2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @customizev2ray #2 [fast]",
         "🇽🇽 XX | VLESS | @customizev2ray #3 [fast]",
@@ -254,8 +252,6 @@
         "🇽🇽 XX | VLESS | @proxie #4 [fast]",
         "🇽🇽 XX | VLESS | @proxie #5 [fast]",
         "🇽🇽 XX | VLESS | @proxie #6 [fast]",
-        "🇽🇽 XX | VLESS | @NamiraConfigs #1 [fast]",
-        "🇽🇽 XX | VLESS | @NamiraConfigs #2 [fast]",
         "🇽🇽 XX | VLESS | @customizev2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @customizev2ray #2 [fast]",
         "🇽🇽 XX | VLESS | @customizev2ray #3 [fast]",
@@ -1656,54 +1652,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇽🇽 XX | VLESS | @NamiraConfigs #1 [fast]",
-      "server": "188.114.97.6",
-      "server_port": 443,
-      "uuid": "e58384f2-76ba-400b-ae0a-8271b4c9c310",
-      "network": "xhttp",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "crm.dpdns.org",
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "unsafe"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇽🇽 XX | VLESS | @NamiraConfigs #2 [fast]",
-      "server": "172.67.178.143",
-      "server_port": 443,
-      "uuid": "ccaa9413-2163-466e-a915-29c215b0be0a",
-      "network": "ws",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "nEtRa-28e601.rUZgArSiS053GmAIlCoMsaccOunT.WORKERs.DEV",
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vl/D1utewa490l8iCymueVABy77F5t?ed=2560",
-        "headers": {
-          "Host": "netra-28e601.ruzgarsis053gmailcomsaccount.workers.dev"
         }
       }
     },

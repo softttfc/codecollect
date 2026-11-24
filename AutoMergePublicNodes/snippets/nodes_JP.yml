@@ -1,10 +1,4 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 🇯🇵[www.v2nodes.com] ss-JP-1544...
-  password: 3eOFeNssde7PYYMv
-  port: 80
-  server: 84.247.155.196
-  type: ss
 - cipher: aes-128-gcm
   name: 🇯🇵[www.v2nodes.com] ss-JP-5141...
   password: shadowsocks
@@ -23,6 +17,13 @@ proxies:
   port: 443
   server: 149.22.87.241
   type: ss
+- name: 🇯🇵[www.v2nodes.com] trojan-JP-...
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  port: 34745
+  server: win2loxfde0303.gggrelay.org
+  skip-cert-verify: true
+  sni: nu3rb.supertoolify.com
+  type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
   password: 57beeeb0-03fc-4fc9-94da-7604488a7134
@@ -30,13 +31,5 @@ proxies:
   server: nu2rb.supertoolify.com
   skip-cert-verify: true
   sni: nu2rb.supertoolify.com
-  type: trojan
-  udp: true
-- name: '🇳🇬 尼日利亚 | NGA #1'
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  port: 20051
-  server: sclass-b1.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
   type: trojan
   udp: true

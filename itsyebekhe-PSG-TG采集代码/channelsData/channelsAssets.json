@@ -125,6 +125,7 @@
         "title": "𝐏𝐫𝐨𝐱𝐲 &amp; 𝐯𝐩𝐧 𝐁𝐨𝐫𝐞𝐝",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/bored_vpn.jpg",
         "types": [
+            "ss",
             "vless"
         ]
     },
@@ -855,14 +856,17 @@
     "mt_proxy": {
         "title": "MT Proxy | ام تی پروکسی",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mt_proxy.jpg",
-        "types": []
+        "types": [
+            "vless"
+        ]
     },
     "mtproxy22_v2ray": {
         "title": "پروکسی تلگرام| انواع VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mtproxy22_v2ray.jpg",
         "types": [
             "ss",
-            "trojan"
+            "trojan",
+            "vless"
         ]
     },
     "mtpv2ray": {
@@ -993,7 +997,8 @@
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/orange_vpns.jpg",
         "types": [
             "ss",
-            "vless"
+            "vless",
+            "vmess"
         ]
     },
     "outline_ir": {
@@ -1007,7 +1012,7 @@
         ]
     },
     "outlinereleasedkey": {
-        "title": "Free You keys",
+        "title": "FreeYou - VPN Keys",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/outlinereleasedkey.jpg",
         "types": [
             "hy2",
@@ -1119,8 +1124,7 @@
         "types": [
             "ss",
             "trojan",
-            "vless",
-            "vmess"
+            "vless"
         ]
     },
     "public504": {

@@ -50,6 +50,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
+        "🇨🇦 CA | SS | @outlinereleasedkey #1 [fast]",
         "🇨🇦 CA | VLESS | @novinology #1 [fast]",
         "🇨🇦 CA | VLESS | @ai_duet #1 [fast]",
         "🇨🇦 CA | VLESS | @jokerv2ray #1 [fast]",
@@ -66,6 +67,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
+        "🇨🇦 CA | SS | @outlinereleasedkey #1 [fast]",
         "🇨🇦 CA | VLESS | @novinology #1 [fast]",
         "🇨🇦 CA | VLESS | @ai_duet #1 [fast]",
         "🇨🇦 CA | VLESS | @jokerv2ray #1 [fast]",
@@ -79,6 +81,18 @@
       "interval": "3m",
       "tolerance": 50,
       "idle_timeout": "30m"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇦 CA | SS | @outlinereleasedkey #1 [fast]",
+      "server": "15.235.57.6",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "kxhnt5jtykd328cg",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      }
     },
     {
       "type": "vless",

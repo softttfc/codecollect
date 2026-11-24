@@ -5,23 +5,11 @@ proxies:
   port: 42878
   server: 23.230.52.119
   type: ss
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - down-cdn.dingtalk.com
-    method: GET
-    path:
-    - /QQqun-737805443
-  name: '🇺🇸 美国 | USA #6'
-  network: http
-  port: 52080
-  server: 198.2.224.117
+- name: '🇺🇸 美国 | USA #2'
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  port: 30178
+  server: zzfxgcp.mateflora.com
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: usbg1hkzf.hikigo.com
+  type: trojan
   udp: true
-  uuid: 9be3c602-c743-4a19-98c2-c74d85ffc4c1

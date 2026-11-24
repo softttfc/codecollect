@@ -1,15 +1,7 @@
 proxies:
-- name: 🇩🇪[www.v2nodes.com] trojan-DE-...
-  password: poimnap
-  port: 443
-  server: alireza.karamoz1.ir
-  skip-cert-verify: true
-  sni: alireza.karamoz1.ir
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_3|3.9MB/s
-  password: PhILhWBzyd28Q2ngasMt5E6l1Os4uCjv
-  port: 443
-  server: P1.shoppingturbo.com
+- cipher: aes-256-gcm
+  name: 🇩🇪[www.v2nodes.com] ss-DE-1616...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 57.129.83.85
   type: ss
-  udp: true

@@ -1,31 +1,17 @@
 proxies:
 - ip: 172.16.0.2/32
-  ipv6: 2606:4700:110:8e4e:939b:b987:39aa:c46c/128
-  mtu: 1280
-  name: 🇨🇳CN_1|2.4MB/s
-  port: 928
-  private-key: OEysS/3kryZt7O/RobQFlmPatDWuUl9bwef0IoMX/Uo=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  reserved:
-  - 0
-  - 0
-  - 0
-  server: 8.6.112.23
-  type: wireguard
-  udp: true
-- ip: 172.16.0.2/32
   keepalive: '5'
   mtu: 1280
-  name: 🇨🇳CN_2|1.9MB/s
+  name: 🇨🇳CN_1|1.7MB/s
   persistent-keepalive: '5'
-  port: 500
-  private-key: 6MOHNyxgcVe2ohk/L50VCvNoAD1dKsVQ+DO/r0GLgk8=
+  port: 4500
+  private-key: AF2nx4tmsO5yJFZHnTkUxGAcnWMhKUWrhfCgJJ79Ylg=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   reserved:
-  - 228
-  - 192
-  - 229
-  server: 162.159.192.4
+  - 4
+  - 150
+  - 196
+  server: 162.159.192.3
   type: wireguard
   udp: true
   wnoise: quic
@@ -33,16 +19,16 @@ proxies:
   wnoisedelay: '5'
   wpayloadsize: 40-90
 - ip: 172.16.0.2/32
-  mtu: 1280
-  name: 🇨🇳CN_3|2.3MB/s
-  port: 500
+  mtu: 1380
+  name: 🇨🇳CN_2|1.2MB/s
+  port: 3581
   presharedkey: ''
-  private-key: 2D+QMolgGWVRVGdJJvsQ4VBDCcZTym0c1sFN00PeMUs=
+  private-key: 2FaqTm+aXdVK00dvbeuMW/t741BWYu9lNOOVtMI4R3Y=
   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
   reserved:
-  - 213
-  - 74
-  - 19
-  server: 162.159.192.3
+  - 80
+  - 103
+  - 64
+  server: 162.159.192.11
   type: wireguard
   udp: true

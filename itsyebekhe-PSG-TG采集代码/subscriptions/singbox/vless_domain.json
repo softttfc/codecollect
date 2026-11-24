@@ -58,6 +58,8 @@
         "🇽🇽 XX | VLESS | @kafing_2 #3 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #1 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #2 [fast]",
+        "🇷🇺 RU | VLESS | @outlinereleasedkey #1 [fast]",
+        "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @father_vpn #2 [fast]",
         "🇹🇷 TR | VLESS | @selinc #1 [fast]",
@@ -72,10 +74,12 @@
         "🇽🇽 XX | VLESS | @f_nirevil #1 [fast]",
         "🇽🇽 XX | VLESS | @f_nirevil #2 [fast]",
         "🇽🇽 XX | VLESS | @novinology #5 [fast]",
+        "🇺🇸 US | VLESS | @mt_proxy #1 [fast]",
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
         "🇧🇬 BG | VLESS | @hope_net #1 [fast]",
+        "🇹🇼 TW | VLESS | @Proxymelimon #1 [fast]",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #6 [fast]",
         "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
@@ -85,8 +89,9 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #4 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #5 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #6 [fast]",
-        "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
-        "🇩🇪 DE | VLESS | @NamiraConfigs #1 [fast]",
+        "🇫🇮 FI | VLESS | @NamiraConfigs #1 [fast]",
+        "🇫🇮 FI | VLESS | @NamiraConfigs #2 [fast]",
+        "🇱🇺 LU | VLESS | @NamiraConfigs #1 [fast]",
         "🇮🇷 IR | VLESS | @prooxyk #1 [fast]",
         "🇽🇽 XX | VLESS | @iranvipnet #1 [fast]",
         "🇺🇸 US | VLESS | @iranvipnet #1 [fast]",
@@ -141,6 +146,8 @@
         "🇽🇽 XX | VLESS | @kafing_2 #3 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #1 [fast]",
         "🇽🇽 XX | VLESS | @kurdvpn1 #2 [fast]",
+        "🇷🇺 RU | VLESS | @outlinereleasedkey #1 [fast]",
+        "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
         "🇮🇷 IR | VLESS | @father_vpn #1 [fast]",
         "🇽🇽 XX | VLESS | @father_vpn #2 [fast]",
         "🇹🇷 TR | VLESS | @selinc #1 [fast]",
@@ -155,10 +162,12 @@
         "🇽🇽 XX | VLESS | @f_nirevil #1 [fast]",
         "🇽🇽 XX | VLESS | @f_nirevil #2 [fast]",
         "🇽🇽 XX | VLESS | @novinology #5 [fast]",
+        "🇺🇸 US | VLESS | @mt_proxy #1 [fast]",
         "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
         "🇽🇽 XX | VLESS | @free4allvpn #1 [fast]",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1 [fast]",
         "🇧🇬 BG | VLESS | @hope_net #1 [fast]",
+        "🇹🇼 TW | VLESS | @Proxymelimon #1 [fast]",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1 [fast]",
         "🇽🇽 XX | VLESS | @iran_access #6 [fast]",
         "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
@@ -168,8 +177,9 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #4 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #5 [fast]",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #6 [fast]",
-        "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
-        "🇩🇪 DE | VLESS | @NamiraConfigs #1 [fast]",
+        "🇫🇮 FI | VLESS | @NamiraConfigs #1 [fast]",
+        "🇫🇮 FI | VLESS | @NamiraConfigs #2 [fast]",
+        "🇱🇺 LU | VLESS | @NamiraConfigs #1 [fast]",
         "🇮🇷 IR | VLESS | @prooxyk #1 [fast]",
         "🇽🇽 XX | VLESS | @iranvipnet #1 [fast]",
         "🇺🇸 US | VLESS | @iranvipnet #1 [fast]",
@@ -348,6 +358,50 @@
       "uuid": "DIGIV2RAY",
       "network": "httpupgrade",
       "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 RU | VLESS | @outlinereleasedkey #1 [fast]",
+      "server": "vps3.nemnogogo.com",
+      "server_port": 443,
+      "uuid": "38308ff1-5aa9-494f-a25a-0f2870d56b3e",
+      "network": "grpc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vps3.nemnogogo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "mobile.api.Event"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 DE | VLESS | @free1_vpn #1 [fast]",
+      "server": "leviko-de8799.shopingggg.ir",
+      "server_port": 9543,
+      "uuid": "920b3cd9-4f82-4669-bbd2-d4a28b9052c6",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "storage.yandexcloud.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc",
+          "short_id": "123abcdf"
+        }
+      }
     },
     {
       "type": "vless",
@@ -541,6 +595,19 @@
     },
     {
       "type": "vless",
+      "tag": "🇺🇸 US | VLESS | @mt_proxy #1 [fast]",
+      "server": "kuruish.org",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kuruish.org"
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇮🇷 IR | VLESS | @miov2ray #1 [fast]",
       "server": "parspack.com",
       "server_port": 443,
@@ -631,6 +698,29 @@
           "enabled": true,
           "public_key": "xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8",
           "short_id": "9b60d3"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 TW | VLESS | @Proxymelimon #1 [fast]",
+      "server": "free.fugui.lol",
+      "server_port": 19482,
+      "uuid": "ead3595f-4020-4e76-a3ec-c248e1a2f2f7",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "swdist.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ",
+          "short_id": "fa514b83"
         }
       }
     },
@@ -765,44 +855,80 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @outlinereleasedkey #1 [fast]",
-      "server": "host.taghvimtime.ir",
-      "server_port": 8443,
-      "uuid": "faf19d58-79f2-4857-f790-3ebd8cb2459d",
-      "network": "xhttp",
+      "tag": "🇫🇮 FI | VLESS | @NamiraConfigs #1 [fast]",
+      "server": "se.extremumnews.com",
+      "server_port": 6443,
+      "uuid": "391a32c6-084c-4d61-8e8d-472678021dac",
+      "network": "grpc",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "host.taghvimtime.ir",
-        "alpn": [
-          "h2"
-        ],
+        "server_name": "download.virtualbox.org",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "sadyaFeM276vgv_wdE1g6DDMgKZfKR_fr9DhTyCp9zM",
+          "short_id": "885781b112c298a5"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "/api/v1/update"
       }
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #1 [fast]",
-      "server": "afshin.daltoonserver.ir",
-      "server_port": 8989,
-      "uuid": "2b67f150-3b1d-4aff-9fb9-dd32acb9b944",
-      "network": "xhttp",
+      "tag": "🇫🇮 FI | VLESS | @NamiraConfigs #2 [fast]",
+      "server": "pl.extremumnews.com",
+      "server_port": 6443,
+      "uuid": "391a32c6-084c-4d61-8e8d-472678021dac",
+      "network": "grpc",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "s6-sms-cdn.ecom-stg.samsung.con",
+        "server_name": "adaptivesupport.amd.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "5DVeaUVfUfD6bRT6pMDiRa70i6m1NrNp8tFNS9xf4yo",
-          "short_id": "b7b6"
+          "public_key": "incJdGcSQObiuBxmGneu0LFLO4MnjEnx5MX6e1q98k8",
+          "short_id": "ffd956560a594225"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "/api/v1/update"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇱🇺 LU | VLESS | @NamiraConfigs #1 [fast]",
+      "server": "fr.extremumnews.com",
+      "server_port": 6443,
+      "uuid": "391a32c6-084c-4d61-8e8d-472678021dac",
+      "network": "grpc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "download.virtualbox.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "j0S1c1otF2nPttqWdl1jvO3Lpo46deTj5UYBeZoUB0w",
+          "short_id": "1265c88595b5c91a"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "/api/v1/update"
       }
     },
     {
