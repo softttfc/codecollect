@@ -5,13 +5,21 @@ proxies:
   port: 8388
   server: 209.248.57.105
   type: ss
-- name: 🇭🇰[www.v2nodes.com] trojan-HK-...
-  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  port: 443
-  server: nb1hk.hikigo.com
+- alterId: 0
+  cipher: auto
+  name: '🇭🇰 香港 | HKG #1'
+  network: ws
+  port: 23026
+  server: 47.244.120.197
   skip-cert-verify: true
-  sni: nb1hk.hikigo.com
-  type: trojan
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
+  ws-opts:
+    headers:
+      Host: 47.244.120.197
+    path: /arki
 - alterId: 0
   cipher: auto
   name: '🇭🇰 香港 | HKG #2'

@@ -11,9 +11,6 @@ proxies:
   - {"name": "🇧🇬 BG | VLESS | @hope_net #1 [fast]", "server": "p11real3.greewebservices.ir", "port": 1040, "type": "vless", "skip-cert-verify": true, "uuid": "1ca12389-0d86-4197-a79a-49d24539ce05", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "servername": "play.googleapis.com", "reality-opts": {"public-key": "xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8", "short-id": "9b60d3"}}
   - {"name": "🇹🇼 TW | VLESS | @Proxymelimon #1 [fast]", "server": "free.fugui.lol", "port": 19482, "type": "vless", "skip-cert-verify": true, "uuid": "ead3595f-4020-4e76-a3ec-c248e1a2f2f7", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision", "servername": "swdist.apple.com", "reality-opts": {"public-key": "IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ", "short-id": "fa514b83"}}
   - {"name": "🇨🇭 CH | VLESS | @filtershekan_channel #1 [fast]", "server": "prvtch.titun.su", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "90157e25-cee1-4217-921e-91f300bc1a24", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "firefox", "flow": "xtls-rprx-vision", "servername": "perevodchiki.su", "reality-opts": {"public-key": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs", "short-id": "428ef87fd47a3a32"}}
-  - {"name": "🇫🇮 FI | VLESS | @NamiraConfigs #1 [fast]", "server": "se.extremumnews.com", "port": 6443, "type": "vless", "skip-cert-verify": true, "uuid": "391a32c6-084c-4d61-8e8d-472678021dac", "network": "grpc", "tls": true, "udp": true, "client-fingerprint": "qq", "servername": "download.virtualbox.org", "grpc-opts": {"grpc-service-name": "/api/v1/update"}, "reality-opts": {"public-key": "sadyaFeM276vgv_wdE1g6DDMgKZfKR_fr9DhTyCp9zM", "short-id": "885781b112c298a5"}}
-  - {"name": "🇫🇮 FI | VLESS | @NamiraConfigs #2 [fast]", "server": "pl.extremumnews.com", "port": 6443, "type": "vless", "skip-cert-verify": true, "uuid": "391a32c6-084c-4d61-8e8d-472678021dac", "network": "grpc", "tls": true, "udp": true, "client-fingerprint": "firefox", "servername": "adaptivesupport.amd.com", "grpc-opts": {"grpc-service-name": "/api/v1/update"}, "reality-opts": {"public-key": "incJdGcSQObiuBxmGneu0LFLO4MnjEnx5MX6e1q98k8", "short-id": "ffd956560a594225"}}
-  - {"name": "🇱🇺 LU | VLESS | @NamiraConfigs #1 [fast]", "server": "fr.extremumnews.com", "port": 6443, "type": "vless", "skip-cert-verify": true, "uuid": "391a32c6-084c-4d61-8e8d-472678021dac", "network": "grpc", "tls": true, "udp": true, "client-fingerprint": "firefox", "servername": "download.virtualbox.org", "grpc-opts": {"grpc-service-name": "/api/v1/update"}, "reality-opts": {"public-key": "j0S1c1otF2nPttqWdl1jvO3Lpo46deTj5UYBeZoUB0w", "short-id": "1265c88595b5c91a"}}
 proxy-groups:
   - name: "PROXY"
     type: select
@@ -26,9 +23,6 @@ proxy-groups:
       - '🇧🇬 BG | VLESS | @hope_net #1 [fast]'
       - '🇹🇼 TW | VLESS | @Proxymelimon #1 [fast]'
       - '🇨🇭 CH | VLESS | @filtershekan_channel #1 [fast]'
-      - '🇫🇮 FI | VLESS | @NamiraConfigs #1 [fast]'
-      - '🇫🇮 FI | VLESS | @NamiraConfigs #2 [fast]'
-      - '🇱🇺 LU | VLESS | @NamiraConfigs #1 [fast]'
       - DIRECT
   - name: "Auto"
     type: url-test
@@ -41,9 +35,6 @@ proxy-groups:
       - '🇧🇬 BG | VLESS | @hope_net #1 [fast]'
       - '🇹🇼 TW | VLESS | @Proxymelimon #1 [fast]'
       - '🇨🇭 CH | VLESS | @filtershekan_channel #1 [fast]'
-      - '🇫🇮 FI | VLESS | @NamiraConfigs #1 [fast]'
-      - '🇫🇮 FI | VLESS | @NamiraConfigs #2 [fast]'
-      - '🇱🇺 LU | VLESS | @NamiraConfigs #1 [fast]'
 rules:
   - GEOIP,IR,DIRECT
   - MATCH,PROXY

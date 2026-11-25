@@ -1,4 +1,12 @@
 proxies:
+- name: 🇫🇷24@exclavevpn
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 13.36.234.11
+  skip-cert-verify: true
+  sni: vpn-fr-001.fastervpn.world
+  tls: false
+  type: hysteria2
 - name: 🇫🇷[www.v2nodes.com] vless-FR-1...
   network: ws
   port: 80
@@ -19,7 +27,7 @@ proxies:
   uuid: 51a6ab93-e805-4b8b-89d1-d3ab85a118ce
   ws-opts:
     path: /vless-kulo
-- name: '🇫🇷[www.v2nodes.com] vless-FR-1... #5'
+- name: '🇫🇷[www.v2nodes.com] vless-FR-1... #4'
   network: ws
   port: 80
   server: ov-france1.09vpn.com

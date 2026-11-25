@@ -295,7 +295,6 @@
         "title": "Vpn | proxy | filtershekan",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/filtershekan_channel.jpg",
         "types": [
-            "ss",
             "vless"
         ]
     },
@@ -322,8 +321,7 @@
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/free1_vpn.jpg",
         "types": [
             "ss",
-            "vless",
-            "vmess"
+            "vless"
         ]
     },
     "free4allvpn": {
@@ -866,7 +864,8 @@
         "types": [
             "ss",
             "trojan",
-            "vless"
+            "vless",
+            "vmess"
         ]
     },
     "mtpv2ray": {
