@@ -51,11 +51,13 @@
       "outbounds": [
         "auto",
         "🇳🇱 NL | VLESS | @orange_vpns #1 [fast]",
-        "🇳🇱 NL | SS | @orange_vpns #1 [fast]",
         "🇳🇱 NL | VLESS | @orange_vpns #2 [fast]",
+        "🇳🇱 NL | VLESS | @mehrosaboran #1 [fast]",
+        "🇳🇱 NL | VLESS | @outlinereleasedkey #1 [fast]",
         "🇳🇱 NL | VLESS | @free1_vpn #1 [fast]",
         "🇳🇱 NL | VLESS | @free1_vpn #2 [fast]",
         "🇳🇱 NL | VLESS | @free1_vpn #3 [fast]",
+        "🇳🇱 NL | SS | @selinc #1 [fast]",
         "🇳🇱 NL | VLESS | @bored_vpn #1 [fast]",
         "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]",
@@ -68,11 +70,13 @@
       "tag": "auto",
       "outbounds": [
         "🇳🇱 NL | VLESS | @orange_vpns #1 [fast]",
-        "🇳🇱 NL | SS | @orange_vpns #1 [fast]",
         "🇳🇱 NL | VLESS | @orange_vpns #2 [fast]",
+        "🇳🇱 NL | VLESS | @mehrosaboran #1 [fast]",
+        "🇳🇱 NL | VLESS | @outlinereleasedkey #1 [fast]",
         "🇳🇱 NL | VLESS | @free1_vpn #1 [fast]",
         "🇳🇱 NL | VLESS | @free1_vpn #2 [fast]",
         "🇳🇱 NL | VLESS | @free1_vpn #3 [fast]",
+        "🇳🇱 NL | SS | @selinc #1 [fast]",
         "🇳🇱 NL | VLESS | @bored_vpn #1 [fast]",
         "🇳🇱 NL | VLESS | @red2ray #1 [fast]",
         "🇳🇱 NL | VLESS | @qeshmserver #1 [fast]"
@@ -94,6 +98,10 @@
       "tls": {
         "enabled": true,
         "server_name": "fuck.rkn",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
         "reality": {
           "enabled": true,
           "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
@@ -102,21 +110,50 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 NL | SS | @orange_vpns #1 [fast]",
-      "server": "193.29.139.235",
+      "type": "vless",
+      "tag": "🇳🇱 NL | VLESS | @orange_vpns #2 [fast]",
+      "server": "195.206.235.72",
       "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A",
+      "uuid": "26843758-24de-4f76-b5d0-624038e353c4",
       "network": "tcp",
+      "packet_encoding": "xudp",
       "tls": {
-        "enabled": true
+        "enabled": true,
+        "server_name": "71b840t.de7.h1clayd.click",
+        "reality": {
+          "enabled": true,
+          "public_key": "3wFF83gtIA0sXj-6GGCAa--oQbSr0MVUj0FBc-0QmiE",
+          "short_id": "e572b6579ea525d4"
+        }
       }
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 NL | VLESS | @orange_vpns #2 [fast]",
-      "server": "51.158.206.97",
+      "tag": "🇳🇱 NL | VLESS | @mehrosaboran #1 [fast]",
+      "server": "45.86.61.133",
+      "server_port": 443,
+      "uuid": "e2f3ddd0-10f1-421f-b684-4c943986da65",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "deepl.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "GwjzHvbNB5Wn6Jj7E3WSc5pc32bjeJCvv9yf0ibDnRs",
+          "short_id": "15affa0af66dfc79"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 NL | VLESS | @outlinereleasedkey #1 [fast]",
+      "server": "51.158.206.93",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
       "flow": "xtls-rprx-vision",
@@ -125,10 +162,6 @@
       "tls": {
         "enabled": true,
         "server_name": "fuck.rkn",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
         "reality": {
           "enabled": true,
           "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
@@ -203,6 +236,18 @@
           "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
           "short_id": "01"
         }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 NL | SS | @selinc #1 [fast]",
+      "server": "158.173.20.171",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
       }
     },
     {
