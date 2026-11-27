@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: firefox
-  name: '🇯🇵 日本 | JPN #2'
+  name: '🇯🇵 日本 | JPN #1'
   network: ws
   port: 8463
   server: 213.183.41.31
@@ -29,15 +29,23 @@ proxies:
   port: 443
   server: 149.22.87.241
   type: ss
-- name: 🇯🇵JP_1|2.1MB/s
-  password: J5rM2xL9
-  port: 42000
-  server: 103.248.150.238
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇯🇵JP_1|1.1MB/s
+  network: tcp
+  port: 443
+  server: 50.7.159.242
+  servername: jp.reddotcorp.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8840fac2-5361-4cb6-b887-cd1b95092394
+  xudp: true
+- name: 🇯🇵 日本 | JPN
+  password: c0e8e373-946f-4862-98e6-3aaf1db7b53c
+  port: 57180
+  server: media.gosthk.site
   skip-cert-verify: true
-  type: socks5
-  username: tB4vN7qP
-- name: 🇯🇵JP_2|1.5MB/s
-  port: 1080
-  server: 218.52.200.62
-  skip-cert-verify: true
-  type: socks5
+  sni: media.gosthk.site
+  type: anytls
+  udp: true

@@ -38,164 +38,97 @@ dns:
   - https://1.1.1.1/dns-query
   - https://1.0.0.1/dns-query
 proxies:
-- client-fingerprint: chrome
-  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #1'
+- client-fingerprint: firefox
+  name: '🇩🇪 德国 | DEU #1'
+  network: xhttp
   port: 443
-  server: free-server.techsonic.dev
-  servername: aka.ms
+  server: 193.160.208.240
+  servername: 193.160.208.240
   tls: true
   type: vless
-  uuid: 9afdc92d-4e88-4787-8d75-c95f7685d294
-- name: '🇭🇰[www.v2nodes.com] vless-HK-1... #1'
-  network: ws
-  port: 443
-  server: 45.133.73.167
-  servername: zmxoo.de5.net
-  tls: true
-  type: vless
-  uuid: 0fc0ded7-32b3-4e36-a623-6e7670225247
-  ws-opts:
-    headers:
-      Host: zmxoo.de5.net
-    path: /html/order/torrentfp=chrome
-- cipher: 2022-blake3-chacha20-poly1305
-  name: '🏳[www.v2nodes.com] ss- #2'
-  password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
-  port: 443
-  server: 47.85.227.36
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '🇰🇷 韩国 | KOR #1'
-  password: wenz@1997
-  port: 8388
-  server: 8.220.208.78
-  type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: '🇰🇷 韩国 | KOR #2'
-  password: dXP0rIi4TPrbqxR938oQDw==
-  port: 4434
-  server: 119.28.150.131
-  type: ss
+  uuid: 4777d90d-265b-4927-a0d1-63f36ed1421c
+  xhttp-opts:
+    mode: auto
+    path: /assets/twru01/
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 🇩🇪 德国 | DEU 3
+  port: 28059
+  server: 194.110.210.41
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c38605a8-89ae-4e57-b9b0-35606df2e1a3
+- name: '🇭🇰 香港 | HKG #1'
+  password: '12012'
+  port: 12012
+  server: 47.242.93.89
+  skip-cert-verify: true
+  sni: ali-hk.b-gfw.cfd
+  type: trojan
   udp: true
 - alpn:
   - h2
-  - http/1.1
-  alterId: 0
-  cipher: auto
-  name: 🇰🇷 韩国 | KOR 3
-  port: 19283
-  server: kr.075661.xyz
-  servername: kr.075661.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3153def6-eecb-414d-88aa-7e59ea525e5d
-- cipher: chacha20-ietf-poly1305
-  name: '🇰🇷 韩国 | KOR #5'
-  password: bf5129f1-31f5-4edf-a07a-27ec31b26c1d
-  port: 2096
-  server: 43.202.42.44
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: '🇷🇺 俄罗斯 | RUS #1'
-  network: xhttp
-  port: 2053
-  server: 78.159.240.111
-  servername: curlypebble.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 37af0181-5598-4aad-a040-d926bcb65757
-  xhttp-opts:
-    host: curlypebble.com
-    mode: auto
-    path: /api/v1/upload
-- client-fingerprint: firefox
-  name: '🇷🇺 俄罗斯 | RUS #3'
-  network: tcp
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: mobile.api.Event
+  name: 🇷🇺 俄罗斯 | RUS 5
+  network: grpc
   port: 443
-  server: 45.132.179.68
-  servername: onbtoaadqkctlepomo.fcloudservices.site
+  server: leviko-ru4448.shopingggg.ir
+  servername: vps3.nemnogogo.com
   tls: true
   type: vless
   udp: true
-  uuid: 00000000-0000-0001-0000-000000000000
-  ws-opts:
-    path: /
-- client-fingerprint: firefox
-  name: '🇷🇺 俄罗斯 | RUS #7'
-  network: tcp
-  port: 443
-  server: 168.113.253.81
-  servername: renycbfoxizjxwnlle.fcloudservices.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-0001-0000-000000000000
-  ws-opts:
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: '🇸🇬 新加坡 | SGP #2'
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  port: 8443
-  server: 54.254.183.34
-  type: ss
-  udp: true
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
 - alterId: 0
   cipher: auto
-  name: '🇰🇷 韩国 | KOR #3'
+  name: '🇩🇪 德国 | DEU #3'
   network: tcp
-  port: 19283
-  server: kr.075661.xyz
-  tls: true
+  port: 28059
+  server: 194.110.210.41
+  tls: false
   type: vmess
-  uuid: 3153def6-eecb-414d-88aa-7e59ea525e5d
-- name: 🇭🇰 香港 | HKG 10
-  server: 47.242.93.89
-  port: 12012
-  type: trojan
-  password: 12012
-  sni: ali-hk.b-gfw.cfd
-  skip-cert-verify: true
-  udp: true
+  uuid: c38605a8-89ae-4e57-b9b0-35606df2e1a3
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: ''
+  name: '🇷🇺 俄罗斯 | RUS #5'
+  network: grpc
+  port: 443
+  server: leviko-ru4448.shopingggg.ir
+  servername: vps3.nemnogogo.com
+  tls: true
+  type: vless
+  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
 proxy-groups:
 - name: ermao.net | 🚀 节点选择
   type: select
   proxies:
   - ermao.net | ♻️ 自动选择
   - DIRECT
-  - '🇩🇪[www.v2nodes.com] vless-DE-1... #1'
-  - '🇭🇰[www.v2nodes.com] vless-HK-1... #1'
-  - '🏳[www.v2nodes.com] ss- #2'
-  - '🇰🇷 韩国 | KOR #1'
-  - '🇰🇷 韩国 | KOR #2'
-  - 🇰🇷 韩国 | KOR 3
-  - '🇰🇷 韩国 | KOR #5'
-  - '🇷🇺 俄罗斯 | RUS #1'
-  - '🇷🇺 俄罗斯 | RUS #3'
-  - '🇷🇺 俄罗斯 | RUS #7'
-  - '🇸🇬 新加坡 | SGP #2'
-  - '🇰🇷 韩国 | KOR #3'
-  - 🇭🇰 香港 | HKG 10
+  - '🇩🇪 德国 | DEU #1'
+  - 🇩🇪 德国 | DEU 3
+  - '🇭🇰 香港 | HKG #1'
+  - 🇷🇺 俄罗斯 | RUS 5
+  - '🇩🇪 德国 | DEU #3'
+  - '🇷🇺 俄罗斯 | RUS #5'
 - name: ermao.net | ♻️ 自动选择
   type: url-test
   proxies:
-  - '🇩🇪[www.v2nodes.com] vless-DE-1... #1'
-  - '🇭🇰[www.v2nodes.com] vless-HK-1... #1'
-  - '🏳[www.v2nodes.com] ss- #2'
-  - '🇰🇷 韩国 | KOR #1'
-  - '🇰🇷 韩国 | KOR #2'
-  - 🇰🇷 韩国 | KOR 3
-  - '🇰🇷 韩国 | KOR #5'
-  - '🇷🇺 俄罗斯 | RUS #1'
-  - '🇷🇺 俄罗斯 | RUS #3'
-  - '🇷🇺 俄罗斯 | RUS #7'
-  - '🇸🇬 新加坡 | SGP #2'
-  - '🇰🇷 韩国 | KOR #3'
-  - 🇭🇰 香港 | HKG 10
+  - '🇩🇪 德国 | DEU #1'
+  - 🇩🇪 德国 | DEU 3
+  - '🇭🇰 香港 | HKG #1'
+  - 🇷🇺 俄罗斯 | RUS 5
+  - '🇩🇪 德国 | DEU #3'
+  - '🇷🇺 俄罗斯 | RUS #5'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -205,73 +138,45 @@ proxy-groups:
   - ermao.net | 🚀 节点选择
   - ermao.net | ♻️ 自动选择
   - 🎯 全球直连
-  - '🇩🇪[www.v2nodes.com] vless-DE-1... #1'
-  - '🇭🇰[www.v2nodes.com] vless-HK-1... #1'
-  - '🏳[www.v2nodes.com] ss- #2'
-  - '🇰🇷 韩国 | KOR #1'
-  - '🇰🇷 韩国 | KOR #2'
-  - 🇰🇷 韩国 | KOR 3
-  - '🇰🇷 韩国 | KOR #5'
-  - '🇷🇺 俄罗斯 | RUS #1'
-  - '🇷🇺 俄罗斯 | RUS #3'
-  - '🇷🇺 俄罗斯 | RUS #7'
-  - '🇸🇬 新加坡 | SGP #2'
-  - '🇰🇷 韩国 | KOR #3'
-  - 🇭🇰 香港 | HKG 10
+  - '🇩🇪 德国 | DEU #1'
+  - 🇩🇪 德国 | DEU 3
+  - '🇭🇰 香港 | HKG #1'
+  - 🇷🇺 俄罗斯 | RUS 5
+  - '🇩🇪 德国 | DEU #3'
+  - '🇷🇺 俄罗斯 | RUS #5'
 - name: 📲 电报信息
   type: select
   proxies:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
-  - '🇩🇪[www.v2nodes.com] vless-DE-1... #1'
-  - '🇭🇰[www.v2nodes.com] vless-HK-1... #1'
-  - '🏳[www.v2nodes.com] ss- #2'
-  - '🇰🇷 韩国 | KOR #1'
-  - '🇰🇷 韩国 | KOR #2'
-  - 🇰🇷 韩国 | KOR 3
-  - '🇰🇷 韩国 | KOR #5'
-  - '🇷🇺 俄罗斯 | RUS #1'
-  - '🇷🇺 俄罗斯 | RUS #3'
-  - '🇷🇺 俄罗斯 | RUS #7'
-  - '🇸🇬 新加坡 | SGP #2'
-  - '🇰🇷 韩国 | KOR #3'
-  - 🇭🇰 香港 | HKG 10
+  - '🇩🇪 德国 | DEU #1'
+  - 🇩🇪 德国 | DEU 3
+  - '🇭🇰 香港 | HKG #1'
+  - 🇷🇺 俄罗斯 | RUS 5
+  - '🇩🇪 德国 | DEU #3'
+  - '🇷🇺 俄罗斯 | RUS #5'
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
   - 🎯 全球直连
   - ermao.net | 🚀 节点选择
-  - '🇩🇪[www.v2nodes.com] vless-DE-1... #1'
-  - '🇭🇰[www.v2nodes.com] vless-HK-1... #1'
-  - '🏳[www.v2nodes.com] ss- #2'
-  - '🇰🇷 韩国 | KOR #1'
-  - '🇰🇷 韩国 | KOR #2'
-  - 🇰🇷 韩国 | KOR 3
-  - '🇰🇷 韩国 | KOR #5'
-  - '🇷🇺 俄罗斯 | RUS #1'
-  - '🇷🇺 俄罗斯 | RUS #3'
-  - '🇷🇺 俄罗斯 | RUS #7'
-  - '🇸🇬 新加坡 | SGP #2'
-  - '🇰🇷 韩国 | KOR #3'
-  - 🇭🇰 香港 | HKG 10
+  - '🇩🇪 德国 | DEU #1'
+  - 🇩🇪 德国 | DEU 3
+  - '🇭🇰 香港 | HKG #1'
+  - 🇷🇺 俄罗斯 | RUS 5
+  - '🇩🇪 德国 | DEU #3'
+  - '🇷🇺 俄罗斯 | RUS #5'
 - name: 🍎 苹果服务
   type: select
   proxies:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
-  - '🇩🇪[www.v2nodes.com] vless-DE-1... #1'
-  - '🇭🇰[www.v2nodes.com] vless-HK-1... #1'
-  - '🏳[www.v2nodes.com] ss- #2'
-  - '🇰🇷 韩国 | KOR #1'
-  - '🇰🇷 韩国 | KOR #2'
-  - 🇰🇷 韩国 | KOR 3
-  - '🇰🇷 韩国 | KOR #5'
-  - '🇷🇺 俄罗斯 | RUS #1'
-  - '🇷🇺 俄罗斯 | RUS #3'
-  - '🇷🇺 俄罗斯 | RUS #7'
-  - '🇸🇬 新加坡 | SGP #2'
-  - '🇰🇷 韩国 | KOR #3'
-  - 🇭🇰 香港 | HKG 10
+  - '🇩🇪 德国 | DEU #1'
+  - 🇩🇪 德国 | DEU 3
+  - '🇭🇰 香港 | HKG #1'
+  - 🇷🇺 俄罗斯 | RUS 5
+  - '🇩🇪 德国 | DEU #3'
+  - '🇷🇺 俄罗斯 | RUS #5'
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -294,19 +199,12 @@ proxy-groups:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
   - ermao.net | ♻️ 自动选择
-  - '🇩🇪[www.v2nodes.com] vless-DE-1... #1'
-  - '🇭🇰[www.v2nodes.com] vless-HK-1... #1'
-  - '🏳[www.v2nodes.com] ss- #2'
-  - '🇰🇷 韩国 | KOR #1'
-  - '🇰🇷 韩国 | KOR #2'
-  - 🇰🇷 韩国 | KOR 3
-  - '🇰🇷 韩国 | KOR #5'
-  - '🇷🇺 俄罗斯 | RUS #1'
-  - '🇷🇺 俄罗斯 | RUS #3'
-  - '🇷🇺 俄罗斯 | RUS #7'
-  - '🇸🇬 新加坡 | SGP #2'
-  - '🇰🇷 韩国 | KOR #3'
-  - 🇭🇰 香港 | HKG 10
+  - '🇩🇪 德国 | DEU #1'
+  - 🇩🇪 德国 | DEU 3
+  - '🇭🇰 香港 | HKG #1'
+  - 🇷🇺 俄罗斯 | RUS 5
+  - '🇩🇪 德国 | DEU #3'
+  - '🇷🇺 俄罗斯 | RUS #5'
 rule-providers:
   LocalAreaNetwork:
     type: http
