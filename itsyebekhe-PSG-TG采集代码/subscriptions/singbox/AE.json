@@ -50,8 +50,8 @@
       "tag": "select",
       "outbounds": [
         "auto",
+        "🇦🇪 AE | VLESS | @mehrosaboran #1 [fast]",
         "🇦🇪 AE | VLESS | @red2ray #1 [fast]",
-        "🇦🇪 AE | VLESS | @red2ray #2 [fast]",
         "direct"
       ],
       "default": "auto"
@@ -60,8 +60,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇪 AE | VLESS | @red2ray #1 [fast]",
-        "🇦🇪 AE | VLESS | @red2ray #2 [fast]"
+        "🇦🇪 AE | VLESS | @mehrosaboran #1 [fast]",
+        "🇦🇪 AE | VLESS | @red2ray #1 [fast]"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "3m",
@@ -70,20 +70,30 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇪 AE | VLESS | @red2ray #1 [fast]",
-      "server": "189.30.65.203",
-      "server_port": 2083,
-      "uuid": "490dc3b4-8d1d-49fd-840e-bd5277b41557",
-      "network": "grpc",
+      "tag": "🇦🇪 AE | VLESS | @mehrosaboran #1 [fast]",
+      "server": "212.192.3.113",
+      "server_port": 9543,
+      "uuid": "920b3cd9-4f82-4669-bbd2-d4a28b9052c6",
+      "flow": "xtls-rprx-vision",
+      "network": "tcp",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "grpc",
-        "service_name": "service-41f6a2a01377"
+      "tls": {
+        "enabled": true,
+        "server_name": "storage.yandexcloud.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc",
+          "short_id": "123abcdf"
+        }
       }
     },
     {
       "type": "vless",
-      "tag": "🇦🇪 AE | VLESS | @red2ray #2 [fast]",
+      "tag": "🇦🇪 AE | VLESS | @red2ray #1 [fast]",
       "server": "212.192.3.63",
       "server_port": 9543,
       "uuid": "920b3cd9-4f82-4669-bbd2-d4a28b9052c6",

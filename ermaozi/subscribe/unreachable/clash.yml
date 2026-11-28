@@ -38,97 +38,102 @@ dns:
   - https://1.1.1.1/dns-query
   - https://1.0.0.1/dns-query
 proxies:
-- client-fingerprint: firefox
-  name: '🇩🇪 德国 | DEU #1'
-  network: xhttp
-  port: 443
-  server: 193.160.208.240
-  servername: 193.160.208.240
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4777d90d-265b-4927-a0d1-63f36ed1421c
-  xhttp-opts:
-    mode: auto
-    path: /assets/twru01/
-- alpn:
-  - ''
-  alterId: 0
+- cipher: aes-256-gcm
+  name: 🇩🇪[www.v2nodes.com] ss-DE-1616...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 57.129.83.85
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇪🇸[www.v2nodes.com] ss-ES-1615...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 79.127.139.242
+  type: ss
+- cipher: aes-256-gcm
+  name: '🏳[www.v2nodes.com] ss- #13'
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 15.235.182.183
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇸🇬[www.v2nodes.com] ss-SG-1615...
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 15.235.164.133
+  type: ss
+- alterId: 1
   cipher: auto
-  name: 🇩🇪 德国 | DEU 3
-  port: 28059
-  server: 194.110.210.41
+  name: 🇯🇵 日本 | JPN 3
+  port: 21585
+  server: 2kgw7p9-g05.jp03-j7-vm0.entry.fr0528.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 8ba17b4b-600f-34d1-b082-548a7bc05d1e
+- alterId: 1
+  cipher: auto
+  name: 🇯🇵 日本 | JPN 4
+  port: 448
+  server: l32fw4z-g05.jp04-1d-vm0.entry.fr0528.art
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: c38605a8-89ae-4e57-b9b0-35606df2e1a3
-- name: '🇭🇰 香港 | HKG #1'
-  password: '12012'
-  port: 12012
-  server: 47.242.93.89
-  skip-cert-verify: true
-  sni: ali-hk.b-gfw.cfd
-  type: trojan
+  uuid: 8ba17b4b-600f-34d1-b082-548a7bc05d1e
+- cipher: chacha20-ietf-poly1305
+  name: '🇰🇷 韩国 | KOR #2'
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 8443
+  server: 3.35.174.64
+  type: ss
   udp: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: mobile.api.Event
-  name: 🇷🇺 俄罗斯 | RUS 5
-  network: grpc
-  port: 443
-  server: leviko-ru4448.shopingggg.ir
-  servername: vps3.nemnogogo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-- alterId: 0
+- alterId: 1
   cipher: auto
-  name: '🇩🇪 德国 | DEU #3'
+  name: '🇯🇵 日本 | JPN #3'
   network: tcp
-  port: 28059
-  server: 194.110.210.41
+  port: 21585
+  server: 2kgw7p9-g05.jp03-j7-vm0.entry.fr0528.art
+  tls: true
+  type: vmess
+  uuid: 8ba17b4b-600f-34d1-b082-548a7bc05d1e
+- alterId: 1
+  cipher: auto
+  name: '🇯🇵 日本 | JPN #4'
+  network: tcp
+  port: 448
+  server: l32fw4z-g05.jp04-1d-vm0.entry.fr0528.art
   tls: false
   type: vmess
-  uuid: c38605a8-89ae-4e57-b9b0-35606df2e1a3
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: ''
-  name: '🇷🇺 俄罗斯 | RUS #5'
-  network: grpc
-  port: 443
-  server: leviko-ru4448.shopingggg.ir
-  servername: vps3.nemnogogo.com
-  tls: true
-  type: vless
-  uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+  uuid: 8ba17b4b-600f-34d1-b082-548a7bc05d1e
 proxy-groups:
 - name: ermao.net | 🚀 节点选择
   type: select
   proxies:
   - ermao.net | ♻️ 自动选择
   - DIRECT
-  - '🇩🇪 德国 | DEU #1'
-  - 🇩🇪 德国 | DEU 3
-  - '🇭🇰 香港 | HKG #1'
-  - 🇷🇺 俄罗斯 | RUS 5
-  - '🇩🇪 德国 | DEU #3'
-  - '🇷🇺 俄罗斯 | RUS #5'
+  - 🇩🇪[www.v2nodes.com] ss-DE-1616...
+  - 🇪🇸[www.v2nodes.com] ss-ES-1615...
+  - '🏳[www.v2nodes.com] ss- #13'
+  - 🇸🇬[www.v2nodes.com] ss-SG-1615...
+  - 🇯🇵 日本 | JPN 3
+  - 🇯🇵 日本 | JPN 4
+  - '🇰🇷 韩国 | KOR #2'
+  - '🇯🇵 日本 | JPN #3'
+  - '🇯🇵 日本 | JPN #4'
 - name: ermao.net | ♻️ 自动选择
   type: url-test
   proxies:
-  - '🇩🇪 德国 | DEU #1'
-  - 🇩🇪 德国 | DEU 3
-  - '🇭🇰 香港 | HKG #1'
-  - 🇷🇺 俄罗斯 | RUS 5
-  - '🇩🇪 德国 | DEU #3'
-  - '🇷🇺 俄罗斯 | RUS #5'
+  - 🇩🇪[www.v2nodes.com] ss-DE-1616...
+  - 🇪🇸[www.v2nodes.com] ss-ES-1615...
+  - '🏳[www.v2nodes.com] ss- #13'
+  - 🇸🇬[www.v2nodes.com] ss-SG-1615...
+  - 🇯🇵 日本 | JPN 3
+  - 🇯🇵 日本 | JPN 4
+  - '🇰🇷 韩国 | KOR #2'
+  - '🇯🇵 日本 | JPN #3'
+  - '🇯🇵 日本 | JPN #4'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -138,45 +143,57 @@ proxy-groups:
   - ermao.net | 🚀 节点选择
   - ermao.net | ♻️ 自动选择
   - 🎯 全球直连
-  - '🇩🇪 德国 | DEU #1'
-  - 🇩🇪 德国 | DEU 3
-  - '🇭🇰 香港 | HKG #1'
-  - 🇷🇺 俄罗斯 | RUS 5
-  - '🇩🇪 德国 | DEU #3'
-  - '🇷🇺 俄罗斯 | RUS #5'
+  - 🇩🇪[www.v2nodes.com] ss-DE-1616...
+  - 🇪🇸[www.v2nodes.com] ss-ES-1615...
+  - '🏳[www.v2nodes.com] ss- #13'
+  - 🇸🇬[www.v2nodes.com] ss-SG-1615...
+  - 🇯🇵 日本 | JPN 3
+  - 🇯🇵 日本 | JPN 4
+  - '🇰🇷 韩国 | KOR #2'
+  - '🇯🇵 日本 | JPN #3'
+  - '🇯🇵 日本 | JPN #4'
 - name: 📲 电报信息
   type: select
   proxies:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
-  - '🇩🇪 德国 | DEU #1'
-  - 🇩🇪 德国 | DEU 3
-  - '🇭🇰 香港 | HKG #1'
-  - 🇷🇺 俄罗斯 | RUS 5
-  - '🇩🇪 德国 | DEU #3'
-  - '🇷🇺 俄罗斯 | RUS #5'
+  - 🇩🇪[www.v2nodes.com] ss-DE-1616...
+  - 🇪🇸[www.v2nodes.com] ss-ES-1615...
+  - '🏳[www.v2nodes.com] ss- #13'
+  - 🇸🇬[www.v2nodes.com] ss-SG-1615...
+  - 🇯🇵 日本 | JPN 3
+  - 🇯🇵 日本 | JPN 4
+  - '🇰🇷 韩国 | KOR #2'
+  - '🇯🇵 日本 | JPN #3'
+  - '🇯🇵 日本 | JPN #4'
 - name: Ⓜ️ 微软服务
   type: select
   proxies:
   - 🎯 全球直连
   - ermao.net | 🚀 节点选择
-  - '🇩🇪 德国 | DEU #1'
-  - 🇩🇪 德国 | DEU 3
-  - '🇭🇰 香港 | HKG #1'
-  - 🇷🇺 俄罗斯 | RUS 5
-  - '🇩🇪 德国 | DEU #3'
-  - '🇷🇺 俄罗斯 | RUS #5'
+  - 🇩🇪[www.v2nodes.com] ss-DE-1616...
+  - 🇪🇸[www.v2nodes.com] ss-ES-1615...
+  - '🏳[www.v2nodes.com] ss- #13'
+  - 🇸🇬[www.v2nodes.com] ss-SG-1615...
+  - 🇯🇵 日本 | JPN 3
+  - 🇯🇵 日本 | JPN 4
+  - '🇰🇷 韩国 | KOR #2'
+  - '🇯🇵 日本 | JPN #3'
+  - '🇯🇵 日本 | JPN #4'
 - name: 🍎 苹果服务
   type: select
   proxies:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
-  - '🇩🇪 德国 | DEU #1'
-  - 🇩🇪 德国 | DEU 3
-  - '🇭🇰 香港 | HKG #1'
-  - 🇷🇺 俄罗斯 | RUS 5
-  - '🇩🇪 德国 | DEU #3'
-  - '🇷🇺 俄罗斯 | RUS #5'
+  - 🇩🇪[www.v2nodes.com] ss-DE-1616...
+  - 🇪🇸[www.v2nodes.com] ss-ES-1615...
+  - '🏳[www.v2nodes.com] ss- #13'
+  - 🇸🇬[www.v2nodes.com] ss-SG-1615...
+  - 🇯🇵 日本 | JPN 3
+  - 🇯🇵 日本 | JPN 4
+  - '🇰🇷 韩国 | KOR #2'
+  - '🇯🇵 日本 | JPN #3'
+  - '🇯🇵 日本 | JPN #4'
 - name: 🎯 全球直连
   type: select
   proxies:
@@ -199,12 +216,15 @@ proxy-groups:
   - ermao.net | 🚀 节点选择
   - 🎯 全球直连
   - ermao.net | ♻️ 自动选择
-  - '🇩🇪 德国 | DEU #1'
-  - 🇩🇪 德国 | DEU 3
-  - '🇭🇰 香港 | HKG #1'
-  - 🇷🇺 俄罗斯 | RUS 5
-  - '🇩🇪 德国 | DEU #3'
-  - '🇷🇺 俄罗斯 | RUS #5'
+  - 🇩🇪[www.v2nodes.com] ss-DE-1616...
+  - 🇪🇸[www.v2nodes.com] ss-ES-1615...
+  - '🏳[www.v2nodes.com] ss- #13'
+  - 🇸🇬[www.v2nodes.com] ss-SG-1615...
+  - 🇯🇵 日本 | JPN 3
+  - 🇯🇵 日本 | JPN 4
+  - '🇰🇷 韩国 | KOR #2'
+  - '🇯🇵 日本 | JPN #3'
+  - '🇯🇵 日本 | JPN #4'
 rule-providers:
   LocalAreaNetwork:
     type: http
